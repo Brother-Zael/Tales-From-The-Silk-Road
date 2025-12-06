@@ -1,0 +1,5 @@
+﻿l_polish:
+ government_conversion_events.conversion_complete.title: "Wschodzi [target_country.GetAdjectiveWithNoTooltip|l] [target_government_type.GetNameWithNoTooltip|l]"
+ government_conversion_events.conversion_complete.title_fallback: "Zmiana ustroju"
+ government_conversion_events.conversion_complete.desc: "Ostatnie lata były okresem niepokoju i wzburzenia. Choć na dłuższą metę lepiej, by kraj [target_country.GetLongName] zmienił ustrój na [target_government_type.GetName|l], wielu starych i zdeprawowanych, wpływowych ludzi zawzięcie walczyło o utrzymanie starego porządku, chcąc, by w kraju panował ustrój [origin_government_type.GetName|l]. Mimo tego [target_character.GetName] [Select_CString(target_character.IsFemale,'dopięła swego i przezwyciężyła trudności oraz obaliła','dopiął swego i przezwyciężył trudności oraz obalił')] dawne tradycje, które stały na drodze do centralizacji władzy. Nowy ustrój, [target_government_type.GetNameWithNoTooltip|l], stał się faktem."
+ government_conversion_events.conversion_complete.a: "Od teraz naszym ustrojem jest [target_government_type.GetNameWithNoTooltip|l], a nie [origin_government_type.GetNameWithNoTooltip|l]!"

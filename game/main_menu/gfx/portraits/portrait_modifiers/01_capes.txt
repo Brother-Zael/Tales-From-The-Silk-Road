@@ -1,0 +1,116 @@
+﻿capes = {
+	usage = game
+	selection_behavior = weighted_random
+	fallback = default_clothes
+    priority = 1
+	
+	default_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = capes
+				template = no_cape
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+		}
+	}
+	
+	european_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = capes
+				template = european_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_royalty_trigger = { CULTURE_GFX = european_gfx }
+			}
+			modifier = {
+				add = 500
+				portrait_imperial_trigger = { CULTURE_GFX = european_gfx }
+			}
+			modifier = {
+				add = 400
+				OR = {
+					portrait_is_ruler_of_trigger = { COUNTRY = VEN }
+				}
+			}
+			modifier = {
+				factor = 0
+				portrait_clergy_trigger = { RELIGION_GFX = catholic_gfx }
+			}
+		}
+	}
+
+	war_cape = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = capes
+				template = no_cape
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = european_gfx }
+				portrait_wear_armor_trigger = yes
+				any_ruling_countries = { country_rank_level >= 2 } # Duchy or above
+			}
+		}
+	}
+
+
+			## GENOA ##
+	Genoa_doge_cap = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = capes
+				template = european_royalty
+				accessory = male_capes_german_royal_ermine
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_is_ruler_of_trigger = { COUNTRY = GEN }
+			}
+		}
+	}
+
+	aztec_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = capes
+				template = aztec_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = south_american_gfx }
+				portrait_wear_armor_trigger = yes
+				is_ruler = no
+			}
+		}
+	}
+
+}

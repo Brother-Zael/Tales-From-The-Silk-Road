@@ -1,0 +1,11 @@
+﻿l_polish:
+ flavor_pav.1.title: "[expelled_ruler.GetDynasty.GetNameWithNoTooltip] – wydalenie"
+ flavor_pav.1.desc: "Miasto [ROOT.GetCountry.GetCapital.GetName] stanęło w ogniu po tym, jak wybuchł tam kolejny bunt przeciwko dynastii [expelled_ruler.GetDynasty.GetName]. Tym razem na jego czele stanął charyzmatyczny kleryk, [pav_iacopo_bussolari_scope.GetName], który zjednoczył całe miasto do wystąpienia przeciwko władcy. Jeśli nic nie zrobimy, [expelled_ruler.GetName] będzie [Select_CString(expelled_ruler.IsFemale,'musiała','musiał')] uciekać i być może trafi prosto w szpony dynastii [ShowDynastyName('visconti_dynasty')]."
+ flavor_pav.1.historical_info: "W 1356 roku powstanie ludowe, na czele którego stanął Iacopo Bussolari, który następnie pomógł ocalić miasto przed upadkiem podczas oblężenia przez Viscontich, wygnało Beccaria z Pawii. Wypędzeni arystokraci ostatecznie sprzymierzyli się i w 1359 roku miasto padło ofiarą wojsk mediolańskich. Beccaria odzyskali część przywilejów, jednak miasto pozostało pod kontrolą mediolańczyków."
+ flavor_pav.1.a: "Podążajmy za jego naukami!"
+ flavor_pav.1.b: "Musimy się sprzeciwić niepokojom."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "Doszły nas słuchy, że w państwie [target_country.GetName] doszło do powstania ludowego, na czele którego stanął charyzmatyczny [pav_iacopo_bussolari_scope.GetName]. Pod [pav_iacopo_bussolari_scope.GetHisHer] przewodnictwem, mieszkańcy miasta [target_country.GetCapital.GetNameWithNoTooltip] zdołali przepędzić członków dynastii [expelled_ruler.GetDynasty.GetName]. Wśród nich [Select_CString(expelled_ruler.IsFemale,'była','był')] [expelled_ruler.GetName], [Select_CString(expelled_ruler.IsFemale,'która zwróciła','który zwrócił')] się o naszą pomoc. Chociaż wcześniej mieliśmy na pieńku z dynastią [expelled_ruler.GetDynasty.GetNameWithNoTooltip], możemy wykorzystać tę okazję, by w końcu przejąć to miasto na dobre."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "Wykorzystajmy ten chaos."
+ flavor_pav.2.b: "Nie nasz problem."

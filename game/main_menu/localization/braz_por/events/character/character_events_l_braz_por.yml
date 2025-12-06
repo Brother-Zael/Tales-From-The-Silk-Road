@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ character_events.1.title: "As Mudanças de Humor de [target_character.GetNameWithNoTooltip]"
+ character_events.1.title.no_event_target: "As Mudanças de Humor"
+ character_events.1.desc: "Apesar de ser uma pessoa de grande responsabilidade e líder do país [ROOT.GetCountry.GetName], o comportamento errático e as mudanças de humor de [target_character.GetName] infelizmente são famosos. Mais uma vez, sua atitude em relação às questões do Estado não é compreendida por seus súditos..."
+ character_events.1.a: "Tomara que [target_character.GetSheHe] não seja um fardo para nossa nação..."

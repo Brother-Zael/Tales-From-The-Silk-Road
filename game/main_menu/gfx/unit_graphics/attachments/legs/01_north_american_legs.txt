@@ -1,0 +1,37 @@
+﻿### IROQUOIS
+#AGE_1_TRADITIONS
+	#PEASANT
+north_american_gfx:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_buckskin_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_knife_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_loincloth_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_suede_pants_mesh" add_tags = "UnitLegs_soft" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_gaiters_feather_iroquois_mesh" add_tags = "UnitLegs_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_belt_loincloth_knife_mesh" add_tags = "UnitLegs_naked" } }
+}
+	#MEDIUM
+north_american_gfx:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_moccasin_fringed_tied_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wood_armor_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wood_armor_loincloth_mesh" add_tags = "UnitLegs_soft" } }
+}
+	#HEAVY
+north_american_gfx:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_moccasin_fringed_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_moccasin_feather_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_suede_belt_wampun_mesh" add_tags = "UnitLegs_medium" } }
+}
+
+#AGE_4_REFORMATION
+	#MEDIUM
+north_american_gfx:age_4_reformation:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_gaiters_bands_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_fringe_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_loincloth_belt_mesh" add_tags = "UnitLegs_soft" } }
+}
+	#HEAVY
+north_american_gfx:age_4_reformation:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boot_wampum_embroidery_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_buckskin_fabric_bands_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_shoes_mesh" add_tags = "UnitLegs_medium" } }
+}

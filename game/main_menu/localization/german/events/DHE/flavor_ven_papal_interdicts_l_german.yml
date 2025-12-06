@@ -1,0 +1,8 @@
+﻿l_german:
+ flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip|U]er Kirchenbann"
+ flavor_ven_papal_interdicts.1000.desc: "[Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'Die', 'Der')] [GetCountry('PAP').GetGovernment.GetRulerTitle] hat [ROOT.GetCountry.GetName] unter den Kirchenbann gestellt – angeblich als Antwort auf die Freiheit des religiösen Fanatismus, der in der Stadt besteht und der augenscheinlich eine dauerhafte Beleidigung #L [GetCountry('PAP_ADJ').GetName|l]er#! Belange darstellt. Für uns allerdings ist es offensichtlich, dass dies nur ein Vorwand ist, um die eigenen Ziele voranzubringen."
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip|U] ist [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_ven_papal_interdicts.1000.b: "Beugt das Knie vor dem Heiligen Vater."
+ flavor_ven_papal_interdicts.1001.title: "Die Stadt der Sünde"
+ flavor_ven_papal_interdicts.1001.desc: "Die Menschen aus [target_sinner_country.GetName] sind niederträchtig und außerordentliche Sünder vor dem Herrn. Es gibt keinen einzigen aufrechten Mann in dieser Stadt des Handels, sondern in ihr leben Leute jener Art, wie sie der Sohn Gottes einst aus dem Tempel warf. Als Vertreter Gottes auf Erden müssen wir handeln!"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip|U] wird wie Sodom and Gomorrah untergehen!"

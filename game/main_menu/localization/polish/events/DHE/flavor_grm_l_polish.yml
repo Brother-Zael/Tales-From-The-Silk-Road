@@ -1,0 +1,6 @@
+﻿l_polish:
+ flavor_grm.1.title: "[target_character.GetNameWithNoTooltip] umiera"
+ flavor_grm.1.desc: "Odszedł jeden z naszych najznamienitszych mężów i założyciel państwa [target_country.GetFlavorRank]. Jego rządy do tej pory stanowiły apogeum naszych wpływów w regionie [ShowRegionName('anatolia_region')], gdyż z powodzeniem podporządkowaliśmy sobie wielu naszych sąsiadów. Niestety, odejście wielkiego człowieka zasiało niezadowolenie i pobudziło akty buntu, ponieważ nasi poddani chcą ucztować na bogactwie naszego ludu."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Nie poddamy się bez walki!"
+ flavor_grm.1.historical_info: "Germijanidowie, jeden z najpotężniejszych bejlików powstających na początku XIV wieku, zostali założeni przez Jakuba I, który zajął wiele ziem podczas swoich podbojów. Jego czterdziestoletnie rządy naznaczyły starcia z wieloma sąsiadami, po których podporządkował sobie Ajdinów, Saruhanidów i Karasidów na zachodzie, a także angażował się w otwarte konflikty z Osmanami. Po jego śmierci wielu jego wasali skorzystało z okazji i ogłosiło niepodległość."

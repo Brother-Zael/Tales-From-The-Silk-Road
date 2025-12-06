@@ -1,0 +1,12 @@
+﻿l_german:
+ border_friction.1.title: "Grenzdisput"
+ border_friction.1.desc: "Nicht alle sind glücklich darüber, dass wir uns mit einem gewissen Reich ([border_claim_country.GetLongName|U]) verbündet haben. Eine einflussreiche Fraktion unseres #L [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]s#! hat nun darauf gedrängt, das Bündnis aufzulösen und sich dabei auf die Provinz „[border_claim_province.GetName]“ berufen, die von „[border_claim_country.GetNameWithNoTooltip]“ gehalten, aber von vielen als rechtmäßig uns gehörend angesehen wird. Dieser Fraktion ist es auch gelungen, breite Empörung über diese Lage zu säen."
+ border_friction.1.a: "Vielleicht ist eine Änderung der Politik angebracht …"
+ border_friction_from_event: "Irritiert über Ansprüche"
+ border_friction.1.b: "Stellt das Ganze etwas schöner dar!"
+ border_friction.1.c: "Gebt unseren Anspruch auf."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "„[border_claim_province.GetName|U], unsere rechtmäßiges Territorium, wird von einer anderen Nation gehalten, doch unsere Regierung scheint nicht daran interessiert, sie zurückzufordern! Welchen Nutzen hat sie dann überhaupt?“, verkündet das Flugblatt und ruft nach einem Krieg gegen ein bestimmtes Reich ([border_claim_country.GetLongName|U]).\n\nVon dieser Schimpfrede angestachelt macht sich im ganzen Land Unzufriedenheit darüber breit, dass wir unsere beanspruchten Provinzen nicht zurückgefordert haben."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Widerruft den Anspruch."

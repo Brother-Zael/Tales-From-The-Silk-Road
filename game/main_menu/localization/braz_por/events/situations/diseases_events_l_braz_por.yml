@@ -1,0 +1,4 @@
+﻿l_braz_por:
+ diseases.1.title: "Um Novo Surto"
+ diseases.1.desc: "O povo do(a) [location_scope.GetName] se desespera ao ver suas famílias e vizinhos sucumbindo ao surto implacável de [disease.GetName] que se alastra pela área. Antes ativas e cheias de movimento, as vizinhanças agora produzem ecos de preocupação e incerteza.\n\nInfelizmente, não há muito o que fazer para impedir a propagação dessa doença até o nosso território."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

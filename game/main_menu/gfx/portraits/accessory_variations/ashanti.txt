@@ -1,0 +1,306 @@
+﻿###################
+#	Texture sets	#
+##################
+
+## Plain Materials ##
+pattern_textures = {
+	name = "taffeta_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "felt_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "burlap_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "linen_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "silk_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "leather_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "chainmail_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_properties.dds"
+}
+
+## Patterns ##
+pattern_textures = {
+	name = "ashanti_high_kente_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_01_properties.dds"
+}
+pattern_textures = {
+	name = "ashanti_low_kente_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "ashanti_high_kente_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_02_properties.dds"
+}
+pattern_textures = {
+	name = "ashanti_low_kente_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "ashanti_high_kente_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_03_properties.dds"
+}
+pattern_textures = {
+	name = "ashanti_low_kente_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "ashanti_high_kente_04"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_04_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_04_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_04_properties.dds"
+}
+pattern_textures = {
+	name = "ashanti_low_kente_04"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_04_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/ashanti/kente_04_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+
+## Armor Patterns ##
+
+pattern_textures = {
+	name = "lamellar_armor_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_properties.dds"
+}
+
+
+##################
+#	Layouts		#
+##################
+
+pattern_layout = {
+	name = "plain_fabric_layout"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_large_layout"	
+	scale 		= { min = 0.1	max = 0.1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "small_trim_layout"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout"	
+ 	scale 		= { min = 0.200	max = 0.200 }
+ 	rotation 	= { min = 0	max = 0 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout_none"	
+ 	scale 		= { min = 0.0	max = 0.0 }
+ 	rotation 	= { min = 0	max = 0 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout_big"	
+ 	scale 		= { min = 0.50	max = 0.50 }
+ 	rotation 	= { min = 90	max = 90 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "full_fabric_layout"	
+	scale 		= { min = 1	max = 1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+###################
+#	Variations		#
+##################
+
+## Clothes
+variation = {
+	name = "ashanti_commoner_01"
+	
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_ashanti_high_nobility_01.dds" }	
+}
+
+variation = {
+	name = "ashanti_low_nobility_01"
+	
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_low_kente_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_low_kente_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_low_kente_03" 			layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_low_kente_04" 			layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_ashanti_high_nobility_01.dds" }	
+}
+
+variation = {
+	name = "ashanti_high_nobility_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_04" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "ashanti_high_kente_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "ashanti_high_kente_03" 			layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_ashanti_high_nobility_01.dds" }	
+}

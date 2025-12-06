@@ -1,0 +1,133 @@
+﻿##########
+## NECK ##
+##########
+
+# NORTH_GERMAN
+male_neckwear_german_neck_high_ruff = {    
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_german_neck_high_ruff_entity    } 
+}
+
+male_neckwear_german_neck_short_ruff = {    
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_german_neck_short_ruff_entity    } 
+}
+
+
+male_neckwear_german_neck_gorget_black = {    
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_german_neck_gorget_black_entity    } 
+}
+male_neckwear_german_neck_gorget_silver = {    
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_german_neck_gorget_silver_entity    } 
+}
+
+male_ger_cloth_set_a_scarf = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_ger_cloth_set_a_scarf_entity    }    
+}
+
+
+female_neckless_beads_cross = {       
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = neckwear_neckless_beads_cross_entity    }       
+}
+
+# SYRIAN
+syrian_female_neckwear_noble_neckless_topez = {       
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = syrian_female_neckwear_noble_neckless_topez_entity    }       
+}
+
+# ASHANTI
+male_neckwear_ashanti_neck_low_cloth_beads = {       
+    entity = { required_tags = ""           shared_pose_entity = head       entity = male_neckwear_ashanti_neck_low_cloth_beads_entity    }       
+}
+male_neckwear_ashanti_neck_imperial_spheres = {       
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_ashanti_neck_imperial_spheres_entity    }       
+}
+
+###########
+## INNER ##
+###########
+
+# ASHANTI
+male_neckwear_ashanti_in_shaman_golden_plate = {       
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_ashanti_in_shaman_golden_plate_entity    }       
+}
+male_neckwear_aztec_in_clergy_pearls = {       
+    entity = { required_tags = ""           shared_pose_entity = head       entity = male_neckwear_aztec_in_clergy_pearls_entity    }       
+}
+
+###########
+## OUTER ##
+###########
+
+# NORTH_GERMAN
+male_neckwear_german_out_royal_livery_collar = {
+	## First line, we check for every variant if there's a plate armor underneath to apply the narrower entity. If no armor, then we apply the wider compatible option (2nd line).
+	## Top line is checked first
+	
+	# Ermine
+	entity = { required_tags = "ermine_cloak,not(plate_armor)"						shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_ermine_entity	}
+	entity = { required_tags = "ermine_cloak"										shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_plateermine_entity	}
+	# Tabard
+    entity = { required_tags = "coa_tabard,not(plate_armor)"						shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_tabard_entity			}
+    entity = { required_tags = "coa_tabard"											shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_platetabard_entity	}
+	# Cloak
+	entity = { required_tags = "royal_cloak,not(plate_armor)"						shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_entity			}
+	entity = { required_tags = "royal_cloak"										shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_platecloak_entity			}
+	
+	## Fallbacks
+	# Plate
+	entity = { required_tags = "plate_armor"										shared_pose_entity = torso      entity = male_neckwear_german_out_royal_livery_collar_plate_entity			}
+    # No cloak
+	entity = { required_tags = ""													shared_pose_entity = torso      entity = male_neckwear_german_neck_high_ruff_entity				}
+	
+	# All available entities
+	# male_neckwear_german_out_royal_livery_collar_entity
+	# male_neckwear_german_out_royal_livery_collar_ermine_entity
+	# male_neckwear_german_out_royal_livery_collar_plateermine_entity
+	# male_neckwear_german_out_royal_livery_collar_plate_entity
+	# male_neckwear_german_out_royal_livery_collar_tabard_entity
+	# male_neckwear_german_out_royal_livery_collar_platetabard_entity
+	# male_neckwear_german_out_royal_livery_collar_platecloak_entity
+}
+
+neck_collar_fur = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = neck_collar_fur_entity    }    
+}
+
+male_ger_cloth_set_a_chain_jewellery = {       
+    entity = { required_tags = "doublet"				shared_pose_entity = torso		entity = male_ger_cloth_set_b_chain_jewellery_entity	}      
+    entity = { required_tags = "plate_armor"			shared_pose_entity = torso		entity = male_ger_cloth_set_c_chain_jewellery_entity	}      
+    entity = { required_tags = ""						shared_pose_entity = torso		entity = male_ger_cloth_set_a_chain_jewellery_entity	}      
+}
+
+female_neckless_pearl = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = neckwear_neckless_pearl_entity    }    
+}
+
+# ASHANTI
+male_neckwear_ashanti_out_high_coral_beads = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_ashanti_out_high_coral_beads_entity    }      
+}
+male_neckwear_ashanti_out_royal_triangular_plate = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_ashanti_out_royal_triangular_plate_entity    }      
+}
+male_neckwear_ashanti_out_imperial_circular_plate = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_ashanti_out_imperial_circular_plate_entity    }      
+}
+
+female_neckwear_ashanti_out_high_coral_gold = {     
+    entity = { required_tags = ""           shared_pose_entity = head       entity = female_neckwear_ashanti_out_high_coral_gold_entity    }      
+}
+female_neckwear_ashanti_out_royal_golden_banana = {     
+    entity = { required_tags = ""           shared_pose_entity = head       entity = female_neckwear_ashanti_out_royal_golden_banana_entity    }      
+}
+
+# AZTEC
+male_neckwear_aztec_out_royal_stripped = {     
+    entity = { required_tags = ""           shared_pose_entity = head       entity = male_neckwear_aztec_out_royal_stripped_entity    }    
+}
+male_neckwear_aztec_out_imperial_emerald = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_neckwear_aztec_out_imperial_emerald_entity    }    
+}
+
+female_neckwear_aztec_out_royal_jade = {     
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_neckwear_aztec_out_royal_jade_entity    }    
+}

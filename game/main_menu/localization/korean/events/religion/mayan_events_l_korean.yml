@@ -1,0 +1,7 @@
+﻿l_korean:
+ mayan_events.1.title: "새로운 카툰 시작"
+ mayan_events.1.desc: "우리 민족의 역법인 '장기력'에 따르면 20년 후에 새로운 카툰이 시작됩니다.\n\n[ROOT.GetCountry.GetLongName]의 지도자로서 우리는 [ROOT.GetCountry.GetReligion.GetGodName](을)를 기리는 성대한 축제를 열고 새로 시작하는 생의 순환을 기념해야 합니다. 백성들은 앞으로 여러 해 동안 기억될 정도로 웅장하고 풍성한 기념행사를 개최하기를 기대하고 있습니다.\n\n그렇기 때문에 우리는 몇 년 동안이나 세심하게 축제를 준비해 왔고, 이제는 그 모든 노력이 빛을 발할 때입니다."
+ mayan_events.1.a: "[ROOT.GetCountry.GetReligion.GetGodName](을)를 찬양하라."
+ mayan_events.1.b: "마무리를 서둘러라!"
+ mayan_events.1.c: "준비는 끝났다."
+ mayan_events.1.d: "백성들이 실망하게 되겠군."

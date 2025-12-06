@@ -1,0 +1,373 @@
+﻿## african
+mesh_list = {
+	name = "ashanti_bridges"
+
+	rotation = bridge
+	connect_to_road_network = no
+	clear_map_objects = no
+
+	building_ashanti_bridge_a_mesh = 1
+	building_ashanti_bridge_b_mesh = 1
+}
+
+mesh_list = {
+	name = "african_noble"
+	scale_settings_small = { bias = -0.5 min = 0.95 max = 10 }
+	
+	building_ashanti_noble_a_mesh= 1
+	building_ashanti_noble_b_mesh= 1
+	building_ashanti_noble_c_mesh= 1
+	
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "african_burgher"
+	scale_settings_small = { bias = -0.5 min = 1.0 max = 1.1 }
+	building_ashanti_burgher_diorama_a_mesh = 1
+	building_ashanti_burgher_diorama_b_mesh = 1	
+	building_ashanti_burgher_diorama_c_mesh = 1
+	building_ashanti_square_a_mesh = 0.1
+	building_ashanti_square_b_mesh = 0.1
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "african_peasant"	
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 1 }
+	building_ashanti_peasant_diorama_a_mesh = 100
+	building_ashanti_peasant_diorama_b_mesh = 100
+	building_ashanti_peasant_diorama_c_mesh = 100
+	building_ashanti_peasant_diorama_d_mesh = 100
+
+	material_index = 0
+	spawn_count = { curve = "standard_pop_curve" }
+}
+
+mesh_list = {
+	name = "african_peasant_rural_mesh"	
+	scale_settings_small = { bias = 0 min = 0.8 max = 0.8 }
+	building_ashanti_peasant_diorama_a_mesh = 1
+	building_ashanti_peasant_diorama_b_mesh = 1
+	building_ashanti_peasant_diorama_c_mesh = 1
+	building_ashanti_peasant_diorama_d_mesh = 1
+	building_ashanti_peasant_diorama_f_mesh = 1
+	material_index = 0
+	spawn_count = { curve = "standard_pop_peasants_curve" }
+}
+
+###FORTS####
+mesh_list = {
+	name = "ashanti_stockade_no_flag"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_stockade_mesh = 1
+    should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "ashanti_stockade"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_stockade_mesh = 1
+	should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "ashanti_fort"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_castle_mesh = 1
+	should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "ashanti_bastion"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_bastion_mesh = 1
+	should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "ashanti_starfort"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_starfort_mesh = 1
+	should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "ashanti_fortress"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_ashanti_fortress_mesh = 1
+	should_spawn_flags = yes
+}
+
+###PORTS####
+
+mesh_list = {
+	name = "ashanti_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_ashanti_dock_mesh = 1
+}
+
+mesh_list = {
+	name = "ashanti_dry_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_ashanti_dry_dock_mesh = 1
+}
+
+mesh_list = {
+	name = "ashanti_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_ashanti_shipyard_mesh = 1
+}
+
+mesh_list = {
+	name = "ashanti_grand_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_ashanti_gran_shiphyard_mesh = 1
+}
+
+mesh_list = {
+	name = "ashanti_naval_base"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_ashanti_naval_base_mesh = 1
+}
+
+##PRODUCTION##
+
+mesh_list = {
+	name = "ashanti_factory"
+	scale_settings_small = { bias = -0.1 min = 0.6 max = 10 }
+	building_ashanti_factory_a_mesh = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_factory_tier2"
+	scale_settings_small = { bias = -0.1 min = 0.6 max = 10 }
+	building_ashanti_factory_a_mesh = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_factory_tier3"
+	scale_settings_small = { bias = -0.1 min = 0.6 max = 10 }
+	building_ashanti_factory_a_mesh = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_market"
+	scale_settings_small = { bias = -0.5 min = 0.6 max = 0.7 }
+	building_ashanti_market_a_mesh = 1
+	building_ashanti_market_b_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_peasants_gathering"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_ashanti_peasant_industry_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_culture"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_ashanti_culture_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_small_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_ashanti_industry_burgher_small_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_medium_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_ashanti_industry_burgher_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_republic_assembly"
+	scale_settings_large = { bias = 0 min = 0.95 max = 1 }
+	scale_settings_small = { bias = 0-5 min = 0.95 max = 10 }
+	building_ashanti_republic_assembly_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_pirate_haven"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_ashanti_pirate_heaven_mesh = 1
+	should_spawn_flags = no
+	
+}
+
+##MILITARY##
+
+mesh_list = {
+	name = "ashanti_regimental_camp"
+	scale_settings_large = { bias = 0-5 min = 0.6 max = 0.7 }
+	building_ashanti_regimental_camp_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "ashanti_medium_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_ashanti_industry_burgher_medium_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "ashanti_noble_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_ashanti_noble_tower_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_armory"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_ashanti_armory_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_barracks"
+	scale_settings_small = { bias = -0.5 min = 1 max = 1 }
+	building_ashanti_barracks_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "ashanti_training_fields"
+	scale_settings_small = { bias = -0.5 min = 0.6 max = 10 }
+	building_ashanti_training_fields_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "ashanti_farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_ashanti_peasant_diorama_a_mesh = 1
+	building_ashanti_peasant_diorama_b_mesh = 1
+	building_ashanti_peasant_diorama_c_mesh = 1
+	building_ashanti_peasant_diorama_d_mesh = 1
+	building_ashanti_peasant_diorama_f_mesh = 1
+	
+}
+
+@noble_mesh_list	= african_noble
+@burgher_mesh_list	= african_burgher
+@peasant_mesh_list	= african_peasant
+@peasant_rural_mesh	= african_peasant_rural_mesh
+@farming_mesh_list = ashanti_farming_mesh_list
+
+culture_data = {
+	graphical_culture = african_gfx
+
+	#Special buildings
+	load_template player_buildings {
+
+		default_bridge_meshes = ashanti_bridges
+			##PORTS##
+		dock_meshes = ashanti_dock
+		dry_dock_meshes = ashanti_dry_dock
+		shipyard_meshes = ashanti_shipyard
+		grand_shipyard_meshes = ashanti_grand_shipyard
+		naval_base_meshes = ashanti_naval_base
+
+			##FORTS##
+
+		stockade_meshes = ashanti_stockade
+		stockade_no_flag_meshes = ashanti_stockade_no_flag
+		fort_meshes = ashanti_fort
+		bastion_meshes = ashanti_bastion
+		starfort_meshes = ashanti_starfort
+		fortress_meshes = ashanti_fortress
+
+
+
+			##PRODUCTION##
+
+		factory_meshes = ashanti_factory
+		factory_tier_2_meshes = ashanti_factory_tier2
+		factory_tier_3_meshes = ashanti_factory_tier3
+		market_meshes = ashanti_market
+		peasants_gathering_meshes = ashanti_peasants_gathering
+		culture_meshes = ashanti_culture
+		small_burgher_meshes = ashanti_small_burgher
+		medium_burgher_meshes = ashanti_medium_burgher
+		republican_assembly_meshes = ashanti_republic_assembly
+
+		medium_military_meshes = ashanti_medium_military
+		regimental_camp_meshes = ashanti_regimental_camp
+		noble_military_meshes = ashanti_noble_military
+		pirate_haven_meshes = ashanti_pirate_haven
+		armory_meshes = ashanti_armory
+		barracks_meshes = ashanti_barracks
+		training_fields_meshes = ashanti_training_fields
+	}
+
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{ farming_mesh_list = @farming_mesh_list }
+
+	#Unique buildings
+	load_template unique_buildings
+	{
+		fort_meshes = ashanti_fort
+		bastion_meshes = ashanti_bastion
+	}
+}

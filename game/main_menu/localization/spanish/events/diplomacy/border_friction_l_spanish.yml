@@ -1,0 +1,12 @@
+﻿l_spanish:
+ border_friction.1.title: "Disputas fronterizas"
+ border_friction.1.desc: "No todo el mundo está de acuerdo con que nos hayamos aliado con [border_claim_country.GetLongName|l]. Una facción influyente del estamento [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] ha estado presionando para que pongamos fin a la alianza, centrándose en la provincia de [border_claim_province.GetName], que, aunque en manos de [border_claim_country.GetNameWithNoTooltip], muchos consideran nuestra por derecho. ¡Han sido capaces de suscitar una indignación generalizada ante la situación!"
+ border_friction.1.a: "Quizás toca un cambio de política..."
+ border_friction_from_event: "Irritados por las reclamaciones"
+ border_friction.1.b: "¡Démosle la vuelta a la tortilla!"
+ border_friction.1.c: "Renunciemos a nuestra reclamación."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "¡[border_claim_province.GetName], nuestro legítimo territorio, está en manos de otras naciones y nuestro Gobierno no parece hacer ningún esfuerzo por recuperarlo! «¿Para qué se supone que está?», reza un panfleto que pide la guerra contra [border_claim_country.GetLongName|l].\n\nAl calor de estas invectivas, una insatisfacción generalizada por no poder recuperar las provincias reclamadas recorre la nación."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Revoquemos la reclamación."

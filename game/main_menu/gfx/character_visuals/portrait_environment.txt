@@ -1,0 +1,165 @@
+# Ambient light can appear a bit weak, Sun takes most of the color. Shadow ambient is where it is really at. 
+ambient_pos_x = hsv { 0 0 0.0 }		# From Right
+ambient_neg_x = hsv { 0 0 1.0 }		# From Left
+ambient_pos_y = hsv { 0 0 1.0 }		# From Top
+ambient_neg_y = hsv { 0 0 1.0 }		# From Bottom
+ambient_pos_z = hsv { 0 0 1.0 }		# From Back
+ambient_neg_z = hsv { 0 0 1.0 }		# From Front
+
+#Color of thing in shadow
+shadow_ambient_pos_x = hsv { 0.65 	0.15 	0.5 }			# From Right
+shadow_ambient_neg_x = hsv { 0.65 	0.15 	0.5 }			# From Left
+shadow_ambient_pos_y = hsv { 0.65 	0.15 	0.5 }			# From Top
+shadow_ambient_neg_y = hsv { 0.65	0.15 	0.5 }			# From Bottom
+shadow_ambient_pos_z = hsv { 0.65 	0.15 	0.5 }			# From Back		
+shadow_ambient_neg_z = hsv { 0.65 	0.15 	0.5 }			# From Front
+
+sun_color = hsv{ 0.03 0.1 1 }
+sun_intensity = 20.0
+#			+Right/-Left	Height  -Front/+Back
+sun_direction = { 	0.75 	0.5 	-1.25 }	
+shadow_direction_offset = { 0 0 0 }
+shadowmap_depthbias = 0.0
+shadowmap_kernelscale = 3.0
+shadowmap_fadefactor = 1.0
+
+water_sun_direction_offset = { -0.88 0.08 1.75 }	#	+Right / -Left,  Height, -Front/ +Back
+
+cubemap_intensity = 1.0
+cubemap_y_rotation = 0.0
+#cubemap = "gfx/map/environment/cubemap_blinn_brdf.dds"
+#cubemap = "gfx/map/environment/cubemap_debug_blinn_brdf.dds"
+
+# New cubemaps, that we do not have licences for
+#cubemap = "gfx/map/environment/studio_03_cube_specular_GGX_burley_2_16f.dds"
+cubemap = "gfx/map/environment/mondarrain_3_edit_cube_specularGGX_burley_MO-2_dxt1.dds"
+#cubemap = "gfx/map/environment/bonifacio_aragon_stairs_cube_specular_GGX_burley_2_16f.dds"
+#cubemap = "gfx/map/environment/cave_entry_in_the_forest_cube_specular_GGX_burley_2_16f.dds"
+#cubemap = "gfx/map/environment/panorama_cube_specular_GGX_burley_2_16f.dds"
+
+
+fog_color = hsv{ 0.58 0.4 1.0 }	#Actual fog
+#fog_color = hsv{ 0.0 1.0 0.0 } # Neutral fog
+fog_begin = 5000.0
+fog_end = 15000.0		
+#fog_begin = 0.0
+#fog_end = 280.0
+fog_max = 1.1
+
+
+# Post effects
+hue_offset = 0
+saturation_scale = 1.0		# Saturation
+value_scale = 1.0			# Light multiplier
+colorbalance = { 1 1 1 }
+levels_min = hsv{ 0 0 0 }
+levels_max = hsv{ 0 0 1 }	# High increases range / Lower  pushes range together
+
+hdr_min_adjustment = 0.5	# Adjust brigtness to be so extreme, not as bright as it should be. Limits exposure
+hdr_max_adjustment = 1.0
+hdr_adjustment_speed = 15.0
+tonemap_middlegrey = 0.6
+tonemap_whiteluminance = 1.0
+
+exposure = 1.4
+exposure_function = "FixedExposure"
+tonemap_function = "Uncharted"
+
+#shader_debug PDX_DEBUG_TONEMAP_CURVE
+
+tonemap_curve={
+	shoulder_strength=0.220000
+	linear_strength=0.300000
+	linear_angle=0.100000
+	toe_strength=0.200000
+	toe_numerator=0.010000
+	toe_denominator=0.300000
+	linear_white=11.200000
+}
+
+
+# Map global SSAO settings
+ssao = {
+	enabled = yes
+
+	# Settings
+	samples = 8					# Sample iterations
+	radius = 0.11				# Radius for sample point, less means tighter samples and crisper edges
+	max_radius = 1.0			# Culling distance
+	depth_distance = 0.01		# Depth distance for sample point
+	max_depth = 0.8				# Culling distance, should be based on scale of the world
+
+	apply_scale = 1.00			# Shifts the final results towards less overall occlusion
+	apply_bias = 0.63			# Bias to adjust occlusion errors on final result
+	apply_power = 50.0			# Strength/Hardness of the occlusion
+	blend_factor = 0.9			# Final Blend amount (practically opacity)
+
+	# Blur
+	blur_enabled = yes
+	blur_width = 5.0			# Blur of the noise
+	blur_scale = 1.0			# Does nothing when above 0
+	blur_depth_power = 1.0		# Results as a sharpening of occluders edgs
+
+
+	# Papermap SSAO settings for reference
+	# samples = 16				# Sample iterations
+	# radius = 50.0				# Radius for sample point, less means tighter samples and crisper edges
+	# max_radius = 1.0			# Culling distance
+	# depth_distance = 1.0		# Depth distance for sample point
+	# max_depth = 500.0			# Culling distance, should be based on scale of the world
+	# 
+	# apply_power = 10.0		# Strength/Hardness of the occlusion
+
+	# blur_enabled = yes
+	# blur_width = 5.0			# Blur of the noise
+	# blur_scale = 1.0			# Does nothing when above 0
+	# blur_depth_power = 1.0	# Results as a sharpening of occluders edgs
+}
+
+# Map global Depth of field settings
+# WARNING - Can impact performance
+depthoffield = {
+	enabled = yes
+	dof_samplecount = 18 		# Can have large performance impact
+	dof_baseradius = 0.1 		# Blur radius
+	dof_blurblendmin = 0.1		# Blur blend, used to blend between the downsampled dof image and the focused full resolution image
+	dof_blurblendmax = 2.0		# Blur blend, used to blend between the downsampled dof image and the focused full resolution image
+
+	# Camera based settings - no performance impact
+	dof_blurmin = 1.0
+	dof_blurmax = 50.0
+	dof_blurscale = 2.5
+	dof_blurexponent = 1.0
+	dof_heightmin = 0.0
+	dof_heightmax = 1000.0
+	
+	#dof_use_center_depth = no	# turn off using depth of center depth map texel, then focusdepth can either be scripted (dof_focusdepth) or set at runtime (CJominiEnvironment::SetDofFocusDepth)
+	#dof_focusdepth = 100.0
+}
+
+#	# Neutral environment
+#
+#	sun_color = hsv{ 0.1 0.0 1 }
+#	sun_intensity = 4
+#
+#	fog_max = 0.0
+#
+#	water_sun_direction_offset = { 0.0 1.0 1.7 }	#	+Right / -Left,  Height, -Front/ +Back
+#
+#	river_color=hsv{ 0.61 0.6 0.6 }
+#	river_cubemap_intensity = 0.0
+#	river_gloss_scale = 0.0
+
+
+# Tree wind sway animation
+
+tree_sway_loop_speed = 0.8							# Affects the speed of the animation.
+tree_sway_wind_strength_spatial_modifier = 0.075	# Affects how far nearby trees lean over similar amounts.
+tree_sway_speed = 0.5								# Higher values will make the tree move faster.
+tree_sway_wind_cluster_size_modifier = 0.05			# Modifies the size of the cluster of trees that sway synchronized in the wind.
+													# Smaller values will create bigger less frequent waves, 
+													# bigger values will create smaller more frequent waves.
+
+tree_sway_world_direction = { 1.0 0.0 1.0 }			# Will be normalized
+tree_height_impact_on_sway = 0.33					# From which height the wind starts to influence the trees
+tree_sway_scale = 1.1								# The overall influence on tree's sways

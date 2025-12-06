@@ -1,0 +1,5 @@
+﻿l_korean:
+ government_conversion_events.conversion_complete.title: "[target_country.GetAdjectiveWithNoTooltip] [target_government_type.GetNameWithNoTooltip]의 부상"
+ government_conversion_events.conversion_complete.title_fallback: "정부 개혁"
+ government_conversion_events.conversion_complete.desc: "지난 몇 년은 격동과 불안의 시기였습니다. 장기적으로 보았을 때는 [target_country.GetLongName](이)가 [target_government_type.GetName](으)로 개혁하는 것이 최선이었음에도, 낡고 부패한 권력자 다수가 [origin_government_type.GetName]의 구체제를 유지하고자 아득바득 싸우기도 했습니다. 그러나 [target_character.GetName](은)는 난관을 극복하고 구습을 혁파함으로써 새로이 확립된 [target_government_type.GetNameWithNoTooltip]의 권력 집중에 방해가 되는 것들을 깨끗이 치워 냈습니다."
+ government_conversion_events.conversion_complete.a: "[origin_government_type.GetNameWithNoTooltip](은)는 끝났다. 오늘부터 우리는 [target_government_type.GetNameWithNoTooltip](이)다!"

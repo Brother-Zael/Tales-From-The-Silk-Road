@@ -1,0 +1,5 @@
+﻿l_japanese:
+ character_events.1.title: "[target_character.GetNameWithNoTooltip]の気まぐれ"
+ character_events.1.title.no_event_target: "気まぐれ"
+ character_events.1.desc: "[ROOT.GetCountry.GetName]の指導者であり、大きな責任を負う立場にある[target_character.GetName]だが、残念ながらその突飛な行動と気まぐれのほうが有名である。国事に対する[target_character.GetHeSheFormal]の態度は、国民からすればまったくの理解不能だ。"
+ character_events.1.a: "[target_character.GetName]がこの国の重荷にならなければいいが……"

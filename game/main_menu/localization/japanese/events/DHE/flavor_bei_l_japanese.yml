@@ -1,0 +1,6 @@
+﻿l_japanese:
+ flavor_bei.1.title: "ブルネイのスルタン"
+ flavor_bei.1.desc: "[ShowReligionGroupAdjective('muslim')]信仰が東南アジアに広まっていくなか、野心家の[ROOT.GetCountry.GetGovernment.GetRuler.GetName]は、自らの伝統的な[ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective]信仰がもつ外交的な制約に、次第に不満を募らせるようになった。\n\n[ROOT.GetCountry.GetGovernment.GetRuler.GetHeSheFormal|U]はわが国に対し、[ShowReligionGroupName('muslim')]の教えを取り入れるよう強く求めはじめており、それによって他教の統治者たちとの外交や婚姻の道が拓けるというのだ。\n\n忠実なるわが臣民たちのあいだには、それなりの期待感も当然あるが、果たして改宗は本当に正しい道なのだろうか？"
+ flavor_bei.1.a: "我らもシャハーダを唱えよう。"
+ flavor_bei.1.b: "古き信仰こそ尊ばなければ。"
+ flavor_bei.1.historical_info: "1360年代、ブルネイのヒンドゥー教ラージャだったアワン・アラク・ベタタールは、イスラム教に改宗した。この改宗は、外国の王女（一般にはジョホール王国のスルタンの娘とされる）との婚姻資格を得るためだった。改宗後、彼はラージャではなくスルタン・ムハンマド・シャーとして知られるようになった。彼の王朝は現在に至るまでブルネイを治めており、歴史上最も由緒ある王家のひとつとされる。"

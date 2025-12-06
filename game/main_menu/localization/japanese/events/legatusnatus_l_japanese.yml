@@ -1,0 +1,13 @@
+﻿l_japanese:
+ legatusnatus.1.title: "生まれながらの特使"
+ legatusnatus.1.desc: "長年にわたり、[home_ruler.GetName]は[pope_ruler.GetName]のアルプス以北の代理、つまり[ShowGovernmentReformName('legatus_natus')]を誇りをもって務めてきた。\nこれほどまでに権威ある称号には一定の品格が求められる。我々の威信や、我々と[GetCountry('PAP').GetGovernment.GetRulerTitle]との関係を損なうことがあってはならないのだ。"
+ legatusnatus.1.a: "すべては神の手中にある。"
+ legatusnatus.2.title: "「生まれながらの特使」の称号を剥奪"
+ legatusnatus.2.desc: "最近、[GetUniqueInternationalOrganization('hre').GetName]におけるわが国の地位が低下し、[pope_ruler.GetName]との関係も悪化している。[GetCountry('PAP').GetGovernment.GetRulerTitle]は、我々を[GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]における彼の[ShowGovernmentReformName('legatus_natus')]とするほどには我々を信頼しなくなったようだ。残念なことに、[GetCountry('PAP').GetGovernment.GetRulerTitle]は我々からその称号を剥奪することを決定した。"
+ legatusnatus.2.a: "結局は我々次第だったのだろう……"
+ legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle]の特使"
+ legatusnatus.3.desc: "朗報！ [pope_ruler.GetName]が[home_ruler.GetName]に名誉ある[ShowGovernmentReformName('legatus_natus')]の称号を授けることを決定した。これは前任者が称号を剥奪されたためだ。つまり、[home_ruler.GetNameWithNoTooltip]はアルプス以北における[GetCountry('PAP').GetGovernment.GetRulerTitle]の代理となるのだ。"
+ legatusnatus.3.a: "天使の梯子が降りてきたのか？"
+ legatusnatus.4.title: "「[ShowGovernmentReformName('legatus_natus')]」の地位取り消し"
+ legatusnatus.4.desc: "名誉ある[ShowGovernmentReformName('legatus_natus')]の地位は、[GetUniqueInternationalOrganization('hre').GetName]の[ShowReligionAdjective('catholic')]司教のみが保有できる。[home_ruler.GetName]はこの要件を満たさなくなったため、[pope_ruler.GetName]から称号を取り消された。"
+ legatusnatus.4.a: "忌々しい[GetCountry('PAP').GetGovernment.GetRulerTitle]め。"

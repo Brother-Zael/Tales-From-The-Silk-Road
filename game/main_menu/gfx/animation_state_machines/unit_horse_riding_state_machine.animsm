@@ -1,0 +1,40 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"horse_riding"={
+		timeline_layer={
+			timeline="HorseRiding"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Connection 12"
+		behavioral_state="horse_riding"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"HorseRiding"={
+		boundary_behavior=loop
+		duration=0.016667
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="unit_horse_riding_pose_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Connection 12"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

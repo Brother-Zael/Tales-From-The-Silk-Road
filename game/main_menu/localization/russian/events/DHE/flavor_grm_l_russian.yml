@@ -1,0 +1,6 @@
+﻿l_russian:
+ flavor_grm.1.title: "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'погибла', 'погиб')]"
+ flavor_grm.1.desc: "Сегодня [Select_CString(target_character.IsFemale,'скончалась одна', 'скончался один')] из самых выдающихся деятелей нашего народа и [Select_CString(target_character.IsFemale,'основательница', 'основатель')] нашей державы. Во время [Select_CString(target_character.IsFemale,'её', 'его')] правления нам удалось распространить своё влияние на значительную часть #TOOLTIP:REGION,anatolia_region,X #L Анатолии#!#! и подчинить себе многие соседние державы. Вне всяких сомнений, после [Select_CString(target_character.IsFemale,'её', 'его')] смерти эти ленники попытаются посягнуть на богатства нашей страны, что может привести к росту недовольства и народным восстаниям…"
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Мы не сдадимся без боя!"
+ flavor_grm.1.historical_info: "Бейлик Гермиян был основан в XIV веке Якубом I, который сумел завоевать и взять под контроль многие соседние земли. За сорок лет он подчинил себе Айдынидов, Саруханидов и Карасыдов, а также многократно вступал в конфликты с османами. После смерти Якуба I вассалы воспользовались ослабленным положением бейлика и объявили о своей независимости."

@@ -1,0 +1,7 @@
+﻿l_spanish:
+ flavor_kol.1.title: "Los arzobispos bávaros"
+ flavor_kol.1.desc: "Han nombrado a un miembro de la familia gobernante de Baviera arzobispo de Colonia. Esto podría significar una nueva era de influencia bávara en estas tierras. ¿Cómo deberíamos proceder?"
+ flavor_kol.1.a: "Permitamos la influencia bávara."
+ flavor_kol.1.b: "Seguiremos por nuestra cuenta."
+ kol_bavarian_archbishop_replaced: "El arzobispo bávaro, relevado."
+ kol_bavarian_archbishop: "El arzobispo bávaro en Colonia"

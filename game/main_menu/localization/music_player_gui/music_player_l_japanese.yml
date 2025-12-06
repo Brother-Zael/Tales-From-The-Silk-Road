@@ -1,0 +1,12 @@
+﻿l_japanese:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "シャッフル方法を変更"
+ MUSIC_PLAYER_PLAY: "再生"
+ MUSIC_PLAYER_PAUSE: "一時停止"
+ MUSIC_PLAYER_HEADER: "音楽プレイヤー"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "クリックで『#v [MusicTrack.GetName]#!』をいますぐ再生"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "『#v [MusicTrack.GetName]#!』を再生中！"
+ MUSIC_PLAYER_ENABLE_TRACK: "『#v [MusicTrack.GetName]#!』を再生キュー内で有効/無効にする"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "#v [MusicPlayerCategory.GetName]#!カテゴリーのすべての曲を有効/無効にする"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "次の曲へスキップ"
+ MUSIC_PLAYER_SELECT_CATEGORY: "選択して#v [MusicPlayerCategory.GetName]#!カテゴリーの曲を表示"

@@ -1,0 +1,631 @@
+﻿cloth_plain = {
+	diffuse	= "cloth/unit_material_cloth_neutral_base_diffuse.dds"
+	normal		= "cloth/unit_material_cloth_neutral_base_normal.dds"
+	properties	= "cloth/unit_material_cloth_neutral_base_properties.dds"
+}
+
+cloth_pure_white = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_country_white_diffuse.dds"
+}
+
+cloth_golden_dark = {
+	diffuse	= "cloth/unit_material_cloth_golden_dark_diffuse.dds"
+	normal	= "cloth/unit_material_cloth_golden_dark_normal.dds"
+	properties	= "cloth/unit_material_cloth_golden_dark_properties.dds"
+}
+
+cloth_golden_light = {
+	diffuse	= "cloth/unit_material_cloth_golden_light_diffuse.dds"
+	normal	= "cloth/unit_material_cloth_golden_dark_normal.dds"
+	properties	= "cloth/unit_material_cloth_golden_dark_properties.dds"
+}
+
+cloth_rope = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_rope_base_diffuse.dds"
+}
+
+cloth_wool = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_wool_base_diffuse.dds"
+}
+
+cloth_light_brown = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_light_brown_diffuse.dds"
+}
+
+cloth_peasants_colors = {
+	diffuse	= "cloth/unit_material_cloth_neutral_base_diffuse.dds"
+	normal		= "cloth/unit_material_cloth_neutral_base_normal.dds"
+	properties	= "cloth/unit_material_cloth_neutral_base_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint = {
+		input_name = peasants_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 output = 1.0 }
+	}
+}
+
+#peasants_cloth = {
+	#parent = cloth_plain
+	#repaint = {
+		#input_name = peasants_colors
+		#mask = { color = { 1.0 1.0 1.0 } tolerance = 1.0 hardness = 1.0 output = 1.0 }
+	#}
+#}
+
+cloth_earth_brown = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_earth_brown_diffuse.dds"
+}
+
+
+cloth_blue_grey = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_blue_grey_diffuse.dds"
+}
+
+cloth_pattern_brown = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_pattern_brown_diffuse.dds"
+}
+
+cloth_black = {
+	parent = cloth_plain
+	diffuse	= "cloth/unit_material_cloth_black_diffuse.dds"
+}
+
+cloth_country_base={
+	diffuse			= "cloth/unit_material_cloth_country_base_diffuse.dds"
+	normal			= "cloth/unit_material_cloth_country_base_normal.dds"
+	properties		= "cloth/unit_material_cloth_country_base_properties.dds"
+}
+
+cloth_country_split = {
+	parent = cloth_country_base
+	mask_texture	= "two_color_split.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint	= {
+		input_name = secondary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_country_inverted_split = {
+	parent = cloth_country_base
+	mask_texture	= "two_color_inverted_split.dds"
+	repaint	= {
+		input_name = primary_color
+		#						R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint	= {
+		input_name = secondary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_country_one = {
+	parent = cloth_country_base
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_country_two = {
+	parent = cloth_country_base
+	mask_texture	= "country01_mask.dds"
+	repaint	= {
+		input_name = secondary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_country_stripped = {
+	parent = cloth_country_base
+	mask_texture	= "two_color_stripes_mask.dds"
+	repaint	= {
+		input_name = secondary_color
+		#						R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+	repaint = {
+		input_name = primary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_country_ticking_stripes = {
+	parent = cloth_country_base
+	mask_texture	= "two_color_small_stripes_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 1.0 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_country_one_ticking_stripes = {
+	diffuse			= "cloth/unit_material_cloth_country_white_diffuse.dds"
+	normal			= "cloth/unit_material_cloth_country_base_normal.dds"
+	properties		= "cloth/unit_material_cloth_country_base_properties.dds"
+	mask_texture	= "country_color_small_stripes_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.3 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_country_quarter = {
+	parent = cloth_country_base
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_stripes = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_stripes_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_stripes_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_stripes_properties.dds"
+}
+
+cloth_gambeson_square = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_squares_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_squares_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_squares_properties.dds"
+}
+
+cloth_gambeson_diamonds = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_diamonds_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_diamonds_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_diamonds_properties.dds"
+}
+
+cloth_gambeson_stripes_colors = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_stripes_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_stripes_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_stripes_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint = {
+		input_name = gambeson_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_square_colors = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_squares_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_squares_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_squares_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint = {
+		input_name = gambeson_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_colors = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_diamonds_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_diamonds_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_diamonds_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint = {
+		input_name = gambeson_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 output = 1.0 }
+	}
+}
+
+
+cloth_gambeson_stripes_country_one = {
+	parent = cloth_gambeson_stripes
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_gambeson_stripes_country_quarter = {
+	parent = cloth_gambeson_stripes
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_square_country_one = {
+	parent = cloth_gambeson_square
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_gambeson_square_country_quarter = {
+	parent = cloth_gambeson_square
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_country_one = {
+	parent = cloth_gambeson_diamonds
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_country_quarter = {
+	parent = cloth_gambeson_diamonds
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_vertical = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_02_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_02_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_02_properties.dds"
+}
+
+cloth_gambeson_vertical_country_one = {
+	parent = cloth_gambeson_vertical
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_gambeson_vertical_country_quarter = {
+	parent = cloth_gambeson_vertical
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+#cloth_gambeson_diamond = {
+	#diffuse			= "gambeson_pattern/unit_pattern_gambeson_03_diffuse.dds"
+	#normal			= "gambeson_pattern/unit_pattern_gambeson_03_normal.dds"
+	#properties		= "gambeson_pattern/unit_pattern_gambeson_03_properties.dds"
+#}
+
+#cloth_gambeson_diamond_country_one = {
+	#parent = cloth_gambeson_diamond
+	#mask_texture	= "country0_mask.dds"
+	#repaint	= {
+		#input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		#mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	#}
+#}
+
+#cloth_gambeson_diamond_country_quarter = {
+	#parent = cloth_gambeson_diamond
+	#mask_texture	= "two_color_quarter.dds"
+	#repaint	= {
+		#input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		#mask = { color = { 1.0 0.0 0.0 } tolerance = 0.5 hardness = 1.0 output = 1.0 }
+	#}
+	#repaint = {
+		#input_name = secondary_color
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.95 output = 1.0 }
+	#}
+#}
+
+#cloth_gambeson_square = {
+	#diffuse			= "gambeson_pattern/unit_pattern_gambeson_04_diffuse.dds"
+	#normal			= "gambeson_pattern/unit_pattern_gambeson_04_normal.dds"
+	#properties		= "gambeson_pattern/unit_pattern_gambeson_04_properties.dds"
+#}
+
+#cloth_gambeson_square_country_one = {
+	#parent = cloth_gambeson_square
+	#mask_texture	= "country0_mask.dds"
+	#repaint	= {
+		#input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		#mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	#}
+#}
+
+#cloth_gambeson_square_country_quarter = {
+	#parent = cloth_gambeson_square
+	#mask_texture	= "two_color_quarter.dds"
+	#repaint	= {
+		#input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		#mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 1.0 output = 1.0 }
+	#}
+	#repaint = {
+		#input_name = secondary_color
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.0 output = 1.0 }
+	#}
+#}
+
+cloth_gambeson_horizontal = {
+	diffuse			= "gambeson_pattern/unit_pattern_gambeson_01_diffuse.dds"
+	normal			= "gambeson_pattern/unit_pattern_gambeson_01_normal.dds"
+	properties		= "gambeson_pattern/unit_pattern_gambeson_01_properties.dds"
+}
+
+cloth_gambeson_horizontal_country_one = {
+	parent = cloth_gambeson_horizontal
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_gambeson_horizontal_country_quarter = {
+	parent = cloth_gambeson_horizontal
+	mask_texture	= "two_color_quarter.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_knight_pattern_1 = {
+	diffuse			= "cloth/unit_material_cloth_knight_pattern_diffuse.dds"
+	normal			= "cloth/unit_material_cloth_knight_pattern_normal.dds"
+	properties		= "cloth/unit_material_cloth_knight_pattern_properties.dds"
+	mask_texture	= "knight_pattern_01.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+	#repaint = {#
+		#default_color = gold
+		#mask = { color = { 1.0 1.0 0.0 } tolerance = 0.4 hardness = 0.9 output = 1.0 }
+	#}
+}
+
+cloth_knight_pattern_2 = {
+	diffuse			= "cloth/unit_material_cloth_knight_pattern_diffuse.dds"
+	normal			= "cloth/unit_material_cloth_knight_pattern_normal.dds"
+	properties		= "cloth/unit_material_cloth_knight_pattern_properties.dds"
+	mask_texture	= "two_color_big_checkers_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_knight_pattern_3 = {
+	diffuse			= "cloth/unit_material_cloth_country_base_diffuse.dds"
+	normal			= "cloth/unit_material_cloth_country_base_normal.dds"
+	properties		= "cloth/unit_material_cloth_country_base_properties.dds"
+	mask_texture	= "double_pattern_checker_stripes_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.8 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.9 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_quilted_african = {
+	diffuse			= "gambeson_pattern/unit_material_quilted_african_diffuse.dds"
+	normal			= "gambeson_pattern/unit_material_quilted_african_normal.dds"
+	properties		= "gambeson_pattern/unit_material_quilted_african_properties.dds"
+}
+
+
+
+cloth_quilted_african_triangles_2 = {
+	parent = cloth_quilted_african
+	mask_texture	= "quilted_african_mask_02.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_quilted_african_squares_1 = {
+	parent = cloth_quilted_african
+	mask_texture	= "quilted_african_mask_03.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_quilted_african_squares_2 = {
+	parent = cloth_quilted_african
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }	}
+}
+
+cloth_quilted_raw_base_aztec = {
+	diffuse			= "gambeson_pattern/unit_material_quilted_aztec_base_diffuse.dds"
+	normal			= "gambeson_pattern/unit_material_quilted_aztec_raw_normal.dds"
+	properties		= "gambeson_pattern/unit_material_quilted_aztec_raw_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+cloth_quilted_raw_aztec = {
+	diffuse			= "gambeson_pattern/unit_material_quilted_aztec_raw_diffuse.dds"
+	normal			= "gambeson_pattern/unit_material_quilted_aztec_raw_normal.dds"
+	properties		= "gambeson_pattern/unit_material_quilted_aztec_raw_properties.dds"
+	
+	
+}
+
+cloth_quilted_raw_brown_aztec = {
+	diffuse			= "gambeson_pattern/unit_material_quilted_aztec_brown_diffuse.dds"
+	normal			= "gambeson_pattern/unit_material_quilted_aztec_raw_normal.dds"
+	properties		= "gambeson_pattern/unit_material_quilted_aztec_raw_properties.dds"
+}
+
+cloth_gambeson_square_country_triangles = {
+	parent = cloth_gambeson_square
+	mask_texture	= "two_color_triangles_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_country_triangles = {
+	parent = cloth_gambeson_diamonds
+	mask_texture	= "two_color_triangles_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_square_country_checkers = {
+	parent = cloth_gambeson_square
+	mask_texture	= "two_color_big_checkers_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_country_checkers = {
+	parent = cloth_gambeson_diamonds
+	mask_texture	= "two_color_big_checkers_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_square_country_triangles_horizontal = {
+	parent = cloth_gambeson_square
+	mask_texture	= "two_color_triangles_horizontal_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+
+cloth_gambeson_diamonds_country_triangles_horizontal = {
+	parent = cloth_gambeson_diamonds
+	mask_texture	= "two_color_triangles_horizontal_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.9 output = 1.0 }
+	}
+}
+

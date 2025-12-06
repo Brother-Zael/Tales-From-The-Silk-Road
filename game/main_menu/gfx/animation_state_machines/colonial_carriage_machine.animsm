@@ -1,0 +1,114 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Idle"={
+		timeline_layer={
+			timeline="Move"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	audio_event={
+		name="snd_retreat_1"
+		trigger_time_absolute=0.141000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_2"
+		trigger_time_absolute=0.587000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_3"
+		trigger_time_absolute=1.113000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_4"
+		trigger_time_absolute=1.585000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	particle_action={
+		name="dust_vfx_start"
+		trigger_time_absolute=0.149112
+		hierarchy_place="wheel_dust_vfx"
+		type=start
+	}
+ }
+
+timelines={
+	"Attack"={
+		boundary_behavior=loop
+		duration=9.000000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_artillery_mortar_animation"
+	}
+ 	"Move"={
+		boundary_behavior=loop
+		duration=2.425113
+		events={
+			"dust_vfx_start"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_auxiliary_carriage_animation"
+		duration_source=animation
+	}
+ 	"Idle"={
+		boundary_behavior=loop
+		duration=1.235000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"Retreat"={
+		boundary_behavior=loop
+		duration=2.425113
+		events={
+			"snd_retreat_1"
+			"snd_retreat_2"
+			"snd_retreat_3"
+			"snd_retreat_4"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_auxiliary_carriage_animation"
+		duration_source=animation
+	}
+ 	"Charge"={
+		boundary_behavior=loop
+		duration=2.425113
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_auxiliary_carriage_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

@@ -1,0 +1,7 @@
+﻿l_polish:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Niewielu może powiedzieć, że osiągnęło w życiu taki sukces, jak [target_character.GetName]. Pochodzący z kupieckiej rodziny [target_character.GetShortNameWithNoTooltip] wsławił się prowadzeniem prosperujących interesów w regionie [ShowRegionName('italy_region')]. Siatka kupiecka zbudowana przez jego familię odpowiada za znaczną część bogactwa, jakim obraca się na całym półwyspie. Z wiekiem ten znamienity kupiec zatęsknił jednak za ojczyzną – chciałby tu wrócić, zainwestować na naszym rynku, a może nawet przenieść na nasz grunt liczne innowacje z regionu [ShowRegionNameWithNoTooltip('italy_region')]..."
+ flavor_nur.1.a: "Witamy w domu!"
+ flavor_nur.1.b: "Nie możemy sobie pozwolić na takie fanaberie!"
+ flavor_nur.1.c: "Musimy z szacunkiem odmówić..."
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] zniknie"

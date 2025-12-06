@@ -1,0 +1,20 @@
+﻿l_korean:
+ imperial_examination_events.1.title: "새로 임명된 관료"
+ imperial_examination_events.1.desc: "우리나라처럼 개인이 관리가 됨으로써 신분을 높일 수 있는 제도가 마련된 국가는 많지 않을 것입니다. 우리가 [ShowLawName('imperial_examination_law')]란 행정 체계를 채용한 덕에 탁월한 지식인들이 사회적 계층을 뛰어넘는 걸 보면 무척 자랑스러울 따름입니다.\n\n이번 과거 급제자는 사서오경을 비롯한 고전 문예와 시학에 박식한 인재로, 이름은 [target_character.GetName](이)라 합니다."
+ imperial_examination_events.1.a: "[target_character.GetShortNameWithNoTooltip](이)여, 그대의 행보를 관심 있게 지켜보겠다!"
+ imperial_examination_events.7.title: "시대의 석학"
+ imperial_examination_events.7.desc: "우리에게는 시험을 통해 관리를 발탁하는 지혜로운 제도인 #italic [ROOT.GetCountry.Custom('GetExaminationSystemPolicyName')]#!(이)가 있어 백성이 스스로 학문을 배우고 수양하고자 하는 마음을 갖습니다. 그래야 훌륭한 지도자나 관리가 되어 위대한 [ROOT.GetCountry.GetLongName]의 공직에 종사하는 영예를 누릴 수 있으니까요.\n\n우리 배움의 전당 여러 곳에서는 신세대 지식인이 두각을 드러냈고, 이들은 자진하여 [ROOT.GetCountry.GetGovernment.GetRulerTitle](을)를 섬기고자 합니다."
+ imperial_examination_events.7.a: "[adm_bureocrat.GetName](을)를 궁정에 초대한다."
+ imperial_examination_events.7.a.tt: "[adm_bureocrat.GetName](이)가 궁정에 합류합니다"
+ imperial_examination_events.7.b: "[dip_bureocrat.GetName](을)를 궁정에 초대한다."
+ imperial_examination_events.7.b.tt: "[dip_bureocrat.GetName](이)가 궁정에 합류합니다"
+ imperial_examination_events.7.c: "[mil_bureocrat.GetName](을)를 궁정에 초대한다."
+ imperial_examination_events.7.c.tt: "[mil_bureocrat.GetName](이)가 궁정에 합류합니다"
+ #Historical Info for various bureaucrats
+ imperial_examination_events.2.historical_info: "원명 교체기의 위인인 유백온은 한미한 출신을 딛고 입신양명해 탁월한 지성과 전술적 능력, 정치적 식견을 세상에 드러냈습니다. 유백온은 몽골의 원나라를 타도하고 명나라를 세우는 데 활약한 개국 공신으로, 명나라의 군사 작전에 크게 기여하여 새로운 왕조의 부상을 앞당겼습니다. 그뿐만 아니라 유백온은 문필과 학문에 조예가 깊어, 한문학과 철학의 발전에도 기여하며 문무겸비의 인재로서 중국사에 길이 이어질 유산을 남겼습니다."
+ imperial_examination_events.3.historical_info: "우겸은 1421년 진사로 급제해 명나라 문관이 되었습니다. 충직하고 성실하게 나라를 섬긴 우겸은 선덕제에 의해 산서 및 하남의 순무로 봉해졌고, 당대의 유력자와 갈등을 빚어 옥고를 치르기도 했으나 정통제 시기에 복권되어 병부상서 자리에까지 올랐습니다. 우겸은 1449년 몽골계 오이라트 민족이 북경을 침략했을 때 수도를 지키는 데 핵심적인 역할을 했지만, 뒤이은 정치적 소란에 휘말려 역모죄 누명을 쓰고 처형되었습니다."
+ imperial_examination_events.4.historical_info: "1442년 진사로 급제한 한옹은 감찰관에서 시작하여 1452년에 강서성 관찰사로 승진했습니다. 이 기간에 한옹은 등왕각 복원 사업을 감독하였고, 1465년에는 조부(짜오푸)가 이끄는 대등협 묘족 반란 진압 작전에서 군사 감찰관으로 중요한 역할을 수행했습니다. 반란을 성공적으로 진압한 이후 한옹은 양광총독으로 임명되어 일대 평정을 위한 노력을 이어갔으나, 결국 부하들의 정치적 공격으로 인해 퇴임했습니다."
+ imperial_examination_events.5.historical_info: "명나라의 저명한 정치인 서부는 1454년에 진사로 급제하며 자신의 학문적 역량이 뛰어나다는 것을 일찍이 드러내 보였습니다. 서부는 여러 가지 행정 직책을 성실하게 수행했으며, 특히 1497년에 나라의 중대한 법률 사업을 도맡아 대명회전을 편찬한 것으로 유명합니다. 특정 정치 파벌의 영향력을 억제하느라 어려움을 겪기도 했지만, 서부는 재임 기간 내내 모범적으로 중용에 힘쓰고 인자하게 통치했습니다. 서부는 정치적 업적 외에 서씨 가문의 가난한 이들에게 면세 토지를 물려주는 등의 자선 활동으로도 이름을 남겼으며, 이러한 공로를 인정받아 사후 문정 시호를 얻었습니다."
+ imperial_examination_events.6.historical_info: "명나라의 왕양명은 다방면에 걸쳐 업적을 남긴 위인으로, 정통적 주자학의 이기론 대신 직관적 이해를 강조하며 중요한 신유학 사상가로 떠올랐습니다. 빼어난 학자 가문 출신인 왕양명은 장수로서 군사적인 업적도 이루었는데, 군율을 엄격하게 유지하면서도 반란을 토벌할 때는 온정적인 방식을 취했고, 분쟁 중에도 죄인의 사면을 지지했습니다. 왕양명 철학의 핵심은 모든 사람이 도덕을 이해할 능력을 타고난다고 보는 '양지' 개념입니다. 왕양명이 육구연과 함께 창시한 양명학은 중국 전역은 물론 일본에까지 전파되어 많은 역사적 인물에게 영향을 주었고, 심지어는 무사도가 발전하는 데에도 기여했습니다. 왕양명의 유산은 후대에도 이어져 중국과 일본의 유교 사상과 윤리 담론이 형성되는 데 이바지했고, 두 국가의 학문과 정치 분야에는 근대까지도 왕양명의 막대한 영향력이 남아 계속 반향을 불러일으킵니다."
+ #Tooltips
+ chi_while_han_yong_cabinet_tengwang_pavilion_tt: "[target_character.GetNameWithNoTooltip](이)가 내각에서 근무하는 동안 일정 확률로 $flavor_chi.21.title$ 이벤트가 발생합니다"

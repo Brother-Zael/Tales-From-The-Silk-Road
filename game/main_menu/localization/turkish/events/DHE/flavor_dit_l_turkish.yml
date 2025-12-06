@@ -1,0 +1,5 @@
+﻿l_turkish:
+ flavor_dit.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip] Ülkesindeki [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]"
+ flavor_dit.1.desc: "[ShowPopTypeName('peasants')] tarafından işlenen topraklara dış dünyadan çok az ilgi gösterilmesi, [ShowPopTypeName('nobles')] zümresinin nüfuzundan uzak, kendi kendini örgütleyen toplulukların gelişmesine yol açtı. Belki de bizi [ShowContinentName('europe')] kıtasının feodal toplumuna zincirleyen son bağları da koparmanın ve yüzyıllardır rehberimiz olan [ShowGovernmentReformName('peasant_republic_reform')] yapılarını kucaklamanın vakti gelmiştir."
+ flavor_dit.1.a: "Kulübelere barış! Saraylara savaş!"
+ flavor_dit.1.b: "Kulağa biraz radikal geliyor."

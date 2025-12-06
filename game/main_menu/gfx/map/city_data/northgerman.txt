@@ -1,0 +1,103 @@
+﻿## Northgerman
+mesh_list = {
+	name = "northgerman_noble"
+	scale_settings_small = { bias = -0.5 min = 1.2 max = 10 }
+	
+	building_northgerman_noble_a_mesh= 1
+	building_northgerman_noble_b_mesh= 1
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "northgerman_burgher"
+	scale_settings_small = { bias = -0.5 min = 1.2 max = 10 }
+	building_northgerman_burgher_diorama_c_mesh = 1
+	building_northgerman_burgher_diorama_a_mesh = 1
+	building_northgerman_burgher_diorama_b_mesh = 1	
+	building_northgerman_square_a_mesh = { weight = 0.005 allow_squish = no }
+	building_northgerman_square_b_mesh = { weight = 0.005 allow_squish = yes }
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "northgerman_peasant"	
+	scale_settings_small = { bias = -0.5 min = 1.2 max = 10 }
+	building_northgerman_peasant_diorama_a_mesh = 100
+	building_northgerman_peasant_diorama_b_mesh = 100
+	building_northgerman_peasant_diorama_c_mesh = 100
+	material_index = 0	
+	spawn_count = { curve = "standard_pop_curve" }
+}
+
+mesh_list = {
+	name = "peasant_rural_mesh_list"	
+	scale_settings_small = { bias = -0.5 min = 1.2 max = 10 }
+	connect_to_road_network = no
+	building_northgerman_peasant_diorama_a_mesh = 1
+	building_northgerman_peasant_diorama_b_mesh = 1
+	building_northgerman_peasant_diorama_c_mesh = 1
+	material_index = 0	
+	spawn_count = { curve = "standard_pop_peasants_curve" }
+	
+	
+	#default_particle = 10.0
+	#test_particle_entity = 10.0
+}
+
+mesh_list = {
+	name = "northgerman_farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_peasant_diorama_a_mesh = 1
+	building_northgerman_peasant_diorama_b_mesh = 1
+	building_northgerman_peasant_diorama_c_mesh = 1
+	building_northgerman_burgher_diorama_a_mesh = 1
+	
+}
+
+@noble_mesh_list	= northgerman_noble
+@burgher_mesh_list	= northgerman_burgher
+@peasant_mesh_list	= northgerman_peasant
+@peasant_rural_mesh	= peasant_rural_mesh_list
+@farming_mesh_list = northgerman_farming_mesh_list
+
+culture_data = {
+	graphical_culture = european_gfx
+	
+	load_template religius_buildings {}
+	#Special buildings
+	load_template player_buildings {}	
+
+
+	#Unique buildings
+	load_template unique_buildings{}
+
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{ farming_mesh_list = @farming_mesh_list }
+}
+
+culture_data = {
+	graphical_culture = final_fallback
+	#Special buildings
+	load_template = player_buildings {}
+
+
+	#Unique buildings
+	load_template unique_buildings{}
+
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{ farming_mesh_list = @farming_mesh_list }
+}

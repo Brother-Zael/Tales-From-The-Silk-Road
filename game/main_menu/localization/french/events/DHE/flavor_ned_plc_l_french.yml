@@ -1,0 +1,8 @@
+﻿l_french:
+ flavor_ned_plc.1.title: "Marchands #L [target_country.GetAdjectiveWithNoTooltip]s#! en [target_location.GetNameWithNoTooltip]"
+ flavor_ned_plc.1.desc: "Les intérêts de [receiving_country.GetLongName] et de [target_country.GetLongName] convergent à bien des égards. Chaque année, de nombreux membres de leur [target_country.GetGovernment.GetEstateName('burghers_estate')] se rendent dans les ports du [target_market.GetName], et tout particulièrement à l'entrepôt de [target_good.GetName] situé à [target_location.GetName]. De l'autre côté, la [receiving_country.GetGovernment.GetEstateName('nobles_estate')] de [receiving_country.GetNameWithNoTooltip] tire clairement profit de ce partenariat, en échangeant ses surplus de [target_good.GetNameWithNoTooltip] contre les biens de luxe apportés par les marchands."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Finançons encore plus le commerce du vrac."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

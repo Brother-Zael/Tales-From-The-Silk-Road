@@ -1,0 +1,99 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		random_layer={
+			name="play_random"
+			timeline_layer={
+				name="attack_elephant_animation"
+				weight=1.000000
+				timeline="attack_elephant_animation"
+			}
+			timeline_layer={
+				name="idle01_elephant_animation"
+				weight=1.000000
+				timeline="idle01_elephant_animation"
+			}
+			timeline_layer={
+				name="idle02_elephant_animation"
+				weight=1.000000
+				timeline="idle02_elephant_animation"
+			}
+			timeline_layer={
+				name="idle03_elephant_animation"
+				weight=1.000000
+				timeline="idle03_elephant_animation"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"attack_elephant_animation"={
+		boundary_behavior=loop
+		duration=5.966851
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_elephant_animation"
+	}
+ 	"charge_elephant_animation"={
+		boundary_behavior=loop
+		duration=1.567347
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="charge_elephant_animation"
+	}
+ 	"idle01_elephant_animation"={
+		boundary_behavior=loop
+		duration=5.966851
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle01_elephant_animation"
+	}
+ 	"idle02_elephant_animation"={
+		boundary_behavior=loop
+		duration=5.966851
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle02_elephant_animation"
+	}
+ 	"idle03_elephant_animation"={
+		boundary_behavior=loop
+		duration=5.966851
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle03_elephant_animation"
+	}
+ 	"moving_elephant_animation"={
+		boundary_behavior=loop
+		duration=1.434074
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_elephant_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

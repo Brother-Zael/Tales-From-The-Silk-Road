@@ -1,0 +1,4 @@
+﻿l_japanese:
+ flavor_tle.1.title: "[capital_scope.GetNameWithNoTooltip]の陥落"
+ flavor_tle.1.desc: "我らが愛する[ROOT.GetCountry.GetFlavorRank]の首都、[capital_scope.GetName]が邪悪な敵の手に落ちた。さらに悲劇が続き、敬愛する統治者[ruler_scope.GetName]とその息子たちが襲撃のさなかに命を落としてしまった。\n\nこの悲劇は[ROOT.GetCountry.GetFlavorRank]じゅうに絶望を与え、敵との戦いを続けることすら困難にしている。"
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

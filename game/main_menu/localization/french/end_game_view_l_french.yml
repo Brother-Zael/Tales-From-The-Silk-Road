@@ -1,0 +1,12 @@
+﻿l_french:
+ END_GAME_VIEW_LOSING_TITLE: "Fin de la partie"
+ END_GAME_VIEW_LOSING_TEXT: "Notre nation n'a pas réussi à suivre le cours de l'Histoire, manquant la puissance et la détermination qu'ont su déployer nos voisins. À l'avenir, le peuple [COUNTRY.GetAdjective] ne sera plus qu'un souvenir conservé dans des musées, où des savants étudieront notre échec."
+ END_GAME_VIEW_SURVIVING_TITLE: "Une note de bas de page dans l'Histoire"
+ END_GAME_VIEW_SURVIVING_TEXT: "Notre fière nation a survécu à des siècles de luttes, de guerres et d'adversité, mais malgré cela, le peuple [COUNTRY.GetAdjective] n'a rien accompli de réellement notable. En ce monde où s'affrontent des mastodontes civilisationnels et guerriers, nous ne jouons qu'un rôle secondaire."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Une grande puissance"
+ END_GAME_VIEW_GREAT_TEXT: "Notre glorieuse nation a réussi à se hisser au rang de grande puissance mondiale. Félicitations, le peuple [COUNTRY.GetAdjective|l] compte parmi les plus prospères et les plus prestigieux de l'époque, et notre règne a été couronné des succès les plus éclatants."
+ CONTINUE_PAST_END_DATE: "Continuer à jouer"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Continuer à jouer\nLes succès seront désactivés à partir de maintenant"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Mettre fin à la partie et retourner au menu principal"
+ END_GAME_VIEW_OBSERVE: "Observer"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Poursuivre en mode Observateur"

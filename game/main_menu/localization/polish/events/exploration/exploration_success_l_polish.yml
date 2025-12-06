@@ -1,0 +1,5 @@
+﻿l_polish:
+ exploration_success.1.title: "Wybitny podchorąży"
+ exploration_success.1.desc: "Po powrocie ekspedycji do punktu wyjścia, jakim był kraj [target.GetName], doszły nas słuchy, że [actor.GetName] nie może nachwalić się pewnego obiecującego młodego oficera, który wyróżnił się podczas wyprawy."
+ exploration_success.1.a: "Dać mu dowództwo nad własną ekspedycją."
+ exploration_success.1.b: "Potrzebujemy dobrych podchorążych."

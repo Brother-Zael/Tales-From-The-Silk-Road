@@ -1,0 +1,12 @@
+﻿l_russian:
+ flavor_dah_released_desc_common: "[target_character.GetName], вождь обитающего на #TOOLTIP:AREA,gold_coast_area,X #L Золотом Берегу#!#! племени #TOOLTIP:CULTURE,$fon_tt$,X #L фон#!#!, [Select_CString(target_character.IsFemale,'объединила', 'объединил')] свой народ под знаменем #ONCLICK:COUNTRY,[GetCountry('DAH').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAH').Custom('CL_tt')],X [GetCountry('DAH').Custom('CL_GEN')|L]#!#!. Новая держава обладает немалыми амбициями и стремится стать главенствующей силой в #TOOLTIP:REGION,guinea_region,X #L Гвинее#!#!."
+ flavor_dah_released_title_common: "Основание [GetCountry('DAH').Custom('CL_GEN')]"
+ flavor_dah_variable_tt: "#TOOLTIP:PROVINCE_DEFINITION,fon_province,X #L Фон#!#! не был колонизирован"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip] падёт к нашим ногам!"
+ flavor_dah.1.b: "Возможно, пришло время для новой великой державы."
+ flavor_dah.1.c: "Мы за них рады."
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "Значит, у нас новые соседи?"

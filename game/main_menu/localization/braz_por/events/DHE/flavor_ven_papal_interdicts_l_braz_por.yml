@@ -1,0 +1,8 @@
+﻿l_braz_por:
+ flavor_ven_papal_interdicts.1000.title: "Interdito [ROOT.GetCountry.GetAdjectiveWithNoTooltip]"
+ flavor_ven_papal_interdicts.1000.desc: "O(a) [GetCountry('PAP').GetGovernment.GetRulerTitle] impôs um interdito sobre a entidade política [ROOT.GetCountry.GetName], ostensivamente como uma resposta à liberdade do fanatismo religioso que existe na cidade e que parece afrontar constantemente o [GetCountry('PAP').GetName]. Entretanto, é óbvio para nós que isso não passa de um estratagema para ampliar suas ambições."
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip] é [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_ven_papal_interdicts.1000.b: "Vamos nos ajoelhar para o Santo Padre."
+ flavor_ven_papal_interdicts.1001.title: "O Município do Pecado"
+ flavor_ven_papal_interdicts.1001.desc: "Os homens de [target_sinner_country.GetName] são pecadores extremamente perturbados aos olhos do Senhor. Não há um único homem direito vivendo naquela cidade do comércio, que é cheia do mesmo tipo de pessoas que o filho de Deus arrastou para fora do Templo. Como representantes de Deus na terra, devemos agir!"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip] cairá como Sodoma e Gomorra!"

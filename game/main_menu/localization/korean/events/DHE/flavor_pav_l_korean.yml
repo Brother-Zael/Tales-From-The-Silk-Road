@@ -1,0 +1,11 @@
+﻿l_korean:
+ flavor_pav.1.title: "[expelled_ruler.GetDynasty.GetNameWithNoTooltip] 추방"
+ flavor_pav.1.desc: "[ROOT.GetCountry.GetCapital.GetName]에서 또다시 [expelled_ruler.GetDynasty.GetName]에 대항하는 반란이 일어나며 불길이 치솟고 있습니다. 이번 반란의 주동자는 카리스마 있는 사제인 [pav_iacopo_bussolari_scope.GetName](으)로, 그 지도 아래 이미 시민들은 하나 되어 [ROOT.GetCountry.GetGovernment.GetRulerTitle]에게 맞서고 있습니다. 이대로 아무런 조치도 취하지 않는다면 [expelled_ruler.GetName](은)는 달아나야 할 처지에 놓여, 어쩌면 비열한 [ShowDynastyName('visconti_dynasty')] 가문으로 도망쳐야 할지도 모릅니다."
+ flavor_pav.1.historical_info: "1356년, 베카리아 가문은 수사 이아코포 부솔라리가 이끈 민중 봉기로 인해 도시에서 추방됩니다. 이후 부솔라리는 비스콘티 가문이 주도한 공성전으로부터 도시를 지키는 데 일조합니다. 하지만 추방된 베카리아 가문은 다른 세력과 손을 잡았고, 결국 1359년에 파비아는 밀라노에 함락되고 맙니다. 이후 베카리아 가문은 일부 특권을 되찾았지만 도시 자체는 계속해서 밀라노의 지배를 받았습니다."
+ flavor_pav.1.a: "수사의 가르침을 따르라!"
+ flavor_pav.1.b: "이 폭동을 반드시 막아야 한다."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "[target_country.GetName]에서 카리스마 있는 지도자인 [pav_iacopo_bussolari_scope.GetName](이)가 이끄는 민중 봉기가 발생했다는 소식이 전해졌습니다. [target_country.GetCapital.GetNameWithNoTooltip] 주민들은 결국 도시를 통치하던 [expelled_ruler.GetDynasty.GetName] 가문을 쫓아내는 데 성공했고, 쫓겨난 자 중 하나인 [expelled_ruler.GetName](이)가 우리에게 도움을 청해 왔습니다. 우리는 과거에 [expelled_ruler.GetDynasty.GetNameWithNoTooltip] 가문과 척을 진 적이 있지만, 이 기회를 잘 활용한다면 마침내 이 도시를 우리의 수중에 넣을 수 있을지도 모릅니다."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "이 혼란을 이용하라."
+ flavor_pav.2.b: "우리가 신경 쓸 바 아니다."

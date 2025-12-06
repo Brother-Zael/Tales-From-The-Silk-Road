@@ -1,0 +1,44 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		random_layer={
+			name="play_random"
+			timeline_layer={
+				name="animal_penguin_idle_animation"
+				weight=1.000000
+				timeline="animal_whale_idle_animation"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"animal_whale_idle_animation"={
+		boundary_behavior=loop
+		duration=0.488281
+		starttime_offset=0.000000
+		playback_rate=0.050000
+		layer=0
+		animation="animal_whale_idle_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

@@ -1,0 +1,11 @@
+﻿l_french:
+ banking.1.title: "L'ascension des Fugger"
+ banking.1.desc: "La famille Fugger, issue du patriciat mercantile d'Augsbourg, est devenue l'un des principaux groupes de banquiers européens au cours des XVe et XVIe siècles. Elle contrôlait une grande partie de l'économie européenne et s'est retrouvée en situation de quasi-monopole sur le marché du cuivre. Historiquement, elle était très liée à la Maison de Habsbourg, dont elle a financé l'ascension vers la puissance mondiale."
+ banking.1.a: "C'est un avantage pour Augsbourg !"
+ banking.2.a: "Qui pourrait en bénéficier... Nous ?"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName] assoient leur activité commerciale à [ShowLocationName('augsburg')]"
+ banking.3.title: "La famille Welser"
+ banking.3.desc: "Les Welser étaient une famille allemande de marchands et de banquiers de Nuremberg et d'Augsbourg, qui revendiquait descendre du général byzantin Bélisaire. Ils ont accompagné la croissance de l'empire des Habsbourg avec leurs nombreux services bancaires, ce qui les a rendus extrêmement riches. À l'Ère des découvertes, ils avaient des comptoirs commerciaux à Anvers, Madrid, Lisbonne, Rome, Lyon et dans bien d'autres villes."
+ banking.3.a: "Cela va placer Nuremberg sur la carte du monde !"
+ banking.4.a: "Qui pourrait en bénéficier... Nous ?"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName] assoient leur activité commerciale à [ShowLocationName('nuremberg')]"

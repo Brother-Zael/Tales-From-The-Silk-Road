@@ -1,0 +1,6 @@
+﻿l_turkish:
+ civil_war.1.title: "İç Savaş Kaybedildi"
+ civil_war.1.desc: "[loser.GetAdjective] İç Savaşı sona erdi. Kaybettik. Neyse ki bu bir sondan ziyade bir fırsat olabilir."
+ civil_war.1.a: "Küllerimizden doğalım!"
+ civil_war.1.b: "Bedelini ödeme vakti."
+ civil_war_game_over: "Bu, oyunumuzu bitirir! \n\n@trigger_no! #R OYUN BİTTİ!#! @trigger_no!"

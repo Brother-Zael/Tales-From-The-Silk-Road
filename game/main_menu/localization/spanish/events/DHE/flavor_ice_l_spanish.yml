@@ -1,0 +1,11 @@
+﻿l_spanish:
+ flavor_ice.10.title: "El obispado de [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_ice.10.desc: "Hace ya tiempo que la fe [ROOT.GetCountry.GetReligion.GetAdjective|l] se convirtió en una parte fundamental de la vida [ROOT.GetCountry.GetAdjective|l]. Sin embargo, existen dos obispados distintos en la isla: [target_location.GetName] y [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip], en [target_location.GetProvince.GetName], tiene reputación de ser más independiente y autosuficiente, mientras que [skalholt.GetNameWithNoTooltip], en [skalholt.GetProvince.GetName], se considera más alineado con [overlord.GetLongName|l].\n\nA medida que avance [ROOT.GetCountry.GetNameWithNoTooltip], será más importante tener en cuenta el carácter único de cada obispado."
+ flavor_ice.10.a: "Apoyemos [target_location.GetNameWithNoTooltip] y su independencia."
+ flavor_ice.10.b: "Congraciémonos con el obispo [overlord.GetAdjectiveWithNoTooltip|l]."
+ opinion_opposed_our_bishop: "Oposición a nuestro obispo"
+ opinion_supported_our_bishop: "Apoyo a nuestro obispo"
+ flavor_ice.11.title: "Los huldufólk"
+ flavor_ice.11.desc: "Durante siglos, los [ROOT.GetCountry.GetCulture.GetName|l] se han sentido cautivados por las historias sobre los #italic huldufólk,#! el místico pueblo oculto. Se cree que estos esquivos elfos habitan en las rocas y montañas de Islandia.\n\nAhora, ha surgido una nueva situación, pues se están haciendo planes para construir una iglesia [ROOT.GetCountry.GetReligion.GetAdjective|l] en una zona de [target_location.GetName] que, según se dice, pertenece a los huldufólk.\n\nLos miembros el estamento [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] temen que perturbar las rocas donde residen los huldufólk podría acarrear consecuencias catastróficas. El estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], como es obvio, niega con vehemencia la existencia de seres invisible. Es responsabilidad del estamento [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] sellar esta disputa espiritual y determinar el destino de la construcción propuesta."
+ flavor_ice.11.a: "Respetemos las creencias y abandonemos la construcción de la iglesia."
+ flavor_ice.11.b: "Ignoremos la superstición y construyamos la iglesia."

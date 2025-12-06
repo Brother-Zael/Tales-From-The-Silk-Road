@@ -1,0 +1,366 @@
+﻿mesh_list = {
+	name = "final_fallback_meshes"
+	scale_settings_small = { bias = 0.0 min = 0.5 max = 1.0 }
+	scale_settings_large = { bias = 0.0 min = 1.0 max = 2.0 }
+	#test_object_mesh = 1
+	building_northgerman_burgher_diorama_a_mesh = 1
+	building_northgerman_burgher_diorama_b_mesh = 1
+}
+mesh_list = {
+	name = "capital_flag_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	spawn_count = { max = 1 }
+	
+	tag = fort
+	capital_flag_mesh = 1
+	should_spawn_flags = yes
+	connect_to_road_network = no
+	clear_map_objects = no
+}
+
+mesh_list = {
+	name = "seagulls_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	spawn_count = { max = 1 }
+	
+	tag = port
+	seagull_port_schematic = 1
+	should_spawn_flags = yes
+	connect_to_road_network = no
+	clear_map_objects = no
+}
+
+mesh_list = {
+	name = "default_bridge_meshes"
+
+	rotation = bridge
+	connect_to_road_network = no
+	clear_map_objects = no
+
+	building_northgerman_bridge_small_mesh = 1
+	building_northgerman_bridge_medium_mesh = 1
+}
+
+mesh_list = {
+	name = "stockade_meshes"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_northgerman_stockade_a_mesh = 1
+	should_spawn_flags = yes
+	tag = fort
+}
+
+mesh_list = {
+	name = "stockade_no_flag_meshes"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_northgerman_stockade_a_mesh = 1
+	tag = fort
+}
+
+mesh_list = {
+	name = "fort_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	#ng_military_01_mesh = 1
+	building_northgerman_castle_a_mesh =1
+	building_northgerman_castle_a_2_mesh =1
+	building_northgerman_castle_a_3_mesh =1
+	building_northgerman_castle_a_4_mesh =1
+	building_northgerman_castle_a_brown_mesh =1
+	building_northgerman_castle_a_2_brown_mesh =1
+	building_northgerman_castle_a_3_brown_mesh =1
+	building_northgerman_castle_a_4_brown_mesh =1
+	#test_object_mesh = 1
+	tag = fort
+	should_spawn_flags = yes
+	material_index = 1
+}
+mesh_list = {
+	name = "bastion_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	tag = fort
+	building_northgerman_bastion_a_mesh = 1
+	building_northgerman_bastion_a_2_mesh = 1
+	building_northgerman_bastion_a_3_mesh = 1
+	building_northgerman_bastion_a_brown_mesh = 1
+	building_northgerman_bastion_a_2_brown_mesh = 1
+	building_northgerman_bastion_a_3_brown_mesh = 1
+	material_index = 1
+	should_spawn_flags = yes
+}
+mesh_list = {
+	name = "starfort_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	tag = fort
+	building_northgerman_starfort_a_mesh = 1
+	building_northgerman_starfort_a_brown_mesh = 1
+	material_index = 1
+	should_spawn_flags = yes
+}
+mesh_list = {
+	name = "fortress_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	tag = fort
+	building_northgerman_fortress_a_mesh = 1
+	building_northgerman_fortress_a_brown_mesh = 1
+	material_index = 1
+	should_spawn_flags = yes
+}
+mesh_list = {
+	name = "port_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	sm_port_tier_0_mesh = 1
+}
+mesh_list = {
+	name = "dock_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_port_tier2_a_mesh = 1
+}
+mesh_list = {
+	name = "dry_dock_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_port_tier3_a_mesh = 1
+}
+mesh_list = {
+	name = "shipyard_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_port_tier4_a_mesh = 1
+}
+mesh_list = {
+	name = "grand_shipyard_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_port_tier5_a_mesh = 1
+}
+mesh_list = {
+	name = "naval_base_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_port_tier6_a_mesh = 1
+}
+
+
+mesh_list = {
+	name = "factory_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_northgerman_factory_a_np = 0.5
+	building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "factory_tier_2_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_european_factory_tier2_schematic = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "factory_tier_3_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_european_factory_tier3_schematic = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "large_clergy_meshes"
+	scale_settings_large = { bias = -0.0 min = 0.8 max = 1 }
+	building_northgerman_cathedral_mesh = 1
+	rotation = smart
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "medium_clergy_meshes"
+	scale_settings_small = { bias = -0 min = 0.7 max = 1 }
+	building_northgerman_clergy_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "small_clergy_meshes"
+	scale_settings_small = { bias = 0 min = 0.7 max = 1 }
+	building_northgerman_clergy_small_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "market_meshes"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_northgerman_market_a_mesh = 1
+	building_northgerman_market_b_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "peasants_gathering_meshes"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_northgerman_peasants_industry_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "medium_military_meshes"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_northgerman_noble_military_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "culture_meshes"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_northgerman_culture_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "regimental_camp_meshes"
+	scale_settings_large = { bias = 0 min = 0.6 max = 0.7 }
+	building_northgerman_regimental_camps_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "small_burgher_meshes"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	building_northgerman_burgher_small_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "medium_burgher_meshes"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	building_northgerman_burgher_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "noble_military_meshes"
+	scale_settings_small = { bias = -0.5 min = 1.0 max = 1.0 }
+	building_northgerman_noble_military_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "clergy_military_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_european_monastery_001_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "republican_assembly_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_northgerman_republic_assembly_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "pirate_haven_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_northgerman_piratehaven_mesh = 1
+	should_spawn_flags = no
+	
+}
+
+mesh_list = {
+	name = "armory_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_northgerman_armory_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "barracks_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_northgerman_barracks_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "training_fields_meshes"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	building_northgerman_training_grounds_mesh = 1
+	should_spawn_flags = no
+}
+mesh_list = {
+	name = "under_contruction_meshes"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	building_northgerman_underconstruction_medium_schematic = 1
+}
+mesh_list = {
+	name = "under_construction_port_meshes"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 2.0 max = 3.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_northgerman_underconstruction_medium_schematic = 1
+}
+mesh_list = {
+	name = "under_construction_fort_meshes"
+	scale_settings_large = { bias = -0.5 min = 1 max = 1 }
+	building_northgerman_underconstruction_large_schematic = 1
+	tag = fort
+	should_spawn_flags = yes
+}
+
+mesh_list = 
+{
+	name = "building_unique_sitges_church_mesh"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	should_spawn_flags = no
+	
+	building_unique_sitges_church_mesh = 1
+}
+
+mesh_list = 
+{
+	name = "tre_kronor_mesh"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	should_spawn_flags = no
+	
+	building_northgerman_tre_kronor_mesh = 1
+}

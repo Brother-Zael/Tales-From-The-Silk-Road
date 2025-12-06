@@ -1,0 +1,36 @@
+﻿city_hub_particles = {
+	aggregate_members = {
+
+		height = {
+			type_name = Float
+			metadata = {
+				min = 0.0
+				max = 5.0
+				editor_gui_type = slider
+				default = 1.0
+				description = "This is the spawn height"
+			}
+		}
+
+		radius = {
+			type_name = Float
+			metadata = {
+				min = 0.0
+				max = 15.0
+				editor_gui_type = slider
+				default = 1.0
+				description = "This is the city radius"
+			}
+		}
+		amount_of_particle_systems = {
+			type_name = Int
+			metadata = {
+				min = 0
+				max = 6
+				editor_gui_type = slider
+				default = 1.0
+				description = "Amount of Particle Systems Inside Radius"
+			}
+		}
+	}
+}

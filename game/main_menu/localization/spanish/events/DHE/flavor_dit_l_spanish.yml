@@ -1,0 +1,5 @@
+﻿l_spanish:
+ flavor_dit.1.title: "El estamento [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] de [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_dit.1.desc: "Las tierras que cuidan nuestros [ShowPopTypeName('peasants')|l] reciben poca atención del mundo exterior, lo que ha propiciado el desarrollo de comunidades organizadas por sí mismas, alejadas de la influencia de los [ShowPopTypeName('nobles')|l]. Quizá haya llegado el momento de desprendernos de los últimos lazos que nos atan a la sociedad feudal de [ShowContinentName('europe')] y abrazar las estructuras de la [ShowGovernmentReformName('peasant_republic_reform')], que nos han guiado durante siglos."
+ flavor_dit.1.a: "#italic Friede den Hütten! Krieg den Palästen!#!"
+ flavor_dit.1.b: "Suena demasiado radical."

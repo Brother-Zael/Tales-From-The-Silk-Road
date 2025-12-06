@@ -1,0 +1,13 @@
+﻿l_japanese:
+ flavor_fra_dau.100.title: "ドーファンの像"
+ flavor_fra_dau.100.desc: "[target_country.GetLongName]は数世紀にわたり独立を保っているものの、[GetInternationalOrganizationType('hre').GetName]と[ShowRegionName('italy_region')]に近いことから、[ROOT.GetCountry.GetLongName]が大きな関心を寄せてきた地域でもある。しかし、現在の統治者[scope_rule_dau.GetName]が、[ROOT.GetCountry.GetAdjectiveWithNoTooltip][ROOT.GetCountry.GetGovernment.GetCourtTitle]にとある提案を持ちかけてきた。[scope_rule_dau.GetShortNameWithNoTooltip]は1333年に兄の死により[target_country.GetNameWithNoTooltip]を相続して以来財政難に悩まされており、それは時とともに悪化の一途を辿っていたのだ。\n\n当初は[GetCountry('PAP').GetLongName]に土地と爵位を売却するつもりだった[scope_rule_dau.GetShortNameWithNoTooltip]だが、代わりに条件つきで[ROOT.GetCountry.GetNameWithNoTooltip]に売却を申し出た。その条件とは、[target_country.GetNameWithNoTooltip]の土地と引き換えに、課税と国家からの特定の命令を免除されるというものだった。さらに$country_flavor_france_dauphin$の称号は、[ROOT.GetCountry.GetNameWithNoTooltip]の君主たちが保持する称号のなかでも、別個で独自の称号として扱われなければならない。"
+ flavor_fra_dau.100.a: "[scope_rule_dau.GetHerHis]の提案を受け入れ、$country_flavor_france_dauphin$を別個の[ROOT.GetCountry.GetGovernment.GetAdjective]の称号としよう。"
+ flavor_fra_dau.100.b: "[scope_rule_dau.GetHerHis]彼の提案は受け入れるが、称号は[ROOT.GetCountry.GetGovernment.GetAdjective]のものと統合しよう。"
+ flavor_fra_dau.100.c: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]は何があろうと[scope_rule_dau.GetHimHer]の提案を呑むことはない。"
+ flavor_fra_dau.101.title: "ドーファンの像"
+ flavor_fra_dau.101.desc: "[GetCountry('DAU').GetName]は[scope_rule_dau.GetName]の統治下でなんとか独立を保っているが、[scope_rule_dau.GetDynasty.GetName]一族の負債を受け継いだ[ROOT.GetCountry.GetGovernment.GetRulerTitle]は[ROOT.GetCountry.GetFlavorRank]の売却を検討するようになった。しかし、[scope_rule_dau.GetShortNameWithNoTooltip]は[GetCountry('PAP').GetName]との取引を望んでいたものの、先方が関心を示さなくなったため交渉は不振に終わった。\n\n[ROOT.GetCountry.GetAdjectiveWithNoTooltip][ROOT.GetCountry.GetGovernment.GetCourtTitle]は[scope_rule_dau.GetShortNameWithNoTooltip]の負債を軽減するため、[target_country.GetLongName]との合意を取りつけようと尽力している。[scope_rule_dau.GetShortNameWithNoTooltip]は自分の称号と統治を放棄することになるものの、[target_country.GetNameWithNoTooltip]との合意においては、必ずや[ROOT.GetCountry.GetNameWithNoTooltip]が自治権を保持するように記されるだろう。"
+ flavor_fra_dau.101.a: "[target_country.GetAdjectiveWithNoTooltip][target_country.GetGovernment.GetCourtTitle]に協定を提案しよう。"
+ flavor_fra_dau.101.b: "我々は決して独立を売り渡さない！"
+ #Tooltips
+ dau_sale_of_viennois_tt: "[target_country.GetName]が承諾すれば、わが国は同君連合の下位国となり、#G 1000#![gold|e]を得る"
+ heirs_will_inherit_dauphin_title: "$country_flavor_france_dauphin$の称号は[ROOT.GetCountry.GetName]の後継者に贈られる。"

@@ -1,0 +1,290 @@
+﻿l_korean:
+ ship_name_acheron: "아케론"
+ ship_name_achille: "아킬레"
+ ship_name_achilles: "아킬레우스"
+ ship_name_aconit: "아코니트"
+ ship_name_adamant: "아다먼트"
+ ship_name_admirable: "애드미러블"
+ ship_name_advice: "어드바이스"
+ ship_name_africain: "아프리캥"
+ ship_name_africaine: "아프리케인"
+ ship_name_aigle: "에이글"
+ ship_name_alexandre: "알렉상드르"
+ ship_name_amarante: "아마랑트"
+ ship_name_amazone: "아마존"
+ ship_name_ambitieux: "앙비슈"
+ ship_name_amphitrite: "암피트리테"
+ ship_name_andromaque: "안드로마케"
+ ship_name_annibal: "안니발"
+ ship_name_antelope: "앤털로프"
+ ship_name_apollon: "아폴론"
+ ship_name_aquilon: "아킬론"
+ ship_name_arabe: "아라브"
+ ship_name_arethuse: "아레투사"
+ ship_name_argonaute: "아르고노트"
+ ship_name_ariane: "아리안"
+ ship_name_armide: "아르미드"
+ ship_name_arrogant: "애로건트"
+ ship_name_arromanches: "아로망슈"
+ ship_name_artemis: "아르테미스"
+ ship_name_artemise: "아르테미즈"
+ ship_name_assistance: "어시스턴스"
+ ship_name_association: "어소시에이션"
+ ship_name_assurance: "어슈어런스"
+ ship_name_astree: "아스트라이아"
+ ship_name_astrolabe: "아스트롤라베"
+ ship_name_atalante: "아탈란테"
+ ship_name_atlas: "아틀라스"
+ ship_name_audacieux: "오다슈"
+ ship_name_audacious: "오데이셔스"
+ ship_name_august: "오거스트"
+ ship_name_auguste: "오귀스트"
+ ship_name_bison: "바이슨"
+ ship_name_borda: "보르다"
+ ship_name_boudeuse: "부되즈"
+ ship_name_bouvet: "부베"
+ ship_name_bull: "불"
+ ship_name_capricieuse: "카프리슈즈"
+ ship_name_captain: "캡틴"
+ ship_name_casabianca: "카사비앙카"
+ ship_name_cassard: "카사드"
+ ship_name_cassiopee: "카시오페이아"
+ ship_name_centurion: "센추리온"
+ ship_name_chacal: "샤칼"
+ ship_name_colossus: "콜로서스"
+ ship_name_conqueror: "컨커러"
+ ship_name_content: "콘텐트"
+ ship_name_coronation: "코로네이션"
+ ship_name_crown: "크라운"
+ ship_name_dauntless: "던틀리스"
+ ship_name_defiance: "디파이언스"
+ ship_name_dragon: "드래곤"
+ ship_name_dreadnought: "드레드노트"
+ ship_name_duchess: "더체스"
+ ship_name_duke: "듀크"
+ ship_name_duperre: "뒤페레"
+ ship_name_dupleix: "뒤플렉스"
+ ship_name_duquesne: "뒤켄"
+ ship_name_durance: "뒤랑스"
+ ship_name_eagle: "이글"
+ ship_name_eglantine: "에글랑틴"
+ ship_name_elan: "엘랑"
+ ship_name_elephant: "엘리펀트"
+ ship_name_epee: "에페"
+ ship_name_espadon: "에스파돈"
+ ship_name_esterel: "에스테렐"
+ ship_name_etoile: "에투알"
+ ship_name_excellent: "엑설런트"
+ ship_name_expedition: "엑스페디션"
+ ship_name_experiment: "익스페리먼트"
+ ship_name_fame: "페임"
+ ship_name_firm: "펌"
+ ship_name_forbin: "포르뱅"
+ ship_name_fortitude: "포티튜드"
+ ship_name_foudre: "푸드로"
+ ship_name_fougueuse: "푸그외즈"
+ ship_name_gapeau: "가포"
+ ship_name_garonne: "가론"
+ ship_name_gazelle: "가젤"
+ ship_name_glaive: "글레이브"
+ ship_name_glorieuse: "글로리외즈"
+ ship_name_glory: "글로리"
+ ship_name_goliath: "골리앗"
+ ship_name_gracieuse: "그라시외즈"
+ ship_name_guepard: "게파르"
+ ship_name_hache: "아슈"
+ ship_name_hallebarde: "알바르드"
+ ship_name_hannibal: "한니발"
+ ship_name_hero: "히어로"
+ ship_name_hope: "호프"
+ ship_name_horse: "호스"
+ ship_name_illustrious: "일러스트리어스"
+ ship_name_impregnable: "임프레그너블"
+ ship_name_indefatigable: "인디패티거블"
+ ship_name_indomptable: "랭동타블"
+ ship_name_inflexible: "인플렉서블"
+ ship_name_interceptor: "인터셉터"
+ ship_name_intrepid: "인트레피드"
+ ship_name_invincible: "인빈서블"
+ ship_name_irresistible: "이리지스터블"
+ ship_name_isis: "이시스"
+ ship_name_jupiter: "주피터"
+ ship_name_kingfisher: "킹피셔"
+ ship_name_laperouse: "라페루즈"
+ ship_name_leopard: "레오파드"
+ ship_name_leopard_fr: "리오파드"
+ ship_name_leviathan: "리바이어던"
+ ship_name_lion: "라이온"
+ ship_name_luberon: "루베롱"
+ ship_name_lynx: "링스"
+ ship_name_lyre: "리라"
+ ship_name_magnificent: "매그니피선트"
+ ship_name_majestic: "마제스틱"
+ ship_name_marigold: "매리골드"
+ ship_name_marne: "마른"
+ ship_name_mars: "마스"
+ ship_name_massue: "마슈"
+ ship_name_medusa: "메두사"
+ ship_name_meduse: "메듀즈"
+ ship_name_mercure: "머큐어"
+ ship_name_meuse: "뫼즈"
+ ship_name_minotaur: "미노타우루스"
+ ship_name_mistral: "미스트랄"
+ ship_name_moderate: "모더레이트"
+ ship_name_monarch: "모나크"
+ ship_name_monge: "몽주"
+ ship_name_montcalm: "몽캄"
+ ship_name_moon: "문"
+ ship_name_moqueuse: "모퀴즈"
+ ship_name_mutin: "뮤탱"
+ ship_name_neptune: "넵튠"
+ ship_name_nonsuch: "넌서치"
+ ship_name_normand: "노르망"
+ ship_name_oak: "오크"
+ ship_name_ocean: "오션"
+ ship_name_orage: "오라주"
+ ship_name_orion: "오리온"
+ ship_name_ouragan: "우라강"
+ ship_name_panther: "팬서"
+ ship_name_panthere: "팡테르"
+ ship_name_pegase: "페가즈"
+ ship_name_perseverante: "페르세베랑트"
+ ship_name_phoenix: "피닉스"
+ ship_name_pluton: "플루톤"
+ ship_name_poseidon: "포제이동"
+ ship_name_powerful: "파워풀"
+ ship_name_president: "프레지던트"
+ ship_name_primauguet: "프리모게"
+ ship_name_princess: "프린세스"
+ ship_name_prize: "프라이즈"
+ ship_name_prudent: "프루던트"
+ ship_name_queen: "퀸"
+ ship_name_railleuse: "라이외즈"
+ ship_name_rapiere: "라피에르"
+ ship_name_reddition: "레디시옹"
+ ship_name_redoutable: "르두타불"
+ ship_name_renown: "리나운"
+ ship_name_repulse: "리펄스"
+ ship_name_reserve: "리저브"
+ ship_name_resolution: "레졸루션"
+ ship_name_restoration: "리스토레이션"
+ ship_name_revenge: "리벤지"
+ ship_name_rieuse: "리외즈"
+ ship_name_royal: "로열"
+ ship_name_ruby: "루비"
+ ship_name_sabre: "사브르"
+ ship_name_saturn: "새턴"
+ ship_name_sceptre: "셉터"
+ ship_name_serieuse: "세리외즈"
+ ship_name_sirocco: "시로코"
+ ship_name_sovereign: "소버린"
+ ship_name_standard: "스탠더드"
+ ship_name_stately: "스테이틀리"
+ ship_name_styx: "스틱스"
+ ship_name_superb: "수퍼브"
+ ship_name_surcouf: "쉬르쿠프"
+ ship_name_surprise: "서프라이즈"
+ ship_name_swallow: "스왈로우"
+ ship_name_swan: "스완"
+ ship_name_swiftsure: "스위프트슈어"
+ ship_name_tapageuse: "타파주즈"
+ ship_name_temeraire: "테메레르"
+ ship_name_tenace: "테네스"
+ ship_name_terrible: "테러블"
+ ship_name_terrible_fr: "떼히블"
+ ship_name_thunderer: "선더러"
+ ship_name_tiger: "타이거"
+ ship_name_tigre: "티그르"
+ ship_name_tonnant: "토낭"
+ ship_name_trememndous: "트레멘더스"
+ ship_name_trident: "트라이던트"
+ ship_name_triomphant: "트리옹팡"
+ ship_name_triton: "트리톤"
+ ship_name_triumph: "트라이엄프"
+ ship_name_trusty: "트러스티"
+ ship_name_unicorn: "유니콘"
+ ship_name_union: "유니온"
+ ship_name_unity: "유니티"
+ ship_name_valiant: "밸리언트"
+ ship_name_vanguard: "뱅가드"
+ ship_name_var: "바르"
+ ship_name_vauquelin: "보클랭"
+ ship_name_venerable: "베너러블"
+ ship_name_veteran: "베테랑"
+ ship_name_victor: "빅토르"
+ ship_name_victorious: "빅토리어스"
+ ship_name_victory: "빅토리"
+ ship_name_vigilant: "비질런트"
+ ship_name_vulcain: "불캥"
+ ship_name_warrior: "워리어"
+ ship_name_warspite: "워스파이트"
+ ship_name_zealous: "질러스"
+ ship_name_anfarwol: "안바르월" #Immortal
+ ship_name_ardderchog: "아르데르호그" #Excellent
+ ship_name_brwd: "브루드" #Fierce
+ ship_name_brwdfrydig: "브루드브러디그" #Enthusiastic
+ ship_name_cadarn: "카다른" #Strong
+ ship_name_cain: "카인" #Fair
+ ship_name_cawr: "카우르" #Giant
+ ship_name_cerddgar: "케르드가르" #Melodious
+ ship_name_clyd: "클리드" #Cozy
+ ship_name_cyfareddol: "커바레들" #Exhilarating
+ ship_name_cymreig: "컴레이그" #Welsh
+ ship_name_cywir: "커위르" #Correct
+ ship_name_cywirdeb: "커위르데브" #Integrity
+ ship_name_dewr: "데우르" #Brave
+ ship_name_direidus: "디레이두스" #Agile
+ ship_name_dirgel: "디르겔" #Mysterious
+ ship_name_dirgelwch: "디르겔우흐" #Mystery
+ ship_name_eglurhaol: "에글러하올" #Transparent
+ ship_name_eithriadol: "이스리아돌" #Exceptional
+ ship_name_euraid: "이라이드" #Golden
+ ship_name_fflamgoch: "플람고흐" #Red flame
+ ship_name_galwadwy: "갈와두이" #Reliable
+ ship_name_garw: "가루" #Rough
+ ship_name_gloyw: "글로이우" #Bright
+ ship_name_gorfoledd: "고르볼레드" #Joyful
+ ship_name_gorlif: "고를리브" #Majestic
+ ship_name_gwawr: "과우르" #Dawn
+ ship_name_gwyntog: "귄토그" #Windy
+ ship_name_haerllug: "헤일히그" #Majestic
+ ship_name_heddwen: "헤드윈" #White peace
+ ship_name_heddychlon: "헤데흐론" #Peaceful
+ ship_name_helyg: "헬리그" #Willow
+ ship_name_hirfelyn: "히르벨린" #Long fang
+ ship_name_hirionedd: "히리오네드" #Truth
+ ship_name_hudolus: "히돌리스" #Enchanting
+ ship_name_hynod: "허노드" #Extraordinary
+ ship_name_iaithlawn: "이아이슬라운" #Linguistic
+ ship_name_iraidd: "이라이드" #Furious
+ ship_name_jawdropping: "서브르다놀" #Jaw-dropping
+ ship_name_lleddf: "흐레드브" #Smooth
+ ship_name_llongyfarch: "흐롱거바르흐" #Congratulations
+ ship_name_lluddias: "흐리디아스" #Stealthy
+ ship_name_llwyd: "흐루이드" #Grey
+ ship_name_llyfn: "흐러븐" #Smooth
+ ship_name_llygadwyllt: "흐러가드윌트" #Wild-eyed
+ ship_name_llygaid-wen: "흐러가이드웬" #White-eyed
+ ship_name_lysieuol: "러시에이올" #Herbaceous
+ ship_name_mawreddog: "마우레도그" #Majestic
+ ship_name_medrus: "메드리스" #Skilled
+ ship_name_melyngoch: "멜린고흐" #Yellow-red
+ ship_name_mewnfwyafn: "메운부이아븐" #Deepest
+ ship_name_morol: "모롤" #Ocean
+ ship_name_nawddgar: "나우드가르" #Protective
+ ship_name_noddfa: "노드바" #Sanctuary
+ ship_name_oerfel: "오이르벨" #Frosty
+ ship_name_olau: "올라이" #Light
+ ship_name_parhadol: "파르하돌" #Enduring
+ ship_name_poblogaidd: "포블로가이드" #Popular
+ ship_name_rhamantus: "라만티스" #Romantic
+ ship_name_sefyllfa: "세브흘바" #Position
+ ship_name_seren: "세렌" #Star
+ ship_name_talgarth: "탈가르스" #High-fortress
+ ship_name_taranau: "타라나이" #Thunderous
+ ship_name_tosturiol: "토스티리올" #Disruptive
+ ship_name_uchelgeisiol: "위헬게이시올" #Ambitious
+ ship_name_unben: "윈벤" #Leader
+ ship_name_wawddeg: "와우데그" #Boisterous
+ ship_name_ymylchgrawn: "어밀흐그라운" #Periphery
+ ship_name_ynfydgar: "언브드가르" #Magnificent

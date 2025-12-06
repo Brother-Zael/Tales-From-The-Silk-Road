@@ -1,0 +1,5 @@
+﻿l_turkish:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "[ROOT.GetCountry.GetName] içerisinde süvari birliklerinin baskın gelmesi nedeniyle [target_character.GetName] [ShowUnitDefinitionName('a_esho_cavalry_oyo')] adını verdiği seçkin bir birlik oluşturmaya karar verdi. Onları özel alaylar olarak kullanabilir veya ordunun geri kalanına dâhil edebiliriz."
+ flavor_oyo.1.a: "Ordunun geri kalanından ayrı hareket edecekler."
+ flavor_oyo.1.b: "Diğer alaylarla birlikte hareket etsinler."

@@ -1,0 +1,292 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Attack"={
+		preferent_timeline_layer={
+			timeline="L_relative_Attack_editor_timeline"
+		}
+		timeline_layer={
+			timeline="idle_animation"
+		}
+	}
+ 	"Idle"={
+		preferent_timeline_layer={
+			timeline="L_relative_Idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Idle"
+		}
+	}
+ 	"Move"={
+		preferent_timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="moving_animation"
+		}
+	}
+ 	"Retreat"={
+		preferent_timeline_layer={
+			timeline="L_relative_Retreat_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Retreat"
+		}
+	}
+ 	"Charge"={
+		preferent_timeline_layer={
+			timeline="L_relative_Charge_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Charge"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 17"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="1"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 9"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="1"
+ 		}
+		behavioral_state="Attack"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 11"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 13"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="4"
+ 		}
+		behavioral_state="Charge"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 15"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="3"
+ 		}
+		behavioral_state="Retreat"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 20"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 22"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="3"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 24"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="4"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	audio_event={
+		name="snd_retreat_1"
+		trigger_time_absolute=0.141000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_2"
+		trigger_time_absolute=0.587000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_3"
+		trigger_time_absolute=1.113000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_retreat_4"
+		trigger_time_absolute=1.585000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	particle_action={
+		name="dust_vfx_start"
+		trigger_time_absolute=0.149112
+		hierarchy_place="wheel_dust_vfx"
+		type=start
+	}
+ }
+
+timelines={
+	"L_relative_Attack_editor_timeline"={
+		boundary_behavior=loop
+		duration=12.366756
+		events={
+			"Connection 17"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+		generated_timeline=yes
+	}
+ 	"L_relative_Idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.235000
+		events={
+			"Connection 9"
+			"Connection 11"
+			"Connection 13"
+			"Connection 15"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+		generated_timeline=yes
+	}
+ 	"L_relative_Move_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.034343
+		events={
+			"dust_vfx_start"
+			"Connection 20"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_relative_Retreat_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.034343
+		events={
+			"snd_retreat_1"
+			"snd_retreat_2"
+			"snd_retreat_3"
+			"snd_retreat_4"
+			"Connection 22"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_relative_Charge_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.034343
+		events={
+			"Connection 24"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"idle_animation"={
+		boundary_behavior=loop
+		duration=12.366756
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"moving_animation"={
+		boundary_behavior=loop
+		duration=1.034343
+		events={
+			"dust_vfx_start"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"Idle"={
+		boundary_behavior=loop
+		duration=1.235000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"Retreat"={
+		boundary_behavior=loop
+		duration=1.034343
+		events={
+			"snd_retreat_1"
+			"snd_retreat_2"
+			"snd_retreat_3"
+			"snd_retreat_4"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"Charge"={
+		boundary_behavior=loop
+		duration=1.034343
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

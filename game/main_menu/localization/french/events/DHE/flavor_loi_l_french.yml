@@ -1,0 +1,11 @@
+﻿l_french:
+ flavor_loi.10.title: "Les îles nordiques"
+ flavor_loi.10.desc: "Les habitants de [ROOT.GetCountry.GetLongName] ont longtemps vécu dans l'ombre de leur héritage [ROOT.GetCountry.GetCulture.GetName|l], mais aujourd'hui, face à l'évolution de la situation, nous envisageons d'embrasser à nouveau nos racines nordiques. Tandis que nous nous rapprochons de plus en plus des anciens royaumes de [scandinavia.GetName], nous avons beaucoup à gagner à redécouvrir ce patrimoine ancestral et à forger de nouvelles alliances.\n\nSi nous envisageons d'emprunter cette voie, nous devons nous préparer à abandonner certaines de nos traditions et pratiques gaéliques, mais les bénéfices de ce voyage peuvent être considérables. En assumant nos racines nordiques, nous pouvons établir une nouvelle et puissante identité [nordic_culture.GetName|l] pour le peuple de ces îles et prendre notre place parmi les Lions du Nord.\n\nOserons-nous entreprendre un tel voyage de redécouverte ?"
+ flavor_loi.10.a: "Assumons nos racines nordiques."
+ flavor_loi.10.b: "Résistons à l'appel du Nord."
+ opinion_loi_10_adopted_our_culture: "Culture nordique adoptée"
+ flavor_loi.20.title: "Concours de construction navale"
+ flavor_loi.20.desc: "Les vents de la province de [target_location.GetProvinceDefinition.GetName] portent le son des marteaux frappant le chêne et le pin, tandis que les maîtres charpentiers de la région de [target_location.GetArea.GetName] se réunissent pour participer au grand concours de construction navale [ROOT.GetCountry.GetAdjective|l] à [target_location.GetName].\n\nLa construction navale traditionnelle fait partie intégrante de notre mode de vie et doit être encouragée. En tant que représentants de la [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')], nous avons le devoir de superviser ce concours."
+ flavor_loi.20.a: "Commandons une galère pour participer."
+ flavor_loi.20.b: "Parrainons l'un des favoris."
+ flavor_loi.20.c: "Ignorons ce concours."

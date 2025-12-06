@@ -1,0 +1,13 @@
+﻿l_german:
+ legatusnatus.1.title: "Legatus Natus"
+ legatusnatus.1.desc: "[home_ruler.GetName|U] wird seit Langem die Ehre zuteil, nördlich der Alpen [pope_ruler.GetName] als [ShowGovernmentReformName('legatus_natus')] zu repräsentieren.\nSolch ein prestigeträchtiger Titel verlangt ein gewisses Maß an Würde, und wir können es uns nicht erlauben, dass unser Prestige oder die Beziehungen [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'zur', 'zum')] [GetCountry('PAP').GetGovernment.GetRulerTitle] zu stark Schaden nehmen."
+ legatusnatus.1.a: "Es ist in Gottes Hand."
+ legatusnatus.2.title: "Titel Legatus Natus verloren"
+ legatusnatus.2.desc: "Unser Stand im [international_organization|e] „[GetUniqueInternationalOrganization('hre').GetName]“ und bei [pope_ruler.GetName] ist in letzter Zeit gesunken. Das Kirchenoberhaupt ([GetCountry('PAP').GetGovernment.GetRulerTitle]) scheint nicht länger Vertrauen in uns als [ShowGovernmentReformName('legatus_natus')] im HRR [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] zu haben und hat unglücklicherweise entschieden, uns den Titel abzuerkennen."
+ legatusnatus.2.a: "Es war wohl doch in meiner Hand."
+ legatusnatus.3.title: "Ein Gesandter des Kirchenoberhaupts ([GetCountry('PAP').GetGovernment.GetRulerTitle])"
+ legatusnatus.3.desc: "Frohe Kunde! [home_ruler.GetName] wurde von [pope_ruler.GetName] für den Titel [ShowGovernmentReformName('legatus_natus')] auserkoren, seinem Vertreter nördlich der Alpen, nachdem der vorherige Inhaber in Ungnaden gefallen war."
+ legatusnatus.3.a: "Ist dieses Licht dort ein göttlicher Strahl?"
+ legatusnatus.4.title: "Position als [ShowGovernmentReformName('legatus_natus')] aberkannt"
+ legatusnatus.4.desc: "Die prestigeträchtige Position des [ShowGovernmentReformName('legatus_natus')] kann nur von einem #L [ShowReligionAdjective('catholic')|l]en#! Bischof des HRR ([GetUniqueInternationalOrganization('hre').GetName]) bekleidet werden. Da [home_ruler.GetName] diese Anforderung nicht mehr erfüllt, hat [pope_ruler.GetName] den Titel wieder entzogen."
+ legatusnatus.4.a: "Verflucht sei das Kirchenoberhaupt ([GetCountry('PAP').GetGovernment.GetRulerTitle])."

@@ -1,0 +1,7 @@
+
+# Constant buffers
+constantbuffer = { file = "standardfuncsgfx.fxh"		name = "SharedConstants" }
+
+
+# Nodes
+node = { file = "fog_of_war.fxh"			function = "HandleFogOfWar" }

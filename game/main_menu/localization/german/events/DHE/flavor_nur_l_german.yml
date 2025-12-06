@@ -1,0 +1,7 @@
+﻿l_german:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Nur wenige Menschen haben im Leben mehr erreicht als [target_character.GetName]. [target_character.Custom('DE_PRO_PER_S_3P_N')|U] stammt aus einer Händlerfamilie und bewies Geschick bei Geschäften in ganz [ShowRegionName('italy_region')]. Das Handelsnetzwerk, das [Select_CString(target_character.IsFemale,'ihre','seine')] Familie aufbaute, ist die Grundlage für einen Großteil des Reichtums der wohlhabenden Halbinsel. Nach langer Zeit in der Fremde hegt [Select_CString(target_character.IsFemale,'die berühmte Händlerin','der berühmte Händler')] nun jedoch den Wunsch, in die Heimat zurückzukehren und in unsere Märkte zu investieren. [target_character.Custom('DE_PRO_PER_S_3P_N')|U] plant selbst, unser Land um viele Neuerungen aus [ShowRegionNameWithNoTooltip('italy_region')] zu bereichern …"
+ flavor_nur.1.a: "Willkommen daheim!"
+ flavor_nur.1.b: "Wir können uns solche Frivolitäten nicht leisten!"
+ flavor_nur.1.c: "Wir lehnen höflich ab."
+ target_character_vanishes_tt: "[target_character.GetNameWithNoTooltip|U] verschwindet"

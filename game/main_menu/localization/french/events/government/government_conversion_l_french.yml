@@ -1,0 +1,5 @@
+﻿l_french:
+ government_conversion_events.conversion_complete.title: "L'avènement du [target_government_type.GetNameWithNoTooltip] [target_country.GetAdjectiveWithNoTooltip]"
+ government_conversion_events.conversion_complete.title_fallback: "Reformation du gouvernement"
+ government_conversion_events.conversion_complete.desc: "Ces dernières années ont été émaillées de troubles et de tourmentes. Bien que l'option la plus sûre au long cours soit, pour [target_country.GetLongName], la formation d'un état de type [target_government_type.GetName], nombre de vieillards influents et décadents se sont battus bec et ongles pour maintenir l'ancien [origin_government_type.GetName]. Contre toute attente, [target_character.GetName] a su déjouer leurs manœuvres et aboli les anciennes traditions qui gênaient la centralisation du pouvoir au sein de notre jeune [target_government_type.GetNameWithNoTooltip]."
+ government_conversion_events.conversion_complete.a: "Notre [origin_government_type.GetNameWithNoTooltip] n'est plus. Aujourd'hui, nous devenons un [target_government_type.GetNameWithNoTooltip] !"

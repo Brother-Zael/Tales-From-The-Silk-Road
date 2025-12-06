@@ -1,0 +1,4 @@
+﻿l_french:
+ kritarchy_events.1.title: "Fin du Conclave judiciaire"
+ kritarchy_events.1.desc: "La Cour suprême a terminé de débattre du juge qui devrait être élu comme nouveau [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Le Conseil a hâte de fêter l'ascension de [successor_character.GetName] au rang de nouveau commandant de [ROOT.GetCountry.GetName]."
+ kritarchy_events.1.a: "Que son autorité soit emplie de sagesse."

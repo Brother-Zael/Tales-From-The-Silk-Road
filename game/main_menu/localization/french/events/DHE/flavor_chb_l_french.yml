@@ -1,0 +1,10 @@
+﻿l_french:
+ flavor_chb.1.title: "La rébellion de [target_character.GetNameWithNoTooltip]"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName] fut l'un des généraux les plus importants de [GetCountry('MGE').GetName]. Bien que sa lignée ait connu une certaine disgrâce, elle n'a pas disparu, et aujourd'hui, son petit-fils [target_character.GetName] a réussi à rassembler de nombreux partisans autour de lui. Parmi eux se trouve le gouverneur de [target_location.GetName], ce qui lui a permis de prendre le contrôle du [target_location.GetRank.GetName] et de toute la région environnante. Il est même allé jusqu'à capturer et exécuter [GetCharacter('jal_muhammad_khan').GetName]."
+ flavor_chb.1.a: "Nous allons l'écraser ainsi que sa lignée, comme de la vermine."
+ flavor_chb.1.tt: "[target_character.GetName] a obtenu des territoires autour de [target_location.GetName]"
+ flavor_chb.1.b: "Son ascension donnera-t-elle lieu à une certaine grandeur ?"
+ flavor_chb.2.title: "L'héritage d'une $rank_kingdom_horde_ruler_female$"
+ flavor_chb.2.desc: "[target_khatun.GetName] fut l'épouse de [GetCharacter('chb_chupan').GetName] et joua un rôle actif dans la politique de l'[GetUniqueInternationalOrganization('ilkhanate').GetName]. Voyant en nous une opportunité de s'emparer du trône, elle est prête à faire défection et à nous offrir son soutien. Nous pourrions exploiter ses liens familiaux et ses contacts pour faire d'elle notre marionnette sur le trône de l'[GetUniqueInternationalOrganization('ilkhanate').GetNameWithNoTooltip]. Cependant, son ambition pourrait la rendre difficile à contrôler, et il vaudrait peut-être mieux la marier à un prétendant plus docile pour mieux asseoir notre influence."
+ flavor_chb.2.a: "Elle fera une excellente $rank_kingdom_horde_ruler_female$."
+ flavor_chb.2.b: "Mieux vaut ne pas lui donner trop d'influence."

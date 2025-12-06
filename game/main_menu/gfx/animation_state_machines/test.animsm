@@ -1,0 +1,18 @@
+﻿local_variables={
+}
+
+behavioral_states={
+}
+
+events={
+}
+
+timelines={
+}
+
+starting_timeline={
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

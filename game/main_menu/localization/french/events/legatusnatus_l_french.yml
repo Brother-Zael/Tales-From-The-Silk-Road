@@ -1,0 +1,13 @@
+﻿l_french:
+ legatusnatus.1.title: "Legatus natus"
+ legatusnatus.1.desc: "[home_ruler.GetName] a longtemps eu l'honneur de représenter le [pope_ruler.GetName], le [ShowGovernmentReformName('legatus_natus')], au nord des Alpes.\nUn titre aussi prestigieux exige un certain niveau de dignité et nous ne pouvons pas laisser notre prestige ou nos relations avec le [GetCountry('PAP').GetGovernment.GetRulerTitle] se dégrader davantage."
+ legatusnatus.1.a: "C'est entre les mains de Dieu."
+ legatusnatus.2.title: "Perte du titre de legatus natus"
+ legatusnatus.2.desc: "Notre position au sein du [GetUniqueInternationalOrganization('hre').GetName] et auprès du [pope_ruler.GetName] s'est dégradée ces derniers temps. Le [GetCountry('PAP').GetGovernment.GetRulerTitle] ne semble plus avoir confiance en nous pour maintenir notre rôle de [ShowGovernmentReformName('legatus_natus')] au sein du [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] et a malheureusement décidé de nous retirer ce titre."
+ legatusnatus.2.a: "Tout reposait sur nous, finalement..."
+ legatusnatus.3.title: "Un émissaire du [GetCountry('PAP').GetGovernment.GetRulerTitle]"
+ legatusnatus.3.desc: "Bonne nouvelle ! [pope_ruler.GetName] a choisi [home_ruler.GetName] pour porter le prestigieux titre de [ShowGovernmentReformName('legatus_natus')], son représentant au nord des Alpes, après que l'ancien détenteur est tombé en disgrâce."
+ legatusnatus.3.a: "Serait-ce une lueur d'espoir ?"
+ legatusnatus.4.title: "Poste de [ShowGovernmentReformName('legatus_natus')] révoqué"
+ legatusnatus.4.desc: "Le poste prestigieux de [ShowGovernmentReformName('legatus_natus')] ne peut être occupé que par un évêque [ShowReligionAdjective('catholic')] du [GetUniqueInternationalOrganization('hre').GetName]. Comme [home_ruler.GetName] ne remplit plus cette condition, [pope_ruler.GetName] a révoqué le titre."
+ legatusnatus.4.a: "Maudit soit le [GetCountry('PAP').GetGovernment.GetRulerTitle]."

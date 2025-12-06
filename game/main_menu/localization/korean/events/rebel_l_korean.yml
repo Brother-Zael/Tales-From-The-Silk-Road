@@ -1,0 +1,7 @@
+﻿l_korean:
+ rebel.1.title: "콜라 디 리엔초"
+ rebel.1.desc: "한때 위용을 자랑했던 [target_location.GetName]시가 타락과 쇠퇴에 빠졌습니다. 오랜 세월 이어진 현지 귀족들의 실정으로 과거의 영광은 사라지고 앙상한 뼈대만이 남아, 거리에는 걸인이, 골목에는 강도가 가득합니다.\n\n결국 당연하게도 반란이 일어났고, 주모자는 [target_character.GetName](이)라는 인물이었습니다. 그자는 도시 귀족과의 사건으로 남동생이 살해당한 공증인으로 잘 알려져 있으며, [GetCountry('PAP').GetGovernment.GetRulerTitle](과)와 대화를 나누고자 파견되었다가 깊은 인상을 남겨 짧은 기간 그곳의 공직에 채용되기도 했습니다.\n\n우리 정보원의 말에 따르면 [target_character.GetShortNameWithNoTooltip](은)는 추종자를 모아 [target_location.GetNameWithNoTooltip] 주민들을 규합했다고 합니다. 이들 세력에 겁을 먹은 현지 귀족은 군중을 보자마자 도망쳤고, 결국 이들은 피 한 방울 흘리지 않고 캄피돌리오를 차지했습니다."
+ rebel.1.a: "그자가 계속 귀족에게서 도시를 지키도록 하라."
+ rebel.1.b: "그자에게 막강한 도시의 권한과 통치권을 부여하라."
+ rebel.1.c: "그러한 무질서는 용납할 수 없다. 도시를 탈환하라!"
+ cola_rebels: "콜라 디 리엔초 지지 세력"

@@ -1,0 +1,9 @@
+﻿l_german:
+ flavor_jap_kor.1.title: "Himmlische Ambitionen"
+ flavor_jap_kor.1.desc: "Die Wiedervereinigung von [ShowRegionName('japan_region')] ist unter dem wachsamen Blick von [ROOT.GetCountry.GetName] endlich abgeschlossen. Da es keine Feinde mehr zu bekämpfen gibt, könnte sich unser [ShowGovernmentReformName('daimyo')] nun inneren Machtkämpfen zuwenden oder sich gar gegen uns verbünden, um sich von unserer Herrschaft zu befreien. Das dürfen wir nicht zulassen. Daher ist es unerlässlich, dass wir einen neuen Zwist finden, den wir führen können. Welcher Streit wäre dafür besser geeignet als die Eroberung von $china$ und die Vertreibung des #L [target_country2.GetAdjective|l]en#! Volkes? Hierfür müssen wir jedoch [target_country.GetName] erobern."
+ flavor_jap_kor.1.a: "Wir ziehen in den Krieg!"
+ flavor_jap_kor.1.b: "Wir müssen uns auf den Streit vorbereiten."
+ flavor_jap_kor.1.c: "Wir werden keinen Zank mit unseren Nachbarn suchen."
+ flavor_jap_kor.2.title: "Krieg steht uns bevor"
+ flavor_jap_kor.2.desc: "Als ob die Wiedervereinigung von [ShowRegionName('japan_region')] nicht schon besorgniserregend genug wäre, haben sich unsere schlimmsten Befürchtungen bewahrheitet: Der militante #L [from_country.GetAdjective|l]e#! Staat hat uns den Krieg erklärt! Wir müssen unsere Truppen und die Marine auf die unvermeidliche Landung in [ShowRegionName('korea_region')] vorbereiten. Die Beweggründe dieser Leute sind zwar unklar, doch eines ist sicher: Wir sind für sie lediglich ein Hindernis auf dem Weg zu ihrem eigentlichen Ziel – dem [GetInternationalOrganization('middle_kingdom').GetName]."
+ flavor_jap_kor.2.a: "Wir werden sie nicht passieren lassen!"

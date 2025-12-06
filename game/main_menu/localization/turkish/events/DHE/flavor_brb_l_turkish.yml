@@ -1,0 +1,5 @@
+﻿l_turkish:
+ flavor_brb.1.title: "[target_location.GetNameWithNoTooltip] İlinin Yükselişi"
+ flavor_brb.1.desc: "[target_location.GetName] limanı [ROOT.GetCountry.GetName] için her zaman önemliydi ve [target_market.GetName] Pazarı'ndaki tüccarlarımızın gücünü artırmamızı sağladı. Son dönemde [target_location.GetRank.GetName] olan ilin [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] zümresi ili daha da ileriye taşıdı. Şimdi de şehrin limanını geliştirmek için planlar hazırlıyorlar."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] desteğimizi hak ediyor."
+ flavor_brb.1.b: "Yeni bir liman için yeterli kaynağımız yok."

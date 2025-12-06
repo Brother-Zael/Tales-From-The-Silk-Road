@@ -1,0 +1,6 @@
+﻿l_korean:
+ flavor_jol.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]들의 개종"
+ flavor_jol.1.desc: "[ShowRegionName('guinea_region')]에서 우리의 영향력이 늘어남에 따라 우리는 정복지의 [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]들이 제기한 요구를 상당 부분 수용해 주었습니다. 하지만 이들은 아직 [ROOT.GetCountry.GetReligion.GetAdjective] 가치관과 [ROOT.GetCountry.GetCulture.GetName] 문화에 완전히 녹아들지 못했으니, 이에 도움이 될 만한 활동을 펼치는 것이 좋아 보입니다."
+ flavor_jol.1.a: "[ROOT.GetCountry.GetNameWithNoTooltip]의 안정이 최우선이다!"
+ flavor_jol.1.b: "괜히 [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]들의 적대감을 불러일으킬 필요는 없다."
+ jol_convert_nobility_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e]의 #Y 15%#!가 [ROOT.GetCountry.GetCulture.GetName] 문화 및 [ROOT.GetCountry.GetReligion.GetName](을)를 따르게 됩니다"

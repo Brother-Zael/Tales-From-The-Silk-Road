@@ -1,0 +1,5 @@
+﻿l_russian:
+ character_events.1.title: "[target_character.GetNameWithNoTooltip] и [Select_CString(target_character.IsFemale,'её', 'его')] перепады настроения"
+ character_events.1.title.no_event_target: "Перепады настроения"
+ character_events.1.desc: "[target_character.GetName] — важный человек, ведь [Select_CString(target_character.IsFemale,'она', 'он')] управляет #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!. К несчастью, [Select_CString(target_character.IsFemale,'она', 'он')] отличается сумасбродным нравом и неустойчивым настроением. Уже в который раз подданные изумлены [Select_CString(target_character.IsFemale,'её', 'его')] отношением к государственным делам…"
+ character_events.1.a: "Будем надеяться, что [Select_CString(target_character.IsFemale,'она', 'он')] не создаст нам проблем…"

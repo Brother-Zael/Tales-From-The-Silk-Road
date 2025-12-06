@@ -1,0 +1,4 @@
+﻿l_french:
+ diseases.1.title: "Une nouvelle épidémie"
+ diseases.1.desc: "À [location_scope.GetName], les habitants désespèrent de voir leurs familles et leurs voisins succomber à l'implacable [disease.GetName] qui se propage actuellement dans la contrée. Les quartiers autrefois animés sont désormais emplis d'inquiétude et d'incertitude.\n\nMalheureusement, nous ne pouvons pas faire grand-chose pour freiner la propagation de l'épidémie sur notre territoire."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

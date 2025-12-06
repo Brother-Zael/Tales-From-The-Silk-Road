@@ -1,0 +1,39 @@
+﻿###############################################
+# heads
+###############################################
+
+heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_german_a_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_german_b_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_north_german_male_adult_c_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_north_german_male_adult_a_mesh" } }
+    #1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_north_german_male_adult_b_mesh" } 
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_german_a_mesh"  add_tags = "head" required_tags = "neck" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_north_german_male_adult_color_mesh" } }
+}
+
+north_american_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_iroquois_01_mesh" } }
+}
+
+middle_east_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_syrian_01_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_syrian_02_mesh" } }
+}
+
+east_asian_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_chinese_01_mesh" } }
+}
+
+african_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_ashanti_01_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_ashanti_02_mesh" } }
+}
+
+indian_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_deccan_01_mesh" } }
+}
+
+south_american_gfx:heads = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_head_aztec_01_mesh" } }
+}

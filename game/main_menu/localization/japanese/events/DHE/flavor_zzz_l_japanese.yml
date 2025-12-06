@@ -1,0 +1,9 @@
+﻿l_japanese:
+ flavor_zzz.1.title: "[target_location.GetNameWithNoTooltip]の壁"
+ flavor_zzz.1.desc: "[ShowRegionName('guinea_region')]におけるわが国の軍事的台頭に伴い、[target_location.GetName]は文化だけでなく紛争の中心地ともなった。そのため[target_character.GetName]は、自身の名を冠した城壁を築き、[target_location.GetRank.GetName]が決して陥落しないようにしたいと考えている。"
+ flavor_zzz.1.a: "[target_location.GetNameWithNoTooltip]を守ろう。"
+ flavor_zzz.1.b: "壁など必要ない。"
+ flavor_zzz.2.title: "攻勢に出る[ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_zzz.2.desc: "[ROOT.GetCountry.GetName]の軍事力の増大により、[target_character.GetName]とその[ROOT.GetCountry.GetGovernment.GetCourtTitle]はすでに、我々の力をさらに高めるための計画を立てている。彼らは、近隣諸国を征服する方針をとるか、それともこれまでに得た利益を守ることに重点を置いた防御的な戦略をとるかを提案した。"
+ flavor_zzz.2.a: "迷わず征服せよ！"
+ flavor_zzz.2.b: "現在の利益を強化しろ。"

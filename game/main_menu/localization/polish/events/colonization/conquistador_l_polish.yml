@@ -1,0 +1,12 @@
+﻿l_polish:
+ conquistador.1.title: "[SCOPE.sLocation('target_location').GetNameWithNoTooltip] – podbój"
+ conquistador.1.desc: "Nasi konkwistadorzy dotarli na obszar znany jako [SCOPE.sLocation('target_location').GetName] i są gotowi zwiększać nasze wpływy."
+ conquistador.1.a: "Zobaczmy, co uda się znaleźć!"
+ conquistador.10.title: "[ROOT.GetLocation.GetNameWithNoTooltip] – podbój"
+ conquistador.10.desc: "Przejęliśmy jeszcze więcej terytorium, wzbogacając się. Dzięki temu kraj [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName] ma teraz więcej prestiżu. Błogosławmy to, co daje nam [former_overlord.GetReligion.GetGodName]!"
+ conquistador.10.a: "Zostały dla nas jeszcze bogactwa!"
+ conquistador.10.b: "Potrzebujemy wsparcia, by tu administrować!"
+ conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip] zakłada kolonię"
+ conquistador.11.desc: "Kraj [conquistador_country.GetLongName] prosi o pomoc, by stać się formalnie naszym podmiotem, co zmieni go w państwo kolonialne!"
+ conquistador.11.a: "To świetne rozwiązanie!"
+ conquistador.11.b: "To ich problem."

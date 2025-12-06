@@ -1,0 +1,9 @@
+﻿l_polish:
+ flavor_arm.1.title: "Utrata wiedzy"
+ flavor_arm.1.desc: "Od wieków [ShowBuildingTypeName('university')|l], którego siedzibą jest [target_location.GetName], był dla naszego ludu ośrodkiem kultury i nauki. Rozwinął się on dzięki szczodrości słynnych arystokratycznych rodzin, lecz ostatnie lata przyniosły wiele nieszczęść patronatom tego miejsca. Utrata funduszy spowodowała, że wiele przedmiotów zostało porzuconych, a liczna rzesza wykładowców utraciła swoje stanowiska. Ludzie martwią się, że [ShowBuildingTypeNameWithNoTooltip('university')|l] może zostać zamknięty, jeśli nie otrzyma znikąd pomocy..."
+ flavor_arm.1.a: "Niech popadnie w ruinę."
+ flavor_arm.1.b: "Sfinansujmy to!"
+ flavor_arm.2.title: "Uniwersytet Tatew"
+ flavor_arm.2.desc: "Skoncentrowany wokół tętniącej życiem społeczności regionu znanego jako [target_location.GetName], miejscowy klasztor posiada archiwum, w którym można znaleźć szereg umów, dokumentów urzędowych oraz wartościowych rękopisów. W rezultacie jest to teraz bijące serce wiedzy na temat tego terenu, a wykładowcy proszą o rozbudowanie placówki, gdyż chcieliby ustanowić nowe wydziały oferujące zajęcia ze sztuki biblijnej oraz muzyki."
+ flavor_arm.2.a: "Sfinansujmy tę rozbudowę."
+ flavor_arm.2.b: "Lepiej tego nie robić."

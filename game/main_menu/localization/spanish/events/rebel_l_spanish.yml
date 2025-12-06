@@ -1,0 +1,7 @@
+﻿l_spanish:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "La antaño gran ciudad de [target_location.GetName] es ahora un lugar en decadencia; tras años de mala gestión por parte de los nobles locales, no es más que una triste sombra de lo que fue, y sus calles están repletas de mendigos y rateros.\n\nPor ello, como era de esperar, se ha acabado produciendo una rebelión, liderada por un hombre llamado [target_character.GetName]. Se trata de un famoso notario cuyo hermano murió en un incidente con un noble de la ciudad y al que enviaron a hablar con el [GetCountry('PAP').GetGovernment.GetRulerTitle|l], al cual impresionó lo suficiente como para que le otorgara un cargo oficial en su corte durante un breve período.\n\nNuestras fuentes nos informan de que este hombre ha reunido a sus seguidores y a los habitantes de [target_location.GetNameWithNoTooltip] y que, juntos, han tomado el Capitolio sin derramar ni una sola gota de sangre gracias a la cobardía de los nobles gobernantes, quienes han huido de la turba y entregado la ciudad."
+ rebel.1.a: "Permitámosle conservar el poder en lugar de los nobles."
+ rebel.1.b: "Confirámosle poderes extraordinarios y el liderazgo de la ciudad."
+ rebel.1.c: "No permitiremos semejante anarquía. ¡Recuperemos el control de la ciudad!"
+ cola_rebels: "Partidarios de Cola di Rienzo"

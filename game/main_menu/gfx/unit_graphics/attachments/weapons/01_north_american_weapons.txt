@@ -1,0 +1,57 @@
+﻿### IROQUOIS ###
+#AGE_1_TRADITIONS
+	#PEASANT
+
+north_american_gfx:medium_tag:axe_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_axe_tomahawk_feather_schematic" 					add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+}
+
+north_american_gfx:axe_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_axe_wood_stone_schematic" 							add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_axe_stone_schematic" 								add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+}
+
+north_american_gfx:sword_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_club_wood_ball_schematic" 							add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_club_spike_schematic" 								add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+}
+
+north_american_gfx:spear_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_stone_iroquois_schematic" 					add_tags = "UnitWeapon_spear" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_spear" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_deer_sinew_schematic" 						add_tags = "UnitWeapon_spear" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_spear" } }
+}
+
+north_american_gfx:bow_weapons = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		schematic_name = "unit_weapon_bow_feather_iroquois_schematic" 			add_tags = "UnitWeapon_bow" 								animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+}
+
+	#MEDIUM
+	#HEAVY
+north_american_gfx:noble_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_club_spike_feather_schematic" 						add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_wood_paint_polish_seashell_schematic" 				add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+}
+
+age_3_discovery:north_american_gfx:noble_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_twohanded_axe_iroquois_schematic" 					add_tags = "UnitWeapon_two_handed_axe" 						animation_state_machine_override = "unit_skeleton_state_machine_two_handed_axe" } }
+}
+
+north_american_gfx:peasant_musket_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_schematic" 				add_tags = "UnitWeapon_rifle" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_paint_schematic" 			add_tags = "UnitWeapon_rifle" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_feather_down_schematic" 		add_tags = "UnitWeapon_mathlock"  							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_horse_hair_schematic" 					add_tags = "UnitWeapon_musket"  							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_barrel_wrap_schematic" 	add_tags = "UnitWeapon_rifle" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+}
+north_american_gfx:soldier_musket_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_schematic" 				add_tags = "UnitWeapon_rifle"  								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_paint_schematic" 			add_tags = "UnitWeapon_rifle" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_feather_down_schematic" 		add_tags = "UnitWeapon_mathlock" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_horse_hair_schematic" 					add_tags = "UnitWeapon_musket" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_feathers_barrel_wrap_schematic" 	add_tags = "UnitWeapon_rifle" 								animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+}
+
+north_american_gfx:cavalry_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_axe_tomahawk_feather_schematic" 					add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_club_spike_schematic" 								add_tags = "UnitWeapon_axe" add_tags = "one_handed" 		animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }	
+}  

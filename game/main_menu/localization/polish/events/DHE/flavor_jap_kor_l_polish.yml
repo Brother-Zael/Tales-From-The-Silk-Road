@@ -1,0 +1,9 @@
+﻿l_polish:
+ flavor_jap_kor.1.title: "Niebiańskie ambicje"
+ flavor_jap_kor.1.desc: "[ShowRegionName('japan_region')] została w końcu zjednoczona pod czujnym, #L [ROOT.GetCountry.GetAdjective|l]kim#! okiem. Jako że wojna się skończyła, nasz [ShowGovernmentReformName('daimyo')] może teraz zająć się sprawami wewnętrznymi albo, co gorsza, zbierze dodatkowe siły, by wyrwać się spod naszej kontroli. Nie możemy do tego dopuścić, dlatego jak najszybciej powinniśmy znaleźć nowy konflikt. Najlepszy cel to $china$ i wypchnięcie stamtąd #L [target_country2.GetAdjective|l]kich#! sił. Aby to uczynić, musimy najpierw podbić państwo [target_country.GetName]."
+ flavor_jap_kor.1.a: "A więc wojna!"
+ flavor_jap_kor.1.b: "Musimy się przygotować do konfliktu."
+ flavor_jap_kor.1.c: "Nie będziemy wszczynać wojen z naszymi sąsiadami."
+ flavor_jap_kor.2.title: "Zatem wojna"
+ flavor_jap_kor.2.desc: "Zjednoczona [ShowRegionName('japan_region')] to problem sam w sobie, jednak ziściły się też nasze najgorsze obawy – wojownicze państwo #L [from_country.GetAdjective|l]kie#! wydało nam wojnę! Musimy szykować żołnierzy i marynarkę do ich niechybnego lądowania na naszym wybrzeżu. Ich celem jest [ShowRegionName('korea_region')]. Chociaż ich motywacje są niejasne, to jedno jest pewne – traktują nas jako przeszkodę na drodze do ich prawdziwego celu, jakim jest [GetInternationalOrganization('middle_kingdom').GetName]."
+ flavor_jap_kor.2.a: "Nie pozwolimy im przejść!"

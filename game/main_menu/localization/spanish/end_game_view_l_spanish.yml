@@ -1,0 +1,12 @@
+﻿l_spanish:
+ END_GAME_VIEW_LOSING_TITLE: "Fin de la partida"
+ END_GAME_VIEW_LOSING_TEXT: "Nuestra nación, carente de la fuerza y determinación de nuestros vecinos, no ha logrado sobrevivir al curso de los acontecimientos. En el futuro, solo se recordará a la gente [COUNTRY.GetAdjective|l] en los museos, donde los eruditos estudiarán nuestro fracaso."
+ END_GAME_VIEW_SURVIVING_TITLE: "Un pequeño apéndice en la historia"
+ END_GAME_VIEW_SURVIVING_TEXT: "Nuestra orgullosa nación ha sobrevivido a siglos de lucha, guerras y adversidad, pero, a pesar de todo, el pueblo [COUNTRY.GetAdjective|l] no ha obtenido ningún logro importante. En un mundo lleno de gigantes de la civilización y los combates, no somos más que una nota a pie de página."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Una gran potencia"
+ END_GAME_VIEW_GREAT_TEXT: "Nuestra gloriosa nación se ha convertido en una gran potencia del mundo. Enhorabuena, el pueblo [COUNTRY.GetAdjective|l] es de los más prósperos y prestigiosos de esta era, y nuestro gobierno ha sido recompensado con el éxito más rotundo."
+ CONTINUE_PAST_END_DATE: "Seguir jugando"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Seguir jugando\nSe desactivarán los logros de ahora en adelante"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Terminar la partida y volver al menú principal"
+ END_GAME_VIEW_OBSERVE: "Observar"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Continuar en modo observador"

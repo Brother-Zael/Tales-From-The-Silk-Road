@@ -1,0 +1,12 @@
+﻿l_german:
+ flavor_dah_released_desc_common: "Die [ShowCultureName('fon')|l]en Leute an der [ShowAreaName('gold_coast_area')|U] haben sich als [GetCountry('DAH').GetName] zusammengetan, beherrscht von [target_character.GetName]. Sie sprechen von militärischen Zielen und sind bereit, in [ShowRegionName('guinea_region')] weiter zu expandieren."
+ flavor_dah_released_title_common: "Die Gründung von „[GetCountry('DAH').GetNameWithNoTooltip]“"
+ flavor_dah_variable_tt: "[ShowProvinceDefinitionName('fon_province')|U] war nicht kolonisiert"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "„[GetCountry('DAH').GetNameWithNoTooltip|U]“ soll erobert werden!"
+ flavor_dah.1.b: "Vielleicht wird es Zeit für den Aufstieg eines neuen Reichs."
+ flavor_dah.1.c: "Gut für sie."
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "Neue Nachbarn?"

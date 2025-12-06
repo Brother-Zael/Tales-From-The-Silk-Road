@@ -1,0 +1,58 @@
+﻿animation_editor_meta={
+	view={
+		position={ 155.404404 325.374969 }
+		zoom=1.196804
+	}
+	starting_timeline={
+		position={ 81.538437 -6.153854 }
+	}
+	states={
+		"Attack"={
+			position={ 292.863892 -284.141907 }
+		}
+ 		"Idle"={
+			position={ 295.978485 -9.338306 }
+		}
+ 		"Move"={
+			position={ 640.615479 -242.248566 }
+		}
+ 		"Retreat"={
+			position={ 577.986206 237.050369 }
+		}
+ 		"Charge"={
+			position={ 283.869995 284.970520 }
+		}
+ 		"Idle Loop"={
+			position={ 669.458618 -12.589594 }
+		}
+ 	}
+	connections={
+		"Attack to Idle"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to Attack"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to Move"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to charge"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to retreat"={
+			use_length_from_source_state=yes
+		}
+ 		"Lane 70"={
+			use_length_from_source_state=yes
+		}
+ 		"Move to Idle"={
+			use_length_from_source_state=yes
+		}
+ 		"Retreat to Idle"={
+			use_length_from_source_state=yes
+		}
+ 		"Charge to idle"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

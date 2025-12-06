@@ -1,0 +1,6 @@
+﻿l_french:
+ flavor_grm.1.title: "Mort de [target_character.GetNameWithNoTooltip]"
+ flavor_grm.1.desc: "L'un de nos membres les plus illustres, fondateur de notre [target_country.GetFlavorRank], est décédé. Son règne a marqué l'apogée de notre influence dans l'[ShowRegionName('anatolia_region')], soumettant nombre de nos voisins. Hélas, son décès a semé la discorde et nos vassaux cherchent à s'emparer des richesses de notre peuple."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Nous ne céderons pas sans nous battre !"
+ flavor_grm.1.historical_info: "Les Germiyanides, l'un des plus puissants beylicats du début du XIVe siècle, ont été fondés par Yakub Ier, dont les conquêtes ont placé de nombreuses terres sous sa juridiction. Ses quarante années de règne l'ont amené à affronter nombre de ses voisins, soumettant les Aydinides, les Saruhanides et les Karasides à l'ouest et s'engageant dans des conflits avec les Ottomans. À sa mort, ses nombreux vassaux profitent de l'occasion et déclarent leur indépendance."

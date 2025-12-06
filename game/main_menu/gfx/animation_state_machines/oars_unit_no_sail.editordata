@@ -1,0 +1,34 @@
+﻿animation_editor_meta={
+	view={
+		position={ 787.211975 467.608978 }
+		zoom=0.933781
+	}
+	starting_timeline={
+		position={ -316.739929 -131.389343 }
+	}
+	states={
+		"idle"={
+			position={ -131.010925 -131.486801 }
+		}
+ 		"move2"={
+			position={ -143.014557 -380.247314 }
+		}
+ 		"attack_r"={
+			position={ -149.881012 18.514351 }
+		}
+ 	}
+	connections={
+		"Connection 13"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 21"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 15"={
+			use_length_from_source_state=yes
+		}
+ 		"Lane 48"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

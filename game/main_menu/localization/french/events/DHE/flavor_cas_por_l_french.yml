@@ -1,0 +1,10 @@
+﻿l_french:
+ flavor_cas_por.1.title: "Cinquième royale"
+ flavor_cas_por.1.desc_common: "Notre [ROOT.GetCountry.GetGovernment.GetRulerTitle], en tant que seul souverain de [ROOT.GetCountry.GetName], a droit à toutes les richesses et ressources naturelles présentes dans son [ROOT.GetCountry.GetFlavorRank]. C'est pourquoi toutes les ressources naturelles extraites par les citoyens [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l] appartiennent légitimement à [target_character.GetName]. Cependant, si chacun devait remettre l'intégralité de ses biens au gouvernement, il n'y aurait aucun intérêt à entreprendre ces exploitations minières. C'est pourquoi nous avons décidé d'encadrer l'extraction des ressources dans le cadre de la [ShowPolicyName('royal_fifth_law')]."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nLa question de l'impôt refait surface, devenant d'autant plus cruciale avec l'expansion de l'extraction de [target_goods.GetName] à [target_location.GetName]. Les vice-rois locaux hésitent à l'appliquer, craignant qu'il ne freine la production."
+ flavor_cas_por.1.a: "Imposons la [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+ flavor_cas_por.1.b: "Évitons de perturber leurs opérations."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nLa récente découverte de [target_goods.GetName] à [target_location.GetName] a remis la question de cet impôt sur la table, le vice-roi local exigeant que les responsables des mines s'y conforment, alors qu'il était jusqu'à présent largement ignoré. Plusieurs conseillers de notre [ROOT.GetCountry.GetGovernment.GetRulerTitle] soutiennent que son application pourrait nuire à la production de cette ressource."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Oublions cela pour l'instant."

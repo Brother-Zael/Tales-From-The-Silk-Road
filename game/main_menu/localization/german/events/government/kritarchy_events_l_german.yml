@@ -1,0 +1,4 @@
+﻿l_german:
+ kritarchy_events.1.title: "Gerichtliches Konklave beendet"
+ kritarchy_events.1.desc: "Der Nationalgerichtshof hat die Debatte beendet, welcher Richter zum neuen Oberhaupt ([ROOT.GetCountry.GetGovernment.GetRulerTitle]) gewählt werden soll. Das Kabinett ist begeistert, [successor_character.GetName||U] als [Select_CString(successor_character.GetName.IsFemale, 'neue Anführerin', 'neuen Anführer')] von „[ROOT.GetCountry.GetName|U]“ zu feiern."
+ kritarchy_events.1.a: "Möge [successor_character.Custom('DE_PRO_POS_S_3P')]e Herrschaft von Weisheit geprägt sein."

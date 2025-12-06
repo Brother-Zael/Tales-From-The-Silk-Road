@@ -1,0 +1,9 @@
+﻿l_japanese:
+ flavor_arm.1.title: "知識の喪失"
+ flavor_arm.1.desc: "何世紀にもわたり、[target_location.GetName][ShowBuildingTypeName('university')]はわが国民にとって文化と学問の中心だった。名高い貴族たちの庇護のもとで発展を遂げてきたが、近年、後援者たちが相次ぐ不運に見舞われ、その影響が[ShowBuildingTypeNameWithNoTooltip('university')]の運営にも及んでいる。資金の減少に伴い、多くの学科が廃止され、数多くの講師が職を失った。この状況が打開されなければ、[ShowBuildingTypeNameWithNoTooltip('university')]そのものが閉鎖されるのではないかとの懸念が広がっている。"
+ flavor_arm.1.a: "放っておけ。"
+ flavor_arm.1.b: "資金を提供しよう！"
+ flavor_arm.2.title: "タテフ大学"
+ flavor_arm.2.desc: "[target_location.GetName]の活気ある地域に根差したこの修道院は、数多くの契約書、公文書、貴重な写本を所蔵するまでになった。現在は知識の中心としての重要な役割を果たしており、講師たちは施設の拡張を求めている。聖書芸術や音楽学の学科を新たに設立したいとのことだ。"
+ flavor_arm.2.a: "施設拡張の資金を出そう。"
+ flavor_arm.2.b: "施設拡張には反対だ。"

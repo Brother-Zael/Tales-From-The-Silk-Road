@@ -1,0 +1,6 @@
+﻿l_spanish:
+ civil_war.1.title: "Guerra civil perdida"
+ civil_war.1.desc: "Ha concluido la guerra civil [loser.GetAdjective|l]. Hemos perdido. Por suerte para nosotros, esto no es el final, sino quizás una oportunidad."
+ civil_war.1.a: "¡De las cenizas surge nueva vida!"
+ civil_war.1.b: "Es hora de pagar las consecuencias."
+ civil_war_game_over: "¡Así acaba la partida!\n\n@trigger_no! #R ¡FIN DE LA PARTIDA!#! @trigger_no!"

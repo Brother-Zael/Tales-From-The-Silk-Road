@@ -1,0 +1,13 @@
+﻿l_korean:
+ legatusnatus.1.title: "레가투스 나투스"
+ legatusnatus.1.desc: "[home_ruler.GetName](은)는 오래전부터 [pope_ruler.GetName]의 알프스 이북 쪽 대리인인 '[ShowGovernmentReformName('legatus_natus')]'라는 영광을 누려 왔습니다.\n이러한 권위 있는 칭호를 유지하려면 그만큼 위엄을 갖추어야 하므로, 위상을 공고히 하고 [GetCountry('PAP').GetGovernment.GetRulerTitle]과 원만한 관계를 유지해야 합니다."
+ legatusnatus.1.a: "모두 신께 달린 일이다."
+ legatusnatus.2.title: "레가투스 나투스 칭호 상실"
+ legatusnatus.2.desc: "최근 우리의 [GetUniqueInternationalOrganization('hre').GetName] 내 지위와 [pope_ruler.GetName](과)와의 관계가 악화되었습니다. [GetCountry('PAP').GetGovernment.GetRulerTitle]은 더 이상 우리에게 [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]에서 자신을 대표하는 역할을 믿고 맡길 수 없다고 판단해, 안타깝게도 우리에게서 [ShowGovernmentReformName('legatus_natus')] 칭호를 박탈했습니다."
+ legatusnatus.2.a: "전부 내 탓이로다..."
+ legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle]의 사절"
+ legatusnatus.3.desc: "반가운 소식입니다! 기존 [ShowGovernmentReformName('legatus_natus')]가 지위를 상실한 후, [pope_ruler.GetName]께서 알프스 이북 지역의 대리인에게 주어지는 그 명망 높은 칭호를 [home_ruler.GetName]에 선사했습니다."
+ legatusnatus.3.a: "어둠을 뚫고 한줄기 빛이 내리는구나."
+ legatusnatus.4.title: "[ShowGovernmentReformName('legatus_natus')] 지위 박탈"
+ legatusnatus.4.desc: "[ShowGovernmentReformName('legatus_natus')]는 [GetUniqueInternationalOrganization('hre').GetName]의 [ShowReligionAdjective('catholic')] 주교에게만 허락된 명망 높은 지위입니다. [home_ruler.GetName](은)는 더 이상 이 요건을 충족하지 못하므로, [pope_ruler.GetName](이)가 칭호를 박탈했습니다."
+ legatusnatus.4.a: "망할 [GetCountry('PAP').GetGovernment.GetRulerTitle] 같으니."

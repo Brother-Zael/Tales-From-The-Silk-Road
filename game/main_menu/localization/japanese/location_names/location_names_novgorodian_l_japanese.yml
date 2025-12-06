@@ -1,0 +1,602 @@
+﻿l_japanese:
+ ## Area 'moscow_area' (Moscow) ##
+ # Province 'moscow_province' (Moscow) #
+ moscow.novgorodian_dialect: "モスクヴェ"
+ bronnitsy.novgorodian_dialect: "ブロニニツェ"
+ odintsovo.novgorodian_dialect: "オディンツェボ"
+ pushkino.novgorodian_dialect: "プスキノ"
+ rogozh.novgorodian_dialect: "ロゴジ"
+ vokhna.novgorodian_dialect: "ボフナ"
+ # Province 'mozhaysk_province' (Mozhaysk) #
+ mozhaysk.novgorodian_dialect: "モジャイスク"
+ borovsk.novgorodian_dialect: "ボロフスク"
+ medyn.novgorodian_dialect: "メディニ"
+ maloyaroslavets.novgorodian_dialect: "マロヤロスラヴェツ"
+ vereya.novgorodian_dialect: "ヴェレヤ"
+ vetza.novgorodian_dialect: "ヴェツァ"
+ # Province 'kolomna_province' (Kolomna) #
+ kolomna.novgorodian_dialect: "コロムナ"
+ khatun.novgorodian_dialect: "ハトゥニ"
+ przemysl_moscow.novgorodian_dialect: "プリシェミシル" # Przemysl
+ serpukhov.novgorodian_dialect: "セルプホフ"
+ koshira.novgorodian_dialect: "カシラ"
+ vysokoye.novgorodian_dialect: "ヴィソコエ"
+ # Province 'zvenigorod_province' (Zvenigorod) #
+ zvenigorod.novgorodian_dialect: "ズヴェニゴロヅ"
+ dmitrov.novgorodian_dialect: "ディミトロフ"
+ mushkov_pogost.novgorodian_dialect: "ムシュコフ・ポゴスツ" # Mushkov Pogost
+ rogachevo.novgorodian_dialect: "ロガチョヴォ"
+ ruza.novgorodian_dialect: "ルゼ"
+ volok.novgorodian_dialect: "ヴォロク"
+ ## Area 'oka_area' (Oka) ##
+ # Province 'odoyev_province' (Odoyev) #
+ odoyev.novgorodian_dialect: "オドエフ"
+ belyov.novgorodian_dialect: "ベリェフ"
+ rzhavets.novgorodian_dialect: "ルジャヴェツ"
+ vorotynsk.novgorodian_dialect: "ヴォロティニスク"
+ # Province 'masalsk_province' (Masalsk) #
+ masalsk.novgorodian_dialect: "モサリスク"
+ fominichi.novgorodian_dialect: "フォミニチ"
+ lyubun.novgorodian_dialect: "リュブヌ"
+ pogostishche.novgorodian_dialect: "ポゴスチシチェ"
+ yukhnov.novgorodian_dialect: "ユフノフ"
+ # Province 'karachev_province' (Karachev) #
+ karachev.novgorodian_dialect: "カラチェフ"
+ bolkhov.novgorodian_dialect: "ボリホフ"
+ khotiml.novgorodian_dialect: "ホチムリ"
+ kromy.novgorodian_dialect: "クロミー"
+ zvenihorod_siverskyi.novgorodian_dialect: "ズヴェニゴロヅ" # Zvenigorod
+ # Province 'kozelsk_province' (Kozelsk) #
+ kozelsk.novgorodian_dialect: "コゼリスク"
+ khvastovichi.novgorodian_dialect: "フワストヴィチ"
+ ktsyn.novgorodian_dialect: "クツィヌ"
+ meshchovsk.novgorodian_dialect: "メスチョフスク"
+ usty.novgorodian_dialect: "ウスチ"
+ # Province 'novosil_province' (Novosil) #
+ novosil.novgorodian_dialect: "ノヴォシル"
+ bogorodskoye.novgorodian_dialect: "ボゴロドスコエ"
+ kolpny.novgorodian_dialect: "コルプニィ"
+ mikhailovka.novgorodian_dialect: "ミハイロフカ"
+ mtsensk.novgorodian_dialect: "ムツェンスク"
+ plavsk.novgorodian_dialect: "プラフスク"
+ tagin.novgorodian_dialect: "タギヌ"
+ vorotynsk_novosil.novgorodian_dialect: "ヴォロティニスク" # Vorotynsk
+ # Province 'tarusa_province' (Tarusa) #
+ tarusa.novgorodian_dialect: "タルーサ"
+ kaluga.novgorodian_dialect: "カルーガ"
+ obolensk.novgorodian_dialect: "オボレンスク"
+ volkona.novgorodian_dialect: "ヴォルクナ"
+ # Province 'tula_russia_province' (Tula) #
+ tula_russia.novgorodian_dialect: "トゥラ" # Tula
+ arkhangelskoye.novgorodian_dialect: "アルハンゲレスコエ"
+ bogoroditsk.novgorodian_dialect: "ボゴロジツク"
+ kurkino.novgorodian_dialect: "クルキノ"
+ ## Area 'smolensk_area' (Smolensk) ##
+ # Province 'bely_province' (Bely) #
+ bely.novgorodian_dialect: "ベレユ"
+ bolshevo.novgorodian_dialect: "ボルシェヴォ"
+ fomin_gorodok.novgorodian_dialect: "フミヌ" # Fomin
+ shoptovo.novgorodian_dialect: "ショプトヴォ"
+ verkhovye.novgorodian_dialect: "ヴェルホヴェ"
+ yotkino.novgorodian_dialect: "ヨトキノ"
+ # Province 'dorogobuzh_province' (Dorogobuzh) #
+ dorogobuzh.novgorodian_dialect: "ドロゴブズ"
+ demensk.novgorodian_dialect: "デメンスク"
+ gorodechnya.novgorodian_dialect: "ゴロデチニャ"
+ mozhino.novgorodian_dialect: "モジノ"
+ shui.novgorodian_dialect: "シュイ"
+ yartsevo.novgorodian_dialect: "ヤルツェヴォ"
+ # Province 'kozlov_province' (Kozlov) #
+ kozlov_vyazma.novgorodian_dialect: "コズロフ" # Kozlov
+ orekhovna.novgorodian_dialect: "オレホヴナ"
+ pogoreloye.novgorodian_dialect: "ポゴレロイエ"
+ trufany.novgorodian_dialect: "トルファヌィ"
+ zhulino.novgorodian_dialect: "ジュリノ"
+ # Province 'roslavl_province' (Roslavl) #
+ roslavl.novgorodian_dialect: "ロスラヴリ"
+ izyaslavl.novgorodian_dialect: "ザスラヴリ"
+ pustosel.novgorodian_dialect: "プストセル"
+ rognedino.novgorodian_dialect: "ログネディノ"
+ zaroy.novgorodian_dialect: "ザロユ"
+ # Province 'smolensk_province' (Smolensk) #
+ smolensk.novgorodian_dialect: "スモレンスク"
+ belik.novgorodian_dialect: "ベリク"
+ berezhnyany.novgorodian_dialect: "ベレズニャヌ"
+ dukhovshchina.novgorodian_dialect: "ドゥホフスチナ"
+ krasny.novgorodian_dialect: "クラスニュ"
+ yelnya.novgorodian_dialect: "エリニャ"
+ # Province 'toropets_province' (Toropets) #
+ toropets.novgorodian_dialect: "トロペツ"
+ andreapol.novgorodian_dialect: "アンドレア＝ポリ"
+ bibirevo.novgorodian_dialect: "ビビレヴォ"
+ dubrovna.novgorodian_dialect: "ドゥブロヴナ"
+ ilyino.novgorodian_dialect: "イリイノ"
+ nizhelskoe.novgorodian_dialect: "ニジェルスコエ" # Nizhel'skoe
+ zhizhets.novgorodian_dialect: "ジジェツ"
+ # Province 'verzhavsk_province' (Verzhavsk) #
+ verzhavsk.novgorodian_dialect: "ヴェルジャフスク"
+ demidov.novgorodian_dialect: "ポレチエ" # Porechy
+ katyn.novgorodian_dialect: "カティニ"
+ luchani.novgorodian_dialect: "ルチャニ"
+ shchuchye_smolensk.novgorodian_dialect: "シュチュチェ" # Shchuchye
+ vetlitsy.novgorodian_dialect: "ヴェトリツィ"
+ # Province 'vyazma_province' (Vyazma) #
+ vyazma.novgorodian_dialect: "ヴャズマ"
+ izdeshkovo.novgorodian_dialect: "イジェシュコヴォ"
+ khlepen.novgorodian_dialect: "フレペヌ"
+ kholm_zhirkovsky.novgorodian_dialect: "ホルム・ジルコフスクユ" # Kholm Zhirkovsky
+ sychyovka.novgorodian_dialect: "スチェフカ"
+ ## Area 'ryazan_area' (Ryazan) ##
+ # Province 'kasimov_province' (Kasimov) #
+ kasimov.novgorodian_dialect: "カシモフ"
+ ardatov.novgorodian_dialect: "アルダトフ"
+ azeevo.novgorodian_dialect: "アゼエヴォ"
+ kadom.novgorodian_dialect: "カドム"
+ tuma.novgorodian_dialect: "トゥマ"
+ # Province 'murom_province' (Murom) #
+ murom.novgorodian_dialect: "ムロム"
+ gorbatovo.novgorodian_dialect: "ゴルバトヴォ"
+ klepiki.novgorodian_dialect: "クレピキ"
+ melenki.novgorodian_dialect: "メレンキ"
+ shatur.novgorodian_dialect: "シャトゥル"
+ starodub_votsky.novgorodian_dialect: "スタロドゥブ・ヴォツクユ" # Starodub-Votsky
+ # Province 'rostislavl_province' (Rostislavl) #
+ rostislavl_ryazansky.novgorodian_dialect: "ロスチスラヴリ・リャザンスクユ" # Rostislavl-Ryazansky
+ lyubichi.novgorodian_dialect: "リュービチ"
+ lopasnya.novgorodian_dialect: "ロパスニャ"
+ perevitska.novgorodian_dialect: "ペレヴィツカヤ"
+ serebryanye_prudy.novgorodian_dialect: "プルジ" # Prudy
+ venyov.novgorodian_dialect: "ヴェニョフ"
+ # Province 'ryazan_province' (Ryazan) #
+ ryazan.novgorodian_dialect: "リャザニ"
+ kazari.novgorodian_dialect: "カザリ"
+ koponovo.novgorodian_dialect: "コポノヴォ"
+ putyatino.novgorodian_dialect: "プチャチノ"
+ shilovo.novgorodian_dialect: "シロヴォ"
+ staraya_ryazan.novgorodian_dialect: "スターラヤ・リャザニ" # Staraya Ryazan
+ # Province 'pronsk_province' (Pronsk) #
+ pronsk.novgorodian_dialect: "プロンスク"
+ dubok.novgorodian_dialect: "デュボク"
+ karniki.novgorodian_dialect: "カルニキ"
+ knyazhoye.novgorodian_dialect: "クニャジョエ"
+ mikhaylov.novgorodian_dialect: "ミハイロフ"
+ skopin.novgorodian_dialect: "スコピヌ"
+ ryazhsk.novgorodian_dialect: "リャジスク"
+ # Province 'bogdanovo_province' (Mokhcha) #
+ mokhcha.novgorodian_dialect: "モクシャ"
+ nizhny_lomov.novgorodian_dialect: "ニジニュ・ロモフ" # Nizhny Lomov
+ zemetchino.novgorodian_dialect: "ゼメチノ"
+ insar.novgorodian_dialect: "インサル"
+ tarbeevka.novgorodian_dialect: "タルベーエフカ"
+ zubova_polyana.novgorodian_dialect: "ズボバ・ポリャーナ" # Zubova Polyana
+ # Province 'sarov_province' (Sarov) #
+ sarov.novgorodian_dialect: "サロフ"
+ bolshoye_boldino.novgorodian_dialect: "ボリショエ・ボルディノ" # Bolshoye Boldino
+ temnikov.novgorodian_dialect: "テムニコフ"
+ krasnoslobodsk.novgorodian_dialect: "クラスノスロボツク"
+ lukoyanov.novgorodian_dialect: "ルコヤノフ"
+ shatki.novgorodian_dialect: "シャツキ"
+ arzamas.novgorodian_dialect: "アルザマス"
+ pavlovo.novgorodian_dialect: "パブロヴォ"
+ ruzayevka.novgorodian_dialect: "ルザエフカ"
+ ## Area 'tambov_area' (Tambov) ##
+ # Province 'tambov_province' (Tambov) #
+ tambov.novgorodian_dialect: "タンボフ"
+ staroyuryevo.novgorodian_dialect: "スタロユーリエヴォ"
+ sasovo.novgorodian_dialect: "サソボ"
+ rasskazovo.novgorodian_dialect: "ラスカゾボ"
+ bondari.novgorodian_dialect: "ボンダリ"
+ morsha.novgorodian_dialect: "モルシャ"
+ mordovo.novgorodian_dialect: "モルドボ"
+ zherdevka.novgorodian_dialect: "ジェルデフカ"
+ uvarovo.novgorodian_dialect: "ウヴァロヴォ"
+ kirsanov.novgorodian_dialect: "キルサノフ"
+ # Province 'penza_province' (Penza) #
+ penza.novgorodian_dialect: "ペンザ"
+ gorodishche.novgorodian_dialect: "ゴロディシチェ"
+ mokshan.novgorodian_dialect: "モクシャヌ"
+ lunino.novgorodian_dialect: "ルニノ"
+ nikolskoye.novgorodian_dialect: "ニコルスコエ"
+ malaya_serdoba.novgorodian_dialect: "マラヤ・セルドバ" # Malaya Serdoba
+ shemysheyka.novgorodian_dialect: "シェミシェイカ"
+ chembar.novgorodian_dialect: "チェンバル"
+ serdobinskaya.novgorodian_dialect: "セルドビンスカヤ"
+ russky_kameshkir.novgorodian_dialect: "ルスクユ・カメシキル" # Russky Kameshkir
+ # Province 'atkarsk_province' (Atkarsk) #
+ atkarsk.novgorodian_dialect: "アトカルスク"
+ lysye_gory.novgorodian_dialect: "ライセ・ゴリィ" # Lysye Gory
+ yekaterinovka.novgorodian_dialect: "エカテリノフカ"
+ balanda.novgorodian_dialect: "バランダ"
+ rtishchevo.novgorodian_dialect: "ルチシチェヴォ"
+ balashov.novgorodian_dialect: "バラショフ"
+ turki.novgorodian_dialect: "トゥルキ"
+ arkadak.novgorodian_dialect: "アルカダク"
+ # Province 'saratov_province' (Saratov) #
+ ukek.novgorodian_dialect: "ウケク"
+ sosnovy_ostrov.novgorodian_dialect: "ソスノヴュ・オストロフ" # Sosnovy Ostrov
+ malykovka.novgorodian_dialect: "マリュコフカ"
+ novye_burasy.novgorodian_dialect: "ノヴェエ・ブラスィ" # Novye Burasy
+ tereshka.novgorodian_dialect: "テレシュカ"
+ petrovsk.novgorodian_dialect: "ペトロフスク"
+ # Province 'lipetsk_province' (Lipetsk) #
+ lipetsk.novgorodian_dialect: "リペツク"
+ donkov.novgorodian_dialect: "ダンコフ"
+ usman.novgorodian_dialect: "ウスマニ"
+ ust_stanovykh_ryas.novgorodian_dialect: "ウースチ・スタノヴィフ・リャス" # Ust Stanovykh Ryas
+ izberdey.novgorodian_dialect: "イズベルデュ"
+ teshevka.novgorodian_dialect: "テシェフカ"
+ kozlov.novgorodian_dialect: "コズロフ"
+ ## Area 'samara_area' (Samara) ##
+ # Province 'samara_province' (Samara) #
+ samara.novgorodian_dialect: "サマラ"
+ shigony.novgorodian_dialect: "シゴヌィ"
+ morkvash.novgorodian_dialect: "モルクヴァス"
+ khvorostyanka.novgorodian_dialect: "フヴォロスチャンカ"
+ stavropol_na_volge.novgorodian_dialect: "スタブロポリ・ナ・ヴォルゲ" # Stavropol Na Volge
+ kondurcha.novgorodian_dialect: "コンドゥルチャ"
+ pestravka.novgorodian_dialect: "ペストラフカ"
+ poganovka.novgorodian_dialect: "ポガノフカ"
+ # Province 'alatyr_province' (Alatyr) #
+ alatyr.novgorodian_dialect: "アラティリ"
+ bolshoye_murashkino.novgorodian_dialect: "ボルショエ・ムラシュキノ" # Bolshoye Murashkino
+ kurmysh.novgorodian_dialect: "クルミシュ"
+ lyskovo.novgorodian_dialect: "ルスコヴォ"
+ perevoz.novgorodian_dialect: "ペレヴォズ"
+ sechenovo.novgorodian_dialect: "セチェノヴォ"
+ sergach.novgorodian_dialect: "セルガチュ"
+ spasskoye_lyskovo.novgorodian_dialect: "スパスコエ" # Spasskoye
+ # Province 'simbirsk_province' (Simbirsk) #
+ simbirsk.novgorodian_dialect: "シンビルスク"
+ pokrovskoye.novgorodian_dialect: "ポクロフスコエ"
+ cherdakly.novgorodian_dialect: "チェルダクルィ"
+ melekess.novgorodian_dialect: "メレケス"
+ staraya_mayna.novgorodian_dialect: "スタラヤ・マイナ" # Staraya Mayna
+ tetyushi.novgorodian_dialect: "テチュシ"
+ atrat.novgorodian_dialect: "アトラツ"
+ batyrevo.novgorodian_dialect: "バトィレヴォ"
+ altyshevo.novgorodian_dialect: "アルトィシェヴォ"
+ # Province 'troitskoye_kuroedovo_province' (Troitskoye Kuroedovo) #
+ troitskoye_kuroedovo.novgorodian_dialect: "トロイツコエ・クロエドヴォ" # Troitskoye-Kuroedovo
+ bazarny_syzgan.novgorodian_dialect: "バザールヌユ・スィズガヌ" # Bazarny Syzgan
+ staraya_kulatka.novgorodian_dialect: "スタラヤ・クラトカ" # Staraya Kulatka
+ solovtsovo.novgorodian_dialect: "ソロフツォヴォ"
+ karsun.novgorodian_dialect: "カルスヌ"
+ promsa.novgorodian_dialect: "プロムザ"
+ chamzinka.novgorodian_dialect: "チャムジンカ"
+ saransk.novgorodian_dialect: "サランスク"
+ ## Area 'nizhny_novgorod_area' (Nizhny Novgorod) ##
+ # Province 'nizhny_novgorod_province' (Nizhny Novgorod) #
+ nizhny_novgorod.novgorodian_dialect: "ニジニュ・ノヴゴロヅ" # Nizhny Novgorod
+ dalneye_konstantinovo.novgorodian_dialect: "ダルネイ・コンスタンチノヴォ" # Dalneye Konstantinovo
+ gorokhovets.novgorodian_dialect: "ゴロホヴェツ"
+ meshchersk.novgorodian_dialect: "メシチェルスク"
+ pestyaki.novgorodian_dialect: "ペスチャキ"
+ rastyapino.novgorodian_dialect: "ラスチャピノ"
+ # Province 'galich_province' (Galich) #
+ galich.novgorodian_dialect: "ガーリチ"
+ chukhloma.novgorodian_dialect: "チュフロマ"
+ kologriv.novgorodian_dialect: "コログリヴ"
+ kuzhbal.novgorodian_dialect: "クジバル"
+ manturovo.novgorodian_dialect: "マントゥロボ"
+ nikolo_dor.novgorodian_dialect: "ニコロ・ドル" # Nikolo Dor
+ parfenyevo.novgorodian_dialect: "パルフェニエヴォ"
+ sol_galichskaya.novgorodian_dialect: "ソリ・ガリチスカヤ" # Sol Galichskaya
+ sudai.novgorodian_dialect: "スダユ"
+ # Province 'gorodets_province' (Gorodets) #
+ gorodets.novgorodian_dialect: "ゴロジェツ"
+ korenevo.novgorodian_dialect: "コレネヴォ"
+ lukh.novgorodian_dialect: "ルフ"
+ vasilyeva_sloboda.novgorodian_dialect: "ワシリエワ・スロボダ" # Vasilyeva Sloboda
+ yuryev_povolzhsk.novgorodian_dialect: "ユーリエフ・ポヴォルジスク" # Yuryev Povolzhsk
+ kadyy.novgorodian_dialect: "カドゥユ"
+ # Province 'uren_province' (Uren) #
+ uren.novgorodian_dialect: "ウレヌ"
+ tonshayevo.novgorodian_dialect: "トンシャエヴォ"
+ vetluga.novgorodian_dialect: "ヴェトルーガ"
+ semyonov.novgorodian_dialect: "セミョーノフ"
+ khakhaly.novgorodian_dialect: "ハハルィ"
+ kovernino.novgorodian_dialect: "コヴェルニノ"
+ krasnye_baki.novgorodian_dialect: "クラスヌイエ・バキ" # Krasnye Baki
+ raznezhye.novgorodian_dialect: "ラズネジェ"
+ voskresenskoye.novgorodian_dialect: "ヴォスクレセンスコエ"
+ sharanga.novgorodian_dialect: "シャランガ"
+ varnavino.novgorodian_dialect: "ヴァルナヴィノ"
+ unzha.novgorodian_dialect: "ウンジャ"
+ # Province 'cheboksary_province' (Cheboksary) #
+ cheboksary.novgorodian_dialect: "チェボクサル"
+ kozmodemyansk.novgorodian_dialect: "コズモデミャンスク"
+ alikovo.novgorodian_dialect: "アリコヴォ"
+ vasilsursk.novgorodian_dialect: "ヴァシリスルスク"
+ tsivilsk.novgorodian_dialect: "ツィヴィリスク"
+ atishchevo.novgorodian_dialect: "アチシチェヴォ"
+ sviyazhsk.novgorodian_dialect: "スヴィヤシュスク"
+ ## Area 'suzdal_area' (Suzdal) ##
+ # Province 'shuya_province' (Shuya) #
+ shuya.novgorodian_dialect: "シュヤ"
+ ivanovo.novgorodian_dialect: "イワノヴォ"
+ lezhnevo.novgorodian_dialect: "レジネヴォ"
+ vichuga.novgorodian_dialect: "ヴィチュガ"
+ # Province 'starodub_province' (Starodub) #
+ starodub_on_the_klyazma.novgorodian_dialect: "スタロドゥブ・ナ・クリャズメ" # Starodub-on-the-Klyazma
+ palekh.novgorodian_dialect: "パレフ"
+ rozhdestveno.novgorodian_dialect: "ロジデストヴェノ"
+ # Province 'suzdal_province' (Suzdal) #
+ suzdal.novgorodian_dialect: "スズダリ"
+ gavrilovskoye.novgorodian_dialect: "ガブリロフスコエ"
+ ilyinskoye_khovanskoye.novgorodian_dialect: "イリインスコエ・ホヴァンスコエ" # Ilyinskoye Khovanskoye
+ yuryev_polsky.novgorodian_dialect: "ユーリエフ・ポリスク" # Yuryev-Polsky
+ ## Area 'vladimir_area' (Vladimir) ##
+ # Province 'pereyaslavl_province' (Pereyaslavl) #
+ pereyaslavl.novgorodian_dialect: "ペレスラヴリ"
+ alexandrovskaya_sloboda.novgorodian_dialect: "アレクサンドロフスカヤ・スロボダ" # Alexandrovskaya Sloboda
+ bogorodskoye_pereyaslavl.novgorodian_dialect: "ボゴロドスコエ" # Bogorodskoye
+ kirzhach.novgorodian_dialect: "キルジャチュ"
+ poreevo.novgorodian_dialect: "ポレヴォ"
+ yanovo.novgorodian_dialect: "ヤノヴォ"
+ # Province 'rostov_province' (Rostov) #
+ rostov.novgorodian_dialect: "ロストフ"
+ borisogleb.novgorodian_dialect: "ボリソグレブ"
+ petrovsk_rostov.novgorodian_dialect: "ペトロフスク" # Petrovsk
+ # Province 'uglich_province' (Uglich) #
+ uglich.novgorodian_dialect: "ウグリチュ"
+ koi.novgorodian_dialect: "コユ"
+ rozhalovo.novgorodian_dialect: "ロジャロヴォ"
+ # Province 'vladimir_province' (Vladimir) #
+ vladimir.novgorodian_dialect: "ウォロジメル"
+ moshok.novgorodian_dialect: "モショク"
+ muromtsevo_murom.novgorodian_dialect: "ムロムツェヴォ" # Muromtsevo
+ osovets.novgorodian_dialect: "オソヴェツ"
+ sudogda.novgorodian_dialect: "スドグダ"
+ vlasovo.novgorodian_dialect: "ブラソヴォ"
+ yaropolch.novgorodian_dialect: "ヤロポルチュ"
+ zolotkovo.novgorodian_dialect: "ゾロトコヴォ"
+ ## Area 'tver_area' (Tver) ##
+ # Province 'kashin_province' (Kashin) #
+ kashin.novgorodian_dialect: "カシヌ"
+ kimra.novgorodian_dialect: "キムリ"
+ kesova_gora.novgorodian_dialect: "ケソヴァ・ゴラ" # Kesova Gora
+ kalyazin.novgorodian_dialect: "カリャジヌ"
+ # Province 'rzhev_province' (Rzhev) #
+ rzhev.novgorodian_dialect: "ルジェフ"
+ bor_volgo.novgorodian_dialect: "ボル・ナ・ヴォルゲ" # Bor Volgo
+ khotoshino.novgorodian_dialect: "ホトシノ"
+ molodoi_tud.novgorodian_dialect: "モロジュ・トゥヅ" # Molodoi Tud
+ ostashkov.novgorodian_dialect: "オスタスコフ"
+ # Province 'torzhok_province' (Torzhok) #
+ torzhok.novgorodian_dialect: "トルジョク"
+ bernovo.novgorodian_dialect: "ベルノヴォ"
+ kuvshinovo.novgorodian_dialect: "クフシノヴォ"
+ mednoye.novgorodian_dialect: "メドノエ"
+ # Province 'tver_province' (Tver) #
+ tver.novgorodian_dialect: "トヴェリ"
+ brody_tver.novgorodian_dialect: "ブロディ" # Brody
+ dubna.novgorodian_dialect: "ドゥブナ"
+ klin.novgorodian_dialect: "クリヌ"
+ vertyazin.novgorodian_dialect: "ヴェルチャジヌ"
+ # Province 'zubtsov_province' (Zubtsov) #
+ zubtsov.novgorodian_dialect: "ズブツォフ"
+ gorodok.novgorodian_dialect: "ゴロドク"
+ kholm_tver.novgorodian_dialect: "ホルム" # Kholm
+ lotoshino.novgorodian_dialect: "ロトシノ"
+ mikulino_tver.novgorodian_dialect: "ミクリノ" # Mikulino
+ ## Area 'yaroslavl_area' (Yaroslavl) ##
+ # Province 'yaroslavl_province' (Yaroslavl) #
+ yaroslavl.novgorodian_dialect: "ヤロスラヴリ"
+ bolshoye_selo.novgorodian_dialect: "ボリショエ・セロ" # Bolshoye Selo
+ danilov.novgorodian_dialect: "ダニロフ"
+ kurba.novgorodian_dialect: "クルバ"
+ romanov.novgorodian_dialect: "ロマノフ"
+ sol_velikaya.novgorodian_dialect: "ソリ・ヴェリカヤ" # Sol Velikaya
+ ust_sheksna.novgorodian_dialect: "ウスチ・シェクスナ" # Ust-Sheksna
+ # Province 'bezhetsk_province' (Bezhetsk) #
+ gorodetsk.novgorodian_dialect: "ゴロジェツク"
+ ramenki.novgorodian_dialect: "ラメンキ"
+ spas_na_kholmu.novgorodian_dialect: "スパス・ナ・ホルム" # Spas-na-Kholmu
+ ves_yogonskaya.novgorodian_dialect: "ヴェシ・ヨゴンスカヤ" # Ves Yogonskaya
+ yezsk.novgorodian_dialect: "イェイスク"
+ # Province 'kostroma_province' (Kostroma) #
+ kostroma.novgorodian_dialect: "コストロマ"
+ buy.novgorodian_dialect: "ブユ"
+ demyanovo.novgorodian_dialect: "デミャノヴォ"
+ gryazovets.novgorodian_dialect: "グリャゾヴェツ"
+ lyubim.novgorodian_dialect: "リュビム"
+ nerekhta.novgorodian_dialect: "ネレフタ"
+ ostrovskoye.novgorodian_dialect: "オストロフスコエ"
+ sudislavl.novgorodian_dialect: "スディスラフ"
+ yakovlevskoye_bolshoye.novgorodian_dialect: "ヤコヴレフスコエ・ボルショエ" # Yakovlevskoye Bolshoye
+ # Province 'mologa_province' (Mologa) #
+ mologa.novgorodian_dialect: "モロガ"
+ ilovna.novgorodian_dialect: "イロヴナ"
+ prozorovo.novgorodian_dialect: "プロゾロヴォ"
+ ## Area 'beloozero_area' (Beloozero) ##
+ # Province 'beloe_province' (Beloe) #
+ beloe.novgorodian_dialect: "ベロエ"
+ knyazhich_gorodok.novgorodian_dialect: "クニャジチュ・ゴロドク" # Knyazhich Gorodok
+ lukoves.novgorodian_dialect: "ルコヴェス" # Lukoves'
+ pokrovskoye_yaroslav.novgorodian_dialect: "ポクロフスコエ" # Pokrovskoye
+ poshekhonye.novgorodian_dialect: "ポシェホニエ"
+ # Province 'beloozero_province' (Beloozero) #
+ beloozero.novgorodian_dialect: "ベロオゼロ"
+ badozhsky.novgorodian_dialect: "バドズスクユ"
+ chuzboy.novgorodian_dialect: "チュジボユ"
+ goroditse_megra.novgorodian_dialect: "ゴロディツェ" # Goroditse
+ koloshma.novgorodian_dialect: "コロシュマ"
+ # Province 'cherepoves_province' (Cherepoves) #
+ cherepoves.novgorodian_dialect: "チェレポヴェツ"
+ georgievskoye.novgorodian_dialect: "ゲオルギエフスコエ"
+ nikolskoye_andoma.novgorodian_dialect: "ニコルスコエ" # Nikol'skoye
+ spasskoye.novgorodian_dialect: "スパスコエ"
+ ust_ugla.novgorodian_dialect: "ウスツ・ウグラ" # Ust-Ugla
+ ustyuzhna_zheleznopolskaya.novgorodian_dialect: "ウスチュジナ" # Ustyuzhna
+ yorga.novgorodian_dialect: "ヨルガ"
+ # Province 'vashki_province' (Vashki) #
+ vashki.novgorodian_dialect: "ヴァシキ"
+ charonda.novgorodian_dialect: "チャロンダ"
+ kirillov.novgorodian_dialect: "キリロフ"
+ nikolskoye_kema.novgorodian_dialect: "ニコルスコエ" # Nikol'skoye
+ svir_beloozero.novgorodian_dialect: "スヴィル・ベロオゼルォ" # Svir
+ vognema.novgorodian_dialect: "ヴォグネマ"
+ # Province 'vologda_province' (Vologda) #
+ vologda.novgorodian_dialect: "ヴォログダ"
+ arkhangelskoye_vologda.novgorodian_dialect: "アルハンゲリスコエ" # Arkhangelskoye
+ kubenskoye.novgorodian_dialect: "クベンスコエ"
+ shuyskoye.novgorodian_dialect: "シュイスコエ"
+ ustye.novgorodian_dialect: "ウスチェ"
+ # Province 'velsk_province' (Velsk) #
+ velsk.novgorodian_dialect: "ヴェリスク"
+ sumino.novgorodian_dialect: "スミノ"
+ tavrenga.novgorodian_dialect: "タヴレンガ"
+ verkhovazhye.novgorodian_dialect: "ヴェルホヴァジエ"
+ vozhega.novgorodian_dialect: "ヴォジェガ"
+ ## Area 'totma_area' (Totma) ##
+ # Province 'totma_province' (Totma) #
+ totma.novgorodian_dialect: "トチマ"
+ ust_kuloy.novgorodian_dialect: "ウスツ・クロユ" # Ust Kuloy
+ vekshenga.novgorodian_dialect: "ヴェクシェンガ"
+ tarnogsky_gorodok.novgorodian_dialect: "タルノグスクユ・ゴロドク" # Tarnogsky Gorodok
+ nyuksenitsa.novgorodian_dialect: "ニュクセニツァ"
+ gorodishna.novgorodian_dialect: "ゴロディシュナ"
+ ledengskoye.novgorodian_dialect: "レデングスコエ"
+ kunozh.novgorodian_dialect: "クノジュ"
+ # Province 'ystyug_province' (Ystyug) #
+ veliky_ustyug.novgorodian_dialect: "ヴェリクユ・ウスチュグ" # Veliky Ustyug
+ porog.novgorodian_dialect: "ポログ"
+ kichmengsky_gorodok.novgorodian_dialect: "キチメングスクユ・ゴロドク" # Kichmengsky Gorodok
+ nikolsk.novgorodian_dialect: "ニコリスク"
+ alferovskaya.novgorodian_dialect: "アルフェロフスカヤ"
+ pyras.novgorodian_dialect: "ピラス"
+ krasny_bor.novgorodian_dialect: "クラスニュ・ボル" # Krasny Bor
+ pyshchug.novgorodian_dialect: "ピシチュグ"
+ vokhma.novgorodian_dialect: "ヴォフマ"
+ krasavino.novgorodian_dialect: "クラサヴィノ"
+ # Province 'yaren_province' (Yaren) #
+ uftyuga.novgorodian_dialect: "ウフチュガ"
+ verkhnyaya_toyma.novgorodian_dialect: "ヴェルフニャヤ・トイマ" # Verkhnyaya Toyma
+ malaya_ilesha.novgorodian_dialect: "マラヤ・イレシャ" # Malaya Ilesha
+ vyya.novgorodian_dialect: "ヴィヤ"
+ koryazhma.novgorodian_dialect: "コリャズマ"
+ yarensk.novgorodian_dialect: "ヤレンスク"
+ ilyinsko_podomskoye.novgorodian_dialect: "イリインスコ・ポドムスコエ" # Ilyinsko Podomskoye
+ # Province 'ustye_province' (Ustye) #
+ zaostrovskoye.novgorodian_dialect: "ザオストロフスコエ"
+ shenga_kurya.novgorodian_dialect: "シェンガ・クリヤ" # Shenga-Kurya
+ ileza.novgorodian_dialect: "イレザ"
+ shangaly.novgorodian_dialect: "シャンガリ"
+ nizhnyaya_toyma.novgorodian_dialect: "ニジナヤ・トイマ" # Nizhnyaya Toyma
+ voznesenskoye.novgorodian_dialect: "ヴォズネセンスコエ"
+ ## Area 'west_novgorod_area' (Novgorod) ##
+ # Province 'belozerskaya_province' (Belozerskaya) #
+ izboishchi.novgorodian_dialect: "イズボイシチ"
+ babayevo.novgorodian_dialect: "ババエヴォ"
+ belye_kresty.novgorodian_dialect: "ベーリイェ・クレスティ" # Belye Kresty
+ megrino.novgorodian_dialect: "メグリノ"
+ okhona.novgorodian_dialect: "オホナ"
+ ozerevo.novgorodian_dialect: "オゼレヴォ"
+ # Province 'bezhetskaya_province' (Bezhetskaya) #
+ lyubytino.novgorodian_dialect: "リュビチノ"
+ borovichi.novgorodian_dialect: "ボロヴィチ"
+ moshenskoye.novgorodian_dialect: "モシェンスコエ"
+ troshovo.novgorodian_dialect: "トロショヴォ"
+ # Province 'derevskaya_province' (Derevskaya) #
+ demon.novgorodian_dialect: "デモヌ"
+ berezovets.novgorodian_dialect: "ベレゾヴェツ"
+ lyakhovichy.novgorodian_dialect: "リャホヴィチ"
+ lyubno.novgorodian_dialect: "リュブノ"
+ maryovo.novgorodian_dialect: "マリョヴォ"
+ nalyuchi.novgorodian_dialect: "ナルチ"
+ zhabny.novgorodian_dialect: "ジャブニ"
+ # Province 'knyazhaya_province' (Knyazhaya) #
+ staraya_russa.novgorodian_dialect: "ルーサ" # Russa
+ dolchinyo.novgorodian_dialect: "ドルチノ"
+ golino.novgorodian_dialect: "ゴリーノ"
+ kosichkoj.novgorodian_dialect: "コシチコイ"
+ kuretsk.novgorodian_dialect: "クレツク"
+ soltsy.novgorodian_dialect: "ソリツィ"
+ svinort.novgorodian_dialect: "スヴィノルツ"
+ visokoye.novgorodian_dialect: "ヴィソコエ"
+ # Province 'lopskaya_province' (Lopskaya) #
+ oreshek.novgorodian_dialect: "オレシェク"
+ chudovo.novgorodian_dialect: "チュドヴォ"
+ lisino.novgorodian_dialect: "リシノ"
+ lyuban.novgorodian_dialect: "リュバニ"
+ markovo.novgorodian_dialect: "マルコヴォ"
+ martyshkino.novgorodian_dialect: "マルティシキノ"
+ neva.novgorodian_dialect: "ネヴァ"
+ toksovo.novgorodian_dialect: "トクソヴォ"
+ # Province 'luzhkaya_province' (Luzhkaya) #
+ porkhov.novgorodian_dialect: "ポルホフ"
+ dubronjo.novgorodian_dialect: "ダブロンジョ"
+ gorodets_luga.novgorodian_dialect: "ゴロジェチュ" # Gorodets
+ lyady.novgorodian_dialect: "リャディ"
+ plyussa.novgorodian_dialect: "プリュサ"
+ pribuzh.novgorodian_dialect: "プリブヅ"
+ staropolye.novgorodian_dialect: "スタロポリェ"
+ zaplyusye.novgorodian_dialect: "ザプリュシェ"
+ # Province 'nagornaya_province' (Nagornaya) #
+ tikhvin.novgorodian_dialect: "チフヴィヌ"
+ burga.novgorodian_dialect: "ブルガ"
+ khotsy.novgorodian_dialect: "ホツイ"
+ lipno_nov.novgorodian_dialect: "リプノ" # Lipno
+ nebolchi.novgorodian_dialect: "ネボルチ"
+ pashozero.novgorodian_dialect: "パショゼロ"
+ pikalyovo.novgorodian_dialect: "ピカリョヴォ"
+ tervenichi.novgorodian_dialect: "テルヴェニチ"
+ # Province 'north_pskov_province' (North Pskov) #
+ pskov.novgorodian_dialect: "プスコフ"
+ gdov.novgorodian_dialect: "グドフ"
+ izborsk.novgorodian_dialect: "イズボルスク"
+ kobyle.novgorodian_dialect: "コブィリェ" # Kobyl'e
+ meletovo.novgorodian_dialect: "メレトヴォ"
+ prudy.novgorodian_dialect: "プルジ"
+ # Province 'obonezhskaya_province' (Obonezhskaya) #
+ megra.novgorodian_dialect: "メグラ"
+ lodenoye_pole.novgorodian_dialect: "ロデイノイェ・ポリェ" # Lodenoye Pole
+ maselga.novgorodian_dialect: "マセルガ"
+ spirkovo.novgorodian_dialect: "スピルコヴォ"
+ vinnitsy.novgorodian_dialect: "ヴィンニツィ"
+ voznesenye.novgorodian_dialect: "ヴォズネセニエ"
+ # Province 'rzhevskaya_province' (Rzhevskaya) #
+ rzheva_pustaya.novgorodian_dialect: "ルジェヴァ・プスタヤ" # Rzheva Pustaya
+ ashevo.novgorodian_dialect: "アシェヴォ"
+ bezhanitsy.novgorodian_dialect: "ベジャニツィ"
+ kholm.novgorodian_dialect: "ホルム"
+ podberezye.novgorodian_dialect: "ポドベレジェ"
+ velikiye_luki.novgorodian_dialect: "ヴェリーキエ・ルキ" # Velikiye Luki
+ vlitsy.novgorodian_dialect: "ヴリツィ"
+ # Province 'south_pskov_province' (South Pskov) #
+ ostrov.novgorodian_dialect: "オストロフ"
+ opochka.novgorodian_dialect: "オポーチカ"
+ sebech.novgorodian_dialect: "セベジ"
+ slavkovitchi.novgorodian_dialect: "スラヴコヴィチ"
+ volodimerets.novgorodian_dialect: "ヴォロディミレツ"
+ voronich.novgorodian_dialect: "ヴォロニチュ"
+ # Province 'tverskaya_province' (Tverskaya) #
+ vyshny_volochyok.novgorodian_dialect: "ヴィシニュ・ヴォロチョク" # Vyshny Volochyok
+ maksatikha.novgorodian_dialect: "マクサチハ"
+ mikshino.novgorodian_dialect: "ミクシノ"
+ smerdyn.novgorodian_dialect: "スメルディヌ"
+ udomlya.novgorodian_dialect: "ウドムリャ"
+ # Province 'vodskaya_province' (Vodskaya) #
+ koporye.novgorodian_dialect: "コポリェ" # Kopor'ye
+ ivangorod.novgorodian_dialect: "イヴァンゴロヅ"
+ izori.novgorodian_dialect: "イゾリ"
+ khotchino.novgorodian_dialect: "ホチノ"
+ moloskovitsa.novgorodian_dialect: "モロスコヴィツィ"
+ soikino.novgorodian_dialect: "ソイキノ"
+ tesov.novgorodian_dialect: "テソヴ"
+ yama.novgorodian_dialect: "ハマ"
+ # Province 'volkhovskaya_province' (Volkhovskaya) #
+ novgorod.novgorodian_dialect: "ノヴゴロド"
+ gruzino.novgorodian_dialect: "グルジノ"
+ mezhutka.novgorodian_dialect: "メジュトカ"
+ soltsy_kirishi.novgorodian_dialect: "ソリツィ＝キレシ" # Soltsy-Kirishi
+ staraya_ladoga.novgorodian_dialect: "ラドガ" # Ladoga
+ # Province 'yazhelbitskaya_province' (Yazhelbitskaya) #
+ yazhelbitsy.novgorodian_dialect: "ヤジェルビツィ"
+ bologoye.novgorodian_dialect: "ボロゴエ"
+ bronnitsa.novgorodian_dialect: "ブロニツァ"
+ kresttsy.novgorodian_dialect: "クレスチェイ"
+ kulotino.novgorodian_dialect: "クロチノ"
+ rakitnya.novgorodian_dialect: "ラキトニャ"
+ valday.novgorodian_dialect: "ヴァルダユ"
+ veliky_porog.novgorodian_dialect: "ヴェリクユ・ポログ" # Veliky Porog

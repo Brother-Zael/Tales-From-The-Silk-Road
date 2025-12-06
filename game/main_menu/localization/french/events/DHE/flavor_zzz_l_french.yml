@@ -1,0 +1,9 @@
+﻿l_french:
+ flavor_zzz.1.title: "Les murs de [target_location.GetNameWithNoTooltip]"
+ flavor_zzz.1.desc: "Avec la montée du militantisme en [ShowRegionName('guinea_region')], [target_location.GetName] a évolué en centre non seulement culturel, mais également conflictuel. C'est pourquoi [target_character.GetName] souhaite construire des murs en son nom, afin de garantir que notre [target_location.GetRank.GetName] ne tombe jamais."
+ flavor_zzz.1.a: "Protégeons [target_location.GetNameWithNoTooltip]."
+ flavor_zzz.1.b: "Nous n'avons nul besoin d'ériger des murs."
+ flavor_zzz.2.title: "Le passage à l'offensive de [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_zzz.2.desc: "En raison de l'augmentation de la puissance militaire de [ROOT.GetCountry.GetName], [target_character.GetName] et sa [ROOT.GetCountry.GetGovernment.GetCourtTitle] ont déjà élaboré des plans pour asseoir encore davantage notre puissance. Ils suggèrent soit une approche visant à conquérir nos voisins, soit une stratégie plus défensive, axée sur la protection des gains que nous avons réalisés."
+ flavor_zzz.2.a: "Allons de l'avant et conquérons !"
+ flavor_zzz.2.b: "Consolidons les gains actuels."

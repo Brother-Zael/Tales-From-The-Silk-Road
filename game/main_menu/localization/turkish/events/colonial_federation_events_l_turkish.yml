@@ -1,0 +1,10 @@
+﻿l_turkish:
+ colonial_federation_events.1000.title: "[target_io.GetNameWithNoTooltip] ve Merkeziyetçilik"
+ colonial_federation_events.1000.desc: "Aslen dış güçlerin birçok koloni devleti arasında bir ittifak olan [target_io.GetName], zaman içinde büyük ölçüde kendi iç politikasına sahip ve dışarıya karşı birleşik bir cephe oluşturan, işleyen bir devlete dönüştü. Bugünden itibaren [target_io.GetNameWithNoTooltip] artık dağınık bir birlik değil, [target_country.GetName] ülkesinden [target_character.GetName] Hazretleri tarafından yönetilen birleşik bir güç olacak."
+ colonial_federation_events.1000.a: "Herkes için müreffeh bir geleceğe!"
+ colonial_federation_unify_the_io_tt: "[target_io.GetName] tek bir oluşum altında birleştirilir."
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Oylar verildi. Halkımız sesini açık ve net bir biçimde duyurdu. [target_io.GetName], [target_character.GetName] önderliğinde tek bir devlet altında birleştirilecek. Biz de bu oluşumun bir parçası olacağız."
+ colonial_federation_events.1001.a: "Yeni devletimiz çok yaşa!"
+ colonial_federation_events.1001.b: "Kimseye diz çökmeyeceğiz!"
+ colonial_federation_break_away_tt: "[target_country.GetName] ülkesinin [core|e] olan her il bizden ayrılır."

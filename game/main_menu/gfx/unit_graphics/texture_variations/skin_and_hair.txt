@@ -1,0 +1,168 @@
+﻿skin_eye_hair = {
+	# Red = Skin
+	# Green = Eyes
+	# Blue = Hair
+
+	skin_group = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+			secondary_color = unit_color0
+			#tertiary_color = unit_color1
+		}
+		repaint = {
+			66 = {
+				primary_color = skin_color
+				secondary_color = unit_color0
+			}
+			22 = {
+				primary_color = skin_color
+				secondary_color = unit_color1
+			}
+			11 = {
+				primary_color = skin_color
+				secondary_color = unit_color2
+			}
+		}
+	}
+	no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.5 }
+		repaint = {
+			primary_color = eye_color
+		}
+	}
+	no_texture_color_material = {
+		#Could use a textured material here for hair fibers maybe
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.8 hardness = 0.5 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}
+	
+	assets = {
+		unit_head_iroquois_01_mesh
+		unit_head_ashanti_01_mesh
+		unit_head_ashanti_02_mesh
+		unit_head_aztec_01_mesh
+		unit_head_chinese_01_mesh
+		unit_head_deccan_01_mesh
+		unit_head_syrian_01_mesh
+		unit_head_syrian_02_mesh
+		unit_head_german_a_mesh
+		unit_head_german_b_mesh
+	}
+}
+
+
+hair_variation = {
+	no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}
+	
+	assets = {
+		unit_beard_bushy_beard_moustache_mesh
+		unit_beard_curly_mesh
+		unit_beard_cutted_mesh
+		unit_beard_double_mesh
+		unit_beard_goatee_mesh
+		unit_beard_medium_mustaches_mesh
+		unit_beard_mustaches_mesh
+		unit_beard_mustaches_chin_curtain_mesh
+		meshunit_beard_mustaches_curled_mesh
+		unit_beard_mustaches_dual_mesh
+		unit_beard_mustaches_long_mesh
+		unit_beard_mustaches_medium_mesh
+		unit_beard_mustaches_regular_mesh
+		unit_beard_mustaches_round_mesh
+		unit_beard_mustaches_rounded_mesh
+		unit_beard_mustaches_sharp_mesh
+		unit_beard_mustaches_smooth_mesh
+		unit_beard_mustaches_straight_mesh
+		unit_beard_mustaches_sultan_mesh
+		unit_beard_mustaches_thick_mesh
+		unit_beard_mustaches_wavy_mesh
+		unit_beard_mustaches_wide_mesh
+		unit_beard_mustache_sith_mesh
+		unit_beard_mustache_wide_mesh
+		unit_beard_noble_mesh
+		unit_beard_north_german_long_a_mesh
+		unit_beard_north_german_short_b_mesh
+		unit_beard_round_mesh
+		unit_beard_rounded_mesh
+		unit_beard_short_beard_mesh
+		unit_beard_straight_mesh
+		unit_beard_straight_mustaches_mesh
+		unit_beard_thick_mesh
+		unit_beard_wavy_small_mesh
+		unit_hair_mustaches_mesh
+		unit_beard_sideburns_mesh
+		unit_beard_wide_mesh
+		unit_beard_mustaches_hussar_mesh
+		unit_beard_mustaches_double_mesh
+		unit_beard_mustaches_germany_mesh
+		unit_mustaches_wavy_short_mesh
+		unit_beard_mustaches_pointed_mesh
+		unit_beard_mustaches_shaggy_mesh
+		unit_beard_thin_mesh
+		unit_beard_mustaches_slim_mesh
+		unit_beard_mustaches_small_mesh
+		unit_beard_mustaches_fashion_mesh
+		unit_mustaches_wavy_long_mesh
+		unit_mustaches_general_mesh
+		unit_mustache_deccan_mesh
+		unit_hair_mustaches_single_mesh
+		unit_mustaches_absolutism_mesh
+		unit_mustaches_beard_forelock_mesh
+		unit_mustaches_beard_neat_mesh
+		unit_mustaches_beard_nobles_mesh
+		unit_mustaches_beard_sharp_mesh
+		unit_mustaches_beard_thin_mesh
+		unit_mustaches_bent_mesh
+		unit_mustaches_regular_mesh
+		unit_mustaches_sideburns_mesh
+		unit_mustaches_simple_mesh
+		unit_mustaches_simple_single_mesh
+		unit_mustaches_straight_mesh
+		unit_mustaches_thick_single_mesh
+		unit_mustaches_thin_mesh
+		unit_mustaches_twisted_mesh
+		unit_mustaches_wide_mesh
+		unit_mustache_basic_single_mesh
+		unit_mustache_deccan_peasants_mesh
+		unit_mustache_traditions_india_mesh
+		unit_mustaches_beard_cone_mesh
+		unit_hair_bob_male_d_mesh
+		unit_hair_cut_afro_mesh
+		unit_hair_north_german_male_bob_a_mesh
+		unit_hat_bowl_cut_mesh
+		unit_hair_north_german_male_long_b_mesh
+		unit_hair_north_german_male_short_a_mesh
+		unit_beard_mustaches_sharp_edge_mesh
+		unit_mustaches_small_aztecs_mesh
+		unit_mustaches_long_mesh
+		unit_mustaches_heavy_curved_mesh
+		unit_mustache_soldier_simple_mesh
+		unit_mustaches_wide_single_mesh
+		unit_beard_mustaches_simple_small_mesh
+		unit_mustache_waves_mesh
+		unit_mustaches_han_mesh
+		unit_mustaches_shaggy_oriental_mesh
+		unit_hair_beard_mustaches_mesh
+		unit_beard_mustaches_shaggy_oriental_mesh
+		unit_beard_mustaches_curved_mesh		
+		unit_mustaches_han_beard_mesh
+		unit_mustaches_shrunken_mesh
+		unit_beard_mustaches_short_mesh
+		unit_mustaches_chinese_mesh
+		unit_mustaches_shaggy_han_mesh	
+		unit_hat_hair_long_mesh	
+		unit_beard_big_mustache_mesh
+		unit_mustaches_beard_mesh
+		unit_mustaches_beard_tiny_mesh
+		unit_mustache_whiskers_mesh		
+		
+	}
+}

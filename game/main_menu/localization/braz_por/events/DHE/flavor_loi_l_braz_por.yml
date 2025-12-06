@@ -1,0 +1,11 @@
+﻿l_braz_por:
+ flavor_loi.10.title: "As Ilhas Nórdicas"
+ flavor_loi.10.desc: "O povo do país [ROOT.GetCountry.GetLongName] viveu por muito tempo sob a sombra de sua descendência do povo [ROOT.GetCountry.GetCulture.GetName], mas agora, diante dos tempos que estão mudando, consideramos abraçar novamente nossas raízes nórdicas. À medida que nos aproximamos cada vez mais dos antigos reinos da [scandinavia.GetName], há muito a ser ganho ao redescobrir essa descendência ancestral e forjar novas alianças.\n\nSe optarmos por esse caminho, devemos estar dispostos a abrir mão de algumas de nossas tradições e práticas gaélicas, mas as recompensas dessa jornada podem ser grandes. Ao abraçar nossas raízes nórdicas, podemos estabelecer uma nova e poderosa identidade do povo [nordic_culture.GetName] para o povo dessas ilhas e ocupar nosso lugar entre os Leões do Norte.\n\nEmbarcaremos nessa jornada de redescoberta?"
+ flavor_loi.10.a: "Vamos abraçar nossas raízes nórdicas."
+ flavor_loi.10.b: "Vamos resistir ao chamado do norte."
+ opinion_loi_10_adopted_our_culture: "Cultura Nórdica Adotada"
+ flavor_loi.20.title: "Concurso de Construção Naval"
+ flavor_loi.20.desc: "Os ventos da província de [target_location.GetProvinceDefinition.GetName] carregam o som de martelos batendo contra carvalho e pinho, enquanto mestres carpinteiros de toda a região de [target_location.GetArea.GetName] se reúnem para competir no Grande Concurso de Construção Naval do Povo [ROOT.GetCountry.GetAdjective] em [target_location.GetName].\n\nA construção tradicional de embarcações é vital para o nosso modo de vida e precisa ser incentivada. Como representantes do estamento [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')], temos o dever de supervisionar essa competição."
+ flavor_loi.20.a: "Vamos encomendar uma galé para participarmos."
+ flavor_loi.20.b: "Vamos financiar um participante preferido."
+ flavor_loi.20.c: "Vamos ignorar o concurso."

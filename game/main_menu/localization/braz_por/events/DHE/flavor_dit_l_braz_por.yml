@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ flavor_dit.1.title: "O Estamento [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] da Entidade Política [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_dit.1.desc: "As terras sob os cuidados dos nossos [ShowPopTypeName('peasants')] recebem pouca atenção do mundo afora e como consequência, elas se desenvolveram como comunidades organizadas de forma independente, longe da influência dos [ShowPopTypeName('nobles')]. Talvez seja hora de nos livrarmos dos últimos elos que nos prendem à sociedade feudal da [ShowContinentName('europe')] e adotarmos as estruturas da [ShowGovernmentReformName('peasant_republic_reform')] que nos guia há séculos."
+ flavor_dit.1.a: "Friede den Hütten! Krieg den Palästen!"
+ flavor_dit.1.b: "Isso soa um tanto radical."

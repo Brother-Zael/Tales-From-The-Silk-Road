@@ -1,0 +1,4 @@
+﻿l_braz_por:
+ flavor_tle.1.title: "A Queda da Capital [capital_scope.GetNameWithNoTooltip]"
+ flavor_tle.1.desc: "[capital_scope.GetName], capital do(a) nosso(a) [ROOT.GetCountry.GetFlavorRank], infelizmente caiu nas mãos dos nossos inimigos cruéis. Para piorar a tragédia, [ruler_scope.GetName], governante que a população tanto adora, morreu durante o ataque.\n\nEssa tragédia provocou uma onda de desespero em todo(a) o(a) [ROOT.GetCountry.GetFlavorRank] e dificultou ainda mais a continuação da luta contra os nossos agressores."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

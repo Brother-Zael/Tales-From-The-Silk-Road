@@ -1,0 +1,19 @@
+naming format, in order of priority:
+
+[unit_category]_[unit_type]_[culture_tag]					# army_infantry_a_genoese_crossbowmen_catalan_gfx
+
+[unit_category]_[unit_type]									# army_infantry_a_genoese_crossbowmen
+
+[unit_category]_[age_number]_[gfx_tag]_[culture_tag]		# army_infantry_2_medium_tag_catalan_gfx
+
+[unit_category]_[age_number]_[gfx_tag]						# army_infantry_2_medium_tag
+
+[unit_category]_[age_number]_[culture_tag]					# army_infantry_2_catalan_gfx
+
+[unit_category]_[age_number]								# army_infantry_2
+
+[unit_category]_[gfx_tag]									# army_infantry_medium_tag
+
+[unit_category]_[culture_tag]								# army_infantry_catalan_gfx
+
+[unit_category]												# army_infantry

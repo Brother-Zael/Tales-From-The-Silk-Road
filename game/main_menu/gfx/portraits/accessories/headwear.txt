@@ -1,0 +1,577 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+##################
+#	  MALE		#
+##################
+
+#	  NORTH GERMAN		#
+
+male_headwear_german_royal_crown_duke_hair = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_royal_crown_duke_hair_entity   }
+}
+male_headwear_german_royal_crown_hair = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_royal_crown_hair_entity   }
+}
+male_headwear_german_soldier_skull_cap_helmet = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_skull_cap_helmet_entity   }
+}
+male_headwear_german_soldier_sturmhaube_helmet = {
+	set_tags = "hair_covered,ears_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_sturmhaube_helmet_entity   }
+}
+male_headwear_german_soldier_noble_burgonet_helmet_feather_dark = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_noble_burgonet_helmet_feather_dark_entity   }
+}
+
+male_headwear_german_generic_crown = {
+	set_tags = "hair_covered_long"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_generic_crown_entity  }
+}
+
+male_headwear_german_soldier_noble_burgonet_helmet_feather = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_noble_burgonet_helmet_feather_entity   }
+}
+male_headwear_german_soldier_noble_burgonet_helmet = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_noble_burgonet_helmet_entity   }
+}
+male_headwear_german_soldier_noble_burgonet_helmet_dark = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_noble_burgonet_helmet_dark_entity   }
+}
+male_headwear_german_soldier_burgonet_helmet = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_burgonet_helmet_entity   }
+}
+male_headwear_german_soldier_burgonet_helmet_dark = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_burgonet_helmet_dark_entity   }
+}
+male_headwear_german_soldier_landsknetch_helmet_fabric = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_landsknetch_helmet_fabric_entity   }
+}
+male_headwear_german_soldier_landsknetch_helmet_fabric_2 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_landsknetch_helmet_fabric_2_entity   }
+}
+male_headwear_german_soldier_landsknetch_helmet_1 = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_soldier_landsknetch_helmet_1_entity   }
+}
+male_headwear_german_noble_velvet_hat_feather = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_noble_velvet_hat_feather_entity   }
+}
+male_headwear_german_noble_velvet_hat = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_noble_velvet_hat_entity   }
+}
+male_headwear_german_soldier_morion_cabasset_helmet = {
+	set_tags = "hair_covered,ears_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_soldier_morion_cabasset_helmet_entity   }
+}
+male_headwear_german_royal_crown_duke_small = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_royal_crown_duke_small_entity   }
+}
+male_headwear_german_royal_crown_duke_big = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_royal_crown_duke_big_entity   }
+}
+male_headwear_german_common_bonnet = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_common_bonnet_entity   }
+}
+male_headwear_german_soldier_round_kettle_helmet = {
+	set_tags = "hair_covered,ears_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_soldier_round_kettle_helmet_entity   }
+}
+male_headwear_german_soldier_round_kettle_helmet_nocloth = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_soldier_round_kettle_helmet_nocloth_entity  }
+}
+male_headwear_german_common_bycocket = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headwear_german_common_bycocket_entity   }
+}
+male_headwear_german_berret_plain = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_ger_headwear_berret_plain_entity   }
+}
+male_headwear_german_berret_black = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_ger_headwear_berret_black_entity   }
+}
+male_headwear_german_low_barett = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_german_headwear_low_barett_entity   }
+}
+male_headwear_german_tophat_jewellery = {
+	set_tags = "no_hair"  
+	entity = { required_tags = ""    		shared_pose_entity = head   entity = male_german_headwear_tophat_jewellery_entity   }
+}
+male_headwear_german_high_plain_berret_right = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""    		shared_pose_entity = head   entity = male_headwear_german_high_plain_berret_right_entity   }
+}
+male_headwear_german_high_plain_berret_left = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""    		shared_pose_entity = head   entity = male_headwear_german_high_plain_berret_left_entity   }
+}
+male_headwear_german_high_stripped_berret_right = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""    		shared_pose_entity = head   entity = male_headwear_german_high_stripped_berret_right_entity   }
+}
+male_headwear_german_high_stripped_berret_left = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_german_high_stripped_berret_left_entity   }
+}
+male_headwear_german_high_tall_round_hat = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_german_headwear_high_tall_round_hat_entity   }
+}
+male_headwear_german_high_landsknecht_barett = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_german_headwear_high_landsknecht_barett_entity   }
+}
+male_headwear_german_elector_cap_ermine = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_german_elector_cap_ermine_entity   }
+}
+male_headwear_german_elector_cap_plates = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_german_elector_cap_plates_entity   }
+}
+male_headwear_german_bishop_mitre = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_german_bishop_mitre_entity   }
+}
+male_headwear_german_archbishop_mitre = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_german_archbishop_mitre_entity   }
+}
+
+#	  BOHEMIAN		#
+male_headwear_bohemian_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_bohemian_royal_crown_entity   }
+}
+
+#	  FRENCH		#
+male_headwear_french_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_french_royal_crown_entity   }
+}
+
+#	  ENGLISH		#
+male_headwear_english_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_english_royal_crown_entity   }
+}
+
+#	  PAPACY		#
+male_headwear_papal_tiara = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_papal_tiara_entity   }
+}
+
+#	  CHINESE		#
+male_headwear_chinese_commoner_wangjin = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_commoner_wangjin_entity   }
+}
+male_headwear_chinese_commoner_wangjin_open = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_commoner_wangjin_open_entity   }
+}
+male_headwear_chinese_peasant_cap = {
+	set_tags = "no_hair"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_peasant_cap_entity   }
+}
+male_headwear_chinese_low_squaredjin = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_low_squaredjin_entity   }
+}
+male_headwear_chinese_low_straw_hat = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_low_straw_hat_entity   }
+}
+male_headwear_chinese_soldier_kettle_helmet = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_soldier_kettle_helmet_entity   }
+}
+male_headwear_chinese_high_wushamao = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_high_wushamao_entity   }
+}
+male_headwear_chinese_royal_futou = {
+	set_tags = "no_hair" 
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_royal_futou_entity   }
+}
+male_headwear_chinese_imperial_mianguan = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_imperial_mianguan_entity   }
+}
+male_headwear_chinese_wings_feather_helmet = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_chinese_wings_feather_helmet_entity   }
+}
+
+#	  SYRIAN		#
+male_headwear_syrian_commoner_felt_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_commoner_felt_cap_entity   }
+}
+male_headwear_syrian_commoner_felt_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_commoner_felt_turban_entity   }
+}
+male_headwear_syrian_low_pointy_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_low_pointy_turban_entity   }
+}
+male_headwear_syrian_low_fur_hat = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_low_fur_hat_entity   }
+}
+male_headwear_syrian_low_wide_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_low_wide_turban_entity   }
+}
+male_headwear_syrian_high_leather_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_high_leather_turban_entity   }
+}
+male_headwear_syrian_high_tall_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_high_tall_turban_entity   }
+}
+male_headwear_syrian_royal_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_royal_turban_entity   }
+}
+male_headwear_syrian_royal_shallot_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_royal_shallot_turban_entity   }
+}
+male_headwear_syrian_imperial_feather_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_imperial_feather_turban_entity   }
+}
+male_headwear_syrian_turban_helmet = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_turban_helmet_entity   }
+}
+male_headwear_syrian_imam_flat_turban = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_imam_flat_turban_entity   }
+}
+male_headwear_syrian_peasant_turban_fez = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_peasant_turban_fez_entity   }
+}
+male_headwear_syrian_soldier_helmet_turban = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_syrian_soldier_helmet_turban_entity   }
+}
+
+#	  ASHANTI		#
+male_headwear_ashanti_low_leopard_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_low_leopard_cap_entity   }
+}
+male_headwear_ashanti_high_seashells_headband = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_high_seashells_headband_entity   }
+}
+male_headwear_ashanti_royal_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_royal_cap_entity   }
+}
+male_headwear_ashanti_imperial_feathered_horns = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_imperial_feathered_horns_entity   }
+}
+male_headwear_ashanti_war_scale_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_war_scale_cap_entity   }
+}
+male_headwear_ashanti_shaman_golden_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_ashanti_shaman_golden_cap_entity   }
+}
+
+#	  AZTEC		#
+male_headwear_aztec_low_turban = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_low_turban_entity   }
+}
+male_headwear_aztec_high_triangle_band = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_high_triangle_band_entity   }
+}
+male_headwear_aztec_royal_circlet = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_royal_circlet_entity   }
+}
+male_headwear_aztec_imperial_tall_gem = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_imperial_tall_gem_entity   }
+}
+male_headwear_aztec_war_skull_mask = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_war_skull_mask_entity   }
+}
+male_headwear_aztec_clergy_twisted = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_aztec_clergy_twisted_entity   }
+}
+
+#	  IROQUOIS		#
+male_headwear_iroquois_low_headband = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_low_headband_entity   }
+}
+male_headwear_iroquois_low_headband_mirrored = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_low_headband_mirrored_entity   }
+}
+male_headwear_iroquois_low_headband_feathered = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_low_headband_feathered_entity   }
+}
+male_headwear_iroquois_low_feathered_bun = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_low_feathered_bun_entity   }
+}
+male_headwear_iroquois_high_feathered_bun = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_high_feathered_bun_entity   }
+}
+male_headwear_iroquois_royal_leather_crown = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_royal_leather_crown_entity   }
+}
+male_headwear_iroquois_imperial_silver_crown = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_imperial_silver_crown_entity   }
+}
+male_headwear_iroquois_falsefacemask = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_iroquois_falsefacemask_entity   }
+}
+
+#	  DECCAN		#
+male_headwear_deccan_commoner_turban = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_commoner_turban_entity   }
+}
+male_headwear_deccan_low_kulavi = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_low_kulavi_entity   }
+}
+male_headwear_deccan_high_circlet = {
+	set_tags = ""  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_high_circlet_entity   }
+}
+male_headwear_deccan_royal_kirita = {
+	set_tags = "no_hair"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_royal_kirita_entity   }
+}
+male_headwear_deccan_imperial_chera = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_imperial_chera_entity   }
+}
+male_headwear_deccan_war_peti_helmet = {
+	set_tags = "no_hair"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_war_peti_helmet_entity   }
+}
+male_headwear_deccan_clergy_veil = {
+	set_tags = "no_hair"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_deccan_clergy_veil_entity   }
+}
+
+#	  JEWISH		#
+male_headwear_jewish_clergy_tzitz = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_jewish_clergy_tzitz_entity   }
+}
+
+##################
+#			FEMALE			#
+##################
+
+female_german_noble_hood_headwear_pearls = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = noble_hood_headwear_pearls_entity    }
+}
+female_german_noble_hood_headwear = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = noble_hood_headwear_entity    }
+}
+female_german_low_goldhaube = {
+	set_tags = "fully_covered"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = female_german_low_goldhaube_entity    }
+}
+female_german_low_goldhaube_nocap = {
+	set_tags = "fully_covered"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = female_german_low_goldhaube_nocap_entity    }
+}
+female_german_flathat_feathers = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = female_german_flathat_feathers_entity    }
+}
+female_headwear_german_nun_veil = {
+	set_tags = "fully_covered"
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = female_headwear_german_nun_veil_entity    }
+}
+female_headwear_german_nun_veil_crown = {
+	set_tags = "fully_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   	entity = female_headwear_german_nun_veil_crown_entity }
+}
+
+#	  ENGLISH		#
+female_headwear_english_royal_crown = {
+	set_tags = "hair_covered"
+	set_tags = "hair_covered_long"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = female_headwear_english_royal_crown_entity   }
+}
+female_headwear_english_royal_crown_simple = {
+	set_tags = "hair_covered"
+	set_tags = "hair_covered_long"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = female_headwear_english_royal_crown_simple_entity   }
+}
+
+#	  SYRIAN		#
+female_headwear_chinese_royalty_cap = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_chinese_royalty_cap_entity   }
+}
+
+#	  SYRIAN		#
+female_headwear_syrian_noble_turban_scarf = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_noble_turban_scarf_entity   }
+}
+female_headwear_syrian_noble_turban_scarf_no_veil = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_noble_turban_scarf_no_veil_entity   }
+}
+female_headwear_syrian_low_panonian = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_low_panonian_entity   }
+}
+female_headwear_syrian_high_panonian = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_high_panonian_entity   }
+}
+female_headwear_syrian_common_scarf = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_common_scarf_entity   }
+}
+female_headwear_syrian_common_scarf_no_veil = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_syrian_common_scarf_no_veil_entity   }
+}
+
+#	  ASHANTI		#
+female_headwear_ashanti_low_headwrap = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_ashanti_low_headwrap_entity   }
+}
+
+#	  AZTEC		#
+female_headwear_aztec_low_pearls_circlet = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_aztec_low_pearls_circlet_entity   }
+}
+female_headwear_aztec_royal_golden_crown = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_aztec_royal_golden_crown_entity   }
+}
+
+#	  DECCAN		#
+female_headwear_deccan_low_veil = {
+	set_tags = "no_hair"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headwear_deccan_low_veil_entity   }
+}
+
+#	ADDITIVE	#
+female_headwear_paradox_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = female_headwear_paradox_crown_entity   }
+}
+female_headwear_spectacles_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head   entity = female_headwear_spectacles_01_entity   }
+}
+female_headwear_spectacles_02 = {
+	entity = { required_tags = ""			shared_pose_entity = head   entity = female_headwear_spectacles_02_entity   }
+}
+
+##################
+#			CHILD			#
+##################
+
+ger_child_flathat_a = {
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_flathat_a_entity   }
+}
+
+# Boys
+child_german_headwear_low_skull_cap = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_german_headwear_low_skull_cap_entity   }
+}
+child_german_headwear_high_square_hat = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_german_headwear_high_square_hat_entity   }
+}
+child_german_headwear_high_floral_tophat = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_german_headwear_high_floral_tophat_entity   }
+}
+child_headwear_deccan_low_stripped_hat = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_headwear_deccan_low_stripped_hat_entity   }
+}
+child_headwear_iroquois_high_pearls_headband = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_headwear_iroquois_high_pearls_headband_entity   }
+}
+
+# Girls
+child_german_headwear_low_closed_coif = {
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_german_headwear_low_closed_coif_entity   }
+	set_tags = "no_hair"  
+}
+child_german_headwear_high_veil_coif = {
+	entity = { required_tags = ""			shared_pose_entity = head			  entity = child_german_headwear_high_veil_coif_entity   }
+	set_tags = "no_hair"  
+}
+
+
+#	  BOHEMIAN		#
+child_headwear_bohemian_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = child_headwear_bohemian_royal_crown_entity   }
+}
+
+#	  FRENCH		#
+child_headwear_french_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = child_headwear_french_royal_crown_entity   }
+}
+
+#	  ENGLISH		#
+child_headwear_english_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = child_headwear_english_royal_crown_entity   }
+}
+child_girl_headwear_english_royal_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""			shared_pose_entity = head   entity = child_girl_headwear_english_royal_crown_entity   }
+}

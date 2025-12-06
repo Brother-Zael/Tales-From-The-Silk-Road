@@ -1,0 +1,7 @@
+﻿l_russian:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Выходец из купеческой семьи [target_character.GetName] добился в жизни такого, о чём остальным остаётся лишь мечтать. Сейчас [target_character.GetShortNameWithNoTooltip] ведёт невероятно успешный бизнес в #TOOLTIP:REGION,italy_region,X #L Италии#!#!. По торговой сети, созданной его семьёй, циркулирует львиная доля богатств этого полуострова. Однако недавно знаменитый торговец изъявил желание вернуться домой и заняться развитием наших рынков, используя новейшие методы, заимствованные у итальянцев…"
+ flavor_nur.1.a: "С возвращением, [target_character.GetName]!"
+ flavor_nur.1.b: "У нас нет денег на эту чепуху!"
+ flavor_nur.1.c: "Спасибо, но не стоит…"
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] исчезнет"

@@ -1,0 +1,12 @@
+﻿l_japanese:
+ border_friction.1.title: "国境摩擦"
+ border_friction.1.desc: "[border_claim_country.GetLongName]と同盟を結んだことに不満をもつ者たちもいる。わが国の[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の有力な一派は、[border_claim_province.GetName]州に焦点を当てることで同盟の破棄を主張している。この州は[border_claim_country.GetNameWithNoTooltip]が所有しているが、多くの者が本来はわが国の土地とみなしているのだ。この状況に際し、[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]は民衆の怒りの感情を大きく扇っている！"
+ border_friction.1.a: "政策の変更が必要かもしれない……"
+ border_friction_from_event: "請求権に対する苛立ち"
+ border_friction.1.b: "物事を前向きに捉えよう！"
+ border_friction.1.c: "請求権を放棄する。"
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "「わが国の正当な領土である[border_claim_province.GetName]は他国に奪われ、政府はその奪回の努力を怠っている！ 政府は無能の集まりである！」と書き立て、[border_claim_country.GetLongName]との戦争を呼びかけるビラが配布されている。\n\nこのような非難に煽られ、我々が所有権を主張した州を奪還できなかったことに対する、広範な不満が国中に広がっている。"
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "請求を取り消せ。"

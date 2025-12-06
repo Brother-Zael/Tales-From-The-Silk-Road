@@ -1,0 +1,11 @@
+﻿l_spanish:
+ flavor_loi.10.title: "Las islas nórdicas"
+ flavor_loi.10.desc: "[ROOT.GetCountry.GetLongName] ha vivido durante mucho tiempo bajo la sombra de la herencia de los [ROOT.GetCountry.GetCulture.GetName|l], pero ahora, ante los tiempos cambiantes, contemplamos la posibilidad de abrazar de nuevo nuestras raíces nórdicas. A medida que nos sentimos más y más atraídos por los antiguos reinos de [scandinavia.GetName], hay mucho que ganar redescubriendo esta antigua herencia y forjando nuevas alianzas.\n\nSi consideramos este camino, debemos estar dispuestos a abandonar algunas de nuestras tradiciones y costumbres gaélicas, pero las recompensas de este viaje pueden ser extraordinarias. Al abrazar nuestras raíces nórdicas, podemos establecer una nueva y poderosa identidad como [nordic_culture.GetName|l] para el pueblo de estas islas, y ocupar nuestro lugar entre los leones del norte.\n\n¿Nos embarcaremos en este viaje de redescubrimiento?"
+ flavor_loi.10.a: "Abracemos nuestras raíces nórdicas."
+ flavor_loi.10.b: "Resistamos la llamada del norte."
+ opinion_loi_10_adopted_our_culture: "Se ha adoptado la cultura nórdica."
+ flavor_loi.20.title: "Problemas en la construcción naval"
+ flavor_loi.20.desc: "Los vientos de la provincia de [target_location.GetProvinceDefinition.GetName] transportan el sonido de los martillos que golpean contra roble y pino, mientras los maestros constructores navales de toda la región de [target_location.GetArea.GetName] se reúnen para competir en el gran concurso de construcción naval [ROOT.GetCountry.GetAdjective|l] en [target_location.GetName].\n\nLa construcción naval tradicional es vital para nuestro modo de vida y debe fomentarse. Como representantes del estamento [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l], tenemos el deber de supervisar esta competición."
+ flavor_loi.20.a: "Encarguemos una galera para participar."
+ flavor_loi.20.b: "Patrocinemos a un participante."
+ flavor_loi.20.c: "No prestemos atención al concurso."

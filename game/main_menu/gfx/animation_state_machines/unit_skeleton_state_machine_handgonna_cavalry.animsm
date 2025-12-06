@@ -1,0 +1,332 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Attack"={
+		timeline_layer={
+			timeline="L_relative_Attack_editor_timeline"
+		}
+		timeline_layer={
+			timeline="attack_bow_animation"
+		}
+	}
+ 	"Idle"={
+		timeline_layer={
+			timeline="L_relative_Idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="idle_musket_cavalry_01_animation"
+		}
+	}
+ 	"Move"={
+		timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="moving_cavalry_musket_animation"
+		}
+	}
+ 	"Retreat"={
+		timeline_layer={
+			timeline="L_relative_Retreat_editor_timeline"
+		}
+		timeline_layer={
+			timeline="retreat_bow_animation"
+		}
+	}
+ 	"Charge"={
+		timeline_layer={
+			timeline="L_relative_Charge_editor_timeline"
+		}
+		timeline_layer={
+			timeline="charge_bow_animation"
+		}
+	}
+ 	"Idle Loop"={
+		random_layer={
+			name="Random group 1"
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_musket_cavalry_02_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_musket_cavalry_03_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_musket_cavalry_01_animation"
+			}
+		}
+		timeline_layer={
+			timeline="L_default_Idle Loop_editor_timeline"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 340"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Attack to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="1"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Attack"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="1"
+ 		}
+		behavioral_state="Attack"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Move"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to charge"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="4"
+ 		}
+		behavioral_state="Charge"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to retreat"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="3"
+ 		}
+		behavioral_state="Retreat"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Idle loop"
+		trigger_time_relative=1.000000
+		behavioral_state="Idle Loop"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Move to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Retreat to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="3"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Charge to idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="4"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle loop to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="0"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 656"
+		trigger_time_relative=1.000000
+		behavioral_state="Idle Loop"
+		transition_interval=0.000000
+	}
+ 	particle_action={
+		name="bow_arrow_start_vfx"
+		trigger_time_absolute=1.241010
+		hierarchy_place="vfx_loc_01"
+		type=start
+	}
+ 	particle_action={
+		name="bow_arrow_stop_vfx"
+		trigger_time_absolute=2.023676
+		hierarchy_place="vfx_loc_01"
+		type=stop
+	}
+ }
+
+timelines={
+	"L_relative_Attack_editor_timeline"={
+		boundary_behavior=loop
+		duration=2.667073
+		events={
+			"Attack to Idle"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=3.233670
+		events={
+			"Idle to Attack"
+			"Idle to Move"
+			"Idle to charge"
+			"Idle to retreat"
+			"Idle to Idle loop"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Move_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.000000
+		events={
+			"Move to Idle"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Retreat_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.000000
+		events={
+			"Retreat to Idle"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Charge_editor_timeline"={
+		boundary_behavior=loop
+		duration=0.369231
+		events={
+			"Charge to idle"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_default_Idle Loop_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Idle loop to Idle"
+			"Connection 656"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+	}
+ 	"idle_musket_cavalry_01_animation"={
+		boundary_behavior=clamp
+		duration=3.233670
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_handgonne_cavalry_01_animation"
+		duration_source=animation
+	}
+ 	"moving_cavalry_musket_animation"={
+		boundary_behavior=loop
+		duration=1.000000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="walk_handgonne_cavalry_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"charge_bow_animation"={
+		boundary_behavior=loop
+		duration=0.369231
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="charge_handgonne_cavalry_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"idle_musket_cavalry_02_animation"={
+		boundary_behavior=clamp
+		duration=3.033692
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_handgonne_cavalry_02_animation"
+		duration_source=animation
+	}
+ 	"idle_musket_cavalry_03_animation"={
+		boundary_behavior=clamp
+		duration=3.233670
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_handgonne_cavalry_03_animation"
+		duration_source=animation
+	}
+ 	"attack_bow_animation"={
+		boundary_behavior=loop
+		duration=2.667073
+		events={
+			"bow_arrow_start_vfx"
+			"bow_arrow_stop_vfx"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_handgonne_cavalry_04_animation"
+		duration_source=animation
+	}
+ 	"retreat_bow_animation"={
+		boundary_behavior=loop
+		duration=1.000000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="walk_handgonne_cavalry_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 340"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

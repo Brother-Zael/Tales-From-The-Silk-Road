@@ -1,0 +1,38 @@
+﻿###############################################
+# artillery
+###############################################
+
+
+# ARTILLERY
+
+#### NORTH GERMAN ####
+
+# AGE_1_TRADITIONS
+   
+north_german_gfx:age_1_traditions:artillery = {
+    10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_artillery_absolutism_mortar_mesh" } }
+	10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_cannon_wheel_a_mesh" } }
+}
+
+north_german_gfx:age_2_renaissance:artillery = {
+    10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_renaissance_field_cannon_mesh" } }
+}
+
+north_german_gfx:age_3_discovery:artillery = {
+    10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_discovery_field_cannon_mesh" } }
+}
+
+north_german_gfx:age_4_reformation:artillery = {
+    10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_reformation_field_cannon_mesh" } }
+}
+
+north_german_gfx:age_5_absolutism:artillery = {
+    10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_absolutism_mortar_mesh" } }
+}
+
+north_german_gfx:age_6_revolutions:artillery = {
+    10 = { add_entity = { node = shared_pose_entity     mesh_name = "unit_artillery_revolutions_field_canon_mesh" } }
+}
+
+
+

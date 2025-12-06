@@ -1,0 +1,135 @@
+﻿node_editor_meta={
+	view={
+		position={ -208.666672 225.000000 }
+		zoom=0.750000
+	}
+	nodes={
+		3={
+			position={ 953.221863 338.000122 }
+		}
+		4={
+			position={ 1138.000000 172.999985 }
+		}
+		6={
+			position={ 395.000031 293.000000 }
+		}
+		10={
+			position={ 387.000031 452.000000 }
+		}
+		13={
+			position={ 584.000000 208.000015 }
+		}
+		16={
+			position={ 0.000023 497.000000 }
+		}
+		18={
+			position={ 441.000031 610.000000 }
+		}
+		19={
+			position={ 874.000000 160.000015 }
+		}
+		20={
+			position={ 1004.000000 738.000000 }
+		}
+		22={
+			position={ 684.000000 763.000000 }
+		}
+		25={
+			position={ 689.000000 592.000000 }
+		}
+		29={
+			position={ 831.000000 0.000015 }
+		}
+		32={
+			position={ 275.333344 167.000000 }
+		}
+		0={
+			position={ 410.778137 366.000000 }
+			inlined=yes
+		}
+		1={
+			position={ 500.000000 458.000000 }
+			inlined=yes
+		}
+		2={
+			position={ 500.000000 458.000000 }
+			inlined=yes
+		}
+		5={
+			position={ 611.000000 380.000000 }
+			inlined=yes
+		}
+		7={
+			position={ 585.999756 1157.000000 }
+			inlined=yes
+		}
+		8={
+			position={ 611.000000 380.000000 }
+			inlined=yes
+		}
+		9={
+			position={ 527.778137 548.000000 }
+			inlined=yes
+		}
+		11={
+			position={ 500.000000 458.000000 }
+			inlined=yes
+		}
+		12={
+			position={ 585.999756 1157.000000 }
+			inlined=yes
+		}
+		14={
+			position={ 527.778137 548.000000 }
+			inlined=yes
+		}
+		15={
+			position={ 474.000000 237.000000 }
+			inlined=yes
+		}
+		17={
+			position={ 379.333344 136.333313 }
+			inlined=yes
+		}
+		21={
+			position={ 500.000000 458.000000 }
+			inlined=yes
+		}
+		23={
+			position={ 224.000000 554.000000 }
+			inlined=yes
+		}
+		24={
+			position={ 474.000000 237.000000 }
+			inlined=yes
+		}
+		26={
+			position={ 585.999756 1157.000000 }
+			inlined=yes
+		}
+		27={
+			position={ 171.778137 430.000000 }
+			inlined=yes
+		}
+		28={
+			position={ 585.999756 1157.000000 }
+			inlined=yes
+		}
+		30={
+			position={ 224.000000 554.000000 }
+			inlined=yes
+		}
+		31={
+			position={ 171.778137 430.000000 }
+			inlined=yes
+		}
+		33={
+			position={ 780.778137 82.000031 }
+			inlined=yes
+		}
+		34={
+			position={ 527.778137 548.000000 }
+			inlined=yes
+		}
+	}
+}

@@ -1,0 +1,6 @@
+﻿l_french:
+ civil_war.1.title: "Guerre civile perdue"
+ civil_war.1.desc: "La guerre civile en [loser.GetName] est terminée. Nous avons perdu. Heureusement pour nous, ce n'est pas la fin, mais peut-être une opportunité."
+ civil_war.1.a: "Des cendres renaît une vie nouvelle !"
+ civil_war.1.b: "Le temps est venu de payer le prix de la défaite."
+ civil_war_game_over: "Cela nous met hors-jeu !\n\n@trigger_no! #R FIN DE LA PARTIE !#! @trigger_no!"

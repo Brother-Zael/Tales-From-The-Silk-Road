@@ -1,0 +1,6 @@
+﻿l_japanese:
+ civil_war.1.title: "内戦に敗北"
+ civil_war.1.desc: "[SCOPE.sCountry('target').GetAdjective]内戦が終わった。我々は敗北した。だが幸い、これは終わりではなく始まりなのかもしれない。"
+ civil_war.1.a: "灰のなかから新たな世界が生まれるのだ！"
+ civil_war.1.b: "報いを受けるときが来た。"
+ civil_war_game_over: "以上でゲームは終了となります！\n\n@trigger_no! #R GAME OVER!#! @trigger_no!"

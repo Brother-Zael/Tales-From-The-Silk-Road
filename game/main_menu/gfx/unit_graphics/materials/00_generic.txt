@@ -1,0 +1,79 @@
+﻿
+skin_color_material = {
+	diffuse = "neutral_diffuse.dds"
+	properties = "neutral_properties.dds"
+	mask_texture	= "country0_mask.dds"
+	blend_mode = overlay
+	repaint	= {
+		input_name = primary_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 1.0 hardness = 1.0 output = 1.0 }
+	}
+}
+
+no_texture_color_material = {
+	diffuse = "neutral_diffuse.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 1.0 hardness = 1.0 output = 1.0 }
+	}
+}
+
+unit_paint_iroquois_base ={
+	parent = skin_color_material
+	repaint	= {
+		input_name = primary_color
+		mask = { tolerance = 0.9 hardness = 0.5 }
+	}
+	repaint	= {
+		input_name = secondary_color
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 output = 1.0 }
+	}
+	#repaint	= {#
+		#input_name = tertiary_color
+		#mask = { color = { 1.0 1.0 1.0 } tolerance = 0.2 hardness = 0.5 output = 1.0 }
+	#}
+}
+
+unit_face_paint_01_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_face_paint_01_iroquois.dds"
+
+}
+
+unit_face_paint_02_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_face_paint_02_iroquois.dds"
+}
+
+unit_face_paint_03_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_face_paint_03_iroquois.dds"
+}
+
+unit_face_paint_04_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_face_paint_04_iroquois.dds"
+}
+
+unit_body_paint_01_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_body_paint_01_iroquois.dds"
+}
+
+unit_body_paint_02_iroquois = {
+	parent = unit_paint_iroquois_base
+	mask_texture	= "tattoos/unit_body_paint_02_iroquois.dds"
+}
+
+ivory = {
+	diffuse	= "generic/unit_material_ivory_base_diffuse.dds"
+	normal		= "generic/unit_material_ivory_base_normal.dds"
+	properties	= "generic/unit_material_ivory_base_properties.dds"
+}
+
+straw_wicker = {
+	diffuse	= "generic/unit_material_wicker_base_diffuse.dds"
+	normal		= "generic/unit_material_wicker_base_normal.dds"
+	properties	= "generic/unit_material_wicker_base_properties.dds"
+}

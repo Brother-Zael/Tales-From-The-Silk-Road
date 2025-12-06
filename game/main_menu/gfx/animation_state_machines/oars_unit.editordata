@@ -1,0 +1,43 @@
+﻿animation_editor_meta={
+	view={
+		position={ 627.520752 638.149292 }
+		zoom=1.633781
+	}
+	starting_timeline={
+		position={ -316.739929 -131.389343 }
+	}
+	states={
+		"idle"={
+			position={ -131.010925 -131.486801 }
+		}
+ 		"move2"={
+			position={ -75.011375 -372.750916 }
+		}
+ 		"move"={
+			position={ -267.604126 -370.483795 }
+		}
+ 		"attack_r"={
+			position={ -149.881012 18.514351 }
+		}
+ 	}
+	connections={
+		"Connection 13"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 17"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 21"={
+			use_length_from_source_state=yes
+		}
+ 		"start_moving"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 19"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 15"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

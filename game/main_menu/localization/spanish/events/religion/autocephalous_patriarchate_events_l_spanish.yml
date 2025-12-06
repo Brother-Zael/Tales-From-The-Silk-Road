@@ -1,0 +1,11 @@
+﻿l_spanish:
+ ap_falls_desc_key: "Tras un asedio turbulento y una valiente defensa por parte la guarnición, [target_location.GetName] ha caído ante el poder de nuestros grandes ejércitos. Dentro de sus muros reside una poderosa autoridad religiosa: varios dignatarios de fe [ShowReligionAdjective('orthodox')|l] habitaban en [target_location.GetRank.GetNameWithNoTooltip|l]. La cuestión sigue sin resolverse: ¿debemos abolir esta institución hermana o adoptarla bajo nuestra protección?"
+ autocephalous_patriarchates.1.title: "¡La sede del patriarcado autocéfalo ha caído!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Disolvamos el patriarcado."
+ autocephalous_patriarchates.1.b: "Mantengamos el patriarcado."
+ autocephalous_patriarchates.2.title: "¡La sede del patriarcado autocéfalo ha caído!"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "Disolvamos el patriarcado."
+ autocephalous_patriarchates.2.b: "Mantengámoslo."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Cada miembro del [target_ap.GetName|l] perderá [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] de opinión sobre nosotros."

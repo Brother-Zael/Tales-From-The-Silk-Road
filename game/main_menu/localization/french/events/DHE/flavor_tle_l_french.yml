@@ -1,0 +1,4 @@
+﻿l_french:
+ flavor_tle.1.title: "La chute de [capital_scope.GetNameWithNoTooltip]"
+ flavor_tle.1.desc: "La capitale de notre cher [ROOT.GetCountry.GetFlavorRank], [capital_scope.GetName], est malheureusement tombée aux mains de nos odieux ennemis, et pour ajouter à la tragédie, notre dirigeant [ruler_scope.GetName] bien-aimé et ses fils ont été tués pendant l'attaque.\n\nCette tragédie a envoyé une onde de choc de désespoir dans tout le [ROOT.GetCountry.GetFlavorRank] et a rendu la poursuite de la lutte contre nos attaquants encore plus difficile."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

@@ -1,0 +1,11 @@
+﻿l_russian:
+ flavor_pav.1.title: "Изгнание семьи [expelled_ruler.GetDynasty.GetNameWithNoTooltip]"
+ flavor_pav.1.desc: "На улицах города [ROOT.GetCountry.GetCapital.GetName] развернулось очередное восстание против семьи [expelled_ruler.GetDynasty.GetName]. На этот раз его возглавил харизматичный священник по имени [pav_iacopo_bussolari_scope.GetName], который сумел объединить жителей против городских властей. Если ничего не предпринять, [expelled_ruler.GetName] будет [Select_CString(expelled_ruler.IsFemale,'вынуждена','вынужден')] бежать из города прямо в лапы [ShowDynastyName('visconti_dynasty')]."
+ flavor_pav.1.historical_info: "В 1356 году семейство Беккариа было изгнано из Павии в результате народного восстания. Бунт возглавил монах Якопо Буссолари, который в дальнейшем помог спасти город от осады Висконти. Изгнанники заключили союз с бывшими врагами, и в 1359 году город перешёл во владения Милана. Впоследствии Беккариа вернули себе часть привилегий, но город остался под миланским контролем."
+ flavor_pav.1.a: "Прислушаемся к его проповедям!"
+ flavor_pav.1.b: "Мы должны бороться с беспорядками."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "До нас дошли вести о народном восстании в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#!, которое возглавил харизматичный священник по имени [pav_iacopo_bussolari_scope.GetName]. Под его руководством жители города [target_country.GetCapital.GetNameWithNoTooltip] смогли свергнуть и изгнать семью [expelled_ruler.GetDynasty.GetName]. Теперь [Select_CString(expelled_ruler.IsFemale,'одна из её представительниц','один из её представителей')], [expelled_ruler.GetName], [Select_CString(expelled_ruler.IsFemale,'обратилась','обратился')] к нам с просьбой о помощи. Конечно, раньше мы враждовали с [expelled_ruler.GetDynasty.GetNameWithNoTooltip], но сейчас у нас появились возможность объединить усилия, чтобы наконец взять город под свой контроль."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "Хаос нам выгоден."
+ flavor_pav.2.b: "Нас это не касается."

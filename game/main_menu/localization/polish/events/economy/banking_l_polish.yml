@@ -1,0 +1,11 @@
+﻿l_polish:
+ banking.1.title: "Wyniesienie Fuggersów"
+ banking.1.desc: "Rodzina Fuggersów pochodząca z kupieckiego patrycjatu Augsburga stała się w XV i XVI wieku jedną z najbardziej znaczących rodzin europejskich bankierów. Kontrolowali większość europejskiej ekonomii i posiadali niemal całkowity monopol na rynku miedzi. Historycznie posiadali silne powiązania z rodem Habsburgów, któremu sfinansowali dojście do władzy."
+ banking.1.a: "To wielkie dobrodziejstwo dla Augsburga!"
+ banking.2.a: "To może być korzystne... dla nas?"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName] prowadzą teraz interesy w mieście [ShowLocationName('augsburg')]"
+ banking.3.title: "Rodzina Welserów"
+ banking.3.desc: "Welserowie to niemieccy kupcy i bankierzy z Norymbergi i Augsburga, którzy utrzymywali, że pochodzą od bizantyjskiego generała Belizariusza. Rodzina ta świadczyła usługi bankierskie wspierające rozwój Imperium Habsburgów, osiągając tym samym niewyobrażalne bogactwo. Jeszcze przed rozpoczęciem Epoki Odkryć posiadali placówki handlowe w Antwerpii, Madrycie, Lizbonie, Rzymie, Lyonie i wielu innych miastach."
+ banking.3.a: "Dzięki temu Norymberga stanie się rozpoznawalna!"
+ banking.4.a: "To może być korzystne... dla nas?"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName] prowadzą teraz interesy w mieście [ShowLocationName('nuremberg')]"

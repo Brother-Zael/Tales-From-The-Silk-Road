@@ -1,0 +1,12 @@
+﻿l_spanish:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Cambiar modo aleatorio"
+ MUSIC_PLAYER_PLAY: "Reproducir"
+ MUSIC_PLAYER_PAUSE: "Pausar"
+ MUSIC_PLAYER_HEADER: "Reproductor de música"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "Haz clic para reproducir #v  [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "¡Está sonando #v  [MusicTrack.GetName]#!!"
+ MUSIC_PLAYER_ENABLE_TRACK: "Activar/Desactivar #v  [MusicTrack.GetName]#! para que esté en la cola de pistas musicales"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "Activar/Desactivar todas las pistas de música de la categoría #v  [MusicPlayerCategory.GetName]#!"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Saltar a la siguiente pista"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Seleccionar para ver las pistas de música de #v  [MusicPlayerCategory.GetName]#!"

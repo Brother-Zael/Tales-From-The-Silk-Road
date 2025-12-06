@@ -1,0 +1,6 @@
+﻿l_polish:
+ civil_war.1.title: "Przegrana wojna domowa"
+ civil_war.1.desc: "#L [loser.GetAdjective]ka#! wojna domowa dobiegła końca. Przegraliśmy. Na szczęście dla nas to nie koniec – być może raczej szansa."
+ civil_war.1.a: "Z popiołów rodzi się nowe życie!"
+ civil_war.1.b: "Nadszedł czas zapłaty."
+ civil_war_game_over: "To zakończy grę! \n\n@trigger_no! #R KONIEC GRY!#! @trigger_no!"

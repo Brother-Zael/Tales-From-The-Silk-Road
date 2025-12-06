@@ -1,0 +1,7 @@
+﻿l_german:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Spielname #T $SAVE_NAME$#! und die darin enthaltenen Spielstände werden gelöscht."
+ DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! wird gelöscht."
+ FRONTEND_SAVE_EXIT_TEXT: "Speichert das Spiel als Autospeicher-Spielstand #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Wenn man als Host das Spiel verlässt, endet die Mehrspielerpartie, und die anderen Spieler können nicht mehr gemeinsam spielen."
+ FRONTEND_LEAVE_GAME_TEXT: "Wenn Ihr das Spiel verlasst, geht die Mehrspielerpartie ohne Euch weiter."
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! wird überschrieben."

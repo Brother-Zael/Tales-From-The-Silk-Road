@@ -1,0 +1,10 @@
+﻿l_polish:
+ generic_mercenary_name: "Kompania [AREA.GetName]"
+ burgher_cogs_name: "Tryby [AREA.GetName]"
+ rogue_free_company_1: "Nielojalni najmici"
+ rogue_free_company_2: "Nielojalni najmici"
+ french_levy_retinue: "Francuska świta poborowa"
+ french_elite_retinue: "Francuska świta piechurów"
+ flo_white_company: "Biała Kompania"
+ pol_lisowczycy: "Lisowczycy"
+ mor_ottoman_mercenaries: "Korpus Osmański"

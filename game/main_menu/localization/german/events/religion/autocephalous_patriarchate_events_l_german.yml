@@ -1,0 +1,11 @@
+﻿l_german:
+ ap_falls_desc_key: "Nach einer turbulenten Belagerung und einer tapferen Verteidigung der ansässigen Garnison ist [target_location.GetName] vor der Macht unserer großen Armeen gefallen. Innerhalb der Stadtmauern befindet sich eine mächtige religiöse Autorität, da hier einst Würdenträger des #L [ShowReligionAdjective('orthodox')|l]en#! Glaubens zu Gast waren. Nun bleibt eine Frage zu klären: Schaffen wir diese uns verwandte Institution ab oder übernehmen wir sie unter unserer Obhut?"
+ autocephalous_patriarchates.1.title: "Der Sitz des Autokephalpatriarchats fällt!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Löst das Patriarchat auf."
+ autocephalous_patriarchates.1.b: "Behaltet das Patriarchat bei."
+ autocephalous_patriarchates.2.title: "Der Sitz des Autokephalpatriarchats fällt!"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "Löst das Patriarchat auf."
+ autocephalous_patriarchates.2.b: "Behaltet es bei."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Jedes Mitglied von „[target_ap.GetName]“ verliert [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] Meinung über uns"

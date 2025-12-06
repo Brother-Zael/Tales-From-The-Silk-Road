@@ -1,0 +1,9 @@
+﻿l_german:
+ flavor_arm.1.title: "Wissensschwund"
+ flavor_arm.1.desc: "Seit Jahrhunderten hat die [ShowBuildingTypeName('university')] von [target_location.GetName] unserem Volk als Zentrum der Kultur und der Wissenschaften gedient. Während sie früher durch die Gönnerschaft berühmter Adelsfamilien gedieh, brachten die jüngsten Jahre den Gönnern dieser Einrichtung großes Unglück. Durch den Mangel an Mittel mussten viele Fächer eingestellt und viele Lehrende aus ihren Posten entlassen werden. Wenn die [ShowBuildingTypeNameWithNoTooltip('university')] keine Hilfe bekommt, muss man wohl ihre Schließung fürchten …"
+ flavor_arm.1.a: "Lasst sie zerfallen."
+ flavor_arm.1.b: "Finanziert sie!"
+ flavor_arm.2.title: "Die Universität Tatew"
+ flavor_arm.2.desc: "Das örtliche Kloster liegt inmitten der lebendigen Gemeinde [target_location.GetName] und ist beständig weiter gewachsen, sodass hier viele Arten von Verträgen, offiziellen Schreiben und wertvollen Manuskripten verwahrt werden. So wurde es zu einem pulsierenden Herzen des Wissens, dessen Erweiterung die Lehrenden nun beantragt haben. Sie wollen neue Fachbereiche aufbauen, die sich mit Schriftkunst und dem Studium der Musik beschäftigen."
+ flavor_arm.2.a: "Finanziert die Erweiterung."
+ flavor_arm.2.b: "Lieber nicht."

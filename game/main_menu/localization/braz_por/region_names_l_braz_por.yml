@@ -1,0 +1,156 @@
+﻿l_braz_por:
+ #Continents
+ africa: "África"
+ america: "América"
+ asia: "Ásia"
+ europe: "Europa"
+ oceania: "Oceania"
+ ocean_continent: "Oceanos do Mundo"
+ #Subcontinents
+ #Africa
+ central_africa: "África Central"
+ east_africa: "África Oriental"
+ north_africa: "Norte da África"
+ southern_africa: "África Austral"
+ west_africa: "África Ocidental"
+ central_africa_region: "África Central"
+ #America
+ north_america: "América do Norte"
+ south_america: "América do Sul"
+ #Asia
+ central_asia: "Ásia Central"
+ china: "China"
+ east_asia: "Ásia Oriental"
+ middle_east: "Oriente Médio"
+ north_asia: "Ásia do Norte"
+ india: "Índia"
+ south_asia: "Ásia Meridional"
+ hindustan_region: "Hindustão"
+ south_east_asia: "Sudeste Asiático"
+ #Europe
+ eastern_europe: "Europa Oriental"
+ western_europe: "Europa Ocidental"
+ #Oceania
+ pacific_islands: "Ilhas do Oceano Pacífico"
+ australia: "Austrália"
+ polynesia_region: "Polinésia"
+ australasia: "Australásia"
+ #Ocean Continent
+ ocean_sub_continent: "Oceano"
+ north_atlantic_ocean_sub_continent: "Oceano Atlântico Norte"
+ south_atlantic_sub_continent: "Oceano Atlântico Sul"
+ indian_ocean_sub_continent: "Oceano Índico"
+ north_pacific_ocean_sub_continent: "Oceano Pacífico Norte"
+ south_pacific_ocean_sub_continent: "Oceano Pacífico Sul"
+ antarctic_ocean_sub_continent: "Oceano Antártico"
+ atlantic_ocean_continent: "Oceano Atlântico"
+ indian_ocean_continent: "Oceano Índico"
+ pacific_ocean_continent: "Oceano Pacífico"
+ antarctic_ocean_continent: "Oceano Antártico"
+ north_atlantic_islands_region: "Ilhas do Atlântico Norte"
+ macaronesia_region: "Macaronésia"
+ central_india_region: "Índia Central"
+ #Regions
+ #Africa
+ #Central Africa
+ kongo_region: "Congo"
+ #East Africa
+ great_lakes_region: "Grandes Lagos"
+ ethiopia_region: "Etiópia"
+ nubia_region: "Núbia"
+ somalia_region: "Somália"
+ madagascar_region: "Madagascar"
+ swahili_coast_region: "Litoral Suaíli"
+ #North Africa
+ egypt_region: "Egito"
+ maghreb_region: "Magrebe"
+ #South Africa
+ southern_africa_region: "África Austral"
+ zimbabwe_region: "Zimbábue"
+ southern_africa_islands_region: "Ilhas Sul-Africanas"
+ #West Africa
+ sahel_region: "Sahel"
+ guinea_region: "Guiné"
+ #America
+ #North America
+ canada_region: "Canadá"
+ east_coast_region: "Litoral Leste"
+ great_plains_region: "Grandes Planícies"
+ caribbean_region: "Caribe"
+ central_america_region: "América Central"
+ mesoamerica_region: "Mesoamérica"
+ aridoamerica_region: "Aridoamérica"
+ west_coast_region: "Litoral Oeste"
+ alaska_region: "Alasca"
+ #South America
+ brazil_region: "Brasil"
+ colombia_region: "Colômbia"
+ la_plata_region: "Rio da Prata"
+ andes_region: "Andes"
+ chaco_region: "Chaco"
+ #Asia
+ #Central Asia
+ khorasan_region: "Khorasan"
+ #East Asia
+ east_china_region: "China Oriental"
+ japan_region: "Japão"
+ korea_region: "Coreia"
+ manchuria_region: "Manchúria"
+ mongolia_region: "Mongólia"
+ north_china_region: "China do Norte"
+ south_china_region: "China do Sul"
+ tibet_region: "Tibete"
+ west_china_region: "China Ocidental"
+ xinjiang_region: "Xinjiang"
+ #Middle East
+ anatolia_region: "Anatólia"
+ arabia_region: "Arábia"
+ crescent_region: "Crescente"
+ persia_region: "Pérsia"
+ #North Asia
+ east_siberia_region: "Sibéria Oriental"
+ west_siberia_region: "Sibéria Ocidental"
+ #South Asia
+ bengal_region: "Bengala"
+ deccan_region: "Decão"
+ western_india_region: "Índia Ocidental"
+ #Southeast Asia
+ indochina_region: "Indochina"
+ indonesia_region: "Indonésia"
+ #Europe
+ #Eastern Europe
+ balkan_region: "Balcãs"
+ carpathia_region: "Cárpatos"
+ caucasus_region: "Cáucaso"
+ poland: "Polônia"
+ baltic_region: "Báltico"
+ ruthenia_region: "Rutênia"
+ russian_region: "Rússia"
+ steppes_region: "Estepe Pôntica"
+ ural_region: "Ural"
+ #Western Europe
+ france_region: "França"
+ great_britain_region: "Grã-Bretanha"
+ iberia_region: "Ibéria"
+ iberia_region_ADJ: "ibérico"
+ ireland_region: "Irlanda"
+ italy_region: "Itália"
+ north_german_region: "Norte da Germânia"
+ scandinavian_region: "Escandinávia"
+ south_german_region: "Sul da Germânia"
+ #Oceania
+ #Australia
+ australia_region: "Austrália"
+ #Polynesia
+ new_zealand_region: "Nova Zelândia"
+ micronesia_region: "Micronésia"
+ melanesia_region: "Melanésia"
+ #Ocean Continent
+ #Ocean Subcontinent
+ ocean_region: "Oceano"
+ north_atlantic_ocean_region: "Oceano Atlântico Norte"
+ south_atlantic_region: "Atlântico Sul"
+ indian_ocean_region: "Oceano Índico"
+ north_pacific_ocean_region: "Oceano Pacífico Norte"
+ south_pacific_ocean_region: "Oceano Pacífico Sul"
+ antarctic_ocean_region: "Oceano Antártico"

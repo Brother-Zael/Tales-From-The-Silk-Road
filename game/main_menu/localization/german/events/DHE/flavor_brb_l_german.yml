@@ -1,0 +1,5 @@
+﻿l_german:
+ flavor_brb.1.title: "Der Aufstieg von [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName|U] ist seit jeher ein wichtiger Hafen für [ROOT.GetCountry.GetName] und erlaubte es uns, unsere Händler in [target_market.GetName] weiter zu stärken. Seit Kurzem arbeitet der [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] in der [target_location.GetRank.GetName] daran, sie noch fortschrittlicher zu gestalten. Nun schmiedet man Pläne, den Hafen der Stadt auszubauen."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip|U] verdient unsere Unterstützung."
+ flavor_brb.1.b: "Wir haben nicht die Ressourcen für einen weiteren Hafen."

@@ -1,0 +1,12 @@
+﻿l_french:
+ conquistador.1.title: "Conquête de [SCOPE.sLocation('target_location').GetNameWithNoTooltip]"
+ conquistador.1.desc: "Notre conquistador est arrivé en [SCOPE.sLocation('target_location').GetName], prêt à propager notre influence."
+ conquistador.1.a: "Voyons ce que nous trouverons !"
+ conquistador.10.title: "Conquête de [ROOT.GetLocation.GetNameWithNoTooltip]"
+ conquistador.10.desc: "Nous avons conquis encore plus de territoire, nous nous enrichissons, nous offrons un grand prestige à [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName] et Gloire à [former_overlord.GetReligion.GetGodName] !"
+ conquistador.10.a: "D'autres richesses nous attendent !"
+ conquistador.10.b: "Nous avons besoin de soutien pour administrer cela !"
+ conquistador.11.title: "La colonie de [conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip]"
+ conquistador.11.desc: "Le [conquistador_country.GetLongName] demande notre aide pour devenir un de nos Vassaux officiels, où il deviendra une nation coloniale !"
+ conquistador.11.a: "C'est une solution formidable !"
+ conquistador.11.b: "C'est leur problème."

@@ -1,0 +1,23 @@
+﻿#############################
+##### Unit constructors #####
+
+# unit_category or unit_type
+# can also add some gfx_tag
+age_5_absolutism:a_militiamen = {
+
+	# A base entity is always required.
+	# All attachments will be attached to this
+
+	entity = "test_unit_shader_entity"
+
+
+	# Any number of attachments here.
+	# Each attachment will select one list/attachment randomly based on the weights
+	# Attachments are evaluated in the order they are scripted, so "add_tags"/"require_tags" should take that into account
+
+	attach = {
+		use_uniformity = no # default = yes. Will this attachment strive to be identical in high-uniformity units?
+		70 = helmets
+		30 = standard_hats
+	}
+}

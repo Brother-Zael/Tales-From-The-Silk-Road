@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ flavor_zzz.1.title: "Os Muros de [target_location.GetNameWithNoTooltip]"
+ flavor_zzz.1.desc: "Com a nossa atividade militar crescente na [ShowRegionName('guinea_region')], [target_location.GetName] se tornou um centro de cultura, mas também de conflito. Por isso, [target_character.GetName] quer construir muros em seu nome, garantindo que o(a) [target_location.GetRank.GetName] nunca caia."
+ flavor_zzz.1.a: "Vamos proteger [target_location.GetNameWithNoTooltip]."
+ flavor_zzz.1.b: "Muros são desnecessários."
+ flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] na Defensiva"
+ flavor_zzz.2.desc: "Devido ao aumento do poder militar da entidade política [ROOT.GetCountry.GetName], [target_character.GetName] e seu(ua) [ROOT.GetCountry.GetGovernment.GetCourtTitle] já fizeram planos para aumentar mais ainda o nosso poder. Eles sugerem fazer uma abordagem para conquistar nossos vizinhos, ou uma estratégia mais defensiva, focada em proteger os ganhos que já tenhamos obtido."
+ flavor_zzz.2.a: "Avançar e conquistar!"
+ flavor_zzz.2.b: "Vamos consolidar os ganhos já obtidos."

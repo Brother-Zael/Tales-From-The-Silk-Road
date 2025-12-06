@@ -1,0 +1,7 @@
+﻿l_japanese:
+ mayan_events.1.title: "新たなカトゥンの始まり"
+ mayan_events.1.desc: "20年を経て、我らが民の長期暦のなかで新たなカトゥンが始まる。\n\n[ROOT.GetCountry.GetLongName]の指導者として、[ROOT.GetCountry.GetReligion.GetGodName]に敬意を表して壮大な祭りを祝い、我々の文化生活における新たな周期の始まりを記念することは我々の義務である。わが国の民は、後世まで記憶に残るような、壮大かつ華麗な祭典が催されることを期待している。\n\nそれこそが、我々が長年にわたり入念に準備してきた理由であり、いまこそすべてを披露する時なのだ。"
+ mayan_events.1.a: "[ROOT.GetCountry.GetReligion.GetGodName]を称えよ。"
+ mayan_events.1.b: "最後の仕上げを急げ！"
+ mayan_events.1.c: "準備は万端だ。"
+ mayan_events.1.d: "民は失望するだろう。"

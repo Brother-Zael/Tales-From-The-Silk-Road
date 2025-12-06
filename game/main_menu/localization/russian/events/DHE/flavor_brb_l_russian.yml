@@ -1,0 +1,5 @@
+﻿l_russian:
+ flavor_brb.1.title: "Расцвет [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName] — один из важнейших портов #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! и опора влияния наших купцов на заграничных рынках — таких, как, например, [target_market.GetName|l]. Однако в последнее время местные [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] добились немалых успехов в том, чтобы сделать [target_location.Custom('LR_ACC')|l] действительно процветающим местом, и теперь собираются укреплять городскую гавань."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] заслуживает нашей поддержки."
+ flavor_brb.1.b: "Мы не можем себе позволить ещё один порт."

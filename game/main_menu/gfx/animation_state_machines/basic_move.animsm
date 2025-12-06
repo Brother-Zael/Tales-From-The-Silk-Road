@@ -1,0 +1,39 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"move"={
+		timeline_layer={
+			timeline="move"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Connection 4"
+		behavioral_state="move"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"move"={
+		boundary_behavior=loop
+		duration=1.136842
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Connection 4"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

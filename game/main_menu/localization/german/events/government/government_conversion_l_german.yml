@@ -1,0 +1,5 @@
+﻿l_german:
+ government_conversion_events.conversion_complete.title: "#L [target_country.GetAdjectiveWithNoTooltip|U]er#! Aufstieg ([target_government_type.GetNameWithNoTooltip|U])"
+ government_conversion_events.conversion_complete.title_fallback: "Reformation der Regierung"
+ government_conversion_events.conversion_complete.desc: "Die letzten Jahre waren eine Zeit von Turbulenzen und Unruhe. Obgleich das Land ([target_country.GetLongName|U]) auf dem besten Weg war, zu einer neuen Regierungsform ([target_government_type.GetName|U]) reformiert zu werden, wehrten sich viele alte und dekadente, aber einflussreiche Leute mit Händen und Füßen dagegen, um die alte Ordnung ([origin_government_type.GetName|U]) beizubehalten. Trotzdem hat [target_character.GetName] es geschafft, jene Widerstände zu überwinden und jene alten Traditionen abzuschaffen, die der Machtzentralisierung der neu eingerichteten Regierungsform ([target_government_type.GetNameWithNoTooltip|U]) entgegenstanden."
+ government_conversion_events.conversion_complete.a: "Nicht mehr [origin_government_type.GetNameWithNoTooltip|U], sondern [target_government_type.GetNameWithNoTooltip|U]!"

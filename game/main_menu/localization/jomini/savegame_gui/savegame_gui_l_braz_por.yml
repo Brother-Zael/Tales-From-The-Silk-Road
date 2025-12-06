@@ -1,0 +1,7 @@
+﻿l_braz_por:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "O arquivo #T $SAVE_NAME$#! e seus salvamentos serão excluídos."
+ DELETE_SAVE_CONFIRMATION_DESC: "O arquivo #T $SAVE_NAME$#! será excluído."
+ FRONTEND_SAVE_EXIT_TEXT: "Salva o jogo como salvamento automático #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Se você for o anfitrião e abandonar o jogo, a partida multijogador terminará e todos os outros jogadores não poderão mais jogar juntos."
+ FRONTEND_LEAVE_GAME_TEXT: "Se você sair, a partida multijogador continuará sem você."
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "O arquivo #T $SAVE_NAME$#! será sobrescrito."

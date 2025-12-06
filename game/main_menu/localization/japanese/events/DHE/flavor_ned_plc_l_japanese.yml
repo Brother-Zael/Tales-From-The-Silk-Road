@@ -1,0 +1,8 @@
+﻿l_japanese:
+ flavor_ned_plc.1.title: "[target_location.GetNameWithNoTooltip]の[target_country.GetAdjectiveWithNoTooltip]商人"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName]と[target_country.GetLongName]の利害は、多くの点で一致している。毎年、彼らの[target_country.GetGovernment.GetEstateName('burghers_estate')]の多くが[target_market.GetName]の港、特に[target_location.GetName]の中央[target_good.GetName]市場へとやってくる。他方で、[receiving_country.GetNameWithNoTooltip]の[receiving_country.GetGovernment.GetEstateName('nobles_estate')]たちは、彼らの余った[target_good.GetNameWithNoTooltip]を商人たちの持ち込む贅沢品と交換するというかたちで、利益を得ている。"
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "この大量取引に追加資金を注げ。"
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

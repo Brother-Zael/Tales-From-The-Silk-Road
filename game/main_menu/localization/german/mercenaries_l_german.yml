@@ -1,0 +1,10 @@
+﻿l_german:
+ generic_mercenary_name: "Die [AREA.GetName]-Kompanie"
+ burgher_cogs_name: "Die [AREA.GetName]-Koggen"
+ rogue_free_company_1: "Freie Routiers"
+ rogue_free_company_2: "Freie Routiers"
+ french_levy_retinue: "Französisches Heerbann-Aufgebot"
+ french_elite_retinue: "Französisches Infanterie-Aufgebot"
+ flo_white_company: "Compagnia Bianca"
+ pol_lisowczycy: "Lisowczyk"
+ mor_ottoman_mercenaries: "Osmanisches Armee-Korps"

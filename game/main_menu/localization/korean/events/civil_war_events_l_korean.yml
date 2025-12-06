@@ -1,0 +1,6 @@
+﻿l_korean:
+ civil_war.1.title: "내전 패배"
+ civil_war.1.desc: "[loser.GetAdjective]의 내전이 끝났고, 우리는 패배했습니다. 그렇지만 다행히도 이것은 끝이 아니라 오히려 기회일 수 있습니다."
+ civil_war.1.a: "잿더미 속에서 새로 생명이 싹트리니!"
+ civil_war.1.b: "행동의 결과에 책임을 질 때로군."
+ civil_war_game_over: "이 답변을 선택하면 게임이 끝납니다! \n\n@trigger_no! #R 게임 오버 !#! @trigger_no!"

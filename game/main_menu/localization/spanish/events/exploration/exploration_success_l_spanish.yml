@@ -1,0 +1,5 @@
+﻿l_spanish:
+ exploration_success.1.title: "Distinción de guardiamarina"
+ exploration_success.1.desc: "Tras el exitoso regreso de la expedición a [target.GetName], hemos oído que [actor.GetName] ha hablado maravillas de una joven promesa que sirvió a la expedición con gran distinción."
+ exploration_success.1.a: "Dadle el mando de sus propias expediciones."
+ exploration_success.1.b: "Necesitamos buenos guardiamarinas."

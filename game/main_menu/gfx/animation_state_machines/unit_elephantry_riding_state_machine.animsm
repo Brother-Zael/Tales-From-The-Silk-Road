@@ -1,0 +1,313 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Attack"={
+		random_layer={
+			name="Random group 1"
+			timeline_layer={
+				weight=1.000000
+				timeline="attack_elephantry_animation"
+			}
+		}
+		timeline_layer={
+			timeline="L_default_Attack_editor_timeline"
+		}
+	}
+ 	"Idle"={
+		timeline_layer={
+			timeline="L_relative_Idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="elephantry_idle_01_animation"
+		}
+	}
+ 	"Move"={
+		timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="moving_elephantry_animation"
+		}
+	}
+ 	"Retreat"={
+		timeline_layer={
+			timeline="L_relative_Retreat_editor_timeline"
+		}
+		timeline_layer={
+			timeline="retreat_elephantry_animation"
+		}
+	}
+ 	"Charge"={
+		timeline_layer={
+			timeline="L_relative_Charge_editor_timeline"
+		}
+		timeline_layer={
+			timeline="charge_elephantry_animation"
+		}
+	}
+ 	"Idle Loop"={
+		random_layer={
+			name="Random group 2"
+			timeline_layer={
+				weight=8.000000
+				timeline="elephantry_idle_01_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="elephantry_idle_02_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="elephantry_idle_03_animation"
+			}
+		}
+		timeline_layer={
+			timeline="L_default_Idle Loop_editor_timeline"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 340"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 15"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="1"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Move"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to charge"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="4"
+ 		}
+		behavioral_state="Charge"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to retreat"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="3"
+ 		}
+		behavioral_state="Retreat"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Idle loop"
+		trigger_time_relative=1.000000
+		behavioral_state="Idle Loop"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle To atack"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="1"
+ 		}
+		behavioral_state="Attack"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 17"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 19"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="3"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 21"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="4"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle loop to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="0"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"L_default_Attack_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Connection 15"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+	}
+ 	"L_relative_Idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=5.934066
+		events={
+			"Idle to Move"
+			"Idle to charge"
+			"Idle to retreat"
+			"Idle to Idle loop"
+			"Idle To atack"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Move_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.402899
+		events={
+			"Connection 17"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Retreat_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.402899
+		events={
+			"Connection 19"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Charge_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.536000
+		events={
+			"Connection 21"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_default_Idle Loop_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Idle loop to Idle"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+	}
+ 	"elephantry_idle_01_animation"={
+		boundary_behavior=loop
+		duration=5.934066
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_idle_01_animation"
+		duration_source=animation
+	}
+ 	"moving_elephantry_animation"={
+		boundary_behavior=loop
+		duration=1.402899
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_walk_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"retreat_elephantry_animation"={
+		boundary_behavior=loop
+		duration=1.402899
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_walk_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"charge_elephantry_animation"={
+		boundary_behavior=loop
+		duration=1.536000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_charge_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"elephantry_idle_02_animation"={
+		boundary_behavior=loop
+		duration=5.934066
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_idle_02_animation"
+		duration_source=animation
+	}
+ 	"elephantry_idle_03_animation"={
+		boundary_behavior=loop
+		duration=5.934066
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_idle_03_animation"
+		duration_source=animation
+	}
+ 	"attack_elephantry_animation"={
+		boundary_behavior=loop
+		duration=5.934066
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="elephantry_attack_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 340"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

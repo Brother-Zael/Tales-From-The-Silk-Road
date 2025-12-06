@@ -1,0 +1,9 @@
+﻿l_spanish:
+ flavor_arm.1.title: "La pérdida de la cultura"
+ flavor_arm.1.desc: "Durante siglos, la [ShowBuildingTypeName('university')] de [target_location.GetName] ha servido a nuestro pueblo como centro cultural y científico. Habiendo florecido bajo el mecenazgo de famosas familias nobles, los últimos años han traído grandes desgracias a los mecenas de la institución. La pérdida de riqueza ha hecho que se abandonen muchas asignaturas y que numerosos profesores pierdan su puesto. Si la [ShowBuildingTypeNameWithNoTooltip('university')|l] no recibe ayudas, se teme que deba cerrar..."
+ flavor_arm.1.a: "Dejemos que entre en decadencia."
+ flavor_arm.1.b: "¡Financiémosla!"
+ flavor_arm.2.title: "La Universidad de Tatev"
+ flavor_arm.2.desc: "Centrada en torno a la animada comunidad de [target_location.GetName], el monasterio local ha crecido hasta albergar numerosos contratos, documentos oficiales y valiosos manuscritos. Como resultado, ahora sirve como centro neurálgico del conocimiento y la cultura, y los profesores han llegado a solicitar una ampliación de las instalaciones. Desean crear nuevos departamentos que ofrezcan clases de escritura y estudios musicales."
+ flavor_arm.2.a: "Financiemos la ampliación."
+ flavor_arm.2.b: "Mejor no."

@@ -1,0 +1,545 @@
+﻿
+
+group:cloth_rough_group= {
+	10 = cloth_wool
+	10 = cloth_light_brown
+	10 = cloth_rope
+}
+
+group:cloth_plain_group = {
+	10 = cloth_plain
+	10 = cloth_light_brown
+	10 = cloth_pattern_brown
+	10 = cloth_blue_grey	
+}
+
+group:peasants_colors_group = {
+	10 = cloth_peasants_colors
+}
+
+group:buff_colors_group = {
+	10 = cloth_peasants_colors
+}
+
+
+group:cloth_rough_group= {
+	10 = cloth_wool
+	10 = cloth_light_brown	
+	10 = cloth_earth_brown	
+}
+
+group:cloth_grey_rough_group= {
+	10 = cloth_light_brown	
+	10 = cloth_earth_brown
+	10 = cloth_blue_grey
+	10 = cloth_plain	
+}
+
+group:cloth_felt_group= {
+	15 = cloth_earth_brown
+	15 = cloth_black
+}
+
+group:cloth_brown_felt_group= {
+	15 = cloth_earth_brown
+}
+
+group:cloth_white_group = {
+	10 = cloth_plain
+	10 = cloth_pure_white
+}
+
+group:cloth_only_white_group = {
+	20 = cloth_pure_white
+}
+
+group:cloth_only_black_group = {
+	10 = cloth_black
+}
+
+group:cloth_grey_white_group = {
+	10 = cloth_blue_grey
+	20 = cloth_white_group
+}
+
+group:cloth_golden_white_group = {
+	5 = cloth_golden_dark
+	5 = cloth_golden_light
+	90 = cloth_pure_white
+}
+
+group:cloth_black_white_group = {
+	80 = cloth_only_white_group
+	20 = cloth_black
+}
+
+group:cloth_country_solid_group = {
+	80 = cloth_country_one
+}
+
+group:cloth_country_solid_group_two = {
+	70 = cloth_country_one
+	30 = cloth_country_two
+	10 = cloth_pure_white
+}
+
+group:cloth_country_or_white_group = {
+	10 = cloth_country_solid_group
+	90 = cloth_white_group
+}
+
+group:cloth_country_colors_or_white_group = {
+	10 = cloth_country_solid_group_two
+	90 = cloth_only_white_group
+}
+
+group:cloth_country_colors_or_little_white_group = {
+	80 = cloth_country_solid_group_two
+	20 = cloth_only_white_group
+}
+
+group:cloth_country_colors_or_white_black_group = {
+	35 = cloth_country_solid_group_two
+	35 = cloth_only_white_group
+	30 = cloth_black
+}
+
+group:cloth_country_one_ticking_stripes_group = {
+	90 = cloth_country_one_ticking_stripes
+	15 = cloth_only_white_group	
+}
+
+group:cloth_country_medieval = {
+	50 = cloth_country_solid_group
+	50 = cloth_country_split
+	50 = cloth_country_quarter
+}
+
+group:cloth_country_or_plain_group = {
+	10 = cloth_country_solid_group
+	30 = cloth_plain_group
+}
+
+group:cloth_country_or_plain_group_two = {
+	10 = cloth_country_solid_group_two
+	30 = cloth_plain_group
+}
+
+group:cloth_country_coa_knights = {
+	80 = cloth_country_solid_group
+	12 = cloth_country_split
+	12 = cloth_country_inverted_split	
+}
+
+group:cloth_country_medieval_knights = {
+	10 = cloth_country_split
+	10 = cloth_country_quarter
+   #10 = cloth_knight_pattern_1
+	10 = cloth_knight_pattern_2	
+}
+
+group:cloth_country_medieval_cavalry = {
+	10 = cloth_country_split
+	10 = cloth_country_quarter
+	10 = cloth_knight_pattern_1
+	10 = cloth_knight_pattern_2
+	2 = cloth_knight_pattern_3	
+}
+
+group:cloth_country_split_or_plain = {
+	10 = cloth_country_medieval
+	10 = cloth_plain_group
+	if = {  fast_limit = { uniformity > 0.20 } 40 = cloth_country_medieval }
+	if = {  fast_limit = { uniformity > 0.40 } 40 = cloth_country_medieval }
+	if = {  fast_limit = { uniformity > 0.60 } 40 = cloth_country_medieval }
+	if = {  fast_limit = { uniformity > 0.80 } 40 = cloth_country_medieval }
+}
+
+group:leather_colored_group = {
+	10 = leather_colored
+	10 = leather_white
+}
+
+group:leather_black_white_group = {
+	10 = leather_black
+	30 = leather_white
+}
+
+group:leather_white_group = {
+	10 = leather_white
+}
+
+group:leather_shine_group = {
+	10 = leather_shine_light_brown
+    10 = leather_shine_dark_brown
+}
+
+group:leather_heavy_armor_brown_group = {
+	10 = leather_heavy_armor_brown		
+}
+
+group:lamellar_chinese_armor_group = {
+	10 = metal_armor_lamellar_chinese		
+}
+
+group:leather_black_group = {
+	50 = leather_black	
+}
+
+group:leather_brown_group = {	
+	70 = leather_dark
+	30 = leather_buck
+	10 = leather_light
+}
+
+group:leather_dark_brown_group = {
+	50 = leather_dark
+	50 = leather_black
+}
+
+group:leather_group = {
+	50 = leather_plain
+	50 = leather_light
+	50 = leather_dark
+	50 = leather_black_white_group
+}
+
+group:leather_belt_group = {
+	if = {
+		fast_limit = { uniformity >= 0.95 }
+		1 = leather_group
+		99 = leather_colored_group
+	}
+	else_if = {
+		fast_limit = { uniformity >= 0.80 }
+		20 = leather_group
+		80 = leather_colored_group
+	}
+	else_if = {
+		fast_limit = { uniformity >= 0.60 }
+		40 = leather_group
+		60 = leather_colored_group
+	}
+	else_if = {
+		fast_limit = { uniformity >= 0.40 }
+		60 = leather_group
+		40 = leather_colored_group
+	}
+	else_if = {
+		fast_limit = { uniformity >= 0.2 }
+		80 = leather_group
+		20 = leather_colored_group
+	}
+	else = {
+		100 = leather_group
+	}
+}
+
+group:leathers_cloth_plain_group = {
+	20 = leather_group
+	10 = cloth_plain_group
+}
+
+group:leathers_cloth_country_or_plain_group = {
+	10 = leather_group
+	40 = cloth_country_or_plain_group
+}
+
+group:leathers_cloth_country_group = {
+	70 = cloth_country_solid_group
+	20 = leather_dark_brown_group	
+}
+
+group:leathers_cloth_country_split_or_plain_group = {
+	10 = leather_group
+	40 = cloth_country_split_or_plain
+}
+
+group:skin_group = {
+	if = {
+		fast_limit = { graphical_culture = iroquois_gfx }
+		1 = unit_face_paint_01_iroquois
+		1 = unit_face_paint_02_iroquois
+		1 = unit_face_paint_03_iroquois
+		1 = unit_face_paint_04_iroquois
+		1 = skin_color_material
+	}
+	else = {
+		10 = skin_color_material
+	}
+}
+
+group:skin_body_group = {
+	if = {
+		fast_limit = { graphical_culture = iroquois_gfx }
+		1 = unit_body_paint_01_iroquois
+		1 = unit_body_paint_02_iroquois
+		1 = skin_color_material
+	}
+	else = {
+		10 = skin_color_material
+	}
+}
+
+group:wood_group = {
+	10 = wood
+	10 = wood_light
+	10 = wood_chestnut
+	10 = wood_chestnut_strong
+	10 = wood_dark
+}
+
+group:wood_horizontal_group = {
+	10 = wood_horizontal	
+	10 = wood_chestnut_horizontal	
+}
+
+group:iron_plain_group = {
+	#15 = metal_plain
+	10 = iron_light
+	#5 = iron_dark
+	#5 = iron_blackened
+	#5 = iron_damaged
+}
+
+group:iron_basic_group = {
+	15 = metal_plain
+	10 = iron_light
+	5 = iron_dark
+}
+
+group:iron_textured_brown_dark_group = {
+	20 = iron_textured_brown	
+    10 = iron_textured_dark
+}
+
+group:iron_engravings_group = {
+	15 = iron_engravings
+	10 = iron_engravings_dark
+}
+
+group:golden_engravings_group = {
+	15 = metal_engravings_1
+	15 = metal_engravings_2
+	15 = metal_engravings_4
+	15 = metal_engravings_6
+}
+
+group:armor_metal_engravings_group = {
+	15 = metal_engravings_1
+	15 = metal_engravings_2
+	15 = metal_engravings_4
+	15 = metal_engravings_5
+	15 = metal_engravings_6
+	15 = metal_engravings_7
+}
+
+group:gold_group = {
+	10 = gold
+	10 = gold_light
+	5 = gold_dark
+}
+
+group:obsidian_group = {
+	10 = obsidian_base
+}
+
+group:iron_and_gold_group = {
+	15 = metal_plain
+	10 = iron_light
+	5 = iron_dark
+	5= iron_blackened
+	5 = iron_damaged
+	10 = gold
+	10 = gold_light
+	5 = gold_dark
+}
+
+group:chainmail_group = {
+	10 = chainmail
+	10 = chainmail_dark
+}
+
+group:chinese_armor_pattern_group = {
+	10 = metal_armor_pattern_scales
+	10 = metal_armor_pattern_scales_golden
+	10 = metal_armor_pattern_mountain_silver
+	10 = metal_armor_pattern_mountain_golden
+	
+}
+
+group:chinese_armor_pattern_big_scales_group = {
+	10 = metal_armor_pattern_big_scales		
+}
+
+group:metal_scales_layers_armor= {
+	10 = metal_armor_scales_layers	
+}
+
+group:metal_square_lamellar_armor= {
+	10 = metal_armor_lamellar_squares	
+}
+
+group:metal_lamellar_small_squares_armor= {
+	10 = metal_armor_lamellar_small_squares	
+}
+
+group:metal_lamellar_horizontal_armor= {
+	10 = metal_armor_lamellar_horizontal_plaques	
+}
+
+group:metal_lamellar_horse_armor= {
+    15 = metal_armor_lamellar_small_squares	
+	5 = metal_armor_lamellar_horizontal_plaques	
+}
+
+group:jaguar_fur_group = {
+	10 = fur_jaguar
+}
+
+group:feathers_group = {
+	10 = feather_brown
+	10 = feather_country_one
+}
+
+group:feathers_country = {
+	10 = feather_country_one
+}
+
+group:bronze_group = {
+	10 = bronze
+	10 = bronze_dark
+}
+
+group:gambeson_colors_group = {
+	10 = cloth_gambeson_stripes_colors
+	10 = cloth_gambeson_square_colors
+	10 = cloth_gambeson_diamonds_colors
+}
+
+group:gambeson_diamonds_square_colors_group = {
+	10 = cloth_gambeson_square_colors
+	10 = cloth_gambeson_diamonds_colors
+}
+
+group:cloth_gambeson_country_medieval = {
+	10 = cloth_gambeson_stripes
+	10 = cloth_gambeson_stripes_country_one
+	10 =cloth_gambeson_stripes_country_quarter
+	1 = cloth_gambeson_square
+	1 = cloth_gambeson_square_country_one
+	1 = cloth_gambeson_square_country_quarter
+	5 = cloth_gambeson_diamonds
+	5 = cloth_gambeson_diamonds_country_one
+	5 = cloth_gambeson_diamonds_country_quarter	
+}
+
+group:cloth_gambeson_country_ashanti = {	
+	5 = cloth_gambeson_square_country_triangles	
+	5 = cloth_gambeson_diamonds_country_triangles
+    5 = cloth_gambeson_square_country_triangles_horizontal
+    5 = cloth_gambeson_diamonds_country_triangles_horizontal		
+    2 = cloth_gambeson_square_country_checkers
+    2 = cloth_gambeson_diamonds_country_checkers
+   
+}
+
+group:cloth_gambeson_country_one = {
+	10 = cloth_gambeson_stripes
+	10 = cloth_gambeson_stripes_country_one	
+	1 = cloth_gambeson_square
+	1 = cloth_gambeson_square_country_one	
+	5 = cloth_gambeson_diamonds
+	5 = cloth_gambeson_diamonds_country_one	
+}
+
+group:fur_plain_group = {
+	10 = fur_brown
+	10 = fur_red_brown
+}
+
+group:fur_dark_group = {
+	10 = fur_black
+}
+
+group:fur_sculpted_and_no_white_group = {
+	30 = fur_brown
+	30 = fur_red_brown
+	30 = fur_grey
+	30 = fur_light_brown
+	10 = cloth_black
+}
+
+group:fur_sculpted_and_white_black_group = {
+	40 = fur_brown
+	40 = fur_red_brown
+	10 = fur_grey
+	40 = fur_light_brown
+	10 = cloth_only_white_group
+	10 = cloth_black
+}
+
+group:feather_country_color_two_and_white_black_group = {
+	50 = cloth_country_solid_group_two
+	50 = feather
+	50 = cloth_white_group
+	10 = hair_black
+}
+
+group:feather_black_and_white_group = {
+	50 = cloth_only_black_group
+	50 = feather
+	50 = cloth_white_group
+	
+}
+
+group:dark_hair_group = {
+	50 = hair_black
+}
+
+group:cane_wood_group = {
+	30 = cane_wood_dark
+	50 = cane_wood_medium
+}
+
+group:animal_fur_group = {
+	10 = brown_animal_fur
+}
+
+group:cloth_quilted_african_group = {
+	50 = cloth_quilted_african_squares_1
+	10 = cloth_quilted_african_triangles_2	
+	50 = cloth_quilted_african_squares_2	
+	
+}
+
+group:cloth_quilted_aztec_group = {
+	75 = cloth_quilted_raw_aztec	
+	15 = cloth_quilted_raw_brown_aztec	
+}
+
+group:rattan_headgear_group = {
+	10 = radial_rattan_b
+	
+}
+
+group:radial_rattan_shield_group = {
+	10 = radial_rattan_a
+	
+}
+
+group:viking_wood_shield_soldiers_group = {
+    10 = wood_country_one
+	10 = wood_country_quarter	
+	10 = wood_country_horizontal_split
+	10 = wood_country_colorsplit	
+}
+
+group:viking_wood_shield_peasants_group = {
+    10 = wood
+	10 = wood_planks_light	
+	10 = wood_planks_dark
+	10 = wood_dark	
+}
+
+

@@ -1,0 +1,5 @@
+﻿l_french:
+ exploration_success.1.title: "Aspirant distingué"
+ exploration_success.1.desc: "Après le succès de l'expédition en [target.GetName], il semble que [actor.GetName] accorde beaucoup de crédit à un jeune aspirant prometteur, qui s'est distingué pendant cette mission."
+ exploration_success.1.a: "Confions-lui le commandement de ses propres expéditions."
+ exploration_success.1.b: "Nous avons besoin de bons aspirants."

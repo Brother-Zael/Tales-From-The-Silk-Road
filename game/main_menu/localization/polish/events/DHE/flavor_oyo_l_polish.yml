@@ -1,0 +1,5 @@
+﻿l_polish:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "Ponieważ kawaleria to najistotniejsza siła w kraju [ROOT.GetCountry.GetName], [target_character.GetName] postuluje utworzenie doborowej jednostki, która będzie znana jako [ShowUnitDefinitionName('a_esho_cavalry_oyo')|l]. Możemy z niej korzystać w ramach wyspecjalizowanych pułków lub zintegrować z resztą armii."
+ flavor_oyo.1.a: "Oddzielmy te siły od reszty armii."
+ flavor_oyo.1.b: "Zintegrujmy je z innymi pułkami."

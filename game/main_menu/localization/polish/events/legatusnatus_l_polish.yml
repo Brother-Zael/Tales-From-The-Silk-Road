@@ -1,0 +1,13 @@
+﻿l_polish:
+ legatusnatus.1.title: "Legatus natus"
+ legatusnatus.1.desc: "[home_ruler.GetName] od dawna może mianować się tytułem [ShowGovernmentReformName('legatus_natus')] na północ od Alp, gdyż [pope_ruler.GetName] zezwala na to przedstawicielstwo.\nTaki prestiżowy tytuł wymaga pewnego poziomu godności, więc nie możemy pozwolić, aby nasz prestiż lub relacje z władcą, takim jak [GetCountry('PAP').GetGovernment.GetRulerTitle|l], zbytnio spadły."
+ legatusnatus.1.a: "Wszystko w rękach Boga."
+ legatusnatus.2.title: "Utracono tytuł legatus natus"
+ legatusnatus.2.desc: "Ostatnio [GetUniqueInternationalOrganization('hre').GetName] i [pope_ruler.GetName] nie są z nami w najlepszych stosunkach. Wydaje się, że [GetCountry('PAP').GetGovernment.GetRulerTitle|l] nie wierzy już, że będziemy reprezentować interesy [ShowGovernmentReformName('legatus_natus')] w unii [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] i niestety zapadła decyzja o pozbawieniu nas tego tytułu."
+ legatusnatus.2.a: "A jednak wszystko było w naszych rękach..."
+ legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] przysyła posła"
+ legatusnatus.3.desc: "Dobre wieści! [pope_ruler.GetName] uznaje, że [home_ruler.GetName] zasługuje na prestiżowy tytuł [ShowGovernmentReformName('legatus_natus')]. Będziemy przedstawicielami na północ od Alp po tym, jak nasz poprzednik wypadł z łask."
+ legatusnatus.3.a: "Czyżby padło na nas łaskawe światło?"
+ legatusnatus.4.title: "Odwołanie ze stanowiska [ShowGovernmentReformName('legatus_natus')]"
+ legatusnatus.4.desc: "Prestiżowe stanowisko [ShowGovernmentReformName('legatus_natus')] może piastować tylko #L [ShowReligionAdjective('catholic')|l]i#! biskup z unii [GetUniqueInternationalOrganization('hre').GetName]. Ponieważ [home_ruler.GetName] nie spełnia już tego wymogu, [pope_ruler.GetName] odbiera nam ten tytuł."
+ legatusnatus.4.a: "[GetCountry('PAP').GetGovernment.GetRulerTitle] może iść do diabła."

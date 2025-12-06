@@ -1,0 +1,9 @@
+﻿l_german:
+ flavor_zzz.1.title: "Die Mauern von [target_location.GetNameWithNoTooltip]"
+ flavor_zzz.1.desc: "Durch unseren zunehmenden Kampfgeist in [ShowRegionName('guinea_region')] ist [target_location.GetName] zu einem Zentrum nicht nur der Kultur, sondern auch der Konflikte geworden. Daher will [target_character.GetName] in [target_character.Custom('DE_PRO_POS_S_3P')]em Namen Mauern errichten, um sicherzustellen, dass die [target_location.GetRank.GetName] niemals fällt."
+ flavor_zzz.1.a: "Lasst uns [target_location.GetNameWithNoTooltip] beschützen."
+ flavor_zzz.1.b: "Es gibt keine Notwendigkeit für Mauern."
+ flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] in der Offensive"
+ flavor_zzz.2.desc: "Aufgrund des Anstiegs der militärischen Macht von [ROOT.GetCountry.GetName] haben [target_character.GetName] und [target_character.Custom('DE_PRO_POS_S_3P')] [ROOT.GetCountry.GetGovernment.GetCourtTitle] bereits Pläne geschmiedet, wie man unsere Macht noch weiter mehren kann. Sie schlagen vor, dass wir entweder versuchen, unsere Nachbarn zu erobern, oder dass wir eine defensivere Strategie verfolgen, die darauf abzielt, jeden unserer Zuwächse erst einmal zu verteidigen."
+ flavor_zzz.2.a: "Gehet hin und erobert!"
+ flavor_zzz.2.b: "Konsolidiert unsere derzeitigen Zuwächse."

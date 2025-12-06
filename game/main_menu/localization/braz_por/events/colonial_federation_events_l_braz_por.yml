@@ -1,0 +1,10 @@
+﻿l_braz_por:
+ colonial_federation_events.1000.title: "Centralização da [target_io.GetNameWithNoTooltip]"
+ colonial_federation_events.1000.desc: "Originalmente uma aliança entre vários súditos coloniais e potências estrangeiras a [target_io.GetName] se transformou em um Estado funcional com grandes políticas internas e uma frente externa e unificada. A partir de então, a [target_io.GetNameWithNoTooltip] deixa de ser um vínculo perdido e se torna um poder unificado liderado por [target_character.GetName] da entidade política [target_country.GetName]."
+ colonial_federation_events.1000.a: "Que isso proporcione um futuro próspero para todos!"
+ colonial_federation_unify_the_io_tt: "Vamos unificar a [target_io.GetName] em uma única entidade"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Os votos foram realizados. Nosso povo se expressou de forma alta e clara. A antiga [target_io.GetName] será unificada no Estado único, sob a liderança vigilante de [target_character.GetName], e nós nos tornaremos parte dela."
+ colonial_federation_events.1001.a: "Vida longa ao novo Estado!"
+ colonial_federation_events.1001.b: "Nunca vamos nos curvar a ninguém!"
+ colonial_federation_break_away_tt: "Todo local possuído que seja um [core|e] da entidade política [target_country.GetName] se separa de nós"

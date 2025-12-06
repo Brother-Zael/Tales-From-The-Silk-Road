@@ -1,0 +1,55 @@
+﻿animation_editor_meta={
+	view={
+		position={ -68.826668 285.375366 }
+		zoom=0.974053
+	}
+	starting_timeline={
+		position={ 63.656471 -4.778313 }
+	}
+	states={
+		"Attack"={
+			position={ 300.607941 -249.448212 }
+		}
+ 		"Idle"={
+			position={ 298.366882 -10.532497 }
+		}
+ 		"Move"={
+			position={ 647.227539 -245.187271 }
+		}
+ 		"Retreat"={
+			position={ 577.986206 237.050369 }
+		}
+ 		"Charge"={
+			position={ 283.869995 284.970520 }
+		}
+ 		"Idle Loop"={
+			position={ 596.828491 -8.461637 }
+		}
+ 	}
+	connections={
+		"Idle to Move"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to charge"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to retreat"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to Idle loop"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle To atack"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 17"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 19"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 21"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

@@ -1,0 +1,9 @@
+﻿l_french:
+ building.1.title: "L'université de [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Après une série de débats houleux qui ont tourné à l'échauffourée, des universitaires de l'université de [old_university.GetName] ont fui vers [new_university.GetName] pour y établir une institution d'enseignement concurrente.\n\nLes anciens élèves de [old_university.GetNameWithNoTooltip] représentent une part importante du [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [ROOT.GetCountry.GetAdjective] et ils nous demandent de réprimer ce mouvement de rébellion au sein du système éducatif."
+ building.1.a: "Encourageons cette nouvelle institution."
+ building.1.b: "Demandons aux réfugiés de retourner à [old_university.GetNameWithNoTooltip]."
+ building.2.title: "La ville et la robe"
+ building.2.desc: "Les étudiants de l'université de [university.GetName] sont sous la protection du [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], et en tant que tels, ils bénéficient de droits différents de ceux des citadins. La proximité des deux communautés suscite souvent la méfiance, mais récemment, cette méfiance a dégénéré en émeutes violentes."
+ building.2.a: "Prenons le parti de l'université."
+ building.2.b: "Prenons le parti des citadins."

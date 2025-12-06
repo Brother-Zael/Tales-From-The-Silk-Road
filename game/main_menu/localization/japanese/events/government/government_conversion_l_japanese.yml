@@ -1,0 +1,5 @@
+﻿l_japanese:
+ government_conversion_events.conversion_complete.title: "[target_country.GetAdjectiveWithNoTooltip] [target_government_type.GetNameWithNoTooltip]の台頭"
+ government_conversion_events.conversion_complete.title_fallback: "政府の改革"
+ government_conversion_events.conversion_complete.desc: "わが国にとって、ここ数年間は動揺と不安の絶えない時代だった。[target_country.GetLongName]の未来を思えば、[target_government_type.GetName]へと改革するのが最善だったことは間違いない。だが影響力をもつ官僚主義者や退廃的な老人たちが変化を恐れ、[origin_government_type.GetName]の維持のために必死にもがいた。だが最後には、[target_character.GetName]が無数の困難を乗り越え、中央集権化を妨害していた廃れた伝統の撤廃に成功し、新たな[target_government_type.GetName]国家の門出を迎えることができた。"
+ government_conversion_events.conversion_complete.a: "[origin_government_type.GetNameWithNoTooltip]は終わり、これからは[target_government_type.GetNameWithNoTooltip]の時代だ！"

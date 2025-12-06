@@ -1,0 +1,5 @@
+﻿l_japanese:
+ flavor_dit.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]"
+ flavor_dit.1.desc: "わが国の[ShowPopTypeName('peasants')]が管理する土地は、外界からほとんど注目されないため、[ShowPopTypeName('nobles')]の影響から遠く離れた自律的な共同体の発展につながっている。もしかすると、[ShowContinentName('europe')]の封建的な社会にわが国を縛りつけている最後の鎖を断ち切り、何世紀にもわたって我々を導いてきた[ShowGovernmentReformName('peasant_republic_reform')]の構造を受け入れる時なのかもしれない。"
+ flavor_dit.1.a: "「苫屋に平和を！ 宮殿に戦争を！」"
+ flavor_dit.1.b: "急進的すぎる。"

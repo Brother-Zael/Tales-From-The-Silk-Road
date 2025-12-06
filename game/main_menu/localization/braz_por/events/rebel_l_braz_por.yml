@@ -1,0 +1,7 @@
+﻿l_braz_por:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "A cidade de [target_location.GetName], outrora grandiosa, está agora decadente e desordenada. Após anos sendo mal gerida pelos nobres locais, a cidade se transformou em uma sombra terrível do que já foi, com pedintes em cada esquina e becos cheios de ladrões.\n\nSendo assim, era de se esperar uma rebelião em algum momento, e, nesse caso, os rebeldes são liderados por um homem chamado [target_character.GetName]. Ele é muito conhecido como um notário cujo irmão foi assassinado em um incidente envolvendo um nobre da cidade, além de ter sido enviado para falar com o [GetCountry('PAP').GetGovernment.GetRulerTitle] e tê-lo impressionado a ponto de ser designado a um cargo oficial na corte por um curto período.\n\nAs nossas fontes dizem que esse homem juntou seus seguidores e reuniu o povo de [target_location.GetNameWithNoTooltip]. Juntos, eles dominaram o Capitólio sem derramar uma gota de sangue, graças à covardia dos nobres governantes que fugiram ao avistar a multidão e entregaram a cidade."
+ rebel.1.a: "Permita que ele fique com a cidade sem os nobres."
+ rebel.1.b: "Dê-lhe poderes extraordinários e a liderança da cidade."
+ rebel.1.c: "Não permitiremos essa anarquia! Recuperem a cidade!"
+ cola_rebels: "Apoiadores do Cola di Rienzo"

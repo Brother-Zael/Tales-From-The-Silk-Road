@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "Com a cavalaria sendo a força dominante na entidade política [ROOT.GetCountry.GetName], [target_character.GetName] decidiu criar uma força de elite chamada [ShowUnitDefinitionName('a_esho_cavalry_oyo')]. Podemos usá-los como regimentos especializados ou integrá-los ao restante do exército."
+ flavor_oyo.1.a: "Eles ficarão separados do restante do exército."
+ flavor_oyo.1.b: "Vamos deixá-los com o restante dos regimentos."

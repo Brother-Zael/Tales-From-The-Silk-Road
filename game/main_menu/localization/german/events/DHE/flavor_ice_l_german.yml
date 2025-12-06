@@ -1,0 +1,11 @@
+﻿l_german:
+ flavor_ice.10.title: "Bistümer von „[ROOT.GetCountry.GetNameWithNoTooltip|U]“"
+ flavor_ice.10.desc: "Der #L [ROOT.GetCountry.GetReligion.GetAdjective|U]e#! Glaube ist schon lange ein wichtiger Teil des #L [ROOT.GetCountry.GetAdjective|l]en#! Lebens. Doch es gibt zwei getrennte Bistümer: [target_location.GetName] und [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip|U] in „[target_location.GetProvince.GetName|U]“ hat den Ruf, unabhängig und selbstständiger zu sein, wohingegen [skalholt.GetNameWithNoTooltip] in „[skalholt.GetProvince.GetName]“ als enger mit dem Suzerän ([overlord.GetLongName|U]) verbunden gilt.\n\nWährend „[ROOT.GetCountry.GetNameWithNoTooltip|U]“ sich weiterentwickelt, wird es wichtig sein, das einzigartige Wesen der beiden Bistümer zu bedenken."
+ flavor_ice.10.a: "Unterstützen wir die Unabhängigkeit von [target_location.GetNameWithNoTooltip]."
+ flavor_ice.10.b: "Schmeicheln wir uns beim [overlord.GetAdjectiveWithNoTooltip|l]en Bischof ein."
+ opinion_opposed_our_bishop: "Behinderte unseren Bischof"
+ opinion_supported_our_bishop: "Unterstützte unseren Bischof "
+ flavor_ice.11.title: "Huldufólk"
+ flavor_ice.11.desc: "Geschichten vom Huldufólk – einem mystischen verborgenen Volk – begeistern seit Jahrhunderten das #L [ROOT.GetCountry.GetCulture.GetName|l]e#! Volk. Diese scheuen Elfen sollen in den Felsen und Bergen Islands leben.\n\nDies hat nun an Bedeutung gewonnen, denn es soll eine neue #L [ROOT.GetCountry.GetReligion.GetAdjective|l]e#! Kirche in einem Gebiet in [target_location.GetName] gebaut werden, das den Huldufólk gehört.\n\nDer [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] fürchtet, es könnte verheerende Folgen haben, jene Felsen zu stören, in denen Huldufólk leben sollen. Der [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] bestreitet natürlich aufs Schärfste die Existenz dieser unsichtbaren Wesen. Nun muss die [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] in dieser spirituellen Frage schlichten und über das Schicksal des Bauvorhabens entscheiden."
+ flavor_ice.11.a: "Respektieren wir den Volksglauben und geben wir die Kirche auf."
+ flavor_ice.11.b: "Ignorieren wir den Volksglauben und bauen wir die Kirche."

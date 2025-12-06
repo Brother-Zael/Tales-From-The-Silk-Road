@@ -1,0 +1,11 @@
+﻿l_polish:
+ flavor_loi.10.title: "Nordyckie wyspy"
+ flavor_loi.10.desc: "Ludność kraju [ROOT.GetCountry.GetLongName] długo żyła w cieniu swojego #L [ROOT.GetCountry.GetCulture.GetName|l]kiego#! dziedzictwa, lecz obecnie, w obliczu zmieniających się czasów, rozważamy ponowne przyjęcie naszych nordyckich korzeni. W miarę jak coraz bardziej zbliżamy się do starych królestw regionu, którym jest [scandinavia.GetName], możemy wiele zyskać poprzez odkrycie na nowo swojego dziedzictwa oraz uformowanie nowych sojuszy.\n\nObierając tę ścieżkę, musimy być przygotowani na odrzucenie niektórych gaelickich praktyk i obrzędów, lecz możemy dzięki temu zyskać coś o wiele większego. Przyjmując nordyckie korzenie, możemy wytworzyć dla wyspiarzy nową i potężną #L [nordic_culture.GetName|l]ką#! tożsamość oraz zająć miejsce pośród Lwów Północy.\n\nCzy chcemy wyruszyć w tę podróż?"
+ flavor_loi.10.a: "Zaakceptujmy nasze nordyckie korzenie."
+ flavor_loi.10.b: "Musimy oprzeć się wezwaniu Północy."
+ opinion_loi_10_adopted_our_culture: "Przyjęto kulturę nordycką"
+ flavor_loi.20.title: "Zawody szkutników"
+ flavor_loi.20.desc: "Wiatry prowincji [target_location.GetProvinceDefinition.GetName] niosą odgłosy uderzeń młotów o dęby i sosny, gdyż szkutniczy mistrzowie z całego regionu [target_location.GetArea.GetName] zebrali się, by rywalizować w wielkich #L [ROOT.GetCountry.GetAdjective|l]kich#! zawodach szkutników w mieście [target_location.GetName].\n\nTradycyjne szkutnictwo pełni kluczową rolę w naszym stylu życia, więc musimy do tego zachęcać. [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] wysłała nas tutaj, abyśmy nadzorowani te zawody."
+ flavor_loi.20.a: "Zlećmy zbudowanie galery i weźmy udział w zawodach."
+ flavor_loi.20.b: "Sfinansujmy faworyta."
+ flavor_loi.20.c: "Nie zwracajmy uwagi na zawody."

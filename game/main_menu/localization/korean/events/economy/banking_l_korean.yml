@@ -1,0 +1,11 @@
+﻿l_korean:
+ banking.1.title: "푸거 가문의 부상"
+ banking.1.desc: "아우크스부르크 출신의 상인 귀족 가문인 푸거가는 15세기와 16세기에 유럽 은행계에서 가장 두각을 드러낸 가문입니다. 이들은 유럽 경제의 상당 부분을 지배했으며, 특히 구리 시장은 거의 독점하다시피 했습니다. 역사적으로 합스부르크 가문과 접점이 많았으며, 실제로 후자가 유럽의 강자로 떠오르는 과정에서 재정적 지원을 제공하기도 했습니다."
+ banking.1.a: "아우크스부르크에 큰 보탬이 될 것이다!"
+ banking.2.a: "우리에게 도움이 될...지도?"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName](이)가 [ShowLocationName('augsburg')]에서 사업을 시작합니다"
+ banking.3.title: "벨저 가문"
+ banking.3.desc: "벨저 가문은 독일의 뉘른베르크와 아우크스부르크 출신의 상인 및 은행가 가문으로, 비잔티움의 장군인 벨리사리우스의 후손을 자처했습니다. 이들은 은행업을 통해 합스부르크 제국이 막대한 부를 축적할 수 있도록 도왔고, 대항해 시대에 들어서서는 안트베르펜, 마드리드, 리스본, 로마, 리옹 등지에 무역 거점을 마련했습니다."
+ banking.3.a: "이로써 뉘른베르크의 이름이 무대 위에 등장하리라!"
+ banking.4.a: "우리에게 도움이 될...지도?"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName](이)가 [ShowLocationName('nuremberg')]에서 사업을 시작합니다"

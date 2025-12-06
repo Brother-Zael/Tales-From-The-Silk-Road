@@ -1,0 +1,9 @@
+﻿l_korean:
+ flavor_arm.1.title: "지식의 소실"
+ flavor_arm.1.desc: "[target_location.GetName] [ShowBuildingTypeName('university')]는 수 세기 동안 우리나라의 문화 및 과학 중심지로 기능해 왔습니다. 이 대학교는 한때 명망 높은 여러 귀족가의 후원을 받으며 번영을 누렸지만, 최근 몇 년 사이에 후원자들에게 닥친 큰 불행 탓에 금전적 지원이 끊기고 말았습니다. 그러자 여러 분야의 강의가 폐강되었고, 많은 강사가 일자리를 잃었습니다. 국민들은 이 [ShowBuildingTypeNameWithNoTooltip('university')]가 이대로 아무런 지원도 받지 못한다면 폐교될지도 모른다고 우려하고 있습니다..."
+ flavor_arm.1.a: "쇠퇴하게 둬라."
+ flavor_arm.1.b: "자금을 지원하라!"
+ flavor_arm.2.title: "타테브 대학"
+ flavor_arm.2.desc: "[target_location.GetName]의 활기 넘치는 공동체의 중심에 위치한 이 현지 수도원은 점차 여러 계약서와 공문서, 그리고 귀중한 자료의 수장고로 성장하여 지금은 약동하는 지식의 심장부가 되었습니다. 마침 그곳의 강사들이 시설의 확장을 청원한 상황으로, 특히 성서학 및 음악 연구의 장이 될 새로운 학과를 창설하고 싶다고 합니다."
+ flavor_arm.2.a: "확장에 필요한 자금을 지원하라."
+ flavor_arm.2.b: "안 하는 게 낫겠어."

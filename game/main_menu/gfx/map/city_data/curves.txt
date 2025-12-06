@@ -1,0 +1,75 @@
+﻿
+curve = {
+	name = standard_pop_curve
+	points = {
+		# left value is what the total "contributor" value is, which used to be 1:1 with how many meshes to spawn
+		# right value is how many meshes to spawn for that contributor value
+		# This curve starts with a 1:1 ratio, then falls off and requires more pops per mesh spawned.
+		{ 0.0	0.0 }	
+		{ 1.0	1.0 }	
+		{ 10.0	9.0 }
+		{ 50.0	20.0 }
+	}
+}
+
+
+curve = {
+	name = standard_pop_peasants_curve
+	points = {
+		# left value is what the total "contributor" value is, which used to be 1:1 with how many meshes to spawn
+		# right value is how many meshes to spawn for that contributor value
+		# This curve starts with a 1:1 ratio, then falls off and requires more pops per mesh spawned.
+		{ 0.0	0.0 }	
+		{ 1.0	1.0 }	
+		{ 10.0	7.0 }
+		{ 50.0	15.0 }
+	}
+}
+
+curve = {
+	name = aztec_pop_peasants_curve
+	points = {
+		# left value is what the total "contributor" value is, which used to be 1:1 with how many meshes to spawn
+		# right value is how many meshes to spawn for that contributor value
+		# This curve starts with a 1:1 ratio, then falls off and requires more pops per mesh spawned.
+		{ 0.0	0.0 }	
+		{ 1.0	3.0 }	
+		{ 10.0	7.0 }
+		{ 50.0	15.0 }
+	}
+}
+
+curve = {
+	name = east_asian_pop_curve #has a slightly more aggressive fall off
+	points = {
+		{ 0.0	0.0 }	
+		{ 1.0	1.0 }	
+		{ 7.5	3.0 }
+		{ 15.0	8.0 }
+		{ 30.0	15.0 }
+		{ 60.0	20.0 }
+	}
+}
+curve = {
+	name = east_asian_rural_pop_curve
+	points = { # linear for a while, then fast fall off
+		{ 0.0	0.0 }	
+		{ 3.0	1.0 }	
+		{ 6.0	3.0 }
+		{ 12.0	5.0 }
+		{ 24.0	6.0 }
+		{ 48.0	8.0 }
+	}
+}
+
+curve = {
+	name = standard_rgo_curve
+	points = { # linear up to 4 meshes, then falls of quickly
+		{ 0.0	0.0 }
+		{ 4.0	4.0 }
+		{ 6.0	5.0 }
+		{ 10.0	8.0 }
+		{ 18.0	10.0 }
+		{ 34.0	12.0 }
+	}
+}

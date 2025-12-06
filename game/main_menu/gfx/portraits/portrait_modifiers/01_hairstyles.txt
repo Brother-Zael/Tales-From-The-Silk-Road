@@ -1,0 +1,64 @@
+﻿hair_styles = {
+	usage = game
+	selection_behavior = weighted_random
+	# fallback = default_hairstyle
+    priority = 1
+
+	no_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = no_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clergy_trigger = {	RELIGION_GFX = buddhist_gfx }
+			}
+		}
+	}
+
+	german_hair_balding = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = german_hair_balding
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = no
+				character_age > 35
+				portrait_clothing_trigger = { CULTURE_FLAG = european_gfx }
+			}
+		}
+	}
+
+	european_monk = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = catholic_religious_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = no
+				portrait_clergy_trigger = { RELIGION_GFX = catholic_gfx }
+			}
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+﻿l_korean:
+ conquistador.1.title: "[SCOPE.sLocation('target_location').GetNameWithNoTooltip] 정복"
+ conquistador.1.desc: "콩키스타도르들이 [SCOPE.sLocation('target_location').GetName]에 도착해, 우리의 세력을 확대할 준비를 마쳤습니다."
+ conquistador.1.a: "뭐가 있는지 찾아보자꾸나!"
+ conquistador.10.title: "[ROOT.GetLocation.GetNameWithNoTooltip] 정복"
+ conquistador.10.desc: "우리는 이전보다 더 많은 영토를 점령함으로써 더 많은 풍요를 얻었으며, [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName]의 위상을 높이는 동시에 [former_overlord.GetReligion.GetGodName]께 그 영광을 바쳤습니다!"
+ conquistador.10.a: "아직 거머쥘 부는 많이 있도다!"
+ conquistador.10.b: "이 영토를 관리하려면 도움이 필요하다!"
+ conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip]의 식민지"
+ conquistador.11.desc: "[conquistador_country.GetLongName](이)가 해당 식민지를 우리나라의 정식 종속국으로 편입해 식민 국가가 될 수 있도록 지원해 달라고 청해 왔습니다!"
+ conquistador.11.a: "훌륭한 해결책이로군!"
+ conquistador.11.b: "그건 그들이 알아서 해결할 문제다."

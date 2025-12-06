@@ -1,0 +1,156 @@
+﻿l_russian:
+ #Continents
+ africa: "Африка"
+ america: "Америка"
+ asia: "Азия"
+ europe: "Европа"
+ oceania: "Океания"
+ ocean_continent: "Мировые океаны"
+ #Subcontinents
+ #Africa
+ central_africa: "Центральная Африка"
+ east_africa: "Восточная Африка"
+ north_africa: "Северная Африка"
+ southern_africa: "Южная Африка"
+ west_africa: "Западная Африка"
+ central_africa_region: "Центральная Африка"
+ #America
+ north_america: "Северная Америка"
+ south_america: "Южная Америка"
+ #Asia
+ central_asia: "Центральная Азия"
+ china: "Китай"
+ east_asia: "Восточная Азия"
+ middle_east: "Ближний Восток"
+ north_asia: "Северная Азия"
+ india: "Индия"
+ south_asia: "Южная Азия"
+ hindustan_region: "Индостан"
+ south_east_asia: "Юго-Восточная Азия"
+ #Europe
+ eastern_europe: "Восточная Европа"
+ western_europe: "Западная Европа"
+ #Oceania
+ pacific_islands: "Тихоокеанские острова"
+ australia: "Австралия"
+ polynesia_region: "Полинезия"
+ australasia: "Австралазия"
+ #Ocean Continent
+ ocean_sub_continent: "Океан"
+ north_atlantic_ocean_sub_continent: "Северный Атлантический океан"
+ south_atlantic_sub_continent: "Южный Атлантический океан"
+ indian_ocean_sub_continent: "Индийский океан"
+ north_pacific_ocean_sub_continent: "Северный Тихий океан"
+ south_pacific_ocean_sub_continent: "Южный Тихий океан"
+ antarctic_ocean_sub_continent: "Южный Ледовитый океан"
+ atlantic_ocean_continent: "Атлантический океан"
+ indian_ocean_continent: "Индийский океан"
+ pacific_ocean_continent: "Тихий океан"
+ antarctic_ocean_continent: "Южный Ледовитый океан"
+ north_atlantic_islands_region: "Северо-Атлантические острова"
+ macaronesia_region: "Макаронезия"
+ central_india_region: "Центральная Индия"
+ #Regions
+ #Africa
+ #Central Africa
+ kongo_region: "Конго"
+ #East Africa
+ great_lakes_region: "Великие озёра"
+ ethiopia_region: "Эфиопия"
+ nubia_region: "Нубия"
+ somalia_region: "Сомали"
+ madagascar_region: "Мадагаскар"
+ swahili_coast_region: "Суахильское побережье"
+ #North Africa
+ egypt_region: "Египет"
+ maghreb_region: "Магриб"
+ #South Africa
+ southern_africa_region: "Южная Африка"
+ zimbabwe_region: "Зимбабве"
+ southern_africa_islands_region: "Южно-Африканские острова"
+ #West Africa
+ sahel_region: "Сахель"
+ guinea_region: "Гвинея"
+ #America
+ #North America
+ canada_region: "Канада"
+ east_coast_region: "Восточное побережье"
+ great_plains_region: "Великие равнины"
+ caribbean_region: "Карибы"
+ central_america_region: "Центральная Америка"
+ mesoamerica_region: "Мезоамерика"
+ aridoamerica_region: "Аридоамерика"
+ west_coast_region: "Западное побережье"
+ alaska_region: "Аляска"
+ #South America
+ brazil_region: "Бразилия"
+ colombia_region: "Колумбия"
+ la_plata_region: "Ла-Плата"
+ andes_region: "Анды"
+ chaco_region: "Чако"
+ #Asia
+ #Central Asia
+ khorasan_region: "Хорасан"
+ #East Asia
+ east_china_region: "Восточный Китай"
+ japan_region: "Япония"
+ korea_region: "Корея"
+ manchuria_region: "Маньчжурия"
+ mongolia_region: "Монголия"
+ north_china_region: "Северный Китай"
+ south_china_region: "Южный Китай"
+ tibet_region: "Тибет"
+ west_china_region: "Западный Китай"
+ xinjiang_region: "Синьцзян"
+ #Middle East
+ anatolia_region: "Анатолия"
+ arabia_region: "Аравия"
+ crescent_region: "Плодородный полумесяц"
+ persia_region: "Персия"
+ #North Asia
+ east_siberia_region: "Восточная Сибирь"
+ west_siberia_region: "Западная Сибирь"
+ #South Asia
+ bengal_region: "Бенгалия"
+ deccan_region: "Декан"
+ western_india_region: "Западная Индия"
+ #Southeast Asia
+ indochina_region: "Индокитай"
+ indonesia_region: "Индонезия"
+ #Europe
+ #Eastern Europe
+ balkan_region: "Балканы"
+ carpathia_region: "Карпатия"
+ caucasus_region: "Кавказ"
+ poland: "Польша"
+ baltic_region: "Балтика"
+ ruthenia_region: "Рутения"
+ russian_region: "Россия"
+ steppes_region: "Понтийская степь"
+ ural_region: "Урал"
+ #Western Europe
+ france_region: "Франция"
+ great_britain_region: "Британия"
+ iberia_region: "Иберия"
+ iberia_region_ADJ: "Иберийск"
+ ireland_region: "Ирландия"
+ italy_region: "Италия"
+ north_german_region: "Северная Германия"
+ scandinavian_region: "Скандинавия"
+ south_german_region: "Южная Германия"
+ #Oceania
+ #Australia
+ australia_region: "Австралия"
+ #Polynesia
+ new_zealand_region: "Новая Зеландия"
+ micronesia_region: "Микронезия"
+ melanesia_region: "Меланезия"
+ #Ocean Continent
+ #Ocean Subcontinent
+ ocean_region: "Оушен"
+ north_atlantic_ocean_region: "Северный Атлантический океан"
+ south_atlantic_region: "Южная Атлантика"
+ indian_ocean_region: "Индийский океан"
+ north_pacific_ocean_region: "Северный Тихий океан"
+ south_pacific_ocean_region: "Южный Тихий океан"
+ antarctic_ocean_region: "Южный Ледовитый океан"

@@ -1,0 +1,5 @@
+﻿l_turkish:
+ government_conversion_events.conversion_complete.title: "[target_country.GetAdjectiveWithNoTooltip] [target_government_type.GetNameWithNoTooltip] Yükseliyor"
+ government_conversion_events.conversion_complete.title_fallback: "Hükûmette Islahat"
+ government_conversion_events.conversion_complete.desc: "Geçtiğimiz yıllar karmaşıklıklarla ve huzursuzluklarla doluydu. [target_country.GetLongName], [target_government_type.GetName] ıslahatıyla uzun vadede fayda sağlayacak olsa da birçok eski kafalı ve nüfuz sahibi kişi, eski [origin_government_type.GetName] düzenini korumak için canını dişine taktı. Yine de [target_character.GetName] tüm bunların üstesinden gelmeyi başardı. Yeni kurulan [target_government_type.GetNameWithNoTooltip] gücünün merkezîleştirilmesinin önünü kesen eski gelenekleri yıktı."
+ government_conversion_events.conversion_complete.a: "[origin_government_type.GetNameWithNoTooltip] sona erdi, devir [target_government_type.GetNameWithNoTooltip] devri!"

@@ -1,0 +1,51 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		random_layer={
+			name="play_random"
+			timeline_layer={
+				name="idle_animation"
+				weight=1.000000
+				timeline="turkey_idle_animation"
+			}
+			timeline_layer={
+				name="moving_animation"
+				weight=1.000000
+				timeline="moving_animation"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 32"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"turkey_idle_animation"={
+		boundary_behavior=loop
+		duration=2.571202
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="turkey_idle_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 32"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

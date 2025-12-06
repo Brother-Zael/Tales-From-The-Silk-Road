@@ -1,0 +1,84 @@
+﻿local_variables={
+	"is_aggressive"=bool
+ 	"energy_level"=int
+ 	"default_skin_color"=float3
+ }
+
+behavioral_states={
+	"idle"={
+		timeline_layer={
+			timeline="idle_time"
+		}
+	}
+ 	"move"={
+		timeline_layer={
+			timeline="move_time"
+		}
+	}
+ 	"attack_r"={
+		timeline_layer={
+			timeline="attack_r_time"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Connection 1"
+		behavioral_state="move"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"idle_time"={
+		boundary_behavior=loop
+		duration=19.530001
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"move_time"={
+		boundary_behavior=loop
+		duration=3.800000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"move2_time"={
+		boundary_behavior=loop
+		duration=3.700000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+	}
+ 	"attack_r_time"={
+		boundary_behavior=loop
+		duration=7.400000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_r_animation"
+	}
+ 	"Clip 1"={
+		boundary_behavior=loop
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_r_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Connection 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

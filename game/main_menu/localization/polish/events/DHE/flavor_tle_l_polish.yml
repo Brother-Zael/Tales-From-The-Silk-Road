@@ -1,0 +1,4 @@
+﻿l_polish:
+ flavor_tle.1.title: "Upadek miasta [capital_scope.GetNameWithNoTooltip]"
+ flavor_tle.1.desc: "[ROOT.GetCountry.GetFlavorRank] cierpi. [capital_scope.GetName], stolica naszego wspaniałego kraju, wpadła w ręce naszych odrażających wrogów, a co bardziej tragiczne, nasz ukochany przywódca [ruler_scope.GetName] i jego synowie zginęli podczas ataku.\n\nZ powodu tej tragedii [ROOT.GetCountry.GetFlavorRank] pogrąża się w rozpaczy, a dalsza walka z najeźdźcą stała się jeszcze trudniejsza."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

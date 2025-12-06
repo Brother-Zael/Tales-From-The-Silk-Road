@@ -1,0 +1,79 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+## WESTERN ##
+
+beard_n_heard_mid_a = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_n_heard_mid_a_entity }
+}
+
+beard_moustache_a = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_moustache_a_entity }
+}
+
+beard_long_a = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_long_a_entity }
+}
+
+beard_length_long_a = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_length_long_a_entity }
+}
+
+beard_new = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_full_02_entity }
+}
+
+beard_german_long_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_long_01_entity }
+}
+
+beard_german_long_02 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_long_02_entity }
+}
+
+beard_german_long_out = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_long_out_entity }
+}
+
+beard_german_mustache_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_mustache_01_entity }
+}
+
+beard_german_mustache_02 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_mustache_02_entity }
+}
+
+beard_german_handlebar_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_handlebar_01_entity }
+}
+
+beard_german_goatee_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_goatee_01_entity }
+}
+
+beard_german_goatee_02 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_goatee_02_entity }
+}
+
+beard_german_goatee_03 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_goatee_03_entity }
+}
+
+beard_german_goatee_04 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_goatee_04_entity }
+}
+
+beard_german_goatee_05 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_goatee_05_entity }
+}
+
+beard_german_short_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_short_01_entity }
+}
+
+beard_german_short_no_mustache_01 = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_german_short_no_mustache_01_entity }
+}
+
+beard_asian_full_manchu = {
+   entity = {  required_tags = ""          shared_pose_entity = head   entity = beard_asian_full_manchu_entity }
+}

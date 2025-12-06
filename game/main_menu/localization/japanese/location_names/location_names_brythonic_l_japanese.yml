@@ -1,0 +1,443 @@
+﻿l_japanese:
+ ### Region 'great_britain_region' (Britain) ###
+ ## Area 'home_counties_area' (Home Counties) ##
+ #Province 'middlesex_province' (Middlesex) #
+ london.brythonic_language: "リュンデイン" #London
+ #Province 'surrey_province' (Surrey) #
+ reigate.brythonic_language: "レイガット" #Reigate
+ guildford.brythonic_language: "キルゴルド" #Guildford
+ woking.brythonic_language: "ググクィン" #Woking
+ kingston.brythonic_language: "トレヴィブレイニン" #Kingston
+ #Province 'hampshire_province' (Hampshire) #
+ southampton.brythonic_language: "アバーハント" #Southampton
+ portsmouth.brythonic_language: "ポルスス" #Portsmouth
+ winchester.brythonic_language: "カエルウィン" #Winchester
+ lymington.brythonic_language: "リムグリン" #Lymington
+ wight.brythonic_language: "イニス・ウィド" #Wight
+ basingstoke.brythonic_language: "アヴォンバス" #Basingstoke
+ #Province 'kent_province' (Kent) #
+ dover.brythonic_language: "ドーヴル" #Dover
+ canterbury.brythonic_language: "カーガイント" #Canterbury
+ rochester.brythonic_language: "ルドゥール" #Rochester
+ hythe.brythonic_language: "イストゥイス" #Hythe
+ tonbridge.brythonic_language: "ポントゥイン" #Tunbridge
+ #Province 'sussex_province' (Sussex) #
+ shoreham.brythonic_language: "アバートラエス" #Shoreham
+ lewes.brythonic_language: "リュイス" #Lewes
+ hastings.brythonic_language: "ハスティン" #Hastings
+ chichester.brythonic_language: "カーヴァドン" #Chichester
+ #Province 'bedfordshire_province' (Bedfordshire) #
+ dunstable.brythonic_language: "トレヴドゥンスタブル" #Dunstable
+ bedford.brythonic_language: "リディヴァーチ" #Bedford
+ #Province 'oxfordshire_province' (Oxfordshire) #
+ oxford.brythonic_language: "リディシェン" #Oxford
+ henley.brythonic_language: "ヘンリュ" #Henley
+ banbury.brythonic_language: "バンブリ" #Banbury
+ #Province 'berkshire_province' (Berkshire) #
+ windsor.brythonic_language: "ウィンティル" #Windsor
+ reading.brythonic_language: "レディン" #Reading
+ abingdon.brythonic_language: "アビンヅン" #Abingdon
+ #Province 'buckinghamshire_province' (Buckinghamshire) #
+ buckingham.brythonic_language: "ブヘイニアウグ" #Buckingham
+ aylesbury.brythonic_language: "エイルスブリ" #Aylesbury
+ wycombe.brythonic_language: "グウィフクム" #Wycombe
+ ## Area 'midlands_area' (Mercia) ##
+ #Province 'leicestershire_province' (Leicestershire) #
+ leicester.brythonic_language: "カールリル" #Leicester
+ loughborough.brythonic_language: "カールルッフ" #Loughborough
+ bosworth.brythonic_language: "ボスウェルド" #Bosworth
+ rutland.brythonic_language: "リドラン" #Oakham
+ #Province 'derbyshire_province' (Derbyshire) #
+ derby.brythonic_language: "デルベイ" #Derby
+ glossop.brythonic_language: "グロソブ" #Glossop
+ chesterfield.brythonic_language: "マエスカー" #Chesterfield
+ #Province 'nottinghamshire_province' (Nottinghamshire) #
+ nottingham.brythonic_language: "ティグオコバウク" #Nottingham
+ newark.brythonic_language: "ネワール" #Newark
+ retford.brythonic_language: "リディフォード" #Retford
+ #Province 'lincolnshire_province' (Lincolnshire) #
+ lincoln.brythonic_language: "リンデコリン" #Lincoln
+ boston.brythonic_language: "リドグワス" #Boston
+ grimsby.brythonic_language: "アベルグリム" #Grimsby
+ grantham.brythonic_language: "グラウンサム" #Grantham
+ louth.brythonic_language: "ルーズ" #Louth
+ spalding.brythonic_language: "イスビルディン" #Spalding
+ #Province 'northamptonshire_province' (Northamptonshire) #
+ northampton.brythonic_language: "トレヴォイス" #Northampton
+ daventry.brythonic_language: "ディヴェンティ" #Daventry
+ kettering.brythonic_language: "ケテリン" #Kettering
+ #Province 'warwickshire_province' (Warwickshire) #
+ coventry.brythonic_language: "カーヴェント" #Coventry
+ birmingham.brythonic_language: "アベルミルディン" #Birmingham
+ stratford.brythonic_language: "リディフォード" #Stratford
+ #Province 'shropshire_province' (Shropshire) #
+ shrewsbury.brythonic_language: "アムウィシグ" #Shrewsbury
+ oswestry.brythonic_language: "クローソスワルト" #Oswestry
+ ludlow.brythonic_language: "ルイドロ" #Ludlow
+ #Province 'herefordshire_province' (Herefordshire) #
+ hereford.brythonic_language: "ヘンフォード" #Hereford
+ ewyas.brythonic_language: "エウィアス" #Longtown
+ wigmore.brythonic_language: "コエドウィグヴァ" #Wigmore
+ #Province 'worcestershire_province' (Worcestershire) #
+ worcester.brythonic_language: "カーウランゴン" #Worcester
+ kidderminster.brythonic_language: "ペンコード" #Kidderminster
+ #Province 'staffordshire_province' (Staffordshire) #
+ stafford.brythonic_language: "リディスタフ" #Stafford
+ stoke.brythonic_language: "イストグ" #Stoke
+ tamworth.brythonic_language: "タムウルド" #Lichfield
+ ## Area 'northumbria_area' (Northumbria) ##
+ #Province 'lancashire_province' (Lancashire) #
+ lancaster.brythonic_language: "カーランク" #Lancaster
+ blackburn.brythonic_language: "アベルドゥ" #Blackburn
+ liverpool.brythonic_language: "レルプル" #Liverpool
+ preston.brythonic_language: "プレスタトゥン" #Preston
+ manchester.brythonic_language: "マンケイニオン" #Manchester
+ #Province 'north_riding_province' (North Riding) #
+ york.brythonic_language: "エヴログ" #York
+ scarborough.brythonic_language: "アベリスクァル" #Scarborough
+ bedale.brythonic_language: "ベッダレ" #Bedale
+ richmond.brythonic_language: "カトライス" #Richmond
+ whitby.brythonic_language: "グウィンヴァ" #Whitby
+ #Province 'east_riding_province' (East Riding) #
+ hull.brythonic_language: "キュル" #Hull
+ bridlington.brythonic_language: "ペンリン" #Bridlington
+ selby.brythonic_language: "セリュヴ" #Selby
+ norton.brythonic_language: "トレヴノル" #Norton
+ #Province 'west_riding_province' (West Riding) #
+ leeds.brythonic_language: "レッズ" #Leeds
+ pontefract.brythonic_language: "ポントヴラク" #Pontefract
+ skipton.brythonic_language: "イスギブトゥン" #Skipton
+ wakefield.brythonic_language: "マエスコディ" #Huddersfield
+ doncaster.brythonic_language: "カードン" #Doncaster
+ ripon.brythonic_language: "リボン" #Ripon
+ #Province 'northumberland_province' (Northumberland) #
+ newcastle.brythonic_language: "カステルネウィド" #Newcastle
+ hexham.brythonic_language: "ヘクサン" #Hexham
+ alnwick.brythonic_language: "アルンウィグ" #Alnwick
+ morpeth.brythonic_language: "メルベド" #Morpeth
+ billingham.brythonic_language: "ベリン" #Bellingham
+ #Province 'cumberland_province' (Cumberland) #
+ carlisle.brythonic_language: "カーリウェリド" #Carlisle
+ cockermouth.brythonic_language: "アベルコグウル" #Cockermouth
+ penrith.brythonic_language: "ペンルード" #Penrith
+ egremont.brythonic_language: "エグリュモン" #Egremont
+ #Province 'westmorland_province' (Westmorland) #
+ kendal.brythonic_language: "キンダル" #Kendal
+ appleby.brythonic_language: "アヴェルビ" #Appleby
+ #Province 'durham_province' (Durham) #
+ durham.brythonic_language: "デュネルム" #Durham
+ darlington.brythonic_language: "ダルンレ" #Darlington
+ stockton.brythonic_language: "イストグタン" #Stockton
+ #Province 'cheshire_province' (Cheshire) #
+ chester.brythonic_language: "カー" #Chester
+ macclesfield.brythonic_language: "マエシクゥラウド" #Macclesfield
+ nantwich.brythonic_language: "ナントグウィン" #Nantwich
+ ## Area 'east_anglia_area' (East Anglia) ##
+ #Province 'norfolk_province' (Norfolk) #
+ norwich.brythonic_language: "カーウィド" #Norwich
+ lynn.brythonic_language: "ルン" #Lynn
+ yarmouth.brythonic_language: "アベリアル" #Yarmouth
+ thetford.brythonic_language: "リドゴエド" #Thetford
+ fakenham.brythonic_language: "ファクナム" #Fakenham
+ #Province 'essex_province' (Essex) #
+ colchester.brythonic_language: "カーコルン" #Colchester
+ chelmsford.brythonic_language: "リドゲル" #Chelmsford
+ prittlewell.brythonic_language: "プリデル" #Prittlewell
+ hedingham.brythonic_language: "ペンヘジン" #Hedingham
+ walden.brythonic_language: "ナントワル" #Walden
+ barking.brythonic_language: "ティルヴェレキン" #Barking
+ #Province 'suffolk_province' (Suffolk) #
+ ipswich.brythonic_language: "アベリプス" #Ipswich
+ bury.brythonic_language: "ブリ" #Bury
+ lowestoft.brythonic_language: "トゥルイングワスタッド" #Lowestoft
+ lavenham.brythonic_language: "ラヴァン" #Lavenham
+ #Province 'cambridgeshire_province' (Cambridgeshire) #
+ cambridge.brythonic_language: "カーグラウント" #Cambridge
+ ely.brythonic_language: "エリュグ" #Ely
+ huntingdon.brythonic_language: "ペンヘラ" #Huntingdon
+ royston.brythonic_language: "ロストン" #Royston
+ #Province 'hertfordshire_province' (Hertfordshire) #
+ hertford.brythonic_language: "リディヴァルド" #Hertford
+ st_albans.brythonic_language: "サン・アルバン" #St Albans
+ ## Area 'west_country_area' (West Country) ##
+ #Province 'cornwall_province' (Cornwall) #
+ launceston.brythonic_language: "ランステヴァン" #Launceston
+ truro.brythonic_language: "トゥルル" #Truro
+ bodmin.brythonic_language: "ボドメン" #Bodmin
+ #Province 'somerset_province' (Somerset) #
+ wells.brythonic_language: "グウィンヴィニド" #Wells
+ taunton.brythonic_language: "タウィントン" #Taunton
+ bath.brythonic_language: "カーヴァドン" #Bath
+ portishead.brythonic_language: "ペンポルス" #Portishead
+ minehead.brythonic_language: "ペンフウィン" #Minehead
+ #Province 'devon_province' (Devon) #
+ plymouth.brythonic_language: "アベルプリム" #Plymouth
+ exeter.brythonic_language: "カーウィスグ" #Exeter
+ barnstaple.brythonic_language: "バルントピル" #Barnstaple
+ bideford.brythonic_language: "アベルヴェド" #Bideford
+ bampton.brythonic_language: "バムトン" #Bampton
+ okehampton.brythonic_language: "オガムトゥン" #Okehampton
+ #Province 'dorset_province' (Dorset) #
+ poole.brythonic_language: "プル" #Poole
+ weymouth.brythonic_language: "アベルウェウン" #Weymouth
+ dorchester.brythonic_language: "カードゥル" #Dorchester
+ shaftesbury.brythonic_language: "カーシアフト" #Shaftesbury
+ #Province 'wiltshire_province' (Wiltshire) #
+ salisbury.brythonic_language: "カーサルグ" #Salisbury
+ trowbridge.brythonic_language: "ポントゥルイン" #Trowbridge
+ chippenham.brythonic_language: "キビン" #Chippenham
+ amesbury.brythonic_language: "カーラヴォン" #Amesbury
+ #Province 'gloucestershire_province' (Gloucestershire) #
+ bristol.brythonic_language: "ブリステ" #Bristol
+ gloucester.brythonic_language: "カーロイウ" #Gloucester
+ cheltenham.brythonic_language: "ケルタン" #Cheltenham
+ cirencester.brythonic_language: "カーケリ" #Cirencester
+ ## Area 'scottish_highlands_area' (Highlands) ##
+ #Province 'moray_province' (Moray) #
+ inverness.brythonic_language: "アベルニス" #Inverness
+ urquhart.brythonic_language: "エルハルト" #Urquhart
+ elgin.brythonic_language: "アエルグウィン" #Elgin
+ badenoch.brythonic_language: "バダナウグ" #Badenoch
+ #Province 'ross_province' (Ross) #
+ dingwall.brythonic_language: "カーディン" #Dingwall
+ gairloch.brythonic_language: "アベルガル" #Gairloch
+ ullapool.brythonic_language: "アスィント" #Assynt
+ #Province 'sutherland_province' (Sutherland) #
+ dornoch.brythonic_language: "ディルノグ" #Dornoch
+ durness.brythonic_language: "ディヴネス" #Durness
+ tongue.brythonic_language: "トンク" #Tongue
+ thurso.brythonic_language: "アベルスル" #Thurso
+ #Province 'argyll_province' (Argyll) #
+ inverary.brythonic_language: "アベラリ" #Inverary
+ oban.brythonic_language: "ラルン" #Lorne
+ cowal.brythonic_language: "カウル" #Cowal
+ lochaber.brythonic_language: "ルィナヴァエル" #Lochaber
+ ardtornish.brythonic_language: "アルディルニス" #Ardtornish
+ kintyre.brythonic_language: "キンティル" #Kintyre
+ ## Area 'hebrides_area' (Hebrides) ##
+ #Province 'outer_hebrides_province' (Outer Hebrides) #
+ lewis.brythonic_language: "リュイス" #Lewis
+ uist.brythonic_language: "イニス・ヒュイスト" #Uist
+ harris.brythonic_language: "ハレス" #Harris
+ skye.brythonic_language: "イニス・スギ" #Skye
+ #Province 'inner_hebrides_province' (Inner Hebrides) #
+ arran.brythonic_language: "アラン" #Arran
+ mull.brythonic_language: "モエル" #Mull
+ islay.brythonic_language: "エイリアン" #Islay
+ mann.brythonic_language: "マナウ" #Mann
+ ## Area 'scottish_lowlands_area' (Lowlands) ##
+ #Province 'lothian_province' (Lothian) #
+ edinburgh.brythonic_language: "ディン・エイディン" #Edinburgh
+ dunbar.brythonic_language: "ディナス・バル" #Dunbar
+ linlithgow.brythonic_language: "ルィンライス" #Linlithgow
+ stirling.brythonic_language: "イュッデウ" #Stirling
+ #Province 'galloway_province' (Galloway) #
+ stranraer.brythonic_language: "ペンルヒウ" #Stranraer
+ ayr.brythonic_language: "アエルドン" #Ayr
+ kirkcudbright.brythonic_language: "ラン・クッドヴァン" #Kirkcudbright
+ irvine.brythonic_language: "イルヴァエン" #Irvine
+ kenmure.brythonic_language: "キンムル" #Kenmure
+ dumfries.brythonic_language: "ディムフレス" #Dumfries
+ #Province 'strathclyde_province' (Strathclyde) #
+ glasgow.brythonic_language: "グラスグ" #Glasgow
+ lanark.brythonic_language: "ラナエルヒ" #Lanark
+ paisley.brythonic_language: "プラスリ" #Paisley
+ dumbarton.brythonic_language: "ドゥン・ブリソン" #Dumbarton
+ #Province 'teviotdale_province' (Teviotdale) #
+ roxburgh.brythonic_language: "ロスベルウ" #Roxburgh
+ selkirk.brythonic_language: "ランセルヒ" #Selkirk
+ duns.brythonic_language: "ドゥンス" #Duns
+ berwick.brythonic_language: "アベルウィグ" #Berwick
+ #Province 'fife_province' (Fife) #
+ dunfermline.brythonic_language: "ディンヴェルリン" #Dunfermline
+ st_andrews.brythonic_language: "サン・アンドレアス" #St Andrews
+ cupar.brythonic_language: "クパル" #Cupar
+ #Province 'perthshire_province' (Perthshire) #
+ perth.brythonic_language: "ペイルス" #Perth
+ aberfeldy.brythonic_language: "アベルヴェリン" #Aberfeldy
+ clackmannan.brythonic_language: "クラグマナン" #Clackmannan
+ scone.brythonic_language: "ダンケレン" #Dunkeld
+ strathearn.brythonic_language: "ストラダルン" #Strathearn
+ #Province 'angus_province' (Angus) #
+ dundee.brythonic_language: "ドゥンデイ" #Dundee
+ forfar.brythonic_language: "フォルド・ヴァル" #Forfar
+ arbroath.brythonic_language: "アベルブリス" #Arbroath
+ stonehaven.brythonic_language: "キンカルディン" #Kincardine
+ #Province 'aberdeenshire_province' (Aberdeenshire) #
+ aberdeen.brythonic_language: "アベルドン" #Aberdeen
+ buchan.brythonic_language: "トレッフレイザー" #Fraserburgh
+ banff.brythonic_language: "バンヴァ" #Banff
+ mar.brythonic_language: "ブライグマル" #Braemar
+ inverurie.brythonic_language: "アベルリ" #Inverurie
+ ## Area 'wales_area' (Wales) ##
+ #Province 'deheubarth_province' (Deheubarth) #
+ carmarthen.brythonic_language: "カーヴィルディン" #Carmarthen
+ pembroke.brythonic_language: "ペンフロ" #Pembroke
+ fishguard.brythonic_language: "アベルグワウン" #Fishguard
+ kidwelly.brythonic_language: "キドウェリ" #Kidwelly
+ cardigan.brythonic_language: "アベルテイフィ" #Cardigan
+ aberystwyth.brythonic_language: "アベリストゥイス" #Aberystwyth
+ #Province 'gwynedd_province' (Gwynedd) #
+ carnarvon.brythonic_language: "カーナルヴォン" #Carnarvon
+ anglesey.brythonic_language: "イニス・モン" #Anglesey
+ conwy.brythonic_language: "コンウィ" #Conway
+ harlech.brythonic_language: "ハルレック" #Harlech
+ flint.brythonic_language: "フフリント" #Flint
+ penllyn.brythonic_language: "ペンルィン" #Penllyn
+ denbigh.brythonic_language: "ディンビク" #Denbigh
+ #Province 'powys_province' (Powys) #
+ montgomery.brythonic_language: "トレヴァルドウィン" #Montgomery
+ machynlleth.brythonic_language: "マヒンリュス" #Machynlleth
+ llangollen.brythonic_language: "ランゴレン" #Wrexham
+ #Province 'brecon_province' (Brecon) #
+ brecknock.brythonic_language: "ブリヘイニオグ" #Brecknock
+ builth.brythonic_language: "ブエル" #Builth
+ radnor.brythonic_language: "マエシヴェド" #Radnor
+ #Province 'glamorgan_province' (Glamorgan) #
+ cardiff.brythonic_language: "カーディド" #Cardiff
+ monmouth.brythonic_language: "トレヴィンウィ" #Monmouth
+ newport.brythonic_language: "カスネウィド" #Newport
+ neath.brythonic_language: "ネッド" #Neath
+ swansea.brythonic_language: "アベルタウェ" #Swansea
+ caerphilly.brythonic_language: "カーフィリ" #Caerphilly
+ ### Region 'ireland_region' (Ireland) ###
+ ## Area 'leinster_area' (Leinster) ##
+ #Province 'dublin_province' (Dublin) #
+ dublin.brythonic_language: "ダヴリン"
+ fingal.brythonic_language: "メリド" #Malahide
+ wicklow.brythonic_language: "グウィグル"
+ glendalough.brythonic_language: "グリンダルッフ"
+ #Province 'meath_province' (Meath) #
+ trim.brythonic_language: "トゥリーム"
+ kells.brythonic_language: "ケラウ"
+ mullingar.brythonic_language: "ミリングァル"
+ longford.brythonic_language: "ヒルフォード"
+ ardagh.brythonic_language: "アルダハ"
+ ballymore.brythonic_language: "トレヴァウル"
+ tullamore.brythonic_language: "ティルヴァ・モル"
+ navan.brythonic_language: "ナヴァン"
+ #Province 'wexford_province' (Wexford) #
+ wexford.brythonic_language: "グウェスフォード"
+ new_ross.brythonic_language: "ロスネウィド" #New Ross
+ ferns.brythonic_language: "フフェルンス"
+ carlow.brythonic_language: "カーロ"
+ #Province 'kildare_province' (Kildare) #
+ kildare.brythonic_language: "キルダイル"
+ naas.brythonic_language: "ナス"
+ athy.brythonic_language: "アサ"
+ dunamase.brythonic_language: "ディナス・メス"
+ daingean.brythonic_language: "ディンゲン"
+ #Province 'kilkenny' (Kilkenny) #
+ kilkenny.brythonic_language: "キルケンニ"
+ cullahill.brythonic_language: "キリル" #Cullohill
+ ## Area 'ulster_area' (Ulster) ##
+ #Province 'antrim_province' (Antrim) #
+ carrickfergus.brythonic_language: "カレグヴェルギス"
+ belfast.brythonic_language: "ベルヴァスト"
+ ballymena.brythonic_language: "ウントゥリム" #Antrim
+ ballycastle.brythonic_language: "グリナルム" #Glenarm
+ dunluce.brythonic_language: "ダンリウ"
+ #Province 'down_province' (Down) #
+ downpatrick.brythonic_language: "ダンパドゥリグ"
+ iveagh.brythonic_language: "リディヴレウリン" #Rathfriland
+ newtownards.brythonic_language: "バンゴール" #Bangor
+ #Province 'tyrone_province' (Tyrone) #
+ dungannon.brythonic_language: "ディンガンウン"
+ strabane.brythonic_language: "イストラバン"
+ clogher.brythonic_language: "クロハル"
+ enniskillen.brythonic_language: "ルィシスガイス" #Lisnaskea
+ belcoo.brythonic_language: "ベルク"
+ #Province 'derry_province' (Derry) #
+ derry.brythonic_language: "デリ"
+ coleraine.brythonic_language: "コルレン"
+ magherafelt.brythonic_language: "マフラヴェルド"
+ #Province 'donegal_province' (Donegal) #
+ donegal.brythonic_language: "ドニガル"
+ kilmacrennan.brythonic_language: "レデルケニン" #Letterkenny
+ inishowen.brythonic_language: "ボングラナ" #Buncranna
+ raphoe.brythonic_language: "ラフォ"
+ #Province 'oriel_province' (Oriel) #
+ monaghan.brythonic_language: "モナハン"
+ carrickmacross.brythonic_language: "イニスケイン" #Inniskeen
+ armagh.brythonic_language: "アード・マハ"
+ oriel.brythonic_language: "イウリン" #Newry
+ dundalk.brythonic_language: "ドゥンダルク"
+ drogheda.brythonic_language: "ドロエダ"
+ ## Area 'connaught_area' (Connaught) ##
+ #Province 'galway_province' (Galway) #
+ galway.brythonic_language: "ガルウェ"
+ clifden.brythonic_language: "アネッディン" #Annaghdown
+ athenry.brythonic_language: "アセンライ"
+ tuam.brythonic_language: "トゥアム"
+ kilconnell.brythonic_language: "キルコネル"
+ #Province 'roscommon_province' (Roscommon) #
+ roscommon.brythonic_language: "ロスコミン"
+ castlereagh.brythonic_language: "カステルルヒ" #Castlerea
+ sligo.brythonic_language: "スライゴ"
+ athlone.brythonic_language: "アサロン"
+ skreen.brythonic_language: "イスグレイン"
+ #Province 'breifne_province' (Breifne) #
+ dromahair.brythonic_language: "ドロマハエル"
+ leitrim.brythonic_language: "レトゥリム"
+ killeshandra.brythonic_language: "ベラスゴネル" #Ballyconnell
+ cavan.brythonic_language: "カヴァン"
+ killycolly.brythonic_language: "キリコリ"
+ #Province 'mayo_province' (Mayo) #
+ castlebar.brythonic_language: "カステルバル"
+ burrishoole.brythonic_language: "ミリスク" #Murrisk
+ erris.brythonic_language: "キララ" #Kilalla
+ ballaghaderreen.brythonic_language: "バラデリン"
+ ## Area 'munster_area' (Munster) ##
+ #Province 'cork_province' (Cork) #
+ cork.brythonic_language: "コルク"
+ fermoy.brythonic_language: "マエララ" #Mallow
+ kinsale.brythonic_language: "キンサエル"
+ youghal.brythonic_language: "イオガル"
+ #Province 'desmond_province' (Desmond) #
+ killarney.brythonic_language: "キラルニー"
+ carbery.brythonic_language: "ダンヴォイ" #Dunboy
+ kilbrittain.brythonic_language: "キルフリタン"
+ muskerry.brythonic_language: "ブラルニ" #Blarney
+ dunhallow.brythonic_language: "カントゥルク" #Kanturk
+ #Province 'limerick_province' (Limerick) #
+ tralee.brythonic_language: "トゥラライス"
+ dingle.brythonic_language: "ディングル"
+ limerick.brythonic_language: "リムリュク"
+ killmallock.brythonic_language: "キルマログ"
+ adare.brythonic_language: "アダル"
+ castleconnell.brythonic_language: "カステルグィンネル"
+ #Province 'clare_province' (Clare) #
+ ennis.brythonic_language: "エニス"
+ bunratty.brythonic_language: "ブンラティ"
+ moyarta.brythonic_language: "キルロス" #Kilrush
+ #Province 'tipperary_province' (Tipperary) #
+ tipperary.brythonic_language: "ティペレリ"
+ nenagh.brythonic_language: "ネナハ"
+ clonmel.brythonic_language: "クロンメル"
+ cashel.brythonic_language: "カセル"
+ roscrea.brythonic_language: "ロスクレ"
+ moycarn.brythonic_language: "ビル" #Birr
+ #Province 'waterford_province' (Waterford) #
+ waterford.brythonic_language: "ドゥルフォード"
+ dungarvan.brythonic_language: "ディンガルヴァン"
+ carrickbeg.brythonic_language: "キルフィダン" #Kilmeaden
+ #Breton
+ quimper.brythonic_language: "ケンペル"
+ saint_brieuc.brythonic_language: "サント＝ブリーグ"
+ treguier.brythonic_language: "トゥレゲル"
+ nantes.brythonic_language: "ナオネド"
+ chateaubriant.brythonic_language: "カステル＝ブリヤント"
+ guerande.brythonic_language: "グウェンラン"
+ machecoul.brythonic_language: "マヒクゥル"
+ rennes.brythonic_language: "ロアゾン"
+ saint_malo.brythonic_language: "サント＝マロ"
+ vitre.brythonic_language: "グウィトゥレグ"
+ vannes.brythonic_language: "グウェネド"
+ josselin.brythonic_language: "ジョスリン"
+ ploermel.brythonic_language: "プロエルマエル"
+ rohan.brythonic_language: "ロハン"
+ ## Area 'northern_isles_area' (Northern Isles) ##
+ #Province 'northern_isles_province' (Northern Isles) #
+ orkney.brythonic_language: "エルク"
+ shetland.brythonic_language: "シエットラン"
+ torshavn.brythonic_language: "トルシャウン"

@@ -1,0 +1,12 @@
+﻿l_german:
+ END_GAME_VIEW_LOSING_TITLE: "Spielende"
+ END_GAME_VIEW_LOSING_TEXT: "Unsere Nation hat es nicht geschafft, alle Ereignisse zu überstehen, oder war nicht mächtig oder entschlossen genug im Vergleich mit den eigenen Nachbarn. In Zukunft wird man sich des #L [COUNTRY.GetAdjective|l]en#! Volks nur in einem Museum erinnern, wo Gelehrte unser Scheitern erforschen."
+ END_GAME_VIEW_SURVIVING_TITLE: "Eine Fußnote der Geschichte"
+ END_GAME_VIEW_SURVIVING_TEXT: "Unser stolze Nation hat Jahrhunderte des Ringens, der Kriege und der Widerstände überdauert, doch trotz all dem hat das #L [COUNTRY.GetAdjective|l]e#! Volk wenig Bemerkenswertes erreicht. In einer Welt voll Riesen der Zivilisation und der Schlachtfelder, sind wir lediglich eine Randnotiz geblieben."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Eine Großmacht"
+ END_GAME_VIEW_GREAT_TEXT: "Unsere ruhmreiche Nation hat es geschafft, als Großmacht in der Welt anerkannt zu werden. Glückwunsch, denn das #L [COUNTRY.GetAdjective|l]e#! Volk gehört zu den reichsten und prestigeträchtigsten dieses Zeitalters und unsere Herrschaft hat sich als herausragend erfolgreich erwiesen."
+ CONTINUE_PAST_END_DATE: "Weiterspielen"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Weiterspielen\nErfolge können im Anschluss nicht mehr errungen werden"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Spiel beenden und zum Hauptmenü zurückkehren"
+ END_GAME_VIEW_OBSERVE: "Zuschauer"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Im Zuschauermodus fortsetzen"

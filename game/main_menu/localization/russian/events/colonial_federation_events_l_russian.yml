@@ -1,0 +1,10 @@
+﻿l_russian:
+ colonial_federation_events.1000.title: "Централизация объединения «[target_io.GetNameWithNoTooltip]»"
+ colonial_federation_events.1000.desc: "Изначально объединение «[target_io.GetName]» представляло собой всего лишь союз между колониями иностранных держав, однако на сегодняшний день это уже полноценное государство с единой внутренней политикой и границами. В связи с этим [target_io.GetNameWithNoTooltip] принимает решение официально объединить все субъекты союза в одну державу, которая станет известна как [target_country.GetName], а возглавит её [target_character.GetName]."
+ colonial_federation_events.1000.a: "Пусть в будущем всех нас ждёт только процветание!"
+ colonial_federation_unify_the_io_tt: "Объединение «[target_io.GetName]» станет единой державой"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Голосование завершилось, и наш народ изъявил свою волю. Старый союз «[target_io.GetName] будет объединён в единое государство, а его главой станет [target_character.GetName]."
+ colonial_federation_events.1001.a: "Да здравствует наше новое государство!"
+ colonial_federation_events.1001.b: "Больше мы ни перед кем не склонимся!"
+ colonial_federation_break_away_tt: "Все принадлежащие нам районы, являющиеся [Concept('core','национальными')|e] территориями #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, отделятся от нас"

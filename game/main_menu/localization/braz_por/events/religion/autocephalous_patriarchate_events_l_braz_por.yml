@@ -1,0 +1,11 @@
+﻿l_braz_por:
+ ap_falls_desc_key: "Após o cerco turbulento e a defesa valente da guarnição residente, [target_location.GetName] não resistiu ao poder dos nossos grandes exércitos. Por trás desses muros, reside uma poderosa autoridade religiosa, pois [target_location.GetRank.GetNameWithNoTooltip] já abrigou dignatários da fé de caráter [ShowReligionAdjective('orthodox')]. A questão se mantém: devemos abolir essa instituição semelhante ou adotá-la sob a nossa proteção?"
+ autocephalous_patriarchates.1.title: "Sede do Patriarcado Autocéfalo Cai!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Dissolva o Patriarcado."
+ autocephalous_patriarchates.1.b: "Mantenha o Patriarcado."
+ autocephalous_patriarchates.2.title: "Sede do Patriarcado Autocéfalo Cai!"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "Dissolva o Patriarcado."
+ autocephalous_patriarchates.2.b: "Mantenha-o."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Cada membro de [target_ap.GetName] perderá [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] da opinião em relação a nós"

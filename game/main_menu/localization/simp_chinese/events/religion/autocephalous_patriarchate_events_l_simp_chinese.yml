@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ ap_falls_desc_key: "经过一场猛烈的围城和守军的英勇防御，[target_location.GetName]终于在我们伟大军队的威力下沦陷。在其城墙内居住着一个强大的宗教权威，因为[target_location.GetRank.GetNameWithNoTooltip]曾接待过[ShowReligionAdjective('orthodox')]信仰的尊贵人士。问题是，我们应该废除这类机构，还是将其纳入我们的保护之下？"
+ autocephalous_patriarchates.1.title: "自主牧首教座陷落！"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "解散牧首教座。"
+ autocephalous_patriarchates.1.b: "保留牧首教座。"
+ autocephalous_patriarchates.2.title: "自主牧首教座陷落！"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "解散牧首教座。"
+ autocephalous_patriarchates.2.b: "保留。"
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "[target_ap.GetName]的所有成员对我国失去[ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]好感"

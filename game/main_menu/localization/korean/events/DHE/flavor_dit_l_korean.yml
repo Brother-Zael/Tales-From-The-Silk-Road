@@ -1,0 +1,5 @@
+﻿l_korean:
+ flavor_dit.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip]의 [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]"
+ flavor_dit.1.desc: "우리 [ShowPopTypeName('peasants')]들이 돌보는 땅은 외부 세계의 관심을 거의 받지 않아 [ShowPopTypeName('nobles')]의 영향력에서 벗어난 자생적인 공동체가 형성되었습니다. 어쩌면 이제 우리를 [ShowContinentName('europe')]의 봉건 사회와 묶는 마지막 끈을 끊고 수 세기 동안 우리를 인도했던 [ShowGovernmentReformName('peasant_republic_reform')] 구조를 받아들일 때가 된 것 같습니다."
+ flavor_dit.1.a: "오두막에 평화를, 궁전에 전쟁을!"
+ flavor_dit.1.b: "그건 너무 급진적인 것 같은데."

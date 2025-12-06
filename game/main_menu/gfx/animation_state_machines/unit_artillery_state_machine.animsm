@@ -1,0 +1,350 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Attack"={
+		preferent_timeline_layer={
+			timeline="L_relative_Attack_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Attack"
+		}
+	}
+ 	"Idle"={
+		timeline_layer={
+			timeline="L_default_Idle_editor_timeline"
+		}
+	}
+ 	"Move"={
+		preferent_timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Move"
+		}
+	}
+ 	"Retreat"={
+		preferent_timeline_layer={
+			timeline="L_relative_Retreat_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Retreat"
+		}
+	}
+ 	"Charge"={
+		preferent_timeline_layer={
+			timeline="L_relative_Charge_editor_timeline"
+		}
+		timeline_layer={
+			timeline="Charge"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 95"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 17"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="1"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 9"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="1"
+ 		}
+		behavioral_state="Attack"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 11"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 13"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="4"
+ 		}
+		behavioral_state="Charge"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 15"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="3"
+ 		}
+		behavioral_state="Retreat"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 20"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 22"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="3"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 24"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="4"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	particle_action={
+		name="artillery_muzzle_end_vfx"
+		trigger_time_absolute=2.197121
+		hierarchy_place="barrel_end_vfx"
+		type=stop
+	}
+ 	particle_action={
+		name="artillery_muzzle_start_vfx"
+		trigger_time_absolute=0.135312
+		hierarchy_place="barrel_end_vfx"
+		type=start
+	}
+ 	audio_event={
+		name="snd_attack_ignition"
+		trigger_time_absolute=0.109000
+		stop_on_state_change=yes
+		audio_event_name="arti_attack_ignition"
+	}
+ 	audio_event={
+		name="snd_attack_fire"
+		trigger_time_absolute=1.683750
+		stop_on_state_change=yes
+		audio_event_name="arti_attack_fire"
+	}
+ 	audio_event={
+		name="snd_attack_reload"
+		trigger_time_absolute=4.150217
+		stop_on_state_change=yes
+		audio_event_name="arti_attack_reload"
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_attack"
+		values={ {
+				name="Unit_AnimState"
+				value="Attack"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_move"
+		values={ {
+				name="Unit_AnimState"
+				value="Move"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_retreat"
+		values={ {
+				name="Unit_AnimState"
+				value="Retreat"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_charge"
+		values={ {
+				name="Unit_AnimState"
+				value="Charge"
+			} }
+	}
+ }
+
+timelines={
+	"L_relative_Attack_editor_timeline"={
+		on_enter={
+			"snd_AnimState_attack"
+		}
+		boundary_behavior=loop
+		duration=6.735000
+		events={
+			"artillery_muzzle_end_vfx"
+			"artillery_muzzle_start_vfx"
+			"snd_attack_ignition"
+			"snd_attack_fire"
+			"snd_attack_reload"
+			"Connection 17"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_default_Idle_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Connection 9"
+			"Connection 11"
+			"Connection 13"
+			"Connection 15"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+		generated_timeline=yes
+	}
+ 	"L_relative_Move_editor_timeline"={
+		on_enter={
+			"snd_AnimState_move"
+		}
+		boundary_behavior=loop
+		duration=1.901111
+		events={
+			"Connection 20"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_relative_Retreat_editor_timeline"={
+		on_enter={
+			"snd_AnimState_retreat"
+		}
+		boundary_behavior=loop
+		duration=1.901111
+		events={
+			"Connection 22"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_relative_Charge_editor_timeline"={
+		on_enter={
+			"snd_AnimState_charge"
+		}
+		boundary_behavior=loop
+		duration=2.934783
+		events={
+			"Connection 24"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"Attack"={
+		on_enter={
+			"snd_AnimState_attack"
+		}
+		boundary_behavior=loop
+		duration=6.735000
+		events={
+			"artillery_muzzle_end_vfx"
+			"artillery_muzzle_start_vfx"
+			"snd_attack_ignition"
+			"snd_attack_fire"
+			"snd_attack_reload"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_animation"
+		duration_source=animation
+	}
+ 	"Move"={
+		on_enter={
+			"snd_AnimState_move"
+		}
+		boundary_behavior=loop
+		duration=1.901111
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"Idle"={
+		on_enter={
+			"snd_AnimState_idle"
+		}
+		boundary_behavior=loop
+		duration=1.235000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"Retreat"={
+		on_enter={
+			"snd_AnimState_retreat"
+		}
+		boundary_behavior=loop
+		duration=1.901111
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"Charge"={
+		on_enter={
+			"snd_AnimState_charge"
+		}
+		boundary_behavior=loop
+		duration=2.934783
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 95"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

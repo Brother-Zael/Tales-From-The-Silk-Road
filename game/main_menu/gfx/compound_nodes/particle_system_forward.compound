@@ -1,0 +1,46 @@
+﻿compound_node={
+	id="particle_system_forward"
+	node_context=21
+	graph={
+		nodes={
+			pdxns:common:GraphInterface={
+				id=0
+				node={
+					input_pins={
+						pin={
+							name="FowardVector"
+							display_text="Forward Vector"
+							type="Vector3f"
+						}
+					}
+				}
+				inputs={
+					link={
+						pin_id="FowardVector"
+						linked_node=1
+						linked_pin="value"
+					}
+				}
+			}
+			pdxns:math:QuaternionAxisZ={
+				id=1
+				node={
+				}
+				inputs={
+					link={
+						pin_id="operand"
+						linked_node=2
+						linked_pin="orientation"
+					}
+				}
+			}
+			pdxns:particle:GetSystemOrientation={
+				id=2
+				node={
+				}
+				inputs={
+				}
+			}
+		}
+	}
+}

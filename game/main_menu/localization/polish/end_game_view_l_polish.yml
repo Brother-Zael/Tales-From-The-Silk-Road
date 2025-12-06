@@ -1,0 +1,12 @@
+﻿l_polish:
+ END_GAME_VIEW_LOSING_TITLE: "Koniec gry"
+ END_GAME_VIEW_LOSING_TEXT: "Nasz naród nie zdołał przetrwać biegu wydarzeń ze względu na zbyt niską siłę oraz determinację w porównaniu do sąsiadów. W przyszłości #L [COUNTRY.GetAdjective|l]ki#! lud będzie wspominany jedynie w muzeach, gdzie uczeni będą studiować naszą porażkę."
+ END_GAME_VIEW_SURVIVING_TITLE: "Drobna wzmianka w historii"
+ END_GAME_VIEW_SURVIVING_TEXT: "Nasz dumny kraj przetrwał wieki zmagań, wojen i przeciwieństw, a mimo to #L [COUNTRY.GetAdjective|l]ki#! lud osiągnął bardzo niewiele. Na kartach historii pisanej przez cywilizacyjnych oraz wojskowych gigantów będziemy niczym więcej, jak tylko drobnym przypisem."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Wielkie mocarstwo"
+ END_GAME_VIEW_GREAT_TEXT: "Nasz wspaniały kraj zdobył tytuł światowego wielkiego mocarstwa. Gratulacje – #L [COUNTRY.GetAdjective|l]ki#! lud jest wśród najbardziej zamożnych i prestiżowych narodów tej epoki, a nasze rządy zostały nagrodzone największym z sukcesów."
+ CONTINUE_PAST_END_DATE: "Kontynuuj grę"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Kontynuuj grę\nOsiągnięcia będą od tej chwili niedostępne"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Zakończ grę i wróć do menu głównego"
+ END_GAME_VIEW_OBSERVE: "Obserwuj"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Kontynuuj w trybie obserwatora"

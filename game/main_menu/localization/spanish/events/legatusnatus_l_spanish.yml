@@ -1,0 +1,13 @@
+﻿l_spanish:
+ legatusnatus.1.title: "Legatus Natus"
+ legatusnatus.1.desc: "[home_ruler.GetName] ha tenido el honor durante mucho tiempo de ser representante de [pope_ruler.GetName|l] —el [ShowGovernmentReformName('legatus_natus')]— al norte de los Alpes.\nTan notorio título exige cierto nivel de dignidad, y no podemos dejar que nuestro prestigio ni nuestras relaciones con el [GetCountry('PAP').GetGovernment.GetRulerTitle|l] empeoren demasiado."
+ legatusnatus.1.a: "Todo está en manos de Dios."
+ legatusnatus.2.title: "Título de Legatus Natus perdido"
+ legatusnatus.2.desc: "Nuestra reputación en el [GetUniqueInternationalOrganization('hre').GetName] y ante [pope_ruler.GetName] ha decaído recientemente. El [GetCountry('PAP').GetGovernment.GetRulerTitle|l] ya no parece tener confianza en que cumplamos nuestro papel como [ShowGovernmentReformName('legatus_natus')] en el [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] y, por desgracia, ha decidido relevarnos del cargo."
+ legatusnatus.2.a: "Supongo que dependía de mí, al fin y al cabo…"
+ legatusnatus.3.title: "Un enviado del [GetCountry('PAP').GetGovernment.GetRulerTitle|l]"
+ legatusnatus.3.desc: "¡Buenas nuevas! [pope_ruler.GetName] ha elegido a [home_ruler.GetName] para ostentar el prestigioso título de [ShowGovernmentReformName('legatus_natus')] —su representante al norte de los Alpes— después de que el anterior dignatario cayera en desgracia."
+ legatusnatus.3.a: "¿Un último rayo de esperanza?"
+ legatusnatus.4.title: "Cargo de [ShowGovernmentReformName('legatus_natus')] revocado"
+ legatusnatus.4.desc: "El prestigioso cargo de [ShowGovernmentReformName('legatus_natus')] solo puede ser ocupado por un obispo de fe [ShowReligionAdjective('catholic')|l] del [GetUniqueInternationalOrganization('hre').GetName]. Como [home_ruler.GetName] ya no cumple ese requisito, [pope_ruler.GetName] ha revocado el título."
+ legatusnatus.4.a: "Maldito sea el [GetCountry('PAP').GetGovernment.GetRulerTitle|l]."

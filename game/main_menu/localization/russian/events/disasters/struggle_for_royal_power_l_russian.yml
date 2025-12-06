@@ -1,0 +1,13 @@
+﻿l_russian:
+ struggle_for_royal_power.1.title: "Борьба за власть короля"
+ struggle_for_royal_power.1.desc: "Напряжение между короной и сеймом достигло предела. Шляхтичи используют любой, даже самый ничтожный повод, чтобы досадить своему монарху, и [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] больше не желает мириться с ограничениями, наложенными на королевскую власть. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Она', 'Он')] считает, что с властью сейма на землях #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! должно быть покончено."
+ struggle_for_royal_power.1.a: "Мы начнём войну против шляхты."
+ struggle_for_royal_power.100.title: "Окончание борьбы за власть короля"
+ struggle_for_royal_power.100.desc: "Затянувшееся военно-политическое противостояние на территории #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! наконец-то закончилось. Теперь все знают, кто на самом деле правит страной."
+ struggle_for_royal_power.100.a: "Да здравствует [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ struggle_for_royal_power.100.b: "Да здравствует сейм!"
+ struggle_for_royal_power.100.c: "Эта гражданская война погубит #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!…"
+ struggle_for_royal_power.10.title: "Конфедерация"
+ struggle_for_royal_power.10.desc: "Пока [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'планировала', 'планировал')] лишить сейм власти, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'её', 'его')] оппоненты составляли список собственных претензий к монарху. Николай Зебжидовский, Ян Щенсный Гербурт, Станислав Стадницкий, Александр Юзеф Лисовский и Януш Радзивилл провозгласили в Стенжыце и Люблине рокош — официальное восстание шляхты. Мятежная знать объединилась в конфедерацию и выдвинула требования, состоящие из 67 пунктов. Восставшие требовали, чтобы [ROOT.GetCountry.GetGovernment.GetRuler.GetName], [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нарушившая', 'нарушивший')] Генриковы артикулы, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'отреклась', 'отрёкся')] от престола, а всех государственных сановников впредь назначал сейм, а не [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ struggle_for_royal_power.10.a: "Попробуем договориться с этой конфедерацией."
+ struggle_for_royal_power.10.b: "Их требования неприемлемы."

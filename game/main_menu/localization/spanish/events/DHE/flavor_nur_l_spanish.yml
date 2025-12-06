@@ -1,0 +1,7 @@
+﻿l_spanish:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Pocos hombres han triunfado en la vida como [target_character.GetName]. Proveniente de una familia de comerciantes, [target_character.GetShortNameWithNoTooltip] ha tenido un éxito enorme en sus negocios en [ShowRegionName('italy_region')]. La red comercial construida por su familia genera gran parte de la riqueza que circula por la opulenta península. Sin embargo, con el paso del tiempo, el célebre comerciante desea volver a casa y empezar a invertir en nuestros mercados, y está dispuesto incluso a traer muchas innovaciones de [ShowRegionNameWithNoTooltip('italy_region')]..."
+ flavor_nur.1.a: "¡Esta es tu casa!"
+ flavor_nur.1.b: "¡No nos podemos permitir tales frivolidades!"
+ flavor_nur.1.c: "Debemos declinar respetuosamente…"
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] desaparecerá"

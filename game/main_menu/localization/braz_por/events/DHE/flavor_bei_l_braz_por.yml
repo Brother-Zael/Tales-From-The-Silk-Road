@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ flavor_bei.1.title: "O Sultão de Brunei"
+ flavor_bei.1.desc: "Com a expansão dos fiéis da fé [ShowReligionGroupAdjective('muslim')] pelo Sudeste Asiático, [ROOT.GetCountry.GetGovernment.GetRuler.GetName], com toda a sua ambição, se desiludiu com as limitações diplomáticas da sua fé [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective] tradicional.\n\n[ROOT.GetCountry.GetGovernment.GetRuler.GetHeSheFormal|U] começou a implorar para adotarmos as tradições [ShowReligionGroupName('muslim')]s, pois isso abriria possibilidades diplomáticas, inclusive casamento com outros governantes religiosos.\n\nClaro, existe um certo grau de empolgação entre os nossos súditos leais, mas seria a conversão o melhor caminho mesmo?"
+ flavor_bei.1.a: "Vamos aceitar a Chahada."
+ flavor_bei.1.b: "Precisamos honrar nossas tradições antigas."
+ flavor_bei.1.historical_info: "Na década de 1360, Awang Alak Betatar, o raja hindu de Brunei, converteu-se ao Islã. Ele fez isso para poder se casar com uma princesa estrangeira, compreendida como filha do sultão de Johor. Após a conversão, o antigo raja passou a ser conhecido como Sultão Maomé Xá. Sua dinastia governa Brunei até os dias de hoje, fazendo dela uma das mais veneradas da história."

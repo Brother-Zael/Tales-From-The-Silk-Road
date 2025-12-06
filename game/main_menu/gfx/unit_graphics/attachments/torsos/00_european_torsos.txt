@@ -1,0 +1,156 @@
+﻿###############################################
+# torsos
+###############################################
+
+# AGE_1_TRADITIONS
+torsos_clothes = {
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poplin_tunic_leather_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_tunic_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_long_shirt_leather_vest_mesh"  add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_shirt_with_long_vest_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_hood_shirt_pouch_mesh" add_tags = "hood" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_tunic_rope_mesh" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_quilted_gambeson_leather_pouch_mesh" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_shirt_vest_belts_mesh" add_tags = "UnitArmor_cloth" } }
+}
+soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_padded_armor_chainmail_leather_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_studded_padded_armor_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_long_padded_coat_leather_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_padded_armor_felt_robe_gauntlets_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+}
+
+heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_tabard_mesh" add_tags = "UnitArmor_chainmail" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_long_tabard_mesh" add_tags = "UnitArmor_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_brigandine_tabard_mesh" add_tags = "UnitArmor_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_plates_long_tabard_mesh" add_tags = "UnitArmor_chainmail" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_gamberson_chainmail_shoulder_plates_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_long_tabard_coa_side_mesh" add_tags = "UnitArmor_chainmail" add_tags = "crotch_covered" } }
+}
+
+crusader_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_tabard_mesh" add_tags = "UnitArmor_chainmail" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_long_tabard_mesh" add_tags = "UnitArmor_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_plates_long_tabard_mesh" add_tags = "UnitArmor_chainmail" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_long_tabard_coa_side_mesh" add_tags = "UnitArmor_chainmail" add_tags = "crotch_covered" } }
+}
+
+
+ #AGE_2_RENAISSANCE
+age_2_renaissance:torsos_clothes = {
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poplin_tunic_leather_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_tunic_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_long_shirt_leather_vest_mesh"  add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_shirt_with_long_vest_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_hood_shirt_pouch_mesh" add_tags = "hood" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_tunic_rope_mesh" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_quilted_gambeson_leather_pouch_mesh" add_tags = "UnitArmor_cloth" } }
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_shirt_vest_belts_mesh" add_tags = "UnitArmor_cloth" } }
+}
+
+age_2_renaissance:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_gambeson_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_iron_breastplate_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_gambeson_overcoat_hood_couters_gauntlet_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_studded_vest_mesh" add_tags = "UnitArmor_chainmail" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } }
+}
+
+age_2_renaissance:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_steel_breastplate_placard_fauld_mesh" add_tags = "UnitArmor_plate_full" add_tags = "thick_armor" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_cuirass_striped_undershirt_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_steel_chainmail_cloth_tunic_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_chainmail" add_tags = "thick_armor" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_brigandine_chainmail_mesh" add_tags = "UnitArmor_plate_full" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" add_tags = "thick_armor" } }
+}
+
+# AGE_3_DISCOVERY
+age_3_discovery:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_waistcoat_shirt_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_cuffs_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_cut_wide_sleeves_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_felt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+age_3_discovery:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_landsknecht_chainmail_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_chainmail" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_stripes_shirt_vest_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_breastplate_nolegplates_stripes_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_breastplate_legplates_stripes_mesh" add_tags = "slim" add_tags = "UnitArmor_plate_full" add_tags = "UnitDetail_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_breastplate_skirt_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } }
+}
+
+age_3_discovery:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_breastplate_tunic_fur_heavy_mesh" add_tags = "beard_covered" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_chainmail" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_breastplate_skirt_heavy_shoulders_mesh" add_tags = "beard_covered" add_tags = "UnitArmor_plate_full" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_fabric_tunic_fur_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armour_full_plated_knight_mesh" add_tags = "UnitArmor_plate_full" add_tags = "UnitDetail_chainmail" add_tags = "crotch_covered" } }
+}
+
+# AGE_4_REFORMATION
+age_4_reformation:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_cotton_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_scarf_bag_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_strong_cotton_bag_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_leather_buff_mesh" add_tags = "hood" add_tags = "UnitArmor_leather" add_tags = "UnitDetail_cloth" } }
+}
+
+age_4_reformation:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_neck_mesh"  add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_metal_felt_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_buff_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_sleeves_leather_mesh" add_tags = "UnitArmor_leather" add_tags = "UnitDetail_plate" } }
+}
+
+age_4_reformation:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_cuirassier_mesh" add_tags = "UnitArmor_plate_full" add_tags = "UnitDetail_leather" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_hussar_mesh" add_tags = "UnitArmor_plate_full" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_metal_leather_mesh" add_tags = "UnitArmor_plate_full" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_gloves_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth"} }
+}
+
+# AGE_5_ABSOLUTISM
+age_5_absolutism:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_vest_cravat_bags_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cotton_vest_wool_coat_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cotton_shirt_wool_coat_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_with_belt_pouches_and_knife_mesh" add_tags = "UnitArmor_cloth" } }
+}
+
+age_5_absolutism:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_wool_frock_coat_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_coat_folded_wool_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_coat_closed_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_pulled_coat_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" } }
+}
+
+age_5_absolutism:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_short_coat_plate_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_gold_trimmings_coat_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_heavy_layers_open_coat_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_armor_torso_breastplate_sash_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+}
+
+# AGE_6_REVOLUTIONS
+age_6_revolutions:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_woolen_fabric_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tailcoat_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_wollen_sash_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_weistcoat_knitted_mesh" add_tags = "UnitArmor_cloth"} }
+}
+
+age_6_revolutions:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_double_breasted_jacket_straps_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_double_breasted_shoulderpads_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_double_straps_shoulderpads_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_longer_double_breasted_jacket_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_leather" add_tags = "crotch_covered" } }
+}
+
+age_6_revolutions:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_gold_details_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_general_shape_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_buttons_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+cuirassier_tag:torso = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_armor_gloves_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" } }
+}

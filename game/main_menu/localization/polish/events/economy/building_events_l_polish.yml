@@ -1,0 +1,9 @@
+﻿l_polish:
+ building.1.title: "Uniwersytet z miasta [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Po tym jak kilka burzliwych debat zakończyło się aktami przemocy, uczeni z Uniwersytetu w mieście [old_university.GetName] postanowili przenieść się do miasta [new_university.GetName] i założyć tam konkurencyjną instytucję.\n\n[ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] to w dużej mierze wychowankowie starego uniwersytetu i zwrócili się do ciebie z prośbą o ukrócenie tej edukacyjnej rebelii."
+ building.1.a: "Poprzyj utworzenie nowej instytucji naukowej."
+ building.1.b: "Nakaż uchodźcom wrócić do miasta [old_university.GetNameWithNoTooltip]."
+ building.2.title: "Miasto i sutanna"
+ building.2.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] wzięli studentów z Uniwersytetu w mieście [university.GetName] pod swoją pieczę, przez co ci ostatni cieszą się o wiele większymi prawami niż lokalni mieszkańcy. Doprowadza to między tymi dwoma społecznościami do tarć, które ostatnio zaczęły przeradzać się w gwałtowne zamieszki."
+ building.2.a: "Stańmy po stronie uniwersytetu."
+ building.2.b: "Stańmy po stronie mieszkańców miasta."

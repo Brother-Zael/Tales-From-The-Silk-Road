@@ -1,0 +1,10 @@
+﻿l_russian:
+ generic_mercenary_name: "Отряд ([AREA.GetName])"
+ burgher_cogs_name: "Когги ([AREA.GetName])"
+ rogue_free_company_1: "Мятежные рутьеры"
+ rogue_free_company_2: "Мятежные рутьеры"
+ french_levy_retinue: "Французское придворное ополчение"
+ french_elite_retinue: "Французская придворная пехота"
+ flo_white_company: "Белая рота"
+ pol_lisowczycy: "Лисовчики"
+ mor_ottoman_mercenaries: "Османский корпус"

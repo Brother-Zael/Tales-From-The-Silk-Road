@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ flavor_jol.1.title: "Conversão do Estamento [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+ flavor_jol.1.desc: "Com nossa influência cada vez maior dentro da [ShowRegionName('guinea_region')], conseguimos adotar grande parte das demandas do estamento [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] nas terras conquistadas, mas eles ainda não se integraram completamente aos valores da religião [ROOT.GetCountry.GetReligion.GetAdjective] nem à cultura do povo [ROOT.GetCountry.GetCulture.GetName]. Talvez possamos lançar uma campanha para ajudar nesse processo."
+ flavor_jol.1.a: "Vamos estabilizar o país [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_jol.1.b: "Não é necessário antagonizar o estamento [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ jol_convert_nobility_tt: "#Y 15%#! dos nossos [pops|e] do estamento [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] se converterão para o povo [ROOT.GetCountry.GetCulture.GetName] e a religião [ROOT.GetCountry.GetReligion.GetName]"

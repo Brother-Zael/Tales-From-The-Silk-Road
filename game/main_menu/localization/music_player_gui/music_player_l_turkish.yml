@@ -1,0 +1,12 @@
+﻿l_turkish:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Karıştırma yöntemini değiştir"
+ MUSIC_PLAYER_PLAY: "Oynat"
+ MUSIC_PLAYER_PAUSE: "Duraklat"
+ MUSIC_PLAYER_HEADER: "Müzik Çalar"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "#v [MusicTrack.GetName]#! oynatmak için şimdi tıkla"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "#v [MusicTrack.GetName]#! çalıyor!"
+ MUSIC_PLAYER_ENABLE_TRACK: "#v [MusicTrack.GetName]#! müziğinin parça listesinde olmasını etkinleştir/devre dışı bırak"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "#v [MusicPlayerCategory.GetName]#! kategorisi içindeki tüm müzik parçalarını etkinleştir/devre dışı bırak"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Bir sonraki parçaya geç"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Müzik parçalarını #v [MusicPlayerCategory.GetName]#! içinde görmek için seç"

@@ -1,0 +1,5 @@
+﻿l_german:
+ character_events.1.title: "Die Stimmungsschwankungen von [target_character.GetNameWithNoTooltip]"
+ character_events.1.title.no_event_target: "Stimmungsschwankungen"
+ character_events.1.desc: "Obwohl [target_character.GetName] viel Verantwortung und eine Führungsrolle in [ROOT.GetCountry.GetName|U] einnimmt, ist [target_character.Custom('DE_PRO_PER_S_3P_N')] auch für [target_character.Custom('DE_PRO_POS_S_3P')] launisches Verhalten und die häufigen Stimmungsschwankungen bekannt. Und wieder einmal entzieht sich [target_character.Custom('DE_PRO_POS_S_3P')]e Einstellung zu den Angelegenheiten des Staates dem Verständnis [target_character.Custom('DE_PRO_POS_S_3P')]er Untertanen …"
+ character_events.1.a: "Hoffen wir, dass [target_character.Custom('DE_PRO_PER_S_3P_N')] keine Last für unser Land sein wird …"

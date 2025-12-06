@@ -1,0 +1,7 @@
+﻿l_polish:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "Niegdyś wielkie miasto [target_location.GetName] podupada i niszczeje. Lata złego zarządzania przez lokalną szlachtę sprawiły, że jest cieniem dawnej świetności, żebracy wypełniają każdy zakątek, a alejki są pełne rabusiów.\n\nNic więc dziwnego, że w końcu doszło do buntu – rebeliantami dowodzi człowiek o imieniu [target_character.GetName]. Jest to znany notariusz, którego brat został zabity w sporze ze szlachcicem miasta i po osobistej wizycie na dworze zrobił takie wrażenie, że sama najwyższa władza, [GetCountry('PAP').GetGovernment.GetRulerTitle|l], nadała mu na krótki czas wysokie stanowisko.\n\nNasi informatorzy donoszą, że ten człowiek zgromadził zwolenników i ludność miasta [target_location.GetNameWithNoTooltip]. Razem zdobyli ratusz bez rozlewu krwi, gdyż tchórzliwa szlachta po prostu uciekła na widok tłumu i poddała miasto."
+ rebel.1.a: "Pozwólmy mu władać miastem bez udziału możnych."
+ rebel.1.b: "Nadajmy mu nadzwyczajne prawa i przywództwo nad miastem."
+ rebel.1.c: "Nie pozwolimy na taką anarchię, odbijemy miasto!"
+ cola_rebels: "Zwolennicy Coli di Rienzo"

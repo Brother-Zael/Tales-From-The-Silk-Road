@@ -1,0 +1,11 @@
+﻿l_turkish:
+ flavor_loi.10.title: "İskandinav Adaları"
+ flavor_loi.10.desc: "[ROOT.GetCountry.GetLongName] halkı uzun zamandır [ROOT.GetCountry.GetCulture.GetName] mirasının gölgesinde yaşadı ancak artık değişen zaman karşısında İskandinav kökenimizi bir kez daha benimsemeyi düşünüyoruz. Eski [scandinavia.GetName] krallıklarına gittikçe daha yakın hissederken bu eski mirası yeniden keşfedip yeni ittifaklar kurarak kazanabileceğimiz çok şey var.\n\nBu yolu seçersek bazı Gal geleneklerimizden ve uygulamalarımızdan vazgeçmemiz gerekecek. Tabii karşılığında büyük ödüller de kazanabiliriz. İskandinav kökenlerimizi benimseyerek bu adaların halkı için yeni ve güçlü bir [nordic_culture.GetName] kimliği oluşturabilir ve Kuzeyin Aslanları arasında yerimizi alabiliriz.\n\nBu keşif yolculuğuna çıkacak mıyız?"
+ flavor_loi.10.a: "İskandinav kökenlerimizi benimseyelim."
+ flavor_loi.10.b: "Kuzeyin çağrısına direnelim."
+ opinion_loi_10_adopted_our_culture: "İskandinav Kültürü Benimsendi"
+ flavor_loi.20.title: "Gemi Yapımı Yarışması"
+ flavor_loi.20.desc: "[target_location.GetArea.GetName] bölgesindeki gemi ustaları [target_location.GetName] içindeki Büyük [ROOT.GetCountry.GetAdjective] Gemi Yapımı Yarışması'nda yarışmak üzere toplanırken [target_location.GetProvinceDefinition.GetName] vilayeti, çekiçlerin meşe ve çam ağaçlarını döven çekiç sesleriyle dolup taşıyor.\n\nGeleneksel gemi yapımı yaşam tarzımızda hayati bir yere sahip ve teşvik edilmesi gerek. [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] zümresinin temsilcileri olarak bu rekabeti denetlemek bizim görevimiz."
+ flavor_loi.20.a: "Yarışmaya dâhil olmak için kadırga yaptıralım."
+ flavor_loi.20.b: "Seçtiğimiz yarışmacıyı destekleyelim."
+ flavor_loi.20.c: "Yarışmayı dikkate almayalım."

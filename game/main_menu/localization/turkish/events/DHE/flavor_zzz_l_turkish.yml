@@ -1,0 +1,9 @@
+﻿l_turkish:
+ flavor_zzz.1.title: "[target_location.GetNameWithNoTooltip] Surları"
+ flavor_zzz.1.desc: "[ShowRegionName('guinea_region')] bölgesindeki artan askerî etkinliğimizle birlikte [target_location.GetName], yalnızca kültürün değil, aynı zamanda çatışmanın da merkezi hâline geldi. Bu nedenle [target_character.GetName], [target_location.GetRank.GetName] topraklarının asla düşmemesi için kendi adına surlar inşa ettirmek istiyor."
+ flavor_zzz.1.a: "[target_location.GetNameWithNoTooltip] topraklarını koruyalım."
+ flavor_zzz.1.b: "Surlara ihtiyacımız yok."
+ flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] Saldırganlığı"
+ flavor_zzz.2.desc: "[ROOT.GetCountry.GetName] ülkesinin askerî gücündeki artış nedeniyle [target_character.GetName] ve [ROOT.GetCountry.GetGovernment.GetCourtTitle] makamı, gücümüzü daha da artırmak için planlar yaptı. Komşu ülkeleri fethetmemizi ya da elde ettiğimiz yerleri korumaya odaklanan daha savunmacı bir stratejiye geçiş yapmamızı öneriyorlar."
+ flavor_zzz.2.a: "Toprakları fethedeceğiz."
+ flavor_zzz.2.b: "Mevcut topraklarımızı koruyalım."

@@ -1,0 +1,7 @@
+﻿l_korean:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! 플레이 회차와 내부의 저장 파일이 모두 삭제됩니다."
+ DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! 저장 파일이 삭제됩니다."
+ FRONTEND_SAVE_EXIT_TEXT: "자동 저장 파일 #high $SAVE_NAME$#!에 게임이 저장됩니다"
+ FRONTEND_END_GAME_TEXT: "호스트 플레이어가 게임을 떠나면 해당 멀티플레이 게임은 종료되며, 참가한 다른 플레이어는 더 이상 함께 플레이할 수 없습니다."
+ FRONTEND_LEAVE_GAME_TEXT: "호스트 플레이어가 게임을 떠나더라도 해당 멀티플레이 게임이 계속 진행됩니다."
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! 저장 파일을 덮어씁니다."

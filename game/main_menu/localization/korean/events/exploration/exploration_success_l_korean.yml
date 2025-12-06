@@ -1,0 +1,5 @@
+﻿l_korean:
+ exploration_success.1.title: "출중한 해군 장교 후보생"
+ exploration_success.1.desc: "[target.GetName] 원정이 성공으로 끝나자, [actor.GetName](이)가 원정대에 크게 기여한 유망한 젊은 지휘관에게 공을 돌렸다고 합니다."
+ exploration_success.1.a: "그자에게 따로 원정대를 맡기겠다."
+ exploration_success.1.b: "우리에게는 훌륭한 선상 지휘관이 필요하다."

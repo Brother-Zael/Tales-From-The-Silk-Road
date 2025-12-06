@@ -1,0 +1,5 @@
+﻿l_spanish:
+ character_events.1.title: "Los cambios de humor de [target_character.GetNameWithNoTooltip]"
+ character_events.1.title.no_event_target: "Los cambios de humor"
+ character_events.1.desc: "A pesar de ser una persona de gran responsabilidad y líder de [ROOT.GetCountry.GetName], a [target_character.GetName], por desgracia, se le conoce por su comportamiento errático y sus cambios de humor. Una vez más, su actitud hacia los asuntos del Estado escapa a la comprensión de sus súbditos."
+ character_events.1.a: "Esperemos que no sea una carga para nuestra nación..."

@@ -1,0 +1,10 @@
+﻿l_japanese:
+ flavor_cas_por.1.title: "王室五分税"
+ flavor_cas_por.1.desc_common: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]は[ROOT.GetCountry.GetName]の唯一の統治者として、[ROOT.GetCountry.GetFlavorRank]内にあるすべての天然資源と富を得る権利を有する。そのため、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の民によって採取された天然資源はすべて、正当に[target_character.GetName]に帰属するのだ。だが、すべての国民に財産を差し出させてしまえば、彼らが採掘をおこなう動機がなくなってしまう。そのため、我々は[ShowPolicyName('royal_fifth_law')]に定めた範囲内で資源を徴収することに決めた。"
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\n[target_location.GetName]での[target_goods.GetName]の採掘量が増大しており、さらに税収が増すということで、この税が再び注目を浴びている。地方総督たちは生産が抑制されると考え、税の執行に消極的である。"
+ flavor_cas_por.1.a: "[ShowPolicyNameWithNoTooltip('royal_fifth_law')]を施行せよ。"
+ flavor_cas_por.1.b: "彼らの採掘を妨げてはならない。"
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\n最近、[target_location.GetName]で[target_goods.GetName]が発見されたことで、この税金が再び脚光を浴びた。地元総督が鉱山管理者に対し、これまで大きな関心を集めてきたこの税の遵守を要求しているのだ。[ROOT.GetCountry.GetGovernment.GetRulerTitle]の相談役たちは、この税金が資源の生産に悪影響を及ぼす可能性があると主張している。"
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "いまは見逃してやろう。"

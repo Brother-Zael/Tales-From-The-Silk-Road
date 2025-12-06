@@ -1,0 +1,9 @@
+﻿l_german:
+ building.1.title: "Die Universität [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Nachdem es bei einer Reihe hitziger Debatten zu Gewalttätigkeiten kam, sind Gelehrte der Universität von [old_university.GetName] nach [new_university.GetName] geflüchtet, um dort eine neue Lehranstalt aufzubauen.\n\nAbsolventen aus [old_university.GetNameWithNoTooltip] stellen einen beträchtlichen Teil des #L [ROOT.GetCountry.GetAdjective|l]en#! #L [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]s#!, der sich nun mit der Bitte an uns gewandt hat, diesem Aufstand in der Lehre ein Ende zu machen."
+ building.1.a: "Ermutigen wir diese neue Lehranstalt."
+ building.1.b: "Weisen wir die Flüchtlinge an, nach [old_university.GetNameWithNoTooltip] zurückzukehren."
+ building.2.title: "Städter und Akademiker"
+ building.2.desc: "Studenten der Universität [university.GetName] stehen unter dem Schutz des #L [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]s#! und genießen daher andere Rechte als die örtlichen Stadtbewohner. Dass die beiden Gemeinden so nahe beieinander leben, sorgt oft für Misstrauen, das in letzter Zeit leider allzu oft in gewalttätige Unruhen umschlägt."
+ building.2.a: "Schlagen wir uns auf die Seite der Universität."
+ building.2.b: "Stellen wir uns auf die Seite der Stadtbewohner."

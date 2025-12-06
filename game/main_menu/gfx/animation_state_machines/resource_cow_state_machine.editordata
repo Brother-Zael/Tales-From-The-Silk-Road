@@ -1,0 +1,34 @@
+﻿animation_editor_meta={
+	view={
+		position={ 64.139679 331.719177 }
+		zoom=1.268536
+	}
+	starting_timeline={
+		position={ 81.538437 -6.153854 }
+	}
+	states={
+		"Move"={
+			position={ 640.615479 -242.248566 }
+		}
+ 		"Idle"={
+			position={ 298.366882 -10.532497 }
+		}
+ 		"iddle_longer"={
+			position={ 581.662781 107.431549 }
+		}
+ 	}
+	connections={
+		"Move to Idle"={
+			use_length_from_source_state=yes
+		}
+ 		"Lane 50"={
+			use_length_from_source_state=yes
+		}
+ 		"Lane 53"={
+			use_length_from_source_state=yes
+		}
+ 		"Lane 57"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

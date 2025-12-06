@@ -1,0 +1,42 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+
+#####################################
+#									#
+# 			Male Capes			#
+#									#
+#####################################
+
+male_capes_german_royal_ermine = {
+	set_tags = "ermine_cloak"
+	entity = { required_tags = "not(plate_armor)"			shared_pose_entity = torso		entity = male_capes_german_royal_ermine_entity			}
+	entity = { required_tags = ""							shared_pose_entity = torso 		entity = male_capes_german_royal_ermine_plate_entity	}
+}
+
+male_capes_german_royal_cloak = {
+	set_tags = "royal_cloak"
+	entity = { required_tags = "not(plate_armor)"			shared_pose_entity = torso		entity = male_capes_german_royal_cloak_entity			}
+	entity = { required_tags = ""							shared_pose_entity = torso 		entity = male_capes_german_royal_cloak_plate_entity		}
+}
+
+male_capes_german_royal_tabard = {
+	set_tags = "coa_tabard"
+	entity = { required_tags = "not(plate_armor)"			shared_pose_entity = torso		entity = male_capes_german_royal_tabard_entity			}
+	entity = { required_tags = "plate_armor"				shared_pose_entity = torso		entity = male_capes_german_royal_tabard_plate_entity	}
+	entity = { required_tags = "ermine"						shared_pose_entity = torso		entity = male_capes_german_royal_tabard_entity			}
+}
+
+male_capes_aztec_war_flags = {
+	entity = { required_tags = ""							shared_pose_entity = torso		entity = male_capes_aztec_war_flags_entity			}
+}
+
+#####################################
+#									#
+# 			Female Capes			#
+#									#
+#####################################
+
+female_capes_german_royal_cloak = {
+	set_tags = "royal_cloak"
+	entity = { required_tags = ""							shared_pose_entity = torso 		entity = female_capes_german_royal_cloak_entity		}
+}

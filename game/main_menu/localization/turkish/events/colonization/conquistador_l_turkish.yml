@@ -1,0 +1,12 @@
+﻿l_turkish:
+ conquistador.1.title: "[SCOPE.sLocation('target_location').GetNameWithNoTooltip] Fethi"
+ conquistador.1.desc: "Konkistadorumuz [SCOPE.sLocation('target_location').GetName] topraklarına ulaştı ve etki alanımızı büyütmeye hazır."
+ conquistador.1.a: "Bakalım neler bulacağız!"
+ conquistador.10.title: "[ROOT.GetLocation.GetNameWithNoTooltip] Fethi"
+ conquistador.10.desc: "Daha fazla toprak ele geçirdik, kendimizi zenginleştirdik ve [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName] adına itibar, [former_overlord.GetReligion.GetGodName] adına da Şan ve Şöhret kazandık!"
+ conquistador.10.a: "Bizi daha büyük zenginlikler bekliyor!"
+ conquistador.10.b: "Bunu idare edebilmek için desteğe ihtiyacımız var!"
+ conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip] Kolonisi"
+ conquistador.11.desc: "[conquistador_country.GetLongName], tabi devletimiz olmak için resmen talepte bulundu. Kabul edersek bir Koloni Ulusu olacaklar!"
+ conquistador.11.a: "Bu tüm sorunları çözer!"
+ conquistador.11.b: "Bu onların sorunu."

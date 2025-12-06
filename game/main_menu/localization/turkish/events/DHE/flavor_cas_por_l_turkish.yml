@@ -1,0 +1,10 @@
+﻿l_turkish:
+ flavor_cas_por.1.title: "Beşte Bir Vergisi"
+ flavor_cas_por.1.desc_common: "[ROOT.GetCountry.GetGovernment.GetRulerTitle], tek meşru [ROOT.GetCountry.GetName] hükümdarı olarak [ROOT.GetCountry.GetFlavorRank] topraklarındaki tüm doğal mallar ve zenginlikler üzerinde hak sahibidir. Bu nedenle [target_character.GetName], [ROOT.GetCountry.GetAdjectiveWithNoTooltip] halk tarafından çıkarılan doğal kaynakların yegâne sahibidir. Ne var ki herkes sahip olduğu malı hükûmete vermek zorunda kalsaydı madencilik faaliyetlerinin yürütülmesini sağlayacak bir teşvik oluşturulamazdı. Bu nedenle kaynakların [ShowPolicyName('royal_fifth_law')] içinden çıkarılmasında karar kılındı."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nVergi konusu tekrar gündeme geldi ve [target_location.GetName] içinde [target_goods.GetName] çıkartma faaliyetlerinin genişletilmesi dolayısıyla bir süre gündemde kalacak gibi görünüyor. Yerel genel valiler üretimi yavaşlatacağını düşündükleri için vergiyi uygulama konusunda isteksiz davranıyor."
+ flavor_cas_por.1.a: "[ShowPolicyNameWithNoTooltip('royal_fifth_law')] uygulansın."
+ flavor_cas_por.1.b: "Faaliyetleri aksatılmasın."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nKısa süre önce [target_location.GetName] içinde keşfedilen [target_goods.GetName] nedeniyle vergi konusu tekrar masaya yatırıldı. Yerel genel valiler maden yöneticilerinden hâlen geçerli olan vergiyi uygulamalarını talep ediyor. [ROOT.GetCountry.GetGovernment.GetRulerTitle] danışmanlarının bazılarıysa verginin uygulanmasının kaynak üretimine zarar verebileceği konusunda uyarıda bulunuyor."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Şimdilik unutalım gitsin."

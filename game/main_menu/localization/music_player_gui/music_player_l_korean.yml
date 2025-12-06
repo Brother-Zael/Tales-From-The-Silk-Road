@@ -1,0 +1,12 @@
+﻿l_korean:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "섞기 방식 변경"
+ MUSIC_PLAYER_PLAY: "재생"
+ MUSIC_PLAYER_PAUSE: "일시 정지"
+ MUSIC_PLAYER_HEADER: "음악 재생기"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "클릭해서 #v [MusicTrack.GetName]#! 재생"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "#v [MusicTrack.GetName]#! 재생 중!"
+ MUSIC_PLAYER_ENABLE_TRACK: "음악 재생 대기열에 #v [MusicTrack.GetName]#! 포함/제외"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "#v [MusicPlayerCategory.GetName]#! 카테고리의 모든 음악 트랙 포함/제외"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "다음 트랙"
+ MUSIC_PLAYER_SELECT_CATEGORY: "선택해서 #v [MusicPlayerCategory.GetName]#! 내 음악 트랙 확인"

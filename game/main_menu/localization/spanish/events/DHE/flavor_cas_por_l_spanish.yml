@@ -1,0 +1,10 @@
+﻿l_spanish:
+ flavor_cas_por.1.title: "Quinto real"
+ flavor_cas_por.1.desc_common: "Quien ejerce de [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], como gobernante de [ROOT.GetCountry.GetName], tiene derecho a todos los bienes naturales y riquezas que se encuentren en [ROOT.GetCountry.GetFlavorRank|l]. Por ello, todos los recursos naturales extraídos por los ciudadanos [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l] pertenecen por derecho a [target_character.GetName]. Sin embargo, si todo el mundo tuviera que ceder sus bienes al Gobierno, no habría ningún incentivo para explotar las minas, y por eso hemos decidido extraer los recursos en el [ShowPolicyName('royal_fifth_law')]."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nHa vuelto a plantearse el tema del impuesto debido a la ampliación de la extracción de [target_goods.GetName|l] en [target_location.GetName]. Los virreyes locales se han mostrado reacios a aplicar el impuesto por considerar que ahogaría la producción."
+ flavor_cas_por.1.a: "Impongamos la [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+ flavor_cas_por.1.b: "No alteremos sus operaciones."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nEl reciente descubrimiento de [target_goods.GetName|l] en [target_location.GetName] ha vuelto a poner sobre la mesa el tema de este impuesto, ya que el virrey local está exigiendo a los administradores de minas que lo mantengan, ya que hasta ahora ha sido muy importante. Algunos miembros del consejo han defendido ante su [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] que eso podría perjudicar la producción del recurso."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Olvidémoslo por ahora."

@@ -1,0 +1,3 @@
+﻿l_korean:
+ PIRATES_NAME: "[AREA.GetNameWithNoTooltip]의 해적"
+ PRIVATEER_NAME: "[PRIVATEER.GetOwner.GetAdjectiveWithNoTooltip] 사략 업자"

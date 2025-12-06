@@ -1,0 +1,160 @@
+﻿
+###############################################
+# horse_accessories
+###############################################
+
+# CRUSADER_HORSE_ARMOR
+
+horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }	
+}
+
+heavy_horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_crusader_armor_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_camelry_camel_armor_mesh" required_tags = "camelry" add_tags = "camel_covered" } }
+    
+    # 5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_ashanti_armor_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+age_2_renaissance:heavy_horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	10 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_b_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	10 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_c_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+age_3_discovery:heavy_horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	10 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_b_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	10 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_renaissance_armor_c_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+age_4_reformation:heavy_horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }		
+}
+
+age_5_absolutism:heavy_horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }	
+}
+
+age_6_revolutions:heavy_horse_accessories = {
+	skip_initial_check = yes
+	10 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }	
+}
+
+#### CAVALRY_BASIC_ARMOR ####
+
+middle_east_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+indian_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+east_asian_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+african_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+    5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_ashanti_armor_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+north_american_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+south_american_gfx:horse_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_reins_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered" } }
+}
+
+#### CAMELRY_ARMOR ####
+
+camel_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_camelry_camel_armor_mesh" required_tags = "camelry" add_tags = "camel_covered" } }	
+}
+
+camel_auxiliary = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_camelry_auxiliary_mesh" required_tags = "camelry" add_tags = "camel_covered" } }
+}
+
+middle_east_gfx:camel_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_camelry_camel_armor_mesh" required_tags = "camelry" add_tags = "camel_covered" } }
+}
+
+middle_east_gfx:camel_auxiliary = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_camelry_auxiliary_mesh" required_tags = "camelry" add_tags = "camel_covered" } }
+}
+
+#### ELEPHANT_ARMOR  #### 
+
+elephant_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_heavy_armor_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+elephant_auxiliary = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_auxiliary_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+indian_gfx:elephant_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_heavy_armor_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+indian_gfx:elephant_auxiliary = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_auxiliary_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+#### EAST_ASIAN ELEPHANT_ARMOR_AUXILIARY #### 
+
+east_asian_gfx:elephant_accessories = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_heavy_armor_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+east_asian_gfx:elephant_auxiliary = {
+	skip_initial_check = yes
+	5 = { add_entity = { node = shared_pose_entity	mesh_name = "unit_elephantry_auxiliary_mesh" required_tags = "elephantry" add_tags = "elephant_covered" } }
+}
+
+
+#### ASHANTI CAVALRY ARMOR #### 
+
+
+
+
+#### DONKEY_AUXILIARY #### 
+###############################################
+# donkey
+###############################################
+
+donkey = {
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "unit_auxiliary_donkey_mesh" add_tags = "auxiliary" } } #test
+}

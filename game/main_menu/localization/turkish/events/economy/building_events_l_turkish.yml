@@ -1,0 +1,9 @@
+﻿l_turkish:
+ building.1.title: "[new_university.GetNameWithNoTooltip] Üniversitesi"
+ building.1.desc: "Çekişmeli tartışmaların kızışmasından sonra [old_university.GetName] Üniversitesi'nin âlimleri, yeni bir rakip öğretim kurumu kurmak için [new_university.GetName] bölgesine kaçtı.\n\n[old_university.GetNameWithNoTooltip] mezunları [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] zümresinin büyük bir kısmını oluşturuyor ve bizden bu eğitim isyanını bastırmamızı istiyor."
+ building.1.a: "Bu yeni eğitim kurumunu destekle."
+ building.1.b: "Sığınmacılara [old_university.GetNameWithNoTooltip] için geri dönüş çağrısı yap."
+ building.2.title: "Kasaba Sakinleri, Cübbe Giyenlere Karşı"
+ building.2.desc: "[university.GetName] Üniversitesi öğrencileri [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] tarafından korunuyor ve bu da onlara yerli kasaba halkına kıyasla farklı haklar tanıyor. Birbirine yakın bir şekilde yaşayan bu iki topluluk arasındaki güven genelde zedeleniyor, yakın zamanda bu durum kızışarak şiddetli ayaklanmalara sebep oldu."
+ building.2.a: "Üniversitenin tarafını tut."
+ building.2.b: "Kasaba halkının tarafını tut."

@@ -1,0 +1,5 @@
+﻿l_german:
+ exploration_success.1.title: "Ausgezeichneter Fähnrich"
+ exploration_success.1.desc: "Nach der erfolgreichen Rückkehr der Expedition nach „[target.GetName]“ erfahren wir, dass [actor.GetName] einem vielversprechenden jungen Offizier, [actor.Custom('DE_ART_DEF_S_N')] der Expedition höchst löblich diente, große Anerkennung zollt."
+ exploration_success.1.a: "Gebt ihm das Kommando über seine eigenen Expeditionen."
+ exploration_success.1.b: "Wir brauchen gute Kadetten."

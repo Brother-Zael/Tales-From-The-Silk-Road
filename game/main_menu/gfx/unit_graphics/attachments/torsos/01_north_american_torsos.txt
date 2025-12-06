@@ -1,0 +1,38 @@
+﻿### IROQUOIS ###
+#AGE_1_TRADITIONS
+	#PEASANT
+north_american_gfx:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_base_necklace_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_necklace_small_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_waistcoat_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_suede_shirt_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_bag_armband_iroquois_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_belts_necklace_mesh" add_tags = "UnitArmor_naked" } }
+}
+	#MEDIUM
+north_american_gfx:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_wood_shirt_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_wood_shirt_b_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_cape_fur_iroquois_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+	#HEAVY
+north_american_gfx:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_cape_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_necklace_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_fabric_feathers_ties_mesh" add_tags = "UnitArmor_naked" add_tags = "UnitDetail_cloth" } }
+}
+
+# AGE_4_REFORMATION
+	#MEDIUM
+north_american_gfx:age_4_reformation:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_worn_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_knife_mesh" add_tags = "UnitArmor_naked" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_waistcoat_mesh" add_tags = "UnitArmor_naked" add_tags = "crotch_covered" } }
+}
+	#HEAVY
+north_american_gfx:age_4_reformation:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_cape_iroquois_necklace_mesh" add_tags = "UnitArmor_naked" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_wool_coat_painted_feazers_mesh" add_tags = "UnitArmor_naked" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_shirt_mesh" add_tags = "UnitArmor_naked" } }
+}
+

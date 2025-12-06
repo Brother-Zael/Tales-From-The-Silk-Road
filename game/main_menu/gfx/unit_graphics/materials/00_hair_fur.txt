@@ -1,0 +1,112 @@
+﻿hair_base ={
+	diffuse	= "hair_fur/unit_material_hair_fur_blonde_diffuse.dds"
+	#	normal		= "metals/unit_material_metal_iron_base_normal.dds"
+	properties	= "hair_fur/unit_material_hair_fur_properties.dds"
+}
+
+hair_blonde = {
+	parent = hair_base
+	diffuse	= "hair_fur/unit_material_hair_fur_blonde_diffuse.dds"
+}
+
+hair_brown = {
+	parent = hair_base
+	diffuse	= "hair_fur/unit_material_hair_fur_brown_diffuse.dds"
+}
+
+hair_black = {
+	parent = hair_base
+	diffuse	= "hair_fur/unit_material_hair_fur_black_diffuse.dds"
+}
+
+hair_red = {
+	parent = hair_base
+	diffuse	= "hair_fur/unit_material_hair_fur_red_diffuse.dds"
+}
+
+feather = {
+	diffuse	= "hair_fur/unit_material_feather_basic_diffuse.dds"
+#	normal		= "hair_fur/unit_material_feather_basic_normal.dds"
+	properties	= "hair_fur/unit_material_hair_fur_properties.dds"
+}
+
+fur_base = {
+	diffuse	= "hair_fur/unit_material_fur_diffuse.dds"
+	normal		= "hair_fur/unit_material_fur_normal.dds"
+	properties	= "hair_fur/unit_material_fur_properties.dds"
+}
+
+fur_brown = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_fur_diffuse.dds"
+}
+
+fur_red_brown = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_fur_red_diffuse.dds"
+}
+
+fur_grey = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_fur_grey_diffuse.dds"
+}
+
+fur_black = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_fur_black_diffuse.dds"
+}
+
+fur_light_brown = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_fur_light_diffuse.dds"
+}
+
+fur_jaguar = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_materials_jaguar_fur_diffuse.dds"
+	normal		= "hair_fur/unit_materials_jaguar_fur_normal.dds"
+	properties	= "hair_fur/unit_materials_jaguar_fur_properties.dds"
+}
+
+feather_brown = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_materials_feathers_brown_diffuse.dds"
+	normal		= "hair_fur/unit_materials_feathers_brown_normal.dds"
+	properties	= "hair_fur/unit_materials_feathers_brown_properties.dds"
+}
+
+feather_base = {
+	parent = fur_base
+	diffuse	= "hair_fur/unit_material_feathers_base_diffuse.dds"
+	normal		= "hair_fur/unit_material_feathers_base_normal.dds"
+	properties	= "hair_fur/unit_material_feathers_base_properties.dds"
+}
+
+feather_country_one = {
+	parent = feather_base
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = feather_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+hair_color_based = {
+	#diffuse	= "hair_fur/unit_material_hair_fur_red_diffuse.dds"
+	#normal		= "hair_furunit_material_metal_bronze_base_normal.dds"
+	properties	= "hair_fur/unit_material_hair_fur_properties.dds"
+}
+
+brown_animal_fur = {
+	diffuse	= "leather/unit_material_leather_grey_diffuse.dds"
+	normal		= "leather/unit_material_leather_brown_base_normal.dds"
+	properties	= "leather/unit_material_leather_brown_base_properties.dds"
+	mask_texture	= "fur_mask.dds"
+	repaint = {
+		input_name = fur_color
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+

@@ -1,0 +1,10 @@
+﻿l_german:
+ colonial_federation_events.1000.title: "Zentralisierung des [Concept('international_organization', 'Zusammenschlusses')|e] „[target_io.GetNameWithNoTooltip]“"
+ colonial_federation_events.1000.desc: "Ursprünglich ein Bündnis zwischen den zahlreichen Kolonialuntertanen fremder Mächte entwickelte sich der [international_organization|e] „[target_io.GetName]“ zu einem funktionierenden Staat mit einer vielschichtigen Innen- und Außenpolitik. Ab diesem Tag wird der [international_organization] „[target_io.GetNameWithNoTooltip]“ jedoch nicht mehr nur lose sein, sondern eine einheitliche Macht unter der Führung von [target_character.GetName] von „[target_country.GetName|U]“."
+ colonial_federation_events.1000.a: "Möge dies alle zu einer wohlhabenden Zukunft führen!"
+ colonial_federation_unify_the_io_tt: "Wir vereinen den [international_organization|e] „[target_io.GetName]“ zu einer Einheit"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Die Stimmen sind abgegeben. Der Wunsch unseres Volks ist klar und deutlich. Der alte [international_organization|e] „[target_io.GetName]“ soll unter der aufmerksamen Führung von [target_character.GetName] zu einem einzigen Staat vereint werden – und wir werden Teil davon sein."
+ colonial_federation_events.1001.a: "Möge dieser neue Staat überdauern!"
+ colonial_federation_events.1001.b: "Wir werden vor niemandem niederknien!"
+ colonial_federation_break_away_tt: "Jeder Ort im Besitz, der ein [core|e] von „[target_country.GetName|U]“ ist, löst sich von uns los"

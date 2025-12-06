@@ -1,0 +1,10 @@
+﻿l_german:
+ flavor_chb.1.title: "Der Aufstand von [target_character.GetNameWithNoTooltip]"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName|U] war einer der wichtigsten Generäle für [GetCountry('MGE').GetName]. Obschon seine Familie etwas in Ungnade fiel, wurde sie nicht ausgelöscht, und nun konnte sein Enkel [target_character.GetName] zahlreiche Unterstützer um sich scharen, unter anderem den Gouverneur von [target_location.GetName], mit dessen Hilfe er die Kontrolle über die [target_location.GetRank.GetName] und das Umland übernehmen konnte – er schaffte es sogar, [GetCharacter('jal_muhammad_khan').GetName] gefangen zu nehmen und hinzurichten."
+ flavor_chb.1.a: "Wir werden ihn und seine Familie zertreten wie die Maden, die sie sind."
+ flavor_chb.1.tt: "[target_character.GetName|U] konnte in der Umgebung von [target_location.GetName] Territorium hinzugewinnen"
+ flavor_chb.1.b: "Wird sein Aufstieg zu wahrer Größe führen?"
+ flavor_chb.2.title: "Vermächtnis einer $rank_kingdom_horde_ruler_female$"
+ flavor_chb.2.desc: "[target_khatun.GetName|U] war die Gemahlin von [GetCharacter('chb_chupan').GetName] und ist durchaus in die Politik des #L [GetUniqueInternationalOrganization('ilkhanate').GetName]s#! verstrickt gewesen. Da sie uns als Möglichkeit betrachtet, die Kontrolle über den Thron an sich zu reißen, wäre sie bereit, auf unsere Seite zu wechseln, und sie bietet uns ihre Unterstützung. Wir könnten ihre familiären Bande und ihre Verbindungen nutzen und sie als unsere Marionette auf den Thron des [GetUniqueInternationalOrganization('ilkhanate').GetNameWithNoTooltip]s setzen. Allerdings könnte sie ambitionierter sein, als gut für sie ist – vielleicht wäre es besser, sie an eine Marionette zu verheiraten, die leichter zu manipulieren ist."
+ flavor_chb.2.a: "Sie wird eine hervorragende $rank_kingdom_horde_ruler_female$ abgeben."
+ flavor_chb.2.b: "Wir sollten ihr besser nicht zu viel Einfluss gewähren."

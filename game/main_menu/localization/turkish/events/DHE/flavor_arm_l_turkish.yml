@@ -1,0 +1,9 @@
+﻿l_turkish:
+ flavor_arm.1.title: "Bilgi Kaybı"
+ flavor_arm.1.desc: "[target_location.GetName] ilindeki [ShowBuildingTypeName('university')] yüzyıllar boyunca bir kültür ve bilim merkezi olarak halkımıza büyük hizmetlerde bulundu. Meşhur soylu ailelerin destekleriyle büyüyüp gelişen bu üniversite, ne yazık ki son yıllarda destekçilerinin yaşadığı talihsizliklerden epey etkilendi. Maddi kayıplar yüzünden birçok araştırma kaderine terk edildi ve konumunu kaybeden hocalar oldu. [ShowBuildingTypeNameWithNoTooltip('university')] bir an önce desteklenmezse kapılarını tamamen kapatabilir."
+ flavor_arm.1.a: "Bırakın kapansın."
+ flavor_arm.1.b: "Derhâl bütçe verilsin!"
+ flavor_arm.2.title: "Tatev Üniversitesi"
+ flavor_arm.2.desc: "[target_location.GetName] ilinde kurulan yerel manastır; zamanla gittikçe büyüyerek birçok antlaşmayı, resmî evrakı ve değerli yazmayı barındırır hâle geldi. Artık burası bölgenin gözünde bilgiyle atan bir kalpten farksız. Manastırın hocalarıysa yeni tesislere sahip olabilmek adına huzurumuza çıktı. Kutsal kitap sanatları ve müzik çalışmaları için yeni bölümler açılmasını arzu ediyorlar."
+ flavor_arm.2.a: "Genişlemeleri için bütçe verilsin."
+ flavor_arm.2.b: "Hiç gerek yok."

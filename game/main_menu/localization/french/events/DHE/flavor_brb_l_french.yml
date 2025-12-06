@@ -1,0 +1,5 @@
+﻿l_french:
+ flavor_brb.1.title: "L'ascension de [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName] a toujours été un port important de [ROOT.GetCountry.GetName], qui nous a permis de renforcer davantage notre présence commerciale à [target_market.GetName]. Récemment, cependant, les membres de la [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] se sont attelés à développer la [target_location.GetRank.GetName] et à l'amener vers de nouveaux sommets. Ils prévoient désormais l'agrandissement de son port."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] mérite notre soutien."
+ flavor_brb.1.b: "Nous n'avons pas de ressources à allouer au développement d'un autre port."

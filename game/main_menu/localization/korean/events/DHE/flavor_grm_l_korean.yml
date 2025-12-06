@@ -1,0 +1,6 @@
+﻿l_korean:
+ flavor_grm.1.title: "[target_character.GetNameWithNoTooltip]의 서거"
+ flavor_grm.1.desc: "우리에게 너무나도 유명한 인물이자 우리 [target_country.GetFlavorRank]의 건국자가 세상을 떠났습니다. 그 치세 동안 [ShowRegionName('anatolia_region')] 전역에 걸친 우리의 영향력은 정점을 찍었고, 많은 이웃 국가를 정복하는 데 성공했습니다. 애석하게도 이번 죽음은 우리 종속국들이 우리 국민의 부를 탐내는 결과를 낳아 불만과 반란의 불씨를 지폈습니다."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "싸우지도 않고 굴복할 생각은 없다!"
+ flavor_grm.1.historical_info: "14세기 초 매우 강력한 신흥 베이국이었던 게르미얀은 야쿠브 1세가 세운 나라로, 야쿠브는 정복으로 많은 영토를 자기 산하에 두었습니다. 야쿠브는 40년간 통치하면서 많은 이웃 국가와 충돌했는데, 서쪽의 아이딘, 사루한, 카라시를 정복하고 오스만과 공개적인 분쟁을 벌이기도 했습니다. 야쿠브가 죽자 많은 속국은 기회를 포착하고 독립을 선언했습니다."

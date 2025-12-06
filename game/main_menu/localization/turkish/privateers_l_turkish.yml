@@ -1,0 +1,3 @@
+﻿l_turkish:
+ PIRATES_NAME: "[AREA.GetNameWithNoTooltip] Korsanları"
+ PRIVATEER_NAME: "[PRIVATEER.GetOwner.GetAdjectiveWithNoTooltip] Paralı Korsanları"

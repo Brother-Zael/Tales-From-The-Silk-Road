@@ -1,0 +1,7 @@
+﻿l_german:
+ mayan_events.1.title: "Der Beginn eines neuen K’atun"
+ mayan_events.1.desc: "Nach zwanzig Jahren beginnt ein neues K’atun in der Langen Zählung unseres Volkes.\n\nAls Anführern der Nation obliegt es uns, ein prächtiges Fest zu Ehren [SelectLocalization(EqualTo_string(ROOT.GetCountry.GetReligion.GetGodName,'Götter'),'der','von')] [ROOT.GetCountry.GetReligion.GetGodName] zu feiern, das einen neuen Lebenszyklus für unsere Kultur einläutet. Unser Volk erwartet von uns, dass wir ein Fest ausrichten, das so gewaltig und opulent ist, dass man sich noch in Jahren daran erinnern wird.\n\nDaher bereiten wir uns seit Jahren sorgfältig vor, und nun ist es an der Zeit, dass wir davon profitieren."
+ mayan_events.1.a: "Gepriesen [SelectLocalization(EqualTo_string(ROOT.GetCountry.GetReligion.GetGodName,'Götter'),'seien ','')][ROOT.GetCountry.GetReligion.GetGodName]."
+ mayan_events.1.b: "Fügt schnell noch einige letzte Einzelheiten hinzu!"
+ mayan_events.1.c: "Wir sind vorbereitet."
+ mayan_events.1.d: "Das Volk wird enttäuscht sein."

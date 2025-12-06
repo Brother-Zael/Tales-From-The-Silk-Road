@@ -1,0 +1,144 @@
+﻿### ASHANTI
+#AGE_1_TRADITIONS
+	#PEASANT
+african_gfx:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_sandals_afro_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_mesh" add_tags = "UnitLegs_soft" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_decorative_detail_mesh" add_tags = "UnitLegs_naked" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_shoes_leather_straps_mesh" } }
+}
+	#MEDIUM
+african_gfx:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cloth_shoes_leather_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_cloth_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_wide_mesh" add_tags = "UnitLegs_soft" } }
+}
+	#HEAVY
+african_gfx:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_shield_belt_mesh" required_tags = "not(short)" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_belt_mesh" add_tags = "short" required_tags = "short" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_belts_mesh"  add_tags = "short" required_tags = "short" add_tags = "UnitLegs_medium" } }
+}
+
+#AGE_2_RENAISSANCE
+	#PEASANT
+#african_gfx:age_2_renaissance:peasant_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_light_wool_leather_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_shoes_leather_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_bloomers_belts_shoes_mesh" } }
+#}
+	#MEDIUM
+#african_gfx:age_2_renaissance:soldier_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_footwraps_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_linen_pants_boots_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_woolen_armor_metal_mesh" } }
+#}
+
+	#HEAVY
+#african_gfx:age_2_renaissance:noble_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_linen_chainmail_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_arming_plates_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wool_syrian_mesh" } }
+#}
+
+
+
+#AGE_3_DISCOVERY
+	#PEASANT
+african_gfx:age_3_discovery:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_sandals_afro_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_mesh" add_tags = "UnitLegs_soft" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_decorative_detail_mesh" add_tags = "UnitLegs_naked" } }
+}
+	#MEDIUM
+african_gfx:age_3_discovery:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_sandals_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_linen_coral_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_cotton_mesh" add_tags = "UnitLegs_soft" } }
+}
+
+	#HEAVY
+african_gfx:age_3_discovery:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_dots_shoes_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cotton_rope_buckle_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shoes_simple_mesh" add_tags = "UnitLegs_medium" } }
+}
+
+
+#AGE_4_REFORMATION
+	#PEASANT
+african_gfx:age_4_reformation:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_sandals_afro_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_mesh" add_tags = "UnitLegs_soft" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_decorative_detail_mesh" add_tags = "UnitLegs_naked" } }
+}
+
+	#MEDIUM
+african_gfx:age_4_reformation:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_sandals_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_linen_coral_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_cotton_mesh" add_tags = "UnitLegs_soft" } }
+}
+
+	#HEAVY
+african_gfx:age_4_reformation:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_dots_shoes_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cotton_rope_buckle_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shoes_simple_mesh" add_tags = "UnitLegs_medium" } }
+}
+
+
+#AGE_5_ABSOLUTISM
+	#PEASANT
+african_gfx:age_5_absolutism:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_sandals_afro_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_mesh" add_tags = "UnitLegs_soft" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_decorative_detail_mesh" add_tags = "UnitLegs_naked" } }
+}
+
+
+	#MEDIUM
+african_gfx:age_5_absolutism:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_sash_sandals_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_fabric_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_braided_bands_mesh" add_tags = "UnitLegs_soft" } }
+}
+
+
+	#HEAVY
+african_gfx:age_5_abstolutism:noble_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cotton_pants_linen_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_thick_cotton_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wide_pants_cotton_mesh" } }
+}
+
+
+#AGE_6_REVOLUTIONS
+	#PEASANT
+african_gfx:age_6_revolutions:peasant_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_leather_slippers_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_laces_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_satin_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cotton_leather_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_leather_boots_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_boots_mesh" } }
+
+}
+	#MEDIUM
+african_gfx:age_6_revolutions:soldier_legs = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_breeches_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_linen_boots_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_linen_boots_leather_mesh" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wide_pants_embroidery_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_linen_wrap_gaiters_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wolen_pants_mesh" } }
+
+}
+	#HEAVY
+african_gfx:age_6_revolutions:noble_legs = {
+
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_dots_shoes_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cotton_rope_buckle_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shoes_simple_mesh" add_tags = "UnitLegs_medium" } }
+}
+

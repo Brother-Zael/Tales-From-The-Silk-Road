@@ -1,0 +1,5 @@
+﻿l_french:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "Fort de la puissance de notre cavalerie en [ROOT.GetCountry.GetName], [target_character.GetName] a résolu de constituer une force d'élite, baptisée [ShowUnitDefinitionName('a_esho_cavalry_oyo')]. Nous avons désormais le choix : la déployer dans des régiments spécialisés ou l'intégrer aux unités de notre armée."
+ flavor_oyo.1.a: "Qu'elle constitue des régiments séparés."
+ flavor_oyo.1.b: "Qu'elle s'intègre aux régiments existants."

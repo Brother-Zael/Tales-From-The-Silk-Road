@@ -1,0 +1,5 @@
+﻿l_korean:
+ flavor_brb.1.title: "떠오르는 [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName](은)는 오래전부터 [ROOT.GetCountry.GetName]에 중요했던 항구로, [target_market.GetName]의 우리 상인들에게 큰 힘이 된 곳입니다. 하지만 최근 현지 [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]들은 [target_location.GetRank.GetName]를 새로운 단계로 발전시키는 데 공을 들였고, 현재는 그 도시의 항구를 강화할 계획을 세우고 있다고 합니다."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip](이)라면 지원해 줄 만하지."
+ flavor_brb.1.b: "항구를 더 늘릴 자원은 없다."

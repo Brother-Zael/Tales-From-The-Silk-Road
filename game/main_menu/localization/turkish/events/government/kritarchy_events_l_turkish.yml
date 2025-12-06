@@ -1,0 +1,4 @@
+﻿l_turkish:
+ kritarchy_events.1.title: "Adli Konklav Sonuçlandı"
+ kritarchy_events.1.desc: "Yüksek mahkeme hangi yargıcın [ROOT.GetCountry.GetGovernment.GetRulerTitle] olarak seçilmesi gerektiği hakkındaki görüşmesini sonuçlandırdı. Kabine, yeni [ROOT.GetCountry.GetName] lideri olarak [successor_character.GetName] adlı kişiyi seçti."
+ kritarchy_events.1.a: "Bilgeliğiyle hüküm sürmesi umuduyla."

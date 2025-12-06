@@ -1,0 +1,70 @@
+﻿animation_editor_meta={
+	view={
+		position={ 239.956757 361.737091 }
+		zoom=0.895949
+	}
+	starting_timeline={
+		position={ 81.538437 -6.153854 }
+	}
+	states={
+		"Attack"={
+			position={ 287.695435 -400.800690 }
+		}
+ 		"Idle"={
+			position={ 298.366882 -10.532497 }
+		}
+ 		"Move"={
+			position={ 809.249634 -261.743896 }
+		}
+ 		"Retreat"={
+			position={ 618.840576 231.479279 }
+		}
+ 		"Charge"={
+			position={ 283.869995 284.970520 }
+		}
+ 		"attack_to_idle"={
+			position={ 355.203156 -227.344040 }
+		}
+ 		"idle_to_attack"={
+			position={ 87.075279 -206.130402 }
+		}
+ 	}
+	connections={
+		"Attack to AttackToIdle"={
+			use_length_from_source_state=yes
+		}
+ 		"Attack to Move"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle ot move"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to charge"={
+			use_length_from_source_state=yes
+		}
+ 		"Retreat to idle"={
+			use_length_from_source_state=yes
+		}
+ 		"Idle to IdletoAttack"={
+			use_length_from_source_state=yes
+		}
+ 		"Move To Idle"={
+			use_length_from_source_state=yes
+		}
+ 		"RetreatToIdle"={
+			use_length_from_source_state=yes
+		}
+ 		"Charge to idle"={
+			use_length_from_source_state=yes
+		}
+ 		"AttackToIdle to idle"={
+			use_length_from_source_state=yes
+		}
+ 		"IdleToAttack to attack"={
+			use_length_from_source_state=yes
+		}
+ 		" IdletoAttack to Idle"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

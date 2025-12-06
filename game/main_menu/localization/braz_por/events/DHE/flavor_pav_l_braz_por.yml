@@ -1,0 +1,11 @@
+﻿l_braz_por:
+ flavor_pav.1.title: "Expulsão da Dinastia [expelled_ruler.GetDynasty.GetNameWithNoTooltip]"
+ flavor_pav.1.desc: "A cidade de [ROOT.GetCountry.GetCapital.GetName] está em chamas com o surgimento de mais uma revolta contra a dinastia [expelled_ruler.GetDynasty.GetName]. Desta vez, ela é liderada pelo clérigo carismático [pav_iacopo_bussolari_scope.GetName], que uniu a cidade contra o(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Se nada for feito, [expelled_ruler.GetName] terá que fugir, talvez para o jugo da dinastia [ShowDynastyName('visconti_dynasty')]."
+ flavor_pav.1.historical_info: "Em 1356, os Beccaria foram expulsos de Pavia como consequência de uma revolta popular liderada pelo frade Iacopo Bussolari, que posteriormente ajudou a salvar a cidade de sofrer um cerco liderado pelos Visconti. Os expulsos acabaram se aliando e a cidade foi tomada por Milão em 1359. Posteriormente, alguns privilégios dos Beccaria foram restaurados, mas a cidade permaneceu sob o controle milanês."
+ flavor_pav.1.a: "Apoiar as pregações dele!"
+ flavor_pav.1.b: "Temos que resistir a essa agitação."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "Soubemos de uma revolta popular em [target_country.GetName] liderada pelo carismático [pav_iacopo_bussolari_scope.GetName]. Seguindo suas orientações, a população de [target_country.GetCapital.GetNameWithNoTooltip] conseguiu expulsar a dinastia [expelled_ruler.GetDynasty.GetName] e impedir que ela governasse o local, incluindo [expelled_ruler.GetName], que se aliou a nós em busca de ajuda. Embora a dinastia [expelled_ruler.GetDynasty.GetNameWithNoTooltip] seja uma antiga inimiga nossa, podemos nos aproveitar disso para finalmente reivindicar essa cidade de uma vez por todas."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "Tirem proveito dessa situação."
+ flavor_pav.2.b: "Não é problema nosso."

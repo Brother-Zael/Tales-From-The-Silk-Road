@@ -1,0 +1,12 @@
+﻿l_korean:
+ border_friction.1.title: "국경 마찰"
+ border_friction.1.desc: "우리와 [border_claim_country.GetLongName]의 동맹을 모두가 환영하는 것은 아닌 모양입니다. 우리 [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]들 중 높은 영향력을 갖춘 세력 하나가 공공연하게 반발하며, 동맹 파기를 밀어붙이고 있는 것입니다. 이들은 [border_claim_country.GetNameWithNoTooltip](이)가 점유하고 있지만 많은 이들이 우리에게 정당한 소유권이 있다고 여기는 [border_claim_province.GetName] 지방을 중심으로 문제를 제기하고 있으며, 현 상황에 대한 불만을 널리 확대하는 데 성공했습니다!"
+ border_friction.1.a: "방침을 변경할 때가 온 것인가..."
+ border_friction_from_event: "영유권 주장 문제"
+ border_friction.1.b: "상황을 긍정적으로 봐야지!"
+ border_friction.1.c: "영유권 주장을 포기하라."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "\"마땅히 우리 영토인 [border_claim_province.GetName](을)를 다른 나라가 점유하고 있는데 우리 정부는 되찾으려는 시도조차 하지 않는다! 대체 정부가 하는 일이 무엇인가?\" 한 신문이 이렇게 부르짖으며 [border_claim_country.GetLongName] 상대로 전쟁을 일으킬 것을 요구하고 있습니다.\n\n날이 선 비판에 자극을 받아, 우리 영토를 되찾지 못했다는 불만에 찬 여론이 나라 전체로 빠르게 번지고 있습니다."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "영유권 주장을 철회하라."

@@ -1,0 +1,4 @@
+﻿l_polish:
+ diseases.1.title: "Nowa epidemia"
+ diseases.1.desc: "Mieszkańcy regionu [location_scope.GetName] rozpaczają, gdy ich rodziny i sąsiedzi padają ofiarą nieustającej epidemii, której źródłem jest [disease.GetName]. Choroba rozprzestrzenia się obecnie na całym obszarze. Okolice, które niegdyś tętniły życiem, teraz są przepełnione zmartwieniem i niepewnością.\n\nNiestety, niewiele możemy zrobić, aby powstrzymać szerzenie się zarazy na naszym terytorium."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

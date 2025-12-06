@@ -1,0 +1,6 @@
+﻿l_turkish:
+ flavor_grm.1.title: "[target_character.GetNameWithNoTooltip] Hayatını Kaybetti"
+ flavor_grm.1.desc: "[target_country.GetFlavorRank] ülkesinin kurucusu kutlu şahsiyet hayatını kaybetti. Onun döneminde [ShowRegionName('anatolia_region')] coğrafyasında nüfuzumuz zirve yaptı ve komşularımızın çoğunu kendimize tabi kıldık. Şimdiyse onun ölümünü fırsat bilenler, halkımızın zenginliğini ele geçirmek için aramıza nifak tohumları ekip isyan hareketlerine girişiyorlar."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Savaşmadan gidecek değiliz!"
+ flavor_grm.1.historical_info: "I. Yakub tarafından kurulan ve 14. yüzyılın güçlü beyliklerinden olan Germiyanoğulları, birçok fetihte bulunarak önemli topraklar elde etmiştir. I. Yakub, kırk yıllık hükümdarlığında komşularıyla birçok kez savaşmış, batıdaki komşuları Aydınoğulları'na, Saruhanoğulları'na ve Karesioğulları'na boyun eğdirmiş, Osmanoğulları'yla da açık çatışmalara girmiştir. Vasalları, I. Yakub'un ölümünü bir fırsat olarak görüp birer birer bağımsızlıklarını ilan etmişlerdir."

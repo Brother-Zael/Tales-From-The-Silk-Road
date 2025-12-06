@@ -1,0 +1,125 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Move"={
+	}
+ 	"Idle"={
+		timeline_layer={
+			timeline="L_relative_Idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="cow_idle_animation"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 3"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 29"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	audio_event={
+		name="snd_moving_1"
+		trigger_time_absolute=0.134643
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_moving_2"
+		trigger_time_absolute=0.568447
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_moving_3"
+		trigger_time_absolute=1.116339
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event={
+		name="snd_moving_4"
+		trigger_time_absolute=1.524732
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_hoof"
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_Idle"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_moving"
+		values={ {
+				name="Unit_AnimState"
+				value="Move"
+			} }
+	}
+ }
+
+timelines={
+	"L_relative_Idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=12.600348
+		events={
+			"Connection 29"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"cow_idle_animation"={
+		on_enter={
+			"snd_AnimState_Idle"
+		}
+		boundary_behavior=loop
+		duration=12.600348
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="cow_idle_animation"
+		duration_source=animation
+	}
+ 	"cow_walk_animation"={
+		on_enter={
+			"snd_AnimState_moving"
+		}
+		boundary_behavior=loop
+		duration=1.767857
+		events={
+			"snd_moving_1"
+			"snd_moving_2"
+			"snd_moving_3"
+			"snd_moving_4"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="cow_walk_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 3"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

@@ -1,0 +1,288 @@
+﻿plain_metal = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+	assets = {
+		unit_hat_helmet_bascinet_mesh
+		unit_hat_helmet_visor_closed_mesh
+        unit_hat_helmet_visor_closed_noneck_mesh
+		unit_hat_helmet_visor_open_mesh
+        unit_hat_helmet_visor_open_noneck_mesh
+	}
+}
+
+plain_skin = {
+	skin_group = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+			secondary_color = unit_color0
+			#tertiary_color = unit_color1
+		}
+	}
+}
+
+
+cloth_country_solid_two_texture_variation={
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.13 hardness = 0.95 }
+		repaint = {
+			36 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+}
+
+cloth_country_solid_two_texture_variation_high_chance={
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+}
+
+cloth_country_color_or_white_group_texture_variation =
+{
+	cloth_country_colors_or_white_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			1 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+}
+
+
+metal_with_double_textile_and_gold_headgear = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.8 hardness = 0.8 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.9 }
+	}
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+ 	cloth_country_one = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+		}
+	}
+	cloth_country_two = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+		repaint = {
+			secondary_color = unit_color1
+		}
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+	copy = plain_skin
+	assets = {
+		
+	}
+}
+
+metal_with_double_textile_and_gold = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.95 hardness = 0.8 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.6 hardness = 0.9 }
+	}
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.45 hardness = 0.8 }
+	}
+ 	cloth_country_one = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+		}
+	}
+	cloth_country_two = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+		repaint = {
+			secondary_color = unit_color1
+		}
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+	copy = plain_skin
+}
+
+metal_with_gold = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.9 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+	assets = {
+		
+	}
+}
+
+### ABSOLUTISM
+metal_leathers_cloth_white_country_chainmail_gold = {
+
+	no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.85 hardness = 0.5 }
+		repaint = {
+			10 = { primary_color = color_leather_whitened }
+			10 = { primary_color = hair_color }
+		}
+	}
+
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	}
+
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.22 hardness = 0.95 }
+		repaint = {
+			36 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+		
+}
+
+
+
+metal_main_color_gambeson = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.95 hardness = 0.8 }
+	}
+	cloth_gambeson_vertical_country_one = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			44 = {
+				primary_color = unit_color0
+			}
+		}
+	}
+	copy = plain_skin
+	
+	assets = {
+		
+	}
+}
+
+
+metal_leathers_mail_cloth_skin = {
+	
+	copy = metal_leathers_gambeson_cloth_skin
+
+	cloth_gambeson_country_medieval = {
+		mode = delete
+	}
+	
+	chainmail_group = {
+		before = skin_group
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.25 0.75 0.25 } tolerance = 0.2 hardness = 0.5 }
+	}
+	
+	assets = {
+		unit_torso_long_mail_coat_leather_belt_schematic
+	}
+}

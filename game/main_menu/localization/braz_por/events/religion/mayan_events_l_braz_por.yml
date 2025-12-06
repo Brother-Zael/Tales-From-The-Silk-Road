@@ -1,0 +1,7 @@
+﻿l_braz_por:
+ mayan_events.1.title: "O Início de um Novo K'atun"
+ mayan_events.1.desc: "Após vinte anos, um novo K'atun se inicia na longa contagem do nosso povo.\n\nÉ o nosso dever como líderes do país [ROOT.GetCountry.GetLongName] celebrar um esplêndido festival para honrar [ROOT.GetCountry.GetReligion.GetGodName] e marcar o início de um novo ciclo de vida em nossa cultura. O nosso povo espera que organizemos uma comemoração tão grandiosa e suntuosa que possa ser lembrada por muitos anos.\n\nÉ por isso que nos preparamos cuidadosamente há anos e chegou o momento de colocar tudo em prática."
+ mayan_events.1.a: "Louvemos [ROOT.GetCountry.GetReligion.GetGodName]."
+ mayan_events.1.b: "Apressem alguns últimos detalhes!"
+ mayan_events.1.c: "Estamos preparados."
+ mayan_events.1.d: "O povo ficará desapontado."

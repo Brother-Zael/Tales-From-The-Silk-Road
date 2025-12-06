@@ -1,0 +1,49 @@
+﻿male_headwear_saint_halo = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_saint_halo_entity   }
+}
+male_headwear_paradox_crown = {
+	set_tags = "hair_covered"  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_paradox_crown_entity   }
+}
+male_headwear_spectacles_01 = {
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_spectacles_01_entity   }
+}
+male_headwear_spectacles_02 = {
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_spectacles_02_entity   }
+}
+male_headwear_aztec_jewellery_01_earrings = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_earrings_entity   }
+}
+male_headwear_aztec_jewellery_01_noseplate = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_noseplate_entity   }
+}
+male_headwear_aztec_jewellery_01_snake = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_snake_entity   }
+}
+male_headwear_aztec_jewellery_01_mouthpiece = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_mouthpiece_entity   }
+}
+male_headwear_aztec_jewellery_01_jade_earrings = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_jade_earrings_entity   }
+}
+male_headwear_aztec_jewellery_01_jade_noseplate = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_jade_noseplate_entity   }
+}
+male_headwear_aztec_jewellery_01_jade_snake = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_jade_snake_entity   }
+}
+male_headwear_aztec_jewellery_01_jade_mouthpiece = {
+	set_tags = ""  
+	entity = { required_tags = ""     shared_pose_entity = head   entity = male_headwear_aztec_jewellery_01_jade_mouthpiece_entity   }
+}
+blind_eye_cloth = {
+	entity = {  required_tags = ""          shared_pose_entity = head   entity = blind_eye_cloth_entity }
+}

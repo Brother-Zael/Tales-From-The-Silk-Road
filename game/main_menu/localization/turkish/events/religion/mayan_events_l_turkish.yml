@@ -1,0 +1,7 @@
+﻿l_turkish:
+ mayan_events.1.title: "Yeni Katun'un Başlangıcı"
+ mayan_events.1.desc: "Halkımızın Uzun Sayımında yirmi yıldan sonra yeni bir Katun başlıyor.\n\n[ROOT.GetCountry.GetLongName] liderleri olarak [ROOT.GetCountry.GetReligion.GetGodName] onuruna muhteşem bir festival düzenlemek ve kültürümüzün yaşamında yeni bir döngünün başlangıcını işaretlemek görevimiz. Halkımız bizden gelecek yıllarca hatırlanacak kadar görkemli ve gösterişli bir kutlama düzenlememizi bekliyor.\n\nBu yüzden yıllardır dikkatle hazırlanıyoruz ve hazırlıklarımızı gerçeğe dönüştürme vakti geldi."
+ mayan_events.1.a: "[ROOT.GetCountry.GetReligion.GetGodName] ne derse o olur."
+ mayan_events.1.b: "Son detaylar için çalışılsın."
+ mayan_events.1.c: "Hazırız."
+ mayan_events.1.d: "Halk mutsuz olacak."

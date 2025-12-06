@@ -1,0 +1,40 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"idle"={
+		timeline_layer={
+			timeline="mines_idle"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Connection 7"
+		behavioral_state="idle"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"mines_idle"={
+		boundary_behavior=loop
+		duration=3.091755
+		starttime_offset=0.000000
+		playback_rate=0.200000
+		layer=0
+		animation="building_northgerman_mines_b_idle_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Connection 7"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

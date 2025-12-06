@@ -1,0 +1,227 @@
+﻿beards = {
+	usage = game
+	selection_behavior = weighted_random
+	fallback = default_beard
+    priority = 1
+
+	default_beard = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 100
+
+			modifier = {
+				add = 1000 # always beardless
+				OR = {
+					owner ?= { modifier:no_beards = yes }
+					age_in_years < 18
+					portrait_clergy_trigger = { RELIGION_GFX = catholic_gfx }
+					portrait_clothing_trigger = { CULTURE_FLAG = indochina_gfx }
+					AND = {
+						age_in_years < 50
+						portrait_clothing_trigger = { CULTURE_FLAG = american_gfx }
+					}
+				}
+			}
+
+			modifier = {
+				add = 400 # young adults less likely to have beards
+				age_in_years < 21
+			}
+
+			modifier = {
+				add = -100 # these cultures always want beards
+				OR = {
+					portrait_clothing_trigger = { CULTURE_FLAG = middle_east_gfx }
+					portrait_clothing_trigger = { CULTURE_FLAG = indian_gfx }
+					portrait_clothing_trigger = { CULTURE_FLAG = east_mediterranean_gfx }
+					portrait_clothing_trigger = { CULTURE_FLAG = eastern_christian_gfx }
+				}
+			}
+		}
+	}
+
+	european_mustaches = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = european_mustaches
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_clothing_trigger = { CULTURE_FLAG = european_gfx }
+			}
+		}
+	}
+
+	european_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = european_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 125
+				portrait_clothing_trigger = { CULTURE_FLAG = european_gfx }
+				NOT = { current_age_or_later = { age = age_5_absolutism } }
+			}
+		}
+	}
+
+	armenian_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = armenian_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = caucasian_gfx }
+			}
+		}
+	}
+
+	## ASHANTI ##
+	ashanti_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = ashanti_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = african_gfx }
+			}
+		}
+	}
+
+	## SYRIAN ##
+	syrian_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = syrian_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					portrait_clothing_trigger = { CULTURE_FLAG = middle_east_gfx }
+					portrait_clothing_trigger = { CULTURE_FLAG = indian_gfx }
+				}
+			}
+			modifier = {
+				add = 400
+				# Sikhs
+				portrait_clothing_trigger = { CULTURE_FLAG = sikhism_gfx }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					age_in_years < 20
+					AND = {
+						portrait_clothing_trigger = { CULTURE_FLAG = indochina_gfx }
+						age_in_years < 50
+					}
+				}
+			}
+		}
+	}
+
+	## ASIAN ##
+	asian_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = asian_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = east_asian_gfx }
+			}
+		}
+	}
+
+	ainu_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = ainu_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = ainu_gfx }
+			}
+		}
+	}
+
+	chinese_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = asian_beards
+				range = { 0 0.5 } # Forces beards by preventing empty gene
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					culture = { has_culture_group = culture_group:confucian_group }
+					AND = {
+						culture = { has_culture_group = culture_group:mongolian_group }
+						employer ?= { tag = CHI }
+					}
+					AND = {
+						portrait_clothing_trigger = { CULTURE_FLAG = east_asian_gfx }
+						any_ruling_countries = { tag = CHI }
+					}
+				}
+			}
+		}
+	}
+
+}

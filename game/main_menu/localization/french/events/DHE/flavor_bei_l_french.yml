@@ -1,0 +1,6 @@
+﻿l_french:
+ flavor_bei.1.title: "Le sultan de Brunei"
+ flavor_bei.1.desc: "Alors que les fidèles #L [ShowReligionGroupAdjective('muslim')]s#! se répandent en Asie du Sud-Est, l'ambitieux [ROOT.GetCountry.GetGovernment.GetRuler.GetName] est des limites atteintes par la diplomatie de sa foi traditionnelle #L [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective]e#!.\n\n[ROOT.GetCountry.GetGovernment.GetRuler.GetHeSheFormal|U] a commencé à nous implorer d'adopter les coutumes #L [ShowReligionGroupAdjective('muslim')]es#!, car cela nous ouvrirait des options diplomatiques et de mariages avec d'autres Dirigeants partageant la même foi.\n\nBien sûr, il y a un certain degré d'excitation parmi nos loyaux sujets, mais la conversion est-elle vraiment la bonne voie ?"
+ flavor_bei.1.a: "Nous devons prendre le shahada."
+ flavor_bei.1.b: "Les anciennes traditions doivent être honorées."
+ flavor_bei.1.historical_info: "Dans les années 1360, Awang Alak Betatar, le Raja hindou de Brunei, se convertit à l'islam afin de pouvoir épouser une princesse étrangère, dont on pense qu'elle était la fille du sultan de Johor. Après sa conversion, l'ancien Raja prend le nom de Sultan Muhammad Shah. Sa dynastie règne encore aujourd'hui sur Brunei, ce qui en fait l'une des maisons régnantes les plus anciennes de l'histoire."

@@ -1,0 +1,8 @@
+﻿l_braz_por:
+ flavor_orm_oma.1.title: "Controle Nabhanita sobre Omã"
+ flavor_orm_oma.1.desc: "A costa omanita sobre a qual nossos ancestrais estenderam nosso domínio é indisciplinada e pobre; temos muito pouco [control|e] sobre ela, tornando-a uma fonte constante de problemas e rebeliões.\n\nPara agravar a situação, a dinastia [ShowDynastyName('nabhani_dynasty')] demonstrou interesse na região, aumentando a tensão na já frágil fronteira. Felizmente, nossos diplomatas estão confiantes de que podem firmar um tratado que evite um conflito fronteiriço e poupe nossas finanças a longo prazo."
+ flavor_orm_oma.1.a: "Entregar a região para a dinastia Nabhani"
+ flavor_orm_oma.1.b: "Essa terra é nossa!"
+ flavor_orm_oma.2.title: "$flavor_orm_oma.1.title$"
+ flavor_orm_oma.2.desc: "Diplomatas da entidade política [GetCountry('ORM').GetLongName] abordaram nossa corte com uma proposta. Para evitar conflitos de fronteira entre nossos povos, eles estão dispostos a ceder o controle de todas as terras do povo [ShowCultureName('omani_culture')] que possuem. Pedem apenas, em troca, que nossas nações permaneçam amigas e mantenham uma convivência pacífica."
+ flavor_orm_oma.2.a: "Vamos aceitar graciosamente"

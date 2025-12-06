@@ -1,0 +1,4 @@
+﻿l_korean:
+ flavor_tle.1.title: "[capital_scope.GetNameWithNoTooltip] 함락"
+ flavor_tle.1.desc: "사랑하는 우리 [ROOT.GetCountry.GetFlavorRank]의 수도인 [capital_scope.GetName](이)가 극악무도한 적들의 손에 떨어졌습니다. 이 비극에 더해, 경애하는 통치자 [ruler_scope.GetName] 및 그 아들들 또한 이번 공격에서 목숨을 잃고 말았습니다.\n\n이 참사로 [ROOT.GetCountry.GetFlavorRank] 전체가 충격과 절망에 휩싸인 바람에 침공군에 맞선 투쟁은 앞으로 더 난항을 겪을 것으로 보입니다."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

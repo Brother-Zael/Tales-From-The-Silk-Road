@@ -1,0 +1,431 @@
+﻿## syrian
+
+mesh_list = {
+	name = "syrian_bridges"
+
+	rotation = bridge
+	connect_to_road_network = no
+	clear_map_objects = no
+
+	building_syrian_bridge_small_mesh = 1
+	building_syrian_bridge_medium_mesh = 1
+}
+
+
+mesh_list = {
+	name = "syrian_noble"
+	scale_settings_small = { bias = -0.5 min = 1 max = 1 }
+	
+	building_syrian_noble_a_mesh= 1
+	building_syrian_noble_b_mesh= 1
+	building_syrian_noble_c_mesh= 1
+	
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "syrian_burgher"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	building_syrian_burgher_diorama_a_mesh = 1
+	building_syrian_burgher_diorama_b_mesh = 1	
+	building_syrian_burgher_diorama_c_mesh = 1
+	building_syrian_burgher_diorama_d_mesh = 1
+	building_syrian_square_b_mesh = 1
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "syrian_peasant"	
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	building_syrian_peasant_diorama_a_mesh = 100
+	building_syrian_peasant_diorama_b_mesh = 100
+	building_syrian_peasant_diorama_c_mesh = 100
+	building_syrian_peasant_diorama_d_mesh = 100
+	building_syrian_peasant_diorama_e_mesh = 100
+	building_syrian_peasant_diorama_f_mesh = 100
+	material_index = 0
+	spawn_count = { curve = "standard_pop_curve" }
+}
+
+mesh_list = {
+	name = "syrian_peasant_rural_mesh"	
+	scale_settings_small = { bias = 0 min = 0.9 max = 1.2 }
+	building_syrian_peasant_diorama_a_mesh = 0.2
+	building_syrian_peasant_diorama_b_mesh = 0.2
+	building_syrian_peasant_diorama_c_mesh = 0.2
+	building_syrian_peasant_diorama_d_mesh = 0.2
+	building_syrian_peasant_diorama_e_mesh = 0.2
+	building_syrian_peasant_diorama_f_mesh = 0.2
+	material_index = 0
+	spawn_count = { curve = "standard_pop_peasants_curve" }
+}
+
+###FORTS####
+
+mesh_list = {
+	name = "syrian_stockade_no_flag"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_syrian_stockade_mesh = 1
+    should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "syrian_stockade"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_syrian_stockade_mesh = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "syrian_fort"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_syrian_castle_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "syrian_bastion"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_syrian_bastion_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "syrian_starfort"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_syrian_starfort_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "syrian_fortress"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_syrian_fortress_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+###PORTS####
+
+mesh_list = {
+	name = "syrian_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_dock_mesh = 1
+	material_index = 0
+}
+
+mesh_list = {
+	name = "syrian_dry_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_dry_dock_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_shipyard_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_grand_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_grand_shipyard_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_naval_base"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_naval_base_mesh = 1
+	material_index = 1
+}
+
+##RELIGION##
+
+mesh_list = {
+	name = "syrian_small_clergy"
+	scale_settings_small = { bias = 0 min = 0.95 max = 1 }
+	building_syrian_clergy_small_mesh = 1
+	should_spawn_flags = no
+	material_index = 0
+}
+
+mesh_list = {
+	name = "syrian_medium_clergy"
+	scale_settings_small = { bias = 0 min = 0.95 max = 1 }
+	building_syrian_clergy_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_large_clergy"
+	scale_settings_large = { bias = 0 min = 0.95 max = 1 }
+	scale_settings_small = { bias = 0-5 min = 0.95 max = 10 }
+	building_syrian_clergy_large_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+##PRODUCTION##
+
+mesh_list = {
+	name = "syrian_factory"
+	scale_settings_small = { bias = -0.5 min = 2.5 max = 10 }
+	building_syrian_factory_a_schematic = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_factory_tier_2"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	building_syrian_factory_b_schematic = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_factory_tier_3"
+	scale_settings_small = { bias = -0.5 min = 1.3 max = 10 }
+	building_syrian_factory_c_schematic = 1
+	#building_northgerman_factory_a = 0.5
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_market"
+	scale_settings_small = { bias = -0.5 min = 0.7 max = 0.7 }
+	building_syrian_market_a_mesh = 1
+	building_syrian_market_b_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_peasants_gathering"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_syrian_peasant_industry_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_culture"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_syrian_culture_a_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_small_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_syrian_burgher_industry_small_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_medium_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_syrian_burgher_industry_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_republic_assembly"
+	scale_settings_large = { bias = 0 min = 0.95 max = 1 }
+	scale_settings_small = { bias = 0-5 min = 0.95 max = 10 }
+	building_syrian_republic_assembly_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+##MILITARY##
+
+mesh_list = {
+	name = "syrian_regimental_camp"
+	scale_settings_large = { bias = 0-5 min = 0.6 max = 0.7 }
+	building_syrian_regimentalcamp_mesh = 1
+	should_spawn_flags = no
+	material_index = 0
+}
+
+mesh_list = {
+	name = "syrian_medium_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_syrian_medium_military_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_noble_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_syrian_noble_military_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_armory"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_syrian_armory_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_barracks"
+	scale_settings_small = { bias = -0.5 min = 1 max = 1 }
+	building_syrian_barracks_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "syrian_training_fields"
+	scale_settings_small = { bias = 0-5 min = 0.6 max = 10 }
+	building_syrian_training_grounds_mesh = 1
+	should_spawn_flags = no
+	material_index = 0
+}
+
+mesh_list = {
+	name = "syrian_farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+
+	building_syrian_peasant_diorama_a_mesh = 100
+	building_syrian_peasant_diorama_b_mesh = 100
+	building_syrian_peasant_diorama_c_mesh = 100
+	building_syrian_peasant_diorama_d_mesh = 100
+	building_syrian_peasant_diorama_e_mesh = 100
+	building_syrian_peasant_diorama_f_mesh = 100
+	
+}
+
+mesh_list = {
+	name = "syrian_pirate_haven"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	
+	building_syrian_piratehaven_mesh = 10
+	should_spawn_flags = no
+	material_index = 1
+	
+}
+
+@noble_mesh_list	= syrian_noble
+@burgher_mesh_list	= syrian_burgher
+@peasant_mesh_list	= syrian_peasant
+@peasant_rural_mesh	= syrian_peasant_rural_mesh
+@farming_mesh_list = syrian_farming_mesh_list
+
+culture_data = {
+	graphical_culture = middle_east_gfx
+
+	#Special buildings
+	load_template player_buildings {
+
+			##PORTS##
+		default_bridge_meshes = syrian_bridges
+		dock_meshes = syrian_dock
+		dry_dock_meshes = syrian_dry_dock
+		shipyard_meshes = syrian_shipyard
+		grand_shipyard_meshes = syrian_grand_shipyard
+		naval_base_meshes = syrian_naval_base
+
+			##FORTS##
+
+		stockade_meshes = syrian_stockade
+		stockade_no_flag_meshes = syrian_stockade_no_flag
+		fort_meshes = syrian_fort
+		bastion_meshes = syrian_bastion
+		starfort_meshes = syrian_starfort
+		fortress_meshes = syrian_fortress
+
+
+			##PRODUCTION##
+
+		factory_meshes = syrian_factory
+		factory_tier_2_meshes = syrian_factory_tier_2
+		factory_tier_3_meshes = syrian_factory_tier_3
+		market_meshes = syrian_market
+		peasants_gathering_meshes = syrian_peasants_gathering
+		culture_meshes = syrian_culture
+		small_burgher_meshes = syrian_small_burgher
+		medium_burgher_meshes = syrian_medium_burgher
+		republican_assembly_meshes = syrian_republic_assembly
+
+		medium_military_meshes = syrian_medium_military
+		regimental_camp_meshes = syrian_regimental_camp
+		noble_military_meshes = syrian_noble_military
+		pirate_haven_meshes = syrian_pirate_haven
+		armory_meshes = syrian_armory
+		barracks_meshes = syrian_barracks
+		training_fields_meshes = syrian_training_fields
+	}
+	
+	load_template religius_buildings
+	{
+			##RELIGION##
+
+		small_clergy_meshes = syrian_small_clergy
+		medium_clergy_meshes = syrian_medium_clergy
+		large_clergy_meshes = syrian_large_clergy
+	}
+	
+	#Unique buildings
+	load_template unique_buildings
+	{
+		large_clergy_meshes = syrian_large_clergy
+		fort_meshes = syrian_fort
+		bastion_meshes = syrian_bastion
+	}
+
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{ farming_mesh_list = @farming_mesh_list 
+							  pork_livestock_override_meshlist = raw_livestock_mesh_list_cow
+							}
+}

@@ -1,0 +1,4 @@
+﻿l_turkish:
+ diseases.1.title: "Yeni Salgın"
+ diseases.1.desc: "[location_scope.GetName] halkı, amansız [disease.GetName] salgınına aileleri ve komşuları yenik düşerken çaresizlik içinde. Bir zamanlar canlılıkla dolu mahalleler şimdi endişe ve belirsizlikle yankılanıyor.\n\nNe yazık ki hastalığın topraklarımıza yayılmasını durdurmak için yapabileceğimiz çok az şey var."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

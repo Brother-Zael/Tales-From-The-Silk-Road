@@ -1,0 +1,9 @@
+﻿l_polish:
+ flavor_zzz.1.title: "Mury na obszarze [target_location.GetNameWithNoTooltip]"
+ flavor_zzz.1.desc: "Nasza rosnąca potęga militarna w regionie [ShowRegionName('guinea_region')] sprawia, że [target_location.GetName] to już nie tylko centrum kultury, ale i konfliktu. Z tych też powodów [target_character.GetName] pragnie wznieść mury na [Select_CString(target_character.IsFemale,'swoją','swoją')] cześć i dopilnować, by serce kraju, [target_location.GetRank.GetName], nigdy nie upadło."
+ flavor_zzz.1.a: "[target_location.GetNameWithNoTooltip] – chrońmy to miejsce."
+ flavor_zzz.1.b: "Na co komu mury."
+ flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] w ofensywie"
+ flavor_zzz.2.desc: "[target_character.GetName] i [Select_CString(target_character.IsFemale,'jej','jego')] [ROOT.GetCountry.GetGovernment.GetCourtTitle] są pomni tego, że [ROOT.GetCountry.GetName] rośnie w potęgę militarną, więc poczynili stosowne plany, by powiększyć nasze panowanie. Proponują jedno z dwojga: albo podbić naszych sąsiadów, albo przyjąć strategię bardziej defensywną, która zakładałaby ochronę wszelkich osiągniętych przez nas zdobyczy."
+ flavor_zzz.2.a: "Kroczmy naprzód i zdobywajmy!"
+ flavor_zzz.2.b: "Umocnijmy nasze bieżące zdobycze."

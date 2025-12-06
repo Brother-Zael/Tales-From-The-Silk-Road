@@ -1,0 +1,156 @@
+﻿l_korean:
+ #Continents
+ africa: "아프리카"
+ america: "아메리카"
+ asia: "아시아"
+ europe: "유럽"
+ oceania: "오세아니아"
+ ocean_continent: "세계의 대양"
+ #Subcontinents
+ #Africa
+ central_africa: "중앙아프리카"
+ east_africa: "동아프리카"
+ north_africa: "북아프리카"
+ southern_africa: "남아프리카"
+ west_africa: "서아프리카"
+ central_africa_region: "중앙아프리카"
+ #America
+ north_america: "북아메리카"
+ south_america: "남아메리카"
+ #Asia
+ central_asia: "중앙아시아"
+ china: "중국"
+ east_asia: "동아시아"
+ middle_east: "중동"
+ north_asia: "북아시아"
+ india: "인도"
+ south_asia: "남아시아"
+ hindustan_region: "힌두스탄"
+ south_east_asia: "동남아시아"
+ #Europe
+ eastern_europe: "동유럽"
+ western_europe: "서유럽"
+ #Oceania
+ pacific_islands: "태평양 제도"
+ australia: "오스트레일리아"
+ polynesia_region: "폴리네시아"
+ australasia: "오스트랄라시아"
+ #Ocean Continent
+ ocean_sub_continent: "오션"
+ north_atlantic_ocean_sub_continent: "북대서양"
+ south_atlantic_sub_continent: "남대서양"
+ indian_ocean_sub_continent: "인도양"
+ north_pacific_ocean_sub_continent: "북태평양"
+ south_pacific_ocean_sub_continent: "남태평양"
+ antarctic_ocean_sub_continent: "남극해"
+ atlantic_ocean_continent: "대서양"
+ indian_ocean_continent: "인도양"
+ pacific_ocean_continent: "태평양"
+ antarctic_ocean_continent: "남극해"
+ north_atlantic_islands_region: "북대서양 제도"
+ macaronesia_region: "마카로네시아"
+ central_india_region: "중앙인도"
+ #Regions
+ #Africa
+ #Central Africa
+ kongo_region: "콩고"
+ #East Africa
+ great_lakes_region: "오대호"
+ ethiopia_region: "에티오피아"
+ nubia_region: "누비아"
+ somalia_region: "소말리아"
+ madagascar_region: "마다가스카르"
+ swahili_coast_region: "스와힐리 해안"
+ #North Africa
+ egypt_region: "이집트"
+ maghreb_region: "마그레브"
+ #South Africa
+ southern_africa_region: "남아프리카"
+ zimbabwe_region: "짐바브웨"
+ southern_africa_islands_region: "남아프리카 제도"
+ #West Africa
+ sahel_region: "사헬"
+ guinea_region: "기니"
+ #America
+ #North America
+ canada_region: "캐나다"
+ east_coast_region: "동부 해안"
+ great_plains_region: "그레이트플레인스"
+ caribbean_region: "카리브해"
+ central_america_region: "중앙아메리카"
+ mesoamerica_region: "메소아메리카"
+ aridoamerica_region: "아리도아메리카"
+ west_coast_region: "서부 해안"
+ alaska_region: "알래스카"
+ #South America
+ brazil_region: "브라질"
+ colombia_region: "콜롬비아"
+ la_plata_region: "라플라타"
+ andes_region: "안데스"
+ chaco_region: "차코"
+ #Asia
+ #Central Asia
+ khorasan_region: "호라산"
+ #East Asia
+ east_china_region: "동중국"
+ japan_region: "일본"
+ korea_region: "한국"
+ manchuria_region: "만주"
+ mongolia_region: "몽골"
+ north_china_region: "북중국"
+ south_china_region: "남중국"
+ tibet_region: "티베트"
+ west_china_region: "서중국"
+ xinjiang_region: "신장"
+ #Middle East
+ anatolia_region: "아나톨리아"
+ arabia_region: "아라비아"
+ crescent_region: "크레센트"
+ persia_region: "페르시아"
+ #North Asia
+ east_siberia_region: "동시베리아"
+ west_siberia_region: "서시베리아"
+ #South Asia
+ bengal_region: "벵골"
+ deccan_region: "데칸"
+ western_india_region: "서인도"
+ #Southeast Asia
+ indochina_region: "인도차이나"
+ indonesia_region: "인도네시아"
+ #Europe
+ #Eastern Europe
+ balkan_region: "발칸"
+ carpathia_region: "카르파티아"
+ caucasus_region: "캅카스"
+ poland: "폴란드"
+ baltic_region: "발트"
+ ruthenia_region: "루테니아"
+ russian_region: "러시아"
+ steppes_region: "폰토스 스텝"
+ ural_region: "우랄"
+ #Western Europe
+ france_region: "프랑스"
+ great_britain_region: "영국"
+ iberia_region: "이베리아"
+ iberia_region_ADJ: "이베리아"
+ ireland_region: "아일랜드"
+ italy_region: "이탈리아"
+ north_german_region: "북독일"
+ scandinavian_region: "스칸디나비아"
+ south_german_region: "남독일"
+ #Oceania
+ #Australia
+ australia_region: "오스트레일리아"
+ #Polynesia
+ new_zealand_region: "뉴질랜드"
+ micronesia_region: "미크로네시아"
+ melanesia_region: "멜라네시아"
+ #Ocean Continent
+ #Ocean Subcontinent
+ ocean_region: "오션"
+ north_atlantic_ocean_region: "북대서양"
+ south_atlantic_region: "남대서양"
+ indian_ocean_region: "인도양"
+ north_pacific_ocean_region: "북태평양"
+ south_pacific_ocean_region: "남태평양"
+ antarctic_ocean_region: "남극해"

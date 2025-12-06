@@ -1,0 +1,9 @@
+﻿l_spanish:
+ flavor_jap_kor.1.title: "Ambición celestial"
+ flavor_jap_kor.1.desc: "La reunificación de [ShowRegionName('japan_region')] por fin se ha completado, bajo la atenta mirada de [ROOT.GetCountry.GetName]. Ahora que no hay más enemigos a los que enfrentarse, cada [ShowGovernmentReformName('daimyo')|l] podría abocarse a luchas intestinas o, peor aún, unirse contra nosotros para liberarse de nuestro dominio. No podemos permitirlo; por tanto, es fundamental que encontremos un nuevo conflicto para distraerlos, ¿y qué mejor conflicto que la conquista de $china$ y la expulsión [target_country2.GetAdjective|l]? Sin embargo, para ello, primero debemos conquistar [target_country.GetName]."
+ flavor_jap_kor.1.a: "¡A la guerra!"
+ flavor_jap_kor.1.b: "Debemos prepararnos para el conflicto."
+ flavor_jap_kor.1.c: "No iniciaremos un conflicto con nuestros vecinos."
+ flavor_jap_kor.2.title: "La guerra es inminente"
+ flavor_jap_kor.2.desc: "Si la reunificación de [ShowRegionName('japan_region')] no era lo bastante preocupante por sí misma, ahora nuestros peores temores se han hecho realidad: ¡el Estado militante [from_country.GetAdjective|l] nos ha declarado la guerra! Debemos preparar las tropas y la armada para su inevitable desembarco en [ShowRegionName('korea_region')]. Aunque sus motivos no están claros, sabemos que nos están tratando como un mero obstáculo en su camino hacia su verdadero objetivo: el [GetInternationalOrganization('middle_kingdom').GetName]."
+ flavor_jap_kor.2.a: "¡No pasarán!"

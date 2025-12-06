@@ -1,0 +1,8 @@
+﻿l_turkish:
+ flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Enterdi"
+ flavor_ven_papal_interdicts.1000.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle], sözde şehirde var olan ve [GetCountry('PAP').GetName] tarafına bir hakaret olarak algılanan dini fanatizmin özgürlüğüne bir yanıt olarak [ROOT.GetCountry.GetName] ülkesini enterdi altına aldı. Fakat bizim için açıktır ki bu, [GetCountry('PAP').GetName] ülkesinin kendi emellerini örtbas etmek için kullandığı bir katakulliydi."
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip] artık [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_ven_papal_interdicts.1000.b: "Yüce Papa karşısında diz çökelim."
+ flavor_ven_papal_interdicts.1001.title: "Günah Şehri"
+ flavor_ven_papal_interdicts.1001.desc: "[target_sinner_country.GetName] halkı, Tanrı karşısında aşırı derecede günahkâr ve sapkın bir hâle bürünmüş. Ticaretle dolup taşan bu şehirde tek bir erdemli adam dahi kalmamış. Orası, Tanrı'nın Oğlu'nun tapınaktan kovduğu türden insanlarla doluydu. Tanrı'nın yeryüzündeki temsilcileri olarak harekete geçmeliyiz!"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip], Sodom ve Gomora şehirleri gibi yok olacak!"

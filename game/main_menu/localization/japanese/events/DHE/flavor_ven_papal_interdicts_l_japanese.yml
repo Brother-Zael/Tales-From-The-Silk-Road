@@ -1,0 +1,8 @@
+﻿l_japanese:
+ flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の聖務禁止令"
+ flavor_ven_papal_interdicts.1000.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle]は[ROOT.GetCountry.GetName]を聖務停止処分にした。これは表向きには、我々の都市に存在する狂信的宗教の自由が[GetCountry('PAP').GetName]への不断の侮辱であることを理由としている。しかしその説明は、彼らが野心を遂げるための単なる口実であることは明白だ。"
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip]は[ROOT.GetCountry.GetNameWithNoTooltip]だ！"
+ flavor_ven_papal_interdicts.1000.b: "教皇聖下の意のままに。"
+ flavor_ven_papal_interdicts.1001.title: "罪の街"
+ flavor_ven_papal_interdicts.1001.desc: "[target_sinner_country.GetName]の住民は、神の御前にありながらあまりにも邪悪で罪深い。その商業都市には心正しい者はひとりもおらず、かつて神の御子が神殿から追い払ったような咎人どもに満ちている。信仰と秩序を守る者として、我々は行動を起こすべきだ！"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip]は、やがてソドムとゴモラと同じ運命を辿るだろう！"

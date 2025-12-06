@@ -1,0 +1,329 @@
+﻿###################
+#	Texture sets	#
+##################
+
+## Plain Materials ##
+pattern_textures = {
+	name = "taffeta_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "felt_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "burlap_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "linen_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "silk_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "leather_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "chainmail_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_properties.dds"
+}
+
+## Patterns ##
+pattern_textures = {
+	name = "deccan_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_01_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_02_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_03_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_low_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_low_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_low_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_scale_armor_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_scale_armor_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_scale_armor_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_scale_armor_01_properties.dds"
+}
+
+## Trims ##
+pattern_textures = {
+	name = "deccan_trims_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_trims_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_trims_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_trims_01_properties.dds"
+}
+pattern_textures = {
+	name = "deccan_trims_low_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_trims_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/deccan/deccan_trims_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+
+##################
+#	Layouts		#
+##################
+
+pattern_layout = {
+	name = "plain_fabric_layout"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_medium_layout"	
+	scale 		= { min = 0.2	max = 0.2 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_large_layout"	
+	scale 		= { min = 0.1	max = 0.1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_01"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_02"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.25	max = 0.25 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_03"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.50	max = 0.50 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_04"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.75	max = 0.75 } } 
+}
+
+###################
+#	Variations		#
+##################
+
+## Headwear
+variation = {
+	name = "deccan_commoner_headwear_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_low_01"				layout = "trims_fabric_layout_01" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_low_nobility_headwear_01.dds" }	
+}
+variation = {
+	name = "deccan_low_headwear_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_02" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 				layout = "trims_fabric_layout_02" }
+		a = { textures = "deccan_trims_low_01"				layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 				layout = "trims_fabric_layout_01" }
+		a = { textures = "deccan_trims_low_01"				layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_03" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 				layout = "trims_fabric_layout_03" }
+		a = { textures = "deccan_trims_low_01"				layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 				layout = "trims_fabric_layout_04" }
+		a = { textures = "deccan_trims_low_01"				layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_low_nobility_headwear_01.dds" }	
+}
+variation = {
+	name = "deccan_war_headwear_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_01" 						layout = "plain_fabric_layout" }
+		g = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_02" 						layout = "plain_fabric_layout" }
+		g = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_03" 						layout = "plain_fabric_layout" }
+		g = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_war_headwear_01.dds" }	
+}
+
+## Clothes
+variation = {
+	name = "deccan_commoner_clothes_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_low_nobility_clothes_01.dds" }	
+}
+variation = {
+	name = "deccan_low_clothes_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 						layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 						layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 					layout = "trims_fabric_layout_01" }
+		a = { textures = "deccan_trims_low_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_01" 						layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 						layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 					layout = "trims_fabric_layout_02" }
+		a = { textures = "deccan_trims_low_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_02" 						layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 						layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 					layout = "trims_fabric_layout_03" }
+		a = { textures = "deccan_trims_low_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_low_03" 						layout = "plain_fabric_medium_layout" }
+		g = { textures = "silk_plain_01" 						layout = "plain_fabric_layout" }
+		b = { textures = "deccan_trims_low_01" 					layout = "trims_fabric_layout_04" }
+		a = { textures = "deccan_trims_low_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_low_nobility_clothes_01.dds" }	
+}
+variation = {
+	name = "deccan_high_clothes_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_01" 						layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_02" 						layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_03" 						layout = "plain_fabric_medium_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_high_nobility_clothes_01.dds" }	
+}
+
+variation = {
+	name = "deccan_war_clothes_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "deccan_scale_armor_01" 			layout = "plain_fabric_medium_layout" }
+		g = { textures = "chainmail_plain_01" 				layout = "plain_fabric_medium_layout" }
+		b = { textures = "deccan_trims_01" 					layout = "trims_fabric_layout_01" }
+		a = { textures = "deccan_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+
+ 	color_palette = { weight = 1	texture = "gfx/portraits/accessory_variations/textures/color_palette_deccan_war_clothes_01.dds" }	
+}

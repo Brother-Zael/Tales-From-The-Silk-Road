@@ -1,0 +1,86 @@
+﻿#####################################
+#									#
+# 			Male					#
+#									#
+#####################################
+
+male_eyes = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyes_entity }
+}
+
+male_eyelashes = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyelashes_entity }
+}
+
+male_eyelashes_upper = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyelashes_upper_entity }
+}
+
+male_eyelashes_thick = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyelashes_thick_entity }
+}
+
+male_eyelashes_thick_upper = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyelashes_thick_upper_entity }
+}
+
+male_eyelashes_thick_upper_only = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_eyelashes_thick_upper_only_entity }
+}
+
+male_mouth_inside = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = male_mouth_inside_entity }
+}
+
+#####################################
+#									#
+# 			Female					#
+#									#
+#####################################
+
+female_eyes = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyes_entity }
+}
+
+female_eyelashes = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyelashes_entity }
+}
+
+female_eyelashes_upper = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyelashes_upper_entity }
+}
+
+female_eyelashes_thick = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyelashes_thick_entity }
+}
+
+female_eyelashes_thick_upper = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyelashes_thick_upper_entity }
+}
+
+female_eyelashes_thick_upper_only = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_eyelashes_thick_upper_only_entity }
+}
+
+female_mouth_inside = {
+  entity = {  required_tags = ""          shared_pose_entity = head   entity = female_mouth_inside_entity }
+}
+
+
+## Debug ##
+
+# male_european_ref = {
+#   entity = {  required_tags = ""          shared_pose_entity = head   entity = male_european_ref_entity }
+# }
+
+# female_european_ref = {
+#   entity = {  required_tags = ""          shared_pose_entity = head   entity = female_european_ref_entity }
+# }
+
+# male_asian_ref = {
+#   entity = {  required_tags = ""          shared_pose_entity = head   entity = male_asian_ref_entity }
+# }
+
+# female_asian_ref = {
+#   entity = {  required_tags = ""          shared_pose_entity = head   entity = female_asian_ref_entity }
+# }

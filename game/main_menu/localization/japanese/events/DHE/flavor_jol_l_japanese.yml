@@ -1,0 +1,6 @@
+﻿l_japanese:
+ flavor_jol.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]の転向"
+ flavor_jol.1.desc: "[ShowRegionName('guinea_region')]におけるわが国の影響力が増すなか、我々は征服した土地の[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]たちの要求にできるかぎり応じてきた。しかし、彼らはいまだ[ROOT.GetCountry.GetReligion.GetAdjective]や[ROOT.GetCountry.GetCulture.GetName]の価値観に順応しきれていない。統合を促進するためには、さらなる働きかけが必要かもしれない。"
+ flavor_jol.1.a: "[ROOT.GetCountry.GetNameWithNoTooltip]の安定のために！"
+ flavor_jol.1.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]を敵に回す必要はない。"
+ jol_convert_nobility_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')][pops|e]の#Y 15%#!が[ROOT.GetCountry.GetCulture.GetName]と[ROOT.GetCountry.GetReligion.GetName]に転向する"

@@ -1,0 +1,9 @@
+﻿l_french:
+ flavor_jap_kor.1.title: "Ambitions célestes"
+ flavor_jap_kor.1.desc: "La réunification du [ShowRegionName('japan_region')] est enfin achevée sous le regard vigilant de [ROOT.GetCountry.GetName]. N'ayant plus d'ennemis à affronter, nos [ShowGovernmentReformName('daimyo')] pourraient désormais s'entre-déchirer ou, pire encore, s'unir contre nous pour se libérer de notre domination. Nous ne pouvons permettre une telle issue, et il est donc impératif de trouver un nouveau conflit extérieur à mener. Et quel meilleur choix que la conquête de la $china$ et l'éviction des [target_country2.GetAdjective|l] ? Pour y parvenir toutefois, il nous faudra d'abord conquérir [target_country.GetName]."
+ flavor_jap_kor.1.a: "Aux armes !"
+ flavor_jap_kor.1.b: "Nous devons nous préparer à la guerre."
+ flavor_jap_kor.1.c: "Nous ne devons pas nous battre avec nos voisins."
+ flavor_jap_kor.2.title: "La guerre est imminente"
+ flavor_jap_kor.2.desc: "Comme si la réunification du [ShowRegionName('japan_region')] n'était pas déjà suffisamment préoccupante en soi, nos pires craintes se sont réalisées : l'État militant [from_country.GetAdjective] nous a déclaré la guerre ! Nous devons préparer nos troupes et notre marine à leur débarquement inévitable en [ShowRegionName('korea_region')]. Bien que leurs motivations restent obscures, une chose est certaine : nous ne sommes pour eux qu'un obstacle sur la route de leur véritable objectif : l'[GetInternationalOrganization('middle_kingdom').GetName]."
+ flavor_jap_kor.2.a: "Nous ne les laisserons pas passer !"

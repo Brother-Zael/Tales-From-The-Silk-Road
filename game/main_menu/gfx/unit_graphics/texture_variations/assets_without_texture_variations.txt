@@ -1,0 +1,18 @@
+﻿assets_without_texture_variation = {
+	resource_horse_a_unit_mesh
+	resource_horse_b_unit_mesh
+	resource_horse_c_unit_mesh
+	resource_horse_d_unit_mesh
+	resource_horse_e_unit_mesh
+	resource_horse_f_unit_mesh
+	resource_horse_g_unit_mesh
+	resource_horse_h_unit_mesh
+	unit_artillery_absolutism_mortar_mesh
+	unit_artillery_revolutions_field_canon_mesh
+	#unit_auxiliary_carriage_closed_mesh
+	unit_artillery_reformation_field_cannon_mesh
+	unit_artillery_discovery_field_cannon_mesh
+	unit_artillery_renaissance_field_cannon_mesh
+	unit_cavalry_mesh_mesh
+}
+ 

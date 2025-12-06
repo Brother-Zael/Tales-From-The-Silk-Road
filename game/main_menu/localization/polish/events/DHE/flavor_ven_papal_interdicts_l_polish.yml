@@ -1,0 +1,8 @@
+﻿l_polish:
+ flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]ki interdykt"
+ flavor_ven_papal_interdicts.1000.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle] nałożył interdykt na państwo [ROOT.GetCountry.GetName], rzekomo w odpowiedzi na panującą w mieście wolność religijną, która najwidoczniej wciąż stanowi afront, jakiego [GetCountry('PAP').GetName] nie jest w stanie wybaczyć. Jednakże doskonale wiemy, że jest to jedynie fortel, który ma na celu przysłużyć się papieskim ambicjom."
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip] to [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_ven_papal_interdicts.1000.b: "Ukorzmy się przed Ojcem Świętym."
+ flavor_ven_papal_interdicts.1001.title: "Miasto grzechu"
+ flavor_ven_papal_interdicts.1001.desc: "Lud państwa [target_sinner_country.GetName] zaprzedał się złu i niezmiernie grzeszy w oczach Pana. Nie masz ani jednej prawej duszy w tym mieście przekupniów, za to pełno tam kumotrów tych, których Syn Boży wpędził ze świątyni. Jako przedstawiciele Boga na ziemi, musimy działać!"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip] upadnie wzorem Sodomy i Gomory!"

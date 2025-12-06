@@ -1,0 +1,6 @@
+﻿l_polish:
+ flavor_bei.1.title: "Sułtan Brunei"
+ flavor_bei.1.desc: "#L [ShowReligionGroupAdjective('muslim')]a#! wiara rozlewa się po całej Azji Południowo-Wschodniej. [ROOT.GetCountry.GetGovernment.GetRuler.GetName] jest [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'rozczarowana','rozczarowany')] ograniczeniami dyplomatycznymi wynikającymi z tradycji wiary #L [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective|l]iej#!.\n\n[ROOT.GetCountry.GetGovernment.GetRuler.GetHeSheFormal|U] teraz błaga nas, byśmy nawrócili się na [ShowReligionGroupName('muslim')|l], gdyż otworzy to przed nami nowe opcje dyplomatyczne, a nawet pozwoli na mariaż z innymi władcami tej samej wiary.\n\nOczywiście wśród naszych lojalnych poddanych zapanowała ekscytacja, ale czy zmiana wyznania na pewno jest słusznym posunięciem?"
+ flavor_bei.1.a: "Wypowiemy szahadę."
+ flavor_bei.1.b: "Musimy uhonorować dawne tradycje."
+ flavor_bei.1.historical_info: "W okolicach 1360 roku hinduski radża Brunei, Awang Alak Betatar, przeszedł na islam. Zrobił to, by móc poślubić zagraniczną księżniczkę, najprawdopodobniej córkę sułtana Johoru. Po zmianie wyznania były radża zaczął być znany jako sułtan Mahomet Szach. Jego dynastia rządzi królestwem Brunei do dzisiaj, co sprawia, że to jeden z najstarszych monarszych rodów w historii."

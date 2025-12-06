@@ -1,0 +1,78 @@
+﻿### AZTEC ###
+
+#AGE_1_TRADITIONS
+south_american_gfx:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_tlitzitl_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_bandage_long_aztec_mesh" add_tags = "UnitLegs_naked" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_bandage_single_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+    #1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_tlitzitl_mesh" } } #AZTEC
+   
+}
+
+south_american_gfx:soldier_legs = {
+	skip_initial_check = yes
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_tlitzitl_mesh" required_tags = "legs_covered"  } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_lamellar_mesh" required_tags = "not(legs_covered)" add_tags = "UnitLegs_soft" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cueitl_aztec_mesh" required_tags = "not(legs_covered)" add_tags = "UnitLegs_soft" } }
+    default = {}
+}
+
+south_american_gfx:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_srtipes_mesh" add_tags = "UnitLegs_soft" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_fringe_mesh" add_tags = "UnitLegs_soft" required_tags = "not(crotch_covered)" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_feathers_mesh" add_tags = "UnitLegs_soft" required_tags = "not(crotch_covered)" } }
+}
+
+# AGE_3_DISCOVERY
+#south_american_gfx:age_3_discovery:peasant_legs =
+
+south_american_gfx:age_3_discovery:soldier_legs = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_aztecs_skirt_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_cotton_bronze_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_aztecs_coton_leather_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+}
+
+south_american_gfx:age_3_discovery:noble_legs = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_bump_sandals_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_breeches_sandals_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_feather_sandals_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+}
+
+# AGE_5_ABSOLUTISM
+south_american_gfx:age_5_absolutism:peasant_legs = {
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_leather_boots_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_capri_flip_flops_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_cloth_linen_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+}
+
+
+south_american_gfx:age_5_absolutism:soldier_legs = {
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_aztecs_cloth_leggings_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_boot_covers_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_breeches_lace_boot_mesh" add_tags = "UnitLegs_soft" } } #AZTEC
+}
+
+south_american_gfx:age_5_absolutism:noble_legs = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_breeches_gaiters_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_calzon_gaiters_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_gaiters_spurs_mesh"  add_tags = "UnitLegs_soft" } } #AZTEC
+}
+
+
+
+
+
+# AGE_6_REVOLUTIONS
+#south_american_gfx:age_6_revolutions:peasant_hats =
+
+south_american_gfx:age_6_revolutions:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boot_cuff_mesh" add_tags = "UnitLegs_heavy" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wool_socks_mesh" add_tags = "UnitLegs_medium" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_charro_mesh" add_tags = "UnitLegs_heavy" } }    
+}
+
+south_american_gfx:age_6_revolutions:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_uniform_boots_high_mesh" add_tags = "UnitLegs_heavy" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_uniform_long_mesh" add_tags = "UnitLegs_medium" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_uniform_boots_cavalier_mesh" add_tags = "UnitLegs_heavy" } }    
+}

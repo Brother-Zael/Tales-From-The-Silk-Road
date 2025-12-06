@@ -1,0 +1,13 @@
+﻿l_korean:
+ struggle_for_royal_power.1.title: "왕권 투쟁"
+ struggle_for_royal_power.1.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle](과)와 세임 사이의 긴장 관계가 파탄 직전에 이르렀습니다. [ROOT.GetCountry.GetGovernment.GetRulerTitle](은)는 아주 사소한 통치 행위를 행하는 데에도 슐라흐타와의 협의를 거쳐야 하며, 이들 귀족층이 사사건건 왕실에 반대할 구실을 찾는 탓에 기어코 완전히 인내심을 잃고 말았습니다. [ROOT.GetCountry.GetGovernment.GetRulerTitle](은)는 마침내 [ROOT.GetCountry.GetName]에서 세임의 권력을 몰아낼 때가 왔다고 결심했습니다."
+ struggle_for_royal_power.1.a: "슐라흐타에 전쟁을 선포하라."
+ struggle_for_royal_power.100.title: "왕권 투쟁 종식"
+ struggle_for_royal_power.100.desc: "오랜 정치 분쟁과 군사 충돌 끝에, [ROOT.GetCountry.GetName]에서의 위기가 종식되었습니다. 이제 [ROOT.GetCountry.GetName]의 실권이 어디에 있는지는 의심의 여지가 없습니다."
+ struggle_for_royal_power.100.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle](이)가 가장 위대하다!"
+ struggle_for_royal_power.100.b: "세임이 가장 위대하다!"
+ struggle_for_royal_power.100.c: "내전이 일어나면 [ROOT.GetCountry.GetName](은)는 멸망하고 말 것이다."
+ struggle_for_royal_power.10.title: "콘페데라치아"
+ struggle_for_royal_power.10.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName](이)가 세임에게서 권력을 박탈하기로 결심한 것과 마찬가지로, 세임 또한 [ROOT.GetCountry.GetGovernment.GetRuler.GetName]에 나름의 요구 사항을 전달했습니다. 미콜라이 젭지도브스키, 얀 슈쳉스니 헤르부르트, 스타니스와프 스타드니키, 알렉산데르 유제프 리소브스키, 야누스 라지비우가 스테지카와 루블린에서 로코슈, 다시 말해 준합법적 반란을 일으킨 것입니다. 로코슈에 가담한 귀족들은 콘페데라치아를 결성하고 67개 조항으로 이루어진 요구 사항을 통보했습니다. 이들은 '헨리크 조항'을 위반한 [ROOT.GetCountry.GetGovernment.GetRuler.GetName](을)를 폐위하고 관리 임명권을 [ROOT.GetCountry.GetGovernment.GetRulerTitle] 대신 세임에게 부여할 것을 요구했습니다."
+ struggle_for_royal_power.10.a: "콘페데라치아와 협상을 시도하라."
+ struggle_for_royal_power.10.b: "요구를 거부하라."

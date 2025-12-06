@@ -1,0 +1,7 @@
+﻿l_turkish:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! ve içindeki kayıtlar silinecek."
+ DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! silinecek."
+ FRONTEND_SAVE_EXIT_TEXT: "Oyunu otomatik olarak kaydet #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Ev Sahibi olarak oyundan ayrılırsan Çok Oyunculu Oyun sona erer ve diğer oyuncular birlikte oynayamaz."
+ FRONTEND_LEAVE_GAME_TEXT: "Ayrılırsan Çok Oyunculu Oyun sensiz devam eder"
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! kaydının üstüne yazılacak."

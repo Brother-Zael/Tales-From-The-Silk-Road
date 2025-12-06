@@ -1,0 +1,127 @@
+﻿### DECCAN
+#AGE_1_TRADITIONS
+	#PEASANT
+indian_gfx:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+	#MEDIUM
+indian_gfx:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_padded_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_turban_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_padded_plume_mesh" add_tags = "hair_covered" } }
+}
+	#HEAVY
+indian_gfx:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_crown_gem_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hemet_gold_feathers_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_velvet_mesh" add_tags = "hair_covered" } }
+}
+
+#AGE_2_RENAISSANCE
+	#PEASANT
+indian_gfx:age_2_renaissance:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+	#MEDIUM
+indian_gfx:age_2_renaissance:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+	#HEAVY
+indian_gfx:age_2_renaissance:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_crown_gem_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hemet_gold_feathers_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_velvet_mesh" add_tags = "hair_covered" } }
+}
+
+#AGE_3_DISCOVERY
+	#PEASANT
+indian_gfx:age_3_discovery:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+	#MEDIUM
+indian_gfx:age_3_discovery:soldier_hats = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_cotton_cap_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topy_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_pointed_chain_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_steel_mesh"  add_tags = "hair_covered"} }
+}
+	#HEAVY
+indian_gfx:age_3_discovery:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_metal_gold_feather_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_metal_mail_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_mail_brushes_mesh" add_tags = "hair_covered" } }
+}
+
+
+# AGE_4_REFORMATION
+	#PEASANT
+indian_gfx:age_4_reformation:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+
+	#MEDIUM
+indian_gfx:age_4_reformation:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_cotton_cap_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_pointed_chain_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_steel_mesh"  add_tags = "hair_covered"} }
+}
+
+	#HEAVY
+indian_gfx:age_4_reformation:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hemet_gold_feathers_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_velvet_mesh" add_tags = "hair_covered" } }
+}
+
+# AGE_5_ABSOLUTISM
+	#PEASANT
+indian_gfx:age_5_absolutism:light_tag::headgear = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+
+	#MEDIUM
+indian_gfx:age_5_absolutism:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_flat_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_cane_trassel_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_woll_feather_mesh"  add_tags = "hair_covered"} }
+}
+	#HEAVY
+indian_gfx:age_5_absolutism:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_jirre_mesh"  add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_khulla_turban_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_sateen_mesh" add_tags = "hair_covered" } }
+}
+
+# AGE_6_REVOLUTIONS
+
+	#PEASANT
+indian_gfx:age_6_revolutions:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_india_cotton_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_topi_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_high_bun_mesh" add_tags = "hair_covered" } }
+}
+
+	#MEDIUM
+indian_gfx:age_6_revolutions:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_sith_mesh" add_tags = "hair_covered"  } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_tilted_cap_mesh" add_tags = "hair_covered"  } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_daster_plume_mesh" add_tags = "hair_covered"  } }
+}
+
+	#HEAVY
+indian_gfx:age_6_revolutions:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_feather_mesh" add_tags = "hair_covered"  } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_wide_mesh" add_tags = "hair_covered"  } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_turban_trassel_tall_mesh" add_tags = "hair_covered"  } }
+}

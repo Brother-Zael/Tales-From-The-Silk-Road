@@ -1,0 +1,171 @@
+﻿wood = {
+	diffuse	= "woods/unit_material_wood_base_diffuse.dds"
+	normal		= "woods/unit_material_wood_base_normal.dds"
+	properties	= "woods/unit_material_wood_base_properties.dds"
+}
+
+wood_light = {
+	parent = wood
+	diffuse	= "woods/unit_material_wood_light_diffuse.dds"
+}
+
+
+wood_chestnut = {
+	parent = wood
+	diffuse	= "woods/unit_material_wood_chestnut_diffuse.dds"
+}
+
+wood_chestnut_strong = {
+	parent = wood
+	diffuse	= "woods/unit_material_wood_chestnut_strong_diffuse.dds"
+}
+
+wood_dark = {
+	parent = wood
+	diffuse	= "woods/unit_material_wood_dark_diffuse.dds"
+}
+
+wood_clean_base = {
+	diffuse	= "woods/unit_material_wood_clean_diffuse.dds"
+	normal		= "woods/unit_material_wood_clean_normal.dds"
+	properties	= "woods/unit_material_wood_clean_properties.dds"
+}
+
+wood_clean_grey_base = {
+	diffuse	= "woods/unit_material_wood_clean_grey_diffuse.dds"
+	normal		= "woods/unit_material_wood_clean_normal.dds"
+	properties	= "woods/unit_material_wood_clean_properties.dds"
+}
+
+wood_country_one = {
+	parent = wood_clean_grey_base
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.95 output = 0.95 }
+	}
+}
+
+wood_two_colors_base =
+{
+	parent = wood_clean_base
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 1.0 output = 1.0 }
+	}
+	repaint = {
+		input_name = secondary_color
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.8 hardness = 0.0 output = 1.0 }
+	}
+}
+
+wood_country_quarter = {
+	parent = wood_two_colors_base
+	mask_texture	= "two_color_quarter.dds"
+}
+
+wood_country_horizontal_split = {
+	parent = wood_two_colors_base
+	mask_texture	= "half_color_split.dds"
+}
+
+wood_country_colorsplit = {
+	parent = wood_two_colors_base
+	mask_texture	= "two_color_split.dds"
+}
+
+wood_country_topbar = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_01.dds"
+}
+
+wood_country_midbar = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_02.dds"
+}
+
+wood_country_verticalbar = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_03.dds"
+}
+
+wood_country_right_diagonalbar = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_04.dds"
+}
+
+wood_country_left_diagonalbar = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_05.dds"
+}
+
+wood_country_cross = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_06.dds"
+}
+
+wood_country_x = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_07.dds"
+}
+
+wood_country_chevron = {
+	parent = wood_two_colors_base
+	mask_texture	= "shield_masks_variants_08.dds"
+}
+
+cane_wood_dark = {
+	diffuse	= "woods/unit_material_cane_dark_diffuse.dds"
+	normal		= "woods/unit_material_cane_dark_normal.dds"
+	properties	= "woods/unit_material_cane_dark_properties.dds"
+}
+
+cane_wood_medium = {
+	diffuse	= "woods/unit_material_cane_medium_diffuse.dds"
+	normal		= "woods/unit_material_cane_medium_normal.dds"
+	properties	= "woods/unit_material_cane_medium_properties.dds"
+}
+
+cane_wood_light = {
+		diffuse	= "woods/unit_material_cane_light_diffuse.dds"
+		normal		= "woods/unit_material_cane_light_normal.dds"
+		properties	= "woods/unit_material_cane_light_properties.dds"
+}
+
+radial_rattan_a = {
+		diffuse	= "woods/unit_material_radial_rattan_diffuse.dds"
+		normal		= "woods/unit_material_radial_rattan_normal.dds"
+		properties	= "woods/unit_material_radial_rattan_properties.dds"
+}
+
+radial_rattan_b = {
+		diffuse	= "woods/unit_material_radial_rattan_b_diffuse.dds"
+		normal		= "woods/unit_material_radial_rattan_b_normal.dds"
+		properties	= "woods/unit_material_radial_rattan_b_properties.dds"
+}
+
+wood_planks_light = {
+		diffuse	= "woods/unit_material_wooden_planks_diffuse.dds"
+		normal		= "woods/unit_material_wooden_planks_normal.dds"
+		properties	= "woods/unit_material_wooden_planks_properties.dds"
+}
+
+wood_planks_dark = {
+		diffuse	= "woods/unit_material_wooden_planks_dark_diffuse.dds"
+		normal		= "woods/unit_material_wooden_planks_normal.dds"
+		properties	= "woods/unit_material_wooden_planks_properties.dds"
+}
+
+wood_horizontal = {
+	diffuse	= "woods/unit_material_wood_horizontal_diffuse.dds"
+	normal		= "woods/unit_material_wood_horizontal_normal.dds"
+	properties	= "woods/unit_material_wood_base_properties.dds"
+}
+
+wood_chestnut_horizontal = {
+	diffuse	= "woods/unit_material_wood_chestnut_horizontal_diffuse.dds"
+	normal		= "woods/unit_material_wood_horizontal_normal.dds"
+	properties	= "woods/unit_material_wood_base_properties.dds"
+}

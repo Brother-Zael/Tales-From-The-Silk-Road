@@ -1,0 +1,7 @@
+﻿l_french:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Peu d'hommes ont réussi dans la vie à la mesure de [target_character.GetName]. Issu d'une famille de marchands, [target_character.GetShortNameWithNoTooltip] a connu un incroyable succès dans ses affaires à travers l'[ShowRegionName('italy_region')]. L'ensemble du réseau commercial développé par sa famille représente une grande partie de la richesse qui circule dans la péninsule. Cependant, l'âge venant, le célèbre marchand souhaite rentrer chez lui pour investir dans nos marchés, allant même jusqu'à apporter de nombreuses innovations venant d'[ShowRegionNameWithNoTooltip('italy_region')]..."
+ flavor_nur.1.a: "Bienvenue au pays !"
+ flavor_nur.1.b: "Nous ne pouvons nous permettre de telles frivolités."
+ flavor_nur.1.c: "Nous devons respectueusement refuser..."
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] va disparaître"

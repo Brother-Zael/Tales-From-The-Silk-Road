@@ -1,0 +1,181 @@
+﻿node_editor_meta={
+	view={
+		position={ 401.523560 119.458099 }
+		zoom=0.889744
+	}
+	nodes={
+		0={
+			position={ 427.314789 -398.185211 }
+		}
+		1={
+			position={ -444.499969 352.000031 }
+		}
+		2={
+			position={ -238.593781 83.976974 }
+		}
+		3={
+			position={ 1306.791138 557.054138 }
+		}
+		4={
+			position={ 1651.032227 353.793304 }
+		}
+		5={
+			position={ 1277.406250 362.899963 }
+		}
+		6={
+			position={ -74.500008 351.500031 }
+		}
+		7={
+			position={ -32.977814 728.412781 }
+		}
+		8={
+			position={ -98.000000 476.500061 }
+		}
+		9={
+			position={ 415.500092 282.000031 }
+		}
+		10={
+			position={ 1048.559937 634.566650 }
+		}
+		11={
+			position={ 1020.867981 726.105103 }
+		}
+		12={
+			position={ 586.291016 174.246231 }
+		}
+		14={
+			position={ 1915.868164 314.438416 }
+		}
+		15={
+			position={ 874.367859 -30.292269 }
+		}
+		39={
+			position={ 268.214233 494.323181 }
+		}
+		56={
+			position={ 92.024963 928.718262 }
+		}
+		60={
+			position={ -247.288788 921.661133 }
+		}
+		64={
+			position={ 1225.045898 234.946075 }
+		}
+		13={
+			position={ 1001.290955 13.553891 }
+			inlined=yes
+		}
+		16={
+			position={ 1001.290955 13.553891 }
+			inlined=yes
+		}
+		17={
+			position={ 1001.290955 13.553891 }
+			inlined=yes
+		}
+		18={
+			position={ 1001.290955 13.553891 }
+			inlined=yes
+		}
+		19={
+			position={ 1001.290955 13.553891 }
+			inlined=yes
+		}
+		20={
+			position={ 1408.175659 551.361572 }
+			inlined=yes
+		}
+		21={
+			position={ 452.500092 303.000031 }
+			inlined=yes
+		}
+		22={
+			position={ 383.000031 446.500031 }
+			inlined=yes
+		}
+		23={
+			position={ 383.000031 446.500031 }
+			inlined=yes
+		}
+		24={
+			position={ 980.752502 412.361572 }
+			inlined=yes
+		}
+		25={
+			position={ 452.500092 303.000031 }
+			inlined=yes
+		}
+		26={
+			position={ 452.500092 303.000031 }
+			inlined=yes
+		}
+		27={
+			position={ 158.560715 737.643494 }
+			inlined=yes
+		}
+		28={
+			position={ 158.560715 737.643494 }
+			inlined=yes
+		}
+		29={
+			position={ 117.500008 548.000061 }
+			inlined=yes
+		}
+		30={
+			position={ 117.500008 548.000061 }
+			inlined=yes
+		}
+		31={
+			position={ 124.290901 167.246231 }
+			inlined=yes
+		}
+		32={
+			position={ 124.290901 167.246231 }
+			inlined=yes
+		}
+		33={
+			position={ 124.290901 167.246231 }
+			inlined=yes
+		}
+		34={
+			position={ 124.290901 167.246231 }
+			inlined=yes
+		}
+		35={
+			position={ 124.290901 167.246231 }
+			inlined=yes
+		}
+		36={
+			position={ 980.752502 412.361572 }
+			inlined=yes
+		}
+		37={
+			position={ 158.560715 737.643494 }
+			inlined=yes
+		}
+		38={
+			position={ 117.500008 548.000061 }
+			inlined=yes
+		}
+		55={
+			position={ 166.022232 451.335815 }
+			inlined=yes
+		}
+		57={
+			position={ 1583.194336 282.868927 }
+			inlined=yes
+		}
+		61={
+			position={ 132.034058 1071.704224 }
+			inlined=yes
+		}
+		62={
+			position={ 132.034058 1071.704224 }
+			inlined=yes
+		}
+		63={
+			position={ 132.034058 1071.704224 }
+			inlined=yes
+		}
+	}
+}

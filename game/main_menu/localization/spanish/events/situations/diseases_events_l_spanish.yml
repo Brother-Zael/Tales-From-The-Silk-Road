@@ -1,0 +1,4 @@
+﻿l_spanish:
+ diseases.1.title: "Un nuevo brote"
+ diseases.1.desc: "Los habitantes de [location_scope.GetName] se desesperan mientras sus familias y vecinos sucumben al implacable brote de [disease.GetName|l] que actualmente se propaga por toda la zona. Los barrios que antes bullían de actividad ahora resuenan con preocupación e incertidumbre.\n\nDesgraciadamente, poco podemos hacer para detener la propagación de la enfermedad por todo nuestro territorio."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

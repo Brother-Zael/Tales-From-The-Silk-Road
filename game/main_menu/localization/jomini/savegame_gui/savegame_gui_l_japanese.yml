@@ -1,0 +1,7 @@
+﻿l_japanese:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "「#T $SAVE_NAME$#!」のプレイスルーとそのセーブデータが削除されます。"
+ DELETE_SAVE_CONFIRMATION_DESC: "「#T $SAVE_NAME$#!」が削除されます。"
+ FRONTEND_SAVE_EXIT_TEXT: "ゲームの進行状況をオートセーブ「#high $SAVE_NAME$#!」としてセーブします。"
+ FRONTEND_END_GAME_TEXT: "ホストのプレイヤー（あなた）がゲームを離れるとマルチプレイは終了し、すべてのプレイヤーは解散します。"
+ FRONTEND_LEAVE_GAME_TEXT: "ホスト以外のプレイヤー（あなた）がゲームを離れても、マルチプレイは続行します。"
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "「#T $SAVE_NAME$#!」は上書きされます。"

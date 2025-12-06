@@ -1,0 +1,5 @@
+﻿l_spanish:
+ flavor_sca.1.title: "La unificación de [ShowRegionNameWithNoTooltip('scandinavian_region')]"
+ flavor_sca.1.desc: "Por primera vez en la historia, todos los reinos de [ShowRegionName('scandinavian_region')] se han unido bajo un solo soberano. Esta unificación monumental marca una nueva era en nuestra historia y nos convierte en una gran potencia en Europa. Con la consolidación de estos reinos del norte, no solo hemos unificado nuestra influencia cultural y política, sino que también hemos reforzado nuestra posición en asuntos internacionales."
+ flavor_sca.1.a: "¡Una victoria triunfal!"
+ flavor_sca.1.historical_info: "Históricamente, la unificación de Escandinavia como un único reino centralizado no llegó a completarse del todo. Aunque diversas uniones entre los reinos, como la Unión de Kalmar a finales del siglo XIV y principios del XV y los esfuerzos del Imperio sueco en el siglo XVII, representaron intentos significativos de consolidar el poder escandinavo bajo un Gobierno unificado, al final resultaron demasiado breves o inefectivos."

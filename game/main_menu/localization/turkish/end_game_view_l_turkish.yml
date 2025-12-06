@@ -1,0 +1,12 @@
+﻿l_turkish:
+ END_GAME_VIEW_LOSING_TITLE: "Oyun Bitti"
+ END_GAME_VIEW_LOSING_TEXT: "Ulusumuz, komşularımız kadar güçlü ve azimli olmadığı için yaşanan olaylardan sağ çıkamadı. [COUNTRY.GetAdjective] halkı gelecekte yalnızca uzmanların yok olma sebeplerimizi inceleyeceği müzelerde hatırlanacak."
+ END_GAME_VIEW_SURVIVING_TITLE: "Tarih Kitabında Kısa Bir Paragraf"
+ END_GAME_VIEW_SURVIVING_TEXT: "Gururlu ulusumuz yüzlerce yıl boyunca zorlukların, savaşların ve sıkıntıların üstesinden gelebildi ancak [COUNTRY.GetAdjective] halkı kayda değer çok az şey başardı. Muazzam medeniyetler inşa etmiş ve büyük savaşlar kazanmış devlerle dolu bu dünyada bizden birkaç cümleyle bahsedilecek."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Büyük Güç"
+ END_GAME_VIEW_GREAT_TEXT: "Heybetli ulusumuz bir Büyük Güç olarak kabul görüyor. Tebrikler, [COUNTRY.GetAdjective] halkı bulunduğumuz çağın en refah içinde yaşayan ve prestijli toplumları arasında, ayrıca hükümdarımız en üstün başarı ödülünü kazandı."
+ CONTINUE_PAST_END_DATE: "Oynamaya devam et"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Oynamaya devam et\nBu noktadan sonra başarımlar devre dışı bırakılacak"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Oyunu bitir ve ana menüye dön"
+ END_GAME_VIEW_OBSERVE: "Gözlemle"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Gözlemci modunda devam et"

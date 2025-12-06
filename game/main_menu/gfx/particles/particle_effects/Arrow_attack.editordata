@@ -1,0 +1,125 @@
+﻿node_editor_meta={
+	view={
+		position={ 41.719391 13.853195 }
+		zoom=0.900179
+	}
+	nodes={
+		1={
+			position={ 383.000000 787.000000 }
+		}
+		6={
+			position={ 298.839996 997.739563 }
+		}
+		7={
+			position={ 930.878418 659.818359 }
+		}
+		8={
+			position={ 356.000000 30.000000 }
+		}
+		10={
+			position={ 49.983665 1007.197571 }
+		}
+		12={
+			position={ 801.888672 217.484146 }
+		}
+		16={
+			position={ 495.892822 546.880981 }
+		}
+		21={
+			position={ 0.000000 840.000000 }
+		}
+		22={
+			position={ 864.500732 37.005936 }
+		}
+		28={
+			position={ -79.839935 682.850159 }
+		}
+		31={
+			position={ 1815.605103 861.774414 }
+		}
+		0={
+			position={ 350.000000 375.000000 }
+			inlined=yes
+		}
+		2={
+			position={ 350.000000 375.000000 }
+			inlined=yes
+		}
+		3={
+			position={ 286.000000 300.000000 }
+			inlined=yes
+		}
+		4={
+			position={ 413.000000 735.000000 }
+			inlined=yes
+		}
+		5={
+			position={ 581.000000 356.000000 }
+			inlined=yes
+		}
+		9={
+			position={ 175.148621 45.580219 }
+			inlined=yes
+		}
+		11={
+			position={ 267.000000 461.000000 }
+			inlined=yes
+		}
+		13={
+			position={ 143.000000 176.000000 }
+			inlined=yes
+		}
+		14={
+			position={ 286.000000 300.000000 }
+			inlined=yes
+		}
+		15={
+			position={ 143.000000 176.000000 }
+			inlined=yes
+		}
+		17={
+			position={ 350.000000 375.000000 }
+			inlined=yes
+		}
+		18={
+			position={ 295.000000 83.000000 }
+			inlined=yes
+		}
+		19={
+			position={ 413.000000 735.000000 }
+			inlined=yes
+		}
+		20={
+			position={ 413.000000 735.000000 }
+			inlined=yes
+		}
+		23={
+			position={ 267.000000 461.000000 }
+			inlined=yes
+		}
+		24={
+			position={ 1913.855103 936.774414 }
+			inlined=yes
+		}
+		25={
+			position={ 350.000000 375.000000 }
+			inlined=yes
+		}
+		26={
+			position={ 302.304932 203.351196 }
+			inlined=yes
+		}
+		27={
+			position={ 302.304932 203.351196 }
+			inlined=yes
+		}
+		29={
+			position={ 1913.855103 936.774414 }
+			inlined=yes
+		}
+		30={
+			position={ 175.148621 45.580219 }
+			inlined=yes
+		}
+	}
+}

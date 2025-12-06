@@ -1,0 +1,41 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		timeline_layer={
+			timeline="wolf_walk_cycle_animation"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 7"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"wolf_walk_cycle_animation"={
+		boundary_behavior=loop
+		duration=0.321970
+		starttime_offset=0.000000
+		playback_rate=0.200000
+		layer=0
+		animation="wolf_walk_cycle_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 7"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

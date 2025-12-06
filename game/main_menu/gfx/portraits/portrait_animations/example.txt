@@ -1,0 +1,62 @@
+﻿# The choice is made based on a weighted random, but the first weight that evaluates to >= 100 will be automatically chosen
+
+#my_animation = {										#Name of the animation, this is the name events and gui scripts reference. If no item has a weight > 0 no item will be selected
+#	male = {											#Animations are scripted for each portrait type, all types needs to be scripted
+#		default = { head = "idle" torso = "idle" }		#Default animation used if no item has a weight > 0, or if it is used in a non scripted environment
+#		
+#		evil = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+#			animation = { head = "evil" torso = "evil" }
+#			
+#			weight = {									#This is where the weight is calculated
+#				base = 1								#The final weight is calculated like this:
+#														# weight = base
+#														# for each modifier
+#														#	weight *= modifier factor
+#														#	weight += modifier add
+#				modifier = {
+#					add = 10
+#					has_trait = evil 
+#				}
+#				modifier = {
+#					factor = 0
+#					has_profession = programmer
+#				}
+#			}
+#		}
+#    }
+#	
+#	boy = {
+#   	default = { head = "idle_boy" torso = "idle_boy" }
+#	}
+#	
+#	female = {
+#		default = { head = "idle" torso = "idle" }
+#	}
+#	girl = female
+#}
+
+
+
+# idle = {
+# 	male = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	female = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	adolescent_boy = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	adolescent_girl = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	boy = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	girl = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# 	infant = {
+# 		default = { head = "idle" torso = "idle" }
+# 	}
+# }

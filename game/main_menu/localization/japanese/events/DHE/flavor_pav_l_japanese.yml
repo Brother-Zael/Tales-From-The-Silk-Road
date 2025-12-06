@@ -1,0 +1,11 @@
+﻿l_japanese:
+ flavor_pav.1.title: "[expelled_ruler.GetDynasty.GetNameWithNoTooltip]の追放"
+ flavor_pav.1.desc: "またしても[expelled_ruler.GetDynasty.GetName]に対する反乱が勃発し、[ROOT.GetCountry.GetCapital.GetName]の街は炎に包まれた。今回はカリスマ的な聖職者[pav_iacopo_bussolari_scope.GetName]が主導し、街全体を[ROOT.GetCountry.GetGovernment.GetRulerTitle]に対立させている。このままでは[expelled_ruler.GetName]は逃亡を余儀なくされ、[ShowDynastyName('visconti_dynasty')]家の悪徳に身を投じざるを得なくなる。"
+ flavor_pav.1.historical_info: "1356年、修道士ヤコポ・ブッソラーリは民衆反乱を率いて、ベッカリーア家をパヴィーアから追放した。その後、パヴィーアがミラノのヴィスコンティ家によって包囲された際、ブッソラーリはこの都市を陥落の危機から救うことに貢献した。追放されたベッカリーア家がヴィスコンティと結託すると、1359年にパヴィーアはミラノに陥落。ベッカリーア家の特権は一部回復されたが、パヴィーアはミラノの支配下に置かれたままとなった。"
+ flavor_pav.1.a: "彼の説教に従え！"
+ flavor_pav.1.b: "この動乱に抵抗しなければ。"
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "[target_country.GetName]でカリスマ的な[pav_iacopo_bussolari_scope.GetName]に率いられた民衆反乱が起こったとの報せが届いた。その扇動のもと、[target_country.GetCapital.GetNameWithNoTooltip]市民は[expelled_ruler.GetName]を含む[expelled_ruler.GetDynasty.GetName]家を追放し、都を解放した。[expelled_ruler.GetDynasty.GetNameWithNoTooltip]は、過去に対立した我々に助けを求めてきた。これはこの都市を完全に手中に収めるいい機会かもしれない。"
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "この混乱を利用せよ。"
+ flavor_pav.2.b: "我々が関わることではない。"

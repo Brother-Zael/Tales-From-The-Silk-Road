@@ -1,0 +1,4 @@
+﻿l_russian:
+ diseases.1.title: "Новая вспышка"
+ diseases.1.desc: "Жители [location_scope.Custom('LR_RP')|l] [location_scope.GetName] в отчаянии: жизни их соседей и близких уносит вспышка страшной болезни под названием [disease.GetName|l], охватившей всю область. Шум радостных голосов стих, и на его место пришла тревожная и неуверенная тишина.\n\nК сожалению, мы мало что можем сделать, чтобы не дать эпидемии распространиться."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

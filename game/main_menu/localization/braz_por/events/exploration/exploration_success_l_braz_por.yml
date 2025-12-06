@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ exploration_success.1.title: "Aspirante Notável"
+ exploration_success.1.desc: "Após o retorno bem-sucedido da expedição em [target.GetName], soubemos que [actor.GetName] tem muito interesse em um jovem oficial promissor, que serviu à expedição com bastante excelência."
+ exploration_success.1.a: "Coloque-o no comando das próprias expedições."
+ exploration_success.1.b: "Precisamos de bons aspirantes."

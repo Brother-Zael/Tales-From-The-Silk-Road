@@ -1,0 +1,12 @@
+﻿l_polish:
+ border_friction.1.title: "Napięcia na granicy"
+ border_friction.1.desc: "Nie wszyscy są zadowoleni z naszego aliażu z państwem [border_claim_country.GetLongName]. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] mają w swoich szeregach wpływowe stronnictwo, które dąży do zakończenia sojuszu, skupiając swoje wysiłki na prowincji [border_claim_province.GetName] znajdującej się w rękach kraju [border_claim_country.GetNameWithNoTooltip], choć wielu podnosi, że to my winniśmy być prawowitymi władcami tych ziem. Przeciwnikom sojuszu udało się wywołać powszechne oburzenie tym stanem rzeczy!"
+ border_friction.1.a: "Być może należałoby rozważyć zmianę polityki..."
+ border_friction_from_event: "Niezadowolenie z powodu roszczeń"
+ border_friction.1.b: "Przedstaw sprawę w korzystnym świetle!"
+ border_friction.1.c: "Zrzeknij się roszczeń."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "„[border_claim_province.GetName] to należna nam ziemia, znajdująca się w rękach obcych nacji, a mimo to nasz rząd zachowuje bierność! Jakiż z niego pożytek?” – ogłasza nagłówek jednej z gazet, wzywając do wojny z państwem [border_claim_country.GetLongName].\n\nW związku z naszym brakiem starań, by włączyć do macierzy terytoria, do których wysuwamy roszczenia, przez kraj przetacza się fala niezadowolenia, podsycana przez kalumnie w prasie."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Zrzeknij się roszczeń."

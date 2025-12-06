@@ -1,0 +1,52 @@
+﻿###############################################
+# horses
+###############################################
+
+cavalry = {
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "unit_cavalry_mesh_mesh" add_tags = "cavalry" } }
+}
+
+horses = {
+	skip_initial_check = yes
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_a_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_b_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_c_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_d_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_e_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_f_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_g_unit_mesh" add_tags = "cavalry"} }
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "resource_horse_h_unit_mesh" add_tags = "cavalry"} }
+}
+
+###############################################
+# camels
+###############################################
+
+camelry = {
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "unit_camelry_mesh_mesh" add_tags = "camelry" } } #test
+}
+
+
+
+
+###############################################
+# elephants
+###############################################
+
+elephantry = {
+	1 = { add_entity = { node = shared_pose_entity mesh_name = "unit_elephantry_mesh_mesh" add_tags = "elephantry" } } #test
+}
+
+# elephants = {
+# 	skip_initial_check = yes
+# 	1 = { add_entity = { node = shared_pose_entity mesh_name = "unit_elephantry_mesh_mesh" add_tags = "elephantry" } } #test
+# }
+
+# elephants = {
+#	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unitgfx_elephant_a_entity" required_tags = "cavalry" } }
+# }
+
+# elephants = {# 
+	# 1 = { add_entity = { node = shared_pose_entity entity = "unitgfx_elephant_a_entity" add_tags = "cavalry"} }
+# }
+

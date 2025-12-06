@@ -1,0 +1,13 @@
+﻿example_movement_component = {
+	aggregate_members = {
+		velocity = {
+			type_name = Vector3f
+		}
+		acceleration = {
+			type_name = Float
+		}
+		max_velocity = {
+			type_name = Float
+		}
+	}
+}

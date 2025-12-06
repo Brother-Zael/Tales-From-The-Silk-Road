@@ -1,0 +1,9 @@
+﻿l_japanese:
+ building.1.title: "[new_university.GetNameWithNoTooltip]大学"
+ building.1.desc: "白熱した一連の議論が暴力沙汰に発展し、[old_university.GetName]大学の学者らが[new_university.GetName]へ逃走、そこに新たな教育機関の設立を計画した。\n\n相当数が[old_university.GetNameWithNoTooltip]卒業生である[ROOT.GetCountry.GetAdjective]の[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]から、この教育的反乱を鎮圧してほしいという嘆願が届いている。"
+ building.1.a: "新しい教育機関を奨励する。"
+ building.1.b: "逃げた者に[old_university.GetNameWithNoTooltip]に戻るように命じる。"
+ building.2.title: "学生と街"
+ building.2.desc: "[university.GetName]大学の生徒たちは[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]の権威の庇護下にあり、地元の市民とは異なる権利が与えられている。これらの異質なコミュニティ同士の生活圏が近いため、お互いへの不信が煽られ、最近ではその不信感が暴動にまでエスカレートしてしまった。"
+ building.2.a: "大学側に味方する。"
+ building.2.b: "市民側に味方する。"

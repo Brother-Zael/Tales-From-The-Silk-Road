@@ -1,0 +1,5 @@
+﻿l_polish:
+ flavor_brb.1.title: "Rozkwit portu [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "Miasto [target_location.GetName] zawsze było ważnym portem państwa [ROOT.GetCountry.GetName], umożliwiając nam wzmacnianie pozycji naszych kupców w regionie [target_market.GetName]. Ostatnio jednak [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] z miasta [target_location.GetRank.GetName] wspięli się na wyżyny rozwoju. Teraz planują rozbudować port w mieście."
+ flavor_brb.1.a: "Miasto [target_location.GetNameWithNoTooltip] zasługuje na nasze wsparcie."
+ flavor_brb.1.b: "Nie mamy środków na kolejny port."

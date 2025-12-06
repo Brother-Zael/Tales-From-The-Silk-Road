@@ -1,0 +1,11 @@
+﻿l_french:
+ flavor_ice.10.title: "Évêchés de [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_ice.10.desc: "Le credo [ROOT.GetCountry.GetReligion.GetAdjective|l] a longtemps été une partie importante du quotidien [ROOT.GetCountry.GetAdjective|l]. Cependant, il existe deux évêchés distincts sur l'île : [target_location.GetName] et [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip], en [target_location.GetProvince.GetName], a la réputation d'être plus indépendante et autonome, tandis que [skalholt.GetNameWithNoTooltip], en [skalholt.GetProvince.GetName], est plus fidèle à [overlord.GetLongName].\n\nAlors que [ROOT.GetCountry.GetNameWithNoTooltip] va de l'avant, il sera crucial de considérer le caractère unique de chaque évêché."
+ flavor_ice.10.a: "Soutenons le [target_location.GetNameWithNoTooltip] indépendant."
+ flavor_ice.10.b: "Attirons-nous les faveurs de l'évêque [overlord.GetAdjectiveWithNoTooltip|l]."
+ opinion_opposed_our_bishop: "Opposition à notre évêque"
+ opinion_supported_our_bishop: "Soutien envers notre évêque"
+ flavor_ice.11.title: "Le Huldufólk"
+ flavor_ice.11.desc: "Les histoires sur le Huldufólk, un peuple mystique caché, ont pendant des siècles captivé le peuple [ROOT.GetCountry.GetCulture.GetName|l]. Ces elfes mystérieux vivraient au cœur des rochers et des montagnes de l'Islande.\n\nÀ présent, le projet de construction d'un lieu de culte [ROOT.GetCountry.GetReligion.GetAdjective|l] dans une zone de [target_location.GetName] qui appartiendrait au Huldufólk, a fait survenir un nouveau problème.\n\nLa [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] craint que le déplacement des rochers où vivent le Huldufólk ait des conséquences catastrophiques. Le [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], naturellement, rejette fermement l'existence des êtres invisibles. Il en revient donc à la [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] de régler ce conflit spirituel pour décider du sort du projet de construction."
+ flavor_ice.11.a: "Respectons les croyances et abandonnons l'église."
+ flavor_ice.11.b: "Ignorons ces superstitions et construisons l'église."

@@ -1,0 +1,11 @@
+﻿l_polish:
+ flavor_ice.10.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]kie biskupstwa"
+ flavor_ice.10.desc: "Wiara #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ka#! przez długi czas była ważną częścią #L [ROOT.GetCountry.GetAdjective|l]kiego#! życia. Jednakże na wyspie mamy dwa odrębne biskupstwa: [target_location.GetName] oraz [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip] w prowincji [target_location.GetProvince.GetName] posiada reputację podmiotu bardziej niezależnego i samowystarczalnego, podczas gdy [skalholt.GetNameWithNoTooltip] w prowincji [skalholt.GetProvince.GetName] postrzegany jest jako jednostka silniej współpracującą z władzą zwierzchnią, którą jest [overlord.GetLongName].\n\nW miarę jak [ROOT.GetCountry.GetNameWithNoTooltip] posuwa się naprzód, ważne będzie uwzględnienie niepowtarzalnego charakteru obu biskupstw."
+ flavor_ice.10.a: "Wspierajmy niezależność biskupstwa [target_location.GetNameWithNoTooltip]."
+ flavor_ice.10.b: "Zjednajmy sobie [overlord.GetAdjectiveWithNoTooltip|l]kiego biskupa."
+ opinion_opposed_our_bishop: "Sprzeciw wobec naszego biskupa"
+ opinion_supported_our_bishop: "Wsparcie naszego biskupa"
+ flavor_ice.11.title: "Huldufólk"
+ flavor_ice.11.desc: "[ROOT.GetCountry.GetCulture.GetName] ludność od dawien dawna zachwyca się opowieściami o huldufólk, czyli tajemniczych ukrytych ludziach. Uważa się, że te nieuchwytne elfy zamieszkują wnętrze skał oraz gór Islandii.\n\nZaistniała jednak nowa sytuacja, gdyż pojawiły się plany wybudowania #L [ROOT.GetCountry.GetReligion.GetAdjective|l]kiego#! kościoła na obszarze [target_location.GetName], który według wierzeń należy do ukrytych ludzi.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] obawiają się, że zakłócanie spokoju wokół skał, w których mieszkają huldufólk, przyniesie tragiczne konsekwencje. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], rzecz jasna, stanowczo negują istnienie niewidzialnych bytów. [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] musi teraz rozstrzygnąć ten duchowy spór i zadecydować o losie planowanej budowli."
+ flavor_ice.11.a: "Uszanujmy wierzenia i porzućmy plany budowy kościoła."
+ flavor_ice.11.b: "Zignorujmy zabobony i wybudujmy kościół."

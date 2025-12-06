@@ -1,0 +1,5 @@
+﻿l_korean:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "기병대는 [ROOT.GetCountry.GetName]의 주요 전력입니다. 이에 [target_character.GetName](은)는 [ShowUnitDefinitionName('a_esho_cavalry_oyo')]라는 정예 부대를 창설하기로 했습니다. 그렇게 창설된 부대를 특수 연대로 활용하는 방안이 있고, 아니면 나머지 군대와 통합할 수도 있습니다."
+ flavor_oyo.1.a: "나머지 군대와 분리해서 운용하겠다."
+ flavor_oyo.1.b: "다른 연대와 함께 행동하도록 하라."

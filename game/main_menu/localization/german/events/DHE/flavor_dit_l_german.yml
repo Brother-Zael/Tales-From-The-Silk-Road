@@ -1,0 +1,5 @@
+﻿l_german:
+ flavor_dit.1.title: "Der [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] von „[ROOT.GetCountry.GetNameWithNoTooltip]“"
+ flavor_dit.1.desc: "Die Ländereien, die unsere [ShowPopTypeName('peasants')] bestellen, erhalten wenig Aufmerksamkeit von außerhalb, und dies führte zur Entwicklung sich selbst organisierender Gemeinschaften, die keinem Einfluss durch [ShowPopTypeName('nobles')] unterstehen. Vielleicht wird es Zeit, die letzten Bande abzuschütteln, die uns noch mit der Feudalgesellschaft von [ShowContinentName('europe')] verbinden, und die Strukturen einer [ShowGovernmentReformName('peasant_republic_reform')] anzunehmen, die uns schon seit Jahrhunderten leiten."
+ flavor_dit.1.a: "Friede den Hütten! Krieg den Palästen!"
+ flavor_dit.1.b: "Das klingt ein wenig zu radikal."

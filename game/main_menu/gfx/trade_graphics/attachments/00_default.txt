@@ -1,0 +1,524 @@
+﻿#horses =
+#{
+#	schematic_name = "default_trade_goods_schematic"
+#	weight = 1
+#	required_tags =  "horses"
+#}
+
+goods_gold =
+{
+	mesh_name = "cargo_metal_gold_mesh"
+	weight = 1
+	required_tags =  "goods_gold"
+}
+
+goods_clay =
+{
+	mesh_name = "cargo_clay_mesh"
+	weight = 1
+	required_tags =  "clay"
+}
+
+goods_sand =
+{
+	mesh_name = "cargo_sand_mesh"
+	weight = 1
+    required_tags =  "sand"
+}
+
+goods_coal =
+{
+	mesh_name = "cargo_coal_mesh"
+	weight = 1
+    required_tags =  "coal"
+}
+
+goods_iron =
+{
+	mesh_name = "cargo_metal_iron_mesh"
+	weight = 1
+    required_tags =  "iron"
+}
+
+goods_copper =
+{
+	mesh_name = "cargo_metal_copper_mesh"
+	weight = 1
+    required_tags =  "copper"
+}
+
+goods_silver =
+{
+	mesh_name = "cargo_metal_silver_mesh"
+	weight = 1
+    required_tags =  "silver"
+}
+
+goods_stone =
+{
+	mesh_name = "cargo_stone_mesh"
+	weight = 1
+    required_tags =  "stone"
+}
+
+goods_tin =
+{
+	mesh_name = "cargo_metal_tin_mesh"
+	weight = 1
+    required_tags =  "tin"
+}
+
+goods_lead =
+{
+	mesh_name = "cargo_metal_lead_mesh"
+	weight = 1
+    required_tags =  "lead"
+}
+
+goods_silk =
+{
+	mesh_name = "cargo_silk_mesh"
+	weight = 1
+    required_tags =  "silk"
+}
+
+goods_dyes =
+{
+	mesh_name = "cargo_dye_mesh"
+	weight = 1
+    required_tags =  "dyes"
+}
+
+goods_incese =
+{
+	mesh_name = "cargo_incense_mesh"
+	weight = 1
+    required_tags =  "incense"
+}
+
+goods_tea =
+{
+	mesh_name = "cargo_tea_mesh"
+	weight = 1
+    required_tags =  "tea"
+}
+
+goods_cocoa =
+{
+	mesh_name = "cargo_cocoa_mesh"
+	weight = 1
+    required_tags =  "cocoa"
+}
+
+goods_coffee =
+{
+	mesh_name = "cargo_coffee_mesh"
+	weight = 1
+    required_tags =  "coffee"
+}
+
+goods_fiber_crops =
+{
+	mesh_name = "cargo_crops_mesh"
+	weight = 1
+    required_tags =  "fiber_crops"
+}
+
+goods_ivory =
+{
+	mesh_name = "cargo_ivory_mesh"
+	weight = 1
+    required_tags =  "ivory"
+}
+
+goods_fur =
+{
+	mesh_name = "cargo_leather_mesh"
+	weight = 1
+    required_tags =  "fur"
+}
+
+goods_lumber =
+{
+	mesh_name = "cargo_wood_mesh"
+	weight = 1
+    required_tags =  "lumber"
+}
+
+goods_salt =
+{
+	mesh_name = "cargo_salt_mesh"
+	weight = 1
+    required_tags =  "salt"
+}
+
+goods_medicaments =
+{
+	mesh_name = "cargo_medicine_mesh"
+	weight = 1
+    required_tags =  "medicaments"
+}
+
+goods_gems =
+{
+	mesh_name = "cargo_gems_mesh"
+	weight = 1
+    required_tags =  "gems"
+}
+
+goods_pearls =
+{
+	mesh_name = "cargo_pearl_mesh"
+	weight = 1
+    required_tags =  "pearls"
+}
+
+goods_amber =
+{
+	mesh_name = "cargo_amber_mesh"
+	weight = 1
+    required_tags =  "amber"
+}
+
+goods_saltpeper =
+{
+	mesh_name = "cargo_saltpepper_mesh"
+	weight = 1
+    required_tags =  "saltpeter"
+}
+
+goods_alum =
+{
+	mesh_name = "cargo_metal_alum_mesh"
+	weight = 1
+    required_tags =  "alum"
+}
+
+goods_spices =
+{
+	mesh_name = "cargo_spice_mesh"
+	weight = 1
+    required_tags =  "spices"
+}
+
+goods_wine =
+{
+	mesh_name = "cargo_wine_mesh"
+	weight = 1
+    required_tags =  "wine"
+}
+
+goods_marble =
+{
+	mesh_name = "cargo_marble_mesh"
+	weight = 1
+    required_tags =  "marble"
+}
+
+goods_mercury =
+{
+	mesh_name = "cargo_mercury_mesh"
+	weight = 1
+    required_tags =  "mercury"
+}
+
+
+goods_masonry =
+{
+	mesh_name = "cargo_stone_mesh"
+	weight = 1
+    required_tags =  "masonry"
+}
+goods_cotton =
+{
+	mesh_name = "cargo_cotton_mesh"
+	weight = 1
+    required_tags =  "cotton"
+}
+
+goods_sugar =
+{
+	mesh_name = "cargo_sugar_mesh"
+	weight = 1
+    required_tags =  "sugar"
+}
+
+goods_tobacco =
+{
+	mesh_name = "cargo_tobacco_mesh"
+	weight = 1
+    required_tags =  "tobacco"
+}
+
+goods_tar =
+{
+	mesh_name = "cargo_tar_mesh"
+	weight = 1
+    required_tags =  "tar"
+}
+
+goods_porcelain =
+{
+	mesh_name = "cargo_porcelain_mesh"
+	weight = 1
+    required_tags =  "porcelain"
+}
+
+goods_naval_supplies =
+{
+	mesh_name = "cargo_naval_supplies_mesh"
+	weight = 1
+    required_tags =  "naval_supplies"
+}
+
+goods_firearms =
+{
+	mesh_name = "cargo_guns_mesh"
+	weight = 1
+    required_tags =  "firearms"
+}
+
+goods_cannons =
+{
+	mesh_name = "cargo_generic_mesh"
+	weight = 1
+    required_tags =  "cannons"
+}
+
+goods_weaponry =
+{
+	mesh_name = "cargo_weapons_mesh"
+	weight = 1
+    required_tags =  "weaponry"
+}
+
+goods_glass =
+{
+	mesh_name = "cargo_glass_mesh"
+	weight = 1
+    required_tags =  "glass"
+}
+
+goods_steel =
+{
+	mesh_name = "cargo_metal_steel_mesh"
+	weight = 1
+    required_tags =  "steel"
+}
+
+goods_cloth =
+{
+	mesh_name = "cargo_cloth_mesh"
+	weight = 1
+    required_tags =  "cloth"
+}
+
+goods_fine_cloth =
+{
+	mesh_name = "cargo_fine_cloth_mesh"
+	weight = 1
+    required_tags =  "fine_cloth"
+}
+
+goods_liquor =
+{
+	mesh_name = "cargo_liquor_mesh"
+	weight = 1
+    required_tags =  "liquor"
+}
+
+goods_beer =
+{
+	mesh_name = "cargo_beer_mesh"
+	weight = 1
+    required_tags =  "beer"
+}
+
+goods_paper =
+{
+	mesh_name = "cargo_paper_mesh"
+	weight = 1
+    required_tags =  "paper"
+}
+
+goods_books =
+{
+	mesh_name = "cargo_books_mesh"
+	weight = 1
+    required_tags =  "books"
+}
+
+goods_jewelry =
+{
+	mesh_name = "cargo_jewels_mesh"
+	weight = 1
+    required_tags =  "jewelry"
+}
+
+goods_leather =
+{
+	mesh_name = "cargo_leather_mesh"
+	weight = 1
+    required_tags =  "leather"
+}
+
+goods_tools =
+{
+	mesh_name = "cargo_metalwork_mesh"
+	weight = 1
+    required_tags =  "tools"
+}
+
+goods_lacquerware =
+{
+	mesh_name = "cargo_lacquerware_mesh"
+	weight = 1
+    required_tags =  "lacquerware"
+}
+
+goods_wool =
+{
+	mesh_name = "cargo_wool_mesh"
+	weight = 1
+    required_tags =  "wool"
+}
+
+goods_wild_game =
+{
+	mesh_name = "cargo_meat_mesh"
+	weight = 1
+    required_tags =  "wild_game"
+}
+
+goods_fish =
+{
+	mesh_name = "cargo_fish_mesh"
+	weight = 1
+    required_tags =  "fish"
+}
+
+goods_wheat =
+{
+	mesh_name = "cargo_wheat_mesh"
+	weight = 1
+    required_tags =  "wheat"
+}
+
+goods_soybeans =
+{
+	mesh_name = "cargo_soybeans_mesh"
+	weight = 1
+    required_tags =  "soybeans"
+}
+
+goods_maize =
+{
+	mesh_name = "cargo_maize_mesh"
+	weight = 1
+    required_tags =  "maize"
+}
+
+goods_rice =
+{
+	mesh_name = "cargo_rice_mesh"
+	weight = 1
+    required_tags =  "rice"
+}
+
+goods_millet =
+{
+	mesh_name = "cargo_millet_mesh"
+	weight = 1
+    required_tags =  "millet"
+}
+
+goods_legumes =
+{
+	mesh_name = "cargo_legumes_mesh"
+	weight = 1
+    required_tags =  "legumes"
+}
+
+goods_potato =
+{
+	mesh_name = "cargo_potato_mesh"
+	weight = 1
+    required_tags =  "potato"
+}
+
+goods_livestock =
+{
+	mesh_name = "cargo_meat_mesh"
+	weight = 1
+    required_tags =  "livestock"
+}
+
+goods_olives =
+{
+	mesh_name = "cargo_olives_mesh"
+	weight = 1
+    required_tags =  "olives"
+}
+
+goods_dates =
+{
+	mesh_name = "cargo_dates_mesh"
+	weight = 1
+    required_tags =  "dates"
+}
+
+goods_fruit =
+{
+	mesh_name = "cargo_fruit_mesh"
+	weight = 1
+    required_tags =  "fruit"
+}
+
+goods_slaves_goods =
+{
+	mesh_name = "cargo_slaves_mesh"
+	weight = 1
+    required_tags =  "slaves_goods"
+}
+
+goods_pottery =
+{
+	mesh_name = "cargo_pottery_mesh"
+	weight = 1
+    required_tags =  "pottery"
+}
+
+goods_saffron =
+{
+	mesh_name = "cargo_saffron_mesh"
+	weight = 1
+    required_tags =  "saffron"
+}
+
+goods_peppercorn =
+{
+	mesh_name = "cargo_peppercorn_mesh"
+	weight = 1
+    required_tags =  "peppercorn"
+}
+
+goods_chili =
+{
+	mesh_name = "cargo_chili_mesh"
+	weight = 1
+    required_tags =  "chili"
+}
+
+goods_beeswax =
+{
+	mesh_name = "cargo_beeswax_mesh"
+	weight = 1
+    required_tags =  "beeswax"
+}
+
+goods_furniture =
+{
+	mesh_name = "cargo_furniture_mesh"
+	weight = 1
+    required_tags =  "furniture"
+}

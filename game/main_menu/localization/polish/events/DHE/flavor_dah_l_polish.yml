@@ -1,0 +1,12 @@
+﻿l_polish:
+ flavor_dah_released_desc_common: "#L [ShowCultureName('fon')]ki#! lud, którego miejsce zamieszkania to [ShowAreaName('gold_coast_area')], zorganizował się w państwo: [GetCountry('DAH').GetName], na którego czele stoi [target_character.GetName]. Nowy naród mówi głośno o militarystycznych ambicjach i jest gotowy prowadzić ekspansję, której celem ma być [ShowRegionName('guinea_region')]."
+ flavor_dah_released_title_common: "[GetCountry('DAH').GetNameWithNoTooltip] – powstanie państwa"
+ flavor_dah_variable_tt: "Nastąpiła dekolonizacja prowincji [ShowProvinceDefinitionName('fon_province')]"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "Twór znany jako [GetCountry('DAH').GetNameWithNoTooltip] wkrótce zostanie podbity!"
+ flavor_dah.1.b: "Może to już czas na powstanie nowego państwa."
+ flavor_dah.1.c: "Dobrze im się ułożyło."
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "Nowi sąsiedzi?"

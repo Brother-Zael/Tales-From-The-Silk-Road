@@ -1,0 +1,13 @@
+﻿l_braz_por:
+ struggle_for_royal_power.1.title: "As Lutas pelo Poder Real"
+ struggle_for_royal_power.1.desc: "As tensões entre o(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle] e o Sejm chegaram ao extremo. O(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle] ficou completamente intolerante à perpétua necessidade de comprometimento com o Szlachta para conseguir minimamente governar, com esses nobres encontrando motivos para agir contra a monarquia sempre que possível. O(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle] acredita que finalmente chegou a hora de acabar com o poder do Sejm no país [ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.1.a: "Travem uma guerra contra o Szlachta."
+ struggle_for_royal_power.100.title: "Fim das Lutas pelo Poder Real"
+ struggle_for_royal_power.100.desc: "Após uma longa luta envolvendo conflitos políticos e militares, a crise no país [ROOT.GetCountry.GetName] chegou ao fim. Não há mais dúvidas de onde está o verdadeiro poder no país [ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.100.a: "O(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle] é supremo(a)!"
+ struggle_for_royal_power.100.b: "O Sejm é supremo!"
+ struggle_for_royal_power.100.c: "Essa Guerra Civil será o fim do país [ROOT.GetCountry.GetName]"
+ struggle_for_royal_power.10.title: "Konfederacja"
+ struggle_for_royal_power.10.desc: "Assim que o(a) [ROOT.GetCountry.GetGovernment.GetRuler.GetName] resolveu remover o poder do Sejm, ele também fez suas exigências para o(a) [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Mikolaj Zebrzydowski, Jan Szczesny Herburt, Stanislaw Stadnicki, Aleksander Józef Lisowski e Janusz Radziwill formaram uma rokosz, ou rebelião semilegal, em Stezyca e Lublin. Os nobres que se reuniram na rokosz formaram uma Konfederacja que destacava 67 artigos exigindo a deposição do(a) [ROOT.GetCountry.GetGovernment.GetRuler.GetName] por violar os Artigos Henricianos e o direito do Sejm de indicar oficiais do estado no lugar do(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
+ struggle_for_royal_power.10.a: "Tentem negociar com a konfederacja."
+ struggle_for_royal_power.10.b: "Rejeitem suas exigências."

@@ -1,0 +1,10 @@
+﻿example_spawn_parameters_component = {
+	aggregate_members = {
+		spawn_timer = {
+			type_name = Float
+		}
+		spawn_frequency = {
+			type_name = Float
+		}
+	}
+}

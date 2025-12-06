@@ -1,0 +1,37 @@
+﻿### IROQUOIS ###
+#AGE_1_TRADITIONS
+	#PEASANT
+north_american_gfx:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_braid_feather_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fur_feather_small_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_braid_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_mohawk_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_headband_hair_feather_iroquois_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_braid_small_feather_mesh" add_tags = "hair_covered" } }
+}
+	#MEDIUM
+north_american_gfx:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_mohawk_feather_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fox_feather_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_rope_feather_mesh"	add_tags = "hair_covered" } }
+}
+	#HEAVY
+north_american_gfx:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fur_feather_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_mohawk_feather_b_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_hair_antlers_beads_fabric_mesh"	add_tags = "hair_covered" } }
+}
+
+# AGE_4_REFORMATION
+	#MEDIUM
+north_american_gfx:age_4_reformation:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_iroquois_earrings_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fur_painted_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bear_fur_feather_mesh"	add_tags = "hair_covered" } }
+}
+	#HEAVY
+north_american_gfx:age_4_reformation:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_band_balls_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_paint_mesh"	add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feathers_eagle_mesh"	add_tags = "hair_covered" } }
+}

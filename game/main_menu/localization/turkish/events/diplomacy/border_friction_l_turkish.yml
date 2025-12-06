@@ -1,0 +1,12 @@
+﻿l_turkish:
+ border_friction.1.title: "Sınır Anlaşmazlığı"
+ border_friction.1.desc: "[border_claim_country.GetLongName] ile müttefik olmamızdan rahat olanlar oldu. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] zümresinin içerisindeki nüfuzlu bir grup, müttefikliğimizi sonlandırmamız için bizi zorluyor. Birçok kişinin hakkımız olduğuna inandığı [border_claim_country.GetNameWithNoTooltip] sınırlarında bulunan [border_claim_province.GetName] vilayetine odaklanmamızı istiyorlar. İnsanların da bu husus yüzünden öfkelenmesine sebep oldular."
+ border_friction.1.a: "Belki de politikalarımızda değişikliğe gitmemiz gerekiyordur..."
+ border_friction_from_event: "Hak İddialarından Rahatsız"
+ border_friction.1.b: "İşlere olumlu açıdan bakalım!"
+ border_friction.1.c: "Hak iddiamızdan vazgeçelim."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "Gazetelerde \"Hakkımız olan [border_claim_province.GetName] vilayeti başka ulusların elinde. Hükûmetimiz burayı geri almak için kılını bile kıpırdatmıyor! Bunu bile yapamayacaklarsa ne işe yarar bunlar?\" gibi manşetler atılarak [border_claim_country.GetLongName] ile savaşa girilmesi için çağrılarda bulunuluyor.\n\nHakkımız olan vilayetleri geri almamamız, bu küçük düşürücü manşetler yüzünden ülkeye huzursuzluğun hâkim olmasına sebep oldu."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Hak iddiasını geri çek."

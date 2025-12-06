@@ -1,0 +1,6 @@
+﻿l_spanish:
+ flavor_bei.1.title: "El sultán de Brunéi"
+ flavor_bei.1.desc: "A medida que los seguidores de la fe [ShowReligionGroupAdjective('muslim')|l] se extienden por todo el Sudeste Asiático, [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] muestra su desilusión con las limitaciones diplomáticas de su tradicional fe [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective|l].\n\nAhora, ha empezado a implorarnos que adoptemos las tradiciones del [ShowReligionGroupName('muslim')|l], ya que eso abrirá el camino a nuevas opciones diplomáticas e incluso a matrimonios con otros líderes de la misma fe.\n\nPor supuesto, se siente cierto grado de emoción entre nuestros leales súbditos, pero ¿es ese realmente el camino correcto?"
+ flavor_bei.1.a: "Seguiremos la Shahada."
+ flavor_bei.1.b: "Debemos honrar las viejas costumbres."
+ flavor_bei.1.historical_info: "En la década de 1360, Awang Alak Betatar, el rajá hindú de Brunéi, se convirtió al islam para poder casarse con una princesa extranjera, en teoría la hija del sultán de Johor. Tras su conversión, el anterior rajá pasó a ser conocido como el sultán Muhammad Shah. Su dinastía sigue gobernando Brunéi hoy en día, lo que convierte su linaje en una de las casas gobernantes más venerables de la historia."

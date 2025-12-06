@@ -1,0 +1,56 @@
+﻿compound_node={
+	id="emitter_setup"
+	node_context=7
+	graph={
+		nodes={
+			pdxns:common:GraphInterface={
+				id=0
+				node={
+					input_pins={
+						pin={
+							name="Scale"
+							display_text="Scale"
+							type="Float"
+						}
+						pin={
+							name="Color"
+							display_text="Color"
+							type="Color"
+						}
+					}
+				}
+				inputs={
+					link={
+						pin_id="Scale"
+						linked_node=1
+						linked_pin="value"
+					}
+					link={
+						pin_id="Color"
+						linked_node=2
+						linked_pin="value"
+					}
+				}
+			}
+			pdxns:values:Float={
+				id=1
+				node={
+					value=0.000000
+				}
+				inputs={
+				}
+			}
+			pdxns:values:Color={
+				id=2
+				node={
+					value={
+						0.000000 0.000000 0.000000 1.000000
+					}
+
+				}
+				inputs={
+				}
+			}
+		}
+	}
+}

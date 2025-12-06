@@ -1,0 +1,7 @@
+﻿l_japanese:
+ rebel.1.title: "コーラ・ディ・リエンツォ"
+ rebel.1.desc: "かつて栄華を誇った[target_location.GetName]は、いまでは衰退し荒廃している。地元貴族が長年にわたり管理を怠った結果、かつての面影は見る影もなくなった。街角には物乞いがあふれ、路地には強盗がうろついている。\n\nこれでは反乱が起こって当然である。今回の反乱を主導したのは、[target_character.GetName]という名の男である。彼は公証人であり、[target_location.GetNameWithNoTooltip]の貴族が関与する事件で弟を殺されたことや、[GetCountry('PAP').GetGovernment.GetRulerTitle]のもとに派遣され、その有能ぶりからしばらく宮廷に召し抱えられていたことなどで知られる。\n\n我々の情報筋によると、この男は支持者を集め、[target_location.GetNameWithNoTooltip]市民とともに決起したという。臆病な支配層の貴族は暴徒をひと目見て逃げ出し、街を明け渡したため、彼らは一滴の血も流さすことなく首都を制圧した。"
+ rebel.1.a: "彼が首都を貴族から取り上げることを許す。"
+ rebel.1.b: "彼に特別な権限と都市の指導者としての地位を与える。"
+ rebel.1.c: "暴動は許さない。都市を奪還せよ！"
+ cola_rebels: "コーラ・ディ・リエンツォの支持者"

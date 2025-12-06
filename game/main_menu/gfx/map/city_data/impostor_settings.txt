@@ -1,0 +1,42 @@
+﻿
+# There can never be more than one impostor mesh from the same mesh list
+# If multiple modules want to create impostors from the same mesh list only the highest priority impostor will be used
+# The module instances' total contribution is used as tie-breaker
+
+impostor_settings = {
+	name = fort_impostor_settings
+	mode = exclusive				# Exclusive means that only one mesh will be used at a time, and it will use IMPOSTOR_SCALE define for its size
+	priority = 100					# High priority to make locations with forts always show the fort as impostor (unless some specific building has priority > 100 )
+}
+
+impostor_settings = {
+	name = center_building_impostor_settings
+	mode = centerpiece
+	priority = 13
+}
+
+impostor_settings = {
+	# Most locations will spawn a noble center building - this block is here for nobles of secondary cultures, or if another building has taken the centerpiece slot
+	# We rely on the 1-impostor-per-mesh-list rule to ensure that only one of these impostors is used at a time
+	name = noble_impostor_settings
+	mode = filler
+	allow_as = "centerpiece|filler"
+	priority = 12
+	min_mesh_count = 2
+}
+
+impostor_settings = {
+	name = burgher_impostor_settings
+	mode = filler
+	priority = 11
+	allow_as = "centerpiece|filler"
+	min_mesh_count = 4
+}
+
+impostor_settings = {
+	name = peasant_impostor_settings
+	mode = filler
+	allow_as = "centerpiece|filler"
+	priority = 10
+	min_mesh_count = 1
+}

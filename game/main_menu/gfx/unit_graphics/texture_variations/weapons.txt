@@ -1,0 +1,1266 @@
+﻿weapons_test = {
+	gold = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 1 hardness = 0.8 }
+	}
+	metal_plain = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.1 hardness = 0.0 }
+	}
+	wood_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 1.0 hardness = 0.0 }
+	}
+}
+
+weapon_variation = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.8 hardness = 0.95 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.5 hardness = 0.9 }
+	}
+	cloth_plain_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.7 }
+	}
+	cloth_rope = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+	wood_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.9 }
+	}
+	straw_wicker = {
+		mask = { color = { 0.5 0.75 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+    cloth_white_group = {
+		mask = { color = { 0.5 0.5 0.0 } tolerance = 0.2 hardness = 0.95 }
+	}
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9}
+		repaint = {			
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			#5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            #5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            #5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+	}
+	
+	
+	assets = {
+        
+		unit_weapon_bifurcated_stick_mesh
+		unit_weapon_torch_schematic
+		unit_weapon_rifle_feathers_schematic
+		unit_weapon_rifle_feathers_paint_schematic
+		unit_weapon_matchlock_feather_down_schematic
+		
+		unit_weapon_peasant_knife_schematic
+		unit_weapon_early_rapier_schematic
+		unit_weapon_flask_wood_mesh
+		unit_artillery_cannon_wheel_a_mesh
+		unit_shield_round_painted_mesh
+        unit_shield_round_metal_mesh
+		unit_shield_round_gilded_mesh
+		unit_shield_round_steel_leather_mesh
+		unit_weapon_01_north_german_age1_scythe_a_schematic
+		unit_weapon_01_north_german_age1_sword_a_schematic
+		unit_weapon_02_north_german_age1_spear_ornament_a_schematic
+		unit_weapon_04_north_german_age2_musket_jaeger_rifle_schematic
+		unit_weapon_axe_decorated_schematic
+		unit_weapon_axe_doloire_schematic
+		unit_weapon_axe_engraving_schematic
+		unit_weapon_axe_hatchet_schematic
+		unit_weapon_axe_india_small_schematic
+		unit_weapon_axe_pickaxe_schematic
+		unit_weapon_axe_steel_schematic
+		unit_weapon_axe_wood_copper_schematic
+		unit_weapon_blade_steel_gilden_schematic
+		unit_weapon_leather_quiver_mesh
+		unit_weapon_bronze_sabre_schematic
+		unit_weapon_throwing_knife_schematic
+		unit_weapon_discovery_arquebus_schematic
+		unit_weapon_halberd_elephant_schematic
+		unit_weapon_horse_hair_schematic
+		unit_weapon_iron_halberd_schematic
+		unit_weapon_polearm_peasant_schematic
+		unit_weapon_javelin_mesh
+		unit_weapon_katar_mesh
+		unit_weapon_kilij_style_sword_schematic
+		unit_weapon_kilij_style_sword_sheath_mesh
+		unit_weapon_mace_head_schematic
+		unit_weapon_mace_steel_schematic
+		unit_weapon_musket_potzdam_b_schematic
+		unit_weapon_pistol_flintlock_schematic
+		unit_weapon_pitchfork_schematic
+		unit_weapon_poleaxe_steel_schematic
+		unit_weapon_saber_gilded_schematic
+		unit_weapon_saber_golden_handle_schematic
+		unit_weapon_saber_silvered_metal_schematic
+		unit_weapon_zweihander_schematic
+		unit_weapon_zweihander_b_schematic
+		unit_weapon_straight_sword_hilt_detail_schematic
+		unit_weapon_straight_sword_hilt_detail_sheath_mesh
+		unit_weapon_early_rapier_sheath_mesh
+		unit_weapon_traditions_straight_sword_schematic
+		unit_weapon_traditions_straight_sword_sheath_mesh
+		unit_weapon_traditions_triangular_sword_sheath_mesh
+		unit_weapon_traditions_short_sword_sheath_mesh
+		unit_weapon_traditions_short_sword_schematic
+		unit_weapon_pointy_cone_spear_schematic
+		unit_weapon_traditions_triangular_sword_schematic
+		unit_weapon_sword_engraved_a_schematic
+		unit_weapon_sword_engraved_sheath_mesh
+		unit_weapon_pistol_ball_detail_schematic
+		unit_shield_bamboo_mesh
+		unit_weapon_shield_bronze_mesh
+		unit_weapon_sickle_schematic
+		unit_weapon_spear_afro_schematic
+		unit_weapon_spear_base_reformation_schematic
+		unit_weapon_spear_decorations_schematic
+		unit_weapon_spear_long_schematic
+		unit_weapon_spear_hooks_schematic
+		unit_weapon_spear_wood_schematic
+		unit_weapon_spear_wooden_syrian_schematic
+		unit_weapon_spear_wood_steel_schematic
+		unit_weapon_steel_blade_schematic
+		unit_weapon_stick_snake_schematic
+		unit_weapon_sword_afro_schematic
+		unit_weapon_sword_curve_schematic
+		unit_weapon_sword_gold_steel_schematic
+		unit_weapon_sword_jade_schematic
+		unit_weapon_sword_jade_sheath_mesh
+		unit_weapon_sword_leather_hilt_schematic
+		unit_weapon_sword_lion_schematic
+		unit_weapon_sword_lion_sheath_mesh
+		unit_weapon_sword_metal_schematic
+		unit_weapon_sword_old_copper_schematic
+		unit_weapon_twohanded_axe_iroquois_schematic
+		unit_weapon_war_scythe_2_schematic
+		unit_weapon_revolutions_rifle_bayonet_a_schematic
+		unit_weapon_revolutions_rifle_bayonet_b_schematic
+		unit_weapon_spiked_mace_schematic
+		unit_weapon_warhammer_schematic
+		unit_weapon_spear_dynamite_schematic
+		unit_weapon_bow_curved_schematic
+        unit_weapon_shield_sun_metal_mesh
+        unit_weapon_axe_gilded_schematic
+        unit_weapon_shield_gilded_metal_mesh
+        unit_weapon_shield_velvet_mesh
+        unit_weapon_spear_gilded_schematic
+	}
+}
+
+weapon_variation_horizontal_wood = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.8 hardness = 0.95 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.5 hardness = 0.9 }
+	}	
+	
+	wood_horizontal_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.9 }
+	}	
+	
+	
+	assets = {     
+		
+		unit_weapon_musket_polished_wood_schematic		
+	}
+}
+
+weapon_variation_wood_orange = {
+	leathers_cloth_country_split_or_plain_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.7 hardness = 0.5 }
+		repaint = {
+			44 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			22 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+	copy = weapon_variation
+
+	gold_group = {
+		mode = modify
+		mask = { color = { 1.0 0.5 0.0 } }
+	}
+
+	wood_group = {
+		mode = modify
+		mask = { color = { 1.0 0.5 0.0 } }
+	}
+	brass = {
+		mask = { color = { 1.0 0.75 0.0 } tolerance = 0.1 hardness = 0.9 }
+	}
+	assets = {
+		unit_weapon_gun_deccan_schematic
+		unit_weapon_bomb_schematic
+		unit_weapon_stick_bamboo_schematic
+		unit_weapon_backsword_guard_schematic
+		unit_weapon_spear_axe_schematic
+		unit_weapon_rifle_feathers_barrel_wrap_schematic
+		unit_weapon_dagger_small_face_schematic
+		unit_weapon_saber_bend_schematic
+		unit_weapon_musket_metal_wood_schematic
+		unit_weapon_rifle_long_schematic
+		unit_weapons_axe_long_schematic
+		unit_weapons_sword_metal_schematic
+		unit_weapon_axe_wood_metal_schematic
+		unit_weapon_musket_african_brown_bess_schematic
+		unit_weapon_sword_wide_handle_schematic
+		unit_weapon_bow_leather_schematic
+		unit_weapon_bow_large_quiver_mesh
+		
+		unit_weapon_matchlock_arquebus_syrian_schematic
+		unit_weapon_axe_handle_cooper_schematic
+		unit_weapon_axe_rusty_metal_schematic
+		unit_weapon_axe_great_schematic
+		unit_weapon_axe_syrian_schematic
+		unit_shield_glided_metal_mesh
+		unit_weapon_axe_silver_end_schematic
+		unit_weapon_bow_arbalest_syria_schematic
+		unit_weapon_bow_plain_syrian_schematic
+		unit_weapon_quiver_plain_syrian_mesh
+		unit_weapon_bow_hunt_style_schematic
+		unit_weapon_quiver_hunt_style_mesh
+		unit_weapon_shield_gold_rim_buckel_mesh
+		unit_weapon_bow_wood_brass_schematic
+		unit_weapon_quiver_wood_brass_mesh
+		unit_weapon_broad_sword_syria_schematic
+		unit_weapon_shield_decorated_syria_mesh
+		unit_weapon_flintlock_blunderbuss_schematic
+		unit_weapon_flintlock_musket_schematic
+		unit_weapon_flintlock_pistol_schematic
+		unit_weapon_flintlock_rifle_schematic
+		unit_weapon_matchlock_arquebus_schematic
+		unit_weapon_matchlock_musket_schematic
+		unit_weapon_matchlock_rifle_schematic
+		unit_weapon_matchlock_wood_gilden_schematic
+		unit_weapon_musket_brass_schematic
+		unit_weapon_musket_east_schematic
+		unit_weapon_musket_kort_schematic
+		unit_weapon_musket_matchlock_schematic
+		unit_weapon_musket_matchlock_brass_schematic
+		unit_weapon_mutchlock_mushket_schematic
+		unit_weapon_mutchlock_rifle_syrian_schematic
+		unit_weapon_pistol_schematic
+		unit_weapon_rifle_base_reformation_schematic
+		unit_weapon_sabel_schematic
+		unit_weapon_sabel_sheath_mesh
+		unit_weapon_saber_metal_schematic
+		#unit_weapon_scythe_metal_wood_mesh
+		unit_weapon_halberd_star_detail_schematic
+		#unit_weapon_fine_european_pistol_schematic
+		
+		unit_weapon_saber_handle_syria_schematic
+		
+		unit_shield_heavy_deco_syrian_mesh
+		unit_weapon_spear_flag_schematic
+		
+		unit_weapon_spear_fabric_schematic
+		unit_weapon_shield_metal_buckel_mesh
+		
+		unit_weapon_stick_sharpen_schematic
+		
+		unit_weapon_sword_wood_schematic
+		unit_weapon_wooden_matchlock_schematic
+		unit_weapon_spear_tip_schematic
+		unit_weapon_crossbow_early_schematic
+		unit_weapon_arquebus_bifurcated_schematic
+		unit_weapon_hippa_vouge_schematic
+		unit_weapon_trident_pitchfork_schematic
+		unit_weapon_knight_mace_schematic
+		unit_weapon_long_bow_english_schematic
+		unit_weapon_bow_large_schematic
+
+		unit_weapon_iron_cannon_wood_schematic
+	
+	unit_weapon_machete_han_schematic
+	unit_weapon_shovel_chinese_schematic
+	unit_weapon_kylo_schematic
+	unit_weapon_hoe_chinese_schematic
+	unit_weapon_pitchfork_chinese_peasant_schematic
+	unit_weapon_pitchfork_custom_schematic
+	unit_weapon_rake_simple_schematic
+	unit_weapon_spade_ironbound_schematic
+	unit_weapon_sword_han_handle_schematic
+	unit_weapon_blade_naginata_schematic
+	unit_weapon_polearm_bamboo_schematic
+	unit_weapon_blade_steel_handle_schematic
+	unit_weapon_blade_wooden_handle_schematic
+	unit_weapon_chinese_pitchfork_schematic
+	unit_weapon_chinese_matchlock_schematic
+	unit_weapon_spain_gun_schematic
+	unit_weapon_spear_prong_schematic
+	unit_weapon_crossbow_han_schematic
+	unit_weapon_matchlock_musket_long_schematic
+	unit_weapon_sword_basic_chineses_schematic
+	unit_weapon_bow_wood_schematic
+	unit_weapon_sword_katana_schematic
+	unit_weapon_bow_wood_light_schematic
+	unit_weapon_sword_leather_schematic
+	unit_weapon_guan_dao_schematic
+	unit_weapon_riffle_malay_schematic
+	unit_weapon_hayfork_schematic
+	unit_weapons_guan_dao_schematic
+	unit_weapon_matchlock_musket_small_schematic
+	unit_weapon_han_soldiers_musket_schematic
+	unit_weapon_pistol_han_matchlock_schematic
+	unit_weapon_handcanon_gun_schematic
+	unit_weapon_pistol_gold_han_schematic
+	unit_weapons_wodao_schematic
+	unit_weapons_paddle_wood_schematic	
+	unit_weapon_saw_chinese_schematic
+	unit_weapon_matchlock_rifle_modern_schematic
+	unit_weapon_matchlock_gilded_modern_schematic
+	unit_weapon_matchlock_musket_pown_schematic
+	unit_weapon_matchlock_pistol_qing_schematic
+	unit_weapon_steel_barrel_pistol_schematic
+	#unit_weapon_scythe_a_age1_schematic
+	#unit_weapon_scythe_c_age1_schematic
+	unit_weapon_pitchfork_a_age1_schematic
+	#unit_weapon_scythe_b_age1_schematic
+	unit_weapon_pitchfork_b_age1_schematic
+    unit_weapon_long_pike_schematic
+    unit_weapon_medieval_scythe_schematic
+
+	}
+}
+
+
+#AZTEC_WEAPON_OBSIDIAN
+weapon_aztec_onyx = {
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.6 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+			}
+			2 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+    wood_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.9 }
+	}
+    obsidian_group = {
+		mask = { color = { 0.0 0.5 0.5 } tolerance = 0.3 hardness = 0.85 }
+	}
+    
+	
+	assets = {
+    unit_weapon_axe_aztec_stone_schematic
+    unit_weapon_spear_halberd_schematic
+    unit_weapon_macuahuitl_twohanded_schematic
+    unit_weapon_spear_rope_schematic
+    unit_weapon_spear_obsidian_schematic
+    unit_weapon_wood_onehanded_schematic
+    unit_weapon_poleax_stone_schematic
+
+	}
+}
+
+weapon_simple_shield_wood_leather_country_iron_gold = {
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.6 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+			}
+			2 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+    wood_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.9 }
+	}
+    
+	
+	assets = {
+    unit_weapon_shield_bolts_syrian_mesh		
+
+	}
+}
+
+weapon_variation_country_color = {
+	copy = weapon_variation
+	leathers_cloth_country_or_plain_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.4 hardness = 0.7 }
+		repaint = {
+			44 = {
+				primary_color = unit_color0
+			}
+			22 = {
+				primary_color = unit_color1
+			}
+			15 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+	
+	assets = {
+		unit_weapon_spear_wool_schematic
+		unit_weapon_spear_peasant_asia_schematic
+	}
+}
+
+musket_variation = {
+	copy = weapon_variation
+	
+	assets = {
+		unit_weapon_musket_potzdam_a_entity_schematic
+		unit_weapon_04_north_german_age2_musket_fowling_piece_schematic
+		unit_weapon_handheld_bombard_schematic
+	}
+}
+
+shield_variation = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	wood_country_one = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+				repaint = {
+			primary_color = unit_color0
+		}
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.85 }
+	}
+	
+	radial_rattan_shield_group = {
+		mask = { color = { 0.5 0.75 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}	
+	
+}
+
+
+## VIKING SHIELDS SOLDIERS VARIATIONS
+
+shield_variation_viking_soldiers = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	viking_wood_shield_soldiers_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+				repaint = {
+			primary_color = unit_color0
+            secondary_color = unit_color1
+		}
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.85 }
+	}
+	
+	#radial_rattan_shield_group = {#
+		#mask = { color = { 0.5 0.75 1.0 } tolerance = 0.3 hardness = 0.95 }
+	#}
+	
+	assets = {
+		unit_backpack_shield_viking_round_mesh
+		unit_weapon_shield_viking_round_mesh
+        unit_backpack_shield_viking_round_b_mesh
+        unit_weapon_shield_viking_round_b_mesh
+	}
+}
+
+## VIKING SHIELDS PEASANTS VARIATIONS
+shield_variation_viking_peasants = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	viking_wood_shield_peasants_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+				
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.85 }
+	}
+	
+	#radial_rattan_shield_group = {#
+		#mask = { color = { 0.5 0.75 1.0 } tolerance = 0.3 hardness = 0.95 }
+	#}
+	
+	assets = {
+		unit_backpack_shield_viking_round_c_mesh
+		unit_weapon_shield_viking_round_c_mesh
+        unit_backpack_shield_viking_round_d_mesh
+        unit_weapon_shield_viking_round_d_mesh
+	}
+}
+
+shield_variation_rattan = {
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	wood_country_one = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.7 hardness = 0.95 }
+				repaint = {
+			primary_color = unit_color0
+		}
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.85 }
+	}
+	
+	radial_rattan_shield_group = {
+		mask = { color = { 0.5 0.75 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+	
+	assets = {
+		unit_shield_rattan_mesh
+	}
+}
+
+
+shield_variation_coa = {
+	
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.9 hardness = 0.8 }
+	}
+	
+
+	wood_country_one = {			
+			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.4 hardness = 0.95 }
+			repaint = {
+			10 = {
+				primary_color = coa_texture
+				#secondary_color = unit_color1
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+			mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.95 }
+						repaint = {
+			10 = {
+				primary_color = coa_texture
+				#secondary_color = unit_color1
+			}
+		}
+	}
+	
+	wood_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.3 hardness = 0.95 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.95 }
+	}
+
+	assets_with_weight = {
+		10 = unit_shield_german_pavise_mesh
+		10 = unit_shield_german_pavise_back_mesh
+		10 = unit_shield_noble_shield_renaissance_mesh
+		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh		
+		10 = unit_backpack_shield_traditions_heavy_mesh
+		10 = unit_weapon_shield_traditions_heavy_mesh
+		10 = unit_backpack_shield_traditions_medium_mesh
+		10 = unit_weapon_shield_traditions_medium_mesh
+		10 = unit_backpack_shield_traditions_light_mesh
+		10 = unit_weapon_shield_traditions_light_mesh		
+		10 = unit_backpack_shield_buckler_mesh
+		10 = unit_weapon_shield_buckler_mesh
+		10 = unit_shield_heater_leather_mesh
+        10 = unit_shield_tower_wooden_mesh
+        10 = unit_weapon_shield_wooden_mesh
+        10 = unit_weapon_shield_long_syria_mesh
+        10 = unit_weapon_shield_arbalest_mesh
+       
+		#10 = unit_shield_round_leather_mid_mesh # currently unused
+	}
+}
+
+# shield_variation_quad = {
+
+# 	copy = shield_variation
+
+# 	wood_country_quarter = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+	
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_colorsplit = {
+
+# 	copy = shield_variation
+			
+# 	wood_country_colorsplit = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_topbar = {
+
+# 	copy = shield_variation
+
+# 	wood_country_topbar = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_midbar = {
+
+# 	copy = shield_variation
+
+# 	wood_country_midbar = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_verticalbar = {
+# 	copy = shield_variation
+# 	wood_country_verticalbar = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_right_diagonalbar = {
+# 	copy = shield_variation
+
+# 	wood_country_right_diagonalbar = {
+# 		before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+
+# shield_variation_left_diagonalbar = {
+
+# 	copy = shield_variation
+
+# 	wood_country_left_diagonalbar = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_cross = {
+# 	copy = shield_variation
+
+# 	wood_country_cross = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+	
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_x = {
+# 	copy = shield_variation
+
+# 	wood_country_x = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+# shield_variation_chevron = {
+
+# 	copy = shield_variation
+
+# 	wood_country_chevron = {
+# 			before = wood_group
+# 			mask = { color = { 1.0 0.5 0.0 } tolerance = 0.5 hardness = 0.9 }
+# 						repaint = {
+# 			44 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color1
+# 			}
+# 			22 = {
+# 				primary_color = unit_color0
+# 				secondary_color = unit_color2
+# 			}
+# 			15 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color0
+# 			}
+# 			7 = {
+# 				primary_color = unit_color1
+# 				secondary_color = unit_color2
+# 			}
+# 			7 = {
+# 				primary_color = unit_color2
+# 				secondary_color = unit_color0
+# 			}
+# 		}
+# 	}
+	
+# 	assets_with_weight = {
+# 		10 = unit_shield_german_pavise_mesh
+# 		10 = unit_shield_german_pavise_back_mesh
+# 		10 = unit_shield_noble_shield_renaissance_mesh
+# 		10 = unit_backpack_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_weapon_01_north_german_age1_shield_heater_a_mesh
+# 		10 = unit_backpack_shield_viking_round_mesh
+# 		10 = unit_weapon_shield_viking_round_mesh
+# 		10 = unit_backpack_shield_traditions_heavy_mesh
+# 		10 = unit_weapon_shield_traditions_heavy_mesh
+# 		10 = unit_backpack_shield_traditions_medium_mesh
+# 		10 = unit_weapon_shield_traditions_medium_mesh
+# 		10 = unit_backpack_shield_traditions_light_mesh
+# 		10 = unit_weapon_shield_traditions_light_mesh
+# 		10 = unit_backpack_shield_viking_round_b_mesh
+# 		10 = unit_weapon_shield_viking_round_b_mesh
+# 		10 = unit_backpack_shield_buckler_mesh
+# 		10 = unit_weapon_shield_buckler_mesh
+# 	}
+# }
+
+
+weapon_variation_tribe = {
+	cloth_plain_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.8 hardness = 0.5 }
+	}
+	cloth_rope = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.6 hardness = 0.9 }
+	}
+	metal_plain  = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.0 }
+	}
+	wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.85 }
+	}
+    cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			44 = {
+				primary_color = unit_color0
+			}
+			22 = {
+				primary_color = unit_color1
+			}
+			15 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+	
+	assets = {
+		
+		unit_shield_wood_rope_tied_iroquois_mesh
+		unit_shield_wood_rope_tied_large_iroquois_mesh
+		unit_weapon_axe_iron_schematic
+		unit_weapon_axe_stone_schematic
+		unit_weapon_axe_tomahawk_feather_schematic
+		unit_weapon_axe_wood_stone_schematic
+		unit_backpack_quiver_iroquois_mesh
+		unit_weapon_bow_feather_iroquois_schematic
+		unit_weapon_club_spike_schematic
+		unit_weapon_club_spike_feather_schematic
+		unit_weapon_club_wood_ball_schematic
+		unit_weapon_hoe_wood_metal_schematic
+		unit_weapon_pitchfork_wood_schematic
+		unit_weapon_scapula_schematic
+		unit_weapon_sickle_metal_wood_schematic
+		unit_weapon_spear_deer_sinew_schematic
+		unit_weapon_war_axe_one_handed_schematic
+		unit_weapon_war_mace_schematic
+		unit_weapon_war_spear_schematic
+		unit_weapon_wood_paint_polish_seashell_schematic
+        unit_weapon_spear_stone_iroquois_schematic
+	}
+}
+
+shield_variation_syrian = {
+    
+	
+	copy = shield_variation
+    
+    
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.95 }
+		repaint = {
+			75 = {
+				primary_color = unit_color0
+			}
+			20 = {
+				primary_color = unit_color1
+			}
+			10 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    
+	
+	assets = {
+		#unit_shield_heater_leather_mesh
+		#unit_shield_round_leather_mid_mesh
+		unit_weapon_shield_syrian_mesh
+	}
+}
+
+weapon_variation_country = {
+	copy = weapon_variation_country_color
+	leathers_cloth_country_or_plain_group = {
+		mode = modify
+		mask = { tolerance = 0.5 hardness = 0.5 }
+	}
+	
+	assets = {
+		unit_weapon_sword_leather_hilt_sheath_mesh
+	}
+}

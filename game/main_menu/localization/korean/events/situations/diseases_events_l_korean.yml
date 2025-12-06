@@ -1,0 +1,4 @@
+﻿l_korean:
+ diseases.1.title: "새로운 역병 창궐"
+ diseases.1.desc: "[location_scope.GetName] 지역 전체로 퍼지고 있는 [disease.GetName]의 무자비한 유행에 가족과 이웃이 속절없이 쓰러져 가자, 현지 주민들이 절망에 빠지고 있습니다. 한때 사람들로 북적이던 길거리가 지금은 텅 비어 걱정과 불안감만 메아리칠 뿐입니다. \n\n불행히도 이 질병이 우리 영토로 확산되는 것은 막기 어려울 것으로 보입니다."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

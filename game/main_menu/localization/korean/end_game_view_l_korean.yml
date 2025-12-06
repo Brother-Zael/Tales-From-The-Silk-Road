@@ -1,0 +1,12 @@
+﻿l_korean:
+ END_GAME_VIEW_LOSING_TITLE: "게임 오버"
+ END_GAME_VIEW_LOSING_TEXT: "이웃 국가에 비해 국력과 결의가 부족했던 우리 국가는 역사의 수레바퀴에서 살아남지 못했습니다. 먼 미래에 [COUNTRY.GetAdjective] 국민은 박물관에서나 기억될 것이고, 학자들은 우리의 실패를 연구 사례로 삼을 것입니다."
+ END_GAME_VIEW_SURVIVING_TITLE: "역사의 사소한 곁가지"
+ END_GAME_VIEW_SURVIVING_TEXT: "우리의 자랑스러운 국가는 수 세기 동안 투쟁과 전쟁, 그리고 역경을 견뎌냈지만, 그럼에도 [COUNTRY.GetAdjective] 국민은 주목할 만한 성과를 거의 이루지 못했습니다. 문명과 전쟁의 주역들이 가득한 세계에서 우리는 그저 조연에 불과합니다."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "당당한 열강"
+ END_GAME_VIEW_GREAT_TEXT: "영광스러운 우리 국가는 당당히 세계열강의 한 자리를 차지했습니다. 축하합니다. [COUNTRY.GetAdjective] 국민은 이 시대 최고 수준의 번영과 명성을 누리고 있으며, 우리의 통치는 눈부신 성공이라는 보상으로 돌아왔습니다."
+ CONTINUE_PAST_END_DATE: "계속 플레이"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "계속 플레이\n이후로는 도전 과제를 달성할 수 없습니다"
+ END_GAME_VIEW_QUIT_TOOLTIP: "게임을 종료하고 메인 메뉴로 돌아갑니다"
+ END_GAME_VIEW_OBSERVE: "관전"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "관전자 모드로 계속합니다"

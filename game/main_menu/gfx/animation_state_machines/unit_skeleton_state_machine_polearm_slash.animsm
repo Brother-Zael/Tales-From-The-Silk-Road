@@ -1,0 +1,485 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Attack"={
+		timeline_layer={
+			timeline="L_default_Attack_editor_timeline"
+		}
+		random_layer={
+			timeline_layer={
+				weight=1.000000
+				timeline="attack_polearm_animation"
+			}
+		}
+	}
+ 	"Idle"={
+		timeline_layer={
+			timeline="L_relative_Idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="idle_polearm_01_animation"
+		}
+	}
+ 	"Move"={
+		timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="moving_polearm_animation"
+		}
+	}
+ 	"Retreat"={
+		timeline_layer={
+			timeline="L_relative_Retreat_editor_timeline"
+		}
+		timeline_layer={
+			timeline="retreat_polearm_animation"
+		}
+	}
+ 	"Charge"={
+		timeline_layer={
+			timeline="L_relative_Charge_editor_timeline"
+		}
+		timeline_layer={
+			timeline="charge_polearm_animation"
+		}
+	}
+ 	"Idle Loop"={
+		timeline_layer={
+			timeline="L_default_Idle Loop_editor_timeline"
+		}
+		random_layer={
+			timeline_layer={
+				weight=8.000000
+				timeline="idle_polearm_01_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_polearm_02_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_polearm_03_animation"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 15"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="1"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Move"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to charge"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="4"
+ 		}
+		behavioral_state="Charge"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to retreat"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="3"
+ 		}
+		behavioral_state="Retreat"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Idle loop"
+		trigger_time_relative=1.000000
+		behavioral_state="Idle Loop"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle To atack"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="1"
+ 		}
+		behavioral_state="Attack"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 17"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 19"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="3"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 21"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="4"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle loop to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="0"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Connection 499"
+		trigger_time_relative=1.000000
+		behavioral_state="Idle Loop"
+		transition_interval=0.000000
+	}
+ 	audio_event={
+		name="snd_moving_1"
+		trigger_time_absolute=0.309000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_moving_2"
+		trigger_time_absolute=0.869000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_moving_3"
+		trigger_time_absolute=1.424000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_moving_4"
+		trigger_time_absolute=1.993000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_retreat_1"
+		trigger_time_absolute=0.318000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_retreat_2"
+		trigger_time_absolute=0.862000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_retreat_3"
+		trigger_time_absolute=1.419000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_retreat_4"
+		trigger_time_absolute=2.011000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_charge_1"
+		trigger_time_absolute=0.230000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_charge_2"
+		trigger_time_absolute=0.599000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle_1"
+		trigger_time_absolute=0.965105
+		stop_on_state_change=yes
+		audio_event_name="wpn_mel_handle"
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_moving"
+		values={ {
+				name="Unit_AnimState"
+				value="Move"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_retreat"
+		values={ {
+				name="Unit_AnimState"
+				value="Retreat"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_charge"
+		values={ {
+				name="Unit_AnimState"
+				value="Charge"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle2"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle3"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_attack"
+		values={ {
+				name="Unit_AnimState"
+				value="Attack"
+			} }
+	}
+ 	audio_event={
+		name="snd_attack_1"
+		trigger_time_absolute=0.796008
+		stop_on_state_change=yes
+		audio_event_name="wpn_mel_attack"
+	}
+ 	audio_event={
+		name="snd_attack_2"
+		trigger_time_absolute=2.116702
+		stop_on_state_change=yes
+		audio_event_name="wpn_mel_attack"
+	}
+ }
+
+timelines={
+	"L_default_Attack_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Connection 15"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+	}
+ 	"L_relative_Idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=3.267974
+		events={
+			"Idle to Move"
+			"Idle to charge"
+			"Idle to retreat"
+			"Idle to Idle loop"
+			"Idle To atack"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Move_editor_timeline"={
+		boundary_behavior=loop
+		duration=2.233816
+		events={
+			"Connection 17"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Retreat_editor_timeline"={
+		boundary_behavior=loop
+		duration=2.233816
+		events={
+			"Connection 19"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_relative_Charge_editor_timeline"={
+		boundary_behavior=loop
+		duration=0.701449
+		events={
+			"Connection 21"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=animation
+	}
+ 	"L_default_Idle Loop_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Idle loop to Idle"
+			"Connection 499"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+	}
+ 	"idle_polearm_01_animation"={
+		on_enter={
+			"snd_AnimState_idle"
+		}
+		boundary_behavior=clamp
+		duration=3.267974
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_polearm_01_animation"
+		duration_source=animation
+	}
+ 	"moving_polearm_animation"={
+		on_enter={
+			"snd_AnimState_moving"
+		}
+		boundary_behavior=loop
+		duration=2.233816
+		events={
+			"snd_moving_1"
+			"snd_moving_2"
+			"snd_moving_3"
+			"snd_moving_4"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="walk_polearm_animation"
+		duration_source=animation
+	}
+ 	"retreat_polearm_animation"={
+		on_enter={
+			"snd_AnimState_retreat"
+		}
+		boundary_behavior=loop
+		duration=2.233816
+		events={
+			"snd_retreat_1"
+			"snd_retreat_2"
+			"snd_retreat_3"
+			"snd_retreat_4"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="walk_polearm_animation"
+		duration_source=animation
+	}
+ 	"charge_polearm_animation"={
+		on_enter={
+			"snd_AnimState_charge"
+		}
+		boundary_behavior=loop
+		duration=0.701449
+		events={
+			"snd_charge_1"
+			"snd_charge_2"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="charge_polearm_animation"
+		duration_source=animation
+	}
+ 	"idle_polearm_02_animation"={
+		on_enter={
+			"snd_AnimState_idle2"
+		}
+		boundary_behavior=clamp
+		duration=3.267974
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_polearm_02_animation"
+		duration_source=animation
+	}
+ 	"idle_polearm_03_animation"={
+		on_enter={
+			"snd_AnimState_idle3"
+		}
+		boundary_behavior=clamp
+		duration=3.267974
+		events={
+			"snd_idle_1"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_polearm_03_animation"
+		duration_source=animation
+	}
+ 	"attack_polearm_animation"={
+		on_enter={
+			"snd_AnimState_attack"
+		}
+		boundary_behavior=loop
+		duration=3.934426
+		events={
+			"snd_attack_1"
+			"snd_attack_2"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="attack_two_handed_axe_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

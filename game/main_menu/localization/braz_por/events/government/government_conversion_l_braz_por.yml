@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ government_conversion_events.conversion_complete.title: "A Ascensão do Governo [target_country.GetAdjectiveWithNoTooltip]: [target_government_type.GetNameWithNoTooltip]"
+ government_conversion_events.conversion_complete.title_fallback: "Reforma do Governo"
+ government_conversion_events.conversion_complete.desc: "Os últimos anos foram um período de turbulência e agitação. Embora tenha sido melhor no longo prazo para o país [target_country.GetLongName] se reformar em um governo de [target_government_type.GetName], várias pessoas influentes, velhas e decadentes, lutaram com unhas e dentes para manter a antiga ordem sob a forma de [origin_government_type.GetName]. Mesmo assim, [target_character.GetName] conseguiu superar as adversidades e aboliu as antigas tradições que obstruíam a centralização do poder do governo recém-formado."
+ government_conversion_events.conversion_complete.a: "Baste de [origin_government_type.GetNameWithNoTooltip], agora somos um governo de [target_government_type.GetNameWithNoTooltip]!"

@@ -1,0 +1,56 @@
+﻿global_variables={
+}
+
+local_variables={
+}
+
+behavioral_states={
+ 	"turkey_idle"={
+		list_layer={
+			timeline_layer={
+				timeline="turkey_idle_editor_timeline"
+			}
+			timeline_layer={
+				timeline="Clip turkey_idle"
+			}
+		}
+	}
+}
+
+events={
+	behavioral_state_transition={
+		name="starting_state_internal_outgoing_transition"
+		behavioral_state="turkey_idle"
+		transition_interval=0.000000
+	}
+}
+
+timelines={
+	"turkey_idle_editor_timeline"={
+		boundary_behavior=loop
+		events={
+
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"Clip turkey_idle"={
+		boundary_behavior=loop
+		duration=2.604167
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="turkey_idle_animation"
+	}
+}
+
+starting_timeline={
+	on_enter={
+		"starting_state_internal_outgoing_transition"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

@@ -1,0 +1,6 @@
+﻿l_polish:
+ flavor_jol.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] i ich nawrócenie"
+ flavor_jol.1.desc: "Wraz z naszym rosnącym wpływem w regionie [ShowRegionName('guinea_region')] udało nam się dostosować do sporej części wymagań, które wysunęli [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] z podbitych ziem, lecz mimo to nie przyjęli w pełni #L [ROOT.GetCountry.GetReligion.GetAdjective|l]kich#! ani #L [ROOT.GetCountry.GetCulture.GetName|l]kich#! wartości. Być może powinniśmy uruchomić działania, które nam w tym pomogą."
+ flavor_jol.1.a: "Ustabilizujmy kraj [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_jol.1.b: "Nie ma potrzeby sprawiać, że [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] się do nas zrażą."
+ jol_convert_nobility_tt: "#Y 15%#! [pops|el], jakie tworzą [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], przyjmie kulturę #L [ROOT.GetCountry.GetCulture.GetName|l]ką#!, a ich nową religią stanie się [ROOT.GetCountry.GetReligion.GetName|l]."

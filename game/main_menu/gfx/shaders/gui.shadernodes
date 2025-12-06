@@ -1,0 +1,9 @@
+
+# Constant buffers
+constantbuffer = { file = "cw/pdxgui.fxh"				name = "PdxGuiConstants" 		type = "GUI" }
+constantbuffer = { file = "cw/pdxgui_helper.fxh"		name = "PdxConstantBuffer2"		type = "GUI" }
+
+
+# Nodes
+node = { file = "cw/pdxgui_sprite_base.fxh"				function = "SampleImageSprite" }
+node = { file = "cw/pdxgui_helper.fxh"					function = "HandleDisable" }

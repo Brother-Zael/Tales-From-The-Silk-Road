@@ -1,0 +1,11 @@
+﻿l_turkish:
+ flavor_pav.1.title: "[expelled_ruler.GetDynasty.GetNameWithNoTooltip] ve Sürgünü"
+ flavor_pav.1.desc: "[expelled_ruler.GetDynasty.GetName] Hanedanı'na karşı yeni bir isyan patlak verdi. [ROOT.GetCountry.GetCapital.GetName] şehri alevler içinde. Bu sefer isyan, şehri [ROOT.GetCountry.GetGovernment.GetRulerTitle] karşısında birleştiren karizmatik ruhban [pav_iacopo_bussolari_scope.GetName] önderliğinde yürütülüyor. Hiçbir şey yapmazsak [expelled_ruler.GetName] kaçmak zorunda kalacak. Hatta belki de kendisini [ShowDynastyName('visconti_dynasty')] Hanedanı'nın pençesinde bulacak."
+ flavor_pav.1.historical_info: "1356 yılında Beccaria, rahip Iacopo Bussolari önderliğinde başlatılan bir halk isyanıyla Pavia'dan sürgün edilmiştir. Bussolari, daha sonra bir Visconti kuşatmasında şehrin kurtarılmasına yardımcı olmuştur. Sürgün edilenler ittifak kurmuş ve şehir 1359 yılında Milano'nun eline geçmiştir. Beccaria'ya birtakım ayrıcalıklar geri verilmiş ancak şehir Milanoluların kontrolü altında kalmıştır."
+ flavor_pav.1.a: "Vaazları dinlensin!"
+ flavor_pav.1.b: "Bu huzursuzluğa karşı direnmeliyiz."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "[target_country.GetName] ülkesinde karizmatik [pav_iacopo_bussolari_scope.GetName] önderliğinde bir halk isyanı başladığında dair haberler aldık. Liderlerinin arkasında toplanan [target_country.GetCapital.GetNameWithNoTooltip] halkı, yardım isteğiyle huzurumuza çıkan [expelled_ruler.GetName] dâhil şehirlerini yöneten [expelled_ruler.GetDynasty.GetName] Hanedanı'nı sürgün etmeyi başardı. [expelled_ruler.GetDynasty.GetNameWithNoTooltip] ile aramızda önceden bir husumet yaşanmış olsa da bu fırsatı şehri kalıcı olarak ele geçirmek için değerlendirebiliriz."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "Kargaşadan faydalanalım."
+ flavor_pav.2.b: "Bizi ilgilendirmez."

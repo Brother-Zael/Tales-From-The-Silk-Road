@@ -1,0 +1,246 @@
+﻿metal_plain = {
+	diffuse	= "metals/unit_material_metal_iron_base_diffuse.dds"
+	normal		= "metals/unit_material_metal_iron_base_normal.dds"
+	properties	= "metals/unit_material_metal_iron_base_properties.dds"
+}
+
+iron_light = {
+	parent = metal_plain
+	diffuse	= "metals/unit_material_metal_iron_light_diffuse.dds"
+}
+
+iron_dark = {
+	parent = metal_plain
+	diffuse	= "metals/unit_material_metal_iron_dark_diffuse.dds"
+}
+
+iron_textured_brown = {
+	diffuse	= "metals/unit_material_metal_iron_brown_diffuse.dds"
+	normal		= "leather/unit_material_leather_buck_normal.dds"
+	properties	= "metals/unit_material_metal_iron_base_properties.dds"
+}
+
+iron_textured_dark = {
+	diffuse	= "metals/unit_material_metal_iron_black_diffuse.dds"
+	normal		= "leather/unit_material_leather_buck_normal.dds"
+	properties	= "metals/unit_material_metal_iron_base_properties.dds"
+}
+
+iron_blackened = {
+	parent = metal_plain
+	diffuse	= "metals/unit_material_metal_iron_black_diffuse.dds"
+	properties	= "metals/unit_material_metal_iron_blackened_properties.dds"
+}
+
+iron_damaged = {
+	diffuse	= "metals/unit_material_metal_iron_base_diffuse.dds"
+	normal		= "metals/unit_material_metal_iron_damaged_normal.dds"
+	properties	= "metals/unit_material_metal_iron_blackened_properties.dds"
+}
+
+gold = {
+	diffuse	= "metals/unit_material_metal_gold_base_diffuse.dds"
+	normal		= "metals/unit_material_metal_gold_base_normal.dds"
+	properties	= "metals/unit_material_metal_gold_base_properties.dds"
+}
+
+gold_dark = {
+	parent = gold
+	diffuse	= "metals/unit_material_metal_gold_dark_diffuse.dds"
+}
+
+gold_light = {
+	parent = gold
+	diffuse	= "metals/unit_material_metal_gold_light_diffuse.dds"
+}
+
+bronze = {
+	diffuse	= "metals/unit_material_metal_bronze_base_diffuse.dds"
+	normal		= "metals/unit_material_metal_bronze_base_normal.dds"
+	properties	= "metals/unit_material_metal_bronze_base_properties.dds"
+}
+
+brass = {
+	parent = bronze
+	diffuse	= "metals/unit_material_metal_bronze_base_diffuse.dds"
+}
+
+bronze_dark = {
+	parent = bronze
+	diffuse	= "metals/unit_material_metal_bronze_dark_diffuse.dds"
+}
+
+obsidian_base = {
+	diffuse	= "metals/unit_material_obsidian_diffuse.dds"
+	normal		= "metals/unit_material_obsidian_normal.dds"
+	properties	= "metals/unit_material_obsidian_properties.dds"
+}
+
+chainmail = {
+	diffuse	= "metals/unit_material_metal_chainmail_diffuse.dds"
+	normal		= "metals/unit_material_metal_chainmail_normal.dds"
+	properties	= "metals/unit_material_metal_chainmail_properties.dds"
+}
+
+chainmail_dark = {
+	parent = chainmail
+	diffuse	= "metals/unit_material_metal_chainmail_dark_diffuse.dds"
+}
+
+iron_engravings = {
+	diffuse	= "metals/unit_material_metal_engravings_metal_diffuse.dds"
+	normal		= "metals/unit_material_metal_engravings_metal_normal.dds"
+	properties	= "metals/unit_material_metal_engravings_metal_properties.dds"
+}
+
+iron_engravings_dark = {
+	parent = iron_engravings
+	diffuse	= "metals/unit_material_metal_engravings_dark_metal_diffuse.dds"
+}
+
+metal_engravings_1 = {
+	diffuse	= "metals/unit_material_metal_armor_engraving_1_diffuse.dds"
+	normal		= "metals/unit_material_metal_armor_engraving_1_normal.dds"
+	properties	= "metals/unit_material_metal_armor_engraving_1_properties.dds"
+}
+
+metal_engravings_2 = {
+	diffuse	= "metals/unit_material_metal_armor_engraving_2_diffuse.dds"
+	normal		= "metals/unit_material_metal_armor_engraving_2_normal.dds"
+	properties	= "metals/unit_material_metal_armor_engraving_2_properties.dds"
+}
+
+metal_engravings_3 = {
+	diffuse	= "metals/unit_material_metal_armor_engraving_3_diffuse.dds"
+	normal		= "metals/unit_material_metal_armor_engraving_3_normal.dds"
+	properties	= "metals/unit_material_metal_armor_engraving_3_properties.dds"
+}
+
+metal_engravings_4 = {
+	parent = metal_engravings_1
+	diffuse	= "metals/unit_material_metal_armor_engraving_4_diffuse.dds"
+}
+
+metal_engravings_5 = {
+	parent = metal_engravings_1
+	diffuse	= "metals/unit_material_metal_armor_engraving_5_diffuse.dds"
+}
+
+metal_engravings_6 = {
+	parent = metal_engravings_2
+	diffuse	= "metals/unit_material_metal_armor_engraving_6_diffuse.dds"
+}
+
+metal_engravings_7 = {
+	parent = metal_engravings_2
+	diffuse	= "metals/unit_material_metal_armor_engraving_7_diffuse.dds"
+}
+
+metal_armor_pattern_scales = {
+	diffuse	= "metals/unit_material_scales_chinese_diffuse.dds"
+	normal		= "metals/unit_material_scales_chinese_normal.dds"
+	properties	= "metals/unit_material_scales_chinese_properties.dds"
+}
+
+metal_armor_pattern_scales_golden = {
+	diffuse	= "metals/unit_material_scales_chinese_golden_diffuse.dds"
+	normal		= "metals/unit_material_scales_chinese_normal.dds"
+	properties	= "metals/unit_material_scales_chinese_properties.dds"
+}
+
+metal_armor_pattern_mountain_silver = {
+	diffuse	= "metals/unit_material_pattern_chinese_diffuse.dds"
+	normal		= "metals/unit_material_pattern_chinese_normal.dds"
+	properties	= "metals/unit_material_pattern_chinese_properties.dds"
+}
+
+metal_armor_pattern_mountain_golden = {
+	diffuse	= "metals/unit_material_pattern_chinese_golden_diffuse.dds"
+	normal		= "metals/unit_material_pattern_chinese_normal.dds"
+	properties	= "metals/unit_material_pattern_chinese_properties.dds"
+}
+
+metal_armor_pattern_big_scales = {
+	diffuse	= "metals/unit_material_scale_chinese_2_diffuse.dds"
+	normal		= "metals/unit_material_scale_chinese_2_normal.dds"
+	properties	= "metals/unit_material_scale_chinese_2_properties.dds"
+}
+
+metal_armor_lamellar_chinese = {
+	diffuse	= "metals/unit_material_lamellar_chinese_diffuse.dds"
+	normal		= "metals/unit_material_lamellar_chinese_normal.dds"
+	properties	= "metals/unit_material_lamellar_chinese_properties.dds"
+}
+
+metal_armor_scales_layers = {	
+	diffuse	= "metals/unit_material_scale_armor_layers_diffuse.dds"
+	normal		= "metals/unit_material_scale_armor_layers_normal.dds"
+	properties	= "metals/unit_material_scale_armor_layers_properties.dds"
+}
+
+metal_armor_lamellar_squares = {	
+	diffuse	= "metals/unit_material_lamellar_armor_square_layers_diffuse.dds"
+	normal		= "metals/unit_material_lamellar_armor_square_layers_normal.dds"
+	properties	= "metals/unit_material_lamellar_armor_square_layers_properties.dds"
+}
+
+metal_armor_lamellar_small_squares = {	
+	diffuse	= "metals/unit_material_lamellar_small_squares_diffuse.dds"
+	normal		= "metals/unit_material_lamellar_small_squares_normal.dds"
+	properties	= "metals/unit_material_lamellar_small_squares_properties.dds"
+}
+
+metal_armor_lamellar_horizontal_plaques = {	
+	diffuse	= "metals/unit_material_horizontal_lamellar_armor_diffuse.dds"
+	normal		= "metals/unit_material_horizontal_lamellar_armor_normal.dds"
+	properties	= "metals/unit_material_horizontal_lamellar_armor_properties.dds"
+}
+
+# painted_metal = {
+#	diffuse	= "metals/iron_metal_diffuse.dds"
+#	normal		= "metals/iron_metal_normal.dds"
+#	properties	= "metals/iron_metal_properties.dds"
+
+#	mask_texture = "four_color_checkers_mask.dds"
+
+#	repaint = {
+#		input_name = color_a
+#		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.5 hardness = 0.5 output = 1.0 }
+#	}
+#	repaint = {
+#		input_name = color_b
+#		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.5 output = 1.0 }
+#	}
+#	repaint = {
+#		input_name = color_c
+#		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.5 hardness = 0.5 output = 1.0 }
+#	}
+#	repaint = {
+#		input_name = color_d
+#		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.5 hardness = 0.5 output = 1.0 }
+#	}
+# }
+
+# stripy_metal = {
+#	diffuse	= "metals/iron_metal_diffuse.dds"
+#	normal		= "metals/iron_metal_normal.dds"
+#	properties	= "metals/iron_metal_properties.dds"
+
+#	mask_texture = "two_color_stripes_mask.dds"
+#	repaint = {
+#		input_name = color_a
+#		mask = { color = { 1.0 1.0 1.0 } tolerance = 10.0 hardness = 1.0 output = 1.0 }
+#	}
+# }
+
+# single_color_metal = {
+#	diffuse	= "metals/iron_metal_diffuse.dds"
+#	normal		= "metals/iron_metal_normal.dds"
+#	properties	= "metals/iron_metal_properties.dds"
+
+#	mask_texture = "two_color_stripes_mask.dds"
+#	repaint = {
+#		input_name = color_a
+#		mask = { color = { 1.0 1.0 1.0 } tolerance = 10.0 hardness = 1.0 output = 1.0 }
+#	}
+# }

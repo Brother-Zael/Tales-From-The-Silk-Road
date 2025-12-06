@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ END_GAME_VIEW_LOSING_TITLE: "Fim de Jogo"
+ END_GAME_VIEW_LOSING_TEXT: "Nossa nação não conseguiu sobreviver ao rumo dos acontecimentos, não sendo poderosa e determinada o suficiente em comparação aos nossos vizinhos. No futuro, o povo [COUNTRY.GetAdjective] será lembrado apenas em um museu, onde os acadêmicos estudarão nosso fracasso."
+ END_GAME_VIEW_SURVIVING_TITLE: "Um Adendo Pequeno na História"
+ END_GAME_VIEW_SURVIVING_TEXT: "Nossa orgulhosa nação sobreviveu a séculos de luta, guerras e adversidades, mas, apesar disso, o povo [COUNTRY.GetAdjective] não alcançou nada muito marcante. Em um mundo repleto de gigantes da civilização e da batalha, somos apenas uma nota de rodapé."
+ END_GAME_VIEW_GREAT_POWER_TITLE: "Uma Grande Potência"
+ END_GAME_VIEW_GREAT_TEXT: "Nossa gloriosa nação obteve o status de Grande Potência mundial. Parabéns, o povo [COUNTRY.GetAdjective] está entre os mais prósperos e prestigiados desta era, e o nosso governo foi recompensado com muito sucesso."
+ CONTINUE_PAST_END_DATE: "Continuar jogando"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "Continuar jogando\nAs conquistas serão desabilitadas daqui para frente"
+ END_GAME_VIEW_QUIT_TOOLTIP: "Encerrar jogo e voltar ao menu principal"
+ END_GAME_VIEW_OBSERVE: "Observar"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "Continuar no Modo Observador"

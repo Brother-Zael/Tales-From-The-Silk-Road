@@ -1,0 +1,7 @@
+﻿l_spanish:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Se eliminará la partida #T $SAVE_NAME$#! y los archivos de guardado que contenga."
+ DELETE_SAVE_CONFIRMATION_DESC: "Se eliminará #T $SAVE_NAME$#!."
+ FRONTEND_SAVE_EXIT_TEXT: "Guardar la partida como guardado automático #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Si abandonas como anfitrión, la partida multijugador terminará y los demás no podrán seguir jugando juntos."
+ FRONTEND_LEAVE_GAME_TEXT: "Si abandonas, la partida multijugador continuará sin ti."
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "Se sobrescribirá #T $SAVE_NAME$#!."

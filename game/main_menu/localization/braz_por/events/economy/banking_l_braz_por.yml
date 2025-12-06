@@ -1,0 +1,11 @@
+﻿l_braz_por:
+ banking.1.title: "A Ascensão dos Fuggers"
+ banking.1.desc: "Os Fugger, uma família do patriciado mercantil de Augsburgo, se tornou um dos grupos mais proeminentes de Banqueiros Europeus durante os séculos XV e XVI. Grande parte da economia europeia era controlada pela família, que quase teve o monopólio do mercado de cobre. Historicamente, a família tinha ótimas relações com a Casa de Habsburgo, que teve sua ascensão à potência mundial financiada por ela."
+ banking.1.a: "Isso é uma bênção para Augsburgo!"
+ banking.2.a: "Isso pode... nos beneficiar?"
+ the_fuggers_appear_in_augsburg_tt: "Agora, [the_fuggers.GetName] estão abertos para negócios em [ShowLocationName('augsburg')]"
+ banking.3.title: "A Família Welser"
+ banking.3.desc: "Welser era uma família germânica de banqueiros e comerciantes de Nuremberg e Augsburgo, que alegava ser descendente do general bizantino Belisário. Seus membros forneciam muitos serviços bancários para o crescimento do Império de Habsburgo, o que os deixou extremamente ricos. Na Era da Descoberta, eles tinham postos comerciais na Antuérpia, em Madri, Lisboa, Roma, Lyon e várias outras cidades."
+ banking.3.a: "Isso destacará Nuremberg!"
+ banking.4.a: "Isso pode... nos beneficiar?"
+ the_welsers_appear_in_augsburg_tt: "Agora, [the_welsers.GetName] estão abertos para negócios em [ShowLocationName('nuremberg')]"

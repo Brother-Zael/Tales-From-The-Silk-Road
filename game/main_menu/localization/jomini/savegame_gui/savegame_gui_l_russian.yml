@@ -1,0 +1,7 @@
+﻿l_russian:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — это прохождение будет удалено со всеми сохранениями."
+ DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — сохранение будет удалено."
+ FRONTEND_SAVE_EXIT_TEXT: "Сохранить игру как автосохранение #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Если вы, как организатор, покинете игру, сетевая игра завершится и остальные игроки не смогут продолжать играть вместе."
+ FRONTEND_LEAVE_GAME_TEXT: "Если вы покинете игру, сетевая игра продолжится без вас."
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — это сохранение будет перезаписано."

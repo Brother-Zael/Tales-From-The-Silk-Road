@@ -1,0 +1,4 @@
+﻿l_polish:
+ flavor_sav.1.title: "Pałac Venaria"
+ flavor_sav.1.desc: "Ta wspaniała i pełna przepychu królewska rezydencja, mieszcząca się w okolicach miasta [ShowLocationNameWithNoTooltip('turin')], to istny pomnik chwały i historii. Otaczają ją rozległe ogrody, zaś na misterne elementy architektoniczne swój wpływ wywarł barok oraz [ShowInstitutionName('renaissance')|l]. Pałacowi dworzanie zajmują bogato urządzone pokoje opowiadające o majestatycznej przeszłości i obiecujące wspaniałą przyszłość.\n\nRozległe ogrody, których ozdobę stanowią imponujące fontanny i rzeźby, zachęcają do wypoczynku na świeżym powietrzu. Pałac Venaria to nie tylko kulturowy skarb, ale też miejsce licznych wydarzeń i wystaw, gdzie dygnitarze z zagranicy mogą zanurzyć się w jego bogatym dziedzictwie. W naszych rękach, jako osób światłych i wykształconym, zabytek ten jest istną perłą architektury i kultury kraju [ROOT.GetCountry.GetName]."
+ flavor_sav.1.a: "To symbol naszej potęgi."

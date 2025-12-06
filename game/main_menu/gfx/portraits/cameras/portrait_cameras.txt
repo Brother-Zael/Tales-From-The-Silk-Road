@@ -1,0 +1,181 @@
+﻿@main_light_angle = -20
+
+#GUI Portrait 	  ( Needs to update left_panel.gui each time you want to check an camera update )
+#Family Portraits ( Needs to update portraits.gui each time you want to check an camera update )
+camera_head = {
+	camera = {
+		position = cylindrical{	210 30 10 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}
+camera_head_close = {
+	camera = {
+		position = cylindrical{	175 15 10 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+		look_at = {	0  3 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}
+
+camera_small_head_left = {
+	camera = {
+		position = cylindrical{	260 30 -10 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 16 15 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}
+
+camera_head_left = {
+	camera = {
+		position = cylindrical{	260 30 -10 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 6 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}
+
+camera_shoulders = {
+	camera = {
+		position = cylindrical{ 190 0 0 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = { 0 -2 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_shoulders.dds"
+}
+
+camera_torso = {
+	camera = {
+		position = cylindrical{ 240 -10 0 } # Radius, height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 -10 0 } # L/R, U/D, F/B
+		look_at_node = Neck_B
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable.dds"
+}
+
+#Main Portrait Camera
+camera_body = {
+	camera = {
+		position = cylindrical{ 140 10 0 } # Radius, height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 -10 0 } # L/R, U/D, F/B
+		look_at_node = Camera
+		fov = 20
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_small.dds"
+}
+
+camera_body_right = {
+	camera = {
+		position = cylindrical{ 140 10 30 } # Radius, height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 -10 0 } # L/R, U/D, F/B
+		look_at_node = Camera
+		fov = 20
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_small.dds"
+}
+
+camera_body_left = {
+	camera = {
+		position = cylindrical{ 140 10 -30 } # Radius, height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = {	0 -10 0 } # L/R, U/D, F/B
+		look_at_node = Camera
+		fov = 20
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_small.dds"
+}
+
+camera_character_view_main = {
+	camera = {
+		position = cylindrical{ 190 0 0 } # Radius, height, angle
+		#		position_node = camera_torso_look_at
+
+		look_at = { 0 0 0 } # L/R, U/D, F/B
+		look_at_node = Neck_B
+		fov = 30
+		camera_near_far = { 10 300 }
+	}
+
+	unknown = camera_torso
+}
+
+
+
+portrait_editor = {
+	camera = {
+		# PERSPECTIVE
+		# cylindrical: 				radius, height, angle
+		position = cylindrical	{ 	260.0 	0.0 	26.0 }
+		#		position_node = camera_torso_look_at
+
+		#						L/R			U/D		F/B
+		look_at =				{	0.0		0.0		0.0	}
+		look_at_node = Neck_B
+		fov = 10
+		camera_near_far = { 50.0 400.0 }
+	}
+	unknown = "gfx/portraits/example_portraits/unknown.dds"
+}
+
+camera_head_front = {
+	camera = {
+		position = cylindrical{	260 15 0 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+		look_at = {	0 5 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}
+
+camera_head_side = {
+	camera = {
+		position = cylindrical{	260 15 85 } # Radius,	height, angle
+		#		position_node = camera_torso_look_at
+		look_at = {	0 5 0 } # L/R, U/D, F/B
+		look_at_node = Head_B
+		fov = 10
+		camera_near_far = { 10 300 }
+	}
+	unknown = "gfx/portraits/example_portraits/unknown_unclickable_head.dds"
+}

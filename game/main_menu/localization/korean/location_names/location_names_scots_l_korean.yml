@@ -1,0 +1,428 @@
+﻿l_korean:
+ ## Area 'northern_isles_area' (Northern Isles) ##
+ #Province 'northern_isles_province' (Northern Isles) #
+ orkney.scots_dialect: "오크네이"
+ shetland.scots_dialect: "제틀랜드"
+ torshavn.scots_dialect: "토르샤운"
+ ## Area 'home_counties_area' (Home Counties) ##
+ #Province 'middlesex_province' (Middlesex) #
+ london.scots_dialect: "러넌"
+ london_derrylondon.scots_dialect: "데리얼러넌"
+ #Province 'surrey_province' (Surrey) #
+ reigate.scots_dialect: "리가이트"
+ guildford.scots_dialect: "길파트"
+ woking.scots_dialect: "워킨"
+ kingston.scots_dialect: "킹스타운" #Kingston
+ #Province 'hampshire_province' (Hampshire) #
+ southampton.scots_dialect: "수샘프턴"
+ portsmouth.scots_dialect: "포츠무스"
+ winchester.scots_dialect: "윈체스터"
+ lymington.scots_dialect: "리민툰"
+ wight.scots_dialect: "위흐트"
+ basingstoke.scots_dialect: "베이신스토크"
+ #Province 'kent_province' (Kent) #
+ dover.scots_dialect: "두어"
+ canterbury.scots_dialect: "캔티베리"
+ rochester.scots_dialect: "로체스터"
+ hythe.scots_dialect: "히스"
+ tonbridge.scots_dialect: "툰브리그"
+ #Province 'sussex_province' (Sussex) #
+ shoreham.scots_dialect: "쇼어햄"
+ lewes.scots_dialect: "루이스"
+ hastings.scots_dialect: "해스틴스"
+ chichester.scots_dialect: "치체스터"
+ #Province 'bedfordshire_province' (Bedfordshire) #
+ dunstable.scots_dialect: "던스타빌"
+ bedford.scots_dialect: "베드퍼드"
+ #Province 'oxfordshire_province' (Oxfordshire) #
+ oxford.scots_dialect: "오스퍼트"
+ henley.scots_dialect: "헨리"
+ banbury.scots_dialect: "밴브리"
+ #Province 'berkshire_province' (Berkshire) #
+ windsor.scots_dialect: "윈저"
+ reading.scots_dialect: "레딘"
+ abingdon.scots_dialect: "애빙둔"
+ #Province 'buckinghamshire_province' (Buckinghamshire) #
+ buckingham.scots_dialect: "버킨햄"
+ aylesbury.scots_dialect: "에일스버레"
+ wycombe.scots_dialect: "위컴"
+ ## Area 'midlands_area' (Mercia) ##
+ #Province 'leicestershire_province' (Leicestershire) #
+ leicester.scots_dialect: "레체스터"
+ loughborough.scots_dialect: "로흐버러"
+ bosworth.scots_dialect: "보스워스"
+ rutland.scots_dialect: "오컴" #Oakham
+ #Province 'derbyshire_province' (Derbyshire) #
+ derby.scots_dialect: "다비"
+ glossop.scots_dialect: "글로솝"
+ chesterfield.scots_dialect: "체스터필드"
+ #Province 'nottinghamshire_province' (Nottinghamshire) #
+ nottingham.scots_dialect: "노팅햄"
+ newark.scots_dialect: "뉴워크"
+ retford.scots_dialect: "레트퍼드"
+ #Province 'lincolnshire_province' (Lincolnshire) #
+ lincoln.scots_dialect: "링컨"
+ boston.scots_dialect: "보스턴"
+ grimsby.scots_dialect: "그림스베이"
+ grantham.scots_dialect: "그랜섬"
+ louth.scots_dialect: "로스"
+ spalding.scots_dialect: "스포딘"
+ #Province 'northamptonshire_province' (Northamptonshire) #
+ northampton.scots_dialect: "노샘프툰"
+ daventry.scots_dialect: "대빈트리"
+ kettering.scots_dialect: "케터린"
+ #Province 'warwickshire_province' (Warwickshire) #
+ coventry.scots_dialect: "코번트리"
+ birmingham.scots_dialect: "버밍햄"
+ stratford.scots_dialect: "스트랫퍼드"
+ #Province 'shropshire_province' (Shropshire) #
+ shrewsbury.scots_dialect: "슈루스버레"
+ oswestry.scots_dialect: "오스웨스트리"
+ ludlow.scots_dialect: "러들레이"
+ #Province 'herefordshire_province' (Herefordshire) #
+ hereford.scots_dialect: "헤리퍼드"
+ ewyas.scots_dialect: "랭툰" #Longtown
+ wigmore.scots_dialect: "위그모어"
+ #Province 'worcestershire_province' (Worcestershire) #
+ worcester.scots_dialect: "워스터"
+ kidderminster.scots_dialect: "키더민스터"
+ #Province 'staffordshire_province' (Staffordshire) #
+ stafford.scots_dialect: "스타파트"
+ stoke.scots_dialect: "스토크"
+ tamworth.scots_dialect: "리치필드" #Lichfield
+ ## Area 'northumbria_area' (Northumbria) ##
+ #Province 'lancashire_province' (Lancashire) #
+ lancaster.scots_dialect: "랭체스터"
+ blackburn.scots_dialect: "블랙번"
+ liverpool.scots_dialect: "리버풀"
+ preston.scots_dialect: "프리스툰"
+ manchester.scots_dialect: "맨체스터"
+ #Province 'north_riding_province' (North Riding) #
+ york.scots_dialect: "요크"
+ scarborough.scots_dialect: "스카브루"
+ bedale.scots_dialect: "비데일"
+ richmond.scots_dialect: "리치먼드"
+ whitby.scots_dialect: "위트베이"
+ #Province 'east_riding_province' (East Riding) #
+ hull.scots_dialect: "헐"
+ bridlington.scots_dialect: "브리들린툰"
+ selby.scots_dialect: "셀베이"
+ norton.scots_dialect: "노툰"
+ #Province 'west_riding_province' (West Riding) #
+ leeds.scots_dialect: "리즈"
+ pontefract.scots_dialect: "폰테프랙"
+ skipton.scots_dialect: "스킵턴"
+ wakefield.scots_dialect: "허더스필드" #Huddersfield
+ doncaster.scots_dialect: "동커스터"
+ ripon.scots_dialect: "리핀"
+ #Province 'northumberland_province' (Northumberland) #
+ newcastle.scots_dialect: "뉴캐슬"
+ hexham.scots_dialect: "힉셤"
+ alnwick.scots_dialect: "애닉"
+ morpeth.scots_dialect: "모피스"
+ billingham.scots_dialect: "벨린햄" #Bellingham
+ #Province 'cumberland_province' (Cumberland) #
+ carlisle.scots_dialect: "캐얼라일"
+ cockermouth.scots_dialect: "코커머스"
+ penrith.scots_dialect: "펜리스"
+ egremont.scots_dialect: "이그리몬트"
+ #Province 'westmorland_province' (Westmorland) #
+ kendal.scots_dialect: "켄달"
+ appleby.scots_dialect: "애필베이"
+ #Province 'durham_province' (Durham) #
+ durham.scots_dialect: "더럼"
+ darlington.scots_dialect: "달린툰"
+ stockton.scots_dialect: "스톡툰"
+ #Province 'cheshire_province' (Cheshire) #
+ chester.scots_dialect: "체스터"
+ macclesfield.scots_dialect: "매클스필드"
+ nantwich.scots_dialect: "낸트위치"
+ ## Area 'east_anglia_area' (East Anglia) ##
+ #Province 'norfolk_province' (Norfolk) #
+ norwich.scots_dialect: "노리치"
+ lynn.scots_dialect: "린"
+ yarmouth.scots_dialect: "야무스"
+ thetford.scots_dialect: "셋퍼드"
+ fakenham.scots_dialect: "패킨햄"
+ #Province 'essex_province' (Essex) #
+ colchester.scots_dialect: "콜체스터"
+ chelmsford.scots_dialect: "첼름스퍼드"
+ prittlewell.scots_dialect: "프루틀웰"
+ hedingham.scots_dialect: "헤딘햄"
+ walden.scots_dialect: "월든"
+ barking.scots_dialect: "바킨" #Barking
+ #Province 'suffolk_province' (Suffolk) #
+ ipswich.scots_dialect: "입스우치"
+ bury.scots_dialect: "버리"
+ lowestoft.scots_dialect: "로어스터프트"
+ lavenham.scots_dialect: "래빈햄"
+ #Province 'cambridgeshire_province' (Cambridgeshire) #
+ cambridge.scots_dialect: "캠브리지"
+ ely.scots_dialect: "엘리"
+ huntingdon.scots_dialect: "헌틴둔"
+ royston.scots_dialect: "로이스툰"
+ #Province 'hertfordshire_province' (Hertfordshire) #
+ hertford.scots_dialect: "해트퍼드"
+ st_albans.scots_dialect: "산트 올번스" #St Albans
+ ## Area 'west_country_area' (West Country) ##
+ #Province 'cornwall_province' (Cornwall) #
+ launceston.scots_dialect: "랜스툰"
+ truro.scots_dialect: "트루로"
+ bodmin.scots_dialect: "보드민"
+ #Province 'somerset_province' (Somerset) #
+ wells.scots_dialect: "웨일스"
+ taunton.scots_dialect: "톤툰"
+ bath.scots_dialect: "바이스"
+ portishead.scots_dialect: "포티스히드"
+ minehead.scots_dialect: "마인히드"
+ #Province 'devon_province' (Devon) #
+ plymouth.scots_dialect: "플리머스"
+ exeter.scots_dialect: "엑스터"
+ barnstaple.scots_dialect: "반스테이플"
+ bideford.scots_dialect: "비드퍼드"
+ bampton.scots_dialect: "뱀툰"
+ okehampton.scots_dialect: "오크햄툰"
+ #Province 'dorset_province' (Dorset) #
+ poole.scots_dialect: "푸일"
+ weymouth.scots_dialect: "위머스"
+ dorchester.scots_dialect: "도체스터"
+ shaftesbury.scots_dialect: "샤프스버레"
+ #Province 'wiltshire_province' (Wiltshire) #
+ salisbury.scots_dialect: "사울스버레"
+ trowbridge.scots_dialect: "트로브리그"
+ chippenham.scots_dialect: "치핀햄"
+ amesbury.scots_dialect: "에임스버레"
+ #Province 'gloucestershire_province' (Gloucestershire) #
+ bristol.scots_dialect: "브리스타이"
+ gloucester.scots_dialect: "글로스터"
+ cheltenham.scots_dialect: "첼틴햄"
+ cirencester.scots_dialect: "시린체스터"
+ ## Area 'scottish_highlands_area' (Highlands) ##
+ #Province 'moray_province' (Moray) #
+ inverness.scots_dialect: "인버네스"
+ urquhart.scots_dialect: "어커트"
+ elgin.scots_dialect: "아일긴"
+ badenoch.scots_dialect: "바데노흐"
+ #Province 'ross_province' (Ross) #
+ dingwall.scots_dialect: "딩월"
+ gairloch.scots_dialect: "게어로흐"
+ ullapool.scots_dialect: "애신트" #Assynt
+ #Province 'sutherland_province' (Sutherland) #
+ dornoch.scots_dialect: "도르노흐"
+ durness.scots_dialect: "던네스"
+ tongue.scots_dialect: "텅"
+ thurso.scots_dialect: "서소"
+ #Province 'argyll_province' (Argyll) #
+ inverary.scots_dialect: "인버레리"
+ oban.scots_dialect: "론" #Lorne
+ cowal.scots_dialect: "쿠알"
+ lochaber.scots_dialect: "로커버"
+ ardtornish.scots_dialect: "아드토니시"
+ kintyre.scots_dialect: "킨타이어"
+ ## Area 'hebrides_area' (Hebrides) ##
+ #Province 'outer_hebrides_province' (Outer Hebrides) #
+ lewis.scots_dialect: "루이스"
+ uist.scots_dialect: "위스트"
+ harris.scots_dialect: "해리스"
+ skye.scots_dialect: "스카이"
+ #Province 'inner_hebrides_province' (Inner Hebrides) #
+ arran.scots_dialect: "아란"
+ mull.scots_dialect: "멀"
+ islay.scots_dialect: "아일레이"
+ mann.scots_dialect: "맨"
+ ## Area 'scottish_lowlands_area' (Lowlands) ##
+ #Province 'lothian_province' (Lothian) #
+ edinburgh.scots_dialect: "에든버러"
+ dunbar.scots_dialect: "던바"
+ linlithgow.scots_dialect: "린리스게"
+ stirling.scots_dialect: "스털린"
+ #Province 'galloway_province' (Galloway) #
+ stranraer.scots_dialect: "스트랜로어"
+ ayr.scots_dialect: "에어"
+ kirkcudbright.scots_dialect: "커크쿠브리"
+ irvine.scots_dialect: "어빈"
+ kenmure.scots_dialect: "켄무어"
+ dumfries.scots_dialect: "덤프리스"
+ #Province 'strathclyde_province' (Strathclyde) #
+ glasgow.scots_dialect: "글레스카"
+ lanark.scots_dialect: "랜릭"
+ paisley.scots_dialect: "페이즐리"
+ dumbarton.scots_dialect: "덤베어턴"
+ #Province 'teviotdale_province' (Teviotdale) #
+ roxburgh.scots_dialect: "록스버러"
+ selkirk.scots_dialect: "셀커크"
+ duns.scots_dialect: "던스"
+ berwick.scots_dialect: "베릭"
+ #Province 'fife_province' (Fife) #
+ dunfermline.scots_dialect: "던포를린"
+ st_andrews.scots_dialect: "산트 앤드러스" #St Andrews
+ cupar.scots_dialect: "쿠퍼"
+ #Province 'perthshire_province' (Perthshire) #
+ perth.scots_dialect: "파르스"
+ aberfeldy.scots_dialect: "애버펠디"
+ clackmannan.scots_dialect: "클랙매넌"
+ scone.scots_dialect: "던켈" #Dunkeld
+ strathearn.scots_dialect: "스트래스엔"
+ #Province 'angus_province' (Angus) #
+ dundee.scots_dialect: "던디"
+ forfar.scots_dialect: "포파"
+ arbroath.scots_dialect: "에버브로덕"
+ stonehaven.scots_dialect: "킨카르딘" #Kincardine
+ #Province 'aberdeenshire_province' (Aberdeenshire) #
+ aberdeen.scots_dialect: "아이버딘"
+ buchan.scots_dialect: "프레이저브루" #Fraserburgh
+ banff.scots_dialect: "밴프"
+ mar.scots_dialect: "브레매어" #Braemar
+ inverurie.scots_dialect: "인버루리"
+ ## Area 'wales_area' (Wales) ##
+ #Province 'deheubarth_province' (Deheubarth) #
+ carmarthen.scots_dialect: "카마르센"
+ pembroke.scots_dialect: "핌브로크"
+ fishguard.scots_dialect: "피시가이드"
+ kidwelly.scots_dialect: "키드월리"
+ cardigan.scots_dialect: "카디건"
+ aberystwyth.scots_dialect: "애버리스트위스"
+ #Province 'gwynedd_province' (Gwynedd) #
+ carnarvon.scots_dialect: "카나번"
+ anglesey.scots_dialect: "앵글시아"
+ conwy.scots_dialect: "콘웨이" #Conway
+ harlech.scots_dialect: "하를라흐"
+ flint.scots_dialect: "플린트"
+ penllyn.scots_dialect: "펜린"
+ denbigh.scots_dialect: "덴비흐"
+ #Province 'powys_province' (Powys) #
+ montgomery.scots_dialect: "몬트코메리"
+ machynlleth.scots_dialect: "마힌레스"
+ llangollen.scots_dialect: "렉섬" #Wrexham
+ #Province 'brecon_province' (Brecon) #
+ brecknock.scots_dialect: "브리크녹"
+ builth.scots_dialect: "보일스"
+ radnor.scots_dialect: "래드노어"
+ #Province 'glamorgan_province' (Glamorgan) #
+ cardiff.scots_dialect: "카디프"
+ monmouth.scots_dialect: "몬머스"
+ newport.scots_dialect: "뉴페어트"
+ neath.scots_dialect: "니스"
+ swansea.scots_dialect: "스완세이"
+ caerphilly.scots_dialect: "캐어필리"
+ ## Area 'leinster_area' (Leinster) ##
+ #Province 'dublin_province' (Dublin) #
+ dublin.scots_dialect: "더블린"
+ fingal.scots_dialect: "말라히드" #Malahide
+ wicklow.scots_dialect: "위클라"
+ glendalough.scots_dialect: "글렌달로흐"
+ #Province 'meath_province' (Meath) #
+ trim.scots_dialect: "트림"
+ kells.scots_dialect: "켈스"
+ mullingar.scots_dialect: "멀린가르"
+ longford.scots_dialect: "랑퍼드"
+ ardagh.scots_dialect: "아다우"
+ ballymore.scots_dialect: "베일리매어"
+ tullamore.scots_dialect: "털라마우르"
+ navan.scots_dialect: "나빈"
+ #Province 'wexford_province' (Wexford) #
+ wexford.scots_dialect: "웩스퍼드"
+ new_ross.scots_dialect: "뉴 로스" #New Ross
+ ferns.scots_dialect: "펀스"
+ carlow.scots_dialect: "캐얼로"
+ #Province 'kildare_province' (Kildare) #
+ kildare.scots_dialect: "킬데어"
+ naas.scots_dialect: "네이스"
+ athy.scots_dialect: "아하이"
+ dunamase.scots_dialect: "디너메이스"
+ daingean.scots_dialect: "딩인"
+ #Province 'kilkenny' (Kilkenny) #
+ kilkenny.scots_dialect: "킬케니"
+ cullahill.scots_dialect: "컬로힐" #Cullohill
+ ## Area 'ulster_area' (Ulster) ##
+ #Province 'antrim_province' (Antrim) #
+ carrickfergus.scots_dialect: "캐릭퍼거스"
+ belfast.scots_dialect: "빌파우스트"
+ ballymena.scots_dialect: "밸리메나" #Antrim
+ ballycastle.scots_dialect: "밸리캐슬" #Glenarm
+ dunluce.scots_dialect: "던루스"
+ #Province 'down_province' (Down) #
+ downpatrick.scots_dialect: "둔패트릭"
+ iveagh.scots_dialect: "라스프릴린트" #Rathfriland
+ newtownards.scots_dialect: "눗네어즈" #Bangor
+ #Province 'tyrone_province' (Tyrone) #
+ dungannon.scots_dialect: "던개넌"
+ strabane.scots_dialect: "스트라본"
+ clogher.scots_dialect: "클라우어"
+ enniskillen.scots_dialect: "리스나스케이" #Lisnaskea
+ belcoo.scots_dialect: "벨쿠"
+ #Province 'derry_province' (Derry) #
+ derry.scots_dialect: "데리"
+ derry_londonderry.scots_dialect: "러넌데리"
+ coleraine.scots_dialect: "콜레인"
+ magherafelt.scots_dialect: "매그라펠트"
+ #Province 'donegal_province' (Donegal) #
+ donegal.scots_dialect: "더너가"
+ kilmacrennan.scots_dialect: "레터키니" #Letterkenny
+ inishowen.scots_dialect: "번크라나" #Buncranna
+ raphoe.scots_dialect: "라푸"
+ #Province 'oriel_province' (Oriel) #
+ monaghan.scots_dialect: "모니힌"
+ carrickmacross.scots_dialect: "이네스케인" #Inniskeen
+ armagh.scots_dialect: "아르마"
+ oriel.scots_dialect: "뉴리" #Newry
+ dundalk.scots_dialect: "던도크"
+ drogheda.scots_dialect: "드로다"
+ ## Area 'connaught_area' (Connaught) ##
+ #Province 'galway_province' (Galway) #
+ galway.scots_dialect: "갤로웨이"
+ clifden.scots_dialect: "애닉둔" #Annaghdown
+ athenry.scots_dialect: "에이센리"
+ tuam.scots_dialect: "툼"
+ kilconnell.scots_dialect: "킬코넬"
+ #Province 'roscommon_province' (Roscommon) #
+ roscommon.scots_dialect: "로스코멘"
+ castlereagh.scots_dialect: "캐슬라" #Castlerea
+ sligo.scots_dialect: "슬라이고"
+ athlone.scots_dialect: "애슬론"
+ skreen.scots_dialect: "스크린"
+ #Province 'breifne_province' (Breifne) #
+ dromahair.scots_dialect: "드루마허"
+ leitrim.scots_dialect: "디트렘"
+ killeshandra.scots_dialect: "밸리코넬" #Ballyconnell
+ cavan.scots_dialect: "캐번"
+ killycolly.scots_dialect: "킬리콜리"
+ #Province 'mayo_province' (Mayo) #
+ castlebar.scots_dialect: "캐슬바"
+ burrishoole.scots_dialect: "머리스크" #Murrisk
+ erris.scots_dialect: "킬랄라" #Kilalla
+ ballaghaderreen.scots_dialect: "밸러개린"
+ ## Area 'munster_area' (Munster) ##
+ #Province 'cork_province' (Cork) #
+ cork.scots_dialect: "코크"
+ fermoy.scots_dialect: "말레이" #Mallow
+ kinsale.scots_dialect: "킨세일"
+ youghal.scots_dialect: "유할"
+ #Province 'desmond_province' (Desmond) #
+ killarney.scots_dialect: "킬레어이"
+ carbery.scots_dialect: "던베이" #Dunboy
+ kilbrittain.scots_dialect: "킬브리튼"
+ muskerry.scots_dialect: "블레어니" #Blarney
+ dunhallow.scots_dialect: "캔터크" #Kanturk
+ #Province 'limerick_province' (Limerick) #
+ tralee.scots_dialect: "트랠리"
+ dingle.scots_dialect: "딩일"
+ limerick.scots_dialect: "리머릭"
+ killmallock.scots_dialect: "킬맬록"
+ adare.scots_dialect: "어데어"
+ castleconnell.scots_dialect: "캐슬코넬"
+ #Province 'clare_province' (Clare) #
+ ennis.scots_dialect: "에니스"
+ bunratty.scots_dialect: "번래티"
+ moyarta.scots_dialect: "킬러시" #Kilrush
+ #Province 'tipperary_province' (Tipperary) #
+ tipperary.scots_dialect: "팁프레리"
+ nenagh.scots_dialect: "니너"
+ clonmel.scots_dialect: "클론멜"
+ cashel.scots_dialect: "캐셜"
+ roscrea.scots_dialect: "로스크리"
+ moycarn.scots_dialect: "버" #Birr
+ #Province 'waterford_province' (Waterford) #
+ waterford.scots_dialect: "워터퍼드"
+ dungarvan.scots_dialect: "던가빈"
+ carrickbeg.scots_dialect: "킬미든" #Kilmeaden

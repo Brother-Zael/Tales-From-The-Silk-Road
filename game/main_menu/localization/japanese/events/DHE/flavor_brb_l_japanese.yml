@@ -1,0 +1,5 @@
+﻿l_japanese:
+ flavor_brb.1.title: "[target_location.GetNameWithNoTooltip]の台頭"
+ flavor_brb.1.desc: "[target_location.GetName]はつねに[ROOT.GetCountry.GetName]の重要な港であり、[target_market.GetName]におけるわが国の商人の力を高めてきた。しかし最近、[target_location.GetRank.GetName]の[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]たちは、新たな一歩を踏み出すことにした。彼らは目下、この都市の港を強化する計画を立てているのだ。"
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip]は支援に値する。"
+ flavor_brb.1.b: "強化に割く資源はない。"

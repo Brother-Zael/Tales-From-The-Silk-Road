@@ -1,0 +1,11 @@
+﻿l_french:
+ ap_falls_desc_key: "Après un siège mouvementé et une défense courageuse de sa garnison, [target_location.GetName] est tombée devant la puissance de nos grandes armées. Dans ses murs réside une puissante autorité religieuse, puisque le [target_location.GetRank.GetNameWithNoTooltip] accueillait autrefois des dignitaires de la foi [ShowReligionAdjective('orthodox')]. La question demeure : devrions-nous abolir cette institution apparentée ou lui accorder notre protection ?"
+ autocephalous_patriarchates.1.title: "Chute du siège du Patriarcat autocéphale !"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Prononçons la dissolution du Patriarcat."
+ autocephalous_patriarchates.1.b: "Apaisons le Patriarcat."
+ autocephalous_patriarchates.2.title: "Chute du siège du Patriarcat autocéphale !"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "Prononçons la dissolution du Patriarcat."
+ autocephalous_patriarchates.2.b: "Conservons-le."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Tous les membres du [target_ap.GetName] vont perdre [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] en Opinion qu'ils ont de nous"

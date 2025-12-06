@@ -1,0 +1,322 @@
+﻿###############################################
+# shields
+###############################################
+peasant_shields = { 1 = {} }
+soldier_shields = { 1 = {} }
+noble_shields = { 1 = {} }
+
+base_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_bolts_syrian_mesh" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_bronze_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_traditions_medium_mesh" add_tags = "shield"  add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_traditions_light_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    default = {}
+
+	#HEAVY
+
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_syrian_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_decorated_syria_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_sun_metal_mesh" add_tags = "shield" add_tags = "UnitShield_large_metal" required_tags = "one_handed" } }
+
+
+#AGE_2_RENAISSANCE
+	#PEASANT
+
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_metal_buckel_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+
+	#MEDIUM
+
+#	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_arbalest_mesh" add_tags = "shield" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_long_syria_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_gold_rim_buckel_mesh" add_tags = "shield"  add_tags = "UnitShield_large_metal" required_tags = "one_handed" } }
+
+	#HEAVY
+
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_gilded_metal_mesh" add_tags = "shield" add_tags = "UnitShield_large_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_velvet_mesh" add_tags = "shield" add_tags = "UnitShield_large_metal" required_tags = "one_handed" } }
+
+
+#AGE_3_DISCOVERY
+	#MEDIUM
+
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_wooden_handle_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+
+	#HEAVY
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_glided_metal_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_fabric_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_heavy_deco_syrian_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+}
+
+# AGE_1_TRADITIONS
+ #PEASANT
+european_gfx:peasant_shields = {
+	2 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_buckler_mesh" add_tags = "shield" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }    
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_viking_round_c_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_viking_round_d_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    default = {}
+}
+
+	#MEDIUM
+european_gfx:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_heater_leather_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	#1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_leather_mid_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    5 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_viking_round_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    5 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_viking_round_b_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_traditions_medium_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+    default = {}
+}
+
+	#HEAVY
+european_gfx:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_01_north_german_age1_shield_heater_a_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_buckler_mesh" add_tags = "shield" add_tags = "shield" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }
+    1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_traditions_heavy_mesh" add_tags = "shield" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+    default = {}
+}
+
+# AGE_2_RENAISSANCE
+	#PEASANT
+european_gfx:age_2_renaissance:peasant_shields = {
+	2 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_buckler_mesh" add_tags = "shield" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+	#MEDIUM
+european_gfx:age_2_renaissance:soldier_shields = {
+   skip_initial_check = yes
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_01_north_german_age1_shield_heater_a_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_buckler_mesh" add_tags = "shield" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_german_pavise_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = pavise_shields
+    default = {}
+}
+
+pavise_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_german_pavise_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }#NEW MODEL
+    default = {}
+}
+
+	#HEAVY
+european_gfx:age_2_renaissance:noble_shields = {
+	1 = { add_entity = { node =  Unit_Base_Rig_LeftHand			mesh_name = "unit_shield_noble_shield_renaissance_mesh" add_tags = "shield" add_tags = "UnitShield_small_wood" required_tags = "one_handed" } } #NEW MODEL
+    1 = pavise_shields
+    default = {}
+}
+
+# AGE_3_DISCOVERY
+#MEDIUM
+european_gfx:age_3_discovery:soldier_shields = {
+	1 = {}    
+}
+	#HEAVY
+european_gfx:age_3_discovery:noble_shields = {
+	1 = { }
+}
+
+# AGE_4_REFORMATION
+	#MEDIUM
+european_gfx:age_4_reformation:soldier_shields = {
+	1 = {}    
+}
+    #HEAVY
+european_gfx:age_4_reformation:noble_shields = {
+    1 = {}    
+}
+
+# AGE_5_ABSOLUTISM
+	#MEDIUM
+european_gfx:age_5_absolutism:soldier_shields = {
+	1 = {}    
+}
+    #HEAVY
+european_gfx:age_5_absolutism:noble_shields = {
+    1 = {}    
+}
+
+# AGE_6_REVOLUTIONS
+	#MEDIUM
+european_gfx:age_6_revolutions:soldier_shields = {
+	1 = {}    
+}
+    #HEAVY
+european_gfx:age_6_revolutions:noble_shields = {
+    1 = {}    
+}
+
+### IROQUOIS ###
+#AGE_1_TRADITIONS
+
+	#MEDIUM
+iroquois_gfx:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_rope_tied_iroquois_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_rope_b_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_rope_tied_large_iroquois_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    default = {}
+}
+
+### SYRIAN ###
+#AGE_1_TRADITIONS
+middle_east_gfx:peasant_shields = {
+	1 = { }
+}
+
+	#MEDIUM
+
+middle_east_gfx:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_bolts_syrian_mesh" add_tags = "UnitShield_small_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_bronze_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+	#HEAVY
+middle_east_gfx:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_syrian_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_decorated_syria_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_sun_metal_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+#AGE_2_RENAISSANCE
+	#PEASANT
+middle_east_gfx:age_2_renaissance:peasant_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_metal_buckel_mesh" add_tags = "shield"  add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+	#MEDIUM
+middle_east_gfx:age_2_renaissance:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_arbalest_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_long_syria_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_gold_rim_buckel_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+	#HEAVY
+middle_east_gfx:age_2_renaissance:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_gilded_metal_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_velvet_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+#AGE_3_DISCOVERY
+	#MEDIUM
+middle_east_gfx:age_3_discovery:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_wooden_handle_mesh" add_tags = "shield" add_tags = "UnitShield_medium_wood" required_tags = "one_handed" } }
+    default = {}
+}
+	#HEAVY
+middle_east_gfx:age_3_discovery:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_fabric_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+middle_east_gfx:age_4_reformation:soldier_shields = {
+	1 = {}
+    default = {}
+}
+	#HEAVY
+middle_east_gfx:age_4_reformation:noble_shields = {
+	1 = {}
+    default = {}
+}
+
+### CHINESE
+
+# AGE_1_TRADITIONS
+ #PEASANT
+east_asian_gfx:light_tag:shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_bamboo_mesh" add_tags = "shield" add_tags = "UnitShield_large_metal" required_tags = "one_handed" } }
+	8 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_rattan_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+   
+    default = {}
+}
+
+	#MEDIUM
+east_asian_gfx:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_rattan_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_tower_wooden_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_metal_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+	#HEAVY
+east_asian_gfx:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_weapon_shield_wooden_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_corner_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_painted_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+
+
+
+### ASHANTI ###
+#AGE_1_TRADITIONS
+	#PEASANT
+african_gfx:light_tag:shields = {
+	#1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_cane_leather_mesh" add_tags = "shield" required_tags = "one_handed" animation_overrides = { all = "%s_one_handed" } } }
+
+
+}
+	#MEDIUM
+african_gfx:soldier_shields  = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_cane_leather_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+    default = {}
+
+
+}
+	#HEAVY
+african_gfx:noble_shields  = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fur_feather_mesh"	} }
+
+}
+
+
+### DECCAN
+
+# AGE_3_DISCOVERY
+ #PEASANT
+
+	#MEDIUM
+indian_gfx:age_3_discovery:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_steel_leather_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+indian_gfx:age_3_discovery:noble_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_leather_gold_mesh" add_tags = "shield" add_tags = "UnitShield_large_wood" required_tags = "one_handed" } }
+    default = {}
+}
+
+# AGE_6_REVOLUTIONS
+	#MEDIUM
+indian_gfx:age_6_revolutions:soldier_shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_gilded_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+    default = {}
+}
+
+
+
+### AZTEC ###
+#AGE_1_TRADITIONS
+	#PEASANT
+aztec_gfx:light_tag:shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_leather_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+default = {}
+}
+
+#aztec_gfx:medium_tag:shields = {
+	#1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_pavese_leather_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+#default = {}
+#}
+
+aztec_gfx:heavy_tag:shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_round_painted_radial_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+default = {}
+}
+
+aztec_gfx:eagle:shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_obsidian_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+default = {}
+}
+
+aztec_gfx:age_3_discovery:heavy_tag:shields = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		mesh_name = "unit_shield_wood_feathers_mesh" add_tags = "shield" add_tags = "UnitShield_medium_metal" required_tags = "one_handed" } }
+default = {}
+}

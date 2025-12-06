@@ -1,0 +1,48 @@
+﻿compound_node={
+	id="origin_global_transform"
+	node_context=65
+	graph={
+		nodes={
+			pdxns:ecs:get_schematic_parameter={
+				id=0
+				node={
+					parameter="OriginTransform"
+				}
+				inputs={
+				}
+			}
+			pdxns:ecs:create_component={
+				id=1
+				node={
+					name="global_transform"
+				}
+				inputs={
+					link={
+						pin_id="Initial Entity Transform"
+						linked_node=0
+						linked_pin="output_arg"
+					}
+				}
+			}
+			pdxns:common:GraphInterface={
+				id=2
+				node={
+					input_pins={
+						pin={
+							name="Global Transform Component"
+							display_text="Global Transform Component"
+							type="Component Data Set"
+						}
+					}
+				}
+				inputs={
+					link={
+						pin_id="Global Transform Component"
+						linked_node=1
+						linked_pin="global_transform"
+					}
+				}
+			}
+		}
+	}
+}

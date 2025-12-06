@@ -1,0 +1,144 @@
+﻿### CHINESE ###
+
+# AGE_1_TRADITIONS
+	#PEASANT
+east_asian_gfx:farming_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_stick_bamboo_schematic"  						add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sickle_schematic" 							add_tags = "one_handed" add_tags = "UnitWeapon_knife" 	animation_state_machine_override = "unit_skeleton_state_machine_one_handed" } }  
+}
+east_asian_gfx:peasant_spear_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_peasant_asia_schematic" 					add_tags = "UnitWeapon_two_handed_spear" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+}
+
+	#MEDIUM
+
+east_asian_gfx:spear_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_wood_schematic" 								add_tags = "one_handed" add_tags = "UnitWeapon_knife" 	animation_state_machine_override = "unit_skeleton_state_machine_one_handed" } } 
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_wool_schematic" 							add_tags = "UnitWeapon_two_handed_spear" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+    1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_peasant_asia_schematic" 					add_tags = "UnitWeapon_two_handed_spear" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+}
+
+east_asian_gfx:polearm_weapons = {
+	
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_jian_flail_schematic" 							add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } } 
+}
+
+east_asian_gfx:sword_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_saber_chinese_schematic" 						add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+}
+
+east_asian_gfx:bow_weapons = {
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_bow_curved_schematic" 				add_tags = "UnitWeapon_bow" 							animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+}
+
+east_asian_gfx:peasant_musket_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_dynamite_schematic" 			add_tags = "UnitWeapon_handgonne"						animation_state_machine_override = "unit_skeleton_state_machine_handgonne" } }
+}
+east_asian_gfx:soldier_musket_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_dynamite_schematic" 			add_tags = "UnitWeapon_handgonne"						animation_state_machine_override = "unit_skeleton_state_machine_handgonne" } }
+}
+east_asian_gfx:age_3_discovery:peasant_musket_weapons = {
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_musket_small_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+}
+east_asian_gfx:age_3_discovery:soldier_musket_weapons = {
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_musket_small_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+}
+
+	#HEAVY
+east_asian_gfx:noble_weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_lion_schematic" 							add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_stick_snake_schematic" 							add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+}		
+
+
+
+
+han_base_weapons = {
+
+# AGE_1_TRADITIONS
+	#PEASANT
+	
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_stick_bamboo_schematic"  						add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } } 
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sickle_schematic" 								add_tags = "one_handed" add_tags = "UnitWeapon_knife" 	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_peasant_asia_schematic" 					add_tags = "UnitWeapon_two_handed_spear" 	animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	#MEDIUM
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_wool_schematic" 							add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_iron_cannon_wood_schematic" 			add_tags = "UnitWeapon_handgonne" 						animation_state_machine_override = "unit_skeleton_state_machine_handgonne" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_dynamite_schematic" 			add_tags = "UnitWeapon_handgonne" 						animation_state_machine_override = "unit_skeleton_state_machine_handgonne" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_bow_curved_schematic" 				add_tags = "UnitWeapon_bow" 							animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+	#HEAVY
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_lion_schematic" 							add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_jian_flail_schematic" 							add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } } 
+# AGE_2_RENAISSANCE
+	#PEASANT
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_kylo_schematic" 								add_tags = "UnitWeapon_axe" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_hoe_chinese_schematic" 							add_tags = "UnitWeapon_mace" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_pitchfork_chinese_peasant_schematic" 			add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_pitchfork_custom_schematic" 					add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rake_simple_schematic" 							add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spade_ironbound_schematic" 						add_tags = "UnitWeapon_two_handed_axe" 					animation_state_machine_override = "unit_skeleton_state_machine_two_handed_axe" } }
+	#MEDIUM
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_han_handle_schematic" 			add_tags = "one_handed"  add_tags = "UnitWeapon_sword"	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_blade_naginata_schematic" 			add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_polearm_bamboo_schematic" 			add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }  
+	#HEAVY
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_blade_steel_handle_schematic" 		add_tags = "UnitWeapon_sword" 							animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_tassel_plume_schematic" 		add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_blade_wooden_handle_schematic" 		add_tags = "one_handed" add_tags = "UnitWeapon_axe" 	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+# AGE_3_DISCOVERY
+	#PEASANT
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_wood_coton_schematic" 			add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_chinese_pitchfork_schematic" 			add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_bow_chinese_peasant_schematic" 		add_tags = "UnitWeapon_bow" 							animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+	#MEDIUM
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_chinese_matchlock_schematic" 			add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol" } }   
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spain_gun_schematic" 					add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }    
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_spear_prong_schematic" 				add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	#HEAVY
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_crossbow_han_schematic" 				add_tags = "UnitWeapon_crossbow" 						animation_state_machine_override = "unit_skeleton_state_machine_crossbow" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_musket_long_schematic" 		add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }    
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_basic_chineses_schematic" 		add_tags = "one_handed"  add_tags = "UnitWeapon_sword"	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+# AGE_4_REFORMATION
+	#PEASANT
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_bow_wood_schematic"  					add_tags = "UnitWeapon_bow" 							animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_katana_schematic" 				add_tags = "one_handed"add_tags = "UnitWeapon_sword"	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_bow_wood_light_schematic"  			add_tags = "UnitWeapon_bow" 							animation_state_machine_override = "unit_skeleton_state_machine_bow" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_leather_schematic" 				add_tags = "one_handed"  add_tags = "UnitWeapon_sword"	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+	#MEDIUM
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_rifle_base_reformation_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	#HEAVY
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_guan_dao_schematic" 					add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_riffle_malay_schematic" 				add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+# AGE_5_ABSOLUTISM
+	#PEASANT
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_shovel_chinese_schematic" 				add_tags = "UnitWeapon_two_handed_axe" 					animation_state_machine_override = "unit_skeleton_state_machine_two_handed_axe" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_hayfork_schematic" 						add_tags = "UnitWeapon_polearm" 						animation_state_machine_override = "unit_skeleton_state_machine_polearm" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapons_guan_dao_schematic" 						add_tags = "UnitWeapon_spear_two_handed" 				animation_state_machine_override = "unit_skeleton_state_machine_two_handed_spear" } }
+	#MEDIUM
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_musket_small_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_han_soldiers_musket_schematic" 		add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_pistol_han_matchlock_schematic"  		add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol"  } }
+	#HEAVY
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_handcanon_gun_schematic" 				add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_pistol_gold_han_schematic" 			add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapons_wodao_schematic" 					add_tags = "UnitWeapon_sword" 							animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }
+# AGE_6_REVOLUTIONS
+	#PEASANT
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapons_paddle_wood_schematic" 					add_tags = "UnitWeapon_two_handed_axe" 					animation_state_machine_override = "unit_skeleton_state_machine_two_handed_axe" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_saw_chinese_schematic" 					add_tags = "UnitWeapon_two_handed_axe" 					animation_state_machine_override = "unit_skeleton_state_machine_two_handed_axe" } }
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_machete_han_schematic" 					add_tags = "one_handed" add_tags = "UnitWeapon_knife" 	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+	#MEDIUM
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_rifle_modern_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_gilded_modern_schematic" 	add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_musket_pown_schematic" 		add_tags = "UnitWeapon_musket" 							animation_state_machine_override = "unit_skeleton_state_machine_musket" } }
+   	#HEAVY
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_matchlock_pistol_qing_schematic"  	add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol"  } }
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_steel_barrel_pistol_schematic"  		add_tags = "UnitWeapon_pistol" 							animation_state_machine_override = "unit_skeleton_state_machine_pistol"  } }
+}
+
+east_asian_gfx:cavalry_weapons = {
+	10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_lion_schematic" 				add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }	
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_sword_han_handle_schematic" 			add_tags = "UnitWeapon_sword" add_tags = "one_handed"  	animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }	
+    10 = { add_entity = { node = Unit_Wea_Right_Hand01		schematic_name = "unit_weapon_blade_steel_handle_schematic" 		add_tags = "UnitWeapon_sword" 							animation_state_machine_override = "unit_skeleton_state_machine_one_handed_sword" } }   
+} 
+

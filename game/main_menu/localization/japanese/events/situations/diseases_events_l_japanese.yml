@@ -1,0 +1,4 @@
+﻿l_japanese:
+ diseases.1.title: "新たな感染症の流行"
+ diseases.1.desc: "現在、[location_scope.GetName]全体に[disease.GetName]が容赦なく蔓延し、住民たちは家族や隣人を失い絶望の淵に立たされている。かつては活気に満ちていた近隣地域も、いまでは不安と暗い見通しに苛まれている。\n\n残念ながら、この疫病がわが国に広がることを防ぐ手立てはほとんどない。"
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

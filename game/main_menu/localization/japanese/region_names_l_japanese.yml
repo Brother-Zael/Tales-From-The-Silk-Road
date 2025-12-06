@@ -1,0 +1,156 @@
+﻿l_japanese:
+ #Continents
+ africa: "アフリカ"
+ america: "アメリカ"
+ asia: "アジア"
+ europe: "ヨーロッパ"
+ oceania: "オセアニア"
+ ocean_continent: "世界の大洋"
+ #Subcontinents
+ #Africa
+ central_africa: "中央アフリカ"
+ east_africa: "東アフリカ"
+ north_africa: "北アフリカ"
+ southern_africa: "南アフリカ"
+ west_africa: "西アフリカ"
+ central_africa_region: "中央アフリカ"
+ #America
+ north_america: "北アメリカ"
+ south_america: "南アメリカ"
+ #Asia
+ central_asia: "中央アジア"
+ china: "中国"
+ east_asia: "東アジア"
+ middle_east: "中東"
+ north_asia: "北アジア"
+ india: "インド"
+ south_asia: "南アジア"
+ hindustan_region: "ヒンドゥスターン"
+ south_east_asia: "東南アジア"
+ #Europe
+ eastern_europe: "東ヨーロッパ"
+ western_europe: "西ヨーロッパ"
+ #Oceania
+ pacific_islands: "太平洋諸島"
+ australia: "オーストラリア"
+ polynesia_region: "ポリネシア"
+ australasia: "オーストラレーシア"
+ #Ocean Continent
+ ocean_sub_continent: "海"
+ north_atlantic_ocean_sub_continent: "北大西洋"
+ south_atlantic_sub_continent: "南大西洋"
+ indian_ocean_sub_continent: "インド洋"
+ north_pacific_ocean_sub_continent: "北太平洋"
+ south_pacific_ocean_sub_continent: "南太平洋"
+ antarctic_ocean_sub_continent: "南極海"
+ atlantic_ocean_continent: "大西洋"
+ indian_ocean_continent: "インド洋"
+ pacific_ocean_continent: "太平洋"
+ antarctic_ocean_continent: "南極海"
+ north_atlantic_islands_region: "北大西洋諸島"
+ macaronesia_region: "マカロネシア"
+ central_india_region: "中央インド"
+ #Regions
+ #Africa
+ #Central Africa
+ kongo_region: "コンゴ"
+ #East Africa
+ great_lakes_region: "アフリカ大湖沼"
+ ethiopia_region: "エチオピア"
+ nubia_region: "ヌビア"
+ somalia_region: "ソマリア"
+ madagascar_region: "マダガスカル"
+ swahili_coast_region: "スワヒリ海岸"
+ #North Africa
+ egypt_region: "エジプト"
+ maghreb_region: "マグリブ"
+ #South Africa
+ southern_africa_region: "南アフリカ"
+ zimbabwe_region: "ジンバブエ"
+ southern_africa_islands_region: "南部アフリカ諸島"
+ #West Africa
+ sahel_region: "サヘル"
+ guinea_region: "ギニア"
+ #America
+ #North America
+ canada_region: "カナダ"
+ east_coast_region: "東沿岸"
+ great_plains_region: "グレートプレーンズ"
+ caribbean_region: "カリブ海"
+ central_america_region: "中央アメリカ"
+ mesoamerica_region: "メソアメリカ"
+ aridoamerica_region: "アリドアメリカ"
+ west_coast_region: "西沿岸"
+ alaska_region: "アラスカ"
+ #South America
+ brazil_region: "ブラジル"
+ colombia_region: "コロンビア"
+ la_plata_region: "ラ・プラタ"
+ andes_region: "アンデス"
+ chaco_region: "チャコ"
+ #Asia
+ #Central Asia
+ khorasan_region: "ホラーサーン"
+ #East Asia
+ east_china_region: "華東"
+ japan_region: "日本"
+ korea_region: "朝鮮"
+ manchuria_region: "満州"
+ mongolia_region: "モンゴル"
+ north_china_region: "華北"
+ south_china_region: "華南"
+ tibet_region: "チベット"
+ west_china_region: "華西"
+ xinjiang_region: "新疆"
+ #Middle East
+ anatolia_region: "アナトリア"
+ arabia_region: "アラビア"
+ crescent_region: "三日月地帯"
+ persia_region: "ペルシア"
+ #North Asia
+ east_siberia_region: "東シベリア"
+ west_siberia_region: "西シベリア"
+ #South Asia
+ bengal_region: "ベンガル"
+ deccan_region: "デカン"
+ western_india_region: "西インド"
+ #Southeast Asia
+ indochina_region: "インドシナ"
+ indonesia_region: "インドネシア"
+ #Europe
+ #Eastern Europe
+ balkan_region: "バルカン"
+ carpathia_region: "カルパティア"
+ caucasus_region: "コーカサス"
+ poland: "ポーランド"
+ baltic_region: "バルト"
+ ruthenia_region: "ルテニア"
+ russian_region: "ロシア"
+ steppes_region: "ポントス・ステップ"
+ ural_region: "ウラル"
+ #Western Europe
+ france_region: "フランス"
+ great_britain_region: "イギリス"
+ iberia_region: "イベリア"
+ iberia_region_ADJ: "イベリア"
+ ireland_region: "アイルランド"
+ italy_region: "イタリア"
+ north_german_region: "北ドイツ"
+ scandinavian_region: "スカンジナビア"
+ south_german_region: "南ドイツ"
+ #Oceania
+ #Australia
+ australia_region: "オーストラリア"
+ #Polynesia
+ new_zealand_region: "ニュージーランド"
+ micronesia_region: "ミクロネシア"
+ melanesia_region: "メラネシア"
+ #Ocean Continent
+ #Ocean Subcontinent
+ ocean_region: "海"
+ north_atlantic_ocean_region: "北大西洋"
+ south_atlantic_region: "南大西洋"
+ indian_ocean_region: "インド洋"
+ north_pacific_ocean_region: "北太平洋"
+ south_pacific_ocean_region: "南太平洋"
+ antarctic_ocean_region: "南極海"

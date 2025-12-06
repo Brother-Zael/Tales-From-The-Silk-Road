@@ -1,0 +1,137 @@
+﻿headwear_additive = {
+	usage = game
+	selection_behavior = weighted_random
+	fallback = default_headwear_additive
+	priority = 1
+
+	default_headwear_additive = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = no_headwear_additive
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+		}
+	}
+
+	saint_halo = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = saint_halo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				is_saint = yes
+				portrait_religion_clothing_trigger = { RELIGION_FLAG = christian_gfx }
+			}
+		}
+	}
+
+	paradox_crown = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = paradox_crown
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headwear
+				template = no_headwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				# add = 1000
+				# TODO: assign to Johan's character
+			}
+		}
+	}
+
+	spectacles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = spectacles
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					has_estate = estate_type:burghers_estate 
+					has_estate = estate_type:clergy_estate 
+				}
+				owner ?= { has_embraced_institution = institution:printing_press }
+				OR = {
+					adm >= 95
+					has_trait = scholar
+				}
+			}
+		}
+	}
+
+	## JEWELERY
+
+	aztec_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = jewellery_aztec_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = south_american_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = south_american_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+	aztec_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = jewellery_aztec_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_royalty_trigger = { CULTURE_GFX = south_american_gfx }
+					portrait_imperial_trigger = { CULTURE_GFX = south_american_gfx }
+				}
+				NOR = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+}

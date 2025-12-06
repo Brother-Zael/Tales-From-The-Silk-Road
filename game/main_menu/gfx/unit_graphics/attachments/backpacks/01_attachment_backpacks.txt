@@ -1,0 +1,214 @@
+﻿###############################################
+# backpacks
+###############################################
+backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_leather_hilt_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_01_north_german_age1_shield_heater_a_mesh" required_tags = "not(shield)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_backpack_shield_buckler_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_b_mesh" required_tags = "not(shield)" } }    
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_traditions_medium_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_traditions_light_mesh" required_tags = "not(shield)" } }
+    default = {}
+}
+
+soldier_backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_leather_hilt_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_01_north_german_age1_shield_heater_a_mesh" required_tags = "not(shield)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_backpack_shield_buckler_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_b_mesh" required_tags = "not(shield)" } }    
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_traditions_medium_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_traditions_light_mesh" required_tags = "not(shield)" } }
+    default = {}
+}
+
+noble_backpacks = {	
+    1 = {}
+}
+
+
+age_3_discovery:soldier_backpacks = {
+
+	1 = {}
+}
+
+peasant_backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_c_mesh" required_tags = "not(shield)" } }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_viking_round_d_mesh" required_tags = "not(shield)" } }
+	default = {}
+}
+
+age_1_traditions:heavy_tag:backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_shield_traditions_heavy_mesh"  required_tags = "not(shield)"  required_tags = "not(UnitWeapon_bow)" } }
+    1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_traditions_straight_sword_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+    1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_traditions_short_sword_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+    1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_traditions_triangular_sword_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+	default = {}
+}
+
+age_2_renaissance:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_01_north_german_age1_shield_heater_a_mesh" required_tags = "not(shield)" required_tags = "not(UnitWeapon_bow)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_backpack_shield_buckler_mesh" required_tags = "not(shield)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_leather_hilt_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+	10 = pavise_backpacks
+}
+
+pavise_backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_shield_german_pavise_back_mesh" required_tags = "not(shield)" required_tags = "not(UnitWeapon_bow)" } }
+    default = {}
+}
+
+age_3_discovery:backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_simple_leather_straps_mesh"  required_tags = "not(torso_has_backpack)"} }
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_blankets_leather_straps_mesh"  required_tags = "not(torso_has_backpack)"} }
+	1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_early_rapier_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+}
+
+age_3_discovery:heavy_tag:soldier_backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_straight_sword_hilt_detail_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+    default = {}
+}
+age_5_absolutism:soldier_backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_engraved_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+    default = {}
+}
+
+age_6_revolutions:soldier_backpacks = {
+	15 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_blanket_a_mesh"  required_tags = "not(torso_has_backpack)"} }
+	5 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_single_leather_mesh"  required_tags = "not(torso_has_backpack)"} }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_blanket_c_mesh"  required_tags = "not(torso_has_backpack)"} }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_tied_a_mesh"  required_tags = "not(torso_has_backpack)"} }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_tied_b_mesh"  required_tags = "not(torso_has_backpack)"} }
+    10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_tied_c_mesh"  required_tags = "not(torso_has_backpack)"} }
+    10 = { add_entity = { node = shared_pose_entity		    mesh_name = "unit_accessories_diagonal_blanket_mesh"  required_tags = "not(torso_has_backpack)"} }
+}
+
+age_6_revolutions:noble_backpacks = {
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_jacket_mesh"  required_tags = "not(torso_has_backpack)"} }
+}
+
+east_slavic_gfx:age_6_revolutions:medium_tag:soldier_backpacks = {
+    30 = { add_entity = { node = shared_pose_entity		    mesh_name = "unit_accessories_diagonal_blanket_mesh"  required_tags = "not(torso_has_backpack)"} }
+}
+
+### AZTEC ###
+
+# AGE_1_TRADITIONS
+	#PEASANT
+south_american_gfx:age_1_traditions:backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_shield_pavese_leather_mesh" required_tags = "not(shield)"  } }
+    default = {}
+}
+
+#AGE_1_TRADITIONS
+	#NOBLE
+south_american_gfx:age_1_traditions:heavy_tag:backpacks  = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_feather_mesh" required_tags = "not(torso_has_backpack)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_standard_feathers_basket_mesh" required_tags = "not(torso_has_backpack)" } }	
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_cloth_cover_mesh"  required_tags = "not(torso_has_backpack)"} }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_banner_plume_mesh" required_tags = "not(torso_has_backpack)" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_banner_mesh" required_tags = "not(torso_has_backpack)" } }
+}
+south_american_gfx:age_5_absolutism:heavy_tag:back = {
+	10 = {}
+}
+
+# AGE_6_REVOLUTIONS
+	#NOBLE
+south_american_gfx:age_6_revolutions:heavy_tag:backpacks = {
+	10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessory_poncho_right_mesh" required_tags = "not(torso_has_backpack)" } }
+    10 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_mantle_simple_mesh" required_tags = "not(torso_has_backpack)" } }    
+    default = {}
+}
+
+
+### IROQUOIS ###
+
+# AGE_1_TRADITIONS
+	#PEASANT
+north_american_gfx:backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_backpack_quiver_iroquois_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+    default = {}
+}
+
+#AGE_4_REFORMATION
+	#MEDIUM
+north_american_gfx:age_4_reformation:medium_tag:backpacks = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_blanket_woolen_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_cape_woolen_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_carpet_woolen_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_accessories_mat_skin_animal_mesh" required_tags = "not(shield)" } }
+}
+
+
+
+### SYRIAN ###
+# AGE_1_TRADITIONS
+	#PEASANT
+middle_east_gfx:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_quiver_plain_syrian_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sickle_copper_sheath_syrian_mesh"  required_tags = "UnitWeapon_sword" } }
+   default = {}
+}
+
+middle_east_gfx:medium_tag:backpacks = {
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_arbalest_quiver_syria_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_quiver_hunt_style_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+	1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_quiver_wood_brass_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+	1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sabel_sheath_mesh"  required_tags = "UnitWeapon_sabel" } }
+    default = {}
+}
+
+middle_east_gfx:heavy_tag:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_leather_quiver_mesh" required_tags = "UnitWeapon_bow" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_jade_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Hips		    mesh_name = "unit_weapon_kilij_style_sword_sheath_mesh" required_tags = "UnitWeapon_sword" } }
+    default = {}
+}
+
+middle_east_gfx:age_5_absolutism:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_bag_caremat_mesh" } }
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_backpack_mesh" } }
+}
+
+### CHINESE
+# AGE_1_TRADITIONS
+	#PEASANT
+east_asian_gfx:backpacks = {
+  10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_bow_curved_quiver_mesh" required_tags = "UnitWeapon_bow" } }
+  default = {}
+}
+
+	#MEDIUM
+east_asian_gfx:medium_tag:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_saber_sheath_chinese_mesh"  required_tags = "UnitWeapon_sword" } }
+    default = {}
+}
+
+	#HEAVY
+east_asian_gfx:heavy_tag:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_sword_lion_sheath_mesh"  required_tags = "UnitWeapon_sword" } }
+    default = {}
+}
+
+# AGE_3_DISCOVERY
+	#PEASANT
+east_asian_gfx:age_3_discovery:backpacks = {
+  1 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_accessories_basket_bamboo_mesh" } }
+}
+
+	#AFRICAN
+
+african_gfx:backpacks  = {
+	1 = { add_entity = { node = Unit_Base_Rig_Hips			mesh_name = "unit_weapon_flask_wood_mesh" } }
+    default = {}
+}
+
+
+### DECCAN
+indian_gfx:backpacks = {
+	10 = { add_entity = { node = Unit_Base_Rig_Spine2		mesh_name = "unit_weapon_bow_large_quiver_mesh" add_tags = "quiver" required_tags = "UnitWeapon_bow" } }
+    default = {}
+}
+

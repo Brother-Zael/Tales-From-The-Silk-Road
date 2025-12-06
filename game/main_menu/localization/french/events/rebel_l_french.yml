@@ -1,0 +1,7 @@
+﻿l_french:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "La cité jadis glorieuse de [target_location.GetName] a sombré dans la décadence. Après des années de mauvaise gestion de la part des nobles, elle n'est aujourd'hui plus que l'ombre d'elle-même, ses rues truffées de mendiants et de voleurs.\n\nUne révolte allait éclater tôt ou tard, et c'est un homme appelé [target_character.GetName] qui a pris la tête des rebelles. Notaire dont le frère a été tué lors d'un incident avec un noble de la cité, celui-ci a été envoyé auprès du [GetCountry('PAP').GetGovernment.GetRulerTitle] et l'a tellement impressionné qu'il a reçu un poste officiel à sa cour durant une courte période.\n\nD'après nos sources, cet homme a rassemblé ses partisans et rallié le peuple de [target_location.GetNameWithNoTooltip]. Ensemble, ils ont capturé le capitole sans la moindre effusion de sang en raison de la couardise des nobles au pouvoir, qui se sont enfuis à la vue de la foule et ont cédé la cité."
+ rebel.1.a: "Autorisons-le à libérer la cité du joug des nobles."
+ rebel.1.b: "Accordons-lui des privilèges exceptionnels et laissons-le gouverner la cité."
+ rebel.1.c: "Nous ne pouvons tolérer une telle anarchie, reprenons la cité !"
+ cola_rebels: "Partisans de Cola di Rienzo"

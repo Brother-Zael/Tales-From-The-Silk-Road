@@ -1,0 +1,9 @@
+﻿l_french:
+ flavor_arm.1.title: "La perte du savoir"
+ flavor_arm.1.desc: "Pendant des siècles, l'[ShowBuildingTypeName('university')] de [target_location.GetName] a servi notre peuple en tant que centre culturel et scientifique. Après avoir prospéré sous le patronage de célèbres familles nobles, les dernières années ont plutôt été synonymes de grands malheurs pour les mécènes de cet établissement. De multiples matières ont dû être abandonnées et de nombreux conférenciers ont perdu leur poste en raison de la diminution des richesses. Si l'[ShowBuildingTypeNameWithNoTooltip('university')] n'obtient pas d'aide, elle risque de devoir fermer ses portes..."
+ flavor_arm.1.a: "Laissons-la dépérir."
+ flavor_arm.1.b: "Offrons une contribution financière !"
+ flavor_arm.2.title: "L'Université de Tatev"
+ flavor_arm.2.desc: "Centré autour d'une communauté active à [target_location.GetName], le monastère local s'est développé afin de pouvoir abriter un grand nombre de contrats, de documents officiels et de manuscrits précieux. Il est, dès lors, devenu le cœur battant du savoir, et ses conférenciers sont venus demander l'agrandissement des infrastructures. Ils souhaitent créer de nouveaux départements proposant des cours sur l'art scriptural et l'étude de la musique."
+ flavor_arm.2.a: "Finançons ce projet."
+ flavor_arm.2.b: "Nous ferions mieux de nous abstenir."

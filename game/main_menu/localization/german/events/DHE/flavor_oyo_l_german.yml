@@ -1,0 +1,5 @@
+﻿l_german:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "Da die Streitkräfte von „[ROOT.GetCountry.GetName]“ zum Großteil aus Kavallerie-Einheiten bestehen, hat sich [target_character.GetName] dazu entschlossen, Elitetruppen namens [ShowUnitDefinitionName('a_esho_cavalry_oyo')] aufzustellen. Wir können diese als spezialisierte Regimenter einsetzen oder sie in unsere Armee eingliedern."
+ flavor_oyo.1.a: "Wir halten sie getrennt vom Rest der Armee."
+ flavor_oyo.1.b: "Sie sollen sich unseren anderen Regimentern anschließen."

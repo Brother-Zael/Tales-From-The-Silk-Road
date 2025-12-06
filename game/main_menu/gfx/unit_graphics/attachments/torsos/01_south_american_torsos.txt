@@ -1,0 +1,93 @@
+﻿### AZTEC ###
+
+# AGE_1_TRADITIONS
+south_american_gfx:torsos_clothes = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tilmatli_mesh" add_tags = "UnitArmor_naked" } } #AZTEC
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_small_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_cotton_mesh" add_tags = "UnitDetail_cloth"} } #AZTEC
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_waistcoat_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_wood_shirt_b_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_belts_necklace_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_necklace_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_cape_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_bag_armband_iroquois_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_base_necklace_mesh" } }
+	# 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_cape_fur_iroquois_mesh" } }
+	
+}
+
+south_american_gfx:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_suit_full_aztec_mesh" add_tags = "legs_covered" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_suit_full_b_aztec_mesh" add_tags = "legs_covered" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_suit_full_c_aztec_mesh" add_tags = "legs_covered" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_cotton_mesh" add_tags = "UnitDetail_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_ichcahuipilli_aztec_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } }
+    default = {}
+}
+
+south_american_gfx:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_belt_long_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_fringe_cape_mesh" add_tags = "UnitDetail_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_bow_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } }
+}
+
+# AGE_2_RENAISSANCE
+#south_american_gfx:age_2_renaissance:torsos_clothes =
+#south_american_gfx:age_2_renaissance:soldier_torsos_clothes =
+#south_american_gfx:age_2_renaissance:heavy_torsos_clothes =
+
+# AGE_3_DISCOVERY
+#south_american_gfx:age_3_discovery:torsos_clothes = {
+
+south_american_gfx:age_3_discovery:soldier_torsos_clothes = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_aztecs_bronze_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_blackpowder_belt_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_aztecs_coton_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+}
+
+south_american_gfx:age_3_discovery:heavy_torsos_clothes = {
+	 1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_gunpowder_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coleto_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+     1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_shirt_feather_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+}
+
+# AGE_4_REFORMATION
+#south_american_gfx:age_4_reformation:torsos_clothes =
+#south_american_gfx:age_4_reformation:soldier_torsos_clothes =
+#south_american_gfx:age_4_reformation:heavy_torsos_clothes =
+
+# AGE_5_ABSOLUTISM
+south_american_gfx:age_5_absolutism:torsos_clothes = {
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_camisole_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_pattern_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_poncho_design_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+}
+
+south_american_gfx:age_5_absolutism:soldier_torsos_clothes = {
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_aztecs_handkerchief_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cloth_cape_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_mantle_feather_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+}
+
+
+south_american_gfx:age_5_absolutism:heavy_torsos_clothes = {
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cuera_iron_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_jabot_ribbon_mesh" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #AZTEC
+      1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chupa_necktle_band_mesh" add_tags = "UnitDetail_cloth" } } #AZTEC
+}
+
+# AGE_6_REVOLUTIONS
+#south_american_gfx:age_6_revolutions:torsos_clothes =
+
+south_american_gfx:age_6_revolutions:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_short_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_vestcoat_wool_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_uniform_crossbelts_mesh" add_tags = "UnitArmor_cloth" } }
+}
+
+south_american_gfx:age_6_revolutions:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_uniform_epaulets_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_uniform_short_mesh" add_tags = "UnitArmor_cloth" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_uniform_epaulets_gorget_mesh" add_tags = "UnitArmor_cloth" } }
+}
+

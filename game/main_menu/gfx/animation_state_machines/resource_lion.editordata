@@ -1,0 +1,26 @@
+﻿animation_editor_meta={
+	view={
+		position={ 540.000000 308.000000 }
+		zoom=1.000000
+	}
+	starting_timeline={
+		position={ -140.000000 -32.000000 }
+	}
+	states={
+		"stand_idle"={
+			position={ 0.000000 0.000000 }
+		}
+		"lay_idle"={
+			position={ 300.000000 0.000000 }
+		}
+		"laying_transition"={
+			position={ 0.000000 -300.000000 }
+		}
+		"standing_transition"={
+			position={ -300.000000 -0.000000 }
+		}
+		"big_stretch"={
+			position={ -0.000000 300.000000 }
+		}
+ 	}
+}

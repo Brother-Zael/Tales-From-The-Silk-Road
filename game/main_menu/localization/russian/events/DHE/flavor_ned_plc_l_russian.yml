@@ -1,0 +1,8 @@
+﻿l_russian:
+ flavor_ned_plc.1.title: "[target_location.GetNameWithNoTooltip] и [target_country.GetAdjectiveWithNoTooltip]ие купцы"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName] и [target_country.GetLongName] обладают рядом общих интересов. Каждый год тамошние [target_country.GetGovernment.GetEstateName('burghers_estate')|l] прибывают в наши порты. Основной интерес для них представляет [target_market.GetName|l], в особенности — [target_good.GetName] в #L [target_location.GetAdjective|l]ом#! пакгаузе. Впрочем, [receiving_country.GetAdjectiveWithNoTooltip|l]ие [receiving_country.GetGovernment.GetEstateName('nobles_estate')|l] тоже получают выгоду от такого сотрудничества: [target_good.GetNameWithNoTooltip] — ценность для зарубежных купцов, и им можно продавать излишки продукции, взамен получая редкие товары."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Мы вложим средства в оптовую торговлю."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

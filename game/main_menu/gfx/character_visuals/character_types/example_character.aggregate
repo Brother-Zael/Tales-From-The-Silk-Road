@@ -1,0 +1,26 @@
+﻿example_character = {
+	aggregate_members = {
+
+		height = {
+			type_name = Float
+			metadata = {
+				min = 0.0
+				max = 1.0
+				editor_gui_type = slider
+				default = 0.0
+				description = "This is the character's height"
+			}
+		}
+
+		tail_size = {
+			type_name = Float
+			metadata = {
+				min = 0.0
+				max = 1.0
+				editor_gui_type = slider
+				default = 0.0
+				description = "This is the character's height"
+			}
+		}
+	}
+}

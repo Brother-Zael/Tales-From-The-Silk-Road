@@ -1,0 +1,52 @@
+﻿node_editor_meta={
+	view={
+		position={ 404.522461 379.928680 }
+		zoom=0.500000
+	}
+	nodes={
+		1={
+			position={ 537.333313 491.740753 }
+		}
+		2={
+			position={ 366.222168 229.555603 }
+		}
+		4={
+			position={ 0.000001 45.666672 }
+		}
+		6={
+			position={ 796.666809 431.407501 }
+		}
+		7={
+			position={ 1590.777832 129.000000 }
+		}
+		8={
+			position={ 345.777588 0.000001 }
+		}
+		9={
+			position={ 358.777588 110.000000 }
+		}
+		10={
+			position={ 1312.777588 423.000000 }
+			name="Default Particle oritentation"
+		}
+		11={
+			position={ 1099.000122 363.073975 }
+		}
+		0={
+			position={ 337.000000 724.000000 }
+			inlined=yes
+		}
+		3={
+			position={ 377.000000 289.000000 }
+			inlined=yes
+		}
+		5={
+			position={ 623.333374 651.074097 }
+			inlined=yes
+		}
+		12={
+			position={ 337.000000 724.000000 }
+			inlined=yes
+		}
+	}
+}

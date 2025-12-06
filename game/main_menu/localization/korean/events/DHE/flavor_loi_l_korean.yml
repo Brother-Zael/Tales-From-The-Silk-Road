@@ -1,0 +1,11 @@
+﻿l_korean:
+ flavor_loi.10.title: "북방의 여러 섬"
+ flavor_loi.10.desc: "[ROOT.GetCountry.GetLongName] 민족은 오래전부터 옛 [ROOT.GetCountry.GetCulture.GetName]의 그늘 아래 살아왔지만, 이제 시대가 변함에 따라 다시 한번 북유럽의 뿌리를 받아들이는 방안을 고려하고 있습니다. 점차 옛 [scandinavia.GetName] 왕국에 이끌리는 현 상황에서, 이 오래된 전통을 다시 발견하고 새로운 동맹을 결성한다면 우리에게 많은 이득이 될 것입니다.\n\n이 길을 걷는다면 우리는 기존의 게일계 전통과 풍속을 일부 버려야 하겠지만, 그 여정의 보상은 적지 않을 것입니다. 북유럽 뿌리를 받아들여 북방의 제도에 사는 민족들에 새롭고 강력한 [nordic_culture.GetName] 정체성을 심어 준다면, 다른 북방의 사자들과 어깨를 나란히 하는 것도 가능할 테니 말입니다.\n\n이 재발견의 여정에 뛰어드시겠습니까?"
+ flavor_loi.10.a: "우리의 뿌리가 북유럽에 있음을 받아들인다."
+ flavor_loi.10.b: "북방의 부름에 응하지 않는다."
+ opinion_loi_10_adopted_our_culture: "북유럽 문화 도입함"
+ flavor_loi.20.title: "선박 건조 대회"
+ flavor_loi.20.desc: "[target_location.GetProvinceDefinition.GetName] 지방에 참나무와 소나무 판자를 때리는 망치 소리가 울려 퍼집니다. [target_location.GetArea.GetName] 전역의 조선 장인들이 [target_location.GetName]에서 열리는 대[ROOT.GetCountry.GetAdjective] 선박 건조 대회에서 경쟁을 벌이고 있습니다.\n\n전통적인 선박 건조는 우리 민족의 삶의 방식에서 뗄 수 없는 부분으로, 적극 장려할 필요가 있습니다. 우리는 [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] 대표 자격으로 이 대회를 관장할 의무가 있습니다."
+ flavor_loi.20.a: "갤리선을 제작할 사람을 구해서 대회에 직접 참가한다."
+ flavor_loi.20.b: "재능 있는 참가자를 후원한다."
+ flavor_loi.20.c: "대회에 관심을 두지 않는다."

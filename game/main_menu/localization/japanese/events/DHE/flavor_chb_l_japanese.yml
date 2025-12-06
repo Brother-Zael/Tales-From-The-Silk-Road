@@ -1,0 +1,10 @@
+﻿l_japanese:
+ flavor_chb.1.title: "[target_character.GetNameWithNoTooltip]の反乱"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName]は、[GetCountry('MGE').GetName]の最も重要な将軍のひとりだった。その一族は多少の不名誉には見舞われたものの、断絶することはなく、いまでは彼の孫である[target_character.GetName]が多くの支持者を集めることに成功している。彼を支える者たちのひとりが[target_location.GetName]の総督であり、彼は[target_location.GetRank.GetName]とその周辺地域すべてを掌握し、さらには[GetCharacter('jal_muhammad_khan').GetName]を捕らえて処刑までおこなった。"
+ flavor_chb.1.a: "あの男とその血族をうじ虫のごとく潰してやる。"
+ flavor_chb.1.tt: "[target_character.GetName]が[target_location.GetName]周辺の領土を得ることに成功する"
+ flavor_chb.1.b: "彼の台頭は偉大さをもたらすだろうか？"
+ flavor_chb.2.title: "$rank_kingdom_horde_ruler_female$の遺産"
+ flavor_chb.2.desc: "[target_khatun.GetName]は[GetCharacter('chb_chupan').GetName]の配偶者であり、[GetUniqueInternationalOrganization('ilkhanate').GetName]の政治に深く関わっていた。彼女は王位簒奪の好機とみて我々の側に寝返り、支援を申し出る用意があるという。我々はその一族や人脈を利用し、彼女を[GetUniqueInternationalOrganization('ilkhanate').GetNameWithNoTooltip]の王位に傀儡として据えることができるかもしれない。だが、彼女はあまりにも野心が強いため、より従順な傀儡と結婚させるのが最善だろう。"
+ flavor_chb.2.a: "彼女は素晴らしい$rank_kingdom_horde_ruler_female$となるだろう。"
+ flavor_chb.2.b: "あまり大きな影響力を彼女に与えないほうがいい。"

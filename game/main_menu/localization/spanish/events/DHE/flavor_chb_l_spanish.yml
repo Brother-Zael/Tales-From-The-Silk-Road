@@ -1,0 +1,10 @@
+﻿l_spanish:
+ flavor_chb.1.title: "La rebelión de [target_character.GetNameWithNoTooltip]"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName] fue uno de los generales más importantes de [GetCountry('MGE').GetName]. Aunque su linaje cayó en desgracia, no se extinguió, y ahora su nieto [target_character.GetName] ha conseguido reunir a muchos partidarios a su alrededor. Una de las personas que se unió a él fue el gobernador de [target_location.GetName], lo que le permitió extender su control sobre [target_location.GetRank.GetName|l] y toda la zona circundante, e incluso capturar y ejecutar a [GetCharacter('jal_muhammad_khan').GetName]."
+ flavor_chb.1.a: "Lo aplastaremos junto con su linaje como los gusanos que son."
+ flavor_chb.1.tt: "[target_character.GetName] ha conseguido ganar territorio en [target_location.GetName]"
+ flavor_chb.1.b: "¿Su ascenso nos traerá grandeza?"
+ flavor_chb.2.title: "El legado de una $rank_kingdom_horde_ruler_female$"
+ flavor_chb.2.desc: "[target_khatun.GetName] había sido cónyuge de [GetCharacter('chb_chupan').GetName], y había estado muy involucrada en la política del [GetUniqueInternationalOrganization('ilkhanate').GetName]. Debido a que nos ve como una oportunidad para hacerse con el control del trono, está dispuesta a desertar a nuestro bando y ofrecernos su apoyo. Podríamos utilizar sus lazos y conexiones familiares e instalarla como nuestra marioneta en el trono del [GetUniqueInternationalOrganization('ilkhanate')).GetNameWithNoTooltip]. Sin embargo, puede que sea demasiado ambiciosa para su propio bien, así que quizá lo mejor sería casarla con una marioneta más maleable."
+ flavor_chb.2.a: "Será una excelente $rank_kingdom_horde_ruler_female$."
+ flavor_chb.2.b: "Mejor no darle demasiada influencia."

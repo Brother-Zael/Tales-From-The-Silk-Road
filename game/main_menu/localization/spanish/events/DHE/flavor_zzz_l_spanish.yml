@@ -1,0 +1,9 @@
+﻿l_spanish:
+ flavor_zzz.1.title: "Las murallas de [target_location.GetNameWithNoTooltip]"
+ flavor_zzz.1.desc: "Con el aumento de nuestra presencia militar en [ShowRegionName('guinea_region')], [target_location.GetName] se ha convertido en centro no solo de cultura, sino de conflicto. Por tal motivo, [target_character.GetName] quiere construir unas murallas que garanticen que [target_location.GetRank.GetName|l] no caiga jamás."
+ flavor_zzz.1.a: "Protejamos [target_location.GetNameWithNoTooltip]."
+ flavor_zzz.1.b: "No hay necesidad de murallas."
+ flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] a la ofensiva"
+ flavor_zzz.2.desc: "Debido al aumento del poder militar de [ROOT.GetCountry.GetName], [target_character.GetName] y la [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] ya han hecho planes para incrementar aún más nuestro poderío. Sus recomendaciones pasan por conquistar a nuestros vecinos o bien por una estrategia más defensiva, centrada en proteger las ganancias obtenidas."
+ flavor_zzz.2.a: "¡Lancémonos a la conquista!"
+ flavor_zzz.2.b: "Consolidemos las ganancias actuales."

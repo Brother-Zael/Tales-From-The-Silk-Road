@@ -1,0 +1,379 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+
+#####################################
+#									#
+# 			Male Clothes			#
+#									#
+#####################################
+
+#	  NORTH GERMAN		#
+male_clothes_german_common_short_sleeves_jacket = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_common_short_sleeves_jacket_entity }
+}
+
+cloth = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_ger_cloth_set_b_shirt_entity }
+}
+
+male_ger_cloth_set_a_shirt = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_ger_cloth_set_a_shirt_entity }
+}
+male_ger_cloth_set_a_fur_cape = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_ger_cloth_set_a_fur_cape_entity  }
+}
+male_clothes_german_high_doublet = {
+	set_tags = "doublet"
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_high_doublet_entity }
+}
+male_clothes_german_high_peascod = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_high_peascod_entity }
+}
+male_clothes_german_royal_peascod = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_royal_peascod_entity }
+}
+male_clothes_german_armor_black = {
+	set_tags = "plate_armor"
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_armor_black_entity }
+}
+male_clothes_german_armor_silver = {
+	set_tags = "plate_armor"
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_armor_silver_entity }
+}
+male_clothes_german_monk_robe = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_monk_robe_entity }
+}
+
+male_clothes_german_monk_robe_dark = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_monk_robe_dark_entity }
+}
+
+male_clothes_german_bishop_robe = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_german_bishop_robe_entity }
+}
+
+#	  PAPACY		#
+male_clothes_papal_robe = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_papal_robe_entity }
+}
+
+#	  CHINESE		#
+male_clothes_chinese_commoner_yi = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_commoner_yi_entity }
+}
+male_clothes_chinese_soldier_studded_jacket = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_soldier_studded_jacket_entity }
+}
+male_clothes_chinese_low_noble_yi = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_low_noble_yi_entity }
+}
+male_clothes_chinese_high_noble_yi = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_high_noble_yi_entity }
+}
+male_clothes_chinese_royal_yi = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_royal_yi_entity }
+}
+male_clothes_chinese_mountian_armor = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_mountian_armor_entity }
+}
+male_clothes_chinese_imperial_yi = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_imperial_yi_entity }
+}
+male_clothes_chinese_mahayana_priest = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_mahayana_priest_entity }
+}
+male_clothes_chinese_peasant_short_sleeve = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_chinese_peasant_short_sleeve_entity }
+}
+
+#	  SYRIAN		#
+male_clothes_syrian_common_jillaba = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_common_jillaba_entity }
+}
+male_clothes_syrian_low_hooded_jillaba = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_low_hooded_jillaba_entity }
+}
+male_clothes_syrian_high_kaftan = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_high_kaftan_entity }
+}
+male_clothes_syrian_high_kaftan_shirt = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_high_kaftan_shirt_entity }
+}
+male_clothes_syrian_royal_vest_knife = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_royal_vest_knife_entity }
+}
+male_clothes_syrian_imperial_split_kaftan = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_imperial_split_kaftan_entity }
+}
+male_clothes_syrian_mail_armor = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_mail_armor_entity }
+}
+male_clothes_syrian_imam_robe = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_imam_robe_entity }
+}
+male_clothes_syrian_peasant_thawb = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_peasant_thawb_entity }
+}
+male_clothes_syrian_soldier_lamellar_armor = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_syrian_soldier_lamellar_armor_entity }
+}
+
+#	  ASHANTI		#
+male_clothes_ashanti_low_loincloth = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_ashanti_low_loincloth_entity }
+}
+male_clothes_ashanti_high_nwentom = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_ashanti_high_nwentom_entity }
+}
+male_clothes_ashanti_royal_robe = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_ashanti_royal_robe_entity }
+}
+male_clothes_ashanti_imperial_nwentom = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_ashanti_imperial_nwentom_entity }
+}
+male_clothes_ashanti_war_scale_armor = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_ashanti_war_scale_armor_entity }
+}
+
+#	  AZTEC		#
+male_clothes_aztec_common_tilmatl = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_common_tilmatl_entity }
+}
+male_clothes_aztec_low_tilmatl = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_low_tilmatl_entity }
+}
+male_clothes_aztec_high_tilmatl = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_high_tilmatl_entity }
+}
+male_clothes_aztec_royal_tlatoani = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_royal_tlatoani_entity }
+}
+male_clothes_aztec_imperial_emerald = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_imperial_emerald_entity }
+}
+male_clothes_aztec_war_tlahuiztli = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_war_tlahuiztli_entity }
+}
+male_clothes_aztec_clergy_tilmatl = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_aztec_clergy_tilmatl_entity }
+}
+
+#	IROQUOIS	#
+male_clothes_iroquois_low_beadwork = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_low_beadwork_entity }
+}
+male_clothes_iroquois_low_beadwork_noshirt = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_low_beadwork_noshirt_entity }
+}
+male_clothes_iroquois_low_beadwork_shirt = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_low_beadwork_shirt_entity }
+}
+male_clothes_iroquois_high_beadscarf = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_high_beadscarf_entity }
+}
+male_clothes_iroquois_royal_bear_hunter = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_royal_bear_hunter_entity }
+}
+male_clothes_iroquois_imperial_shirt = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_imperial_shirt_entity }
+}
+male_clothes_iroquois_doctor_cape = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_iroquois_doctor_cape_entity }
+}
+
+#	DECCAN	#
+male_clothes_deccan_commoner_harness = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_commoner_harness_entity }
+}
+male_clothes_deccan_commoner_harness_nocloth = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_commoner_harness_nocloth_entity }
+}
+male_clothes_deccan_low_scarf = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_low_scarf_entity }
+}
+male_clothes_deccan_high_scarf = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_high_scarf_entity }
+}
+male_clothes_deccan_high_scarf_only = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_high_scarf_only_entity }
+}
+male_clothes_deccan_royalty_snake = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_royalty_snake_entity }
+}
+male_clothes_deccan_imperial_breastplate = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_imperial_breastplate_entity }
+}
+male_clothes_deccan_war_scale_armor = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_war_scale_armor_entity }
+}
+male_clothes_deccan_clergy_robe = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_deccan_clergy_robe_entity }
+}
+
+#	JEWISH	#
+male_clothes_jewish_clergy_ephod = {
+	entity = { required_tags = ""           shared_pose_entity = torso       entity = male_clothes_jewish_clergy_ephod_entity }
+}
+
+#####################################
+#                         			#
+#        Female Clothes				#
+#                         			#
+#####################################
+
+female_no_clothes = {
+	set_tags = "no_clothes"
+    entity = { required_tags = ""             }
+}
+
+#		NORTH GERMAN	#
+female_noble_dress = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_noble_dress_entity  }
+}
+female_german_dress_a = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_german_dress_a_entity  }
+}
+female_clothes_german_common_dress = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_german_common_dress_entity  }
+}
+female_clothes_german_low_dress = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_german_low_dress_entity  }
+}
+female_clothes_german_nun_robe = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_german_nun_robe_entity  }
+}
+
+female_clothes_german_nun_robe_royal  = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_german_nun_robe_royal_entity  }
+}
+
+female_clothes_german_armor_silver = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_german_armor_silver_entity  }
+}
+
+#		CHINESE			#
+
+female_clothes_chinese_low_hanfu_belt_tie = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_chinese_low_hanfu_belt_tie_entity  }
+}
+female_clothes_chinese_high_hanfu_belt_tie = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_chinese_high_hanfu_belt_tie_entity  }
+}
+female_clothes_chinese_royal_hanfu_belt_tie = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_chinese_royal_hanfu_belt_tie_entity  }
+}
+
+#		SYRIAN			#
+female_clothes_syrian_common_dress_scarf = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_syrian_common_dress_scarf_entity  }
+}
+female_clothes_syrian_low_noble_dress_scarf = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_syrian_low_noble_dress_scarf_entity  }
+}
+female_clothes_syrian_high_noble_dress_scarf = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_syrian_high_noble_dress_scarf_entity  }
+}
+female_clothes_syrian_royalty_dress_scarf = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_syrian_royalty_dress_scarf_entity  }
+}
+
+#		ASHANTI			#
+female_clothes_ashanti_common_loincloth = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_ashanti_common_loincloth_entity  }
+}
+female_clothes_ashanti_low_loincloth = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_ashanti_low_loincloth_entity  }
+}
+female_clothes_ashanti_high_loincloth = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_ashanti_high_loincloth_entity  }
+}
+
+#		AZTEC		#
+female_clothes_aztec_common_huipilli = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_aztec_common_huipilli_entity  }
+}
+female_clothes_aztec_low_noble_huipilli = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_aztec_low_noble_huipilli_entity  }
+}
+female_clothes_aztec_high_noble_huipilli = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_aztec_high_noble_huipilli_entity  }
+}
+
+
+#		IROQUOIS		#
+female_clothes_iroquois_common_overcoat = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_iroquois_common_overcoat_entity  }
+}
+female_clothes_iroquois_noble_overcoat = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_iroquois_noble_overcoat_entity  }
+}
+
+#		DECCAN		#
+female_clothes_deccan_low_pearls = {
+	set_tags = "no_clothes"
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = female_clothes_deccan_low_pearls_entity  }
+}
+
+
+#####################################
+#                         			#
+#        Child Clothes				#
+#                         			#
+#####################################
+
+child_cloth = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = child_cloth_a_entity  }
+}
+
+ger_child_cloth_set_a = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = child_clolth_set_a_entity }
+}
+
+
+#     CHINESE       #
+boy_clothes_chinese_commoner_hanfu = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = boy_clothes_chinese_commoner_hanfu_entity }
+}
+girl_clothes_chinese_commoner_hanfu = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = girl_clothes_chinese_commoner_hanfu_entity }
+}
+
+
+#####################################
+#                         			#
+#        Infant Clothes				#
+#                         			#
+#####################################
+
+
+infant_cloth_swaddle_german_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_ger_entity }
+}
+
+infant_cloth_swaddle_ashanti_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_ash_entity }
+}
+
+infant_cloth_swaddle_aztec_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_azt_entity }
+}
+
+infant_cloth_swaddle_han_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_han_entity }
+}
+
+infant_cloth_swaddle_iroquois_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_iro_entity }
+}
+
+infant_cloth_swaddle_syrian_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_syr_entity }
+}
+
+infant_cloth_swaddle_deccan_noble = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_noble_dec_entity }
+}
+
+infant_cloth_swaddle_basic = {
+    entity = { required_tags = ""           shared_pose_entity = torso       entity = infant_cloth_base_entity }
+}

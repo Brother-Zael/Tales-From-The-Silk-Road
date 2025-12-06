@@ -1,0 +1,518 @@
+﻿###################
+#	Texture sets	#
+##################
+
+## Plain Materials ##
+pattern_textures = {
+	name = "taffeta_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "felt_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "burlap_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "linen_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "silk_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "leather_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "chainmail_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_properties.dds"
+}
+
+## Patterns ##
+pattern_textures = {
+	name = "syrian_common_stripes_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/stripes_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/stripes_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "syrian_low_stripes_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/stripes_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/stripes_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/syrian/stripes_01_properties.dds"
+}
+pattern_textures = {
+	name = "syrian_low_geometric_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/geometric_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/geometric_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/syrian/geometric_01_properties.dds"
+}
+pattern_textures = {
+	name = "syrian_low_geometric_low_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/geometric_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/geometric_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "syrian_high_floral_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_01_properties.dds"
+}
+pattern_textures = {
+	name = "syrian_high_floral_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/syrian/floral_02_properties.dds"
+}
+
+## Trims Sets##
+pattern_textures = {
+	name = "trim_syrian_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/syrian/trim_syrian_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/syrian/trim_syrian_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/syrian/trim_syrian_01_properties.dds"
+}
+
+## Armor Patterns ##
+pattern_textures = {
+	name = "lamellar_armor_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/lamellar_pattern_properties.dds"
+}
+
+
+##################
+#	Layouts		#
+##################
+
+pattern_layout = {
+	name = "plain_fabric_layout"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_large_layout"
+	scale 		= { min = 0.1	max = 0.1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "small_trim_layout"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout"
+ 	scale 		= { min = 0.200	max = 0.200 }
+ 	rotation 	= { min = 0	max = 0 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout_none"
+ 	scale 		= { min = 0.0	max = 0.0 }
+ 	rotation 	= { min = 0	max = 0 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+ 	name = "collar_trim_layout_big"
+ 	scale 		= { min = 0.50	max = 0.50 }
+ 	rotation 	= { min = 90	max = 90 }	
+ 	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "full_fabric_layout"
+	scale 		= { min = 1	max = 1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_01"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_02"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.25	max = 0.25 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_03"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.50	max = 0.50 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_04"
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.75	max = 0.75 } } 
+}
+
+###################
+#	Variations		#
+##################
+
+## Headgears
+variation = {
+	name = "syrian_commoner_hat_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "syrian_common_stripes_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }	
+}
+
+variation = {
+	name = "syrian_low_nobility_hat_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_brocade_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_brocade_02"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "syrian_low_geometric_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "silk_brocade_03" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_brocade_04"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }	
+}
+
+variation = {
+	name = "syrian_high_nobility_hat_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "felt_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_low_geometric_01" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "felt_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "felt_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_north_german_clergy_01.dds" }
+}
+
+variation = {
+	name = "syrian_female_low_nobility_hat_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "felt_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }
+}
+
+variation = {
+	name = "syrian_female_high_nobility_hat_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "syrian_low_geometric_01" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_low_stripes_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "syrian_low_geometric_01" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }
+}
+
+## Clothes
+variation = {
+	name = "syrian_commoner_clothes_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_common_stripes_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }
+}
+
+variation = {
+	name = "syrian_low_nobility_clothes_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_low_stripes_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_low_geometric_low_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_low_nobility_01.dds" }
+}
+
+variation = {
+	name = "syrian_high_nobility_clothes_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "syrian_low_geometric_01" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+	
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "silk_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_high_nobility_01.dds" }
+}
+
+variation = {
+	name = "syrian_royalty_clothes_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "trim_syrian_01"					layout = "trims_fabric_layout_01" }
+	}
+	
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "syrian_high_floral_02" 			layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "trim_syrian_01"					layout = "trims_fabric_layout_02" }
+	}
+
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "syrian_high_floral_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "syrian_high_floral_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "trim_syrian_01"					layout = "trims_fabric_layout_03" }
+	}
+	
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "trim_syrian_01"					layout = "trims_fabric_layout_04" }
+	}
+	
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_high_nobility_01.dds" }
+}
+
+variation = {
+ 	name = "syrian_soldier_01"
+	
+# 	# patterns are sampled using UV-set 2
+# 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+# 	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = {
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "linen_plain_01" 					layout = "collar_trim_layout_big" }
+		g = { textures = "linen_plain_01" 					layout = "collar_trim_layout_big" }
+		b = { textures = "lamellar_armor_01" 				layout = "very_small_trim_layout" }
+		a = { textures = "linen_plain_01"					layout = "collar_trim_layout_big" }
+	}
+
+# 	# Color palette textures are 16-wide and N-high.
+# 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+# 	# First column will be masked by the red channel in the masks, second by the green, etc.
+# 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_syrian_war_01.dds" }	
+}

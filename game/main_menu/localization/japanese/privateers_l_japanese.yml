@@ -1,0 +1,3 @@
+﻿l_japanese:
+ PIRATES_NAME: "[AREA.GetNameWithNoTooltip]の海賊"
+ PRIVATEER_NAME: "[PRIVATEER.GetOwner.GetAdjectiveWithNoTooltip]の私掠船"

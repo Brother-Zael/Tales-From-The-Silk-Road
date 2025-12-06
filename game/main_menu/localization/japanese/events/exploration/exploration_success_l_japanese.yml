@@ -1,0 +1,5 @@
+﻿l_japanese:
+ exploration_success.1.title: "栄えある候補生"
+ exploration_success.1.desc: "[target.GetName]への遠征に成功して帰還した[actor.GetName]は、多大な功績を残した将来士官として有望な若者を高く評価した。"
+ exploration_success.1.a: "この者に遠征の指揮を任せてみよう。"
+ exploration_success.1.b: "有能な士官候補生が必要だ。"

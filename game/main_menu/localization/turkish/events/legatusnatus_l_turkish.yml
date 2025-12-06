@@ -1,0 +1,13 @@
+﻿l_turkish:
+ legatusnatus.1.title: "Legatus Natus"
+ legatusnatus.1.desc: "[home_ruler.GetName], uzun zamandır Alplerin kuzeyindeki [pope_ruler.GetName] Hazretleri'nin temsilcisi ünvanı olan [ShowGovernmentReformName('legatus_natus')] ile onurlandırılmıştı.\nBöylesi prestijli bir ünvan belirli bir itibar gerektiriyor dolayısıyla prestijimizin zayıflamasına da [GetCountry('PAP').GetGovernment.GetRulerTitle] ile ilişkimizin kötüleşmesine de izin veremeyiz."
+ legatusnatus.1.a: "Her şey Tanrı'nın isteğine göre olur."
+ legatusnatus.2.title: "Legatus Natus Ünvanı Kaybedildi"
+ legatusnatus.2.desc: "[GetUniqueInternationalOrganization('hre').GetName] ve [pope_ruler.GetName] Hazretleri'ne karşı itibarımız son zamanlarda azaldı. [GetCountry('PAP').GetGovernment.GetRulerTitle] artık [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] içinde onun adına [ShowGovernmentReformName('legatus_natus')] rolünü üstlenmemize pek sıcak bakmıyor gibi ve ne yazık ki ünvanı bizden almaya karar verdi."
+ legatusnatus.2.a: "Bazen bazı şey istediğimiz gibi olmaz."
+ legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] Temsilcileri"
+ legatusnatus.3.desc: "Haberler iyi! [home_ruler.GetName], ünvanın son sahibinin gözden düşmesinin ardından, [pope_ruler.GetName] Hazretleri'nin Alpler'in kuzeyindeki temsilcisi, yani [ShowGovernmentReformName('legatus_natus')] olmak için biz seçilmişiz."
+ legatusnatus.3.a: "Alaca karanlık ışınları mı parlıyor?"
+ legatusnatus.4.title: "[ShowGovernmentReformName('legatus_natus')] Konumu İptal Edildi"
+ legatusnatus.4.desc: "[ShowGovernmentReformName('legatus_natus')] gibi prestijli bir konuma yalnızca [GetUniqueInternationalOrganization('hre').GetName] teşkilatına bağlı bir [ShowReligionAdjective('catholic')] piskopos gelebilir. [home_ruler.GetName], artık bu gereklilikleri karşılamadığı için [pope_ruler.GetName] ünvanımızı iptal etti."
+ legatusnatus.4.a: "[GetCountry('PAP').GetGovernment.GetRulerTitle] Hazretleri'ne lanet olsun."

@@ -1,0 +1,5 @@
+﻿l_german:
+ flavor_sca.1.title: "Die Vereinigung von [ShowLocationNameWithNoTooltip('prague')]"
+ flavor_sca.1.desc: "Zum ersten Mal in der Geschichte sind alle Königreiche der [ShowRegionName('scandinavian_region')] unter einem einzigen Herrscher vereint. Diese historische Vereinigung läutet eine neue Ära ein und etabliert uns als bedeutende Großmacht in Europa. Durch die Konsolidierung dieser nördlichen Reiche haben wir unseren kulturellen und politischen Einfluss vereinheitlicht und unsere Position in internationalen Angelegenheiten gestärkt."
+ flavor_sca.1.a: "Ein triumphaler Erfolg!"
+ flavor_sca.1.historical_info: "Historisch gesehen wurde die Vereinigung Skandinaviens zu einem einzigen, zentralisierten Königreich nie vollständig verwirklicht. Zwar stellten verschiedene Bündnisse zwischen den Königreichen, wie die Kalmarer Union im späten 14. und frühen 15. Jahrhundert sowie die Bestrebungen des Schwedischen Reiches im 17. Jahrhundert, bedeutende Versuche dar, die Macht Skandinaviens unter einer einheitlichen Herrschaft zu konsolidieren. Doch letztlich waren sie nur von kurzer Dauer oder wirkungslos."

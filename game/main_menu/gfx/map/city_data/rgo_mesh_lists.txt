@@ -1,0 +1,945 @@
+﻿ 
+#Default mesh lists
+mesh_list = {
+	name = "farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	#
+	grain_field_01_a_mesh = 1
+	grain_field_01_b_mesh = 1
+	grain_field_01_c_mesh =  1
+	grain_field_01_d_mesh =  1
+	
+}
+mesh_list = {
+	name = "default_mining_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+
+	building_northgerman_mines_b_mesh = 1
+}
+
+
+#farming_mesh_list
+
+
+mesh_list = {
+	name = "rice_mesh_list"
+	scale_settings_small = { bias = -0 min = 0.6 max = 0.6 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	# building_northgerman_farm_rice_a_mesh = 1
+	# building_northgerman_farm_rice_b_mesh = 1
+	# building_northgerman_farm_rice_c_mesh = 1
+	# building_northgerman_farm_rice_d_mesh = 1
+	# building_northgerman_farm_rice_e_mesh = 1
+	# building_northgerman_farm_rice_f_mesh = 1
+	# building_northgerman_farm_barn_rice_a_mesh = 0.2
+	#
+	rice_field_01_a_mesh = 2
+	# rice_field_01_b_mesh = 1
+	# rice_field_01_c_mesh =  1
+	rice_field_01_d_mesh =  0.2
+	rice_field_01_e_mesh =  0.5
+}
+
+mesh_list = {
+	name = "millet_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	grain_field_01_a_mesh = 1
+	grain_field_01_b_mesh = 1
+	
+}
+
+mesh_list = {
+	name = "maize_mesh_list"
+	scale_settings_small = { bias = -0.0 min = 0.8 max = 0.8 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	# maize_field_01_a_mesh = 1
+	maize_field_01_b_mesh = 1
+	maize_field_01_c_mesh =  1
+	maize_field_01_d_mesh =  1
+}
+
+mesh_list = {
+	name = "fiber_crops_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 1 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_hemp_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "tea_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 1 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	 resources_farm_tea_a_mesh = 1
+	 resources_farm_tea_b_mesh = 1
+	 resources_farm_tea_c_mesh = 1
+	# resources_farm_tea_e_mesh = 1
+
+	#
+	#resource_raw_tea_a_mesh = 1
+	# wheat_field_01_b_mesh = 1
+	# wheat_field_01_c_mesh =  1
+	# wheat_field_01_d_mesh =  1
+}
+
+mesh_list = {
+	name = "amber_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_amber_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "medicaments_mesh_list"
+	scale_settings_small = { bias = 0 min = 0.9 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_farm_medicaments_a_mesh = 1
+	building_northgerman_farm_medicaments_b_mesh = 1
+	building_northgerman_farm_medicaments_c_mesh = 1
+	building_northgerman_farm_medicaments_d_mesh = 1
+	building_northgerman_farm_medicaments_e_mesh = 1
+	building_northgerman_farm_medicaments_f_mesh = 1
+	building_northgerman_medicaments_a_mesh = 1
+}
+
+mesh_list = {
+	name = "potato_mesh_list"
+	scale_settings_large = { bias = 0 min = 2.0 max = 2.0 }
+	scale_settings_small = { bias = 0 min = 1.3 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_farm_potato_a_mesh = 1
+	building_northgerman_farm_potato_b_mesh = 1
+	building_northgerman_farm_potato_c_mesh = 1
+
+	#
+	# wheat_field_01_a_mesh = 1
+	# wheat_field_01_b_mesh = 1
+	# wheat_field_01_c_mesh =  1
+	# wheat_field_01_d_mesh =  1
+
+
+}
+
+mesh_list = {
+	name = "incense_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_incense_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "tobacco_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_tobacco_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "cocoa_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_cocoa_gathered_mesh = 1
+}
+
+
+mesh_list = {
+	name = "coffee_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_coffee_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "dyes_mesh_list"
+	scale_settings_small = { bias = 0.0 min = 0.9 max = 1 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_dyes_gathered_mesh = 1
+}
+
+
+mesh_list = {
+	name = "legumes_mesh_list"
+	scale_settings_small = { bias = -0 min = 0.8 max = 0.9 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_vegetables_legumes_gather_a_mesh = 1
+	resource_vegetables_legumes_gather_b_mesh = 1
+	resource_vegetables_legumes_gather_c_mesh = 1
+}
+
+mesh_list = {
+	name = "cotton_mesh_list"
+	scale_settings_small = { bias = -0.0 min = 0.6 max = 0.6 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_cotton_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "silk_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_silk_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "spices_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_spices_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "sugar_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_sugar_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "dates_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_dates_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "olives_mesh_list"
+	scale_settings_small = { bias = -0.0 min = 0.8 max = 0.8 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resources_olives_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "soybeans_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_incense_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "fruit_mesh_list"
+	scale_settings_small = { bias = 0.5 min = 0.5 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	environment_resource_tree_apple_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "vine_mesh_list"
+	scale_settings_large = { bias = 0 min = 2.0 max = 2.0 }
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	vineyards_fields_a_mesh = 1
+
+}
+
+mesh_list = {
+	name = "wheat_farming_mesh_list"
+	scale_settings_small = { bias = -0 min = 0.9 max = 1 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	connect_to_road_network = no
+	
+	#
+	wheat_field_01_a_mesh = 0.2
+	wheat_field_01_b_mesh = 1
+	#wheat_field_01_c_mesh =  1
+	#wheat_field_01_d_mesh =  1
+	
+
+}
+
+mesh_list = {
+	name = "saffron_mesh_list"
+	scale_settings_small = { bias = 0.5 min = 0.5 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	gather_saffron_mesh = 1
+}
+
+mesh_list = {
+	name = "pepper_mesh_list"
+	scale_settings_small = { bias = 0.5 min = 0.5 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	gather_pepper_mesh = 1
+}
+
+mesh_list = {
+	name = "chili_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.7 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	gather_chili_mesh = 1
+}
+
+mesh_list = {
+	name = "cloves_mesh_list"
+	scale_settings_small = { bias = 0 min = 0.5 max = 0.7 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_cloves_a_mesh = 1
+	resource_cloves_b_mesh = 1
+	resource_cloves_c_mesh = 1
+	resource_cloves_d_mesh = 1
+
+}
+
+#RGO Mines
+
+mesh_list = {
+	name = "alum_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	
+	building_northgerman_gather_mines_alum_mesh = 1
+	building_northgerman_gather_mines_alum = 1
+}
+
+mesh_list = {
+	name = "coal_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	
+	building_northgerman_gather_mines_coal_mesh = 1
+}
+
+mesh_list = {
+	name = "copper_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_gather_mines_copper_mesh = 0.5
+	building_northgerman_gather_mines_copper = 1
+}
+
+mesh_list = {
+	name = "gems_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_gather_mines_gems_mesh = 0
+	building_northgerman_gather_mines_gems = 1
+}
+
+mesh_list = {
+	name = "gold_mining_mesh_list"
+	scale_settings_large = { bias = 0 min = 2.0 max = 2.0 }
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_mines_b_mesh = 1
+	building_northgerman_gather_mines_gold_schematics = 1
+}
+
+mesh_list = {
+	name = "iron_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_iron_mesh = 1
+	building_northgerman_gather_mines_iron_schematics = 1
+}
+
+mesh_list = {
+	name = "lead_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_lead_mesh = 1
+}
+
+mesh_list = {
+	name = "marble_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_marble_schematic = 1
+	building_northgerman_gather_mines_marble_mesh = 0.5
+}
+
+mesh_list = {
+	name = "silver_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_silver_schematics = 1
+	building_northgerman_gather_mines_silver_mesh = 1
+}
+
+mesh_list = {
+	name = "stone_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_stone_mesh = 1
+	building_northgerman_gather_mines_stone_schematics = 1
+}
+
+mesh_list = {
+	name = "saltpeter_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_saltpepper_mesh = 1
+	building_northgerman_gather_mines_saltpepper_schematics = 1
+}
+
+mesh_list = {
+	name = "tin_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_tin_mesh = 1
+	building_northgerman_gather_mines_tin_schematics = 1
+}
+
+mesh_list = {
+	name = "mercury_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_mercury_mesh = 1
+}
+
+mesh_list = {
+	name = "sand_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_sand_schematic = 1
+}
+
+mesh_list = {
+	name = "salt_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	building_northgerman_gather_mines_salt_mesh = 1
+	building_northgerman_gather_mines_salt_schematic = 1
+}
+
+mesh_list = {
+	name = "clay_mesh_list"
+	scale_settings_small = { bias = 0.5 min = 0.5 max = 10.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_mines_a_schematics = 1 
+	building_northgerman_mines_var_1_mesh = 1
+	building_northgerman_mines_var_2_mesh = 1
+	building_northgerman_mines_var_3_mesh = 1
+}
+
+
+#####Misc RGO
+
+mesh_list = {
+	name = "pearls_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	resource_pearls_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "fish_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	
+	resource_fish_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "wool_mesh_list"
+	scale_settings_large = { bias = 0 min = 2.0 max = 2.0 }
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_sheep_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "livestock_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.7 max = 0.7 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_livestock_gathered_mesh = 1
+}
+
+
+mesh_list = {
+	name = "horses_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_horses_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "wild_game_mesh_list"
+	scale_settings_large = { bias = 0 min = 2.0 max = 2.0 }
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_wild_game_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "ivory_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	resource_ivory_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "lumber_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	resource_lumber_gathered_mesh = 1
+}
+
+mesh_list = {
+	name = "beeswax_mesh_list"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	
+	gather_beeswax_mesh = 0.5
+	resource_beeswax_gathered_schematic = 1
+}
+
+###################################################### 
+# Raw resources
+
+
+##Plants
+
+mesh_list = {	name = "raw_millet_mesh_list"		scale_settings_small = { bias = 0.0 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_grain_mesh = 1
+}
+
+mesh_list = {	name = "raw_rice_mesh_list"		scale_settings_small = { bias = 0.0 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_rice_mesh = 1
+}
+
+mesh_list = {	name = "raw_fiber_crops_mesh_list"	scale_settings_small = { bias = 0.0 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_hemp_raw_a_mesh = 1
+	resource_hemp_raw_b_mesh = 1
+	resource_hemp_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_tea_mesh_list"		scale_settings_small = { bias = 0.0 min = 0.6 max = 0.6 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_tea_a_mesh = 1
+}
+
+mesh_list = {	name = "raw_amber_mesh_list"		scale_settings_small = { bias = 0.0 min = 2 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_amber_a_mesh = 1
+	resource_amber_b_mesh = 1
+	resource_amber_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_medicaments_mesh_list"		scale_settings_small = { bias = 0.0 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_farm_medicaments_a_mesh = 1
+	building_northgerman_farm_medicaments_b_mesh = 1
+	building_northgerman_farm_medicaments_c_mesh = 1
+	building_northgerman_farm_medicaments_d_mesh = 1
+}
+
+mesh_list = {	name = "raw_potato_mesh_list"		scale_settings_small = { bias = 0.0 min = 2 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_potato_a_mesh = 1
+	raw_potato_b_mesh = 1
+	raw_potato_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_incense_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_incense_raw_a_mesh = 1
+	resource_incense_raw_b_mesh = 1
+	resource_incense_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_tobacco_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_tobacco_raw_a_mesh = 0
+	resource_tobacco_raw_b_mesh = 1
+	resource_tobacco_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_cocoa_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_cocoa_raw_a_mesh = 1
+	resource_cocoa_raw_b_mesh = 1
+	resource_cocoa_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_coffee_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_coffee_raw_a_mesh = 1
+	resources_coffee_raw_b_mesh = 1
+	resources_coffee_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_dyes_mesh_list"			scale_settings_small = { bias = -0.0 min = 0.8 max = 0.8 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	sm_flowers_vegetation_mesh = 0.4
+	resource_dyes_raw_a_mesh = 1.0
+	resource_dyes_raw_b_mesh = 1.0
+	resource_dyes_raw_c_mesh = 1.0
+}
+
+mesh_list = {	name = "raw_legumes_mesh_list"		scale_settings_small = { bias = -0.5 min = 1 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_vegetables_legumes_a_mesh = 1
+	resource_vegetables_legumes_b_mesh = 1
+	resource_vegetables_legumes_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_cotton_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_cotton_raw_a_mesh = 1
+	resource_cotton_raw_b_mesh = 1
+	resource_cotton_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_silk_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_silk_raw_a_mesh = 1
+	resources_silk_raw_b_mesh = 1
+	resources_silk_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_spices_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_spices_raw_a_mesh = 1
+	resources_spices_raw_b_mesh = 1
+	resources_spices_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_sugar_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_sugar_raw_a_mesh = 1
+	resources_sugar_raw_b_mesh = 1
+	resources_sugar_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_dates_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_dates_raw_a_mesh = 1
+	resources_dates_raw_b_mesh = 1
+	resources_dates_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_olives_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 1}	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resources_olives_raw_a_mesh = 1
+	resources_olives_raw_b_mesh = 1
+	resources_olives_raw_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_soybeans_mesh_list"		scale_settings_small = { bias = 0.0 min = 1 max = 1  }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_vegetables_legumes_a_mesh = 1
+	resource_vegetables_legumes_b_mesh = 1
+	resource_vegetables_legumes_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_fruit_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	environment_resource_tree_apple_ungathered_mesh = 0.6
+	environment_resource_tree_apple_ungathered_01_mesh = 1
+	environment_resource_tree_apple_ungathered_02_mesh = 1
+	environment_resource_tree_apple_ungathered_03_mesh = 1
+}
+
+mesh_list = {	name = "raw_cloves_mesh_list"			scale_settings_small = { bias = 0 min = 0.8 max = 0.8}	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_cloves_a_gather_mesh = 1
+	resource_cloves_b_gather_mesh = 1
+	resource_cloves_c_gather_mesh = 1
+	resource_cloves_d_gather_mesh = 1
+}
+
+mesh_list = {	name = "raw_wine_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_vineyards_mesh = 1
+}
+
+mesh_list = {	name = "raw_wheat_mesh_list"		scale_settings_small = { bias = 0.0 min = 0.7 max = 0.7 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_wheat_mesh = 1
+}
+
+mesh_list = {	name = "raw_saffron_mesh_list"		scale_settings_small = { bias = 0.5 min = 1 max = 10 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_saffron_a_mesh = 1
+	raw_saffron_b_mesh = 1
+	raw_saffron_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_chili_mesh_list"		scale_settings_small = { bias = -0.0 min = 0.7 max =  0.7 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_chili_a_mesh = 1
+	raw_chili_b_mesh = 1
+	raw_chili_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_pepper_mesh_list"		scale_settings_small = { bias = 0.5 min = 1  max = 1.0 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	raw_pepper_a_mesh = 1
+	raw_pepper_b_mesh = 1
+	raw_pepper_c_mesh = 1
+}
+
+##Minerals
+
+mesh_list = {	name = "raw_alum_mesh_list"			scale_settings_small = { bias = -0.5 min = 1.0 max = 1.0 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_alum_a_mesh = 0.3
+	resource_raw_alum_b_mesh = 0.3
+	resource_raw_alum_c_mesh = 0.2
+	#resource_raw_alum_d_mesh = 0.1
+}
+
+mesh_list = {	name = "raw_coal_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_coal_a_mesh = 0.3
+	resource_raw_coal_b_mesh = 0.3
+	resource_raw_coal_c_mesh = 0.2
+	resource_raw_coal_d_mesh = 0.1
+}
+
+mesh_list = {	name = "raw_copper_mesh_list"			scale_settings_small = { bias = -0.0 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_copper_a_mesh = 0.3
+	resource_raw_copper_b_mesh = 0.3
+	resource_raw_copper_c_mesh = 0.2
+	resource_raw_copper_d_mesh = 0.1
+}
+
+mesh_list = {	name = "raw_gems_mesh_list"			scale_settings_small = { bias = -0.5 min = 1.0 max = 1.1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_gems_a_mesh = 0.1
+	resource_raw_gems_b_mesh = 0.1
+	resource_raw_gems_c_mesh = 0.1
+	resource_gem_schematic = 1 
+}
+
+mesh_list = {	name = "raw_goods_gold_mesh_list"			scale_settings_small = { bias = -0.5 min = 1.0 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+
+	resource_raw_gold_a_mesh = 0.3
+	resource_raw_gold_b_mesh = 0.3
+	resource_raw_gold_c_mesh = 0.2
+	#resource_raw_gold_d_mesh = 0.1
+	resource_gold_schematic = 1 
+
+}
+
+
+mesh_list = {	name = "raw_iron_mesh_list"			scale_settings_small = { bias = -0.5 min = 1.3 max = 1.3 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_iron_a_mesh = 0.3
+	resource_raw_iron_b_mesh = 0.3
+	resource_raw_iron_c_mesh = 0.2
+	resource_raw_iron_d_mesh = 0.1
+}
+
+mesh_list = {	name = "raw_lead_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_raw_lead_a_mesh = 0.1
+	resource_raw_lead_b_mesh = 0.1
+	resource_raw_lead_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_marble_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_marble_raw_a_mesh = 1
+	resource_marble_raw_b_mesh = 1
+}
+
+mesh_list = {	name = "raw_silver_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_silver_a_mesh = 0.3
+	resource_raw_silver_b_mesh = 0.3
+	resource_raw_silver_c_mesh = 0.2
+	resource_raw_silver_d_mesh = 0.1
+	resource_silver_schematic = 1 
+}
+
+mesh_list = {	name = "raw_stone_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_raw_stone_a_mesh = 0.3
+	resource_raw_stone_b_mesh = 0.3
+	resource_raw_stone_c_mesh = 0.2
+	resource_raw_stone_d_mesh = 0.1
+}
+
+mesh_list = {	name = "raw_saltpeter_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_saltpepper_a_mesh = 1
+	resource_saltpepper_b_mesh = 1
+	resource_saltpepper_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_tin_mesh_list"			scale_settings_small = { bias = -0.0 min = 1.2 max = 1.2 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_raw_tin_a_mesh = 0.1
+	resource_raw_tin_b_mesh = 0.1
+	resource_raw_tin_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_mercury_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_raw_mercury_a_mesh = 1
+	resource_raw_mercury_b_mesh = 0.5
+	resource_raw_mercury_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_sand_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.8 max = 10.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource
+	resource_sand_raw_a_mesh = 1
+	resource_sand_raw_b_mesh = 1
+}
+
+mesh_list = {	name = "raw_salt_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_salt_raw_a_mesh = 1
+	resource_salt_raw_b_mesh = 1
+}
+
+mesh_list = {	name = "raw_clay_mesh_list"			scale_settings_small = { bias = -0.5 min = 1.2 max = 1.2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_clay_raw_a_mesh = 1
+	resource_clay_raw_b_mesh = 1
+	resource_clay_raw_c_mesh = 1
+}
+###Misc
+
+#mesh_list = {	name = "raw_pearls_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+#	test_cube_mesh = 1
+#}
+
+#mesh_list = {	name = "raw_fish_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+#	test_cube_mesh = 1
+#}
+
+mesh_list = {	name = "raw_wool_mesh_list"			scale_settings_small = { bias = -0.0 min = 0.3 max = 0.4 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_sheep_0102_schematic = 1
+	#mm_american_bison_group_a_schematic = 1
+	#mm_european_elk_group_a_schematic = 1
+	#mm_resource_lion_group_a_schematic = 1
+	#mm_resource_lioness_group_a_schematic = 1
+	#mm_resource_tiger_group_a_schematic = 1
+	#mm_resource_beaver_fur_group_a_schematic = 1
+	#mm_resource_jaguar_group_a_schematic = 1
+	#mm_resource_panther_group_a_schematic = 1
+	#mm_resource_wildboar_group_schematic = 1
+	#mm_wildbeest_group_a_schematic = 1
+	#mm_animal_donkey_schematic = 1
+}
+
+mesh_list = {	name = "raw_llama_wool_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.4 max = 0.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_llama_group_a_schematic = 1
+}
+
+mesh_list = {	name = "raw_livestock_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.4 max = 0.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_cow_group_a_schematic  = 1
+	mm_pork_group_a_schematic  = 1
+	#resource_european_cow_b_mesh = 1
+	#resource_european_cow_c_mesh = 1
+}
+mesh_list = {	name = "raw_livestock_mesh_list_cow"			scale_settings_small = { bias = -0.5 min = 0.4 max = 0.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_cow_group_a_schematic  = 1
+}
+
+mesh_list = {	name = "raw_turkey_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.4 max = 0.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_turkey_group_a_schematic  = 1
+	#resource_european_cow_b_mesh = 1
+	#resource_european_cow_c_mesh = 1
+}
+
+mesh_list = {	name = "raw_horses_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.2 max = 0.3 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_horse_a_schematic = 1
+	resource_horse_b_schematic = 1
+	resource_horse_c_schematic = 1
+	resource_horse_d_schematic = 1
+	resource_horse_e_schematic = 1
+	resource_horse_f_schematic = 1
+	resource_horse_g_schematic = 1
+	resource_horse_h_schematic = 1
+}
+
+mesh_list = {	name = "raw_wild_game_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.3 max = 0.4 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_deer_male_schematic = 1
+	resource_deer_male_a_schematic = 0.5
+	mm_resource_wildboar_group_schematic = 1
+}
+
+mesh_list = {	name = "raw_wild_game_africa_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.3 max = 0.4 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_antelope_group_a_schematic = 1
+}
+
+mesh_list = {	name = "raw_wild_game_oceania_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.05 max = 0.1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_wild_moa_a_schematic = 1
+}
+
+
+mesh_list = {	name = "raw_wild_game_america_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.3 max = 0.4 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_american_bison_group_a_schematic = 1
+}
+
+mesh_list = {	name = "raw_ivory_walrus_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_walrus_schematic = 1
+}
+
+mesh_list = {	name = "raw_ivory_elephant_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_elephant_indian_schematic = 1
+	#resource_elephant_notusks_indian_schematic = 1
+	resource_elephant_african_schematic = 1
+	#resource_elephant_notusks_african_schematic = 1
+
+}
+
+mesh_list = {	name = "raw_elephant_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	#resource_elephant_indian_schematic = 1
+	resource_elephant_notusks_indian_schematic = 1
+	#resource_elephant_african_schematic = 1
+	resource_elephant_notusks_african_schematic = 1
+
+}
+
+mesh_list = {	name = "raw_beeswax_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	 raw_beeswax_a_mesh = 0.5
+	 raw_beeswax_b_mesh = 0.5
+	 raw_beeswax_c_mesh = 0.5
+	 raw_beeswax_d_mesh = 0.5
+	 raw_beeswax_e_mesh = 0.5
+	 raw_beeswax_f_mesh = 0.5
+	resource_beeswax_schematic = 1
+	
+}
+
+mesh_list = {	name = "raw_fur_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random 	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" } 
+	mm_resource_beaver_fur_group_a_schematic = 1
+	
+}
+
+mesh_list = {	name = "lions_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_lion_schematic = 1
+	resource_lioness_schematic = 1
+	
+}
+
+mesh_list = {	name = "platypus_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	resource_platypus_schematic = 1
+	
+}
+
+mesh_list = {	name = "wolfs_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.5 max = 0.5 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" } clear_map_objects = no
+	resource_wolf_moving_schematic = 1
+
+	
+}
+
+mesh_list = {	name = "bear_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.15 max = 0.2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" } 
+	resource_bear_brown_schematic = 1
+
+
+	
+}
+
+mesh_list = {	name = "parrots_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" } clear_map_objects = no
+	parrots_a = 1
+	
+}
+
+
+mesh_list = {	name = "elk_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 1 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_european_elk_group_a_schematic = 1 
+	
+}
+
+mesh_list = {	name = "raw_wild_game_southamerica_mesh_list"			scale_settings_small = { bias = -0.5 min = 0.3 max = 0.4 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+	mm_resource_wildboar_group_schematic = 1
+}
+
+
+#mesh_list = {	name = "raw_lumber_mesh_list"			scale_settings_small = { bias = -0.5 min = 1 max = 2 }	connect_to_road_network = no	rotation = random	tag = raw_resource	spawn_count = { curve = "standard_rgo_curve" }
+#	test_cube_mesh = 1º
+#}
+
+
+

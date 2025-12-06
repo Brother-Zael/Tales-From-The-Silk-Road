@@ -1,0 +1,96 @@
+﻿leather_plain = {
+	diffuse	= "leather/unit_material_leather_brown_base_diffuse.dds"
+	normal		= "leather/unit_material_leather_brown_base_normal.dds"
+	properties	= "leather/unit_material_leather_brown_base_properties.dds"
+}
+
+leather_light = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_brown_light_diffuse.dds"
+}
+
+leather_dark = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_brown_dark_diffuse.dds"
+}
+
+leather_white = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_white_diffuse.dds"
+}
+
+leather_black = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_black_diffuse.dds"
+}
+
+leather_buck = {
+	diffuse	= "leather/unit_material_leather_buck_diffuse.dds"
+	normal		= "leather/unit_material_leather_buck_normal.dds"
+	properties	= "leather/unit_material_leather_buck_properties.dds"
+}
+
+leather_shine_dark_brown = {
+	diffuse	= "leather/unit_material_leather_brown_dark_diffuse.dds"
+	normal		= "leather/unit_material_leather_buck_normal.dds"
+	properties	= "leather/unit_material_leather_shine_properties.dds"
+}
+
+leather_shine_light_brown = {
+	diffuse	= "leather/unit_material_leather_brown_light_diffuse.dds"
+	normal		= "leather/unit_material_leather_buck_normal.dds"
+	properties	= "leather/unit_material_leather_shine_properties.dds"
+}
+
+leather_heavy_armor_brown = {
+	diffuse	= "leather/unit_material_leather_brown_dark_diffuse.dds"
+	normal		= "metals/unit_material_pattern_chinese_normal.dds"
+	properties	= "leather/unit_material_leather_shine_properties.dds"
+}
+
+skin_north_german = {
+	diffuse	= "leather/unit_material_skin_north_german_base_diffuse.dds"
+	normal		= "leather/unit_material_skin_north_german_base_normal.dds"
+	properties	= "leather/unit_material_skin_north_german_base_properties.dds"
+}
+
+leather_colored = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_grey_diffuse.dds"
+	mask_texture	= "country0_mask.dds"
+	blend_mode = overlay
+	repaint = {
+		input_name = leather_color
+		mask = { color = { 1 0 0 } tolerance = 0.5 hardness = 0.0 }
+	}
+}
+
+
+leather_country_one = {
+	parent = leather_plain
+	diffuse	= "leather/unit_material_leather_brown_base_diffuse.dds"
+	mask_texture	= "country0_mask.dds"
+	repaint	= {
+		input_name = primary_color
+		#					R	G	B	=	Points to pattern mask
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.8 output = 1.0 }
+	}
+}
+
+
+# painted_leather = {
+#	diffuse		= "leather/leather_diffuse.dds"
+#	normal			= "leather/leather_normal.dds"
+#	properties		= "leather/leather_properties.dds"
+#	mask_texture	= "leather/painted_leather_mask.dds"
+#	repaint = {
+#		input_name = color_a
+#		default_color = red
+#		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.5 hardness = 0.0 }
+#	}
+#	repaint = {
+#		input_name = color_b
+#		default_color = blue
+#		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.0 }
+#	}
+# }

@@ -1,0 +1,12 @@
+﻿l_russian:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Сменить метод перемешивания"
+ MUSIC_PLAYER_PLAY: "Воспроизведение"
+ MUSIC_PLAYER_PAUSE: "Пауза"
+ MUSIC_PLAYER_HEADER: "Музыкальный проигрыватель"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "Щёлкните, чтобы воспроизвести трек #v [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "Играет трек #v [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_ENABLE_TRACK: "Добавить или удалить трек #v [MusicTrack.GetName]#! из очереди музыкальных треков"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "Добавить или удалить все музыкальные треки из категории #v [MusicPlayerCategory.GetName]#!"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Перейти к следующему треку"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Выберите, чтобы увидеть список музыкальных треков в категории #v [MusicPlayerCategory.GetName]#!"

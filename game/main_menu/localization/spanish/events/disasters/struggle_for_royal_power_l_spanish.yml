@@ -1,0 +1,13 @@
+﻿l_spanish:
+ struggle_for_royal_power.1.title: "La lucha por el poder real"
+ struggle_for_royal_power.1.desc: "Las tensiones con el Sejm han llegado al límite. Su [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] ya no puede tolerar la necesidad de pactar constantemente con los szlachta para llevar a cabo hasta el más mínimo acto de gobierno, mientras la nobleza encuentra motivos para actuar contra su monarca en cuanto surge la ocasión. Por ello, en palacio creen que ha llegado la hora de acabar con el poder del Sejm en [ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.1.a: "Libremos una guerra contra los szlachta."
+ struggle_for_royal_power.100.title: "Fin de la lucha por el poder real"
+ struggle_for_royal_power.100.desc: "Tras una larga lucha que ha generado conflicto político y militar, la crisis en [ROOT.GetCountry.GetName] ha llegado a su fin. Ya nadie duda dónde reside el verdadero poder en [ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.100.a: "¡El país está en manos de su [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ struggle_for_royal_power.100.b: "¡El Sejm manda!"
+ struggle_for_royal_power.100.c: "Esta guerra civil acabará con [ROOT.GetCountry.GetName]"
+ struggle_for_royal_power.10.title: "Konfederacja"
+ struggle_for_royal_power.10.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] ha decidido privar al Sejm de todo su poder, pero este ha presentado sus propias exigencias a [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Mikolaj Zebrzydowski, Jan Szczesny Herburt, Stanislaw Stadnicki, Aleksander Józef Lisowski y Janusz Radziwill han organizado un #italic rokosz#!, o rebelión semilegal, en Stezyca y Lublin. La nobleza reunida en el #italic rokosz#! ha formado una #italic konfederacja#!, cuyas peticiones se resumen en 67 artículos que exigen que se destrone a [ROOT.GetCountry.GetGovernment.GetRuler.GetName] por infringir los Artículos de Enrique y el derecho del Sejm a nombrar a funcionarios estatales en lugar de su [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ struggle_for_royal_power.10.a: "Intentemos negociar con la konfederacja."
+ struggle_for_royal_power.10.b: "Rechacemos sus peticiones."

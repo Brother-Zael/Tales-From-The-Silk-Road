@@ -1,0 +1,12 @@
+﻿l_japanese:
+ flavor_dah_released_desc_common: "[ShowAreaName('gold_coast_area')]内の[ShowCultureName('fon')]人たちは[GetCountry('DAH').GetName]のもとに組織され、[target_character.GetName]によって統治されている。彼らは軍国主義的な野心を語り、[ShowRegionName('guinea_region')]へ勢力を広げようとしている。"
+ flavor_dah_released_title_common: "[GetCountry('DAH').GetNameWithNoTooltip]の創設"
+ flavor_dah_variable_tt: "[ShowProvinceDefinitionName('fon_province')]は未植民だった"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip]を征服せねばならん！"
+ flavor_dah.1.b: "新たな国が台頭すべき時なのかもしれん。"
+ flavor_dah.1.c: "それはけっこう。"
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "新たな隣国？"

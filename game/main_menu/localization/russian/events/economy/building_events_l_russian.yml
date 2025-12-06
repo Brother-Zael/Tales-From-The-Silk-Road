@@ -1,0 +1,9 @@
+﻿l_russian:
+ building.1.title: "Университет города [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "После жарких дебатов, которые переросли в массовую потасовку, многие преподаватели и студенты университета в городе [old_university.GetName] были вынуждены бежать из родного учебного заведения. Прибыв в город [new_university.GetName], они основали конкурирующий университет.\n\nТак вышло, что многие #L [ROOT.GetCountry.GetAdjective|l]ие#! [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] учились в университете города [old_university.GetNameWithNoTooltip]. Они просят, чтобы мы немедленно покончили со студенческим бунтом."
+ building.1.a: "Мы должны поддержать это новое учебное заведение."
+ building.1.b: "Беглецы должны немедленно вернуться в город [old_university.GetNameWithNoTooltip]."
+ building.2.title: "Студенты против горожан"
+ building.2.desc: "Университету города [university.GetName] покровительствуют [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], поэтому преподаватели и студенты обладают особыми привилегиями, которых нет у простых горожан. Отношения между двумя сообществами всегда были напряжёнными, но в последнее время трения переросли в настоящие погромы."
+ building.2.a: "Мы поддержим университет."
+ building.2.b: "Мы на стороне горожан."

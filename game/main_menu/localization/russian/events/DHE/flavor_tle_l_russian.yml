@@ -1,0 +1,4 @@
+﻿l_russian:
+ flavor_tle.1.title: "Падение города [capital_scope.GetNameWithNoTooltip]"
+ flavor_tle.1.desc: "Город [capital_scope.GetName], столица нашей славной державы, пал под натиском вражеских войск. Но что ещё хуже, [Select_CString(ruler_scope.IsFemale,'наша дорогая правительница','наш дорогой правитель')] [ruler_scope.GetName] и [Select_CString(ruler_scope.IsFemale,'её','его')] сыновья были подло убиты во время нападения.\n\nЖители [ROOT.GetCountry.Custom('CF_RP')|l] потрясены этой чудовищной трагедией, и все понимают, что теперь дать отпор врагу будет ещё сложнее…"
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

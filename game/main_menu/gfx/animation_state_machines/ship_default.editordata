@@ -1,0 +1,25 @@
+﻿animation_editor_meta={
+	view={
+		position={ 376.569641 107.528778 }
+		zoom=1.234063
+	}
+	starting_timeline={
+		position={ -228.918549 197.855759 }
+	}
+	states={
+		"idle"={
+			position={ 113.446373 62.800568 }
+		}
+ 		"move2"={
+			position={ -44.568222 195.830078 }
+		}
+ 		"move"={
+			position={ 105.343086 190.427826 }
+		}
+ 		"attack_r"={
+			position={ -54.022083 60.774841 }
+		}
+ 	}
+	connections={
+	}
+}

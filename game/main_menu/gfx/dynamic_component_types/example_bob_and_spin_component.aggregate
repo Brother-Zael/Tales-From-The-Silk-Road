@@ -1,0 +1,13 @@
+﻿example_bob_and_spin_component = {
+	aggregate_members = {
+		speed = {
+			type_name = Float
+		}
+		lifetime = {
+			type_name = Float
+		}		
+		bob_range = {
+			type_name = Float
+		}
+	}
+}

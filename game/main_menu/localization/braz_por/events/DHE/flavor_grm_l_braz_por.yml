@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ flavor_grm.1.title: "A Morte de [target_character.GetNameWithNoTooltip]"
+ flavor_grm.1.desc: "Um dos homens mais celebrados e fundador de nosso(a) [target_country.GetFlavorRank] faleceu. Seu reinado marcou o apogeu da nossa influência pela [ShowRegionName('anatolia_region')] ao subjugar com sucesso muitos de nossos vizinhos. Infelizmente, sua morte semeou atos de descontentamento e rebelião, pois nossos súditos tentam tirar proveito da riqueza do nosso povo."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Não sucumbiremos sem antes lutar!"
+ flavor_grm.1.historical_info: "Um dos beilhiques mais poderosos que surgiram no início do século XIV, o de Germiã, foi fundado por Yakub I, cujas conquistas trouxeram muitas terras para sua jurisdição. Seu governo de 40 anos causou conflitos com muitos de seus vizinhos, subjugando os beilhiques de Aidim, Sarcanes e Caresi ao oeste, bem como participando de conflitos generalizados com os otomanos. Com a sua morte, seus inúmeros vassalos aproveitaram a oportunidade e declararam sua independência."

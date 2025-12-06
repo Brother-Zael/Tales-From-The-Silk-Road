@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ flavor_jap_kor.1.title: "Ambição Celestial"
+ flavor_jap_kor.1.desc: "A reunificação do [ShowRegionName('japan_region')] foi finalmente concluída sob o olhar vigilante da entidade política [ROOT.GetCountry.GetName]. Agora sem inimigos para enfrentar, nosso [ShowGovernmentReformName('daimyo')] pode se voltar para as questões internas, ou pior: se voltar contra nós para se libertar do nosso domínio. Não podemos permitir que isso aconteça, sendo imperativo encontrarmos um novo conflito para nos dedicarmos; e que conflito melhor do que conquistar a $china$ e dissolver o controle [target_country2.GetAdjective]. Mas, para isso, precisaremos conquistar a entidade política [target_country.GetName]."
+ flavor_jap_kor.1.a: "Vamos à guerra!"
+ flavor_jap_kor.1.b: "Temos que nos preparar para o conflito."
+ flavor_jap_kor.1.c: "Não arrumaremos briga com nossos vizinhos."
+ flavor_jap_kor.2.title: "Guerra Diante de Nós"
+ flavor_jap_kor.2.desc: "Como se a reunificação do [ShowRegionName('japan_region')] já não fosse preocupante o bastante, agora nosso pior pesadelo se tornou realidade: o beligerante Estado [from_country.GetAdjective] declarou guerra contra nós! Nossas tropas e nossa marinha devem se preparar para a inevitável chegada deles à [ShowRegionName('korea_region')]. Embora a motivação deles não seja clara, o fato é que eles nos consideram apenas um obstáculo para o verdadeiro objetivo deles: o [GetInternationalOrganization('middle_kingdom').GetName]."
+ flavor_jap_kor.2.a: "Não permitiremos que eles passem!"

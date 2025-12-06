@@ -1,0 +1,13 @@
+﻿l_braz_por:
+ legatusnatus.1.title: "Legatus Natus"
+ legatusnatus.1.desc: "Há muito tempo [home_ruler.GetName] recebeu a honra de ser o representante do [pope_ruler.GetName] no Norte dos Alpes, o chamado [ShowGovernmentReformName('legatus_natus')].\nUm título tão prestigioso como esse exige um certo nível de dignidade, portanto, não podemos deixar que o nosso prestígio, nem nossas relações com o [GetCountry('PAP').GetGovernment.GetRulerTitle], decaiam muito."
+ legatusnatus.1.a: "Está tudo nas mãos de Deus."
+ legatusnatus.2.title: "Título de Legatus Natus Perdido"
+ legatusnatus.2.desc: "O nosso prestígio perante o [GetUniqueInternationalOrganization('hre').GetName] e o [pope_ruler.GetName] decaíram ultimamente. Parece que o [GetCountry('PAP').GetGovernment.GetRulerTitle] não confia mais que cumpriremos com a nossa função como seu [ShowGovernmentReformName('legatus_natus')] no [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip], e infelizmente decidiu nos destituir desse título."
+ legatusnatus.2.a: "Acho que estava tudo em minhas mãos, afinal..."
+ legatusnatus.3.title: "Um Emissário do [GetCountry('PAP').GetGovernment.GetRulerTitle]"
+ legatusnatus.3.desc: "Boas notícias! O [pope_ruler.GetName] selecionou [home_ruler.GetName] para receber o prestigioso título de [ShowGovernmentReformName('legatus_natus')] (seu representante no norte dos Alpes), após o antigo detentor do título ter caído em desgraça."
+ legatusnatus.3.a: "Aquilo é um raio crepuscular nos iluminando?"
+ legatusnatus.4.title: "Posição de [ShowGovernmentReformName('legatus_natus')] Revogada"
+ legatusnatus.4.desc: "A prestigiada posição de [ShowGovernmentReformName('legatus_natus')] só pode ser ocupada por um bispo da Igreja [ShowReligionAdjective('catholic')] no [GetUniqueInternationalOrganization('hre').GetName]. Como [home_ruler.GetName] não atende mais a esse requisito, o [pope_ruler.GetName] revogou o título."
+ legatusnatus.4.a: "Dane-se o(a) [GetCountry('PAP').GetGovernment.GetRulerTitle]."

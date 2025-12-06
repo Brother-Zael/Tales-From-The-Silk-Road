@@ -1,0 +1,247 @@
+﻿#############################
+##### Unit constructors #####
+
+army_infantry = {
+	schematic_name = unit_skeleton_schematic
+
+	attach = { 100 = heads use_uniformity = no }
+	attach = { 100 = torsos }
+	attach = { 100 = legs }
+	attach = { 100 = headgear }
+	attach = { 100 = hairstyles }
+	attach = { 100 = beards }
+	attach = { 100 = weapons }
+	attach = { 100 = shields }
+	attach = { 100 = back }
+	attach = { 100 = offhand }
+	
+	animation_state_machine_name = unit_skeleton_state_machine_one_handed_axe
+}
+
+elephant_tag = {
+	schematic_name = unit_elephantry_skeleton_schematic
+
+	size = 6	# Affects space between units in formations and when marching
+	width = 2	# Affects space between units in formations
+		
+	attach = { 100 = heads use_uniformity = no }
+	attach = { 100 = torsos }
+	attach = { 100 = legs }
+	attach = { 100 = headgear }
+	attach = { 100 = hairstyles }
+	attach = { 100 = beards }
+	#attach = { 100 = weapons }
+	#attach = { 100 = shields }
+	attach = { 100 = back }
+	attach = { 100 = elephantry }
+	#attach = { 100 = saddle }
+	attach = { 100 = elephant_accessories }
+	
+	#animation_state_machine_name = unit_horse_riding_state_machine animation state machine is currently disconnected in the schematic as we only have one animation to avoid problems, change this behaviour if we add more animations
+}
+
+elephant_auxiliary_tag = {
+
+
+	schematic_name = unit_elephantry_skeleton_schematic
+
+	size = 6	# Affects space between units in formations and when marching
+	width = 2	# Affects space between units in formations
+	
+	#attach = { 100 = artillery }
+	
+	# schematic_name = unit_skeleton_schematic
+
+	# attach = { 100 = heads use_uniformity = no }
+	# attach = { 100 = torsos }
+	# attach = { 100 = legs }
+	# attach = { 100 = headgear }
+	# attach = { 100 = hairstyles }
+	# attach = { 100 = beards }
+	# attach = { 100 = weapons }
+	# attach = { 100 = shields }
+	# attach = { 100 = back }
+    attach = { 100 = elephantry }
+    attach = { 100 = elephant_auxiliary }
+	
+
+}
+
+camel_tag = {
+	schematic_name = unit_camelry_skeleton_schematic
+
+	size = 3	# Affects space between units in formations and when marching
+
+	attach = { 100 = heads use_uniformity = no }
+	attach = { 100 = torsos }
+	attach = { 100 = legs }
+	attach = { 100 = headgear }
+	attach = { 100 = hairstyles }
+	attach = { 100 = beards }
+	attach = { 100 = camelry_weapons }
+	attach = { 100 = shields }
+	attach = { 100 = back }
+	attach = { 100 = camelry }
+	#attach = { 100 = saddle }
+	attach = { 100 = camel_accessories }
+	
+}
+
+camel_auxiliary_tag = {
+
+
+	schematic_name = unit_camelry_skeleton_schematic
+
+	size = 3	# Affects space between units in formations and when marching
+
+	#attach = { 100 = artillery }
+	
+	# schematic_name = unit_skeleton_schematic
+
+	# attach = { 100 = heads use_uniformity = no }
+	# attach = { 100 = torsos }
+	# attach = { 100 = legs }
+	# attach = { 100 = headgear }
+	# attach = { 100 = hairstyles }
+	# attach = { 100 = beards }
+	# attach = { 100 = weapons }
+	# attach = { 100 = shields }
+	# attach = { 100 = back }
+    attach = { 100 = camelry }
+    attach = { 100 = camel_auxiliary }
+	
+}
+
+army_cavalry = {
+	schematic_name = unit_cavalry_skeleton_schematic_new
+
+	size = 3	# Affects space between units in formations and when marching
+
+	attach = { 100 = heads use_uniformity = no }
+	attach = { 100 = torsos }
+	attach = { 100 = legs }
+	attach = { 100 = headgear }
+	attach = { 100 = hairstyles }
+	attach = { 100 = beards }
+	attach = { 100 = cavalry_weapons }
+	attach = { 100 = shields }
+	attach = { 100 = back }
+	attach = { 100 = cavalry }
+	#attach = { 100 = saddle }
+	attach = { 100 = horse_accessories }
+	
+}
+
+army_auxiliary = {
+
+	schematic_name = unit_auxiliary_donkey_schematic
+
+	size = 3	# Affects space between units in formations and when marching
+    width = 2	# Affects space between units in formations
+    animation_state_machine_name = unit_auxiliary_donkey_mesh
+	#attach = { 100 = artillery }
+	
+	# schematic_name = unit_skeleton_schematic
+
+	# attach = { 100 = heads use_uniformity = no }
+	# attach = { 100 = torsos }
+	# attach = { 100 = legs }
+	# attach = { 100 = headgear }
+	# attach = { 100 = hairstyles }
+	# attach = { 100 = beards }
+	# attach = { 100 = weapons }
+	# attach = { 100 = shields }
+	# attach = { 100 = back }
+    #attach = { 100 = donkey }
+    #attach = { 100 = donkey_auxiliary }
+	
+}
+
+##### OLD CARRIAGE AUXILIARY #####
+#####army_auxiliary = {
+
+
+    #####schematic_name = unit_auxiliary_carriage_schematic
+
+	#####size = 4	# Affects space between units in formations and when marching
+	#####width = 2	# Affects space between units in formations
+	
+	#attach = { 100 = artillery }
+	
+	#####animation_state_machine_name = unit_auxiliary_carriage_machine
+
+
+	# schematic_name = unit_skeleton_schematic
+
+	# attach = { 100 = heads use_uniformity = no }
+	# attach = { 100 = torsos }
+	# attach = { 100 = legs }
+	# attach = { 100 = headgear }
+	# attach = { 100 = hairstyles }
+	# attach = { 100 = beards }
+	# attach = { 100 = weapons }
+	# attach = { 100 = shields }
+	# attach = { 100 = back }
+	
+##}
+
+army_artillery = {
+	schematic_name = unit_artillery_mortar_skeleton_schematic
+
+	size = 2.5	# Affects space between units in formations and when marching
+
+	#attach = { 100 = artillery }
+	
+	animation_state_machine_name = unit_artillery_mortar_state_machine
+}
+
+
+ age_2_renaissance:army_artillery = {
+ 	schematic_name = unit_artillery_renaissance_cannon_field_skeleton_schematic
+
+ 	size = 2.5	# Affects space between units in formations and when marching
+
+# 	#attach = { 100 = artillery }
+	
+ 	animation_state_machine_name = unit_artillery_field_canon_state_machine
+ }
+
+age_3_discovery:army_artillery = {
+	schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+	size = 2.5	# Affects space between units in formations and when marching
+
+	#attach = { 100 = artillery }
+	
+	animation_state_machine_name = unit_artillery_field_canon_state_machine
+}
+
+age_4_reformation:army_artillery = {
+ 	schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+ 	size = 2.5	# Affects space between units in formations and when marching
+
+# 	#attach = { 100 = artillery }
+	
+ 	animation_state_machine_name = unit_artillery_field_canon_state_machine
+}
+
+age_5_absolutism:army_artillery = {
+ 	schematic_name = unit_artillery_discovery_cannon_field_skeleton_schematic
+
+ 	size = 2.5	# Affects space between units in formations and when marching
+
+# 	#attach = { 100 = artillery }
+	
+ 	animation_state_machine_name = unit_artillery_field_canon_state_machine
+}
+
+age_6_revolutions:army_artillery = {
+ 	schematic_name = unit_artillery_field_canon_skeleton_schematic
+
+ 	size = 2.5	# Affects space between units in formations and when marching
+
+# 	#attach = { 100 = artillery }
+	
+ 	animation_state_machine_name = unit_artillery_field_canon_state_machine
+}

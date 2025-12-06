@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ border_friction.1.title: "Atrito na Fronteira"
+ border_friction.1.desc: "Nem todo mundo está contente com nossa aliança com [border_claim_country.GetLongName]. Uma facção de influência da nosso estamento [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] tem pressionado pelo fim da aliança, focando na província de [border_claim_province.GetName], que é comandada por [border_claim_country.GetNameWithNoTooltip], mas muitos a veem como nossa por direito. Eles conseguiram instigar uma grande revolta com essa situação!"
+ border_friction.1.a: "Talvez seja o momento para uma mudança de política..."
+ border_friction_from_event: "Irritação pelas Reivindicações"
+ border_friction.1.b: "Dar uma guinada positiva na situação!"
+ border_friction.1.c: "Renunciar à reivindicação."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "\"[border_claim_province.GetName], nosso território por direito, está sob o comando de outras nações e nosso governo parece não fazer nada para recuperá-lo! Para que ele serve então?\" — declara o jornal, instigando uma guerra contra [border_claim_country.GetLongName].\n\nPelo fracasso em recuperar nossas províncias, essas invectivas provocaram um imenso descontentamento na nação."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Revogar a reivindicação."

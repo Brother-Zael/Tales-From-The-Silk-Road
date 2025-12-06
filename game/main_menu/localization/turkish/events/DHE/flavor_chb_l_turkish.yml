@@ -1,0 +1,10 @@
+﻿l_turkish:
+ flavor_chb.1.title: "[target_character.GetNameWithNoTooltip] İsyanı"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName], [GetCountry('MGE').GetName] ülkesinin en önemli generallerinden biriydi. Ailesi gözden düştü ancak ortadan kaldırılmadı. Şimdiyse torunu [target_character.GetName] arkasına çok sayıda destekçi topladı. Kendisini destekleyen kişilerden biri de [target_location.GetName] valisi olunca [target_location.GetRank.GetName] ve çevresindeki tüm alanların kontrolünü ele geçirdi. Hatta emriyle [GetCharacter('jal_muhammad_khan').GetName] dahi yakalanıp idam ettirildi."
+ flavor_chb.1.a: "Onu ve soyunu toprağa gömeceğiz."
+ flavor_chb.1.tt: "[target_character.GetName], [target_location.GetName] çevresinde bölge edinmeyi başarır."
+ flavor_chb.1.b: "Yükselişi şanlı mı olacak?"
+ flavor_chb.2.title: "$rank_kingdom_horde_ruler_female$ Mirası"
+ flavor_chb.2.desc: "[target_khatun.GetName], [GetCharacter('chb_chupan').GetName] Hazretleri'nin eşiydi ve [GetUniqueInternationalOrganization('ilkhanate').GetName] siyasetinde yer alıyordu. Taht üzerinde kontrol sahibi olma fırsatını yakaladığını düşünerek tarafımıza geçmek ve desteğini sunmak istiyor. Aile bağlarını ve bağlantılarını kullanarak kendisini kuklamız olarak [GetUniqueInternationalOrganization('ilkhanate').GetNameWithNoTooltip] tahtına oturtabiliriz. Diğer yandan kendisine zararı dokunacak kadar hırslı olduğunu da göz önüne almak lazım. Belki de onu daha yumuşak başlı bir kuklayla evlendirmek en iyisi olur."
+ flavor_chb.2.a: "Ondan harika bir $rank_kingdom_horde_ruler_female$ olur."
+ flavor_chb.2.b: "Eline fazla güç vermesek daha iyi."

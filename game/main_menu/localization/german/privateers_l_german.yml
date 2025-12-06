@@ -1,0 +1,3 @@
+﻿l_german:
+ PIRATES_NAME: "Piraten von [AREA.GetNameWithNoTooltip]"
+ PRIVATEER_NAME: "[PRIVATEER.GetOwner.GetAdjectiveWithNoTooltip|U]e Freibeuter"

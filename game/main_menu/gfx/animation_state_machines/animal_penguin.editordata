@@ -1,0 +1,14 @@
+﻿animation_editor_meta={
+	view={
+		position={ 540.000000 308.000000 }
+		zoom=1.000000
+	}
+	starting_timeline={
+		position={ -140.000000 -32.000000 }
+	}
+	states={
+		"animal_penguin_idle"={
+			position={ 0.000000 0.000000 }
+		}
+ 	}
+}

@@ -1,0 +1,7 @@
+﻿l_german:
+ flavor_kol.1.title: "Die bayerischen Erzbischöfe"
+ flavor_kol.1.desc: "Ein Mitglied der herrschenden Familie in Bayern wurde zum Erzbischof von Köln ernannt. Dies könnte eine neue Ära bayerischen Einflusses in Köln bedeuten. Wie sollen wir uns verhalten?"
+ flavor_kol.1.a: "Lasst diesen bayerischen Einfluss zu."
+ flavor_kol.1.b: "Wir beschreiten eigene Wege."
+ kol_bavarian_archbishop_replaced: "Bayerischer Erzbischof ausgetauscht"
+ kol_bavarian_archbishop: "Bayerischer Erzbischof in Köln"

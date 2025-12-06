@@ -1,0 +1,12 @@
+﻿l_french:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Modifier le mode aléatoire"
+ MUSIC_PLAYER_PLAY: "Jouer"
+ MUSIC_PLAYER_PAUSE: "Pause"
+ MUSIC_PLAYER_HEADER: "Lecteur de musique"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "Cliquer pour lancer la lecture du morceau #v [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "#v [MusicTrack.GetName]#! est en cours de lecture !"
+ MUSIC_PLAYER_ENABLE_TRACK: "Activer/désactiver #v [MusicTrack.GetName]#! pour intégrer la file d'attente des morceaux de musique"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "Activer/désactiver tous les morceaux de musique de la catégorie #v [MusicPlayerCategory.GetName]#!"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Passer au morceau suivant"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Sélectionner pour afficher les morceaux de musique dans #v [MusicPlayerCategory.GetName]#!"

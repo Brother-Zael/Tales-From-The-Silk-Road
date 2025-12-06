@@ -1,0 +1,203 @@
+﻿body_paint = {
+
+	usage = game
+	
+	iroquois_body_paint = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = body_paint
+				template = body_paint_iroquois
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clothing_trigger = { CULTURE_FLAG = north_american_gfx }
+			}
+		}
+	}
+
+}
+
+face_paint = {
+
+	usage = game
+
+	iroquois_face_paint = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = face_paint
+				template = face_paint_iroquois
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clothing_trigger = { CULTURE_FLAG = north_american_gfx }
+				portrait_wear_armor_trigger = yes
+			}
+		}
+	}
+
+	ashanti_face_paint = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = face_paint
+				template = face_paint_ashanti
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clergy_trigger = {	RELIGION_GFX = folk_african_gfx }
+			}
+		}
+	}
+
+	deccan_face_paint = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = face_paint
+				template = face_paint_deccan
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clergy_trigger = {	RELIGION_GFX = dharmic_gfx }
+			}
+		}
+	}
+
+}
+
+
+makeup = {
+
+	usage = game
+
+	no_makeup = {
+		dna_modifiers = {
+		}
+		weight = {
+			base = 50
+			modifier = {
+				factor = 0
+				portrait_clothing_trigger = { CULTURE_FLAG = ainu_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+	european_makeup = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup
+				template = european_01
+				range = { 0.1 0.2 } # For the randomness to work correctly
+			}
+			# morph = {
+			# 	mode = replace
+			# 	gene = gene_eyebrows
+			# 	template = thin_long
+			# 	range = { 0.5 0.75 } # For the randomness to work correctly
+			# }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_clothing_trigger = { CULTURE_FLAG = european_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+	chinese_makeup = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup
+				template = chinese_01
+				range = { 0.1 0.3 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = replace
+				gene = gene_eyebrows_inner
+				template = thin_long
+				range = { 0.5 0.75 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = replace
+				gene = gene_eyebrows_outer
+				template = thin_medium
+				range = { 0.5 0.75 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_clothing_trigger = { CULTURE_FLAG = east_asian_gfx }
+				is_female = yes
+			}
+			modifier = {
+				factor = 0
+				portrait_clothing_trigger = { CULTURE_FLAG = ainu_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+	ainu_makeup_01 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup
+				template = ainu_01
+				range = { 0.7 0.9 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 99
+				portrait_clothing_trigger = { CULTURE_FLAG = ainu_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+	ainu_makeup_02 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup
+				template = ainu_02
+				range = { 0.7 0.9 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 99
+				portrait_clothing_trigger = { CULTURE_FLAG = ainu_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+}

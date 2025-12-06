@@ -1,0 +1,377 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+#### BROKEN ####
+
+	# EMPTY MESH
+	# female_hair_braids_short_bangs = {
+		# entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		# entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_hair_braids_short_bangs_entity }
+	# }
+
+## NORTH GERMAN ##
+
+	male_north_german_hair_bob_regular = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_a_01_entity }
+	}
+
+
+	male_german_generic_crown_hair = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_german_generic_crown_hair_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_generic_crown_hair_entity }
+	}
+	male_hair_lenght_short_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_short_a_entity }
+	}
+
+	male_hair_lenght_mid_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_mid_a_entity }
+	}
+
+	male_german_hair_bob_bangs = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_german_hair_bob_bangs_entity }
+	}
+
+	male_german_hair_bob_long = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_german_hair_bob_long_entity }
+	}
+
+	male_german_hair_bob_short = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_german_hair_bob_short_entity }
+	}
+
+	male_german_hair_clumb_tips = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_german_hair_clumb_tips_entity }
+	}
+
+	male_hair_headwear_short_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_short_a_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_hair_headwear_short_a_entity }
+	}
+
+
+	male_north_german_hair_crown_regular = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "ears_covered"				shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_crown_regular_entity }
+		entity = { required_tags = "hair_covered_long"			shared_pose_entity = head  entity = male_north_german_hair_crown_regular_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_crown_regular_entity }
+	}
+
+
+	male_north_german_hair_crown_short = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "ears_covered"				shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_crown_short_no_top_entity }
+		entity = { required_tags = "hair_covered_long"			shared_pose_entity = head  entity = male_north_german_hair_crown_short_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_crown_short_entity }
+	}
+
+
+	male_north_german_hair_crown_long_back = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_crown_long_back_entity }
+	}
+
+	male_north_german_hair_crown_long = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "ears_covered"				shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_crown_long_no_top_entity }
+		entity = { required_tags = "hair_covered_long"			shared_pose_entity = head  entity = male_north_german_hair_crown_long_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_crown_long_entity }
+	}
+
+	male_north_german_hair_crown_long_bald = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_crown_long_bald_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_crown_long_bald_entity }
+		entity = { required_tags = "hair_covered_long"			shared_pose_entity = head  entity = male_north_german_hair_crown_long_bald_entity }
+	}
+
+	male_german_hat_hair_a_01 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"   		shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+		entity = { required_tags = "hair_covered"     			shared_pose_entity = head  entity = male_german_hat_hair_a_01_entity }
+	}
+
+	male_german_hat_hair_a_02 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"    		shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_a_02_entity }
+	}
+
+	male_german_hat_hair_a_03 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_a_03_entity }
+	}
+
+	male_german_hat_hair_b_01 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_bob_regular_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_b_01_entity }
+	}
+
+	male_german_hat_hair_b_02 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_short_a_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_b_02_entity }
+	}
+
+	male_german_hat_hair_b_03 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_short_a_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_b_03_entity }
+	}
+
+	male_german_hat_hair_c_01 = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_lenght_short_a_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_c_01_entity }
+	}
+
+	female_hair_long_hat_covered_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_hair_long_a_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_hair_long_hat_covered_a_entity }
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+	}
+
+	female_german_northern_braid_hair_behind = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_german_northern_braid_hair_behind_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_german_northern_braid_hair_behind_entity }
+	}
+
+	female_german_northern_hair_long_crown = {
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_hair_long_crown_entity }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_german_northern_braid_hair_behind_entity }
+		entity = { required_tags = "hair_covered_long"			shared_pose_entity = head  entity = female_hair_long_crown_entity }
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+	}
+
+	female_hair_long_basic = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_hair_long_basic_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_hair_long_basic_entity }
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+	}
+
+	hair_female_long_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = female_hair_long_a_entity }
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+	}
+
+	hair_female_short_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = female_hair_short_a_entity }
+		entity = { required_tags = "fully_covered"				shared_pose_entity = head }
+	}
+
+	boy_north_german_hair_bob_short = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = boy_north_german_hair_bob_short_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = boy_north_german_hair_bob_short_entity }
+	}
+
+	boy_short_hair_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = boy_short_hair_a_entity }
+	}
+
+	girl_hair_long_a = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = girl_hair_long_a_entity }
+	}
+
+
+## RELIGIOUS HAIR ##
+
+	male_catholic_hair_monk_bob = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_catholic_monk_bob_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_german_hat_hair_a_01_entity }
+	}
+
+
+## MALE SHORT/BALDING ##
+
+	male_north_german_hair_short_straight_pomp = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_short_straight_pomp_entity }
+	}
+	male_north_german_hair_balding_forehead = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = male_north_german_hair_balding_forehead_entity }
+	}
+	male_north_german_hair_balding_top = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = male_north_german_hair_balding_top_entity }
+	}
+	male_north_german_hair_short_curly = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = male_north_german_hair_short_curly_entity }
+	}
+
+
+## ASHANTI ##
+
+	male_ashanti_hair_big_afro = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_ashanti_hair_big_afro_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_ashanti_hair_short_afro_entity }
+	}
+
+	male_ashanti_hair_short_afro = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_ashanti_hair_short_afro_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_ashanti_hair_short_afro_entity }
+	}
+
+	female_ashanti_hair_short_afro = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_ashanti_hair_short_afro_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_ashanti_hair_short_afro_entity }
+	}
+
+
+## IROQUOIS ##
+
+	male_iroquois_hair_mohawk_regular = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_iroquios_hair_mohawk_regular_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_iroquios_hair_mohawk_regular_entity }
+	}
+	
+	male_iroquois_hair_mohawk = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_iroquois_hair_mohawk_entity }
+	}
+
+	female_iroquois_straight_parted_hair = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_iroquois_straight_parted_hair_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_iroquois_straight_parted_hair_entity }
+	}
+
+
+## CHINESE ##
+
+	male_han_chinese_hair_bun_tie = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_han_chinese_hair_bun_tie_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_north_german_hair_balding_forehead_entity }
+	}
+
+	male_hair_chinese_noble_knot_big = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_chinese_noble_knot_big_entity }
+	}
+
+	male_hair_chinese_low_small_bun = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_chinese_low_small_bun_entity }
+	}
+
+	male_hair_chinese_noble_knot_big_pin = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_chinese_noble_knot_big_pin_entity }
+	}
+
+	female_hair_chinese_bun_loose = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_hair_chinese_bun_loose_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_deccan_straight_back_hair_entity }
+	}
+
+	boy_han_chinese_hair_bun_front = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = boy_han_chinese_hair_bun_front_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = boy_han_chinese_hair_bun_front_entity }
+	}
+
+	boy_hair_chinese_front_small_bun = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = boy_hair_chinese_front_small_bun_entity }
+	}
+
+	boy_hair_chinese_front_bangs = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = boy_hair_chinese_front_bangs_entity }
+	}
+
+	girl_han_chinese_hair_bon_sides = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = girl_han_chinese_hair_bon_sides_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = girl_han_chinese_hair_bon_sides_entity }
+	}
+
+
+## SYRIAN ##
+
+	male_syrian_hair_curly_regular = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = ""							shared_pose_entity = head  entity = male_syrian_hair_curly_regular_entity }
+	}
+
+	female_syrian_braided_back_hair = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_syrian_braided_back_hair_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_syrian_braided_back_hair_entity }
+	}
+
+
+## AZTEC ##
+
+	male_hair_aztec_hair_bob_long = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_hair_aztec_hair_bob_long_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = male_hair_aztec_hair_bob_long_covered_entity }
+	}
+
+	female_aztec_horn_braid_hair = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_aztec_horn_braid_hair_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_deccan_straight_back_hair_entity }
+	}
+
+	boy_aztec_hair_bob_short = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = boy_aztec_hair_bob_short_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = boy_aztec_hair_bob_short_entity }
+	}
+
+
+## DECCAN ##
+	male_deccan_hair_front_knot = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = male_deccan_hair_front_knot_entity }
+	}
+
+	female_deccan_straight_back_hair = {
+		entity = { required_tags = "no_hair"					shared_pose_entity = head }
+		entity = { required_tags = "not(hair_covered)"			shared_pose_entity = head  entity = female_deccan_straight_back_hair_entity }
+		entity = { required_tags = "hair_covered"				shared_pose_entity = head  entity = female_deccan_straight_back_hair_entity }
+	}

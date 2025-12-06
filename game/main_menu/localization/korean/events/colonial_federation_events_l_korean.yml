@@ -1,0 +1,10 @@
+﻿l_korean:
+ colonial_federation_events.1000.title: "[target_io.GetNameWithNoTooltip] 중앙 집권화"
+ colonial_federation_events.1000.desc: "본래 다양한 외국 식민지 사이의 연합이었던 [target_io.GetName](은)는 방대한 내부 정치 체제, 그리고 외부의 단일 전선을 갖춘 본격적인 국가로 성장했습니다. 오늘부로 [target_io.GetNameWithNoTooltip](은)는 더 이상 느슨한 연합이 아니라 [target_country.GetName]의 [target_character.GetName](이)가 지휘하는 통일된 세력으로 거듭날 것입니다."
+ colonial_federation_events.1000.a: "오늘이 모두에게 있어 미래의 번영으로 이어지기를!"
+ colonial_federation_unify_the_io_tt: "[target_io.GetName](을)를 단일한 정치체로 통합합니다"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "표결이 끝났습니다. 우리 국민은 뚜렷하게 자신들의 목소리를 냈습니다. 이제 기존 [target_io.GetName](은)는 [target_character.GetName]의 인도 아래 단일 국가로 통합될 것이며, 우리는 그 일부가 될 것입니다."
+ colonial_federation_events.1001.a: "우리의 새로운 국가는 오랫동안 번영하리라!"
+ colonial_federation_events.1001.b: "우리는 누구에게도 무릎 꿇지 않을 것이다!"
+ colonial_federation_break_away_tt: "[target_country.GetName]의 [core|e]인 모든 소유 지점이 우리로부터 이탈합니다"

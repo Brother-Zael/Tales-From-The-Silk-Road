@@ -1,0 +1,8 @@
+﻿l_french:
+ flavor_ven_papal_interdicts.1000.title: "Interdit [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]"
+ flavor_ven_papal_interdicts.1000.desc: "Le [GetCountry('PAP').GetGovernment.GetRulerTitle] a placé les [ROOT.GetCountry.GetName] sous interdit, prétendument en réponse à la liberté accordée au fanatisme religieux qui règne dans la ville. Cela représente, semble-t-il, un affront constant pour [GetCountry('PAP').GetName]. Pourtant, il est clair pour nous qu'il ne s'agit là que d'un prétexte utilisé pour servir ses ambitions."
+ flavor_ven_papal_interdicts.1000.a: "Les [ROOT.GetCountry.GetNameWithNoTooltip] sont les [ROOT.GetCountry.GetNameWithNoTooltip] !"
+ flavor_ven_papal_interdicts.1000.b: "Ployons le genou devant le Saint-Père."
+ flavor_ven_papal_interdicts.1001.title: "La cité du péché"
+ flavor_ven_papal_interdicts.1001.desc: "Les hommes de [target_sinner_country.GetName] sont abjects, et de bien grands pécheurs devant Dieu. Il n'est pas un seul homme droit et intègre dans cette ville qui ne fait que s'adonner au commerce, et ses habitants sont de cette sorte qui a été chassée hors du Temple par le Fils de Dieu. En tant que représentant de Dieu sur Terre, il nous faut agir !"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip] tombera comme Sodome et Gomorrhe !"

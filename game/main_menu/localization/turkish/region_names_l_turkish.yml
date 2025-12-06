@@ -1,0 +1,156 @@
+﻿l_turkish:
+ #Continents
+ africa: "Afrika"
+ america: "Amerika"
+ asia: "Asya"
+ europe: "Avrupa"
+ oceania: "Okyanusya"
+ ocean_continent: "Dünya'nın Okyanusları"
+ #Subcontinents
+ #Africa
+ central_africa: "Orta Afrika"
+ east_africa: "Doğu Afrika"
+ north_africa: "Kuzey Afrika"
+ southern_africa: "Güney Afrika"
+ west_africa: "Batı Afrika"
+ central_africa_region: "Orta Afrika"
+ #America
+ north_america: "Kuzey Amerika"
+ south_america: "Güney Amerika"
+ #Asia
+ central_asia: "Orta Asya"
+ china: "Çin"
+ east_asia: "Doğu Afrika"
+ middle_east: "Orta Doğu"
+ north_asia: "Kuzey Asya"
+ india: "Hindistan"
+ south_asia: "Güney Asya"
+ hindustan_region: "Hindustan"
+ south_east_asia: "Güneydoğu Asya"
+ #Europe
+ eastern_europe: "Doğu Avrupa"
+ western_europe: "Batı Avrupa"
+ #Oceania
+ pacific_islands: "Pasifik Adaları"
+ australia: "Avustralya"
+ polynesia_region: "Polinezya"
+ australasia: "Avustralasya"
+ #Ocean Continent
+ ocean_sub_continent: "Okyanus"
+ north_atlantic_ocean_sub_continent: "Kuzey Atlas Okyanusu"
+ south_atlantic_sub_continent: "Güney Atlas Okyanusu"
+ indian_ocean_sub_continent: "Hint Okyanusu"
+ north_pacific_ocean_sub_continent: "Kuzey Pasifik Okyanusu"
+ south_pacific_ocean_sub_continent: "Güney Pasifik Okyanusu"
+ antarctic_ocean_sub_continent: "Antarktika Okyanusu"
+ atlantic_ocean_continent: "Atlas Okyanusu"
+ indian_ocean_continent: "Hint Okyanusu"
+ pacific_ocean_continent: "Pasifik Okyanusu"
+ antarctic_ocean_continent: "Antarktika Okyanusu"
+ north_atlantic_islands_region: "Kuzey Atlantik Adaları"
+ macaronesia_region: "Makaronezya"
+ central_india_region: "Orta Hindistan"
+ #Regions
+ #Africa
+ #Central Africa
+ kongo_region: "Kongo"
+ #East Africa
+ great_lakes_region: "Büyük Göller"
+ ethiopia_region: "Etiyopya"
+ nubia_region: "Nübye"
+ somalia_region: "Somali"
+ madagascar_region: "Madagaskar"
+ swahili_coast_region: "Svahili Kıyısı"
+ #North Africa
+ egypt_region: "Mısır"
+ maghreb_region: "Mağrip"
+ #South Africa
+ southern_africa_region: "Güney Afrika"
+ zimbabwe_region: "Zimbabve"
+ southern_africa_islands_region: "Güney Afrika Adaları"
+ #West Africa
+ sahel_region: "Sahel"
+ guinea_region: "Gine"
+ #America
+ #North America
+ canada_region: "Kanada"
+ east_coast_region: "Doğu Kıyısı"
+ great_plains_region: "Büyük Ovalar"
+ caribbean_region: "Karayip"
+ central_america_region: "Orta Amerika"
+ mesoamerica_region: "Mezoamerika"
+ aridoamerica_region: "Aridoamerika"
+ west_coast_region: "Batı Kıyısı"
+ alaska_region: "Alaska"
+ #South America
+ brazil_region: "Brezilya"
+ colombia_region: "Kolombiya"
+ la_plata_region: "La Plata"
+ andes_region: "And Dağları"
+ chaco_region: "Chaco"
+ #Asia
+ #Central Asia
+ khorasan_region: "Horasan"
+ #East Asia
+ east_china_region: "Doğu Çin"
+ japan_region: "Japonya"
+ korea_region: "Kore"
+ manchuria_region: "Mançurya"
+ mongolia_region: "Moğolistan"
+ north_china_region: "Kuzey Çin"
+ south_china_region: "Güney Çin"
+ tibet_region: "Tibet"
+ west_china_region: "Batı Çin"
+ xinjiang_region: "Sincan"
+ #Middle East
+ anatolia_region: "Anadolu"
+ arabia_region: "Arabistan"
+ crescent_region: "Mümbit Hilal"
+ persia_region: "İran"
+ #North Asia
+ east_siberia_region: "Doğu Sibirya"
+ west_siberia_region: "Batı Sibirya"
+ #South Asia
+ bengal_region: "Bengal"
+ deccan_region: "Dekken"
+ western_india_region: "Batı Hindistan"
+ #Southeast Asia
+ indochina_region: "Hindiçin"
+ indonesia_region: "Endonezya"
+ #Europe
+ #Eastern Europe
+ balkan_region: "Balkanlar"
+ carpathia_region: "Karpatlar"
+ caucasus_region: "Kafkasya"
+ poland: "Lehistan"
+ baltic_region: "Baltıkça"
+ ruthenia_region: "Rutenya"
+ russian_region: "Rusya"
+ steppes_region: "Pontus Bozkırı"
+ ural_region: "Ural"
+ #Western Europe
+ france_region: "Fransa"
+ great_britain_region: "Britanya"
+ iberia_region: "İberya"
+ iberia_region_ADJ: "İber"
+ ireland_region: "İrlanda"
+ italy_region: "İtalya"
+ north_german_region: "Kuzey Almanya"
+ scandinavian_region: "İskandinavya"
+ south_german_region: "Güney Almanya"
+ #Oceania
+ #Australia
+ australia_region: "Avustralya"
+ #Polynesia
+ new_zealand_region: "Yeni Zelanda"
+ micronesia_region: "Mikronezya"
+ melanesia_region: "Melanezya"
+ #Ocean Continent
+ #Ocean Subcontinent
+ ocean_region: "Okyanus"
+ north_atlantic_ocean_region: "Kuzey Atlas Okyanusu"
+ south_atlantic_region: "Güney Atlantik"
+ indian_ocean_region: "Hint Okyanusu"
+ north_pacific_ocean_region: "Kuzey Pasifik Okyanusu"
+ south_pacific_ocean_region: "Güney Pasifik Okyanusu"
+ antarctic_ocean_region: "Antarktika Okyanusu"

@@ -1,0 +1,4 @@
+﻿l_korean:
+ kritarchy_events.1.title: "사법 비밀회의 종결"
+ kritarchy_events.1.desc: "대법원이 어느 판관을 새로운 [ROOT.GetCountry.GetGovernment.GetRulerTitle](으)로 선출할지를 결정하는 토론을 마쳤습니다. 내각은 [successor_character.GetName](을)를 [ROOT.GetCountry.GetName]의 새 지도자로 올리는 것을 열렬히 환영했습니다."
+ kritarchy_events.1.a: "새 지도자가 현명한 통치를 펼쳐 나가기를."

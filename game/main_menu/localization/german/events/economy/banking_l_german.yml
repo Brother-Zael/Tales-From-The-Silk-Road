@@ -1,0 +1,11 @@
+﻿l_german:
+ banking.1.title: "Der Aufstieg der Fugger"
+ banking.1.desc: "Die Familie Fugger, Handelspatrizier aus Augsburg gehörten während des 15. und 16. Jahrhunderts zu den vorrangigsten Bankiers Europas. Große Teile der europäischen Wirtschaft wurden von ihnen kontrolliert und sie erlangten sogar ein nahezu vollkommenes Monopol auf dem Kupfermarkt. Historisch waren sie mit dem Haus Habsburg eng verbandelt, dessen Aufstieg zur Weltmacht sie finanzierten."
+ banking.1.a: "Das ist ein Segen für Augsburg!"
+ banking.2.a: "Das könnte von Nutzen sein für … uns?"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName|U] tätigen ab sofort Geschäfte in [ShowLocationName('augsburg')]"
+ banking.3.title: "Die Familie Welser"
+ banking.3.desc: "Die Welser waren eine deutsche Händler- und Bankiersfamilie aus Nürnberg und Augsburg, die für sich in Anspruch nahmen, vom byzantinischen General Belisarius abzustammen. Sie waren dem wachsenden Reich der Habsburger als Bankiers in vielem zu Diensten und wurden dabei äußerst wohlhabend. Im Zeitalter der Entdeckungen hatten sie Handelsposten in Antwerpen, Madrid, Lissabon, Rom, Lyon und vielen anderen Städten."
+ banking.3.a: "Dadurch wird Nürnberg Anerkennung finden!"
+ banking.4.a: "Das könnte von Nutzen sein für … uns?"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName|U] tätigen ab sofort Geschäfte in [ShowLocationName('nuremberg')]"

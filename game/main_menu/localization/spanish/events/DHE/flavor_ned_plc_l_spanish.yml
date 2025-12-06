@@ -1,0 +1,8 @@
+﻿l_spanish:
+ flavor_ned_plc.1.title: "Comerciantes [target_country.GetAdjectiveWithNoTooltip|l] en [target_location.GetNameWithNoTooltip]"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName] y [target_country.GetLongName|l] tienen intereses que coinciden en distintos puntos. Cada año, muchos miembros [target_country.GetGovernment.GetEstateName('burghers_estate')|l] llegan a los puertos de [target_market.GetName] y, especialmente, al centro de almacenaje y distribución de [target_good.GetName|l] en [target_location.GetName]. Al otro lado, el estamento [receiving_country.GetGovernment.GetEstateName('nobles_estate')|l] de [receiving_country.GetNameWithNoTooltip] se beneficia claramente de esta asociación, pues puede ofrecer su excedente de [target_good.GetNameWithNoTooltip|l] a cambio de los bienes de lujo que traen los comerciantes."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Invirtamos más en el comercio."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

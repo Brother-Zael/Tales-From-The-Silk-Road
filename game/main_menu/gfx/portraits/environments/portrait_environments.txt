@@ -1,0 +1,341 @@
+﻿@main_light_radius = 150
+@main_light_height = 90
+@main_light_angle = 35
+	
+
+		#########################################################################
+		#																		#
+		#								Main Portait							#
+		#																		#
+		#########################################################################
+
+full_torso = {
+	cubemap = "gfx/portraits/environments/mondarrain_3_cube_specular_GGX_burley_2_dxt1_edit.dds" #grassy mountain top
+	cubemap_intensity = 0.6
+
+	lights = {
+		#########################################################################
+		#																		#
+		#								KEY LIGHT								#
+		#																		#
+		#########################################################################
+		0 = {
+			type = "spot_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.5 0.1 3.5 }	#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ @main_light_radius @main_light_height @main_light_angle }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 0 0 0 }
+			look_at_node = Neck_B
+
+			#for spot lights and point lights
+			radius = 1000
+			falloff = 10
+
+			#for point lights only
+			outer_cone_angle = 50
+			inner_cone_angle = 0
+		}
+
+			#	#########################################################################
+		#	#																		#
+		#	#							RIGHT RIM LIGHT	2							#
+		#	#																		#
+		#	#########################################################################
+		1 = {
+			type = "spot_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.09 0.45 3 }	#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical	{ 	70.0 	120	 100 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { -100 0 140 }
+			look_at_node = Neck_B
+		}
+
+		#	#########################################################################
+		#	#																		#
+		#	#							LEFT RIM LIGHT								#
+		#	#																		#
+		#	#########################################################################
+		2 = {
+			type = "spot_light"						#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.6 0.3 1.0 }				#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ 50	50	100 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 0 18 0 }
+		}
+	}
+
+	shadow_camera = {
+		position = cylindrical{ @main_light_radius @main_light_height @main_light_angle }
+		look_at = { 0 0 0 } # ZYZ
+		look_at_node = Neck_B
+		fov = 40
+		camera_near_far = { 7 450 }
+	}
+}
+
+
+
+				#########################################################################
+				#																		#
+				#								GUI portrait							#
+				#																		#
+				#########################################################################
+
+gui_portrait = {
+	cubemap = "gfx/portraits/environments/mondarrain_3_cube_specular_GGX_burley_2_dxt1_edit.dds" #grassy mountain top
+	cubemap_intensity = 0.80
+
+	lights = {
+		#########################################################################
+		#																		#
+		#								KEY LIGHT								#
+		#																		#
+		#########################################################################
+		0 = {
+			type = "spot_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+
+			color = hsv{ 1.2	0.05		2.5	 }	#hue, saturation, value. Increase value for more intense lights
+
+			position = cylindrical{ @main_light_radius 	@main_light_height 	@main_light_angle }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 20 50 10 }
+			look_at_node = Neck_B
+
+			#for spot lights and point lights
+			radius = 450
+			falloff = 30
+			#for point lights only
+			outer_cone_angle = 19
+			inner_cone_angle = 1.0
+		}
+
+		#	#########################################################################
+		#	#																		#
+		#	#							RIGHT RIM LIGHT								#
+		#	#																		#
+		#	#########################################################################
+		# 1 = {
+		# 	type = "directional_light"	#valid types are "spot_light", "point_light", and "directional_light"
+		# 	affected_by_shadow = yes
+
+		# 	color = hsv{	0.6		0.2		5.4 }	#hue, saturation, value. Increase value for more intense lights
+		# 	position = cylindrical	{ 	88.0 	150	 -80 }	#radius, height, angle
+
+		# 	#for spot lights and directional lights
+		# 	look_at = { 230 0 40 }
+		# 	look_at_node = Neck_B
+		# }
+
+			#	#########################################################################
+		#	#																		#
+		#	#							RIGHT RIM LIGHT	2							#
+		#	#																		#
+		#	#########################################################################
+		1 = {
+			type = "directional_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{	0.9		0.2		2.4 }	#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical	{ 	70.0 	120	 100 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { -100 0 140 }
+			look_at_node = Neck_B
+		}
+
+		#	#########################################################################
+		#	#																		#
+		#	#							LEFT RIM LIGHT								#
+		#	#																		#
+		#	#########################################################################
+		2 = {
+			type = "directional_light"						#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.6	0.3	  0.5 }				#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ 50	50	100.0 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 0 18 0 }
+		}
+	}
+
+	shadow_camera = {
+		#	position = cartesian{ -50.0		50.0	-50.0 }
+
+		# Neutral
+		#cylindrical: 				radius, height, angle
+		position = cylindrical	{ 	100 	100 	@main_light_angle }
+		#			X		Y		Z
+		look_at = { 0.0		3.0	0.0 }
+		look_at_node = Neck_B
+		fov = 40
+		camera_near_far = { 15.0 250.0 }
+
+
+		#	position = cylindrical	{ 	40.0 	25.0 	20.0 }
+		#	look_at = 				{ 	0.0		9.0		-3.0 }
+	}
+}
+
+
+
+#Gui Portrait
+head_portrait = {
+	cubemap = "gfx/portraits/environments/mondarrain_3_cube_specular_GGX_burley_2_dxt1_edit.dds" #grassy mountain top
+	cubemap_intensity = 0.35
+
+	lights = {
+		#########################################################################
+		#																		#
+		#								KEY LIGHT								#
+		#																		#
+		#########################################################################
+		0 = {
+			type = "spot_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.5 0.1 3.5 }	#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ @main_light_radius @main_light_height @main_light_angle }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 0 0 0 }
+			look_at_node = Neck_B
+
+			#for spot lights and point lights
+			radius = 1000
+			falloff = 10
+
+			#for point lights only
+			outer_cone_angle = 50
+			inner_cone_angle = 0
+		}
+
+		#	#########################################################################
+		#	#																		#
+		#	#							RIGHT RIM LIGHT								#
+		#	#																		#
+		#	#########################################################################
+		1 = {
+			type = "spot_light"	#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.09 0.45 3 }	#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical	{ 	70.0 	120	 100 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { -100 0 140 }
+			look_at_node = Neck_B
+		}
+
+		#	#########################################################################
+		#	#																		#
+		#	#							LEFT RIM LIGHT								#
+		#	#																		#
+		#	#########################################################################
+		2 = {
+			type = "spot_light"						#valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.6 0.3 1.0 }				#hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ 50	50	100 }	#radius, height, angle
+
+			#for spot lights and directional lights
+			look_at = { 0 18 0 }
+		}
+	}
+
+	shadow_camera = {
+		#	position = cartesian{ -50.0		50.0	-50.0 }
+
+		# Neutral
+		#cylindrical: 				radius, height, angle
+		position = cylindrical	{ 	190 	120 	@main_light_angle  }
+		#			X		Y		Z
+		look_at = { 00.0		30.0	0 }
+		look_at_node = Neck_B
+		fov = 40
+		camera_near_far = { 10.0 390.0 }
+
+
+		#	position = cylindrical	{ 	40.0 	25.0 	20.0 }
+		#	look_at = 				{ 	0.0		9.0		-3.0 }
+	}
+}
+
+portrait_editor = {
+	cubemap = "gfx/portraits/environments/ck3_events_battlefield_01.dds" # battlefield from ck3 (soft top down lighting)
+	cubemap_intensity = 1.5
+	
+
+	lights = {
+		#########################################################################
+		#								KEY LIGHT								#
+		#########################################################################
+		0 = {
+			type = "spot_light"	# Valid types are "spot_light", "point_light", and "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.6 0.4 4.8 } # Hue, saturation, value. Increase value for more intense lights
+			position = cylindrical{ 100 	120 	-10 } # Radius, height, angle
+
+			# For spot lights and directional lights
+			look_at = { 0 0 0 }
+			look_at_node = Neck_B
+
+			# For spot lights and point lights
+			radius = 1000
+			falloff = 10
+
+			# For point lights
+			outer_cone_angle = 25
+			inner_cone_angle = 0
+		}
+
+		#########################################################################
+		#							RIGHT RIM LIGHT								#
+		#########################################################################
+		1 = {
+			type = "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.1 0.1 1.5 }
+			position = cylindrical	{ 288 220 90 }
+
+			look_at = {	0 18 0 }
+		}
+
+		#########################################################################
+		#							LEFT RIM LIGHT								#
+		#########################################################################
+		2 = {
+			type = "directional_light"
+			affected_by_shadow = yes
+
+			color = hsv{ 0.54 0.8 0 }
+			position = cylindrical{ 88 50 160 }
+
+			look_at = { 0 18 0 }
+		}
+	}
+
+	shadow_camera = {
+		position = cylindrical{ 100 120 -10 }
+		look_at = { 0 0	0 }
+		look_at_node = Neck_B
+		fov = 100
+		camera_near_far = { 10 550 }
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_japanese:
+ muslim_school_opinion_events.1.title: "[ROOT.GetCountry.GetReligiousSchool.GetName]と[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]の相互尊重"
+ muslim_school_opinion_events.1.desc: "[ROOT.GetCountry.GetReligiousSchool.GetName]学派と[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]学派とのあいだで、深刻な対立を引き起こすような神学上の相違が生じたことは一度もなく、両学派は共存していることも多い。\nしかし、[ROOT.GetCountry.GetAdjective]の[ROOT.GetCountry.GetReligiousSchool.GetName]国家と[SCOPE.sCountry('school_opinion_increase_country').GetAdjective]の[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]国家の長年にわたる協力関係により、相互理解と相互尊重に基づいた新たな時代が訪れた。"
+ muslim_school_opinion_events.1.a: "神は偉大なり。"
+ muslim_school_opinion_events.2.title: "[ROOT.GetCountry.GetReligiousSchool.GetName]と[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]の関係正常化"
+ muslim_school_opinion_events.2.desc: "[ROOT.GetCountry.GetReligiousSchool.GetName]と[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]のあいだでは、ここしばらく不信や対立の色が濃くなっていた。学者たちのなかには、他方の学派の神学者やその信奉者を非難する者までいた。\nしかし、近年は緊張が大きく和らぎ、[ROOT.GetCountry.GetAdjective]の[ROOT.GetCountry.GetReligious School.GetName]学派と[SCOPE.sCountry('school_opinion_increase_country').GetAdjective]の[SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]学派の学者が寛容と共存の道を切り開いている。"
+ muslim_school_opinion_events.2.a: "神は偉大なり。"
+ muslim_school_opinion_events.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]と[ROOT.GetCountry.GetAdjectiveWithNoTooltip]・[SCOPE.sCountry('school_opinion_decrease_country').GetAdjectiveWithNoTooltip]戦争"
+ muslim_school_opinion_events.3.desc: "[SCOPE.sCountry('school_opinion_decrease_country').GetAdjectiveWithNoTooltip]と[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の紛争が長引き、宗教界にも影響を及ぼしはじめている。寛容に尊重しあう姿勢が失われ、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]社会では[SCOPE.sCountry('school_opinion_decrease_country').GetReligiousSchool.GetName]の思想が蔑視されている。"
+ muslim_school_opinion_events.3.a: "許されないことだ。"

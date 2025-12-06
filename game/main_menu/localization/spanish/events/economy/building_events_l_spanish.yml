@@ -1,0 +1,9 @@
+﻿l_spanish:
+ building.1.title: "Universidad de [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Tras una serie de acalorados debates con final violento, los académicos de la Universidad de [old_university.GetName] han huido a [new_university.GetName] para establecer allí una institución de enseñanza rival.\n\nLos antiguos alumnos de [old_university.GetNameWithNoTooltip] forman una parte considerable del estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] [ROOT.GetCountry.GetAdjective|l] y nos están pidiendo que reprimamos esta rebelión educativa."
+ building.1.a: "Apoyemos esta nueva institución educativa."
+ building.1.b: "Ordenemos a los refugiados que vuelvan a [old_university.GetNameWithNoTooltip]."
+ building.2.title: "Ciudad con toga"
+ building.2.desc: "Los estudiantes de la Universidad de [university.GetName] están bajo la protección del estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] y por tanto gozan de derechos diferentes a los de la población local. El hecho de que ambas comunidades vivan muy cerca suele provocar desconfianza, pero recientemente la desconfianza ha degenerado en disturbios violentos."
+ building.2.a: "Pongámonos del lado de la universidad."
+ building.2.b: "Pongámonos del lado de la población."

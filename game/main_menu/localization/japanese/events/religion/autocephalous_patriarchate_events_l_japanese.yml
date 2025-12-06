@@ -1,0 +1,11 @@
+﻿l_japanese:
+ ap_falls_desc_key: "激しい包囲戦と駐屯部隊の果敢な防衛の結果、[target_location.GetName]は我々の軍隊に掌握された。ここには有力な宗教的権威が居住しているが、その理由は[target_location.GetRank.GetNameWithNoTooltip]がかつて[ShowReligionAdjective('orthodox')]の高官を迎えていた場所だからだ。こうした施設を廃止すべきか、それとも我々の保護下に置くべきか迷うところだ。"
+ autocephalous_patriarchates.1.title: "独立総主教座を掌握！"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "独立総主教区を廃止する。"
+ autocephalous_patriarchates.1.b: "独立総主教区を維持する。"
+ autocephalous_patriarchates.2.title: "独立総主教座を掌握！"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "独立総主教区を廃止する。"
+ autocephalous_patriarchates.2.b: "独立総主教区を維持する。"
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "[target_ap.GetName]の各メンバーのわが国に対する評価が[ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]低下する"

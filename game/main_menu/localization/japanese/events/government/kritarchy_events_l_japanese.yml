@@ -1,0 +1,4 @@
+﻿l_japanese:
+ kritarchy_events.1.title: "コンクラーベの結果"
+ kritarchy_events.1.desc: "最高裁判所が、次期[ROOT.GetCountry.GetGovernment.GetRulerTitle]となる裁判官の選出を終えた。内閣は[successor_character.GetName]を[ROOT.GetCountry.GetName]の栄光ある新統治者として任命した！"
+ kritarchy_events.1.a: "[successor_character.GetHerHis]による聡明な統治を願おう。"

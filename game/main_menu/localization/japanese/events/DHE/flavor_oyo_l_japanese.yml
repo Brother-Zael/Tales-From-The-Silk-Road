@@ -1,0 +1,5 @@
+﻿l_japanese:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "[ROOT.GetCountry.GetName]では騎兵隊が支配的な戦力であることから、[target_character.GetName]は「[ShowUnitDefinitionName('a_esho_cavalry_oyo')]」と呼ばれる精鋭部隊を創設することにした。我々は彼らを特殊な連隊として扱うことも、ほかの軍隊と統合することもできる。"
+ flavor_oyo.1.a: "彼らはほかの部隊とは独立させて運用しよう。"
+ flavor_oyo.1.b: "彼らは連隊の一員としよう。"

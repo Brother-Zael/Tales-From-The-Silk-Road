@@ -1,0 +1,8 @@
+﻿l_turkish:
+ flavor_ned_plc.1.title: "[target_country.GetAdjectiveWithNoTooltip] Tüccarlar [target_location.GetNameWithNoTooltip] ilinde"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName] ve [target_country.GetLongName] ülkelerinin çıkarları pek çok noktada kesişiyor. Her yıl [target_country.GetGovernment.GetEstateName('burghers_estate')] zümrelerinden birçok kişi başta [target_location.GetName] ilindeki [target_good.GetName] Antreposu olmak üzere [target_market.GetName] limanlarına geliyor. Tüccarların getirdiği lüks malları satın alıp artan [target_good.GetNameWithNoTooltip] mallarını satan [receiving_country.GetNameWithNoTooltip] ülkesinin [receiving_country.GetGovernment.GetEstateName('nobles_estate')] zümresinin de bu ortaklıktan faydalandığı aşikâr."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Büyük ölçekli ticarete fazladan para yatırılsın."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

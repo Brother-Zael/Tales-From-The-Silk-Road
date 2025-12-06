@@ -1,0 +1,12 @@
+﻿l_japanese:
+ END_GAME_VIEW_LOSING_TITLE: "GAME OVER"
+ END_GAME_VIEW_LOSING_TEXT: "わが国は隣国ほど強大ではなく、決意が固いわけでもなく、時代を生き抜くことができなかった。この先、[COUNTRY.GetAdjective]の国民は博物館でたまに思い出されるだけの存在となり、我々の失敗は学者たちの研究対象となるだろう。"
+ END_GAME_VIEW_SURVIVING_TITLE: "歴史の小さな付録"
+ END_GAME_VIEW_SURVIVING_TEXT: "わが誇り高き国家は、数世紀におよぶ奮闘、戦争、苦境を生き延びたにもかかわらず、[COUNTRY.GetAdjective]の国民は注目に値することは何も達成できなかった。文明と戦争両面の巨大国家であふれる世界においては、我々は単なる脇役にすぎないのだ。"
+ END_GAME_VIEW_GREAT_POWER_TITLE: "列強"
+ END_GAME_VIEW_GREAT_TEXT: "我らが栄えある国家は、世界の列強と称されるほどの存在になった。おめでとう、[COUNTRY.GetAdjective]の国民はこの時代で繁栄を極め、最大の名誉を得た者たちである。そして、我々の統治はこれ以上ない成功によって報われた。"
+ CONTINUE_PAST_END_DATE: "プレイを続行"
+ CONTINUE_PAST_END_DATE_TOOLTIP: "プレイを続行\nこの先は実績が無効になります"
+ END_GAME_VIEW_QUIT_TOOLTIP: "ゲームを終了し、メインメニューに戻る"
+ END_GAME_VIEW_OBSERVE: "観察"
+ END_GAME_VIEW_OBSERVE_TOOLTIP: "観察モードで続行"

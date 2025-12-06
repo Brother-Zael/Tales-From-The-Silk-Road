@@ -1,0 +1,5 @@
+﻿l_spanish:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "La caballería es la unidad dominante en [ROOT.GetCountry.GetName], y [target_character.GetName] ha decidido crear una fuerza de élite denominada [ShowUnitDefinitionName('a_esho_cavalry_oyo')|l]. Podemos utilizarla en regimientos especializados o integrarla con el resto del ejército."
+ flavor_oyo.1.a: "La separaremos del resto del ejército."
+ flavor_oyo.1.b: "Que se una al resto de los regimientos."

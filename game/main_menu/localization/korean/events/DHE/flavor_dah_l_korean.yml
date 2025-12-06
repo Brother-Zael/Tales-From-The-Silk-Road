@@ -1,0 +1,12 @@
+﻿l_korean:
+ flavor_dah_released_desc_common: "[ShowAreaName('gold_coast_area')]에 있는 [ShowCultureName('fon')]족들이 [target_character.GetName](이)가 통치하는 [GetCountry('DAH').GetName] 아래 조직을 결성했습니다. 이들은 군국주의적 야망을 품었으며, [ShowRegionName('guinea_region')](으)로 세력을 확장할 준비가 되어 있습니다."
+ flavor_dah_released_title_common: "[GetCountry('DAH').GetNameWithNoTooltip] 건립"
+ flavor_dah_variable_tt: "[ShowProvinceDefinitionName('fon_province')] 지역이 비식민지화되었습니다"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip](을)를 정복한다!"
+ flavor_dah.1.b: "이제는 새로운 왕국이 일어날 때일지도."
+ flavor_dah.1.c: "잘됐군."
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "새로운 이웃인가?"

@@ -1,0 +1,10 @@
+﻿l_polish:
+ colonial_federation_events.1000.title: "[target_io.GetNameWithNoTooltip] – centralizacja"
+ colonial_federation_events.1000.desc: "[target_io.GetName], niegdyś sojusz pomiędzy licznymi cudzoziemskimi koloniami, jest teraz pełnowymiarowym państwem o złożonej polityce wewnętrznej i zjednoczonym froncie zewnętrznym. Od tego dnia [target_io.GetNameWithNoTooltip] to nie tylko luźne zobowiązanie, a zunifikowana potęga, na czele której stoi [target_character.GetName] z kraju [target_country.GetName]."
+ colonial_federation_events.1000.a: "Oby czekała nas wszystkich świetlana przyszłość!"
+ colonial_federation_unify_the_io_tt: "[target_io.GetName] ulegnie zjednoczeniu w jednolity byt"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Głosy zostały oddane. Nasz lud zdecydował. [target_io.GetName] ulegnie zjednoczeniu w jedno państwo, które poprowadzi [target_character.GetName], a my zostaniemy jego częścią."
+ colonial_federation_events.1001.a: "Niech żyje nowe państwo!"
+ colonial_federation_events.1001.b: "Nigdy już przed nikim nie uklękniemy!"
+ colonial_federation_break_away_tt: "Każda posiadana lokacja [core|el], będąca [Concept('core','lokacją główną')|e] kraju [target_country.GetName], odłącza się od nas"

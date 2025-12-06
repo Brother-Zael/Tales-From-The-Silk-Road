@@ -1,0 +1,7 @@
+﻿l_turkish:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "Bir zamanlar önemli bir şehir olan [target_location.GetName], yerle bir olmuş bir şekilde duruyor. Yerel soylular tarafından yıllarca yanlış yönetilmesi sebebiyle bir zamanların görkemli şehrinden geriye yalnızca gölgesi kaldı. Her köşede dilenciler bekliyor, sokaklarda hırsızlar kol geziyor.\n\nNihayetinde bir isyanın çıkmasına kimse şaşırmadı. Asilerin lideri [target_character.GetName] adında bir adamdı. Şehrin soylularından birinin karıştığı bir kazada kardeşi ölen ve [GetCountry('PAP').GetGovernment.GetRulerTitle] ile konuşması için gönderildiğinde kısa süreliğine sarayda çalışabilecek kadar hükümdarı etkilemeyi başaran bir kâtip olarak tanınıyor.\n\nKaynaklarımıza göre bu adam, takipçileriyle birlikte [target_location.GetNameWithNoTooltip] halkını galeyana getirmiş. Güruhu görür görmez tüyerek şehri terk eden yerel soyluların korkaklığı sayesinde hükûmet binasını tek damla kan dökmeden ele geçirmişler."
+ rebel.1.a: "Soylulardan şehri almasına izin verelim."
+ rebel.1.b: "Ona olağanüstü yetkiler ve şehrin liderliğini verelim."
+ rebel.1.c: "Böyle bir kaosa izin veremeyiz! Şehri geri alalım!"
+ cola_rebels: "Cola di Rienzo Destekçileri"

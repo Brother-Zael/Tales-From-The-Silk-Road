@@ -1,0 +1,7 @@
+﻿l_braz_por:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Poucos homens tiveram tanto sucesso na vida quanto [target_character.GetName]. Vindo de uma família de comerciantes, [target_character.GetShortNameWithNoTooltip] foi incrivelmente bem-sucedido em seus negócios em toda a [ShowRegionName('italy_region')]. Toda a rede comercial construída por sua família é responsável por boa parte da riqueza que circula na afluente península. No entanto, com o passar do tempo, o renomado comerciante deseja voltar para casa e começar a investir em nossos mercados, inclusive trazendo muitas inovações da [ShowRegionNameWithNoTooltip('italy_region')]..."
+ flavor_nur.1.a: "Bem-vindo de volta!"
+ flavor_nur.1.b: "Não podemos nos dar ao luxo de tais frivolidades!"
+ flavor_nur.1.c: "Devemos recusar respeitosamente..."
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] desaparecerá"

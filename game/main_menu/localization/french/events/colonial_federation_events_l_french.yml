@@ -1,0 +1,10 @@
+﻿l_french:
+ colonial_federation_events.1000.title: "Centralisation de [target_io.GetNameWithNoTooltip]"
+ colonial_federation_events.1000.desc: "À l'origine une alliance entre les nombreux sujets coloniaux des puissances étrangères, la [target_io.GetName] a évolué pour devenir un État fonctionnel avec une politique interne très développée et un front extérieur unifié. Dès lors, la [target_io.GetNameWithNoTooltip] n'était plus seulement une alliance informelle, mais une puissance unifiée dirigée par [target_character.GetName] de [target_country.GetName]."
+ colonial_federation_events.1000.a: "Que cette alliance nous guide toutes et tous vers un avenir prospère !"
+ colonial_federation_unify_the_io_tt: "Nous unifions la [target_io.GetName] en une seule entité"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "Les votes ont été émis. Notre peuple a fait entendre sa voix haut et fort. L'ancienne [target_io.GetName] sera unifiée en un seul État sous la direction attentive de [target_character.GetName] ; et nous en ferons partie."
+ colonial_federation_events.1001.a: "Longue vie au nouvel État !"
+ colonial_federation_events.1001.b: "Nous ne ploierons jamais devant personne !"
+ colonial_federation_break_away_tt: "Chaque lieu détenu qui est une [core|e] de [target_country.GetName] se détache de nous"

@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Alterar método de ordem aleatória"
+ MUSIC_PLAYER_PLAY: "Reproduzir"
+ MUSIC_PLAYER_PAUSE: "Pausar"
+ MUSIC_PLAYER_HEADER: "Reprodutor de Música"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "Clique para reproduzir #v [MusicTrack.GetName]#! agora"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "#v [MusicTrack.GetName]#! está tocando!"
+ MUSIC_PLAYER_ENABLE_TRACK: "Habilitar/Desabilitar #v [MusicTrack.GetName]#! na fila de músicas"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "Habilitar/Desabilitar todas as músicas na categoria #v [MusicPlayerCategory.GetName]#!"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Pular para a próxima faixa"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Selecione para ver as músicas na categoria #v [MusicPlayerCategory.GetName]#!"

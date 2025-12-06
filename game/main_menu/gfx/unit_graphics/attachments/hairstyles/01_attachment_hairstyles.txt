@@ -1,0 +1,74 @@
+﻿###############################################
+# Hairstyles
+###############################################
+
+
+hairstyles = {
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_short_a_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_long_b_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_bob_a_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_bob_male_d_mesh" }
+		add_entity = { required_tags = "hair_covered" } #NEWMODEL
+	}
+	1 = {	} #shaved
+}
+
+irish_gfx:hairstyles = {
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_bob_a_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+}
+
+south_american_gfx:hairstyles = {
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_bob_a_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+}
+
+middle_east_gfx:hairstyles = {
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_cut_afro_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_short_a_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+	30 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_north_german_male_long_b_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+}
+
+
+north_american_gfx:hairstyles = {
+	1 = {	} #shaved
+}
+
+african_gfx:hairstyles = {
+	1 = {	} #shaved
+	10 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_cut_afro_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+}
+
+east_asian_gfx:hairstyles = {
+	1 = {	} #shaved
+	10 = {
+		add_entity = { required_tags = "not(hair_covered)"	node = shared_pose_entity		mesh_name = "unit_hair_cut_afro_mesh" }
+		add_entity = { required_tags = "hair_covered" }
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_german:
+ flavor_cas_por.1.title: "Königliches Fünftel"
+ flavor_cas_por.1.desc_common: "Als [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'Alleinherrscherin', 'Alleinherrscher')] über „[ROOT.GetCountry.GetName]“ stehen einem als [ROOT.GetCountry.GetGovernment.GetRulerTitle] sämtliche natürlichen Güter und jeglicher Wohlstand im [ROOT.GetCountry.GetFlavorRank] zu. Daher gehören alle natürlichen Rohstoffe, die [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]en Bürger gewinnen, rechtmäßig ebenfalls [target_character.GetName]. Wenn jedoch jeder all seine Waren der Regierung überlassen müsste, gäbe es keinen Anreiz, sich überhaupt im Bergbau zu engagieren, und deshalb haben wir uns entschieden, die Ressourcen als [ShowPolicyName('royal_fifth_law')] einzuziehen."
+ flavor_cas_por.1.desc: "\n$flavor_cas_por.1.desc_common$\nDas Thema Steuern kam erneut auf die Tagesordnung, da es nun angesichts der steigenden Gewinnung von „[target_goods.GetName]“ in [target_location.GetName] deutlich wichtiger werden wird. Örtliche Vizekönige zögern, die Steuer durchzusetzen, da sie befürchten, sie könnte der Produktion schaden."
+ flavor_cas_por.1.a: "Erzwingt das [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+ flavor_cas_por.1.b: "Behindert ihre Arbeit nicht."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nSeitdem man vor Kurzem „[target_goods.GetName]“ in [target_location.GetName] entdeckte, ist diese Steuer wieder ein Thema, da der örtliche Vizekönig verlangt, dass die Aufseher der Mine die Steuer entrichten, was bisher größtenteils irrelevant war. [ROOT.GetCountry.GetGovernment.GetRuler.Custom('DE_ART_DEF_S_N')|U] [ROOT.GetCountry.GetGovernment.GetRulerTitle] wurde von mehreren Beratern darauf hingewiesen, dass diese Steuer der Produktion des Rohstoffs schaden könnte."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Vergesst die Sache fürs Erste."

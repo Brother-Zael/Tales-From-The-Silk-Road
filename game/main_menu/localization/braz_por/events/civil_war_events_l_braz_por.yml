@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ civil_war.1.title: "Derrota na Guerra Civil"
+ civil_war.1.desc: "A Guerra Civil [loser.GetAdjective] terminou. Nós perdemos. Felizmente, esse não é o fim, mas talvez uma oportunidade."
+ civil_war.1.a: "Das cinzas a vida renasce!"
+ civil_war.1.b: "É hora de arcar com as consequências."
+ civil_war_game_over: "Isso acaba com o nosso jogo! \n\n@trigger_no! #R FIM DE JOGO!#! @trigger_no!"

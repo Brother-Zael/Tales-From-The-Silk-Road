@@ -1,0 +1,12 @@
+﻿l_turkish:
+ flavor_dah_released_desc_common: "[ShowAreaName('gold_coast_area')] içindeki [ShowCultureName('fon')] halkı [GetCountry('DAH').GetName] bayrağı altında birleşti ve artık [target_character.GetName] tarafından yönetiliyorlar. Askerî emellere sahip olduklarını ve [ShowRegionName('guinea_region')] içerisinde daha da genişlemeye hazır olduklarını söylüyorlar."
+ flavor_dah_released_title_common: "[GetCountry('DAH').GetNameWithNoTooltip] Ülkesinin Kuruluşu"
+ flavor_dah_variable_tt: "[ShowProvinceDefinitionName('fon_province')] kolonize edilmemiş"
+ flavor_dah.1.title: "$flavor_dah_released_title_common$"
+ flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip] fethedilmeli!"
+ flavor_dah.1.b: "Belki de yeni bir ülkenin yükselme vakti gelmiştir."
+ flavor_dah.1.c: "Aferin onlara."
+ flavor_dah.2.title: "$flavor_dah_released_title_common$"
+ flavor_dah.2.desc: "$flavor_dah_released_desc_common$"
+ flavor_dah.2.a: "Yeni komşularımız mı var?"

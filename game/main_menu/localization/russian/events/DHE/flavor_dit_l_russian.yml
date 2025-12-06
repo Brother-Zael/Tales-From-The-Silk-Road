@@ -1,0 +1,5 @@
+﻿l_russian:
+ flavor_dit.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] [ROOT.GetCountry.Custom('CL_GEN')]"
+ flavor_dit.1.desc: "Внешний мир давным-давно перестал интересоваться делами #L [ROOT.GetCountry.GetAdjective|l]их#! #TOOLTIP:POPTYPE,peasants,X #L крестьян#!#!. Сейчас страна управляется региональными общинами, у #TOOLTIP:POPTYPE,nobles,X #L знати#!#! здесь нет никакой власти. Не пора ли окончательно порвать с феодальным обществом #TOOLTIP:CONTINENT,europe,X #L Европы#!#! и официально провозгласить себя #TOOLTIP:GOVERNMENT_REFORM,peasant_republic_reform,X #L крестьянской республикой#!#!, которой мы фактически и так являемся на протяжении веков?"
+ flavor_dit.1.a: "Мир хижинам! Война дворцам!"
+ flavor_dit.1.b: "Пожалуй, это уже чересчур."

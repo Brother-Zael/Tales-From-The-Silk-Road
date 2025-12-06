@@ -1,0 +1,7 @@
+﻿l_polish:
+ mayan_events.1.title: "Początek nowego K'atun"
+ mayan_events.1.desc: "Po dwudziestu latach rozpoczyna się nowe K'atun w długiej rachubie naszego ludu.\n\nNaszym obowiązkiem jako przywódców państwa [ROOT.GetCountry.GetLongName] jest świętowanie wspaniałego festiwalu, w którym [ROOT.GetCountry.GetReligion.GetGodName] otrzyma należną cześć, a początek nowego cyklu naszej kultury zostanie wyraźnie zaznaczony. Nasi ludzie oczekują od nas zorganizowania uroczystości tak wielkiej i bogatej, że zostanie zapamiętana na długie lata.\n\nDlatego od dawna starannie się do niej przygotowujemy. Nadszedł czas, abyśmy spełnili pokładane w nas nadzieje."
+ mayan_events.1.a: "Niech [ROOT.GetCountry.GetReligion.GetGodName] nam sprzyja."
+ mayan_events.1.b: "Pomińmy kilka ostatnich szczegółów!"
+ mayan_events.1.c: "Jesteśmy gotowi."
+ mayan_events.1.d: "Lud będzie rozczarowany."

@@ -1,0 +1,11 @@
+﻿l_turkish:
+ banking.1.title: "Fugger Ailesinin Yükselişi"
+ banking.1.desc: "Augsburg'un tüccar elitlerinden olan Fugger adındaki bir aile, 15 ile 16. yüzyılda Avrupalı bankerler arasındaki en önemli gruplardan biri hâline gelmiştir. Avrupa ekonomisinin iplerinin büyük bir kısmı onların elindeydi ve bakır pazarının neredeyse tamamını ellerine almışlardı. Tarihî açıdan Habsburg Hanedanı ile yakından bağlantıları bulunuyordu ve dünya çapında güç olma yolunda onları fonladılar."
+ banking.1.a: "Bu Augsburg için bir nimet!"
+ banking.2.a: "Bu işten bize de bir şeyler düşer mi?"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName] artık [ShowLocationName('augsburg')] içinde işe başlıyor"
+ banking.3.title: "Welser Ailesi"
+ banking.3.desc: "Welser ailesi, Bizanslı general Belisarius'un soyundan geldiğini iddia eden Nürnberg ve Augsburg kökenli Alman tüccar ve banker ailesidir. Büyüyen Habsburg İmparatorluğu'na sıklıkla bankerlik hizmeti sağlayarak onların zenginliğine zenginlik kattılar. Keşifler Çağı gelip çattığında Antwerp, Madrid, Lizbon, Roma, Lyon ve daha birçok şehirde ticaret merkezlerine sahiptiler."
+ banking.3.a: "Bu Nürnberg'i öne çıkaracak!"
+ banking.4.a: "Bu işten bize de bir şeyler düşer mi?"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName] artık [ShowLocationName('nuremberg')] içinde işe başlıyor"

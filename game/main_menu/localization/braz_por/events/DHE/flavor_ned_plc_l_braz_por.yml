@@ -1,0 +1,8 @@
+﻿l_braz_por:
+ flavor_ned_plc.1.title: "Comerciantes da Entidade Política [target_country.GetNameWithNoTooltip] em [target_location.GetNameWithNoTooltip]"
+ flavor_ned_plc.1.desc: "Os interesses da entidade política [receiving_country.GetLongName] e da entidade política [target_country.GetLongName] se alinham de várias maneiras. Todos os anos, muitos dos membros do estamento [target_country.GetGovernment.GetEstateName('burghers_estate')] deles chegam aos portos de [target_market.GetName], especialmente ao entreposto de [target_good.GetName] em [target_location.GetName]. Por outro lado, os membros do estamento [receiving_country.GetGovernment.GetEstateName('nobles_estate')] da entidade política [receiving_country.GetNameWithNoTooltip] claramente se beneficiam dessa parceria, podendo trocar seus excedentes de [target_good.GetNameWithNoTooltip] por mercadorias de luxo trazidos pelos comerciantes."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Vamos investir recursos adicionais no comércio de produtos a granel."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

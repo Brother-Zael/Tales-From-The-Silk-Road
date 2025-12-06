@@ -1,0 +1,7 @@
+﻿l_korean:
+ flavor_kol.1.title: "바이에른 출신 대주교"
+ flavor_kol.1.desc: "바이에른의 통치 가문 구성원 중 하나가 쾰른의 대주교로 임명되었습니다. 어쩌면 이걸 계기로 바이에른의 영향력이 전례 없이 높아질지도 모릅니다. 어떻게 대응하면 좋을까요?"
+ flavor_kol.1.a: "바이에른의 영향력 행사를 허하라."
+ flavor_kol.1.b: "우리는 우리만의 길을 가겠다."
+ kol_bavarian_archbishop_replaced: "바이에른 대주교 교체"
+ kol_bavarian_archbishop: "쾰른의 바이에른 대주교"

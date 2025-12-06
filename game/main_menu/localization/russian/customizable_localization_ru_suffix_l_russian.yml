@@ -1,0 +1,298 @@
+﻿l_russian:
+ faction_guelphs_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
+ faction_ghibellines_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
+ GetGAGOwnFaction_GEN: "фракции"
+ 
+ faction_guelphs_no_tt_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
+ faction_ghibellines_no_tt_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
+ 
+ cabinet_role_head_of_cabinet_procurator_of_saint_mark_GEN: "Прокуратора собора Святого Марка"
+ cabinet_role_head_of_cabinet_grand_vizier_GEN: "Великого визиря"
+ cabinet_role_head_of_cabinet_chancellor_GEN: "Канцлера"
+ cabinet_role_head_of_cabinet_peshwa_GEN: "Пешвы"
+ cabinet_role_head_of_cabinet_prime_minister_GEN: "Премьер-министра"
+ 
+ order_of_saint_george_policy_GEN: "Ордена Святого Георгия"
+ order_of_the_ermine_policy_GEN: "Ордена Горностая"
+ order_of_the_dragon_policy_GEN: "Ордена Дракона"
+ order_of_the_band_policy_GEN: "Ордена Повязки"
+ order_of_the_swan_policy_GEN: "Ордена Лебедя"
+ order_of_the_black_eagle_policy_GEN: "Ордена Чёрного орла"
+ order_of_the_white_eagle_policy_GEN: "Ордена Белого орла"
+ GetOrderOfChivalry_GEN: "Рыцарского ордена"
+ 
+ dangerous_wild_animal_tiger_GEN: "Тигра"
+ dangerous_wild_animal_elephant_GEN: "Слона"
+ dangerous_wild_animal_moose_GEN: "Лося"
+ dangerous_wild_animal_elk_GEN: "Вапити"
+ dangerous_wild_animal_lion_GEN: "Льва"
+ dangerous_wild_animal_boar_GEN: "Кабана"
+ dangerous_wild_animal_wolf_GEN: "Волка"
+ dangerous_wild_animal_jaguar_GEN: "Ягуара"
+ dangerous_wild_animal_default_GEN: "Дикого зверя"
+ 
+ 
+ address_majesty_GEN: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величества"
+ address_excellency_GEN: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Превосходительства"
+ address_holiness_GEN: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Святейшества"
+ country_ruler_title_GEN: "[ROOT.GetCountry.GetGovernment.Custom('RL_GEN')]"
+ 
+ getrulertitle_ruler_GEN: "[ROOT.GetCountry.GetGovernment.Custom('RL_GEN')]"
+ getrulertitle_regent_GEN: "Регента"
+ getrulertitle_fallback_GEN: "[Select_CString(dead_character.IsFemale, 'Правительницы','Правителя')]"
+ 
+ family_relations_sisters_GEN: "Сестёр"
+ family_relations_brothers_GEN: "Братьев"
+ family_relations_siblings_GEN: "Сиблингов"
+ 
+ qizilbash_GEN: "Кызылбаши"
+ qizilbash_estate_name_GEN: "Племена"
+ 
+ seat_of_power_throne_GEN: "Трона"
+ seat_of_power_state_GEN: "Государства"
+  
+ protestant_union_name_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union,X #L Евангелической унии#!#!"
+ catholic_league_name_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league,X #L Католической лиги#!#!"
+ religious_league_name_GEN: "#Y Религиозной лиги#!"
+ 
+ dynastic_lires_GEN: "лир"
+ dynastic_violins_GEN: "скрипок"
+ #Dat
+ faction_guelphs_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфам#!#!"
+ faction_ghibellines_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинам#!#!"
+ GetGAGOwnFaction_DAT: "фракции"
+ 
+ faction_guelphs_no_tt_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфам#!#!"
+ faction_ghibellines_no_tt_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинам#!#!"
+ 
+ cabinet_role_head_of_cabinet_procurator_of_saint_mark_DAT: "Прокуратору собора Святого Марка"
+ cabinet_role_head_of_cabinet_grand_vizier_DAT: "Великому визирю"
+ cabinet_role_head_of_cabinet_chancellor_DAT: "Канцлеру"
+ cabinet_role_head_of_cabinet_peshwa_DAT: "Пешве"
+ cabinet_role_head_of_cabinet_prime_minister_DAT: "Премьер-министру"
+ 
+ order_of_saint_george_policy_DAT: "Ордену Святого Георгия"
+ order_of_the_ermine_policy_DAT: "Ордену Горностая"
+ order_of_the_dragon_policy_DAT: "Ордену Дракона"
+ order_of_the_band_policy_DAT: "Ордену Повязки"
+ order_of_the_swan_policy_DAT: "Ордену Лебедя"
+ order_of_the_black_eagle_policy_DAT: "Ордену Чёрного орла"
+ order_of_the_white_eagle_policy_DAT: "Ордену Белого орла"
+ GetOrderOfChivalry_DAT: "Рыцарскому ордену"
+  
+ dangerous_wild_animal_tiger_DAT: "Тигру"
+ dangerous_wild_animal_elephant_DAT: "Слону"
+ dangerous_wild_animal_moose_DAT: "Лосю"
+ dangerous_wild_animal_elk_DAT: "Вапити"
+ dangerous_wild_animal_lion_DAT: "Льву"
+ dangerous_wild_animal_boar_DAT: "Кабану"
+ dangerous_wild_animal_wolf_DAT: "Волку"
+ dangerous_wild_animal_jaguar_DAT: "Ягуару"
+ dangerous_wild_animal_default_DAT: "Дикому зверю"
+ 
+ 
+ address_majesty_DAT: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величеству"
+ address_excellency_DAT: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Превосходительству"
+ address_holiness_DAT: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Святейшеству"
+ country_ruler_title_DAT: "[ROOT.GetCountry.GetGovernment.Custom('RL_DAT')]"
+ 
+ getrulertitle_ruler_DAT: "[ROOT.GetCountry.GetGovernment.Custom('RL_DAT')]"
+ getrulertitle_regent_DAT: "Регента"
+ getrulertitle_fallback_DAT: "[Select_CString(dead_character.IsFemale, 'Правительнице','Правителю')]"
+ 
+ family_relations_sisters_DAT: "Сёстрам"
+ family_relations_brothers_DAT: "Братьям"
+ family_relations_siblings_DAT: "Сиблингам"
+ 
+ qizilbash_DAT: "Кызылбаши"
+ qizilbash_estate_name_DAT: "Племенам"
+ 
+ seat_of_power_throne_DAT: "Трону"
+ seat_of_power_state_DAT: "Государству"
+  
+ protestant_union_name_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union,X #L Евангелической унии#!#!"
+ catholic_league_name_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league,X #L Католической лиге#!#!"
+ religious_league_name_DAT: "#Y Религиозной лиге#!"
+ 
+ dynastic_lires_DAT: "лирам"
+ dynastic_violins_DAT: "скрипкам"
+ #Acc
+ faction_guelphs_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
+ faction_ghibellines_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
+ GetGAGOwnFaction_ACC: "фракцию"
+ 
+ faction_guelphs_no_tt_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
+ faction_ghibellines_no_tt_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
+ 
+ cabinet_role_head_of_cabinet_procurator_of_saint_mark_ACC: "Прокуратора собора Святого Марка"
+ cabinet_role_head_of_cabinet_grand_vizier_ACC: "Великого визиря"
+ cabinet_role_head_of_cabinet_chancellor_ACC: "Канцлера"
+ cabinet_role_head_of_cabinet_peshwa_ACC: "Пешву"
+ cabinet_role_head_of_cabinet_prime_minister_ACC: "Премьер-министра"
+ 
+ order_of_saint_george_policy_ACC: "Орден Святого Георгия"
+ order_of_the_ermine_policy_ACC: "Орден Горностая"
+ order_of_the_dragon_policy_ACC: "Орден Дракона"
+ order_of_the_band_policy_ACC: "Орден Повязки"
+ order_of_the_swan_policy_ACC: "Орден Лебедя"
+ order_of_the_black_eagle_policy_ACC: "Орден Чёрного орла"
+ order_of_the_white_eagle_policy_ACC: "Орден Белого орла"
+ GetOrderOfChivalry_ACC: "Рыцарский орден"
+  
+ dangerous_wild_animal_tiger_ACC: "Тигра"
+ dangerous_wild_animal_elephant_ACC: "Слона"
+ dangerous_wild_animal_moose_ACC: "Лося"
+ dangerous_wild_animal_elk_ACC: "Вапити"
+ dangerous_wild_animal_lion_ACC: "Льва"
+ dangerous_wild_animal_boar_ACC: "Кабана"
+ dangerous_wild_animal_wolf_ACC: "Волка"
+ dangerous_wild_animal_jaguar_ACC: "Ягуара"
+ dangerous_wild_animal_default_ACC: "Дикого зверя"
+ 
+ 
+ address_majesty_ACC: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величество"
+ address_excellency_ACC: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Превосходительство"
+ address_holiness_ACC: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Святейшество"
+ country_ruler_title_ACC: "[ROOT.GetCountry.GetGovernment.Custom('RL_ACC')]"
+ 
+ getrulertitle_ruler_ACC: "[ROOT.GetCountry.GetGovernment.Custom('RL_ACC')]"
+ getrulertitle_regent_ACC: "Регента"
+ getrulertitle_fallback_ACC: "[Select_CString(dead_character.IsFemale, 'Правительницу','Правителя')]"
+ 
+ family_relations_sisters_ACC: "Сестёр"
+ family_relations_brothers_ACC: "Братьев"
+ family_relations_siblings_ACC: "Сиблингов"
+ 
+ qizilbash_ACC: "Кызылбаши"
+ qizilbash_estate_name_ACC: "Племена"
+ 
+ seat_of_power_throne_ACC: "Трон"
+ seat_of_power_state_ACC: "Государство"
+  
+ protestant_union_name_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union,X #L Евангелическую унию#!#!"
+ catholic_league_name_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league,X #L Католическую лигу#!#!"
+ religious_league_name_ACC: "#Y Религиозную лигу#!"
+ 
+ dynastic_lires_ACC: "лиры"
+ dynastic_violins_ACC: "скрипки"
+ 
+ #Inst
+ faction_guelphs_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфами#!#!"
+ faction_ghibellines_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинами#!#!"
+ GetGAGOwnFaction_INST: "фракцией"
+ 
+ faction_guelphs_no_tt_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфами#!#!"
+ faction_ghibellines_no_tt_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинами#!#!"
+ 
+ cabinet_role_head_of_cabinet_procurator_of_saint_mark_INST: "Прокуратором собора Святого Марка"
+ cabinet_role_head_of_cabinet_grand_vizier_INST: "Великим визирем"
+ cabinet_role_head_of_cabinet_chancellor_INST: "Канцлером"
+ cabinet_role_head_of_cabinet_peshwa_INST: "Пешвой"
+ cabinet_role_head_of_cabinet_prime_minister_INST: "Премьер-министром"
+ 
+ order_of_saint_george_policy_INST: "Орденом Святого Георгия"
+ order_of_the_ermine_policy_INST: "Орденом Горностая"
+ order_of_the_dragon_policy_INST: "Орденом Дракона"
+ order_of_the_band_policy_INST: "Орденом Повязки"
+ order_of_the_swan_policy_INST: "Орденом Лебедя"
+ order_of_the_black_eagle_policy_INST: "Орденом Чёрного орла"
+ order_of_the_white_eagle_policy_INST: "Орденом Белого орла"
+ GetOrderOfChivalry_INST: "Рыцарским орденом"
+  
+ dangerous_wild_animal_tiger_INST: "Тигром"
+ dangerous_wild_animal_elephant_INST: "Слоном"
+ dangerous_wild_animal_moose_INST: "Лосем"
+ dangerous_wild_animal_elk_INST: "Вапити"
+ dangerous_wild_animal_lion_INST: "Львом"
+ dangerous_wild_animal_boar_INST: "Кабаном"
+ dangerous_wild_animal_wolf_INST: "Волком"
+ dangerous_wild_animal_jaguar_INST: "Ягуаром"
+ dangerous_wild_animal_default_INST: "Диким зверем"
+ 
+ 
+ address_majesty_INST: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величеством"
+ address_excellency_INST: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Превосходительством"
+ address_holiness_INST: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Святейшеством"
+ country_ruler_title_INST: "[ROOT.GetCountry.GetGovernment.Custom('RL_INST')]"
+ 
+ getrulertitle_ruler_INST: "[ROOT.GetCountry.GetGovernment.Custom('RL_INST')]"
+ getrulertitle_regent_INST: "Регентом"
+ getrulertitle_fallback_INST: "[Select_CString(dead_character.IsFemale, 'Правительницей','Правителем')]"
+ 
+ family_relations_sisters_INST: "Сёстрами"
+ family_relations_brothers_INST: "Братьями"
+ family_relations_siblings_INST: "Сиблингами"
+ 
+ qizilbash_INST: "Кызылбаши"
+ qizilbash_estate_name_INST: "Племенами"
+ 
+ seat_of_power_throne_INST: "Троном"
+ seat_of_power_state_INST: "Государством"
+  
+ protestant_union_name_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union,X #L Евангелической унией#!#!"
+ catholic_league_name_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league,X #L Католической лигой#!#!"
+ religious_league_name_INST: "#Y Религиозной лигой#!"
+ 
+ dynastic_lires_INST: "лирами"
+ dynastic_violins_INST: "скрипками"
+ #Prep
+ faction_guelphs_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфах#!#!"
+ faction_ghibellines_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинах#!#!"
+ GetGAGOwnFaction_PREP: "фракции"
+ 
+ faction_guelphs_no_tt_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфах#!#!"
+ faction_ghibellines_no_tt_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинах#!#!"
+ 
+ cabinet_role_head_of_cabinet_procurator_of_saint_mark_PREP: "Прокураторе собора Святого Марка"
+ cabinet_role_head_of_cabinet_grand_vizier_PREP: "Великом визире"
+ cabinet_role_head_of_cabinet_chancellor_PREP: "Канцлере"
+ cabinet_role_head_of_cabinet_peshwa_PREP: "Пешве"
+ cabinet_role_head_of_cabinet_prime_minister_PREP: "Премьер-министре"
+ 
+ order_of_saint_george_policy_PREP: "Ордене Святого Георгия"
+ order_of_the_ermine_policy_PREP: "Ордене Горностая"
+ order_of_the_dragon_policy_PREP: "Ордене Дракона"
+ order_of_the_band_policy_PREP: "Ордене Повязки"
+ order_of_the_swan_policy_PREP: "Ордене Лебедя"
+ order_of_the_black_eagle_policy_PREP: "Ордене Чёрного орла"
+ order_of_the_white_eagle_policy_PREP: "Ордене Белого орла"
+ GetOrderOfChivalry_PREP: "Рыцарском ордене"
+  
+ dangerous_wild_animal_tiger_PREP: "Тигре"
+ dangerous_wild_animal_elephant_PREP: "Слоне"
+ dangerous_wild_animal_moose_PREP: "Лосе"
+ dangerous_wild_animal_elk_PREP: "Вапити"
+ dangerous_wild_animal_lion_PREP: "Льве"
+ dangerous_wild_animal_boar_PREP: "Кабане"
+ dangerous_wild_animal_wolf_PREP: "Волке"
+ dangerous_wild_animal_jaguar_PREP: "Ягуаре"
+ dangerous_wild_animal_default_PREP: "Диком звере"
+ 
+ 
+ address_majesty_PREP: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величестве"
+ address_excellency_PREP: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Превосходительстве"
+ address_holiness_PREP: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Святейшестве"
+ country_ruler_title_PREP: "[ROOT.GetCountry.GetGovernment.Custom('RL_PREP')]"
+ 
+ getrulertitle_ruler_PREP: "[ROOT.GetCountry.GetGovernment.Custom('RL_PREP')]"
+ getrulertitle_regent_PREP: "Регенте"
+ getrulertitle_fallback_PREP: "[Select_CString(dead_character.IsFemale, 'Правительнице','Правителе')]"
+ 
+ family_relations_sisters_PREP: "Сёстрах"
+ family_relations_brothers_PREP: "Братьях"
+ family_relations_siblings_PREP: "Сиблингах"
+ 
+ qizilbash_PREP: "Кызылбаши"
+ qizilbash_estate_name_PREP: "Племеенах"
+ 
+ seat_of_power_throne_PREP: "Троне"
+ seat_of_power_state_PREP: "Государстве"
+  
+ protestant_union_name_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union,X #L Евангелической унии#!#!"
+ catholic_league_name_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league,X #L Католической лиге#!#!"
+ religious_league_name_PREP: "#Y Религиозной лиге#!"
+ 
+ dynastic_lires_PREP: "лирах"
+ dynastic_violins_PREP: "скрипках"
+ 
+ 

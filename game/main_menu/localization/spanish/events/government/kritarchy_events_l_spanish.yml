@@ -1,0 +1,4 @@
+﻿l_spanish:
+ kritarchy_events.1.title: "Concluye el cónclave judicial"
+ kritarchy_events.1.desc: "El tribunal supremo ha terminado de debatir sobre qué juez debe ser elegido flamante [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. El gabinete está encantado de celebrar la llegada de [successor_character.GetName] como líder de [ROOT.GetCountry.GetName]."
+ kritarchy_events.1.a: "Que su mandato sea sabio."

@@ -1,0 +1,11 @@
+﻿l_polish:
+ ap_falls_desc_key: "Po burzliwym oblężeniu i dzielnej obronie garnizonu cel, [target_location.GetName], padł pod naporem naszych wielkich armii. Za jego murami kryje się potężny autorytet religijny, jako że [target_location.GetRank.GetNameWithNoTooltip|l] to miejsce, w którym [ShowReligionName('orthodox')|l] znalazło duże poparcie. Pozostaje jeszcze pytanie, czy powinniśmy zlikwidować tę pokrewną instytucję, czy też otoczyć ją naszą ochroną."
+ autocephalous_patriarchates.1.title: "Siedziba autokefalicznego patriarchatu upada!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Rozwiążmy patriarchat."
+ autocephalous_patriarchates.1.b: "Zachowajmy patriarchat."
+ autocephalous_patriarchates.2.title: "Siedziba autokefalicznego patriarchatu upada!"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "Rozwiążmy patriarchat."
+ autocephalous_patriarchates.2.b: "Zachowajmy go."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "[target_ap.GetName]: opinia każdego członka na nasz temat zmniejszy się o [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]"

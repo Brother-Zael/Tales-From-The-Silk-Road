@@ -1,0 +1,8 @@
+﻿l_polish:
+ flavor_ned_plc.1.title: "[target_country.GetAdjectiveWithNoTooltip]cy kupcy w regionie [target_location.GetNameWithNoTooltip]"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName] i [target_country.GetLongName] mają wspólne, wielopłaszczyznowe interesy. Każdego roku tamtejsi [target_country.GetGovernment.GetEstateName('burghers_estate')|l] ściągają do portów kraju [target_market.GetName], a szczególnie do portu tranzytowego [target_good.GetName] w lokacji [target_location.GetName]. Z drugiej zaś strony także #L [receiving_country.GetAdjectiveWithNoTooltip|l]cy#! [receiving_country.GetGovernment.GetEstateName('nobles_estate')|l] korzystają na tej współpracy – ich [target_good.GetNameWithNoTooltip|l] służy do wymiany na luksusowe towary zwożone przez kupców."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Zainwestujmy więcej w hurtowy handel."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

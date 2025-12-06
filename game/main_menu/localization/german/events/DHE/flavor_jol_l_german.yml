@@ -1,0 +1,6 @@
+﻿l_german:
+ flavor_jol.1.title: "Bekehrung des [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]s"
+ flavor_jol.1.desc: "Durch unseren wachsenden Einfluss in [ShowRegionName('guinea_region')] konnten wir die Nachfrage des #L [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]s#! in den eroberten Landen befriedigen, doch haben sie weder #L [ROOT.GetCountry.GetReligion.GetAdjective|l]e#! noch #L [ROOT.GetCountry.GetCulture.GetName|l]e#! Werte angenommen. Vielleicht können wir dies durch tatkräftigere Bemühungen ändern."
+ flavor_jol.1.a: "Zur Stabilisierung von „[ROOT.GetCountry.GetNameWithNoTooltip|U]“!"
+ flavor_jol.1.b: "Wir sollten den [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] nicht gegen uns aufbringen."
+ jol_convert_nobility_tt: "#Y 15 %#! der [pops|e] aus dem [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] werden zur #L [ROOT.GetCountry.GetCulture.GetName|l]en#! Kultur und zum [ROOT.GetCountry.GetReligion.GetAdjective|l]en Glauben bekehrt"

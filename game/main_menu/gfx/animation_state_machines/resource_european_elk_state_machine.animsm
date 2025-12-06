@@ -1,0 +1,316 @@
+﻿local_variables={
+	"UnitState"=int
+ }
+
+behavioral_states={
+	"Move"={
+		preferent_timeline_layer={
+			timeline="L_relative_Move_editor_timeline"
+		}
+		timeline_layer={
+			timeline="moving_animation"
+		}
+	}
+ 	"Idle"={
+		random_layer={
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_longer"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="moving_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_animation"
+			}
+		}
+		timeline_layer={
+			timeline="L_default_Idle_editor_timeline"
+		}
+	}
+ 	"idle_longer"={
+		preferent_timeline_layer={
+			timeline="L_relative_idle_longer_editor_timeline"
+		}
+		timeline_layer={
+			timeline="idle_longer"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Move to Idle"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 45"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		behavioral_state="idle_longer"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Idle to Move"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 42"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"="2"
+ 		}
+		behavioral_state="idle_longer"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 39"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		conditions={
+			"UnitState"!="2"
+ 		}
+		behavioral_state="Idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 48"
+		trigger_interval_relative={ 0.000000 1.000000 }
+		behavioral_state="Move"
+		transition_interval=0.000000
+	}
+ 	particle_action={
+		name="bow_arrow_start_vfx"
+		trigger_time_absolute=1.241010
+		hierarchy_place="vfx_loc_01"
+		type=start
+	}
+ 	particle_action={
+		name="bow_arrow_stop_vfx"
+		trigger_time_absolute=2.921598
+		hierarchy_place="vfx_loc_01"
+		type=stop
+	}
+ 	particle_action={
+		name="particle_reset"
+		trigger_time_absolute=0.027475
+		hierarchy_place="vfx_loc_01"
+		type=stop
+	}
+ 	audio_event={
+		name="snd_charge_1"
+		trigger_time_absolute=0.202000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_charge_2"
+		trigger_time_absolute=0.564000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle_1"
+		trigger_time_absolute=3.531000
+		stop_on_state_change=yes
+		audio_event_name="wpn_proj_handle"
+	}
+ 	audio_event={
+		name="snd_attack_1"
+		trigger_time_absolute=1.244587
+		stop_on_state_change=yes
+		audio_event_name="wpn_proj_attack"
+	}
+ 	audio_event={
+		name="snd_reload_1"
+		trigger_time_absolute=3.032881
+		stop_on_state_change=yes
+		audio_event_name="wpn_proj_handle"
+	}
+ 	audio_event={
+		name="snd_draw_1"
+		trigger_time_absolute=0.567000
+		stop_on_state_change=yes
+		audio_event_name="wpn_proj_DrawString"
+	}
+ 	audio_event={
+		name="snd_retreat_1"
+		trigger_time_absolute=0.345000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_retreat_2"
+		trigger_time_absolute=0.868000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_axct_intense_1"
+		trigger_time_absolute=0.074884
+	}
+ 	audio_event={
+		name="snd_act_intense_2"
+		trigger_time_absolute=0.446463
+	}
+ 	audio_event={
+		name="snd_idle2_1"
+		trigger_time_absolute=1.228094
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle2_2"
+		trigger_time_absolute=3.102000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle2_3"
+		trigger_time_absolute=3.478105
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle2_4"
+		trigger_time_absolute=5.414000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event={
+		name="snd_idle2_5"
+		trigger_time_absolute=5.934000
+		stop_on_state_change=yes
+		audio_event_name="char_move_step_foot"
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_charge"
+		values={ {
+				name="Unit_AnimState"
+				value="Charge"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle2"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_idle3"
+		values={ {
+				name="Unit_AnimState"
+				value="Idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_attack"
+		values={ {
+				name="Unit_AnimState"
+				value="Attack"
+			} }
+	}
+ 	audio_event_switches={
+		name="snd_AnimState_retreat"
+		values={ {
+				name="Unit_AnimState"
+				value="Retreat"
+			} }
+	}
+ }
+
+timelines={
+	"L_relative_Move_editor_timeline"={
+		boundary_behavior=loop
+		duration=1.810345
+		events={
+			"Move to Idle"
+			"Lane 45"
+		}
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"L_default_Idle_editor_timeline"={
+		boundary_behavior=loop
+		events={
+			"Idle to Move"
+			"Lane 42"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		duration_source=group_max
+		generated_timeline=yes
+	}
+ 	"L_relative_idle_longer_editor_timeline"={
+		boundary_behavior=loop
+		duration=12.366756
+		events={
+			"Lane 39"
+			"Lane 48"
+		}
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="idle_animation"
+		duration_source=animation
+		generated_timeline=yes
+	}
+ 	"idle_animation"={
+		boundary_behavior=loop
+		duration=12.141984
+		starttime_offset=0.000000
+		playback_rate=0.750000
+		layer=0
+		animation="idle_animation"
+		duration_source=animation
+	}
+ 	"moving_animation"={
+		boundary_behavior=loop
+		duration=1.810345
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="moving_animation"
+		duration_source=animation
+	}
+ 	"idle_longer"={
+		boundary_behavior=loop
+		duration=12.366756
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="idle_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

@@ -1,0 +1,9 @@
+﻿l_korean:
+ flavor_zzz.1.title: "[target_location.GetNameWithNoTooltip] 성벽"
+ flavor_zzz.1.desc: "[ShowRegionName('guinea_region')]에서 우리 군사 활동이 확대되면서 [target_location.GetName](은)는 문화의 중심지를 넘어 분쟁의 구심점이 되고 있습니다. 이에 [target_character.GetName](은)는 이 [target_location.GetRank.GetName](이)가 절대 함락되는 일이 없도록 자신의 이름을 딴 성벽의 건설을 계획했습니다."
+ flavor_zzz.1.a: "[target_location.GetNameWithNoTooltip](을)를 지킬 것이다."
+ flavor_zzz.1.b: "성벽 같은 건 필요 없다."
+ flavor_zzz.2.title: "공세에 나선 [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_zzz.2.desc: "[ROOT.GetCountry.GetName]의 군사력이 성장함에 따라 [target_character.GetName](과)와 그 [ROOT.GetCountry.GetGovernment.GetCourtTitle]에서는 이미 우리 세력을 더욱 확장할 방안을 마련했습니다. 이들은 이웃 국가의 정복에 나서는 공격적인 전략과 이미 확보한 영토를 보호하는 데 집중하는 방어적인 전략을 제안했습니다."
+ flavor_zzz.2.a: "뻗치고 나아가 정복하리라!"
+ flavor_zzz.2.b: "지금까지 손에 넣은 영토를 확실히 장악하라."

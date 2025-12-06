@@ -1,0 +1,4 @@
+﻿l_polish:
+ kritarchy_events.1.title: "Sędziowskie konklawe zostało zakończone"
+ kritarchy_events.1.desc: "Sąd najwyższy zakończył debatowanie i spośród sędziów [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'została wybrana nowa','został wybrany nowy')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Cały gabinet z ekscytacją świętuje, że [successor_character.GetName] [Select_CString(successor_character.IsFemale,'jest nową przywódczynią','jest nowym przywódcą')] [ROOT.GetCountry.GetAdjective|l] kraju."
+ kritarchy_events.1.a: "Niech [successor_character.GetHerHis] rządy będą rządami mądrości."

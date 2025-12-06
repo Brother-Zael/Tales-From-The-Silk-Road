@@ -1,0 +1,26 @@
+pdxmesh = {
+	name = "location30_mesh"
+	file = "location30.mesh"
+
+	animation = { id = "idle_animation" type = "location30_idle.anim" }
+
+	meshsettings = {
+		name = "locationShape30"
+		index = 0
+		texture_diffuse = "illustration_a_sky_.dds"
+		shader = "standard_added_alphas"
+		shader_file = "gfx/FX/pdxmesh_without_terrain.shader"
+		subpass = "Illustration_2"
+	}
+}
+
+entity = {
+	name = "location30_entity"
+	pdxmesh = "location30_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle_animation"
+	}
+}

@@ -1,0 +1,17 @@
+﻿00 =
+{
+	meshType = "paper_map_table_top_mesh"
+	position = 	{8192 20 8192}
+	rotation =  {0 0 0}
+	scale  = 	{20 20 20}
+	schematic_name = "paper_map_entity"
+}
+
+01 =
+{
+	meshType = "paper_map_table_bottom_mesh"
+	position = 	{8192 20 0}
+	rotation =  {0 0 0}
+	scale  = 	{20 20 20}
+	schematic_name = "paper_map_entity"
+} 

@@ -1,0 +1,4 @@
+﻿l_braz_por:
+ flavor_sav.1.title: "O Palácio de Venaria"
+ flavor_sav.1.desc: "Erguendo-se como uma prova de grandeza e significância histórica, essa residência real opulenta em [ShowLocationNameWithNoTooltip('turin')] é cercada por grandes jardins e exibe elementos elaborados do estilo barroco e da [ShowInstitutionName('renaissance')]. Os cortesãos do palácio têm acomodações adornadas e luxuosas e cada uma conta uma história do passado majestoso, prometendo contos gloriosos para o futuro.\n\nOs jardins dispersos, que contam com fontes e esculturas impressionantes, proporcionam um recanto sereno. O Palácio de Venaria não é apenas um tesouro cultural, mas também um lugar de vários eventos e exibições que convida dignitários estrangeiros a se envolverem nesse rico patrimônio. Sob a nossa supervisão atenta e culta, o palácio é um exemplo esplêndido do legado arquitetônico e cultural da [ROOT.GetCountry.GetName]."
+ flavor_sav.1.a: "Um símbolo do nosso poder."

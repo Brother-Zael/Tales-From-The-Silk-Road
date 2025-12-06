@@ -1,0 +1,131 @@
+﻿### ASHANTI  ###
+#AGE_1_TRADITIONS
+	#PEASANT
+african_gfx:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_belts_mesh" add_tags = "UnitArmor_naked" add_tags = "UnitDetail_leather" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chaplet_mesh" add_tags = "UnitArmor_naked" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_clothespin_mesh" add_tags = "UnitArmor_naked" add_tags = "UnitDetail_cloth" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_long_mesh" } }
+}
+	#MEDIUM
+african_gfx:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_cane_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_leather_rope_mesh" add_tags = "UnitArmor_leather" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_crocodile_skin_mesh" add_tags = "UnitArmor_leather" } }
+}
+	#HEAVY
+african_gfx:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunik_stripes_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunik_stripes_short_mesh" add_tags = "short" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_fur_cape_mesh" add_tags = "short" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_collar_fangs_mesh" add_tags = "short" add_tags = "UnitDetail_cloth" } }
+}
+
+#AGE_2_RENAISSANCE
+	#PEASANT
+#african_gfx:age_2_renaissance:torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_belt_rombs_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_bag_belt_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_waistband_mesh" } }
+#}
+	#MEDIUM
+#african_gfx:age_2_renaissance:soldier_torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_padded_gambeson_tunic_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chainmail_surcoat_bag_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_metal_lamellar_mesh" } }
+#}
+	#HEAVY
+#african_gfx:age_2_renaissance:heavy_torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_woolen_chainmail_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_skirt_silk_armor_metal_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_velvet_jacket_mesh" } }
+#}
+
+#AGE_3_DISCOVERY
+	#PEASANT
+#african_gfx:age_3_discovery:torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_bag_rope_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_light_wool_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_woolen_mesh" } }
+#}
+	#MEDIUM
+african_gfx:age_3_discovery:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cloth_linen_shell_mesh" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_velvet_coral_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_fabric_mesh" add_tags = "crotch_covered" } }
+}
+	#HEAVY
+african_gfx:age_3_discovery:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_quilted_cloth_squares_mesh" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_quilted_cloth_mesh" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_fringe_mesh" add_tags = "crotch_covered" } }
+}
+
+# AGE_4_REFORMATION
+	#PEASANT
+#african_gfx:age_4_reformation:torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_belt_bag_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_vest_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_bag_mesh" } }
+#}
+
+	#MEDIUM
+#african_gfx:age_4_reformation:soldier_torsos_clothes = {
+
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_short_woolen_coat_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_wool_fabric_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_trenchcoat_shirt_pounh_mesh" } }
+#}
+
+	#HEAVY
+#african_gfx:age_4_reformation:heavy_torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_silk_chainmail_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_light_wool_coat_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armour_plates_skirt_mesh" } }
+#}
+
+# AGE_5_ABSOLUTISM
+	#PEASANT
+#african_gfx:age_5_absolutism:torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_shirt_scarf_belt_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cloak_shirt_coat_sleeveles_knife_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cotton_shirt_mesh" } }
+#}
+
+	#MEDIUM
+african_gfx:age_5_absolutism:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_knife_flask_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_stone_leather_mesh" add_tags = "UnitArmor_leather" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cheetah_bag_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+	#HEAVY
+#african_gfx:age_5_absolutism:heavy_torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_linen_shirt_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coat_bullet_pouch_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_woolen_trenchcoat_mesh" } }
+#}
+
+
+# AGE_6_REVOLUTIONS
+	#PEASANT
+african_gfx:age_6_revolutions:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cotton_cape_mesh" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_decor_mesh" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_coton_belt_mesh" } }
+}
+
+
+	#MEDIUM
+african_gfx:age_6_revolutions:soldier_torsos_clothes = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_uniform_tirailleur_mesh" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_epaulettes_mesh" add_tags = "crotch_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jellaba_dress_mesh" add_tags = "crotch_covered" } }
+}
+
+	#HEAVY
+#african_gfx:age_6_revolutions:heavy_torsos_clothes = {
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_linen_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_woolen_fur_coat_mesh" } }
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_wollen_thread_mesh" } }
+#}

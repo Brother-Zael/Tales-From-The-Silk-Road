@@ -1,0 +1,5 @@
+﻿l_turkish:
+ exploration_success.1.title: "Seçkin Deniz Subay Adayı"
+ exploration_success.1.desc: "[target.GetName] başarılı bir şekilde sefer ekibine geri döndükten sonra [actor.GetName], keşif seferine üstün bir başarıyla hizmet eden genç bir subaya övgüler yağdırdı."
+ exploration_success.1.a: "Kendi keşif seferlerini yönetme yetkisi ver."
+ exploration_success.1.b: "Yetenekli subaylara ihtiyacımız var."

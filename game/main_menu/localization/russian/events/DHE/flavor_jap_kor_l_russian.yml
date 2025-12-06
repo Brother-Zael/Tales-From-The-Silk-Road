@@ -1,0 +1,9 @@
+﻿l_russian:
+ flavor_jap_kor.1.title: "Дерзкие стремления"
+ flavor_jap_kor.1.desc: "Нам наконец-то удалось объединить #TOOLTIP:REGION,japan_region,X #L Японию#!#! под знаменем #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Однако теперь у наших [ShowGovernmentReformName('daimyo')|l] не осталось врагов, а потому они могут начать сеять хаос внутри страны, либо и вовсе объединиться против нашего правления. Этого нельзя допустить — нужно найти внешнего врага, и на эту роль отлично подойдут #L [target_country2.GetAdjective|l]ие#! правители #TOOLTIP:SUB_CONTINENT,china,X #L Китая#!#!. Но прежде чем бросить им вызов, нам придётся завоевать #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#!."
+ flavor_jap_kor.1.a: "Объявляем войну!"
+ flavor_jap_kor.1.b: "Нужно подготовиться к конфликту."
+ flavor_jap_kor.1.c: "Не стоит нам сражаться с соседями."
+ flavor_jap_kor.2.title: "Война!"
+ flavor_jap_kor.2.desc: "Объединение #TOOLTIP:REGION,japan_region,X #L Японии#!#! стало для нас тревожным событием. Как оказалось, мы переживали не зря: подлые #L [from_country.GetAdjective|l]ие#! правители объявили нам войну! Они непременно попытаются высадить свою армию в #TOOLTIP:REGION,korea_region,X #L Корее#!#!, поэтому надо срочно подготовить войска и флот для отражения их атаки. Хотя причины этой агрессии нам доподлинно неизвестны, скорее всего, наши земли нужны врагам в качестве плацдарма для нападения на #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Срединное Государство#!#!."
+ flavor_jap_kor.2.a: "Мы им не уступим!"

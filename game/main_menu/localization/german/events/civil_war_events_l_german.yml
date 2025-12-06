@@ -1,0 +1,6 @@
+﻿l_german:
+ civil_war.1.title: "Bürgerkrieg verloren"
+ civil_war.1.desc: "Der [loser.GetAdjective|l]e Bürgerkrieg ist vorüber. Wir haben verloren. Zu unserem Glück ist das nicht das Ende, sondern vielleicht sogar eine günstige Gelegenheit."
+ civil_war.1.a: "Aus der Asche entsteht neues Leben!"
+ civil_war.1.b: "Es ist Zeit, die Zeche zu zahlen."
+ civil_war_game_over: "Damit endet unser Spiel! \n\n@trigger_no! #R DAS WAR’S!#! @trigger_no!"

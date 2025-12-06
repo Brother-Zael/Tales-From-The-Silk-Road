@@ -1,0 +1,12 @@
+﻿l_french:
+ border_friction.1.title: "Frictions aux frontières"
+ border_friction.1.desc: "Tout le monde n'est pas satisfait de notre alliance avec le [border_claim_country.GetLongName]. Une faction influente de notre [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] pousse pour qu'elle soit rompue, arguant notamment du fait que le [border_claim_country.GetNameWithNoTooltip] détient la province de [border_claim_province.GetName], qu'il considère comme une de ses possessions légitimes. L'influence de ces gentilshommes est d'ailleurs telle qu'ils sont parvenus à susciter l'indignation dans tout le pays."
+ border_friction.1.a: "Peut-être devrions-nous revenir sur ce choix politique…"
+ border_friction_from_event: "Irrités par les revendications"
+ border_friction.1.b: "Présentons simplement cela sous un jour favorable !"
+ border_friction.1.c: "Renonçons à nos revendications."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "« Le gouvernement ne fait rien pour la reprendre, alors même que la province de [border_claim_province.GetName], qui nous appartient de plein droit, est sous le contrôle d'étrangers ! À quoi nous sert-il donc ? » proclame la gazette en appelant à la guerre avec [border_claim_country.GetLongName].\n\nUne vague de mécontentement balaye le pays, suscitée par l'incapacité du pouvoir à recouvrer cette province que nous revendiquons."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Révoquons nos revendications."

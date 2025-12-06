@@ -1,0 +1,8 @@
+﻿l_turkish:
+ flavor_orm_oma.1.title: "Umman Nabhani Hükümranlığı"
+ flavor_orm_oma.1.desc: "Atalarımızın hükmümüzü genişlettiği Umman Kıyı Şeridi asi ve fakir durumda. Bu bölgenin üstündeki [Concept('control', 'Kontrolümüz')|e] çok az, bu da bölgeyi sorun ve isyanların kaynağı hâline getiriyor.\n\nBu karmaşık duruma bir de [ShowDynastyName('nabhani_dynasty')] Hanedanı'nın duyduğu ilgi eklenerek hâlihazırda zayıf olan sınırdaki gerginliği daha da artırdı. Neyse ki diplomatlarımız olası bir sınır çatışmasını önlemek ve uzun vadede mali durumumuzu kurtarmak için bir antlaşma ayarlayabileceklerinden emin."
+ flavor_orm_oma.1.a: "Nabhani Hanedanı'na devredilsin"
+ flavor_orm_oma.1.b: "Bu topraklar bizim!"
+ flavor_orm_oma.2.title: "$flavor_orm_oma.1.title$"
+ flavor_orm_oma.2.desc: "[GetCountry('ORM').GetLongName] ülkesinden gelen diplomatlar, sarayımıza bir teklif sundu. Halklarımız arasında herhangi bir sınır çatışmasını önlemek için ellerindeki bütün [ShowCultureName('omani_culture')] topraklarının kontrolünden vazgeçmeyi teklif ettiler. Karşılığındaysa yalnızca uluslarımızın dost kalmasıni ve barış içinde yaşamın sürdürülmesini istiyorlar."
+ flavor_orm_oma.2.a: "Bunu iyi niyetimizle kabul edeceğiz."

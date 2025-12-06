@@ -1,0 +1,13 @@
+﻿l_japanese:
+ struggle_for_royal_power.1.title: "王権のための闘争"
+ struggle_for_royal_power.1.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]とセイムとの緊張は限界点に達している。シュラフタたちがあらゆる場面で君主に不利な行動をとろうとするため、[ROOT.GetCountry.GetGovernment.GetRulerTitle]は、どれほど些細な行為であっても、この貴族たちと協力しなければならないことに耐えかねている。[ROOT.GetCountry.GetGovernment.GetRulerTitle]は、ついに[ROOT.GetCountry.GetName]のセイムの権力に終止符を打つ時が来たと考えている。"
+ struggle_for_royal_power.1.a: "シュラフタとの戦争だ。"
+ struggle_for_royal_power.100.title: "王権のための闘争の終わり"
+ struggle_for_royal_power.100.desc: "政治的、軍事的対立を含む長い闘争のすえ、[ROOT.GetCountry.GetName]の危機は終結した。 [ROOT.GetCountry.GetName]の真の権力が誰のもとにあるのか、もはや疑う余地はない。"
+ struggle_for_royal_power.100.a: "最高権力者は[ROOT.GetCountry.GetGovernment.GetRulerTitle]だ！"
+ struggle_for_royal_power.100.b: "最高権力者はセイムだ！"
+ struggle_for_royal_power.100.c: "この内戦は[ROOT.GetCountry.GetName]の終焉となるだろう。"
+ struggle_for_royal_power.10.title: "コンフェデラツィア"
+ struggle_for_royal_power.10.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName]がセイムから権力を奪うことを決定すると同時に、セイムも[ROOT.GetCountry.GetGovernment.GetRuler.GetName]に対して独自の要求をおこなった。ミコワイ・ゼブジドフスキ、ヤン・シチェンスニィ・ヘルブルト、スタニスワフ・スタドニツキ、アレクサンデル・ユゼフ・リソフスキ、そしてヤヌシュ・ラジヴィウがステンジツァとルブリンでロコシュ（半合法的な反乱）を引き起こした。ロコシュに集った貴族たちは、ヘンリク条項に違反したことを理由に[ROOT.GetCountry.GetGovernment.GetRuler.GetName]の退位、および[ROOT.GetCountry.GetGovernment.GetRulerTitle]ではなくセイムが国家役人の任命をおこなう権利を求める、67箇条の要求を連ねたコンフェデラツィアを形成した。"
+ struggle_for_royal_power.10.a: "コンフェデラツィアと交渉を試みよう。"
+ struggle_for_royal_power.10.b: "彼らの要求を拒否せよ。"

@@ -1,0 +1,10 @@
+﻿l_french:
+ generic_mercenary_name: "La compagnie de [AREA.GetName]"
+ burgher_cogs_name: "Les cogues de [AREA.GetName]"
+ rogue_free_company_1: "Routiers sans scrupules"
+ rogue_free_company_2: "Routiers sans scrupules"
+ french_levy_retinue: "Régiment de conscrits français"
+ french_elite_retinue: "Régiment d'infanterie française"
+ flo_white_company: "Compagnie blanche"
+ pol_lisowczycy: "Lisovtchiki"
+ mor_ottoman_mercenaries: "Corps ottoman"

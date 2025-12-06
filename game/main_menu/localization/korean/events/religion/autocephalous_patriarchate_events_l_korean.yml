@@ -1,0 +1,11 @@
+﻿l_korean:
+ ap_falls_desc_key: "격렬한 공성전이 벌어지고 주둔군도 용맹하게 방어에 나섰지만, 결국 [target_location.GetName](은)는 우리 막강한 지상군에 의해 함락되었습니다. 이 [target_location.GetRank.GetNameWithNoTooltip](은)는 한때 [ShowReligionAdjective('orthodox')] 신앙의 고위 성직자를 맞이하던 곳이므로, 이곳의 성벽 안에는 강력한 종교적 권위가 서려 있습니다. 이제는 우리 신앙과 같은 뿌리를 지닌 이 종교 기구를 과연 폐지할 것인지, 아니면 우리의 보호 아래 받아들일 것인지를 결정하는 문제가 남았습니다."
+ autocephalous_patriarchates.1.title: "독립 총대주교의 좌가 함락되다!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "독립 총대교구를 해체하라."
+ autocephalous_patriarchates.1.b: "독립 총대교구를 유지하라."
+ autocephalous_patriarchates.2.title: "독립 총대주교의 좌가 함락되다!"
+ autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.2.a: "독립 총대교구를 해체하라."
+ autocephalous_patriarchates.2.b: "유지하라."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "우리에 대한 [target_ap.GetName] 측 모든 구성국의 우호도가 [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] 감소합니다"

@@ -1,0 +1,201 @@
+﻿default_wagon = {
+	#the schematic that would construct this graphic
+	schematic_name = "default_wagon_schematic"
+	
+	#tags that would be necesary for this unit (advancement, graphical culture, and goods), also use navy/not(navy) to indicate if they would be used for land or sea
+	#special tags depending on the cart type: trade, colonization, exploration
+	required_tags = "not(navy)"
+	
+	#only the wagons with more priority that fulfills the required_tags would be selected, in case of a tie, one will be selected at random using their weights
+	priority = -1.0
+	weight = 1
+	
+	#use node for using a good attachment with this wagon
+	node = "cargo_lctr"
+	
+	#arbitrary tags can be added to filter attachments
+	#add_tags = "pretty"
+	
+	#tell where the entity is looking up to if it is not looking forward at z (coordinates x, z)
+	forward_direction = {-1 0}
+}
+
+colonial_wagon = {
+	#the schematic that would construct this graphic
+	schematic_name = "colonization_carriage_schematic"
+	
+	#tags that would be necesary for this unit (advancement, graphical culture, and goods), also use navy/not(navy) to indicate if they would be used for land or sea
+	#special tags depending on the cart type: trade, colonization, exploration
+	required_tags = "not(navy),colonization"
+	
+	#only the wagons with more priority that fulfills the required_tags would be selected, in case of a tie, one will be selected at random using their weights
+	priority = 1.0
+	weight = 1
+	
+	#use node for using a good attachment with this wagon
+	node = "cargo_lctr"
+	
+	#arbitrary tags can be added to filter attachments
+	#add_tags = "pretty"
+	
+	#tell where the entity is looking up to if it is not looking forward at z (coordinates x, z)
+	forward_direction = {0 -1}
+}
+
+exploration_wagon = {
+	schematic_name = "colonization_carriage_schematic"
+	required_tags = "not(navy),exploration"
+	priority = 1.0
+	weight = 1
+	node = "cargo_lctr"
+	
+	#arbitrary tags can be added to filter attachments
+	#add_tags = "pretty"
+	
+	#tell where the entity is looking up to if it is not looking forward at z (coordinates x, z)
+	forward_direction = {0 -1}
+}
+
+default_ship = {
+	schematic_name = "tradeship_galley_0_irquois_canoe_schematic"
+	required_tags="navy"
+	priority = -1.0
+}
+
+n_traditional_galley = {
+	schematic_name = "tradeship_galley_01_european_schematic"
+	required_tags= "navy,unlock_traditional_galley_advance,trade"
+	priority = 0
+
+}
+
+n_fishing_boat = {
+	schematic_name = "tradeship_transport_01_european_hulk_schematic"
+	required_tags= "navy,trade"
+	priority = 0
+
+}
+
+n_cog = {
+	schematic_name = "tradeship_transport_02_european_cog_schematic"
+	required_tags= "navy,unlock_cog_advance,trade"
+	priority = 1
+
+}
+
+n_hulk = {
+	schematic_name = "tradeship_transport_01_european_hulk_schematic"
+	required_tags= "navy,unlock_hulk_advance,trade"
+	priority = 2
+
+}
+
+n_flute = {
+	schematic_name = "tradeship_transport_03_european_flute_schematic"
+	required_tags= "navy,unlock_flute_advance,trade"
+	priority = 3
+
+}
+
+n_brig = {
+	schematic_name = "tradeship_transport_04_european_brig_schematic"
+	required_tags= "navy,unlock_brig_advance,trade"
+	priority = 4
+
+}
+
+n_merchantman = {
+	schematic_name = "tradeship_transport_05_european_merchantman_brig_schematic"
+	required_tags= "navy,unlock_merchantman_advance,trade"
+	priority = 5
+
+}
+
+n_eastindiaman = {
+	schematic_name = "tradeship_transport_06_european_eastindianman_brig_schematic"
+	required_tags= "navy,unlock_eastindiaman_advance,trade"
+	priority = 6
+
+}
+
+n_traditional_galley_colonization = {
+	schematic_name = "tradeship_galley_01_european_schematic"
+	required_tags= "navy,unlock_traditional_galley_advance,colonization"
+	priority = 0
+
+}
+
+n_hulk_colonization = {
+	schematic_name = "tradeship_transport_01_european_hulk_schematic"
+	required_tags= "navy,unlock_hulk_advance,colonization"
+	priority = 1
+
+}
+
+n_cog_colonization = {
+	schematic_name = "tradeship_transport_02_european_cog_schematic"
+	required_tags= "navy,unlock_cog_advance,colonization"
+	priority = 2
+
+}
+
+n_flute_colonization = {
+	schematic_name = "tradeship_transport_03_european_flute_schematic"
+	required_tags= "navy,unlock_flute_advance,colonization"
+	priority = 3
+
+}
+
+n_brig_colonization = {
+	schematic_name = "tradeship_transport_04_european_brig_schematic"
+	required_tags= "navy,unlock_brig_advance,colonization"
+	priority = 4
+
+}
+
+n_merchantman_colonization = {
+	schematic_name = "tradeship_transport_05_european_merchantman_brig_schematic"
+	required_tags= "navy,unlock_merchantman_advance,colonization"
+	priority = 5
+
+}
+
+n_eastindiaman_colonization = {
+	schematic_name = "tradeship_transport_06_european_eastindianman_brig_schematic"
+	required_tags= "navy,unlock_eastindiaman_advance,colonization"
+	priority = 6
+
+}
+
+#example of a culture based wagon
+#french_test_wagon=
+#{
+#	schematic_name = "resource_asia_elephant_a_entity"
+#	required_tags = "french_gfx,not(navy)"
+#	
+#	weight = 1
+#	priority = 0.1
+#	forward_direction = {-1 0}
+#}
+
+
+
+
+#Example of a ship changing on advancement research
+#reinacanseship = 
+#{
+#	schematic_name = "celtic_gfx_trireme"
+#	required_tags= "navy,renaissance_development"
+#	priority = 1.0
+#}
+
+
+#Example of a wagon using an attachment
+#horse_wagon =
+#{
+#	schematic_name = "wagon_entity_no_horse"
+#	node = "horse_lctr" 
+#	forward_direction = {-1 0}
+#	required_tags = "not(navy),horses"
+#	priority = 1.0
+#}

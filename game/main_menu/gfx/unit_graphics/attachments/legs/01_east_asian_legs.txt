@@ -1,0 +1,120 @@
+﻿### CHINESE
+
+	#PEASANT
+east_asian_gfx:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_hemp_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_ramie_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_underpants_china_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_socks_shoes_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+}
+	#MEDIUM
+east_asian_gfx:soldier_legs = {
+1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_boots_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+}
+	#HEAVY
+east_asian_gfx:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_lamellar_mesh" add_tags = "UnitLegs_heavy" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_silk_boots_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_silk_iron_lamellar_mesh" add_tags = "UnitLegs_heavy" } } #CHINESE
+}
+
+#  AGE_2_RENAISSANCE
+
+east_asian_gfx:age_2_renaissance:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_short_boots_leather_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_trousers_short_sandals_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_fabric_sandals_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+}
+
+east_asian_gfx:age_2_renaissance:soldier_legs = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_belt_mesh" add_tags = "UnitLegs_medium" } } #CHINESE } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_rope_windings_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_sandals_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+}
+
+east_asian_gfx:age_2_renaissance:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_lines_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_stripes_mesh" add_tags = "UnitLegs_soft" } } #CHINESE	
+}
+
+#AGE_3_DISCOVERY
+	
+east_asian_gfx:age_3_discovery:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_shoes_bamboo_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_sandals_bamboo_mesh" add_tags = "UnitLegs_soft" } }
+}
+
+east_asian_gfx:age_3_discovery:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_shoes_suede_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_socks_silk_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_loose_wrappings_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+}
+
+east_asian_gfx:age_3_discovery:noble_legs = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_sliken_gaiters_mesh"  add_tags = "UnitLegs_medium"} } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_armor_metal_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_hanfu_mesh"  add_tags = "UnitLegs_medium"} } #CHINESE
+}
+
+#AGE_4_REFORMATION
+	
+east_asian_gfx:age_4_reformation:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_belts_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_fabric_mesh" add_tags = "UnitLegs_soft" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_fabric_mesh" add_tags = "UnitLegs_soft" } }
+}
+
+east_asian_gfx:age_4_reformation:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_shorts_stripes_fabric_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_han_coton_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_chinese_coton_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+}
+
+east_asian_gfx:age_4_reformation:noble_legs = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_worn_out_mesh"  add_tags = "UnitLegs_medium"} } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_belts_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_woolen_oriental_mesh"  add_tags = "UnitLegs_medium"} } #CHINESE
+}
+
+
+
+#AGE_5_ABSOLUTISM
+
+east_asian_gfx:age_5_absolutism:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_gaiters_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_peasant_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_belt_gaiters_mesh" add_tags = "UnitLegs_medium" } }
+}
+
+east_asian_gfx:age_5_absolutism:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_sliken_ma_xue_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_han_soldiers_leather_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_ma_xue_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+}
+
+east_asian_gfx:age_5_absolutism:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_skirt_cotton_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_hanfu_silk_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_han_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+}
+
+# TODO AGE_6_REVOLUTIONS
+east_asian_gfx:age_6_revolutions:peasant_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_satin_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wide_pants_socks_mesh" add_tags = "UnitLegs_medium" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_han_cotton_mesh" add_tags = "UnitLegs_medium" } }
+}
+
+east_asian_gfx:age_6_revolutions:soldier_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_woolen_boots_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_woolen_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_wide_chinese_mesh" add_tags = "UnitLegs_medium" } } #CHINESE
+}
+
+east_asian_gfx:age_6_revolutions:noble_legs = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_blue_line_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_pants_boots_worn_out_hanfu_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_legs_wide_pants_satin_mesh" add_tags = "UnitLegs_soft" } } #CHINESE
+}

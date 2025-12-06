@@ -1,0 +1,845 @@
+﻿l_russian:
+ international_organization_hre_GEN_wntt: "Священной Римской Империи" #True
+ international_organization_catholic_church_GEN_wntt: "Католической церкви" #True
+ international_organization_autocephalous_patriarchate_GEN_wntt: "Автокефального патриархата" #True
+ international_organization_coalition_GEN_wntt: "Коалиции" #True
+ international_organization_colonial_federation_GEN_wntt: "Колониальной федерации" #True
+ international_organization_crusade_GEN_wntt: "Крестового похода" #True
+ international_organization_defensive_league_GEN_wntt: "Оборонительной лиги" #True
+ international_organization_foreign_league_france_GEN_wntt: "Французской лиги" #True
+ international_organization_foreign_league_hre_GEN_wntt: "Имперской лиги" #True
+ international_organization_foreign_league_iberia_GEN_wntt: "Иберийской лиги" #True
+ international_organization_guelphs_io_GEN_wntt: "Гвельфов" #True
+ international_organization_ghibellines_io_GEN_wntt: "Гибеллинов" #True
+ international_organization_high_kingship_GEN_wntt: "Верховного королевства" #True
+ international_organization_hindu_branch_GEN_wntt: "Ответвления индуизма" #True
+ international_organization_ilkhanate_GEN_wntt: "Государства Хулагуидов" #True
+ international_organization_independence_movement_GEN_wntt: "Движения за независимость" #True
+ international_organization_italian_league_1_GEN_wntt: "Первой итальянской лиги" #True
+ international_organization_italian_league_2_GEN_wntt: "Второй итальянской лиги" #True
+ international_organization_italian_league_3_GEN_wntt: "Третьей итальянской лиги" #True
+ international_organization_japanese_shogunate_GEN_wntt: "Японского сёгуната" #True
+ international_organization_jihad_GEN_wntt: "Джихада" #True
+ international_organization_jurchen_confederation_GEN_wntt: "Конфедерации чжурчжэней" #True
+ international_organization_lordship_of_ireland_GEN_wntt: "Манора Ирландии" #True
+ international_organization_marriage_union_GEN_wntt: "Брачной унии" #True
+ international_organization_middle_kingdom_GEN_wntt: "Срединного государства" #True
+ international_organization_red_turban_rebels_GEN_wntt: "«Красных повязок»" #True
+ international_organization_protestant_union_GEN_wntt: "Евангелической унии" #True
+ international_organization_catholic_league_GEN_wntt: "Католической лиги" #True
+ international_organization_sect_GEN_wntt: "Направления" #True
+ international_organization_shinto_GEN_wntt: "Синтоизма" #True
+ international_organization_sikhism_GEN_wntt: "Сикхизма" #True
+ international_organization_swiss_confederation_GEN_wntt: "Швейцарской Конфедерации" #True
+ international_organization_tatar_yoke_GEN_wntt: "Татарского ига" #True
+ international_organization_tribal_confederation_GEN_wntt: "Племенной конфедерации" #True
+ international_organization_union_GEN_wntt: "Унии" #True
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_GEN_wntt: "Католического патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_GEN_wntt: "Вселенского патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_GEN_wntt: "Автокефального патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_SECT_CONFUCIANISM_NAME_GEN_wntt: "Конфуцианства" #True
+ international_organization_SECT_DAOISM_NAME_GEN_wntt: "Даосизма" #True
+ international_organization_SECT_JOUDO_SHINSHUU_GEN_wntt: "Дзёдо-синсю" #True
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_GEN_wntt: "Буддизма Чистой земли" #True
+ international_organization_SECT_TENDAI_NAME_GEN_wntt: "Тэндая" #True
+ international_organization_SECT_NICHIREN_NAME_GEN_wntt: "Нитирэна" #True
+ international_organization_SECT_TIANTAI_NAME_GEN_wntt: "Тяньтая" #True
+ international_organization_SECT_DHARMA_SCHOOL_NAME_GEN_wntt: "Школы дхармов" #True
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_GEN_wntt: "Школы цветочной гирляндов" #True
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_GEN_wntt: "Школы медитации" #True
+ international_organization_SECT_MANTRA_SCHOOL_NAME_GEN_wntt: "Школы мантров" #True
+ international_organization_SECT_SHUGENDO_NAME_GEN_wntt: "Сюгэндо" #True
+ international_organization_SECT_AZHALIISM_NAME_GEN_wntt: "Ачжализма" #True
+ international_organization_SECT_MUSOK_NAME_GEN_wntt: "Мусока" #True
+ international_organization_SECT_NYIGMA_NAME_GEN_wntt: "Школы Ньингма" #True
+ international_organization_SECT_KADAM_NAME_GEN_wntt: "Школы Кадам" #True
+ international_organization_SECT_KAGYU_NAME_GEN_wntt: "Школы Кагью" #True
+ international_organization_SECT_SAKYA_NAME_GEN_wntt: "Школы Сакья" #True
+ international_organization_SECT_JONANG_NAME_GEN_wntt: "Школы Джонанг" #True
+ international_organization_SECT_MULASARVASTIVADA_NAME_GEN_wntt: "Муласарвастивады" #True
+ international_organization_SECT_MAHAVIHARA_NAME_GEN_wntt: "Махавихары" #True
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_GEN_wntt: "Бирманского буддизма" #True
+ international_organization_SECT_LANKAVONG_NAME_GEN_wntt: "Ланкавонга" #True
+ international_organization_SECT_KHMER_BUDDHISM_NAME_GEN_wntt: "Кхмерского буддизма" #True
+ international_organization_vaishnavism_GEN_wntt: "Вишнуизма" #True
+ international_organization_shaivism_GEN_wntt: "Шиваизма" #True
+ international_organization_shaktism_GEN_wntt: "Шактизма" #True
+ international_organization_smartism_GEN_wntt: "Смартизма" #True
+ international_organization_haudenosaunee_tribal_confederation_GEN_wntt: "Конфедерации хауденосауни" #True
+ international_organization_colonial_federation_usa_GEN_wntt: "Северо-Американских Соединённых Штатов" #True
+ international_organization_jianzhou_jurchen_confederation_GEN_wntt: "Конфедерации Цзяньчжоу" #True
+ international_organization_hulun_jurchen_confederation_GEN_wntt: "Конфедерации Хулунь" #True
+ international_organization_changbaishan_jurchen_confederation_GEN_wntt: "Конфедерации Чанбайшань" #True
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_GEN_wntt: "Священной лиги" #True
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_GEN_wntt: "Литовской Речи Посполитой" #True
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_GEN_wntt: "Речи Посполитой" #True
+ international_organization_KALMAR_UNION_NAME_GEN_wntt: "Кальмарской унии" #True
+ international_organization_UNION_OF_THE_CROWNS_NAME_GEN_wntt: "Унии корон" #True
+ international_organization_IBERIAN_UNION_NAME_GEN_wntt: "Иберийской унии" #True
+ international_organization_HABSBURG_UNION_NAME_GEN_wntt: "Габсбургской унии" #True
+ international_organization_PERSONALIZED_UNION_NAME_GEN_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_DOUBLE_UNION_NAME_GEN_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_MARRIAGE_UNION_COUNTRIES_GEN_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии"
+ international_organization_MARRIAGE_UNION_DYNASTIES_GEN_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+ 
+ international_organization_hre_DAT_wntt: "Священной Римской Империи" #True
+ international_organization_catholic_church_DAT_wntt: "Католической церкви" #True
+ international_organization_autocephalous_patriarchate_DAT_wntt: "Автокефальному патриархату" #True
+ international_organization_coalition_DAT_wntt: "Коалиции" #True
+ international_organization_colonial_federation_DAT_wntt: "Колониальной федерации" #True
+ international_organization_crusade_DAT_wntt: "Крестовому походу" #True
+ international_organization_defensive_league_DAT_wntt: "Оборонительной лиге" #True
+ international_organization_foreign_league_france_DAT_wntt: "Французской лиге" #True
+ international_organization_foreign_league_hre_DAT_wntt: "Имперской лиге" #True
+ international_organization_foreign_league_iberia_DAT_wntt: "Иберийской лиге" #True
+ international_organization_guelphs_io_DAT_wntt: "Гвельфам" #True
+ international_organization_ghibellines_io_DAT_wntt: "Гибеллинам" #True
+ international_organization_high_kingship_DAT_wntt: "Верховному королевству" #True
+ international_organization_hindu_branch_DAT_wntt: "Ответвлению индуизма" #True
+ international_organization_ilkhanate_DAT_wntt: "Государству Хулагуидов" #True
+ international_organization_independence_movement_DAT_wntt: "Движению за независимость" #True
+ international_organization_italian_league_1_DAT_wntt: "Первой итальянской лиге" #True
+ international_organization_italian_league_2_DAT_wntt: "Второй итальянской лиге" #True
+ international_organization_italian_league_3_DAT_wntt: "Третьей итальянской лиге" #True
+ international_organization_japanese_shogunate_DAT_wntt: "Японскому сёгунату" #True
+ international_organization_jihad_DAT_wntt: "Джихаду" #True
+ international_organization_jurchen_confederation_DAT_wntt: "Конфедерации чжурчжэней" #True
+ international_organization_lordship_of_ireland_DAT_wntt: "Манору Ирландии" #True
+ international_organization_marriage_union_DAT_wntt: "Брачной унии" #True
+ international_organization_middle_kingdom_DAT_wntt: "Срединному государству" #True
+ international_organization_red_turban_rebels_DAT_wntt: "«Красным повязкам»" #True
+ international_organization_protestant_union_DAT_wntt: "Евангелической унии" #True
+ international_organization_catholic_league_DAT_wntt: "Католической лиге" #True
+ international_organization_sect_DAT_wntt: "Направлению" #True
+ international_organization_shinto_DAT_wntt: "Синтоизму" #True
+ international_organization_sikhism_DAT_wntt: "Сикхизму" #True
+ international_organization_swiss_confederation_DAT_wntt: "Швейцарской Конфедерации" #True
+ international_organization_tatar_yoke_DAT_wntt: "Татарскому игу" #True
+ international_organization_tribal_confederation_DAT_wntt: "Племенной конфедерации" #True
+ international_organization_union_DAT_wntt: "Унии" #True
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_DAT_wntt: "Католическому патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_DAT_wntt: "Вселенскому патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_DAT_wntt: "Автокефальному патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_SECT_CONFUCIANISM_NAME_DAT_wntt: "Конфуцианству" #True
+ international_organization_SECT_DAOISM_NAME_DAT_wntt: "Даосизму" #True
+ international_organization_SECT_JOUDO_SHINSHUU_DAT_wntt: "Дзёдо-синсю" #True
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_DAT_wntt: "Буддизму Чистой земли" #True
+ international_organization_SECT_TENDAI_NAME_DAT_wntt: "Тэндаю" #True
+ international_organization_SECT_NICHIREN_NAME_DAT_wntt: "Нитирэну" #True
+ international_organization_SECT_TIANTAI_NAME_DAT_wntt: "Тяньтаю" #True
+ international_organization_SECT_DHARMA_SCHOOL_NAME_DAT_wntt: "Школе дхармы" #True
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_DAT_wntt: "Школе цветочной гирлянды" #True
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_DAT_wntt: "Школе медитации" #True
+ international_organization_SECT_MANTRA_SCHOOL_NAME_DAT_wntt: "Школе мантры" #True
+ international_organization_SECT_SHUDATDO_NAME_DAT_wntt: "Сюгэндо" #True
+ international_organization_SECT_AZHALIISM_NAME_DAT_wntt: "Ачжализму" #True
+ international_organization_SECT_MUSOK_NAME_DAT_wntt: "Мусоку" #True
+ international_organization_SECT_NYIGMA_NAME_DAT_wntt: "Школе Ньингма" #True
+ international_organization_SECT_KADAM_NAME_DAT_wntt: "Школе Кадам" #True
+ international_organization_SECT_KAGYU_NAME_DAT_wntt: "Школе Кагью" #True
+ international_organization_SECT_SAKYA_NAME_DAT_wntt: "Школе Сакья" #True
+ international_organization_SECT_JONANG_NAME_DAT_wntt: "Школе Джонанг" #True
+ international_organization_SECT_MULASARVASTIVADA_NAME_DAT_wntt: "Муласарвастиваде" #True
+ international_organization_SECT_MAHAVIHARA_NAME_DAT_wntt: "Махавихаре" #True
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_DAT_wntt: "Бирманскому буддизму" #True
+ international_organization_SECT_LANKAVONG_NAME_DAT_wntt: "Ланкавонгу" #True
+ international_organization_SECT_KHMER_BUDDHISM_NAME_DAT_wntt: "Кхмерскому буддизму" #True
+ international_organization_vaishnavism_DAT_wntt: "Вишнуизму" #True
+ international_organization_shaivism_DAT_wntt: "Шиваизму" #True
+ international_organization_shaktism_DAT_wntt: "Шактизму" #True
+ international_organization_smartism_DAT_wntt: "Смартизму" #True
+ international_organization_haudenosaunee_tribal_confederation_DAT_wntt: "Конфедерации хауденосауни" #True
+ international_organization_colonial_federation_usa_DAT_wntt: "Северо-Американским Соединённым Штатам" #True
+ international_organization_jianzhou_jurchen_confederation_DAT_wntt: "Конфедерации Цзяньчжоу" #True
+ international_organization_hulun_jurchen_confederation_DAT_wntt: "Конфедерации Хулунь" #True
+ international_organization_changbaishan_jurchen_confederation_DAT_wntt: "Конфедерации Чанбайшань" #True
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_DAT_wntt: "Священной лиге" #True
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_DAT_wntt: "Литовской Речи Посполитой" #True
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_DAT_wntt: "Речи Посполитой" #True
+ international_organization_KALMAR_UNION_NAME_DAT_wntt: "Кальмарской унии" #True
+ international_organization_UNION_OF_THE_CROWNS_NAME_DAT_wntt: "Унии корон" #True
+ international_organization_IBERIAN_UNION_NAME_DAT_wntt: "Иберийской унии" #True
+ international_organization_HABSBURG_UNION_NAME_DAT_wntt: "Габсбургской унии" #True
+ international_organization_PERSONALIZED_UNION_NAME_DAT_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_DOUBLE_UNION_NAME_DAT_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_MARRIAGE_UNION_COUNTRIES_DAT_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии"
+ international_organization_MARRIAGE_UNION_DYNASTIES_DAT_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_DAT_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+
+ international_organization_hre_ACC_wntt: "Священную Римскую Империю" #True
+ international_organization_catholic_church_ACC_wntt: "Католическую церковь" #True
+ international_organization_autocephalous_patriarchate_ACC_wntt: "Автокефальный патриархат" #True
+ international_organization_coalition_ACC_wntt: "Коалицию" #True
+ international_organization_colonial_federation_ACC_wntt: "Колониальную федерацию" #True
+ international_organization_crusade_ACC_wntt: "Крестовый поход" #True
+ international_organization_defensive_league_ACC_wntt: "Оборонительную лигу" #True
+ international_organization_foreign_league_france_ACC_wntt: "Французскую лигу" #True
+ international_organization_foreign_league_hre_ACC_wntt: "Имперскую лигу" #True
+ international_organization_foreign_league_iberia_ACC_wntt: "Иберийскую лигу" #True
+ international_organization_guelphs_io_ACC_wntt: "Гвельфов" #True
+ international_organization_ghibellines_io_ACC_wntt: "Гибеллинов" #True
+ international_organization_high_kingship_ACC_wntt: "Верховное королевство" #True
+ international_organization_hindu_branch_ACC_wntt: "Ответвление индуизма" #True
+ international_organization_ilkhanate_ACC_wntt: "Государство Хулагуидов" #True
+ international_organization_independence_movement_ACC_wntt: "Движение за независимость" #True
+ international_organization_italian_league_1_ACC_wntt: "Первую итальянскую лигу" #True
+ international_organization_italian_league_2_ACC_wntt: "Вторую итальянскую лигу" #True
+ international_organization_italian_league_3_ACC_wntt: "Третью итальянскую лигу" #True
+ international_organization_japanese_shogunate_ACC_wntt: "Японский сёгунат" #True
+ international_organization_jihad_ACC_wntt: "Джихад" #True
+ international_organization_jurchen_confederation_ACC_wntt: "Конфедерацию чжурчжэней" #True
+ international_organization_lordship_of_ireland_ACC_wntt: "Манор Ирландии" #True
+ international_organization_marriage_union_ACC_wntt: "Брачную унию" #True
+ international_organization_middle_kingdom_ACC_wntt: "Срединное государство" #True
+ international_organization_red_turban_rebels_ACC_wntt: "«Красных повязок»" #True
+ international_organization_protestant_union_ACC_wntt: "Евангелическую унию" #True
+ international_organization_catholic_league_ACC_wntt: "Католическую лигу" #True
+ international_organization_sect_ACC_wntt: "Направление" #True
+ international_organization_shinto_ACC_wntt: "Синтоизм" #True
+ international_organization_sikhism_ACC_wntt: "Сикхизм" #True
+ international_organization_swiss_confederation_ACC_wntt: "Швейцарскую Конфедерацию" #True
+ international_organization_tatar_yoke_ACC_wntt: "Татарское иго" #True
+ international_organization_tribal_confederation_ACC_wntt: "Племенную конфедерацию" #True
+ international_organization_union_ACC_wntt: "Унию" #True
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_ACC_wntt: "Католический патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_ACC_wntt: "Вселенский патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_ACC_wntt: "Автокефальный патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_SECT_CONFUCIANISM_NAME_ACC_wntt: "Конфуцианство" #True
+ international_organization_SECT_DAOISM_NAME_ACC_wntt: "Даосизм" #True
+ international_organization_SECT_JOUDO_SHINSHUU_ACC_wntt: "Дзёдо-синсю" #True
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_ACC_wntt: "Буддизм Чистой земли" #True
+ international_organization_SECT_TENDAI_NAME_ACC_wntt: "Тэндай" #True
+ international_organization_SECT_NICHIREN_NAME_ACC_wntt: "Нитирэн" #True
+ international_organization_SECT_TIANTAI_NAME_ACC_wntt: "Тяньтай" #True
+ international_organization_SECT_DHARMA_SCHOOL_NAME_ACC_wntt: "Школу дхармы" #True
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_ACC_wntt: "Школу цветочной гирлянды" #True
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_ACC_wntt: "Школу медитации" #True
+ international_organization_SECT_MANTRA_SCHOOL_NAME_ACC_wntt: "Школу мантры" #True
+ international_organization_SECT_SHUACCDO_NAME_ACC_wntt: "Сюгэндо" #True
+ international_organization_SECT_AZHALIISM_NAME_ACC_wntt: "Ачжализм" #True
+ international_organization_SECT_MUSOK_NAME_ACC_wntt: "Мусок" #True
+ international_organization_SECT_NYIGMA_NAME_ACC_wntt: "Школу Ньингма" #True
+ international_organization_SECT_KADAM_NAME_ACC_wntt: "Школу Кадам" #True
+ international_organization_SECT_KAGYU_NAME_ACC_wntt: "Школу Кагью" #True
+ international_organization_SECT_SAKYA_NAME_ACC_wntt: "Школу Сакья" #True
+ international_organization_SECT_JONANG_NAME_ACC_wntt: "Школу Джонанг" #True
+ international_organization_SECT_MULASARVASTIVADA_NAME_ACC_wntt: "Муласарвастиваду" #True
+ international_organization_SECT_MAHAVIHARA_NAME_ACC_wntt: "Махавихару" #True
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_ACC_wntt: "Бирманский буддизм" #True
+ international_organization_SECT_LANKAVONG_NAME_ACC_wntt: "Ланкавонг" #True
+ international_organization_SECT_KHMER_BUDDHISM_NAME_ACC_wntt: "Кхмерский буддизм" #True
+ international_organization_vaishnavism_ACC_wntt: "Вишнуизм" #True
+ international_organization_shaivism_ACC_wntt: "Шиваизм" #True
+ international_organization_shaktism_ACC_wntt: "Шактизм" #True
+ international_organization_smartism_ACC_wntt: "Смартизм" #True
+ international_organization_haudenosaunee_tribal_confederation_ACC_wntt: "Конфедерацию хауденосауни" #True
+ international_organization_colonial_federation_usa_ACC_wntt: "Северо-Американские Соединённые Штаты" #True
+ international_organization_jianzhou_jurchen_confederation_ACC_wntt: "Конфедерацию Цзяньчжоу" #True
+ international_organization_hulun_jurchen_confederation_ACC_wntt: "Конфедерацию Хулунь" #True
+ international_organization_changbaishan_jurchen_confederation_ACC_wntt: "Конфедерацию Чанбайшань" #True
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_ACC_wntt: "Священную лигу" #True
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_ACC_wntt: "Литовскую Речь Посполитую" #True
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_ACC_wntt: "Речь Посполитую" #True
+ international_organization_KALMAR_UNION_NAME_ACC_wntt: "Кальмарскую унию" #True
+ international_organization_UNION_OF_THE_CROWNS_NAME_ACC_wntt: "Унию корон" #True
+ international_organization_IBERIAN_UNION_NAME_ACC_wntt: "Иберийскую унию" #True
+ international_organization_HABSBURG_UNION_NAME_ACC_wntt: "Габсбургскую унию" #True
+ international_organization_PERSONALIZED_UNION_NAME_ACC_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ую унию"
+ international_organization_DOUBLE_UNION_NAME_ACC_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ую унию"
+ international_organization_MARRIAGE_UNION_COUNTRIES_ACC_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ую брачную унию"
+ international_organization_MARRIAGE_UNION_DYNASTIES_ACC_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_ACC_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию"
+
+ international_organization_hre_INST_wntt: "Священной Римской Империей" #True
+ international_organization_catholic_church_INST_wntt: "Католической церковью" #True
+ international_organization_autocephalous_patriarchate_INST_wntt: "Автокефальным патриархатом" #True
+ international_organization_coalition_INST_wntt: "Коалицией" #True
+ international_organization_colonial_federation_INST_wntt: "Колониальной федерацией" #True
+ international_organization_crusade_INST_wntt: "Крестовым походом" #True
+ international_organization_defensive_league_INST_wntt: "Оборонительной лигой" #True
+ international_organization_foreign_league_france_INST_wntt: "Французской лигой" #True
+ international_organization_foreign_league_hre_INST_wntt: "Имперской лигой" #True
+ international_organization_foreign_league_iberia_INST_wntt: "Иберийской лигой" #True
+ international_organization_guelphs_io_INST_wntt: "Гвельфами" #True
+ international_organization_ghibellines_io_INST_wntt: "Гибеллинами" #True
+ international_organization_high_kingship_INST_wntt: "Верховным королевством" #True
+ international_organization_hindu_branch_INST_wntt: "Ответвлением индуизма" #True
+ international_organization_ilkhanate_INST_wntt: "Государством Хулагуидов" #True
+ international_organization_independence_movement_INST_wntt: "Движением за независимость" #True
+ international_organization_italian_league_1_INST_wntt: "Первой итальянской лигой" #True
+ international_organization_italian_league_2_INST_wntt: "Второй итальянской лигой" #True
+ international_organization_italian_league_3_INST_wntt: "Третьей итальянской лигой" #True
+ international_organization_japanese_shogunate_INST_wntt: "Японским сёгунатом" #True
+ international_organization_jihad_INST_wntt: "Джихадом" #True
+ international_organization_jurchen_confederation_INST_wntt: "Конфедерацией чжурчжэней" #True
+ international_organization_lordship_of_ireland_INST_wntt: "Манором Ирландии" #True
+ international_organization_marriage_union_INST_wntt: "Брачной унией" #True
+ international_organization_middle_kingdom_INST_wntt: "Срединным государством" #True
+ international_organization_red_turban_rebels_INST_wntt: "«Красными повязками»" #True
+ international_organization_protestant_union_INST_wntt: "Евангелической унией" #True
+ international_organization_catholic_league_INST_wntt: "Католической лигой" #True
+ international_organization_sect_INST_wntt: "Направление" #True
+ international_organization_shinto_INST_wntt: "Синтоизм" #True
+ international_organization_sikhism_INST_wntt: "Сикхизм" #True
+ international_organization_swiss_confederation_INST_wntt: "Швейцарской Конфедерацией" #True
+ international_organization_tatar_yoke_INST_wntt: "Татарскым иго" #True
+ international_organization_tribal_confederation_INST_wntt: "Племенной конфедерацией" #True
+ international_organization_union_INST_wntt: "Унией" #True
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_INST_wntt: "Католическим патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_INST_wntt: "Вселенским патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_INST_wntt: "Автокефальным патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_SECT_CONFUCIANISM_NAME_INST_wntt: "Конфуцианством" #True
+ international_organization_SECT_DAOISM_NAME_INST_wntt: "Даосизмом" #True
+ international_organization_SECT_JOUDO_SHINSHUU_INST_wntt: "Дзёдо-синсю" #True
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_INST_wntt: "Буддизмом Чистой земли" #True
+ international_organization_SECT_TENDAI_NAME_INST_wntt: "Тэндаем" #True
+ international_organization_SECT_NICHIREN_NAME_INST_wntt: "Нитирэном" #True
+ international_organization_SECT_TIANTAI_NAME_INST_wntt: "Тяньтаем" #True
+ international_organization_SECT_DHARMA_SCHOOL_NAME_INST_wntt: "Школой дхармы" #True
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_INST_wntt: "Школой цветочной гирлянды" #True
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_INST_wntt: "Школой медитации" #True
+ international_organization_SECT_MANTRA_SCHOOL_NAME_INST_wntt: "Школой мантры" #True
+ international_organization_SECT_SHUINSTDO_NAME_INST_wntt: "Сюгэндо" #True
+ international_organization_SECT_AZHALIISM_NAME_INST_wntt: "Ачжализмом" #True
+ international_organization_SECT_MUSOK_NAME_INST_wntt: "Мусоком" #True
+ international_organization_SECT_NYIGMA_NAME_INST_wntt: "Школой Ньингма" #True
+ international_organization_SECT_KADAM_NAME_INST_wntt: "Школой Кадам" #True
+ international_organization_SECT_KAGYU_NAME_INST_wntt: "Школой Кагью" #True
+ international_organization_SECT_SAKYA_NAME_INST_wntt: "Школой Сакья" #True
+ international_organization_SECT_JONANG_NAME_INST_wntt: "Школой Джонанг" #True
+ international_organization_SECT_MULASARVASTIVADA_NAME_INST_wntt: "Муласарвастивадой" #True
+ international_organization_SECT_MAHAVIHARA_NAME_INST_wntt: "Махавихарой" #True
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_INST_wntt: "Бирманским буддизмом" #True
+ international_organization_SECT_LANKAVONG_NAME_INST_wntt: "Ланкавонгом" #True
+ international_organization_SECT_KHMER_BUDDHISM_NAME_INST_wntt: "Кхмерским буддизмом" #True
+ international_organization_vaishnavism_INST_wntt: "Вишнуизмом" #True
+ international_organization_shaivism_INST_wntt: "Шиваизмом" #True
+ international_organization_shaktism_INST_wntt: "Шактизмом" #True
+ international_organization_smartism_INST_wntt: "Смартизмом" #True
+ international_organization_haudenosaunee_tribal_confederation_INST_wntt: "Конфедерацией хауденосауни" #True
+ international_organization_colonial_federation_usa_INST_wntt: "Северо-Американскими Соединёнными Штатами" #True
+ international_organization_jianzhou_jurchen_confederation_INST_wntt: "Конфедерацией Цзяньчжоу" #True
+ international_organization_hulun_jurchen_confederation_INST_wntt: "Конфедерацией Хулунь" #True
+ international_organization_changbaishan_jurchen_confederation_INST_wntt: "Конфедерацией Чанбайшань" #True
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_INST_wntt: "Священной лигой" #True
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_INST_wntt: "Литовской Речью Посполитой" #True
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_INST_wntt: "Речью Посполитой" #True
+ international_organization_KALMAR_UNION_NAME_INST_wntt: "Кальмарской унией" #True
+ international_organization_UNION_OF_THE_CROWNS_NAME_INST_wntt: "Унией корон" #True
+ international_organization_IBERIAN_UNION_NAME_INST_wntt: "Иберийской унией" #True
+ international_organization_HABSBURG_UNION_NAME_INST_wntt: "Габсбургской унией" #True
+ international_organization_PERSONALIZED_UNION_NAME_INST_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унией"
+ international_organization_DOUBLE_UNION_NAME_INST_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унией"
+ international_organization_MARRIAGE_UNION_COUNTRIES_INST_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унией"
+ international_organization_MARRIAGE_UNION_DYNASTIES_INST_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_INST_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией"
+
+ international_organization_hre_PREP_wntt: "Священной Римской Империи" #True
+ international_organization_catholic_church_PREP_wntt: "Католической церкви" #True
+ international_organization_autocephalous_patriarchate_PREP_wntt: "Автокефальном патриархате" #True
+ international_organization_coalition_PREP_wntt: "Коалиции" #True
+ international_organization_colonial_federation_PREP_wntt: "Колониальной федерации" #True
+ international_organization_crusade_PREP_wntt: "Крестовом походе" #True
+ international_organization_defensive_league_PREP_wntt: "Оборонительной лиге" #True
+ international_organization_foreign_league_france_PREP_wntt: "Французской лиге" #True
+ international_organization_foreign_league_hre_PREP_wntt: "Имперской лиге" #True
+ international_organization_foreign_league_iberia_PREP_wntt: "Иберийской лиге" #True
+ international_organization_guelphs_io_PREP_wntt: "Гвельфах" #True
+ international_organization_ghibellines_io_PREP_wntt: "Гибеллинах" #True
+ international_organization_high_kingship_PREP_wntt: "Верховном королевстве" #True
+ international_organization_hindu_branch_PREP_wntt: "Ответвлении индуизма" #True
+ international_organization_ilkhanate_PREP_wntt: "Государстве Хулагуидов" #True
+ international_organization_independence_movement_PREP_wntt: "Движении за независимость" #True
+ international_organization_italian_league_1_PREP_wntt: "Первой итальянской лиге" #True
+ international_organization_italian_league_2_PREP_wntt: "Второй итальянской лиге" #True
+ international_organization_italian_league_3_PREP_wntt: "Третьей итальянской лиге" #True
+ international_organization_japanese_shogunate_PREP_wntt: "Японском сёгунате" #True
+ international_organization_jihad_PREP_wntt: "Джихаде" #True
+ international_organization_jurchen_confederation_PREP_wntt: "Конфедерации чжурчжэней" #True
+ international_organization_lordship_of_ireland_PREP_wntt: "Маноре Ирландии" #True
+ international_organization_marriage_union_PREP_wntt: "Брачной унии" #True
+ international_organization_middle_kingdom_PREP_wntt: "Срединном государстве" #True
+ international_organization_red_turban_rebels_PREP_wntt: "«Красных повязках»" #True
+ international_organization_protestant_union_PREP_wntt: "Евангелической унии" #True
+ international_organization_catholic_league_PREP_wntt: "Католической лиге" #True
+ international_organization_sect_PREP_wntt: "Направлении" #True
+ international_organization_shinto_PREP_wntt: "Синтоизме" #True
+ international_organization_sikhism_PREP_wntt: "Сикхизме" #True
+ international_organization_swiss_confederation_PREP_wntt: "Швейцарской Конфедерации" #True
+ international_organization_tatar_yoke_PREP_wntt: "Татарском иге" #True
+ international_organization_tribal_confederation_PREP_wntt: "Племенной конфедерации" #True
+ international_organization_union_PREP_wntt: "Унии" #True
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_PREP_wntt: "Католическом патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_PREP_wntt: "Вселенском патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_PREP_wntt: "Автокефальном патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
+ international_organization_SECT_CONFUCIANISM_NAME_PREP_wntt: "Конфуцианстве" #True
+ international_organization_SECT_DAOISM_NAME_PREP_wntt: "Даосизме" #True
+ international_organization_SECT_JOUDO_SHINSHUU_PREP_wntt: "Дзёдо-синсю" #True
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_PREP_wntt: "Буддизме Чистой земли" #True
+ international_organization_SECT_TENDAI_NAME_PREP_wntt: "Тэндае" #True
+ international_organization_SECT_NICHIREN_NAME_PREP_wntt: "Нитирэне" #True
+ international_organization_SECT_TIANTAI_NAME_PREP_wntt: "Тяньтае" #True
+ international_organization_SECT_DHARMA_SCHOOL_NAME_PREP_wntt: "Школе дхармы" #True
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_PREP_wntt: "Школе цветочной гирлянды" #True
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_PREP_wntt: "Школе медитации" #True
+ international_organization_SECT_MANTRA_SCHOOL_NAME_PREP_wntt: "Школе мантры" #True
+ international_organization_SECT_SHUPREPDO_NAME_PREP_wntt: "Сюгэндо" #True
+ international_organization_SECT_AZHALIISM_NAME_PREP_wntt: "Ачжализме" #True
+ international_organization_SECT_MUSOK_NAME_PREP_wntt: "Мусоке" #True
+ international_organization_SECT_NYIGMA_NAME_PREP_wntt: "Школе Ньингма" #True
+ international_organization_SECT_KADAM_NAME_PREP_wntt: "Школе Кадам" #True
+ international_organization_SECT_KAGYU_NAME_PREP_wntt: "Школе Кагью" #True
+ international_organization_SECT_SAKYA_NAME_PREP_wntt: "Школе Сакья" #True
+ international_organization_SECT_JONANG_NAME_PREP_wntt: "Школе Джонанг" #True
+ international_organization_SECT_MULASARVASTIVADA_NAME_PREP_wntt: "Муласарвастиваде" #True
+ international_organization_SECT_MAHAVIHARA_NAME_PREP_wntt: "Махавихаре" #True
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_PREP_wntt: "Бирманском буддизме" #True
+ international_organization_SECT_LANKAVONG_NAME_PREP_wntt: "Ланкавонге" #True
+ international_organization_SECT_KHMER_BUDDHISM_NAME_PREP_wntt: "Кхмерском буддизме" #True
+ international_organization_vaishnavism_PREP_wntt: "Вишнуизме" #True
+ international_organization_shaivism_PREP_wntt: "Шиваизме" #True
+ international_organization_shaktism_PREP_wntt: "Шактизме" #True
+ international_organization_smartism_PREP_wntt: "Смартизме" #True
+ international_organization_haudenosaunee_tribal_confederation_PREP_wntt: "Конфедерации хауденосауни" #True
+ international_organization_colonial_federation_usa_PREP_wntt: "Северо-Американских Соединённых Штатах" #True
+ international_organization_jianzhou_jurchen_confederation_PREP_wntt: "Конфедерации Цзяньчжоу" #True
+ international_organization_hulun_jurchen_confederation_PREP_wntt: "Конфедерации Хулунь" #True
+ international_organization_changbaishan_jurchen_confederation_PREP_wntt: "Конфедерации Чанбайшань" #True
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_PREP_wntt: "Священной лиге" #True
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_PREP_wntt: "Литовской Речи Посполитой" #True
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_PREP_wntt: "Речи Посполитой" #True
+ international_organization_KALMAR_UNION_NAME_PREP_wntt: "Кальмарской унии" #True
+ international_organization_UNION_OF_THE_CROWNS_NAME_PREP_wntt: "Унии корон" #True
+ international_organization_IBERIAN_UNION_NAME_PREP_wntt: "Иберийской унии" #True
+ international_organization_HABSBURG_UNION_NAME_PREP_wntt: "Габсбургской унии" #True
+ international_organization_PERSONALIZED_UNION_NAME_PREP_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_DOUBLE_UNION_NAME_PREP_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии"
+ international_organization_MARRIAGE_UNION_COUNTRIES_PREP_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии"
+ international_organization_MARRIAGE_UNION_DYNASTIES_PREP_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_PREP_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
+
+ international_organization_hre_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империи#!#!"
+ international_organization_catholic_church_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церкви#!#!"
+ international_organization_autocephalous_patriarchate_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефального патриархата#!#!"
+ international_organization_coalition_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,coalition_iott,X #L Коалиции#!#!"
+ international_organization_colonial_federation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_iott,X #L Колониальной федерации#!#!"
+ international_organization_crusade_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,crusade_iott,X #L Крестового похода#!#!"
+ international_organization_defensive_league_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,defensive_league_iott,X #L Оборонительной лиги#!#!"
+ international_organization_foreign_league_france_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_france_iott,X #L Французской лиги#!#!"
+ international_organization_foreign_league_hre_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_hre_iott,X #L Имперской лиги#!#!"
+ international_organization_foreign_league_iberia_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_iberia_iott,X #L Иберийской лиги#!#!"
+ international_organization_guelphs_io_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io_iott,X #L Гвельфов#!#!"
+ international_organization_ghibellines_io_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io_iott,X #L Гибеллинов#!#!"
+ international_organization_high_kingship_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,high_kingship_iott,X #L Верховного королевства#!#!"
+ international_organization_hindu_branch_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hindu_branch_iott,X #L Ответвления индуизма#!#!"
+ international_organization_ilkhanate_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ilkhanate_iott,X #L Государства Хулагуидов#!#!"
+ international_organization_independence_movement_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,independence_movement_iott,X #L Движения за независимость#!#!"
+ international_organization_italian_league_1_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_1_iott,X #L Первой итальянской лиги#!#!"
+ international_organization_italian_league_2_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_2_iott,X #L Второй итальянской лиги#!#!"
+ international_organization_italian_league_3_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_3_iott,X #L Третьей итальянской лиги#!#!"
+ international_organization_japanese_shogunate_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate_iott,X #L Японского сёгуната#!#!"
+ international_organization_jihad_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jihad_iott,X #L Джихада#!#!"
+ international_organization_jurchen_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jurchen_confederation_iott,X #L Конфедерации чжурчжэней#!#!"
+ international_organization_lordship_of_ireland_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,lordship_of_ireland_iott,X #L Манора Ирландии#!#!"
+ international_organization_marriage_union_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,marriage_union_iott,X #L Брачной унии#!#!"
+ international_organization_middle_kingdom_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_iott,X #L Срединного государства#!#!"
+ international_organization_red_turban_rebels_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,red_turban_rebels_iott,X #L «Красных повязок»#!#!"
+ international_organization_protestant_union_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_iott,X #L Евангелической унии#!#!"
+ international_organization_catholic_league_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_iott,X #L Католической лиги#!#!"
+ international_organization_sect_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sect_iott,X #L Направления#!#!"
+ international_organization_shinto_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shinto_iott,X #L Синтоизма#!#!"
+ international_organization_sikhism_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sikhism_iott,X #L Сикхизма#!#!"
+ international_organization_swiss_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,swiss_confederation_iott,X #L Швейцарской Конфедерации#!#!"
+ international_organization_tatar_yoke_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tatar_yoke_iott,X #L Татарского ига#!#!"
+ international_organization_tribal_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tribal_confederation_iott,X #L Племенной конфедерации#!#!"
+ international_organization_union_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,union_iott,X #L Унии#!#!"
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,CATHOLIC_PATRIARCHATE_NAME_iott,X #L Католического патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ECUMENICAL_PATRIARCHATE_NAME_iott,X #L Вселенского патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_iott,X #L Автокефального патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_SECT_CONFUCIANISM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_CONFUCIANISM_NAME_iott,X #L Конфуцианства#!#!"
+ international_organization_SECT_DAOISM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DAOISM_NAME_iott,X #L Даосизма#!#!"
+ international_organization_SECT_JOUDO_SHINSHUU_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JOUDO_SHINSHUU_iott,X #L Дзёдо-синсю#!#!"
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_PURE_LAND_SCHOOL_NAME_iott,X #L Буддизма Чистой земли#!#!"
+ international_organization_SECT_TENDAI_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TENDAI_NAME_iott,X #L Тэндая#!#!"
+ international_organization_SECT_NICHIREN_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NICHIREN_NAME_iott,X #L Нитирэна#!#!"
+ international_organization_SECT_TIANTAI_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TIANTAI_NAME_iott,X #L Тяньтая#!#!"
+ international_organization_SECT_DHARMA_SCHOOL_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DHARMA_SCHOOL_NAME_iott,X #L Школы дхармов#!#!"
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_FLOWER_GARLAND_SCHOOL_NAME_iott,X #L Школы цветочной гирляндов#!#!"
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MEDITATION_SCHOOL_NAME_iott,X #L Школы медитации#!#!"
+ international_organization_SECT_MANTRA_SCHOOL_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MANTRA_SCHOOL_NAME_iott,X #L Школы мантров#!#!"
+ international_organization_SECT_SHUGENDO_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SHUGENDO_NAME_iott,X #L Сюгэндо#!#!"
+ international_organization_SECT_AZHALIISM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_AZHALIISM_NAME_iott,X #L Ачжализма#!#!"
+ international_organization_SECT_MUSOK_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MUSOK_NAME_iott,X #L Мусока#!#!"
+ international_organization_SECT_NYIGMA_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NYIGMA_NAME_iott,X #L Школы Ньингма#!#!"
+ international_organization_SECT_KADAM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KADAM_NAME_iott,X #L Школы Кадам#!#!"
+ international_organization_SECT_KAGYU_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KAGYU_NAME_iott,X #L Школы Кагью#!#!"
+ international_organization_SECT_SAKYA_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SAKYA_NAME_iott,X #L Школы Сакья#!#!"
+ international_organization_SECT_JONANG_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JONANG_NAME_iott,X #L Школы Джонанг#!#!"
+ international_organization_SECT_MULASARVASTIVADA_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MULASARVASTIVADA_NAME_iott,X #L Муласарвастивады#!#!"
+ international_organization_SECT_MAHAVIHARA_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MAHAVIHARA_NAME_iott,X #L Махавихары#!#!"
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_BURMESE_BUDDHISM_NAME_iott,X #L Бирманского буддизма#!#!"
+ international_organization_SECT_LANKAVONG_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_LANKAVONG_NAME_iott,X #L Ланкавонга#!#!"
+ international_organization_SECT_KHMER_BUDDHISM_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KHMER_BUDDHISM_NAME_iott,X #L Кхмерского буддизма#!#!"
+ international_organization_vaishnavism_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,vaishnavism_iott,X #L Вишнуизма#!#!"
+ international_organization_shaivism_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaivism_iott,X #L Шиваизма#!#!"
+ international_organization_shaktism_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaktism_iott,X #L Шактизма#!#!"
+ international_organization_smartism_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,smartism_iott,X #L Смартизма#!#!"
+ international_organization_haudenosaunee_tribal_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,haudenosaunee_tribal_confederation_iott,X #L Конфедерации хауденосауни#!#!"
+ international_organization_colonial_federation_usa_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_usa_iott,X #L Северо-Американских Соединённых Штатов#!#!"
+ international_organization_jianzhou_jurchen_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jianzhou_jurchen_confederation_iott,X #L Конфедерации Цзяньчжоу#!#!"
+ international_organization_hulun_jurchen_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hulun_jurchen_confederation_iott,X #L Конфедерации Хулунь#!#!"
+ international_organization_changbaishan_jurchen_confederation_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,changbaishan_jurchen_confederation_iott,X #L Конфедерации Чанбайшань#!#!"
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PAPAL_HOLY_LEAGUE_NAME_iott,X #L Священной лиги#!#!"
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,LITHUANIAN_POLISH_COMMONWEALTH_NAME_iott,X #L Литовской Речи Посполитой#!#!"
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,POLISH_LITHUANIAN_COMMONWEALTH_NAME_iott,X #L Речи Посполитой#!#!"
+ international_organization_KALMAR_UNION_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,KALMAR_UNION_NAME_iott,X #L Кальмарской унии#!#!"
+ international_organization_UNION_OF_THE_CROWNS_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,UNION_OF_THE_CROWNS_NAME_iott,X #L Унии корон#!#!"
+ international_organization_IBERIAN_UNION_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,IBERIAN_UNION_NAME_iott,X #L Иберийской унии#!#!"
+ international_organization_HABSBURG_UNION_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,HABSBURG_UNION_NAME_iott,X #L Габсбургской унии#!#!"
+ international_organization_PERSONALIZED_UNION_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PERSONALIZED_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_DOUBLE_UNION_NAME_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,DOUBLE_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_MARRIAGE_UNION_COUNTRIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_DYNASTIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+ 							
+ international_organization_hre_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империи#!#!"
+ international_organization_catholic_church_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церкви#!#!"
+ international_organization_autocephalous_patriarchate_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальному патриархату#!#!"
+ international_organization_coalition_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,coalition_iott,X #L Коалиции#!#!"
+ international_organization_colonial_federation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_iott,X #L Колониальной федерации#!#!"
+ international_organization_crusade_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,crusade_iott,X #L Крестовому походу#!#!"
+ international_organization_defensive_league_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,defensive_league_iott,X #L Оборонительной лиге#!#!"
+ international_organization_foreign_league_france_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_france_iott,X #L Французской лиге#!#!"
+ international_organization_foreign_league_hre_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_hre_iott,X #L Имперской лиге#!#!"
+ international_organization_foreign_league_iberia_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_iberia_iott,X #L Иберийской лиге#!#!"
+ international_organization_guelphs_io_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io_iott,X #L Гвельфам#!#!"
+ international_organization_ghibellines_io_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io_iott,X #L Гибеллинам#!#!"
+ international_organization_high_kingship_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,high_kingship_iott,X #L Верховному королевству#!#!"
+ international_organization_hindu_branch_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hindu_branch_iott,X #L Ответвлению индуизма#!#!"
+ international_organization_ilkhanate_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ilkhanate_iott,X #L Государству Хулагуидов#!#!"
+ international_organization_independence_movement_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,independence_movement_iott,X #L Движению за независимость#!#!"
+ international_organization_italian_league_1_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_1_iott,X #L Первой итальянской лиге#!#!"
+ international_organization_italian_league_2_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_2_iott,X #L Второй итальянской лиге#!#!"
+ international_organization_italian_league_3_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_3_iott,X #L Третьей итальянской лиге#!#!"
+ international_organization_japanese_shogunate_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate_iott,X #L Японскому сёгунату#!#!"
+ international_organization_jihad_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jihad_iott,X #L Джихаду#!#!"
+ international_organization_jurchen_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jurchen_confederation_iott,X #L Конфедерации чжурчжэней#!#!"
+ international_organization_lordship_of_ireland_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,lordship_of_ireland_iott,X #L Манору Ирландии#!#!"
+ international_organization_marriage_union_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,marriage_union_iott,X #L Брачной унии#!#!"
+ international_organization_middle_kingdom_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_iott,X #L Срединному государству#!#!"
+ international_organization_red_turban_rebels_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,red_turban_rebels_iott,X #L «Красным повязкам»#!#!"
+ international_organization_protestant_union_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_iott,X #L Евангелической унии#!#!"
+ international_organization_catholic_league_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_iott,X #L Католической лиге#!#!"
+ international_organization_sect_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sect_iott,X #L Направлению#!#!"
+ international_organization_shinto_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shinto_iott,X #L Синтоизму#!#!"
+ international_organization_sikhism_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sikhism_iott,X #L Сикхизму#!#!"
+ international_organization_swiss_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,swiss_confederation_iott,X #L Швейцарской Конфедерации#!#!"
+ international_organization_tatar_yoke_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tatar_yoke_iott,X #L Татарскому игу#!#!"
+ international_organization_tribal_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tribal_confederation_iott,X #L Племенной конфедерации#!#!"
+ international_organization_union_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,union_iott,X #L Унии#!#!"
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,CATHOLIC_PATRIARCHATE_NAME_iott,X #L Католическому патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ECUMENICAL_PATRIARCHATE_NAME_iott,X #L Вселенскому патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_iott,X #L Автокефальному патриархату [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_SECT_CONFUCIANISM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_CONFUCIANISM_NAME_iott,X #L Конфуцианству#!#!"
+ international_organization_SECT_DAOISM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DAOISM_NAME_iott,X #L Даосизму#!#!"
+ international_organization_SECT_JOUDO_SHINSHUU_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JOUDO_SHINSHUU_iott,X #L Дзёдо-синсю#!#!"
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_PURE_LAND_SCHOOL_NAME_iott,X #L Буддизму Чистой земли#!#!"
+ international_organization_SECT_TENDAI_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TENDAI_NAME_iott,X #L Тэндаю#!#!"
+ international_organization_SECT_NICHIREN_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NICHIREN_NAME_iott,X #L Нитирэну#!#!"
+ international_organization_SECT_TIANTAI_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TIANTAI_NAME_iott,X #L Тяньтаю#!#!"
+ international_organization_SECT_DHARMA_SCHOOL_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DHARMA_SCHOOL_NAME_iott,X #L Школе дхармы#!#!"
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_FLOWER_GARLAND_SCHOOL_NAME_iott,X #L Школе цветочной гирлянды#!#!"
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MEDITATION_SCHOOL_NAME_iott,X #L Школе медитации#!#!"
+ international_organization_SECT_MANTRA_SCHOOL_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MANTRA_SCHOOL_NAME_iott,X #L Школе мантры#!#!"
+ international_organization_SECT_SHUDATDO_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SHUDATDO_NAME_iott,X #L Сюгэндо#!#!"
+ international_organization_SECT_AZHALIISM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_AZHALIISM_NAME_iott,X #L Ачжализму#!#!"
+ international_organization_SECT_MUSOK_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MUSOK_NAME_iott,X #L Мусоку#!#!"
+ international_organization_SECT_NYIGMA_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NYIGMA_NAME_iott,X #L Школе Ньингма#!#!"
+ international_organization_SECT_KADAM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KADAM_NAME_iott,X #L Школе Кадам#!#!"
+ international_organization_SECT_KAGYU_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KAGYU_NAME_iott,X #L Школе Кагью#!#!"
+ international_organization_SECT_SAKYA_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SAKYA_NAME_iott,X #L Школе Сакья#!#!"
+ international_organization_SECT_JONANG_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JONANG_NAME_iott,X #L Школе Джонанг#!#!"
+ international_organization_SECT_MULASARVASTIVADA_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MULASARVASTIVADA_NAME_iott,X #L Муласарвастиваде#!#!"
+ international_organization_SECT_MAHAVIHARA_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MAHAVIHARA_NAME_iott,X #L Махавихаре#!#!"
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_BURMESE_BUDDHISM_NAME_iott,X #L Бирманскому буддизму#!#!"
+ international_organization_SECT_LANKAVONG_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_LANKAVONG_NAME_iott,X #L Ланкавонгу#!#!"
+ international_organization_SECT_KHMER_BUDDHISM_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KHMER_BUDDHISM_NAME_iott,X #L Кхмерскому буддизму#!#!"
+ international_organization_vaishnavism_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,vaishnavism_iott,X #L Вишнуизму#!#!"
+ international_organization_shaivism_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaivism_iott,X #L Шиваизму#!#!"
+ international_organization_shaktism_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaktism_iott,X #L Шактизму#!#!"
+ international_organization_smartism_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,smartism_iott,X #L Смартизму#!#!"
+ international_organization_haudenosaunee_tribal_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,haudenosaunee_tribal_confederation_iott,X #L Конфедерации хауденосауни#!#!"
+ international_organization_colonial_federation_usa_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_usa_iott,X #L Северо-Американским Соединённым Штатам#!#!"
+ international_organization_jianzhou_jurchen_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jianzhou_jurchen_confederation_iott,X #L Конфедерации Цзяньчжоу#!#!"
+ international_organization_hulun_jurchen_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hulun_jurchen_confederation_iott,X #L Конфедерации Хулунь#!#!"
+ international_organization_changbaishan_jurchen_confederation_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,changbaishan_jurchen_confederation_iott,X #L Конфедерации Чанбайшань#!#!"
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PAPAL_HOLY_LEAGUE_NAME_iott,X #L Священной лиге#!#!"
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,LITHUANIAN_POLISH_COMMONWEALTH_NAME_iott,X #L Литовской Речи Посполитой#!#!"
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,POLISH_LITHUANIAN_COMMONWEALTH_NAME_iott,X #L Речи Посполитой#!#!"
+ international_organization_KALMAR_UNION_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,KALMAR_UNION_NAME_iott,X #L Кальмарской унии#!#!"
+ international_organization_UNION_OF_THE_CROWNS_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,UNION_OF_THE_CROWNS_NAME_iott,X #L Унии корон#!#!"
+ international_organization_IBERIAN_UNION_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,IBERIAN_UNION_NAME_iott,X #L Иберийской унии#!#!"
+ international_organization_HABSBURG_UNION_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,HABSBURG_UNION_NAME_iott,X #L Габсбургской унии#!#!"
+ international_organization_PERSONALIZED_UNION_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PERSONALIZED_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_DOUBLE_UNION_NAME_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,DOUBLE_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_MARRIAGE_UNION_COUNTRIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_DYNASTIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+							
+ international_organization_hre_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священную Римскую Империю#!#!"
+ international_organization_catholic_church_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католическую церковь#!#!"
+ international_organization_autocephalous_patriarchate_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальный патриархат#!#!"
+ international_organization_coalition_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,coalition_iott,X #L Коалицию#!#!"
+ international_organization_colonial_federation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_iott,X #L Колониальную федерацию#!#!"
+ international_organization_crusade_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,crusade_iott,X #L Крестовый поход#!#!"
+ international_organization_defensive_league_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,defensive_league_iott,X #L Оборонительную лигу#!#!"
+ international_organization_foreign_league_france_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_france_iott,X #L Французскую лигу#!#!"
+ international_organization_foreign_league_hre_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_hre_iott,X #L Имперскую лигу#!#!"
+ international_organization_foreign_league_iberia_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_iberia_iott,X #L Иберийскую лигу#!#!"
+ international_organization_guelphs_io_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io_iott,X #L Гвельфов#!#!"
+ international_organization_ghibellines_io_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io_iott,X #L Гибеллинов#!#!"
+ international_organization_high_kingship_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,high_kingship_iott,X #L Верховное королевство#!#!"
+ international_organization_hindu_branch_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hindu_branch_iott,X #L Ответвление индуизма#!#!"
+ international_organization_ilkhanate_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ilkhanate_iott,X #L Государство Хулагуидов#!#!"
+ international_organization_independence_movement_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,independence_movement_iott,X #L Движение за независимость#!#!"
+ international_organization_italian_league_1_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_1_iott,X #L Первую итальянскую лигу#!#!"
+ international_organization_italian_league_2_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_2_iott,X #L Вторую итальянскую лигу#!#!"
+ international_organization_italian_league_3_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_3_iott,X #L Третью итальянскую лигу#!#!"
+ international_organization_japanese_shogunate_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate_iott,X #L Японский сёгунат#!#!"
+ international_organization_jihad_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jihad_iott,X #L Джихад#!#!"
+ international_organization_jurchen_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jurchen_confederation_iott,X #L Конфедерацию чжурчжэней#!#!"
+ international_organization_lordship_of_ireland_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,lordship_of_ireland_iott,X #L Манор Ирландии#!#!"
+ international_organization_marriage_union_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,marriage_union_iott,X #L Брачную унию#!#!"
+ international_organization_middle_kingdom_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_iott,X #L Срединное государство#!#!"
+ international_organization_red_turban_rebels_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,red_turban_rebels_iott,X #L «Красных повязок»#!#!"
+ international_organization_protestant_union_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_iott,X #L Евангелическую унию#!#!"
+ international_organization_catholic_league_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_iott,X #L Католическую лигу#!#!"
+ international_organization_sect_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sect_iott,X #L Направление#!#!"
+ international_organization_shinto_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shinto_iott,X #L Синтоизм#!#!"
+ international_organization_sikhism_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sikhism_iott,X #L Сикхизм#!#!"
+ international_organization_swiss_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,swiss_confederation_iott,X #L Швейцарскую Конфедерацию#!#!"
+ international_organization_tatar_yoke_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tatar_yoke_iott,X #L Татарское иго#!#!"
+ international_organization_tribal_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tribal_confederation_iott,X #L Племенную конфедерацию#!#!"
+ international_organization_union_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,union_iott,X #L Унию#!#!"
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,CATHOLIC_PATRIARCHATE_NAME_iott,X #L Католический патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ECUMENICAL_PATRIARCHATE_NAME_iott,X #L Вселенский патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_iott,X #L Автокефальный патриархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_SECT_CONFUCIANISM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_CONFUCIANISM_NAME_iott,X #L Конфуцианство#!#!"
+ international_organization_SECT_DAOISM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DAOISM_NAME_iott,X #L Даосизм#!#!"
+ international_organization_SECT_JOUDO_SHINSHUU_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JOUDO_SHINSHUU_iott,X #L Дзёдо-синсю#!#!"
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_PURE_LAND_SCHOOL_NAME_iott,X #L Буддизм Чистой земли#!#!"
+ international_organization_SECT_TENDAI_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TENDAI_NAME_iott,X #L Тэндай#!#!"
+ international_organization_SECT_NICHIREN_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NICHIREN_NAME_iott,X #L Нитирэн#!#!"
+ international_organization_SECT_TIANTAI_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TIANTAI_NAME_iott,X #L Тяньтай#!#!"
+ international_organization_SECT_DHARMA_SCHOOL_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DHARMA_SCHOOL_NAME_iott,X #L Школу дхармы#!#!"
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_FLOWER_GARLAND_SCHOOL_NAME_iott,X #L Школу цветочной гирлянды#!#!"
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MEDITATION_SCHOOL_NAME_iott,X #L Школу медитации#!#!"
+ international_organization_SECT_MANTRA_SCHOOL_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MANTRA_SCHOOL_NAME_iott,X #L Школу мантры#!#!"
+ international_organization_SECT_SHUACCDO_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SHUACCDO_NAME_iott,X #L Сюгэндо#!#!"
+ international_organization_SECT_AZHALIISM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_AZHALIISM_NAME_iott,X #L Ачжализм#!#!"
+ international_organization_SECT_MUSOK_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MUSOK_NAME_iott,X #L Мусок#!#!"
+ international_organization_SECT_NYIGMA_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NYIGMA_NAME_iott,X #L Школу Ньингма#!#!"
+ international_organization_SECT_KADAM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KADAM_NAME_iott,X #L Школу Кадам#!#!"
+ international_organization_SECT_KAGYU_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KAGYU_NAME_iott,X #L Школу Кагью#!#!"
+ international_organization_SECT_SAKYA_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SAKYA_NAME_iott,X #L Школу Сакья#!#!"
+ international_organization_SECT_JONANG_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JONANG_NAME_iott,X #L Школу Джонанг#!#!"
+ international_organization_SECT_MULASARVASTIVADA_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MULASARVASTIVADA_NAME_iott,X #L Муласарвастиваду#!#!"
+ international_organization_SECT_MAHAVIHARA_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MAHAVIHARA_NAME_iott,X #L Махавихару#!#!"
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_BURMESE_BUDDHISM_NAME_iott,X #L Бирманский буддизм#!#!"
+ international_organization_SECT_LANKAVONG_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_LANKAVONG_NAME_iott,X #L Ланкавонг#!#!"
+ international_organization_SECT_KHMER_BUDDHISM_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KHMER_BUDDHISM_NAME_iott,X #L Кхмерский буддизм#!#!"
+ international_organization_vaishnavism_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,vaishnavism_iott,X #L Вишнуизм#!#!"
+ international_organization_shaivism_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaivism_iott,X #L Шиваизм#!#!"
+ international_organization_shaktism_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaktism_iott,X #L Шактизм#!#!"
+ international_organization_smartism_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,smartism_iott,X #L Смартизм#!#!"
+ international_organization_haudenosaunee_tribal_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,haudenosaunee_tribal_confederation_iott,X #L Конфедерацию хауденосауни#!#!"
+ international_organization_colonial_federation_usa_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_usa_iott,X #L Северо-Американские Соединённые Штаты#!#!"
+ international_organization_jianzhou_jurchen_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jianzhou_jurchen_confederation_iott,X #L Конфедерацию Цзяньчжоу#!#!"
+ international_organization_hulun_jurchen_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hulun_jurchen_confederation_iott,X #L Конфедерацию Хулунь#!#!"
+ international_organization_changbaishan_jurchen_confederation_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,changbaishan_jurchen_confederation_iott,X #L Конфедерацию Чанбайшань#!#!"
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PAPAL_HOLY_LEAGUE_NAME_iott,X #L Священную лигу#!#!"
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,LITHUANIAN_POLISH_COMMONWEALTH_NAME_iott,X #L Литовскую Речь Посполитую#!#!"
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,POLISH_LITHUANIAN_COMMONWEALTH_NAME_iott,X #L Речь Посполитую#!#!"
+ international_organization_KALMAR_UNION_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,KALMAR_UNION_NAME_iott,X #L Кальмарскую унию#!#!"
+ international_organization_UNION_OF_THE_CROWNS_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,UNION_OF_THE_CROWNS_NAME_iott,X #L Унию корон#!#!"
+ international_organization_IBERIAN_UNION_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,IBERIAN_UNION_NAME_iott,X #L Иберийскую унию#!#!"
+ international_organization_HABSBURG_UNION_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,HABSBURG_UNION_NAME_iott,X #L Габсбургскую унию#!#!"
+ international_organization_PERSONALIZED_UNION_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PERSONALIZED_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ую унию#!#!"
+ international_organization_DOUBLE_UNION_NAME_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,DOUBLE_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ую унию#!#!"
+ international_organization_MARRIAGE_UNION_COUNTRIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ую брачную унию#!#!"
+ international_organization_MARRIAGE_UNION_DYNASTIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию#!#!"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию#!#!"
+							
+ international_organization_hre_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империей#!#!"
+ international_organization_catholic_church_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церковью#!#!"
+ international_organization_autocephalous_patriarchate_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальным патриархатом#!#!"
+ international_organization_coalition_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,coalition_iott,X #L Коалицией#!#!"
+ international_organization_colonial_federation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_iott,X #L Колониальной федерацией#!#!"
+ international_organization_crusade_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,crusade_iott,X #L Крестовым походом#!#!"
+ international_organization_defensive_league_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,defensive_league_iott,X #L Оборонительной лигой#!#!"
+ international_organization_foreign_league_france_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_france_iott,X #L Французской лигой#!#!"
+ international_organization_foreign_league_hre_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_hre_iott,X #L Имперской лигой#!#!"
+ international_organization_foreign_league_iberia_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_iberia_iott,X #L Иберийской лигой#!#!"
+ international_organization_guelphs_io_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io_iott,X #L Гвельфами#!#!"
+ international_organization_ghibellines_io_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io_iott,X #L Гибеллинами#!#!"
+ international_organization_high_kingship_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,high_kingship_iott,X #L Верховным королевством#!#!"
+ international_organization_hindu_branch_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hindu_branch_iott,X #L Ответвлением индуизма#!#!"
+ international_organization_ilkhanate_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ilkhanate_iott,X #L Государством Хулагуидов#!#!"
+ international_organization_independence_movement_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,independence_movement_iott,X #L Движением за независимость#!#!"
+ international_organization_italian_league_1_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_1_iott,X #L Первой итальянской лигой#!#!"
+ international_organization_italian_league_2_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_2_iott,X #L Второй итальянской лигой#!#!"
+ international_organization_italian_league_3_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_3_iott,X #L Третьей итальянской лигой#!#!"
+ international_organization_japanese_shogunate_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate_iott,X #L Японским сёгунатом#!#!"
+ international_organization_jihad_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jihad_iott,X #L Джихадом#!#!"
+ international_organization_jurchen_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jurchen_confederation_iott,X #L Конфедерацией чжурчжэней#!#!"
+ international_organization_lordship_of_ireland_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,lordship_of_ireland_iott,X #L Манором Ирландии#!#!"
+ international_organization_marriage_union_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,marriage_union_iott,X #L Брачной унией#!#!"
+ international_organization_middle_kingdom_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_iott,X #L Срединным государством#!#!"
+ international_organization_red_turban_rebels_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,red_turban_rebels_iott,X #L «Красными повязками»#!#!"
+ international_organization_protestant_union_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_iott,X #L Евангелической унией#!#!"
+ international_organization_catholic_league_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_iott,X #L Католической лигой#!#!"
+ international_organization_sect_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sect_iott,X #L Направление#!#!"
+ international_organization_shinto_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shinto_iott,X #L Синтоизм#!#!"
+ international_organization_sikhism_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sikhism_iott,X #L Сикхизм#!#!"
+ international_organization_swiss_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,swiss_confederation_iott,X #L Швейцарской Конфедерацией#!#!"
+ international_organization_tatar_yoke_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tatar_yoke_iott,X #L Татарскым иго#!#!"
+ international_organization_tribal_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tribal_confederation_iott,X #L Племенной конфедерацией#!#!"
+ international_organization_union_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,union_iott,X #L Унией#!#!"
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,CATHOLIC_PATRIARCHATE_NAME_iott,X #L Католическим патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ECUMENICAL_PATRIARCHATE_NAME_iott,X #L Вселенским патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_iott,X #L Автокефальным патриархатом [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_SECT_CONFUCIANISM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_CONFUCIANISM_NAME_iott,X #L Конфуцианством#!#!"
+ international_organization_SECT_DAOISM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DAOISM_NAME_iott,X #L Даосизмом#!#!"
+ international_organization_SECT_JOUDO_SHINSHUU_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JOUDO_SHINSHUU_iott,X #L Дзёдо-синсю#!#!"
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_PURE_LAND_SCHOOL_NAME_iott,X #L Буддизмом Чистой земли#!#!"
+ international_organization_SECT_TENDAI_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TENDAI_NAME_iott,X #L Тэндаем#!#!"
+ international_organization_SECT_NICHIREN_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NICHIREN_NAME_iott,X #L Нитирэном#!#!"
+ international_organization_SECT_TIANTAI_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TIANTAI_NAME_iott,X #L Тяньтаем#!#!"
+ international_organization_SECT_DHARMA_SCHOOL_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DHARMA_SCHOOL_NAME_iott,X #L Школой дхармы#!#!"
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_FLOWER_GARLAND_SCHOOL_NAME_iott,X #L Школой цветочной гирлянды#!#!"
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MEDITATION_SCHOOL_NAME_iott,X #L Школой медитации#!#!"
+ international_organization_SECT_MANTRA_SCHOOL_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MANTRA_SCHOOL_NAME_iott,X #L Школой мантры#!#!"
+ international_organization_SECT_SHUINSTDO_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SHUINSTDO_NAME_iott,X #L Сюгэндо#!#!"
+ international_organization_SECT_AZHALIISM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_AZHALIISM_NAME_iott,X #L Ачжализмом#!#!"
+ international_organization_SECT_MUSOK_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MUSOK_NAME_iott,X #L Мусоком#!#!"
+ international_organization_SECT_NYIGMA_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NYIGMA_NAME_iott,X #L Школой Ньингма#!#!"
+ international_organization_SECT_KADAM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KADAM_NAME_iott,X #L Школой Кадам#!#!"
+ international_organization_SECT_KAGYU_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KAGYU_NAME_iott,X #L Школой Кагью#!#!"
+ international_organization_SECT_SAKYA_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SAKYA_NAME_iott,X #L Школой Сакья#!#!"
+ international_organization_SECT_JONANG_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JONANG_NAME_iott,X #L Школой Джонанг#!#!"
+ international_organization_SECT_MULASARVASTIVADA_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MULASARVASTIVADA_NAME_iott,X #L Муласарвастивадой#!#!"
+ international_organization_SECT_MAHAVIHARA_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MAHAVIHARA_NAME_iott,X #L Махавихарой#!#!"
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_BURMESE_BUDDHISM_NAME_iott,X #L Бирманским буддизмом#!#!"
+ international_organization_SECT_LANKAVONG_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_LANKAVONG_NAME_iott,X #L Ланкавонгом#!#!"
+ international_organization_SECT_KHMER_BUDDHISM_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KHMER_BUDDHISM_NAME_iott,X #L Кхмерским буддизмом#!#!"
+ international_organization_vaishnavism_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,vaishnavism_iott,X #L Вишнуизмом#!#!"
+ international_organization_shaivism_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaivism_iott,X #L Шиваизмом#!#!"
+ international_organization_shaktism_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaktism_iott,X #L Шактизмом#!#!"
+ international_organization_smartism_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,smartism_iott,X #L Смартизмом#!#!"
+ international_organization_haudenosaunee_tribal_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,haudenosaunee_tribal_confederation_iott,X #L Конфедерацией хауденосауни#!#!"
+ international_organization_colonial_federation_usa_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_usa_iott,X #L Северо-Американскими Соединёнными Штатами#!#!"
+ international_organization_jianzhou_jurchen_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jianzhou_jurchen_confederation_iott,X #L Конфедерацией Цзяньчжоу#!#!"
+ international_organization_hulun_jurchen_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hulun_jurchen_confederation_iott,X #L Конфедерацией Хулунь#!#!"
+ international_organization_changbaishan_jurchen_confederation_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,changbaishan_jurchen_confederation_iott,X #L Конфедерацией Чанбайшань#!#!"
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PAPAL_HOLY_LEAGUE_NAME_iott,X #L Священной лигой#!#!"
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,LITHUANIAN_POLISH_COMMONWEALTH_NAME_iott,X #L Литовской Речью Посполитой#!#!"
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,POLISH_LITHUANIAN_COMMONWEALTH_NAME_iott,X #L Речью Посполитой#!#!"
+ international_organization_KALMAR_UNION_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,KALMAR_UNION_NAME_iott,X #L Кальмарской унией#!#!"
+ international_organization_UNION_OF_THE_CROWNS_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,UNION_OF_THE_CROWNS_NAME_iott,X #L Унией корон#!#!"
+ international_organization_IBERIAN_UNION_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,IBERIAN_UNION_NAME_iott,X #L Иберийской унией#!#!"
+ international_organization_HABSBURG_UNION_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,HABSBURG_UNION_NAME_iott,X #L Габсбургской унией#!#!"
+ international_organization_PERSONALIZED_UNION_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PERSONALIZED_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унией#!#!"
+ international_organization_DOUBLE_UNION_NAME_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,DOUBLE_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унией#!#!"
+ international_organization_MARRIAGE_UNION_COUNTRIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унией#!#!"
+ international_organization_MARRIAGE_UNION_DYNASTIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией#!#!"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией#!#!"
+							
+ hre_iott: "2"
+ international_organization_hre_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империи#!#!"
+ international_organization_catholic_church_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церкви#!#!"
+ international_organization_autocephalous_patriarchate_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальном патриархате#!#!"
+ international_organization_coalition_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,coalition_iott,X #L Коалиции#!#!"
+ international_organization_colonial_federation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_iott,X #L Колониальной федерации#!#!"
+ international_organization_crusade_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,crusade_iott,X #L Крестовом походе#!#!"
+ international_organization_defensive_league_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,defensive_league_iott,X #L Оборонительной лиге#!#!"
+ international_organization_foreign_league_france_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_france_iott,X #L Французской лиге#!#!"
+ international_organization_foreign_league_hre_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_hre_iott,X #L Имперской лиге#!#!"
+ international_organization_foreign_league_iberia_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,foreign_league_iberia_iott,X #L Иберийской лиге#!#!"
+ international_organization_guelphs_io_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io_iott,X #L Гвельфах#!#!"
+ international_organization_ghibellines_io_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io_iott,X #L Гибеллинах#!#!"
+ international_organization_high_kingship_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,high_kingship_iott,X #L Верховном королевстве#!#!"
+ international_organization_hindu_branch_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hindu_branch_iott,X #L Ответвлении индуизма#!#!"
+ international_organization_ilkhanate_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ilkhanate_iott,X #L Государстве Хулагуидов#!#!"
+ international_organization_independence_movement_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,independence_movement_iott,X #L Движении за независимость#!#!"
+ international_organization_italian_league_1_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_1_iott,X #L Первой итальянской лиге#!#!"
+ international_organization_italian_league_2_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_2_iott,X #L Второй итальянской лиге#!#!"
+ international_organization_italian_league_3_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,italian_league_3_iott,X #L Третьей итальянской лиге#!#!"
+ international_organization_japanese_shogunate_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate_iott,X #L Японском сёгунате#!#!"
+ international_organization_jihad_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jihad_iott,X #L Джихаде#!#!"
+ international_organization_jurchen_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jurchen_confederation_iott,X #L Конфедерации чжурчжэней#!#!"
+ international_organization_lordship_of_ireland_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,lordship_of_ireland_iott,X #L Маноре Ирландии#!#!"
+ international_organization_marriage_union_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,marriage_union_iott,X #L Брачной унии#!#!"
+ international_organization_middle_kingdom_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_iott,X #L Срединном государстве#!#!"
+ international_organization_red_turban_rebels_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,red_turban_rebels_iott,X #L «Красных повязках»#!#!"
+ international_organization_protestant_union_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_iott,X #L Евангелической унии#!#!"
+ international_organization_catholic_league_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_iott,X #L Католической лиге#!#!"
+ international_organization_sect_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sect_iott,X #L Направлении#!#!"
+ international_organization_shinto_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shinto_iott,X #L Синтоизме#!#!"
+ international_organization_sikhism_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,sikhism_iott,X #L Сикхизме#!#!"
+ international_organization_swiss_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,swiss_confederation_iott,X #L Швейцарской Конфедерации#!#!"
+ international_organization_tatar_yoke_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tatar_yoke_iott,X #L Татарском иге#!#!"
+ international_organization_tribal_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,tribal_confederation_iott,X #L Племенной конфедерации#!#!"
+ international_organization_union_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,union_iott,X #L Унии#!#!"
+ international_organization_CATHOLIC_PATRIARCHATE_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,CATHOLIC_PATRIARCHATE_NAME_iott,X #L Католическом патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_ECUMENICAL_PATRIARCHATE_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ECUMENICAL_PATRIARCHATE_NAME_iott,X #L Вселенском патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_iott,X #L Автокефальном патриархате [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]#!#!"
+ international_organization_SECT_CONFUCIANISM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_CONFUCIANISM_NAME_iott,X #L Конфуцианстве#!#!"
+ international_organization_SECT_DAOISM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DAOISM_NAME_iott,X #L Даосизме#!#!"
+ international_organization_SECT_JOUDO_SHINSHUU_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JOUDO_SHINSHUU_iott,X #L Дзёдо-синсю#!#!"
+ international_organization_SECT_PURE_LAND_SCHOOL_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_PURE_LAND_SCHOOL_NAME_iott,X #L Буддизме Чистой земли#!#!"
+ international_organization_SECT_TENDAI_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TENDAI_NAME_iott,X #L Тэндае#!#!"
+ international_organization_SECT_NICHIREN_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NICHIREN_NAME_iott,X #L Нитирэне#!#!"
+ international_organization_SECT_TIANTAI_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_TIANTAI_NAME_iott,X #L Тяньтае#!#!"
+ international_organization_SECT_DHARMA_SCHOOL_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_DHARMA_SCHOOL_NAME_iott,X #L Школе дхармы#!#!"
+ international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_FLOWER_GARLAND_SCHOOL_NAME_iott,X #L Школе цветочной гирлянды#!#!"
+ international_organization_SECT_MEDITATION_SCHOOL_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MEDITATION_SCHOOL_NAME_iott,X #L Школе медитации#!#!"
+ international_organization_SECT_MANTRA_SCHOOL_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MANTRA_SCHOOL_NAME_iott,X #L Школе мантры#!#!"
+ international_organization_SECT_SHUPREPDO_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SHUPREPDO_NAME_iott,X #L Сюгэндо#!#!"
+ international_organization_SECT_AZHALIISM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_AZHALIISM_NAME_iott,X #L Ачжализме#!#!"
+ international_organization_SECT_MUSOK_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MUSOK_NAME_iott,X #L Мусоке#!#!"
+ international_organization_SECT_NYIGMA_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_NYIGMA_NAME_iott,X #L Школе Ньингма#!#!"
+ international_organization_SECT_KADAM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KADAM_NAME_iott,X #L Школе Кадам#!#!"
+ international_organization_SECT_KAGYU_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KAGYU_NAME_iott,X #L Школе Кагью#!#!"
+ international_organization_SECT_SAKYA_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_SAKYA_NAME_iott,X #L Школе Сакья#!#!"
+ international_organization_SECT_JONANG_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_JONANG_NAME_iott,X #L Школе Джонанг#!#!"
+ international_organization_SECT_MULASARVASTIVADA_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MULASARVASTIVADA_NAME_iott,X #L Муласарвастиваде#!#!"
+ international_organization_SECT_MAHAVIHARA_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_MAHAVIHARA_NAME_iott,X #L Махавихаре#!#!"
+ international_organization_SECT_BURMESE_BUDDHISM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_BURMESE_BUDDHISM_NAME_iott,X #L Бирманском буддизме#!#!"
+ international_organization_SECT_LANKAVONG_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_LANKAVONG_NAME_iott,X #L Ланкавонге#!#!"
+ international_organization_SECT_KHMER_BUDDHISM_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,SECT_KHMER_BUDDHISM_NAME_iott,X #L Кхмерском буддизме#!#!"
+ international_organization_vaishnavism_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,vaishnavism_iott,X #L Вишнуизме#!#!"
+ international_organization_shaivism_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaivism_iott,X #L Шиваизме#!#!"
+ international_organization_shaktism_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,shaktism_iott,X #L Шактизме#!#!"
+ international_organization_smartism_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,smartism_iott,X #L Смартизме#!#!"
+ international_organization_haudenosaunee_tribal_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,haudenosaunee_tribal_confederation_iott,X #L Конфедерации хауденосауни#!#!"
+ international_organization_colonial_federation_usa_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,colonial_federation_usa_iott,X #L Северо-Американских Соединённых Штатах#!#!"
+ international_organization_jianzhou_jurchen_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,jianzhou_jurchen_confederation_iott,X #L Конфедерации Цзяньчжоу#!#!"
+ international_organization_hulun_jurchen_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hulun_jurchen_confederation_iott,X #L Конфедерации Хулунь#!#!"
+ international_organization_changbaishan_jurchen_confederation_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,changbaishan_jurchen_confederation_iott,X #L Конфедерации Чанбайшань#!#!"
+ international_organization_PAPAL_HOLY_LEAGUE_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PAPAL_HOLY_LEAGUE_NAME_iott,X #L Священной лиге#!#!"
+ international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,LITHUANIAN_POLISH_COMMONWEALTH_NAME_iott,X #L Литовской Речи Посполитой#!#!"
+ international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,POLISH_LITHUANIAN_COMMONWEALTH_NAME_iott,X #L Речи Посполитой#!#!"
+ international_organization_KALMAR_UNION_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,KALMAR_UNION_NAME_iott,X #L Кальмарской унии#!#!"
+ international_organization_UNION_OF_THE_CROWNS_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,UNION_OF_THE_CROWNS_NAME_iott,X #L Унии корон#!#!"
+ international_organization_IBERIAN_UNION_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,IBERIAN_UNION_NAME_iott,X #L Иберийской унии#!#!"
+ international_organization_HABSBURG_UNION_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,HABSBURG_UNION_NAME_iott,X #L Габсбургской унии#!#!"
+ international_organization_PERSONALIZED_UNION_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,PERSONALIZED_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_DOUBLE_UNION_NAME_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,DOUBLE_UNION_NAME_iott,X #L [ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии#!#!"
+ international_organization_MARRIAGE_UNION_COUNTRIES_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_DYNASTIES_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+ international_organization_MARRIAGE_UNION_SAME_DYNASTY_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
+
+ 
+ 
+ 

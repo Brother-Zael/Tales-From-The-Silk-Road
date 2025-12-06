@@ -1,0 +1,7 @@
+﻿l_japanese:
+ flavor_kol.1.title: "バイエルン人の大司教"
+ flavor_kol.1.desc: "バイエルンを支配する一族のひとりが、ケルンの大司教に任命された。これにより、バイエルンの影響力がここでさらに強まる可能性がある。この事態にどう対処すべきだろうか？"
+ flavor_kol.1.a: "干渉するつもりはない。"
+ flavor_kol.1.b: "わが道を進むまでだ。"
+ kol_bavarian_archbishop_replaced: "バイエルン人の大司教を置き換えた"
+ kol_bavarian_archbishop: "ケルンのバイエルン人大司教"

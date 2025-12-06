@@ -1,0 +1,5 @@
+﻿l_spanish:
+ government_conversion_events.conversion_complete.title: "Surgimiento de un nuevo Gobierno: [target_government_type.GetNameWithNoTooltip|l] [target_country.GetAdjectiveWithNoTooltip|l]"
+ government_conversion_events.conversion_complete.title_fallback: "Reforma del Gobierno"
+ government_conversion_events.conversion_complete.desc: "Los últimos años fueron un periodo de turbulencias y descontento. Aunque, a la larga, lo mejor era que [target_country.GetLongName|l] pasara a convertirse en [target_government_type.GetName|l] que es ahora, mucha gente anciana y decadente de gran influencia luchó con uñas y dientes para mantener el antiguo orden en [origin_government_type.GetName|l]. En cualquier caso, [target_character.GetName] logró superar las dificultades y abolir las viejas tradiciones que se interponían en su intento de centralizar el poder en [target_government_type.GetNameWithNoTooltip|l]."
+ government_conversion_events.conversion_complete.a: "[origin_government_type.GetNameWithNoTooltip] toca a su fin. ¡[target_government_type.GetNameWithNoTooltip] comienza su andadura!"

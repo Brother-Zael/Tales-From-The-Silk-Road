@@ -1,0 +1,290 @@
+﻿l_french:
+ ship_name_acheron: "L'Achéron"
+ ship_name_achille: "L'Achille"
+ ship_name_achilles: "L'Achilleus"
+ ship_name_aconit: "L'Aconit"
+ ship_name_adamant: "L'Intransigeant"
+ ship_name_admirable: "L'Admirable"
+ ship_name_advice: "Le Conseil"
+ ship_name_africain: "L'Africain"
+ ship_name_africaine: "L'Africaine"
+ ship_name_aigle: "L'Aigle"
+ ship_name_alexandre: "L'Alexandre"
+ ship_name_amarante: "L'Amarante"
+ ship_name_amazone: "L'Amazone"
+ ship_name_ambitieux: "L'Ambitieux"
+ ship_name_amphitrite: "L'Amphitrite"
+ ship_name_andromaque: "L'Andromaque"
+ ship_name_annibal: "L'Annibal"
+ ship_name_antelope: "L'Antilope"
+ ship_name_apollon: "L'Apollon"
+ ship_name_aquilon: "L'Aquilon"
+ ship_name_arabe: "L'Arabe"
+ ship_name_arethuse: "L'Aréthuse"
+ ship_name_argonaute: "L'Argonaute"
+ ship_name_ariane: "L'Ariane"
+ ship_name_armide: "L'Armide"
+ ship_name_arrogant: "L'Arrogant"
+ ship_name_arromanches: "L'Arromanches"
+ ship_name_artemis: "L'Artémis"
+ ship_name_artemise: "L'Artémise"
+ ship_name_assistance: "L'Assistance"
+ ship_name_association: "L'Association"
+ ship_name_assurance: "L'Assurance"
+ ship_name_astree: "L'Astrée"
+ ship_name_astrolabe: "L'Astrolabe"
+ ship_name_atalante: "L'Atalante"
+ ship_name_atlas: "L'Atlas"
+ ship_name_audacieux: "L'Audacieux"
+ ship_name_audacious: "L'Entreprenant"
+ ship_name_august: "L'Août"
+ ship_name_auguste: "L'Auguste"
+ ship_name_bison: "Le Bison"
+ ship_name_borda: "Le Borda"
+ ship_name_boudeuse: "La Boudeuse"
+ ship_name_bouvet: "Le Bouvet"
+ ship_name_bull: "Le Taureau"
+ ship_name_capricieuse: "La Capricieuse"
+ ship_name_captain: "Le Capitaine"
+ ship_name_casabianca: "Le Casablanca"
+ ship_name_cassard: "Le Cassard"
+ ship_name_cassiopee: "La Cassiopée"
+ ship_name_centurion: "Le Centurion"
+ ship_name_chacal: "Le Chacal"
+ ship_name_colossus: "Le Colosse"
+ ship_name_conqueror: "Le Conquérant"
+ ship_name_content: "Le Content"
+ ship_name_coronation: "Le Couronnement"
+ ship_name_crown: "La Couronne"
+ ship_name_dauntless: "Le Résolu"
+ ship_name_defiance: "Le Défiant"
+ ship_name_dragon: "Le Dragon"
+ ship_name_dreadnought: "Le Cuirassé"
+ ship_name_duchess: "La Duchesse"
+ ship_name_duke: "Le Duc"
+ ship_name_duperre: "Le Dupérré"
+ ship_name_dupleix: "Le Dupleix"
+ ship_name_duquesne: "Le Duquesne"
+ ship_name_durance: "La Durance"
+ ship_name_eagle: "L'Eagle"
+ ship_name_eglantine: "L'Églantine"
+ ship_name_elan: "L'Élan"
+ ship_name_elephant: "L'Éléphant"
+ ship_name_epee: "L'Épée"
+ ship_name_espadon: "L'Espadon"
+ ship_name_esterel: "L'Estérel"
+ ship_name_etoile: "L'Étoile"
+ ship_name_excellent: "L'Excellent"
+ ship_name_expedition: "L'Expédition"
+ ship_name_experiment: "L'Expérience"
+ ship_name_fame: "La Réputation"
+ ship_name_firm: "Le Ferme"
+ ship_name_forbin: "Le Forbin"
+ ship_name_fortitude: "Le Courageux"
+ ship_name_foudre: "La Foudre"
+ ship_name_fougueuse: "La Fougueuse"
+ ship_name_gapeau: "Le Gapeau"
+ ship_name_garonne: "La Garonne"
+ ship_name_gazelle: "La Gazelle"
+ ship_name_glaive: "Le Glaive"
+ ship_name_glorieuse: "La Glorieuse"
+ ship_name_glory: "La Gloire"
+ ship_name_goliath: "Le Goliath"
+ ship_name_gracieuse: "La Gracieuse"
+ ship_name_guepard: "Le Guépard"
+ ship_name_hache: "La Hache"
+ ship_name_hallebarde: "La Hallebarde"
+ ship_name_hannibal: "Le Hannibal"
+ ship_name_hero: "Le Héros"
+ ship_name_hope: "L'Espoir"
+ ship_name_horse: "Le Destrier"
+ ship_name_illustrious: "L'Illustre"
+ ship_name_impregnable: "L'Imprenable"
+ ship_name_indefatigable: "L'Infatigable"
+ ship_name_indomptable: "L'Indomptable"
+ ship_name_inflexible: "L'Inflexible"
+ ship_name_interceptor: "L'Intercepteur"
+ ship_name_intrepid: "L'Intrépide"
+ ship_name_invincible: "L'Invincible"
+ ship_name_irresistible: "L'Irrésistible"
+ ship_name_isis: "L'Isis"
+ ship_name_jupiter: "Le Jupiter"
+ ship_name_kingfisher: "Le Martin-pêcheur"
+ ship_name_laperouse: "Le Lapérouse"
+ ship_name_leopard: "Le Leopard"
+ ship_name_leopard_fr: "Le Léopard"
+ ship_name_leviathan: "Le Léviathan"
+ ship_name_lion: "Le Lion"
+ ship_name_luberon: "Le Luberon"
+ ship_name_lynx: "Le Lynx"
+ ship_name_lyre: "La Lyre"
+ ship_name_magnificent: "L'Incomparable"
+ ship_name_majestic: "Le Majestueux"
+ ship_name_marigold: "Le Marigold"
+ ship_name_marne: "La Marne"
+ ship_name_mars: "Le Mars"
+ ship_name_massue: "La Massue"
+ ship_name_medusa: "L'Ombrelle"
+ ship_name_meduse: "La Méduse"
+ ship_name_mercure: "Le Mercure"
+ ship_name_meuse: "La Meuse"
+ ship_name_minotaur: "Le Minotaure"
+ ship_name_mistral: "Le Mistral"
+ ship_name_moderate: "Le Modéré"
+ ship_name_monarch: "Le Monarque"
+ ship_name_monge: "Le Monge"
+ ship_name_montcalm: "Le Montcalm"
+ ship_name_moon: "La Lune"
+ ship_name_moqueuse: "La Moqueuse"
+ ship_name_mutin: "La Mutine"
+ ship_name_neptune: "Le Neptune"
+ ship_name_nonsuch: "Le Sans pareil"
+ ship_name_normand: "Le Normand"
+ ship_name_oak: "Le Chêne"
+ ship_name_ocean: "L'Océan"
+ ship_name_orage: "L'Orage"
+ ship_name_orion: "L'Orion"
+ ship_name_ouragan: "L'Ouragan"
+ ship_name_panther: "Le Guépard"
+ ship_name_panthere: "La Panthère"
+ ship_name_pegase: "Le Pégase"
+ ship_name_perseverante: "La Persévérante"
+ ship_name_phoenix: "Le Phénix"
+ ship_name_pluton: "Le Pluton"
+ ship_name_poseidon: "Le Poséidon"
+ ship_name_powerful: "Le Puissant"
+ ship_name_president: "Le Président"
+ ship_name_primauguet: "Le Primauguet"
+ ship_name_princess: "La Princesse"
+ ship_name_prize: "Le Prix"
+ ship_name_prudent: "Le Prudent"
+ ship_name_queen: "La Reine"
+ ship_name_railleuse: "La Railleuse"
+ ship_name_rapiere: "La Rapière"
+ ship_name_reddition: "La Reddition"
+ ship_name_redoutable: "Le Redoutable"
+ ship_name_renown: "La Renommée"
+ ship_name_repulse: "Le Repoussant"
+ ship_name_reserve: "La Réserve"
+ ship_name_resolution: "La Résolution"
+ ship_name_restoration: "La Restauration"
+ ship_name_revenge: "La Vengeance"
+ ship_name_rieuse: "La Rieuse"
+ ship_name_royal: "La Royale"
+ ship_name_ruby: "Le Rubis"
+ ship_name_sabre: "Le Sabre"
+ ship_name_saturn: "Le Saturne"
+ ship_name_sceptre: "Le Sceptre"
+ ship_name_serieuse: "La Sérieuse"
+ ship_name_sirocco: "Sirocco"
+ ship_name_sovereign: "Le Souverain"
+ ship_name_standard: "Le Standard"
+ ship_name_stately: "Le Grandiose"
+ ship_name_styx: "Le Styx"
+ ship_name_superb: "Le Superbe"
+ ship_name_surcouf: "Le Surcouf"
+ ship_name_surprise: "La Surprise"
+ ship_name_swallow: "L'Avalez"
+ ship_name_swan: "Le Cygne"
+ ship_name_swiftsure: "Le Swiftsure"
+ ship_name_tapageuse: "La Tapageuse"
+ ship_name_temeraire: "Le Téméraire"
+ ship_name_tenace: "Le Tenace"
+ ship_name_terrible: "Le Terrible"
+ ship_name_terrible_fr: "Le Terrible"
+ ship_name_thunderer: "Le Tonnerre"
+ ship_name_tiger: "Le Félin"
+ ship_name_tigre: "Le Tigre"
+ ship_name_tonnant: "Le Tonnant"
+ ship_name_trememndous: "Le Formidable"
+ ship_name_trident: "Le Trident"
+ ship_name_triomphant: "Le Triomphant"
+ ship_name_triton: "Le Triton"
+ ship_name_triumph: "Le Triomphe"
+ ship_name_trusty: "Le Fidèle"
+ ship_name_unicorn: "La Licorne"
+ ship_name_union: "L'Union"
+ ship_name_unity: "L'Unité"
+ ship_name_valiant: "Le Vaillant"
+ ship_name_vanguard: "L'Avant-garde"
+ ship_name_var: "Le Var"
+ ship_name_vauquelin: "Le Vauquelin"
+ ship_name_venerable: "Le Vénérable"
+ ship_name_veteran: "Le Vétéran"
+ ship_name_victor: "Le Victor"
+ ship_name_victorious: "Le Victorieux"
+ ship_name_victory: "La Victoire"
+ ship_name_vigilant: "Le Vigilant"
+ ship_name_vulcain: "Le Vulcain"
+ ship_name_warrior: "Le Guerrier"
+ ship_name_warspite: "Le Warspite"
+ ship_name_zealous: "Le Zélé"
+ ship_name_anfarwol: "L'Anfarwol" #Immortal
+ ship_name_ardderchog: "L'Ardderchog" #Excellent
+ ship_name_brwd: "Le Brwd" #Fierce
+ ship_name_brwdfrydig: "Le Brufrydig" #Enthusiastic
+ ship_name_cadarn: "Le Cadarn" #Strong
+ ship_name_cain: "Le Caïn" #Fair
+ ship_name_cawr: "Le Cawr" #Giant
+ ship_name_cerddgar: "Le Cerddgar" #Melodious
+ ship_name_clyd: "Le Clyd" #Cozy
+ ship_name_cyfareddol: "Le Cyfareddol" #Exhilarating
+ ship_name_cymreig: "Le Cymreg" #Welsh
+ ship_name_cywir: "Le Cywir" #Correct
+ ship_name_cywirdeb: "Le Cywirdeb" #Integrity
+ ship_name_dewr: "Le Dewr" #Brave
+ ship_name_direidus: "Le Direidus" #Agile
+ ship_name_dirgel: "Le Dirgel" #Mysterious
+ ship_name_dirgelwch: "Le Dirgelwch" #Mystery
+ ship_name_eglurhaol: "L'Eglurhaol" #Transparent
+ ship_name_eithriadol: "L'Ethiriadol" #Exceptional
+ ship_name_euraid: "L'Ériaide" #Golden
+ ship_name_fflamgoch: "Le Fflamgoch" #Red flame
+ ship_name_galwadwy: "La Galawaise" #Reliable
+ ship_name_garw: "Le Garw" #Rough
+ ship_name_gloyw: "Le Gloyw" #Bright
+ ship_name_gorfoledd: "Le Gorfoledd" #Joyful
+ ship_name_gorlif: "Le Gorlif" #Majestic
+ ship_name_gwawr: "Le Gwawr" #Dawn
+ ship_name_gwyntog: "Le Gwyntog" #Windy
+ ship_name_haerllug: "Le Haerllug" #Majestic
+ ship_name_heddwen: "Le Heddwen" #White peace
+ ship_name_heddychlon: "Le Heddychlon" #Peaceful
+ ship_name_helyg: "Le Helyg" #Willow
+ ship_name_hirfelyn: "Le Hirfelyn" #Long fang
+ ship_name_hirionedd: "Le Hirionedd" #Truth
+ ship_name_hudolus: "Le Hudolus" #Enchanting
+ ship_name_hynod: "Le Hynod" #Extraordinary
+ ship_name_iaithlawn: "L'Iaithlawn" #Linguistic
+ ship_name_iraidd: "L'Iraidd" #Furious
+ ship_name_jawdropping: "Le Syfrdanol" #Jaw-dropping
+ ship_name_lleddf: "Le Lleddf" #Smooth
+ ship_name_llongyfarch: "Le Llongyfarch" #Congratulations
+ ship_name_lluddias: "Le Lluddias" #Stealthy
+ ship_name_llwyd: "Le Llwyd" #Grey
+ ship_name_llyfn: "Le Llyfn" #Smooth
+ ship_name_llygadwyllt: "Le Llygadwyllt" #Wild-eyed
+ ship_name_llygaid-wen: "Le Llygaid-wen" #White-eyed
+ ship_name_lysieuol: "Le Lysieuol" #Herbaceous
+ ship_name_mawreddog: "Le Mawreddog" #Majestic
+ ship_name_medrus: "Le Medrus" #Skilled
+ ship_name_melyngoch: "Le Melyngoch" #Yellow-red
+ ship_name_mewnfwyafn: "Le Mewnfwyafn" #Deepest
+ ship_name_morol: "Le Morol" #Ocean
+ ship_name_nawddgar: "Le Nawddgar" #Protective
+ ship_name_noddfa: "Le Noddfa" #Sanctuary
+ ship_name_oerfel: "L'Oerfel" #Frosty
+ ship_name_olau: "L'Olau" #Light
+ ship_name_parhadol: "Le Parhadol" #Enduring
+ ship_name_poblogaidd: "Le Poblogaidd" #Popular
+ ship_name_rhamantus: "Le Rhamantus" #Romantic
+ ship_name_sefyllfa: "Le Sefyllfa" #Position
+ ship_name_seren: "La Sérénité" #Star
+ ship_name_talgarth: "Le Talgarth" #High-fortress
+ ship_name_taranau: "Le Taranau" #Thunderous
+ ship_name_tosturiol: "Le Tosturiol" #Disruptive
+ ship_name_uchelgeisiol: "L'Uchelgeisiol" #Ambitious
+ ship_name_unben: "L'Unben" #Leader
+ ship_name_wawddeg: "Le Wawddeg" #Boisterous
+ ship_name_ymylchgrawn: "Le Ymylchgrawn" #Periphery
+ ship_name_ynfydgar: "Le Ynfydgar" #Magnificent

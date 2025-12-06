@@ -1,0 +1,11 @@
+﻿l_japanese:
+ flavor_ice.10.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の司教区"
+ flavor_ice.10.desc: "[ROOT.GetCountry.GetReligion.GetAdjective]信仰は長いあいだ、[ROOT.GetCountry.GetAdjective]の生活において重要な役割を果たしてきた。しかし、島内には[target_location.GetName]と[skalholt.GetName]という2つの異なる司教区が存在する。\n\n[target_location.GetProvince.GetName]に位置する[target_location.GetNameWithNoTooltip]は独立志向が強いとの評判をもつ一方、[skalholt.GetProvince.GetName]の[skalholt.GetNameWithNoTooltip]は[overlord.GetLongName]に歩調を合わせていると見なされている。\n\n[ROOT.GetCountry.GetNameWithNoTooltip]が未来に向けて歩みを進めるなか、それぞれの司教区がもつ特性を考慮することが重要である。"
+ flavor_ice.10.a: "独立した[target_location.GetNameWithNoTooltip]を支持する。"
+ flavor_ice.10.b: "[overlord.GetAdjectiveWithNoTooltip]の司教に取り入ろう。"
+ opinion_opposed_our_bishop: "我々の司教に反対した"
+ opinion_supported_our_bishop: "我々の司教を支持した"
+ flavor_ice.11.title: "フルドゥフォルク"
+ flavor_ice.11.desc: "「フルドゥフォルク」と呼ばれる“隠された人々”の伝説は、何世紀にもわたり[ROOT.GetCountry.GetCulture.GetName]人を魅了してきた。彼ら姿を隠す妖精たちは、アイスランドの岩や山の内部に住むと考えられている。\n\nそんななかで、ある問題が浮上した。フルドゥフォルクが住んでいるとされる[target_location.GetName]のとある地域に、[ROOT.GetCountry.GetReligion.GetAdjective]教会を建設する計画が進められているのだ。\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]たちは、フルドゥフォルクの住み処を乱せば、大いなる災厄を招くのではないかと怯えている。一方、[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]たちは目に見えない存在など認めていない。これらの信仰上の対立を収め、教会建設の可否を決めるのは、[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]の役目である。"
+ flavor_ice.11.a: "信仰を尊重し、教会の建設計画を中止する。"
+ flavor_ice.11.b: "迷信など無視し、教会を建設する。"

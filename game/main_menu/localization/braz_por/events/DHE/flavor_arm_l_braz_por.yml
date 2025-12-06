@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ flavor_arm.1.title: "A Perda do Conhecimento"
+ flavor_arm.1.desc: "Por séculos, a [ShowBuildingTypeName('university')] de [target_location.GetName] serviu ao nosso povo como um centro de cultura e ciências. Prosperando sob o patrocínio de famosas famílias nobres, nos últimos anos houve grandes infortúnios aos patronos dessa instituição. A perda de riquezas resultou no cancelamento de muitas disciplinas e na perda de cargos de muitos professores. Se a [ShowBuildingTypeNameWithNoTooltip('university')] não receber ajuda, as pessoas temem que ela possa fechar..."
+ flavor_arm.1.a: "Deixe que ela feche."
+ flavor_arm.1.b: "Vamos bancá-la!"
+ flavor_arm.2.title: "A Universidade de Tatev"
+ flavor_arm.2.desc: "Centrado em uma comunidade vibrante em [target_location.GetName], o mosteiro local cresceu para abrigar uma grande quantidade de contratos, documentos oficiais e manuscritos valiosos. Como resultado, ele agora serve como o coração pulsante do conhecimento, e seus professores passaram a solicitar a expansão das instalações. Eles desejam criar departamentos que ofereçam aulas de arte escritural e estudos de música."
+ flavor_arm.2.a: "Vamos financiar a expansão."
+ flavor_arm.2.b: "É melhor não."

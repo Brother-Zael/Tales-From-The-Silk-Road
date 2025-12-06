@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ flavor_brb.1.title: "Ascensão de [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName] sempre foi um porto importante para o país [ROOT.GetCountry.GetName], permitindo que fortalecêssemos ainda mais nossos comerciantes no mercado de [target_market.GetName]. Entretanto, recentemente, o estamento [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] do(a) [target_location.GetRank.GetName] teve grandes progressos no desenvolvimento. Agora, eles estão planejando fortalecer o porto da cidade."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] merece nosso apoio."
+ flavor_brb.1.b: "Não temos recurso para outro porto."

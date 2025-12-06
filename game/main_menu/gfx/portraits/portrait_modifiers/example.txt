@@ -1,0 +1,63 @@
+﻿# The choice is made based on a weighted random, but the first weight that evaluates to >= 100 will be automatically chosen
+
+#my_group = {						#Each group will select one item. If no item has a weight > 0 no item will be selected
+#	
+#	item_0 = {						#Each item has a list of dna_modifiers and weight
+#
+#		outfit_tags = { tag1 tag2 ... }	# Outfit tags for this modifier. The modifier is valid if it has an outfit tag matching the highest priority tag specified in the event found in the whole portrait modifier group (if any outfit tag is specified).
+#									# Portrait modifiers matching any of the event outfit tags (if specified) will always be valid and have their weight at least equal to 1 even when their weight evaluates to < 1.
+#		require_outfit_tags = yes	# If this is set, the modifier will only be valid to consider if the portrait outfit tags from the event contain any of the modifiers' outfit tags and won't be picked if no portrait event tags are specified.
+#		ignore_outfit_tags = yes	# If this is set, the modifier doesn't care whether any outfit tags are set or not (good for e.g. the prison bars)
+#
+#		dna_modifiers = {			#The modifiers that will be applied to the portrait if this item is selected
+#			morph = {
+#				#mode = add			#add this as an extra gene
+#				#mode = replace 	#overwrite this gene in the dna with the specified template and value
+#				#mode = modify		#modify this gene in the dna. if the template matches the gene in the dna (or template is left empty), value will be added to the dna-gene's strength
+#				mode = replace
+#				
+#				gene = face
+#				template = fat_face
+#				value = 1.0
+#			}
+#			color = {
+#				gene = hair_color
+#				#mode = add			#not supported for color genes
+#				#mode = replace		#overwrite this gene with palette coordinates specified here
+#				#mode = modify		#adds x and y to the dna-gene's values
+#				mode = modify
+#				
+#				x = 0.1
+#				y = -0.1
+#			}
+#			accessory = {
+#				#mode = add			#add this as an extra gene
+#				#mode = replace 	#overwrite this gene in the dna with the specified template and value
+#				#mode = modify		#modify this gene in the dna. if the template matches the gene in the dna (or template is left empty), value will be added to the dna-gene's strength
+#				mode = add
+#				
+#				gene = headgear
+#				template = cool_people
+#				value = 0.75
+#			}
+#		}
+#
+#		weight = {					#This is where the weight is calculated
+#			base = 1				#The final weight is calculated like this:
+#									# weight = base
+#									# for each modifier
+#									#	weight *= modifier factor
+#									#	weight += modifier add
+#			modifier = {
+#				add = 10
+#				has_culture = viking
+#			}
+#			modifier = {
+#				factor = 0
+#				has_trait = dislikes_items
+#			}
+#		}
+#	}
+#}
+
+

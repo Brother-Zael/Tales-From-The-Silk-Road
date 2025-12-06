@@ -1,0 +1,11 @@
+﻿l_turkish:
+ flavor_ice.10.title: "[ROOT.GetCountry.GetNameWithNoTooltip] Ülkesinin Piskoposları"
+ flavor_ice.10.desc: "[ROOT.GetCountry.GetReligion.GetAdjective] inancı uzun zamandır [ROOT.GetCountry.GetAdjective] hayatının önemli bir parçası olmuştur ancak adada iki ayrı piskoposluk var: [target_location.GetName] ve [skalholt.GetName].\n\n[target_location.GetProvince.GetName] vilayetindeki [target_location.GetNameWithNoTooltip] bağımsızlığı ve kendi kendine yeten bir il olmasıyla tanınırken [skalholt.GetProvince.GetName] vilayetindeki [skalholt.GetNameWithNoTooltip], [overlord.GetLongName] Hazretleri'ne daha bağlı gibi görünüyor.\n\n[ROOT.GetCountry.GetNameWithNoTooltip] ülkesi geliştikçe her piskoposluğun kendine has özelliklerini dikkate almak önem arz edecek."
+ flavor_ice.10.a: "Bağımsız [target_location.GetNameWithNoTooltip] ilini destekleyin."
+ flavor_ice.10.b: "[overlord.GetAdjectiveWithNoTooltip] piskoposunu memnun edin."
+ opinion_opposed_our_bishop: "Piskoposumuza Karşı Gelindi"
+ opinion_supported_our_bishop: "Piskoposumuz Desteklendi"
+ flavor_ice.11.title: "Huldufólk"
+ flavor_ice.11.desc: "Mistik insanlar olan Huldufólk'un hikâyeleri yüzyıllardır [ROOT.GetCountry.GetCulture.GetName] halkını büyülemiştir. Bu yakalanması zor elflerin İzlanda'nın kayalıkları ve dağları arasında yaşadığına inanılıyor.\n\nHuldufólk'a ait olduğu söylenen [target_location.GetName] ilindeki bir bölgede [ROOT.GetCountry.GetReligion.GetAdjective] kilisesi inşa etme planları yapılırken yeni bir durum meydana geldi.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] zümresi, Huldufólk'un yaşadığı kayaları rahatsız etmenin felaketle sonuçlanacağından korkuyor. Elbette [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] zümresi görünmez varlıkların olduğunu şiddetle reddediyor. Bu spiritüel anlaşmazlığı çözmek ve önerilen inşaatın kaderini belirlemek [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] zümresinin elinde."
+ flavor_ice.11.a: "İnançlara saygı gösterilsin ve kiliseden vazgeçilsin."
+ flavor_ice.11.b: "Batıl inançları görmezden gelinsin ve kilise inşa edilsin."

@@ -1,0 +1,78 @@
+﻿### AZTEC ###
+#AGE_1_TRADITIONS
+south_american_gfx:peasant_hats  = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bowl_cut_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hair_aztecs_wreath_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_long_mesh" add_tags = "hair_covered" } }
+    #1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hair_aztecs_wreath_mesh" add_tags = "hair_covered" } } #AZTEC
+    #1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_long_mesh" add_tags = "hair_covered" } } #AZTEC
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hair_aztecs_wreath_aztec_mesh" add_tags = "hair_covered" } }
+}
+
+south_american_gfx:soldier_hats  = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hood_cone_suit_aztec_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_bandage_long_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_bandage_feathers_aztec_mesh" add_tags = "hair_covered" } } #AZTEC
+}
+
+south_american_gfx:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_scull_hair_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feathers_skull_chain_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feathers_ears_mesh" add_tags = "hair_covered" } } #AZTEC
+}
+
+# AGE_3_DISCOVERY
+#south_american_gfx:age_3_discovery:peasant_hats =
+
+south_american_gfx:age_3_discovery:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_aztecs_feathers_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_feather_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_aztecs_mask_mesh" add_tags = "hair_covered"} } #AZTEC
+}
+
+south_american_gfx:age_3_discovery:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_face_plume_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_feather_morrion_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_decorations_mesh" add_tags = "hair_covered" } } #AZTEC
+}
+
+# AGE_5_ABSOLUTISM
+south_american_gfx:age_5_absolutism:peasant_hats = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sample_fabric_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_waves_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sombrero_straw_mesh" add_tags = "hair_covered" } } #AZTEC
+}
+
+south_american_gfx:age_5_absolutism:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_aztecs_design_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_feathers_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feathers_silk_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_round_bent_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_round_tail_mesh" add_tags = "hair_covered"} } #AZTEC
+}
+south_american_gfx:age_5_absolutism:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sombrero_cordobes_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_chambergo_feathers_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_charro_feathers_mesh" add_tags = "hair_covered"} } #AZTEC    
+}
+
+# AGE_6_REVOLUTIONS
+#south_american_gfx:age_6_revolutions:peasant_hats =
+
+south_american_gfx:age_6_revolutions:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sambrero_shash_mesh" add_tags = "hair_covered" } } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_shoko_visor_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_cotton_forage_mesh" add_tags = "hair_covered"} } #AZTEC
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_balero_type_mesh" add_tags = "hair_covered"} } #AZTEC  
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_shako_visor_mesh" add_tags = "hair_covered"} } #AZTEC      
+}
+
+south_american_gfx:age_6_revolutions:noble_hats = {
+	5 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bicorne_a_aztec_mesh" add_tags = "hair_covered" } }
+    5 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bicorne_b_aztec_mesh" add_tags = "hair_covered" } }
+    5 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_shako_tall_front_decoration_mesh" add_tags = "hair_covered" } }
+    5 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_shako_square_top_mesh" add_tags = "hair_covered" } }
+    5= { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sombrero_cone_balls_mesh" add_tags = "hair_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_sombrero_cone_balls_backpack_mesh" add_tags = "hair_covered" add_tags = "backpack" } }
+}
+

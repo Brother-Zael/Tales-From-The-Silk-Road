@@ -1,0 +1,52 @@
+﻿animation_editor_meta={
+	view={
+		position={ 195.556168 326.615479 }
+		zoom=1.000000
+	}
+	starting_timeline={
+		position={ 81.538437 -6.153854 }
+	}
+	states={
+		"Attack"={
+			position={ 283.363892 -271.641907 }
+		}
+ 		"Idle"={
+			position={ 298.366882 -10.532497 }
+		}
+ 		"Move"={
+			position={ 619.615479 -143.748566 }
+		}
+ 		"Retreat"={
+			position={ 618.840576 231.479279 }
+		}
+ 		"Charge"={
+			position={ 283.869995 284.970520 }
+		}
+ 	}
+	connections={
+		"Connection 17"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 11"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 13"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 15"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 9"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 20"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 22"={
+			use_length_from_source_state=yes
+		}
+ 		"Connection 24"={
+			use_length_from_source_state=yes
+		}
+ 	}
+}

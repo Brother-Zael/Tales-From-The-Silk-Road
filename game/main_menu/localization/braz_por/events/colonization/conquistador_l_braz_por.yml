@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ conquistador.1.title: "Conquista de [SCOPE.sLocation('target_location').GetNameWithNoTooltip]"
+ conquistador.1.desc: "Nosso conquistador chegou em [SCOPE.sLocation('target_location').GetName], pronto para espalhar nossa influência."
+ conquistador.1.a: "Veremos o que podemos encontrar!"
+ conquistador.10.title: "Conquista de [ROOT.GetLocation.GetNameWithNoTooltip]"
+ conquistador.10.desc: "Dominamos ainda mais territórios agora, o que nos proporcionou mais riquezas, um enorme prestígio para [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName] e Glória a [former_overlord.GetReligion.GetGodName]!"
+ conquistador.10.a: "Há ainda mais riquezas para nós!"
+ conquistador.10.b: "Precisamos de apoio para administrar isso!"
+ conquistador.11.title: "A Colônia de [conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip]"
+ conquistador.11.desc: "[conquistador_country.GetLongName] está solicitando nossa ajuda para se tornar nosso súdito formal e, assim, ser uma Nação Colonial!"
+ conquistador.11.a: "Essa é uma ótima solução!"
+ conquistador.11.b: "Isso é problema deles."

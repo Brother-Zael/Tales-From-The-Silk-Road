@@ -1,0 +1,19 @@
+﻿node_editor_meta={
+	view={
+		position={ -386.331238 120.650970 }
+		zoom=1.000000
+	}
+	nodes={
+		0={
+			position={ 1314.638916 150.118408 }
+		}
+		2={
+			position={ 491.562134 161.656815 }
+		}
+		1={
+			position={ 956.177490 171.425995 }
+		}
+	}
+	disabled_links={
+	}
+}

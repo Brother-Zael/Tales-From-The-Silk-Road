@@ -1,0 +1,14 @@
+﻿animation_editor_meta={
+	view={
+		position={ 163.400650 383.067322 }
+		zoom=0.959241
+	}
+	starting_timeline={
+		position={ 0.000000 0.000000 }
+	}
+	states={
+		"horse_riding"={
+			position={ 280.012390 3.057255 }
+		}
+ 	}
+}

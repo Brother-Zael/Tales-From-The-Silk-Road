@@ -1,0 +1,5 @@
+﻿l_spanish:
+ flavor_brb.1.title: "El ascenso de [target_location.GetNameWithNoTooltip]"
+ flavor_brb.1.desc: "[target_location.GetName] siempre ha sido un puerto importante para [ROOT.GetCountry.GetName], lo que nos permite fortalecer más aún a nuestros comerciantes en [target_market.GetName]. Sin embargo, recientemente los miembros [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] que viven en [target_location.GetRank.GetName|l] han hecho progresos para llevarlo a nuevas cotas. Ahora hacen planes para consolidar el puerto de la ciudad."
+ flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] se merece nuestro apoyo."
+ flavor_brb.1.b: "No tenemos recursos para otro puerto."

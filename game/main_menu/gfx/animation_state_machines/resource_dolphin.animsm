@@ -1,0 +1,56 @@
+﻿global_variables={
+}
+
+local_variables={
+}
+
+behavioral_states={
+ 	"animal_dolphin_idle"={
+		list_layer={
+			timeline_layer={
+				timeline="animal_dolphin_idle_editor_timeline"
+			}
+			timeline_layer={
+				timeline="Clip animal_dolphin_idle"
+			}
+		}
+	}
+}
+
+events={
+	behavioral_state_transition={
+		name="starting_state_internal_outgoing_transition"
+		behavioral_state="animal_dolphin_idle"
+		transition_interval=0.000000
+	}
+}
+
+timelines={
+	"animal_dolphin_idle_editor_timeline"={
+		boundary_behavior=loop
+		events={
+
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"Clip animal_dolphin_idle"={
+		boundary_behavior=loop
+		duration=0.500000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="animal_dolphin_idle_animation"
+	}
+}
+
+starting_timeline={
+	on_enter={
+		"starting_state_internal_outgoing_transition"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

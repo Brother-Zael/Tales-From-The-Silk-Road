@@ -1,0 +1,252 @@
+﻿l_korean:
+ #Common Loc
+ DISASTER_BREAKDOWN: "재난 분석"
+ no_event_occurs_tt: "[event|e]가 발생하지 않습니다"
+ an_event_occurs_tt: "이 [disaster|e]과 관련된 [event|e]가 발생할 수 있습니다"
+ #Succession Crisis
+ #Disaster
+ succession_crisis: "계승 위기"
+ succession_crisis_desc: "나라가 혼란에 빠졌습니다! 강력한 계승 요구자가 나타나, 백성들의 의사를 짓밟으며 권좌의 찬탈을 꾀하고 있는 것입니다. 이제 우리 영토는 나라 안팎으로 극심한 위기에 시달리게 되었습니다..."
+ pretender_enforced_claim_tt: "계승 요구자가 계승을 통해 왕권을 받음"
+ no_heir_or_regent_or_bad_heir_tt: "[regent|e], 약한 [heir|e], 또는 [heir|e]가 아예 없음 등의 이유로 이 [disaster|e]의 요건이 완화되었습니다"
+ pretender_is_cold_tt: "계승 요구자가 사망하거나 궁정을 떠남"
+ succession_crisis_pretender: "왕위 계승 요구자"
+ succession_crisis_crown_supporters: "왕실 지지 세력"
+ succession_crisis_pretender_supporters: "계승 요구자 지지 세력"
+ no_pretender_rebel_active_tt: "활동하는 [rebels|e] 중에 계승 요구자가 없습니다"
+ succession_crisis_price: "$succession_crisis$ 행동 비용"
+ sc_seek_foreign_aid: "외국에 원조 요청"
+ sc_seek_foreign_aid_desc: "우리 [actor.GetFlavorRank]에 대한 계승 요구자들의 위협이 점차 고조되며, 나날이 상황이 악화되고 있습니다. 이 참칭자들은 완전히 근절되지 않는 한 우리의 최고 권위를 찬탈하려는 노력을 멈추지 않을 것입니다. 우리의 영토와 통치권을 보전하기 위해서라도 나라 밖에서 조력자와 우방을 찾는 게 좋겠습니다."
+ sc_commission_dynastic_history: "가문 연대기 편찬 의뢰"
+ sc_commission_dynastic_history_desc: "우리의 옛 선조께서는 오늘날 우리 [actor.GetFlavorRank](을)를 이루는 광활한 땅을 개척하고 일구어 내셨습니다. 영광스러운 선조의 역사를 기록함으로써, 우리는 가문의 영광을 드높이고 모든 계승 요구자에 맞서 우리의 정통성을 내보일 것입니다."
+ sc_ask_help_from_the_nobility: "귀족층에 도움 요청"
+ sc_ask_help_from_the_nobility_desc: "우리 [actor.GetFlavorRank] 내의 많은 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]들은 우리 국가에서 상당한 영향력을 행사합니다. 이들의 호감을 산다면 우리를 축출하려는 어떠한 계승 요구자도 능히 물리칠 수 있을 것입니다."
+ sc_ask_help_from_the_clergy: "성직자 계층에 도움 요청"
+ sc_ask_help_from_the_clergy_desc: "우리는 현재 마주한 위기에서 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')]들의 호의와 지원을 구함으로써, 경건한 신앙을 통해 [actor.GetReligion.GetGroup.GetAdjective] 전통을 굳건히 지켜 낼 것입니다."
+ sc_ask_help_from_the_burghers: "도시민 계층에 도움 요청"
+ sc_ask_help_from_the_burghers_desc: "간사한 계승 요구자가 우리 [actor.GetFlavorRank](을)를 내전에 빠뜨릴 경우를 대비해, 막대한 영향력을 지닌 재력가들에게 군비 지원을 요청합니다. 부유층의 두둑한 지갑은 우리의 재정에 큰 보탬이 될 것입니다..."
+ choose_writer: "[ShowArtistTypeNameWithNoTooltip('writer')] 선정"
+ selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "선정된 [ShowArtistTypeName('writer')]가 [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]의 [ShowWorkOfArtTypeName('chronicle')]를 편찬합니다. 완성된 [work_of_art|e]의 품질에 따라 우리가 얻는 [legitimacy|e]이 크게 좌우됩니다."
+ target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName](이)가 [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]의 [ShowWorkOfArtTypeName('chronicle')]를 편찬합니다"
+ #Ambrosian Republic
+ #Disaster
+ ambrosian_republic_disaster: "황금 암브로시아 공화국"
+ ambrosian_republic_disaster_desc: "계승 위기가 시작되었건만, 그 양상이 꽤 이례적입니다. 권좌의 계승권을 주장할 강력한 인물이 부재한 틈을 타, 이상주의에 빠진 학자들이 [ShowLocationName('milano')]에 미숙한 공화국을 세우려고 든 것입니다. 이 반항적인 학자들은 이미 상당한 대중적 지지를 얻었으며, 나라 전체를 더욱 거센 불안정에 빠뜨릴 위험이 있습니다."
+ has_chosen_ally_union_variable_tt: "#Y 암브로시아 공화국#! 이벤트에서 [ally|e](과)와 [union|e]을 창설함"
+ #Religious Turmoil
+ #Disaster
+ religious_turmoil: "종교 내란"
+ religious_turmoil_desc: "국가 내에 자리한 종교 집단 사이의 견해 차이가 극복 불가능한 수준으로 치달으며, 불관용과 편협으로 인한 문제가 판을 치고 있습니다. 우리는 앞으로 백성들이 올바른 길을 걷도록 힘쓰는 동시에, 길을 벗어난 자들을 다시 빛으로 인도해야 합니다."
+ rt_push_for_spiritualist: "[ShowSocietyDirectionNameWithNoTooltip('spiritualist')] 추진"
+ rt_push_for_spiritualist_desc: "대중은 오만과 이단의 손아귀에서 벗어나 구원의 길로 인도되어야 합니다. [ShowSocietyDirectionName('spiritualist')]를 포용해야만 비로소 우리 종교적 정체성의 근간을 무너뜨리려는 자들을 물리칠 수 있습니다."
+ rt_push_for_humanist: "[ShowSocietyDirectionNameWithNoTooltip('humanist')] 추진"
+ rt_push_for_humanist_desc: "새로운 [ShowReligionGroupName('christian')] 분파가 출현하며 종교적 차이를 이해하고 조화와 다양성이 공존하는 사회를 향해 함께 노력하는 새 시대가 열렸습니다. 이러한 변화를 눈앞에 두고 이 격동의 시기를 가만히 방관하며 보낼 수는 없습니다. 새롭게 발견한 이 진리를 적극 장려해야 마땅합니다."
+ rt_support_conversion_efforts: "개종 활동 지원"
+ rt_support_conversion_efforts_desc: "우리는 길 잃은 자들을 빛으로 다시 인도하는 일에 힘을 쏟아야 합니다. 개종 활동을 강화한다면 국민의 치유 과정을 앞당겨, 이 혼란스럽고 어두운 시기를 마침내 벗어날 수 있을 것입니다."
+ #War of the Roses
+ #Disaster
+ war_of_the_roses: "장미 전쟁"
+ war_of_the_roses_desc: "[GetCountry('ENG').GetName]가 통치 왕조의 방계 혈통 간에 벌어진 분쟁으로 인해 갈가리 찢겨 나가고 있습니다. '백장미' [ShowDynastyName('york_dynasty')] 가문과 '붉은 장미' [ShowDynastyName('lancaster_dynasty')] 가문이 어느 쪽의 통치권 주장이 더 강력한지를 두고 충돌한 것입니다. 이 내분은 향후 수십 년간 이어질 수 있으며, 모든 [GetCountry('ENG').GetGovernment.GetEstateName('nobles_estate')] 계층에 영향을 주고 [GetCountry('ENG').GetFlavorRank]의 안정을 완전히 뒤흔들 것입니다!"
+ #Actions
+ wotr_bribe_garrison: "주둔군 매수"
+ wotr_bribe_garrison_desc: "내전이 진행되는 동안 충성심은 시험대에 오르게 됩니다. 우리 [actor.GetFlavorRank] 전체를 감싼 불안정을 기회로 삼아, 적 성채에 금전과 안전 보장을 제안함으로써 성채의 지휘관이 우리의 공세를 버티다 함락되는 대신 평화로운 항복을 택하도록 유도합시다."
+ select_ongoing_siege_to_bribe: "매수할 진행 중인 [siege|e] 선택"
+ no_ongoing_siege_to_bribe: "@trigger_no! 매수 가능한 진행 중인 [siege|e] 없음"
+ chosen_siege_tt: "[target_siege.GetName]의 주둔군이 항복할 것입니다"
+ no_chosen_siege_tt: "선택한 [location|e]의 주둔군이 항복할 것입니다"
+ #War of the Aragonese Union
+ #Disaster
+ war_of_the_aragonese_union_disaster: "연합 전쟁"
+ war_of_the_aragonese_union_disaster_desc: "[SCOPE.sCountry('CAS').GetGovernment.GetAdjective] 왕실의 과도한 요구가 새로운 반란 세력의 출현을 불러왔습니다. 아라곤 연합과 발렌시아 연합이라는 이 두 세력은 불만을 품은 [GetCountry('ARA').GetGovernment.GetEstateName('nobles_estate')] 및 [GetCountry('ARA').GetGovernment.GetEstateName('burghers_estate')] 구성원이 주축을 이루며, 군주의 권력 제한과 세금 감축, 지역 법규와 특권, 그리고 전통의 존중을 요구합니다."
+ #Savonarola
+ #Disaster
+ savonarola_disaster: "사보나롤라의 대두"
+ savonarola_disaster_desc: "한 신예 설교사가 우리 백성들에게 종말론적 사상을 퍼뜨리기 시작했습니다. 그 입에서 쏟아져 나오는 열띤 설교는 부패하고 부도덕한 사회, 특히 지도층을 강력하게 비난합니다. 이러한 망언이 현재 우리 국민 사이에 상당한 반향을 일으키고 있는 것으로 보아, 이 광인의 영향력은 부정할 수 없을 듯합니다..."
+ #Ciompi Revolt
+ #Disaster
+ ciompi_revolt: "치옴피 반란"
+ ciompi_revolt_desc: "치옴피가 공개적인 반란 가능성을 시사하면서, 피렌체가 불확실성의 시기를 맞이하고 있습니다. 길드에 소속되지 않은 노동자, 장인, 기술자들로 구성된 치옴피는 무거운 세금 부담을 지고 있음에도 불구하고 길드 회원이 아니란 이유에서 정치적 대표성을 전혀 가지지 못했습니다. 우리 사회가 광범위한 불안정에 휩싸이는 가운데, 자칫하면 내분으로 이어질지도 모릅니다..."
+ #Crisis of the Sayfawa Dynasty
+ #Disaster
+ crisis_of_the_sayfawa_dynasty: "사이파와 왕조의 위기"
+ crisis_of_the_sayfawa_dynasty_desc: "일대를 통치해 온 우리 왕조의 길고 성공적인 역사에도 불구하고, 내부 갈등과 더불어 그간 나타난 일련의 정통성 없는 통치자들로 인해 결국은 위기가 찾아오고 말았습니다. 우리가 내부 갈등을 진정시키려 애쓰는 동안, 간사한 적과 강력한 이웃 나라는 우리 영토를 분열시키고 이 땅에서 우리 백성을 일소하려 들 것입니다. 우리는 내부의 부패와 타락에 무너지지 않도록 경계하는 동시에, 언제나 우리의 정당한 소유였던 영토를 외부 세계에 주장할 방법을 찾아야 합니다."
+ #Muscovite Succession War
+ #Disaster
+ muscovite_succession_war: "모스크바 계승 전쟁"
+ muscovite_succession_war_desc: "[GetCountry('MOS').GetCapital.GetName](은)는 [GetCountry('MOS').GetCapital.GetRegion.GetName] 일대의 권력 중심지입니다. 계승 위기가 불거지며 지배 가문의 구성원들 사이에 내분이 발생했으며, 모두가 권좌에 오를 권리를 주장하고 있는 상황입니다. 이 분쟁이 격화될 경우 가문이 찢어지는 것은 물론이고, 우리 모두에게 재앙에 가까운 결과를 초래할지도 모릅니다."
+ #Peasants War
+ #Disaster
+ peasants_war: "농민 전쟁"
+ peasants_war_desc: "평민이 겪는 고난이 나날이 심각해지며, 시골 지역에서 불만이 점점 들끓고 있습니다. 부당한 과세와 압제적인 귀족 지주, 그리고 절망감이 농민들을 한계까지 몰아붙인 것입니다. 마침내 억눌렸던 분노의 물결이 터져 나왔고, 후일 농민 전쟁이라고 칭해질 격변의 시기가 도래했습니다."
+ pw_push_for_serfdom: "[ShowSocietyDirectionNameWithNoTooltip('serfdom')] 추진"
+ pw_push_for_serfdom_desc: "현지의 영주는 우리의 권위에 감히 반기를 든 농민 폭도들을 최대한 잔인하게 짓밟아 두어야 합니다. 폭도들에게 지배권을 강탈당하는 일을 방지하기 위해서라도 고삐를 조금도 풀어서는 안 됩니다!"
+ pw_push_for_free_subjects: "[ShowSocietyDirectionNameWithNoTooltip('free_subjects')] 추진"
+ pw_push_for_free_subjects_desc: "백성들은 지위를 구실로 가혹한 지배를 일삼는 봉건 영주의 굴레에 너무나 오랫동안 고통받아 왔습니다. 일반 백성의 생활 수준을 높이고 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')]의 자유를 되찾는 것은 우리의 도덕적 의무입니다!"
+ pw_crush_rebellion: "반란 진압"
+ pw_crush_rebellion_desc: "우리에게 맞서 봉기한 백성들이 [actor.GetGovernment.GetRulerOrRegent.GetName]의 위신을 실추하고 기존의 사회 질서를 훼손하며 권익과 특권을 요구하고 있습니다. 이는 절대 용납할 수 없는 일이므로, 이러한 운동에 찬동하는 자들을 지금 당장 철저히 진압해야 할 것입니다."
+ pw_crush_rebellion_tt: "선택된 [rebellion|e]을 지지하는 [pops|e]의 [Concept('pop_satisfaction', '만족도')|e]가 [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] 감소합니다"
+ pw_rebel_progress_reduction_tt: "선택된 [rebellion|e]의 진행도가 #G 25%#! 감소합니다"
+ #Struggle for Royal Power
+ #Disaster
+ struggle_for_royal_power: "왕권 투쟁"
+ struggle_for_royal_power_desc: "군주의 권위와 세임의 권력이 대립하며 극심한 갈등이 빚어지고 있습니다. 이는 곧 우리의 관습적 계층 구조에 대한 도전으로 이어질 것입니다. 현상 유지를 원한다면 이 위협에 단호하게 대처해야 합니다. 이제 계층의 간섭을 뿌리치고 권력의 고삐를 쥐도록 합시다!"
+ #Dissolution of Delhi
+ #Disaster
+ dissolution_of_delhi: "델리의 파국"
+ dissolution_of_delhi_desc: "각고의 노력을 다했으나 결국 방해자들이 가한 피해를 복구할 수 없었습니다. 적들이 사방에서 에워싸자, 한때 위대했던 우리 제국은 혼란의 구렁텅이로 처박히고 말았습니다. 이번 사태는 실로 엄중한 위기이며 반드시 정면으로 맞부딪혀야 할 문제입니다. 그러지 않으면 우리 땅을 탐내는 공격적인 이들의 먹잇감이 될 뿐입니다..."
+ #Hook and Cod Wars
+ #Disaster
+ hook_and_cod_wars: "갈고리와 대구 전쟁"
+ hook_and_cod_wars_desc: "우리나라의 후계 문제가 불투명해지자, 정치 지도자들이 두 파벌로 나뉘었습니다. 대구파는 대체로 보수적이며 계승권이 확립된 통치자를 지지하는 반면, 갈고리파는 전반적으로 독립을 옹호하며 계승권이 덜 확고한 인물을 지지합니다. 이러한 분열은 현 체제를 극심하게 뒤흔들 우려가 있으며, 신중하게 접근해야 합니다."
+ hook_and_cod_wars_hooks_have_won_tt: "#Y 갈고리파#!가 영향력 점수를 #Y 20점#! 확보했습니다(현재 총합: #Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!)"
+ hook_and_cod_wars_cods_have_won_tt: "#Y 대구파#!가 영향력 점수를 #Y 20점#! 확보했습니다(현재 총합: #Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!)"
+ HACW_HOOK_TOOLTIP: "#Y 갈고리파#!는 [DisasterView.GetDisaster.GetOwner.GetName]의 [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('nobles_estate')] 계층을 대변합니다. 이들은 [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetName]의 계승권 주장을 지지합니다"
+ HACW_COD_TOOLTIP: "#Y 대구파#!는 [DisasterView.GetDisaster.GetOwner.GetName]의 [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('burghers_estate')] 계층을 대변합니다. 이들은 [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetName]의 계승권 주장을 지지합니다"
+ #Horde Civil War
+ #Disaster
+ horde_civil_war: "유목 군단 내전"
+ horde_civil_war_desc: "또다시 우리 통치자의 권위가 도마 위에 올랐습니다! 경쟁 군벌이 내전을 통해 권좌를 찬탈하겠다며 우리에게 위협을 가한 것입니다. 이제 우리는 다른 누구도 아닌 변절해 버린 동족들과 전쟁을 벌여야만 합니다..."
+ horde_civil_war_end_trigger_no_rebels: "반란군 중 #Y 계승 요구자#! [rebel|e]이 단 하나도 없음"
+ horde_civil_war_crown_supporters: "군단 충성 세력"
+ horde_civil_war_pretender_supporters: "군단 변절 세력"
+ GUI_REBEL_OWNED_LOCATIONS: "[rebels|e]이 소유한 [locations|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
+ GUI_REBEL_MILITARY_STRENGTH_COMPARED_TO_US: "우리와 비교한 [rebels|e]의 [military_strength|e]입니다."
+ #Revolution
+ #Disaster
+ revolution_disaster: "혁명!"
+ revolution_disaster_desc: "수십 년에 걸친 봉건적 억압, 경제난, 종교적 불관용 등이 쌓이고 쌓여, 우리나라의 평화에 큰 타격을 입혔습니다. 그 부담을 견디다 못해 일어난 백성들의 자유를 향한 외침이 우리의 통치에 심각한 위협을 가하고 있습니다. 이제 민중 봉기는 피할 수 없는 수순일 듯합니다..."
+ revolution_disaster_end_trigger_tt: "이 #Y 혁명 반란군#!은 현재 [civil_war|e]을 계획하고 있지 않습니다"
+ MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip] [army|e] 규모: [DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] 잠재 [levy|e]: [DisasterView.GetDisaster.GetOwner.GetArmyLevyPotentialStrength]@levy\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
+ REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]의 잠재 [military_strength|e]"
+ REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip] [army|e] 규모: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] 잠재 [levy|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPotentialStrength]@levy\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
+ MONARCHIST_POTENTIAL_STRENGTH_TT: "[DisasterView.GetDisaster.GetOwner.GetName]의 잠재 [military_strength|e]"
+ #Revolutionary Chaos
+ #Disaster
+ revolutionary_chaos: "혁명의 혼란"
+ revolutionary_chaos_desc: "구체제는 이제 없습니다! 이전의 압제자들을 타도하고 스스로 권력을 장악하는 데 성공한 것입니다! 그러나 서로 대립하는 파벌이 신생 정부의 주도권을 두고 다툼을 벌임에 따라, 우리나라의 안정과 안보가 여전히 위태로운 상황입니다. 외부의 위협에 맞서 굳건히 설 수 있도록, 이 내부의 혼란을 반드시 진압해야 합니다..."
+ #Sinicization Disaster
+ #Disaster
+ sinicization_disaster: "중국의 영향력"
+ sinicization_disaster_desc: "[GetCountry('CHI').GetName]의 영향력 아래에서 살아가는 것은 여러모로 우리 사회에 큰 도움이 되었습니다. 하지만 이 문화적 거대 국가와의 관계는 우리 사회를 구성하던 조화로운 문화 사이에 여러 외래문화를 뒤섞어 넣어, 결과적으로 전통의 단절과 독립성의 위기를 불러왔습니다. 우리의 고유한 문화를 보존하려면 외세가 가져다주는 매력적인 이익을 뿌리치고, 더 이상 우리 문화가 잠식되지 않도록 힘써야 합니다. 하지만 반대로, 더 긴밀한 관계를 통해 더 많은 이득을 추구할 수도 있을 듯합니다..."
+ has_opted_to_side_with_china_in_events_tt: "다양한 [events|e]를 통해 [GetCountry('CHI').GetNameWithNoTooltip]이 우리 궁정에 행사하는 영향력을 충분히 #G 증진#!함"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "다양한 [events|e]를 통해 [GetCountry('CHI').GetNameWithNoTooltip]이 우리 궁정에 행사하는 영향력을 충분히 #G 억제#!함"
+ #Crisis of the Chinese Dynasty
+ #Disaster
+ crisis_of_the_chinese_dynasty: "[GetCountry('CHI').GetLongNameWithNoTooltip]의 위기"
+ crisis_of_the_chinese_dynasty_desc: "하늘에 암운이 드리우며 우리는 신의 총애를 잃을 처지에 놓였습니다! 나라 안팎에서 가해지는 압박은 나날이 거세져 가고, 관료 조직이 무너지고 농업이 위축되는 등 상황은 계속해서 우리에게 불리하게 흘러가고 있습니다. 아무래도 백성들은 더 이상 우리를 [GetCountry('CHI').GetFlavorRank]의 정당한 통치자로 인정하지 않는 듯합니다."
+ ccd_celestial_authority_trigger: "우리의 [celestial_authority_gc|e]이 #Y 90#! 이상임(현재: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V1]#!)"
+ #Triggers
+ cmd_has_reformed_cabinet_tt: "[ShowGenericActionName('cmd_reform_the_cabinet')] [action|e]을 시행함"
+ cmd_has_restored_stability_tt: "[ShowGenericActionName('cmd_restore_stability')] [action|e]을 시행함"
+ cmd_has_strenthened_crown_tt: "[ShowGenericActionName('cmd_strengthen_crown')] [action|e]을 시행함"
+ #Monthly Pulse
+ fire_event_4_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]들이 세금 납부를 거부하는 [event|e]가 발생할 수 있습니다"
+ fire_event_5_tt: "소유한 [provinces|e]에 [prosperity|e]이 감소하는 [event|e]가 발생할 수 있습니다"
+ #Decline of Majapahit
+ #Disaster
+ decline_of_majapahit: "$MAJ$의 쇠퇴"
+ decline_of_majapahit_desc: "우리 [GetCountry('MAJ').GetFlavorRank](은)는 예전만큼 번영하지 못하고 있습니다. 내부적으로 왕조 갈등에 시달리는 가운데, 우리의 힘이 약해지기만을 기다렸던 많은 경쟁국이 우리 국경을 침범할 기회를 호시탐탐 엿보고 있습니다. 게다가 [ShowRegionName('indonesia_region')]에서 [ShowReligionGroupName('muslim')]까지 떠오르고 있으니, 머지않아 우리나라는 영향력을 잃고 그저 몰락한 제국 중 하나로 기록되는 처지에 놓일지도 모릅니다..."
+ demak_progress: "[ShowReligionAdjectiveWithNoTooltip('sunni')] 지배도"
+ SUNNI_POPS: "수니파 팝"
+ HINDU_POPS: "힌두교 팝"
+ SUNNI_DOMINANCE_MAJAPAHIT: "$demak_progress$"
+ DEMAK_PROGRESS_GROWTH_TOOLTIP_TITLE: "$demak_progress$ 증가"
+ DEMAK_PROGRESS_GROWTH_TITLE: "$demak_progress$"
+ DEMAK_MONTHLY_CHANGE_HEADER: "$demak_progress$는 매달 [Country.MakeScope.GetVariable('demak_progress_growth').GetValue|-=2%]씩 변동합니다"
+ DEMAK_MONTHLY_CHANGE_POP_SHARE: "[ShowReligionAdjective('hindu')] 대비 [ShowReligionAdjective('sunni')] 비율: [Country.MakeScope.GetVariable('maj_sunni_percentage').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_STABILITY_IMPACT: "[stability]: [Country.MakeScope.GetVariable('maj_stability_impact').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT: "[legitimacy]: [Country.MakeScope.GetVariable('maj_legitimacy_impact').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_BREAKDOWN: "$DEMAK_MONTHLY_CHANGE_POP_SHARE$\n$DEMAK_MONTHLY_CHANGE_STABILITY_IMPACT$\n$DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT$"
+ DEMAK_PROGRESS_GROWTH_HEADER: "$demak_progress$"
+ DEMAK_PROGRESS_GROWTH_TOOLTIP: "$demak_progress$는 우리 [Country.GetFlavorRank]에서 [ShowReligionAdjective('sunni')] [religion|e]가 얼마나 퍼져 있는지를 나타내는 척도입니다. $demak_progress$ 증가량은 [ShowReligionAdjective('sunni')] [pops|e]이 증가할수록 늘어나며, #y 100.0%#!에 도달하면 [ShowReligionAdjective('sunni')]가 [dominant_religion|e]인 우리 [locations|e]이 모두 분리되어 $DEM$을 형성합니다."
+ #Court and Country
+ #Disaster
+ court_and_country: "궁정과 국가"
+ court_and_country_desc: "우리나라의 중앙 집권화에 대한 반발이 국가 전체의 위기로 격화되어, 궁정과 국가 사이에서 가시적인 갈등과 충돌이 발생했습니다. 하지만 이 어려운 시기를 어떻게 극복하느냐에 따라 오히려 이전보다 더욱 강력한 나라로 도약할 수 있을지도 모릅니다. 물론, 이 폭풍우를 우리가 헤쳐 나갈 수 있다면 말이죠."
+ court_and_country_tips_header: "궁정과 국가에 관한 조언"
+ court_and_country_tips_tt: "다음을 통해 [crown_power|e]을 높일 수 있습니다:\n$BULLET_WITH_TAB$[privileges|e] 박탈\n$BULLET_WITH_TAB$각 [locations|e]의 [control|e] 강화\n$BULLET_WITH_TAB$[ShowBuildingTypeName('counting_house')] 건설\n$BULLET_WITH_TAB$[legitimacy|e] 강화\n$BULLET_WITH_TAB$특정 [policies|e] 제정"
+ french_wars_of_religion_breakdown_tt: "우리 [country|e]의 [ShowReligionGroupAdjective('christian')] 계통 [religions|e] 비율\n[ShowReligionName('catholic')]:"
+ x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2] [catholic|e] [pops|e]"
+ court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]들이 세금 납부를 거부하는 [event|e]가 발생할 수 있습니다"
+ court_and_country_8_tt: "불안정으로 인해 지역적인 반란이 일어나는 [event|e]가 발생할 수 있습니다"
+ court_and_country_9_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]들이 특권을 사수하기 위해 봉기를 일으키는 [event|e]가 발생할 수 있습니다"
+ court_and_country_10_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] 연맹이 봉기를 일으키는 [event|e]가 발생할 수 있습니다"
+ court_and_country_11_tt: "군대 내 장교들이 충성심을 시험받는 [event|e]가 발생할 수 있습니다"
+ court_and_country_12_tt: "군대와 정부 안에서 지지자를 찾는 [event|e]가 발생할 수 있습니다"
+ #Aspiration for Liberty Disaster
+ #Disaster
+ aspiration_for_liberty: "자유를 향한 열망"
+ aspiration_for_liberty_desc: "국민들의 자유를 향한 열망과 계몽적 이상 실현을 향한 염원으로 미루어 볼 때, 혁명이 일어나는 것은 불가피해 보입니다. 이들은 우리가 통치에 실패했다고 인식하고 있으며, 그로 인한 분노는 당장에라도 혁명의 불씨를 댕길 정도입니다. 앞으로의 통치는 더더욱 고난의 연속일 듯합니다..."
+ battles_on_foreign_grounds_tt: "외국에서의 전쟁 비용을 감당하기 어려워지는 [event|e]가 발생할 수 있습니다"
+ governmental_incompetence_event_tt: "국민이 무능한 정부에 맞서 봉기를 일으키는 [event|e]가 발생할 수 있습니다"
+ #Reform Society
+ #Disaster
+ reform_society: "사회 개혁"
+ reform_society_desc: "[ShowGovernmentReformName('altepetl')] 제도는 오래도록 우리 백성을 보살피고 번영을 가져다주었습니다. 그러나 다른 도시 국가의 신민들을 느슨히 대한 탓인지, 우리의 통치를 반대하는 목소리가 커지고 말았습니다. 우리나라의 영광을 유지하고 국력을 강화하려면 개혁을 통한 중앙 집권화가 필요합니다."
+ #Rise of the Szlachta
+ #Disaster
+ rise_of_the_szlachta: "$nobles_estate_szlachta$의 부상"
+ rise_of_the_szlachta_desc: "$nobles_estate_szlachta$의 끝없는 권력욕은 어제오늘 일이 아닙니다만, 이들의 영향력이 점점 더 증대되며 더 많은 특권을 요구하는 목소리가 우리 궁정을 가득 채우고 있습니다. $nobles_estate_szlachta$들이 최근에 보인 정치적 술수를 보면 흡사 먹이를 노리는 야수를 연상케 할 정도입니다. 우리의 권위에 도전할 기회를 엿보고 있는 게 분명합니다!"
+ #Actions
+ pw_push_for_aristocracy: "[ShowSocietyDirectionNameWithNoTooltip('aristocracy')] 추진"
+ pw_push_for_aristocracy_desc: "우리의 방침은 점점 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]의 특권과 전통적 계급 구조를 선호하는 쪽으로 향하고 있습니다. 검과 혈통이 사회에서의 위치를 결정하며, 유서 깊은 가문이 권력을 굳건히 장악해야 마땅합니다. 하지만 이러한 권력 집중은 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')] 등 여타 유력 계층의 분노를 부를 수 있습니다..."
+ pw_push_for_plutocracy: "[ShowSocietyDirectionNameWithNoTooltip('plutocracy')] 추진"
+ pw_push_for_plutocracy_desc: "영향력은 가문의 이름이 아니라 부에서 나옵니다. 앞으로 우리나라에서는 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')], 자본가, 진취적인 엘리트들이 특혜를 받을 것이며, 현행 제도 또한 상업과 이윤을 중시하는 모습으로 재편될 것입니다. 물론 이러한 움직임에 힘 있는 일부 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]들은 틀림없이 반발할 테지만요..."
+ #Tooltips
+ given_more_estate_power_nobles_estate_power_tt: "[GetCountry('POL').GetGovernment.GetEstateName('nobles_estate')] [estate|e]에 [estate_power|e]을 더 부여했습니다"
+ given_more_estate_power_burghers_estate_power_tt: "[GetCountry('POL').GetGovernment.GetEstateName('burghers_estate')] [estate|e]에 [estate_power|e]을 더 부여했습니다"
+ given_more_estate_power_crown_estate_power_tt: "[GetCountry('POL').GetGovernment.GetEstateName('crown_estate')] [estate|e]의 [estate_power|e]을 더 확보했습니다"
+ #Death of Hayam Wuruk
+ #Disaster
+ death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]의 서거"
+ death_of_hayan_wuruk_desc: "위대한 지도자 [GetCharacter('maj_hayam_wuruk').GetName]의 서거로 인해 [GetCountry('MAJ').GetFlavorRank] 전체가 큰 혼란에 빠졌습니다. 앞으로 오래도록 이어질지도 모르는 이 격동의 시기에 한때 고개를 숙였던 자들이 들고 일어나 우리의 권위에 이의를 제기할지도 모릅니다. 이 대재앙에서 살아남아 존속하려면, 계승 분쟁과 [GetCountry('MAJ').GetAdjective]의 쇠퇴라는 두 가지 시급한 문제를 지금 당장 해결해야 합니다."
+ #Curse of Stefan Uros III
+ #Disaster
+ curse_of_stefan_uros_iii: "[GetCharacter('ser_stefan_decanski').GetNameWithNoTooltip]의 저주"
+ curse_of_stefan_uros_iii_desc: "[GetCharacter('ser_stefan_dusan').GetName]의 위대하고 장엄한 전설을 부정할 자는 없습니다. 당대 최고 수준의 교육을 받아 궁정 예절에 대한 해박한 지식을 갖춘 뛰어난 지휘관으로 자라난 [GetCharacter('ser_stefan_dusan').GetShortNameWithNoTooltip](은)는 위대한 우리나라의 도약을 이끌었습니다. 그러나 이 위인도 궁중 암투에서 자유로운 것은 아니었고, 그 유산 또한 온갖 고문과 살인, 그리고 술수로 얼룩져 있었습니다. [GetCharacter('ser_stefan_dusan').GetNameWithNoTooltip]의 즉위 과정에서 가장 큰 희생양이 되었던 인물은 바로 그 선왕인 [GetCharacter('ser_stefan_decanski').GetName](으)로, 그는 숨을 거두면서도 '네 후손은 몰락할 것'이라며 저주의 말을 남겼습니다. 그리고 현재, 미신을 믿는 자들 사이에서 선대 [SCOPE.sCountry('actor').GetGovernment.GetRulerTitle]의 모습을 보았다는 소문이 숨죽여 돌고 있습니다. 마치 우리가 멸망할 전조라는 듯이 말입니다..."
+ #English Civil War Disaster
+ #Disaster
+ english_civil_war: "잉글랜드 내전"
+ english_civil_war_desc: "권력과 통치권을 둘러싼 왕실과 의회 사이의 갈등이 격화되면서, 국가 전체가 분란에 휩싸일 위험에 처했습니다. 왕권신수설에 대한 통치자의 신념과 종교 정책, 그리고 절차를 무시한 조세 부과가 의원들의 분노를 불러일으킨 것입니다. 이 상황을 진정시킬 해결책을 빠르게 찾지 못한다면 본격적인 내전으로 격화될지도 모릅니다..."
+ lost_civil_war_tt: "#Y 의회파#!가 [civil_war|e]에서 승리했습니다"
+ won_civil_war_tt: "#Y 왕당파#!가 [civil_war|e]에서 승리했습니다"
+ parliamentarist_rebels: "의회파"
+ complete_the_ecw_and_lose_tt: "[ShowDisasterName('english_civil_war')]이 종결됩니다"
+ #French Wars of Religion Disaster
+ #Disaster
+ french_wars_religion: "프랑스 종교 전쟁"
+ french_wars_religion_desc: "새로운 [ShowReligionGroupAdjective('christian')] 종파가 [ShowContinentName('europe')] 전체에 걸쳐 발흥하면서, 우리 사회 내부의 종교적 갈등이 폭발 직전에 이르렀습니다. 이제 무장한 광신도와 이단, 그리고 참된 믿음의 수호자들까지 모두가 들고 일어나, 나라 전체가 끔찍한 내전의 구렁텅이로 곤두박질칠 위기에 놓였습니다."
+ had_fwr_before_definitive_ending_tt: "과거에 이 재난을 [religious_unity|e] 조건을 달성하거나 [ShowPolicyName('edict_of_nantes')] [policy|e]에 서명함으로써 종결한 적이 없음"
+ lutheran_huguenots: "$lutheran_ADJ$ 위그노"
+ calvinist_huguenots: "$calvinist_ADJ$ 위그노"
+ catholic_huguenots: "$catholic_ADJ$ 위그노"
+ #Actions
+ reach_compromise_with_huguenots: "위그노 세력과 타협"
+ reach_compromise_with_huguenots_desc: "나라가 지금처럼 계속 분열해 있도록 내버려둘 수는 없습니다. 따라서 우리는 타협과 단결을 통해 이 재난을 헤쳐 나갈 것입니다."
+ #Time of Troubles Disaster
+ #Disaster
+ time_of_troubles: "동란 시대"
+ time_of_troubles_desc: "암흑기가 도래해 각종 사회 및 경제 문제가 횡행하는 가운데, 우리나라는 기아와 전쟁, 그리고 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')](과)와 [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]의 반대에 부딪혀 어려움에 시름하고 있습니다. 사회의 전 국면이 불화에 휩싸인 우리 [Country.GetFlavorRank]의 처지는 그야말로 갈기갈기 뜯어먹히기 직전이라고 말해도 과언이 아닙니다..."
+ #Decline of the Empire
+ #Disaster
+ decline_of_empire: "제국의 쇠퇴"
+ decline_of_empire_desc: "한때 강대하고 굳건했던 우리 제국은 이제 붕괴 직전까지 내몰렸습니다. 각종 기관에는 부패가 만연하고, 지방은 중앙의 무관심 속에서 불안에 떨고 있으며, 외세는 얼마 남지 않은 영광마저 가로채기 위해 마치 하이에나 무리처럼 호시탐탐 기회를 엿보고 있습니다. 우리나라의 상징과도 같았던 황금기는 이제 희미한 기억이 되었고, 국가의 기반에 생겨 난 균열은 날이 갈수록 더 커지고 있습니다. 곪아 버린 환부를 어서 도려내고 지배력을 회복하지 않는다면, 제국은 무너져 내려 오직 후회와 폐허, 그리고 과거의 영광이 드리운 그림자만이 남게 될 것입니다..."
+ has_not_had_decline_of_empire_last_25_years: "지난 #Y 25#!년간 이 [disaster|e]을 겪지 않음"
+ #Decline of Mali
+ #Disaster
+ decline_of_mali: "말리의 쇠퇴"
+ decline_of_mali_desc: "최근 몇 년 사이 통치자의 권위가 땅에 떨어지고 내전이 일어난 데다, 외부적으로는 위협이, 내부적으로는 경기 침체를 겪고 있어 [GetCountry('MAL').GetLongName]의 앞날이 어둡습니다. [GetCountry('MAL').GetFlavorRank]의 안정과 안보가 위험에 처한 지금, 강력한 지도자만이 이 엄습해 오는 파멸에서 우리를 이끌어, 다시금 영광으로 인도할 수 있을 것입니다."
+ #Coup Attempt
+ #Disaster
+ coup_attempt: "쿠데타 시도"
+ coup_attempt_desc: "그림자 속에 숨어 암약하던 무리가 굶주린 하이에나 떼처럼 주위를 맴돌고 있습니다. 우리 통치자에게 갑작스러운 죽음을 안겨 주려는 게 분명합니다! 더욱 끔찍한 것은, 이 음모가 성공할 경우 저들의 뜻에 휘둘리는 꼭두각시가 우리의 권좌에 앉으리라는 사실입니다."
+ recently_had_coup_attempt_inconclusive_tt: "지난 #Y 5#!년간 결착이 나지 않거나 성공한 쿠데타 시도가 없음"
+ conspirators_murdered_ruler_tt: "음모자들이 우리 통치자를 암살하는 데 성공했습니다."
+ #Byzantine Civil War
+ #Disaster
+ byzantine_succession_crisis: "[GetCountry('BYZ').GetAdjectiveWithNoTooltip] 계승 위기"
+ byzantine_succession_crisis_desc: "교활한 계승 요구자와 배후의 권력자들이 [GetCountry('BYZ').GetAdjective]의 통치 가문을 전복하려는 음모를 꾸미고 있습니다. 강력한 장군과 외부 세력들이 이 격동의 시기를 자기 뜻대로 휘두르려 하면서 궁정은 혼란에 휩싸였습니다. [ShowRegionName('balkan_region')] 지역에서 우리의 영향력이 약해진 지금, $ROM$의 정통성을 잇는 이 마지막 보루는 앞날을 장담할 수 없게 되었습니다."
+ #Castilian Civil War
+ #Disaster
+ castilian_civil_war: "[GetCountry('CAS').GetAdjectiveWithNoTooltip] 내전"
+ castilian_civil_war_desc: "우리의 적들은 사회의 불안정을 조장하거나 통치권 계승을 주장하는 자를 지원하는 식으로 언제나 우리 정치에 개입하려 합니다. 우리는 이 불안정한 시기를 통해 누가 우리의 통치를 무너뜨리고 그 역사에 종지부를 찍으려 하는지 분명히 알게 될 것입니다. 풍요로운 [ShowRegionName('iberia_region')] 지역은 예로부터 적대적인 이웃 국가들의 뜨거운 관심을 받아 왔으나, 우리는 놈들이 이 땅의 부를 취하도록 두지 않을 것입니다!"

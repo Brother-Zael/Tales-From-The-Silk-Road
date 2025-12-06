@@ -1,0 +1,6 @@
+﻿l_turkish:
+ flavor_bei.1.title: "Bruney Sultanı"
+ flavor_bei.1.desc: "[ShowReligionGroupAdjective('muslim')] inancına sadık halk Güney Doğu Asya topraklarında yayıldıkça geleneksel [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective] inancının diplomatik sınırlamaları idealist [ROOT.GetCountry.GetGovernment.GetRuler.GetName] Hazretleri'ni hayal kırıklığına uğrattı.\n\n[ShowReligionGroupName('muslim')] öğretilerini benimsememiz için âdeta yalvarmaya başladı. Söz konusu öğretiler yeni diplomatik seçeneklerin önünü açacak ve diğer inanç sahibi hükümdarlarla evlilik yapmasına imkân tanıyacak.\n\nBu gelişmelerin sadık tebaamız arasında heyecan yarattığı aşikâr fakat din değiştirmek gerçekten doğru bir karar mı?"
+ flavor_bei.1.a: "Şehadet edeceğiz."
+ flavor_bei.1.b: "Köklü geleneklerimize bağlı kalacağız."
+ flavor_bei.1.historical_info: "1360 yılında Bruney Hükümdarı Hintli Raja Awang Alak Betatar, İslam'ı kabul etmiştir. Bunun ardında yatan neden, yabancı bir prensesle evlenmeye hak kazanmak istemesidir. Bu kişinin Johor Sultanı'nın kızı olduğu öngörülüyor. Raja, din değiştirdikten sonra Sultan Muhammed Şah olarak anılmaya başlandı. Bruney üzerinde hâlâ hüküm süren hanedanı tarihteki en saygıdeğer hükümdarlıklardan birini teşkil eder."

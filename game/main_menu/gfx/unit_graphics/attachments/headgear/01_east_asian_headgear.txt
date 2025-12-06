@@ -1,0 +1,124 @@
+﻿### CHINESE ###
+
+	#PEASANT
+east_asian_gfx:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_triangular_hemp_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hair_china_stick_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_deep_mesh" add_tags = "hair_covered" } } #CHINESE
+}
+
+	#MEDIUM
+east_asian_gfx:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_futou_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_iron_kettle_helmet_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_horse_hair_decoration_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_armor_paded_mesh" add_tags = "hair_covered" } } #CHINESE
+}
+
+	#HEAVY
+east_asian_gfx:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_plume_unfolded_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_plume_folded_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_iron_brush_feather_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_flag_plume_lamellar_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_kettle_plume_mesh" add_tags = "hair_covered" } } #CHINESE
+}
+
+#  AGE_2_RENAISSANCE
+
+east_asian_gfx:age_2_renaissance:peasant_hats = {    
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bunch_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_non_high_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_cotton_mesh" add_tags = "hair_covered" } } #CHINESE
+}
+
+east_asian_gfx:age_2_renaissance:soldier_hats = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_armor_lines_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_cheeks_oriental_mesh" add_tags = "hair_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_metal_edging_mesh" add_tags = "hair_covered" } } #CHINESE	
+}
+
+east_asian_gfx:age_2_renaissance:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_armor_plume_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_head_armor_plume_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_two_feathers_mesh" add_tags = "hair_covered" } }
+}
+
+#AGE_3_DISCOVERY
+	
+east_asian_gfx:age_3_discovery:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_wool_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_bamboo_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_coton_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_3_discovery:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_metal_horse_hair_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_scarf_satin_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_fur_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_3_discovery:noble_hats = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_ming_guard_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_gold_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_chichak_mesh" add_tags = "hair_covered" } }
+}
+
+#AGE_4_REFORMATION
+	
+east_asian_gfx:age_4_reformation:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_parts_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_smooth_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_farmer_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_4_reformation:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_leather_gold_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_han_metal_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_chinese_steel_mesh" add_tags = "hair_covered" } }
+}
+east_asian_gfx:age_4_reformation:noble_hats = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_fur_feathers_mesh" add_tags = "hair_covered" } }
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_cone_metal_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_dark_plume_mesh" add_tags = "hair_covered" } }
+}
+
+
+#AGE_5_ABSOLUTISM
+	
+east_asian_gfx:age_5_absolutism:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_ponytail_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_peasant_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_lofty_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_5_absolutism:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_chichak_iron_mesh" add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_han_soldiers_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hair_manchu_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_5_absolutism:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_feathers_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_feathers_gold_mesh" add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_helmet_han_mesh" add_tags = "hair_covered" } }
+}
+
+# TODO AGE_6_REVOLUTIONS
+east_asian_gfx:age_6_revolutions:peasant_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_panama_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_feather_button_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_han_straw_mesh" add_tags = "hair_covered" } }
+}
+
+east_asian_gfx:age_6_revolutions:soldier_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_circular_felt_feather_mesh" add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_gilden_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_straw_wrap_mesh" add_tags = "hair_covered" } }
+}
+east_asian_gfx:age_6_revolutions:noble_hats = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_futou_fur_mesh" add_tags = "hair_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_hanfu_felt_mesh" add_tags = "hair_covered"} }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_hat_felt_hanfu_mesh" add_tags = "hair_covered" } }
+}

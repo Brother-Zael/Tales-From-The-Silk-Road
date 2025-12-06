@@ -1,0 +1,430 @@
+﻿l_korean:
+ ### Region 'ireland_region' (Ireland) ###
+ ## Area 'leinster_area' (Leinster) ##
+ #Province 'dublin_province' (Dublin) #
+ dublin.gaelic_language: "두블린"
+ fingal.gaelic_language: "물라흐 이더" #Malahide
+ wicklow.gaelic_language: "킬 만탄"
+ glendalough.gaelic_language: "글란 다 로흐"
+ #Province 'meath_province' (Meath) #
+ trim.gaelic_language: "발러 아하 트림"
+ kells.gaelic_language: "케아난너스"
+ mullingar.gaelic_language: "언 밀런 자르"
+ longford.gaelic_language: "언 롱포르트"
+ ardagh.gaelic_language: "아르다흐"
+ ballymore.gaelic_language: "언 발러 모르"
+ tullamore.gaelic_language: "툴라흐 위르"
+ navan.gaelic_language: "안 우이브"
+ #Province 'wexford_province' (Wexford) #
+ wexford.gaelic_language: "로크 가르만"
+ new_ross.gaelic_language: "로스 빅 트룬" #New Ross
+ ferns.gaelic_language: "페르나"
+ carlow.gaelic_language: "케할라흐"
+ #Province 'kildare_province' (Kildare) #
+ kildare.gaelic_language: "킬 다라"
+ naas.gaelic_language: "나스 나 리"
+ athy.gaelic_language: "발러 아하 이"
+ dunamase.gaelic_language: "둔 마스크"
+ daingean.gaelic_language: "안 다잉언"
+ #Province 'kilkenny' (Kilkenny) #
+ kilkenny.gaelic_language: "킬 한니"
+ cullahill.gaelic_language: "안 쿨호일" #Cullohill
+ ## Area 'ulster_area' (Ulster) ##
+ #Province 'antrim_province' (Antrim) #
+ carrickfergus.gaelic_language: "카라그 아리시"
+ belfast.gaelic_language: "벨 페르슈테"
+ ballymena.gaelic_language: "앤트림" #Antrim
+ ballycastle.gaelic_language: "글란 아르마" #Glenarm
+ dunluce.gaelic_language: "둔 립셔"
+ #Province 'down_province' (Down) #
+ downpatrick.gaelic_language: "둔 파드라그"
+ iveagh.gaelic_language: "라흐 프릴런" #Rathfriland
+ newtownards.gaelic_language: "밴허르" #Bangor
+ #Province 'tyrone_province' (Tyrone) #
+ dungannon.gaelic_language: "둔 개넌"
+ strabane.gaelic_language: "안 스라 반"
+ clogher.gaelic_language: "클로흐 오르"
+ enniskillen.gaelic_language: "리스 나 셰이허" #Lisnaskea
+ belcoo.gaelic_language: "벨 쿠"
+ #Province 'derry_province' (Derry) #
+ derry.gaelic_language: "데리"
+ derry_londonderry.gaelic_language: "론다인도이러"
+ coleraine.gaelic_language: "쿨 라인"
+ magherafelt.gaelic_language: "마허러 피올터"
+ #Province 'donegal_province' (Donegal) #
+ donegal.gaelic_language: "둔 나 응갈"
+ kilmacrennan.gaelic_language: "레터 케넌" #Letterkenny
+ inishowen.gaelic_language: "번 크란어허" #Buncranna
+ raphoe.gaelic_language: "라 보"
+ #Province 'oriel_province' (Oriel) #
+ monaghan.gaelic_language: "무이네한"
+ carrickmacross.gaelic_language: "이니스 킨" #Inniskeen
+ armagh.gaelic_language: "아르드 바하"
+ oriel.gaelic_language: "안 유리" #Newry
+ dundalk.gaelic_language: "둔 댈건"
+ drogheda.gaelic_language: "드로이헤드 아하"
+ ## Area 'connaught_area' (Connaught) ##
+ #Province 'galway_province' (Galway) #
+ galway.gaelic_language: "갈리브"
+ clifden.gaelic_language: "아나흐 훈" #Annaghdown
+ athenry.gaelic_language: "발러 아하 언 리"
+ tuam.gaelic_language: "투임"
+ kilconnell.gaelic_language: "킬 호널"
+ #Province 'roscommon_province' (Roscommon) #
+ roscommon.gaelic_language: "로스 코마인"
+ castlereagh.gaelic_language: "카슐란 리아바흐" #Castlerea
+ sligo.gaelic_language: "실리야흐"
+ athlone.gaelic_language: "발러 아하 루안"
+ skreen.gaelic_language: "안 슈크린"
+ #Province 'breifne_province' (Breifne) #
+ dromahair.gaelic_language: "드림 하 히아르"
+ leitrim.gaelic_language: "리아트림"
+ killeshandra.gaelic_language: "밸 아하 코널" #Ballyconnell
+ cavan.gaelic_language: "안 카반"
+ killycolly.gaelic_language: "코일 호일러"
+ #Province 'mayo_province' (Mayo) #
+ castlebar.gaelic_language: "카슐란 언 와리"
+ burrishoole.gaelic_language: "뮈리시크" #Murrisk
+ erris.gaelic_language: "킬 알라" #Kilalla
+ ballaghaderreen.gaelic_language: "밸러흐 언 더린"
+ ## Area 'munster_area' (Munster) ##
+ #Province 'cork_province' (Cork) #
+ cork.gaelic_language: "코르키"
+ fermoy.gaelic_language: "마라" #Mallow
+ kinsale.gaelic_language: "킨 탈레"
+ youghal.gaelic_language: "오헐"
+ #Province 'desmond_province' (Desmond) #
+ killarney.gaelic_language: "킬 아르니"
+ carbery.gaelic_language: "둔 보이" #Dunboy
+ kilbrittain.gaelic_language: "킬 브리타인"
+ muskerry.gaelic_language: "블라르나" #Blarney
+ dunhallow.gaelic_language: "캔 토르크" #Kanturk
+ #Province 'limerick_province' (Limerick) #
+ tralee.gaelic_language: "트라 리"
+ dingle.gaelic_language: "안 다잉언 이 쿠시"
+ limerick.gaelic_language: "림녀흐"
+ killmallock.gaelic_language: "킬 모할로그"
+ adare.gaelic_language: "아 다라"
+ castleconnell.gaelic_language: "카슬란 이 호닐"
+ #Province 'clare_province' (Clare) #
+ ennis.gaelic_language: "이니시"
+ bunratty.gaelic_language: "분 라테"
+ moyarta.gaelic_language: "킬 로쉬" #Kilrush
+ #Province 'tipperary_province' (Tipperary) #
+ tipperary.gaelic_language: "티브라드 아란"
+ nenagh.gaelic_language: "이너흐 우르번"
+ clonmel.gaelic_language: "클루안 멜라"
+ cashel.gaelic_language: "카셜"
+ roscrea.gaelic_language: "로스크레"
+ moycarn.gaelic_language: "비어라" #Birr
+ #Province 'waterford_province' (Waterford) #
+ waterford.gaelic_language: "포트 라르거"
+ dungarvan.gaelic_language: "둔 가르반"
+ carrickbeg.gaelic_language: "킬 미단" #Kilmeaden
+ ### Region 'great_britain_region' (Britain) ###
+ ## Area 'home_counties_area' (Home Counties) ##
+ #Province 'middlesex_province' (Middlesex) #
+ london.gaelic_language: "론던"
+ london_derrylondon.gaelic_language: "도이러론다인"
+ #Province 'surrey_province' (Surrey) #
+ reigate.gaelic_language: "리가드"
+ guildford.gaelic_language: "길버드"
+ woking.gaelic_language: "보이킨"
+ kingston.gaelic_language: "킨이스툰" #Kingston
+ #Province 'hampshire_province' (Hampshire) #
+ southampton.gaelic_language: "데아스오운툰"
+ portsmouth.gaelic_language: "포르트비"
+ winchester.gaelic_language: "분샤스터"
+ lymington.gaelic_language: "레밍턴"
+ wight.gaelic_language: "일런 너 만"
+ basingstoke.gaelic_language: "바션크스토크"
+ #Province 'kent_province' (Kent) #
+ dover.gaelic_language: "두바르"
+ canterbury.gaelic_language: "칸티오리"
+ rochester.gaelic_language: "로슈처"
+ hythe.gaelic_language: "히드"
+ tonbridge.gaelic_language: "드로이헤드 토나"
+ #Province 'sussex_province' (Sussex) #
+ shoreham.gaelic_language: "소르함"
+ lewes.gaelic_language: "루시"
+ hastings.gaelic_language: "헤이쉬틴"
+ chichester.gaelic_language: "시스테어"
+ #Province 'bedfordshire_province' (Bedfordshire) #
+ dunstable.gaelic_language: "둔스타발"
+ bedford.gaelic_language: "베데르"
+ #Province 'oxfordshire_province' (Oxfordshire) #
+ oxford.gaelic_language: "옥사포드"
+ henley.gaelic_language: "한리"
+ banbury.gaelic_language: "반비리"
+ #Province 'berkshire_province' (Berkshire) #
+ windsor.gaelic_language: "푸인녀서르"
+ reading.gaelic_language: "레디"
+ abingdon.gaelic_language: "어반둔"
+ #Province 'buckinghamshire_province' (Buckinghamshire) #
+ buckingham.gaelic_language: "부키니엄"
+ aylesbury.gaelic_language: "에일스포르이"
+ wycombe.gaelic_language: "이쿰"
+ ## Area 'midlands_area' (Mercia) ##
+ #Province 'leicestershire_province' (Leicestershire) #
+ leicester.gaelic_language: "라시터"
+ loughborough.gaelic_language: "로흐보로"
+ bosworth.gaelic_language: "보스바르드"
+ rutland.gaelic_language: "오컴" #Oakham
+ #Province 'derbyshire_province' (Derbyshire) #
+ derby.gaelic_language: "다르비"
+ glossop.gaelic_language: "글라스압"
+ chesterfield.gaelic_language: "케스터필드"
+ #Province 'nottinghamshire_province' (Nottinghamshire) #
+ nottingham.gaelic_language: "노터니엄"
+ newark.gaelic_language: "누르크"
+ retford.gaelic_language: "레트파드"
+ #Province 'lincolnshire_province' (Lincolnshire) #
+ lincoln.gaelic_language: "린쿤"
+ boston.gaelic_language: "보스툰"
+ grimsby.gaelic_language: "그리오마시"
+ grantham.gaelic_language: "그라넘"
+ louth.gaelic_language: "루"
+ spalding.gaelic_language: "스팔딘"
+ #Province 'northamptonshire_province' (Northamptonshire) #
+ northampton.gaelic_language: "투아시커르트온툰"
+ daventry.gaelic_language: "다반트리"
+ kettering.gaelic_language: "케터라인"
+ #Province 'warwickshire_province' (Warwickshire) #
+ coventry.gaelic_language: "코바인트리"
+ birmingham.gaelic_language: "비르밍엄"
+ stratford.gaelic_language: "스트라트파르드"
+ #Province 'shropshire_province' (Shropshire) #
+ shrewsbury.gaelic_language: "슈루시비리"
+ oswestry.gaelic_language: "오스바스트리"
+ ludlow.gaelic_language: "루들로"
+ #Province 'herefordshire_province' (Herefordshire) #
+ hereford.gaelic_language: "헤러파드"
+ ewyas.gaelic_language: "바일레 아다" #Longtown
+ wigmore.gaelic_language: "미그모르"
+ #Province 'worcestershire_province' (Worcestershire) #
+ worcester.gaelic_language: "이르쉬티르"
+ kidderminster.gaelic_language: "키아다르비니슈티르"
+ #Province 'staffordshire_province' (Staffordshire) #
+ stafford.gaelic_language: "스타파르드"
+ stoke.gaelic_language: "스토크"
+ tamworth.gaelic_language: "마 나 레케" #Lichfield
+ ## Area 'northumbria_area' (Northumbria) ##
+ #Province 'lancashire_province' (Lancashire) #
+ lancaster.gaelic_language: "란카스터"
+ blackburn.gaelic_language: "안 두한"
+ liverpool.gaelic_language: "리르포르트"
+ preston.gaelic_language: "프레스툰"
+ manchester.gaelic_language: "마니슈티르 나 녜그"
+ #Province 'north_riding_province' (North Riding) #
+ york.gaelic_language: "에버릭"
+ scarborough.gaelic_language: "스카버러"
+ bedale.gaelic_language: "베달"
+ richmond.gaelic_language: "리쉬몬드"
+ whitby.gaelic_language: "피테비"
+ #Province 'east_riding_province' (East Riding) #
+ hull.gaelic_language: "안 훌"
+ bridlington.gaelic_language: "브리들링턴"
+ selby.gaelic_language: "샬비"
+ norton.gaelic_language: "노르툰"
+ #Province 'west_riding_province' (West Riding) #
+ leeds.gaelic_language: "리어더시"
+ pontefract.gaelic_language: "폰테프락트"
+ skipton.gaelic_language: "스키프툰"
+ wakefield.gaelic_language: "후데르시필드" #Huddersfield
+ doncaster.gaelic_language: "던캐스터"
+ ripon.gaelic_language: "리오반"
+ #Province 'northumberland_province' (Northumberland) #
+ newcastle.gaelic_language: "카슐란 누어"
+ hexham.gaelic_language: "섹섬"
+ alnwick.gaelic_language: "아일니"
+ morpeth.gaelic_language: "모르펫"
+ billingham.gaelic_language: "빌레안암" #Bellingham
+ #Province 'cumberland_province' (Cumberland) #
+ carlisle.gaelic_language: "카를린"
+ cockermouth.gaelic_language: "벨 나 고커리"
+ penrith.gaelic_language: "편라이트"
+ egremont.gaelic_language: "애그라몬트"
+ #Province 'westmorland_province' (Westmorland) #
+ kendal.gaelic_language: "켄다일"
+ appleby.gaelic_language: "발러 너 눌"
+ #Province 'durham_province' (Durham) #
+ durham.gaelic_language: "도러햄"
+ darlington.gaelic_language: "저얼린턴"
+ stockton.gaelic_language: "스톡툰"
+ #Province 'cheshire_province' (Cheshire) #
+ chester.gaelic_language: "케스터"
+ macclesfield.gaelic_language: "말리시"
+ nantwich.gaelic_language: "아번이스커"
+ ## Area 'east_anglia_area' (East Anglia) ##
+ #Province 'norfolk_province' (Norfolk) #
+ norwich.gaelic_language: "누르란"
+ lynn.gaelic_language: "린"
+ yarmouth.gaelic_language: "이어포트"
+ thetford.gaelic_language: "테이트포르트"
+ fakenham.gaelic_language: "파카남"
+ #Province 'essex_province' (Essex) #
+ colchester.gaelic_language: "콜혜슈테르"
+ chelmsford.gaelic_language: "셸이브이시포르트"
+ prittlewell.gaelic_language: "프리텔빌"
+ hedingham.gaelic_language: "에이잉엄"
+ walden.gaelic_language: "발딘"
+ barking.gaelic_language: "베르카이" #Barking
+ #Province 'suffolk_province' (Suffolk) #
+ ipswich.gaelic_language: "요브식"
+ bury.gaelic_language: "브우리"
+ lowestoft.gaelic_language: "로바스토프트"
+ lavenham.gaelic_language: "라빈"
+ #Province 'cambridgeshire_province' (Cambridgeshire) #
+ cambridge.gaelic_language: "드로이체드 함"
+ ely.gaelic_language: "에일리"
+ huntingdon.gaelic_language: "훈팅둔"
+ royston.gaelic_language: "로쉬튼"
+ #Province 'hertfordshire_province' (Hertfordshire) #
+ hertford.gaelic_language: "하트포르트"
+ st_albans.gaelic_language: "네이브 앨베" #St Albans
+ ## Area 'west_country_area' (West Country) ##
+ #Province 'cornwall_province' (Cornwall) #
+ launceston.gaelic_language: "란슈탄"
+ truro.gaelic_language: "트루로"
+ bodmin.gaelic_language: "보빈"
+ #Province 'somerset_province' (Somerset) #
+ wells.gaelic_language: "토버"
+ taunton.gaelic_language: "탄툰"
+ bath.gaelic_language: "바"
+ portishead.gaelic_language: "켄포르티시"
+ minehead.gaelic_language: "켄니브"
+ #Province 'devon_province' (Devon) #
+ plymouth.gaelic_language: "플리버"
+ exeter.gaelic_language: "엑스데르"
+ barnstaple.gaelic_language: "바른스타블라"
+ bideford.gaelic_language: "비데포르트"
+ bampton.gaelic_language: "뱀프툰"
+ okehampton.gaelic_language: "오캄프툰"
+ #Province 'dorset_province' (Dorset) #
+ poole.gaelic_language: "풀"
+ weymouth.gaelic_language: "우아브 보흐"
+ dorchester.gaelic_language: "다르헤스테르"
+ shaftesbury.gaelic_language: "사프테스부이리"
+ #Province 'wiltshire_province' (Wiltshire) #
+ salisbury.gaelic_language: "사일시부리"
+ trowbridge.gaelic_language: "드림브리드"
+ chippenham.gaelic_language: "시펜햄"
+ amesbury.gaelic_language: "에임쉬브이리"
+ #Province 'gloucestershire_province' (Gloucestershire) #
+ bristol.gaelic_language: "브리스털"
+ gloucester.gaelic_language: "글로커스터르"
+ cheltenham.gaelic_language: "셸틴어험"
+ cirencester.gaelic_language: "시린셔스터"
+ ## Area 'scottish_highlands_area' (Highlands) ##
+ #Province 'moray_province' (Moray) #
+ inverness.gaelic_language: "인비르 니스"
+ urquhart.gaelic_language: "우르흐딘"
+ elgin.gaelic_language: "엘리인"
+ badenoch.gaelic_language: "바데너흐"
+ #Province 'ross_province' (Ross) #
+ dingwall.gaelic_language: "인버 피오런"
+ gairloch.gaelic_language: "갸르로흐"
+ ullapool.gaelic_language: "아사인" #Assynt
+ #Province 'sutherland_province' (Sutherland) #
+ dornoch.gaelic_language: "도르나흐"
+ durness.gaelic_language: "주이리니시"
+ tongue.gaelic_language: "퉁가"
+ thurso.gaelic_language: "인버르 흐요르사"
+ #Province 'argyll_province' (Argyll) #
+ inverary.gaelic_language: "인버르 우라"
+ oban.gaelic_language: "라하르나" #Lorne
+ cowal.gaelic_language: "코얼"
+ lochaber.gaelic_language: "로흐 아바르"
+ ardtornish.gaelic_language: "아드 토르아나시"
+ kintyre.gaelic_language: "키안 티러"
+ ## Area 'hebrides_area' (Hebrides) ##
+ #Province 'outer_hebrides_province' (Outer Hebrides) #
+ lewis.gaelic_language: "료아스"
+ uist.gaelic_language: "위슈트"
+ harris.gaelic_language: "나 헤러"
+ skye.gaelic_language: "안 티엘런 스키어나흐"
+ #Province 'inner_hebrides_province' (Inner Hebrides) #
+ arran.gaelic_language: "아런"
+ mull.gaelic_language: "무일레"
+ islay.gaelic_language: "일르"
+ mann.gaelic_language: "만닌"
+ ## Area 'scottish_lowlands_area' (Lowlands) ##
+ #Province 'lothian_province' (Lothian) #
+ edinburgh.gaelic_language: "둔 에뎐"
+ dunbar.gaelic_language: "둔 바르"
+ linlithgow.gaelic_language: "류운 리테"
+ stirling.gaelic_language: "스트룰리"
+ #Province 'galloway_province' (Galloway) #
+ stranraer.gaelic_language: "안 트론 레마르"
+ ayr.gaelic_language: "인버 에어"
+ kirkcudbright.gaelic_language: "킬레 후이베르트"
+ irvine.gaelic_language: "이르빈"
+ kenmure.gaelic_language: "키안 무라"
+ dumfries.gaelic_language: "둔 프리스"
+ #Province 'strathclyde_province' (Strathclyde) #
+ glasgow.gaelic_language: "글라스흐"
+ lanark.gaelic_language: "란렉"
+ paisley.gaelic_language: "파쉬릭"
+ dumbarton.gaelic_language: "둔 브레턴"
+ #Province 'teviotdale_province' (Teviotdale) #
+ roxburgh.gaelic_language: "로스프록"
+ selkirk.gaelic_language: "샬가르"
+ duns.gaelic_language: "둔"
+ berwick.gaelic_language: "베릭"
+ #Province 'fife_province' (Fife) #
+ dunfermline.gaelic_language: "둔 파르린"
+ st_andrews.gaelic_language: "킬 리빈" #St Andrews
+ cupar.gaelic_language: "쿠버"
+ #Province 'perthshire_province' (Perthshire) #
+ perth.gaelic_language: "페르쉬트"
+ aberfeldy.gaelic_language: "오버르 펠리"
+ clackmannan.gaelic_language: "클라흐 바나인"
+ scone.gaelic_language: "둔 할런" #Dunkeld
+ strathearn.gaelic_language: "스트라스 에런"
+ #Province 'angus_province' (Angus) #
+ dundee.gaelic_language: "둔 데"
+ forfar.gaelic_language: "발러 아르페르"
+ arbroath.gaelic_language: "오버르 브로히그"
+ stonehaven.gaelic_language: "킨 하르딘" #Kincardine
+ #Province 'aberdeenshire_province' (Aberdeenshire) #
+ aberdeen.gaelic_language: "오버르 예힌"
+ buchan.gaelic_language: "버컨" #Fraserburgh
+ banff.gaelic_language: "바나브"
+ mar.gaelic_language: "브라이 바르" #Braemar
+ inverurie.gaelic_language: "인비르 우라이"
+ ## Area 'wales_area' (Wales) ##
+ #Province 'deheubarth_province' (Deheubarth) #
+ carmarthen.gaelic_language: "케르피르딘"
+ pembroke.gaelic_language: "펜브로"
+ fishguard.gaelic_language: "아베르그와운"
+ kidwelly.gaelic_language: "키두엘리"
+ cardigan.gaelic_language: "아베르테이비"
+ aberystwyth.gaelic_language: "아베리스투이트"
+ #Province 'gwynedd_province' (Gwynedd) #
+ carnarvon.gaelic_language: "케르나르폰"
+ anglesey.gaelic_language: "이니시 몬"
+ conwy.gaelic_language: "콘우이" #Conway
+ harlech.gaelic_language: "하를레흐"
+ flint.gaelic_language: "플린트"
+ penllyn.gaelic_language: "펜린"
+ denbigh.gaelic_language: "딘비흐"
+ #Province 'powys_province' (Powys) #
+ montgomery.gaelic_language: "트레팔두인"
+ machynlleth.gaelic_language: "마흐인레트"
+ llangollen.gaelic_language: "랙삼" #Wrexham
+ #Province 'brecon_province' (Brecon) #
+ brecknock.gaelic_language: "아베론두"
+ builth.gaelic_language: "무얼트"
+ radnor.gaelic_language: "메이시페드"
+ #Province 'glamorgan_province' (Glamorgan) #
+ cardiff.gaelic_language: "케르디드"
+ monmouth.gaelic_language: "트레피누이"
+ newport.gaelic_language: "카스네이드"
+ neath.gaelic_language: "카스텔네드"
+ swansea.gaelic_language: "아베르타웨"
+ caerphilly.gaelic_language: "케르필리"
+ ## Area 'northern_isles_area' (Northern Isles) ##
+ #Province 'northern_isles_province' (Northern Isles) #
+ orkney.gaelic_language: "아르카이브"
+ shetland.gaelic_language: "샬타인"
+ torshavn.gaelic_language: "토르스하운"

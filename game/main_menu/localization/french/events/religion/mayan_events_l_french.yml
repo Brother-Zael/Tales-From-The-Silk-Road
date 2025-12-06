@@ -1,0 +1,7 @@
+﻿l_french:
+ mayan_events.1.title: "L'aube d'un nouveau katun"
+ mayan_events.1.desc: "Après vingt ans, un nouveau katun commence dans l'histoire de notre peuple.\n\nIl est de notre devoir, en tant que dirigeants du [ROOT.GetCountry.GetLongName], de célébrer un magnifique festival en l'honneur de [ROOT.GetCountry.GetReligion.GetGodName] et de marquer le début d'un nouveau cycle dans la vie de notre culture. Notre peuple attend de nous que nous organisions une célébration si grandiose et opulente qu'elle restera dans les mémoires pendant des années.\n\nC'est pourquoi nous nous sommes soigneusement préparés pendant des années et il est temps que nous fassions usage de tout cela."
+ mayan_events.1.a: "Louanges à [ROOT.GetCountry.GetReligion.GetGodName]."
+ mayan_events.1.b: "Réglons quelques derniers détails !"
+ mayan_events.1.c: "Nous sommes prêts."
+ mayan_events.1.d: "Le peuple sera déçu."

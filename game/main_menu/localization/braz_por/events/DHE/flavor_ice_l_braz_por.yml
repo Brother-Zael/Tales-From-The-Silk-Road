@@ -1,0 +1,11 @@
+﻿l_braz_por:
+ flavor_ice.10.title: "Bispados do País [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_ice.10.desc: "A fé [ROOT.GetCountry.GetReligion.GetAdjective] tem sido, há muito tempo, uma parte importante da vida do país [ROOT.GetCountry.GetName]. Contudo, há dois bispados distintos na ilha: [target_location.GetName] e [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip], que fica na província [target_location.GetProvince.GetName], tem a reputação de ser mais independente e autossuficiente, enquanto [skalholt.GetNameWithNoTooltip], na província [skalholt.GetProvince.GetName], tem mais alinhamento com [overlord.GetLongName].\n\nÀ medida que o país [ROOT.GetCountry.GetNameWithNoTooltip] avança, será importante considerar o caráter único de cada bispado."
+ flavor_ice.10.a: "Apoiar a independência de [target_location.GetNameWithNoTooltip]."
+ flavor_ice.10.b: "Agradar o bispo [overlord.GetAdjectiveWithNoTooltip]."
+ opinion_opposed_our_bishop: "Opôs-se ao Nosso Bispo"
+ opinion_supported_our_bishop: "Apoiou Nosso Bispo"
+ flavor_ice.11.title: "O Huldufólk"
+ flavor_ice.11.desc: "Histórias sobre os Huldufólk, um povo místico e oculto, têm cativado o povo [ROOT.GetCountry.GetCulture.GetName] por séculos. Acredita-se que esses elfos esquivos habitam as próprias rochas e montanhas da Islândia.\n\nAgora surgiu uma nova situação: estão sendo feitos planos para construir uma igreja [ROOT.GetCountry.GetReligion.GetAdjective] em uma área de [target_location.GetName] que supostamente pertence aos Huldufólk.\n\nO estamento [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] teme que perturbar as rochas onde os Huldufólk residem traga consequências catastróficas. O estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] obviamente nega a existência de seres invisíveis. Cabe ao estamento [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] resolver esta disputa espiritual e decidir o destino da construção proposta."
+ flavor_ice.11.a: "Respeitar as crenças e abandonar a igreja."
+ flavor_ice.11.b: "Ignorar a superstição e construir a igreja."

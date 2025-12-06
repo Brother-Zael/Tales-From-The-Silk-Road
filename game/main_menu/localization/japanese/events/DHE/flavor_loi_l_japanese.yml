@@ -1,0 +1,11 @@
+﻿l_japanese:
+ flavor_loi.10.title: "北欧諸島"
+ flavor_loi.10.desc: "[ROOT.GetCountry.GetLongName]の人々は長いあいだ、受け継がれてきた[ROOT.GetCountry.GetCulture.GetName]の伝統のもとで生きてきたが、この変わりゆく時代のなかで、その身に流れる北欧の血に再び向き合う時が来た。[scandinavia.GetName]の古代王国に引き寄せられながら、古の遺産を再発見し新たな同盟を結ぶことによって、我々は多くのものを得られるだろう。\n\nもしこの道を進むのであれば、ゲールの伝統や慣習のいくつかを捨てなければならない。しかし、その報いは相応に大きいはずだ。北欧の血を受け入れることで、この島々の人々に[nordic_culture.GetName]の民としての強靭な意識をもたらし、北方の獅子たちと肩を並べることができるだろう。\n\n我々は、この再発見の旅に踏み出すべきだろうか？"
+ flavor_loi.10.a: "北欧の血に向き合おう。"
+ flavor_loi.10.b: "北方に目を向けるな。"
+ opinion_loi_10_adopted_our_culture: "北欧文化を受け入れた"
+ flavor_loi.20.title: "造船大会"
+ flavor_loi.20.desc: "[target_location.GetProvinceDefinition.GetName]州を吹き抜ける風が、オークや松の板材を打つ槌の音を運んでくる。船大工の匠たちが「[ROOT.GetCountry.GetAdjective]造船大会」に挑むため、[target_location.GetArea.GetName]地方の各地から[target_location.GetName]に集まっているのだ。\n\n伝統的な造船業はわが国に欠かせないものであり、奨励されるべきである。[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]の代表として、我々には大会を見届ける義務がある。"
+ flavor_loi.20.a: "ガレー船を発注して、我々も参加しよう。"
+ flavor_loi.20.b: "大会の優勝候補を支援しよう。"
+ flavor_loi.20.c: "大会に興味はない。"

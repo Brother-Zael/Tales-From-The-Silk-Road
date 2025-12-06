@@ -1,0 +1,9 @@
+﻿l_turkish:
+ flavor_jap_kor.1.title: "Göksel Emeller"
+ flavor_jap_kor.1.desc: "[ROOT.GetCountry.GetName] ülkesinin gözetimi altında [ShowRegionName('japan_region')] bölgesi nihayet yeniden birleştirildi. Savaşacak rakibi kalmayan her bir [ShowGovernmentReformName('daimyo')] iç çekişmelere sürüklenebilir veya daha da kötüsü hükümranlığımızdan kurtulmak amacıyla bize karşı birleşebilir. Buna göz yumamayız. Bu nedenle elde etmek için gayret sarf edeceğimiz yeni bir hedef belirlemeliyiz. $china$'i fethetmek ve [target_country2.GetName] ülkesini defetmekten daha mühim bir hedef olabilir mi? Hayallerimizi gerçeğe dönüştürmek için öncelikle [target_country.GetName] ülkesini fethetmeliyiz."
+ flavor_jap_kor.1.a: "Savaşa!"
+ flavor_jap_kor.1.b: "Çatışma için hazırlanmalıyız!"
+ flavor_jap_kor.1.c: "Komşularımızla husumet içinde olmayacağız."
+ flavor_jap_kor.2.title: "Savaş Kapıya Dayandı"
+ flavor_jap_kor.2.desc: "[ShowRegionName('japan_region')] bölgesinin yeniden birleştirilmesi başlı başına tedirgin edici bir gelişmeydi. Şimdi de en büyük korkularımızdan biri başımıza geldi ve militan [from_country.GetAdjective] devleti bize savaş açtı! [ShowRegionName('korea_region')] topraklarına ayak basacakları tarihe kadar birliklerimizi ve donanmamızı hazır etmeliyiz. Niyetleri henüz belirsiz ancak emin olduğumuz bir şey varsa o da bizi gerçek hedefleri olan [GetInternationalOrganization('middle_kingdom').GetName] önünde bir engel olarak gördükleri."
+ flavor_jap_kor.2.a: "Geçmelerine izin vermeyeceğiz!"

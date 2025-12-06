@@ -1,0 +1,11 @@
+﻿l_japanese:
+ banking.1.title: "フッガー家の台頭"
+ banking.1.desc: "アウクスブルクの商人貴族出身のフッガー家は、15世紀から16世紀にかけてヨーロッパの銀行家のなかでも最も著名な一族となった。ヨーロッパ経済の大部分はフッガー家によって支配され、最終的には銅市場をほぼ独占するまでに至った。彼らは歴史的にハプスブルク家と非常に密接な関係をもち、同家の世界規模の台頭の裏にはフッガー家の資金力があった。"
+ banking.1.a: "アウクスブルクにとっては喜ばしい！"
+ banking.2.a: "我々にも利益があるだろうか？"
+ the_fuggers_appear_in_augsburg_tt: "[the_fuggers.GetName]が[ShowLocationName('augsburg')]で事業を営む"
+ banking.3.title: "ヴェルザー家"
+ banking.3.desc: "ヴェルザー家は、ニュルンベルクとアウクスブルク出身のドイツ人商人および銀行一家であり、ビザンツ帝国の将軍ベルサリウスの子孫を自称した。ハプスブルク帝国の成長に大規模な融資を提供して莫大な富を築き、大航海時代の頃にはアントワープ、マドリード、リスボン、ローマなど多数の都市に交易拠点を構えていた。"
+ banking.3.a: "これでニュルンベルクも有名になるだろう！"
+ banking.4.a: "我々にも利益があるだろうか？"
+ the_welsers_appear_in_augsburg_tt: "[the_welsers.GetName]が[ShowLocationName('nuremberg')]で事業を営む"

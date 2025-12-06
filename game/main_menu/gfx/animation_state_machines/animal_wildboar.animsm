@@ -1,0 +1,56 @@
+﻿global_variables={
+}
+
+local_variables={
+}
+
+behavioral_states={
+ 	"wildboar_idle"={
+		list_layer={
+			timeline_layer={
+				timeline="wildboar_idle_editor_timeline"
+			}
+			timeline_layer={
+				timeline="Clip wildboar_idle"
+			}
+		}
+	}
+}
+
+events={
+	behavioral_state_transition={
+		name="starting_state_internal_outgoing_transition"
+		behavioral_state="wildboar_idle"
+		transition_interval=0.000000
+	}
+}
+
+timelines={
+	"wildboar_idle_editor_timeline"={
+		boundary_behavior=loop
+		events={
+
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"Clip wildboar_idle"={
+		boundary_behavior=loop
+		duration=4.479167
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="wildboar_idle_animation"
+	}
+}
+
+starting_timeline={
+	on_enter={
+		"starting_state_internal_outgoing_transition"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

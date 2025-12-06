@@ -1,0 +1,6 @@
+﻿l_spanish:
+ flavor_grm.1.title: "La muerte de [target_character.GetNameWithNoTooltip]"
+ flavor_grm.1.desc: "Uno de nuestros hombres más celebrados, que fundó [target_country.GetFlavorRank|l], ha fallecido. Hasta ahora, su reinado había marcado el apogeo de nuestra influencia en [ShowRegionName('anatolia_region')], pues hemos subyugado con éxito a muchos de nuestros vecinos. Por desgracia, su fallecimiento ha sembrado descontento y desencadenado actos de rebelión entre nuestros súbditos, que pretenden darse un banquete con la riqueza de nuestro pueblo."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "¡No sucumbiremos sin luchar!"
+ flavor_grm.1.historical_info: "Los germiyánidas, uno de los beylicatos emergentes más poderosos de principios del siglo XIV, deben su fundación a Yakub I, cuyas conquistas trajeron muchas tierras bajo su jurisdicción. Su reinado de 40 años le hizo chocar con muchos de sus vecinos y resultó en la subyugación de Aydin, Saruhan y Karasi al oeste, así como en su participación en conflictos abiertos con los otomanos. Tras su muerte, sus muchos vasallos aprovecharon la oportunidad y proclamaron su independencia."

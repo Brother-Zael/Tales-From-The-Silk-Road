@@ -1,0 +1,4611 @@
+﻿general_clothing_group = {
+
+	skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    leathers_cloth_country_group = {
+		mask = { color = {0.75 0.75 1.0 } tolerance = 0.75 hardness = 0.95 }    
+        repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+			}
+			2 = {
+				primary_color = unit_color2
+			}
+		}        
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.6 hardness = 0.95 }
+		repaint = {
+			95 = {
+				primary_color = unit_color0
+			}
+			2 = {
+				primary_color = unit_color1
+			}
+			1 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.5 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			2 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    
+
+	cloth_plain_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	cloth_plain_group = {
+	mask = { color = { 0.5 0.25 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	peasants_colors_group = {
+		mask = { color = { 0.25 1.0 0.5 } tolerance = 0.2  hardness = 0.7}
+		repaint = {	
+           
+            5 = { peasants_color = hex{ 0xffdfdfdf } } #grey 
+            5 = { peasants_color = hex{ 0xffdbd7d2 } } #dark_cream
+            10 = { peasants_color = hex{ 0xffd2d9db } } #grey_cream
+            10 = { peasants_color = hex{ 0xffd3d9da } } #grey_darker
+            
+		}
+    }
+
+	chainmail_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+
+	cloth_rough_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	feather = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+	
+	rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+
+	assets = {
+		unit_weapon_sickle_metal_schematic
+		unit_weapon_shovel_paddle_wood_schematic
+		unit_weapon_scythe_aztec_schematic
+		unit_weapon_rifle_wood_metal_schematic
+		unit_weapon_rifle_arcabuz_schematic
+		unit_weapon_metal_wood_schematic
+		unit_weapon_aztecs_obsidian_spear_schematic
+		unit_weapon_aztecs_arquebuses_schematic
+		unit_shield_wood_feathers_mesh
+		
+		unit_weapons_axe_blade_schematic
+		unit_shield_wood_obsidian_mesh  
+		unit_weapon_stick_wood_rope_schematic
+		
+		
+		unit_weapon_sword_wood_rope_schematic
+		
+		unit_weapon_axe_onehanded_rope_schematic
+		unit_shield_wood_leather_mesh
+		
+		unit_weapon_wood_feathers_schematic
+		
+		
+		unit_shield_round_painted_radial_mesh
+		unit_weapon_bow_chinese_peasant_schematic
+		unit_weapon_spear_wood_coton_schematic
+		unit_weapon_spear_tassel_plume_schematic
+		unit_weapon_jian_flail_schematic
+		unit_weapon_bow_curved_quiver_mesh
+		#unit_auxiliary_carriage_open_mesh
+		#unit_torso_armor_plate_padded_mesh		
+		unit_torso_armor_gambeson_mesh
+		unit_accessories_blanket_woolen_mesh
+		unit_accessories_carpet_woolen_mesh
+		unit_accessories_mat_skin_animal_mesh		
+		
+		unit_legs_pants_mail_armor_mesh
+		unit_legs_pants_rope_windings_mesh
+		unit_legs_pants_wide_sandals_mesh		
+		unit_legs_pants_shoes_suede_mesh
+		unit_legs_pants_socks_silk_mesh
+		unit_legs_loose_wrappings_mesh				
+		unit_legs_pants_boots_belts_mesh
+		unit_legs_pants_wide_lines_mesh		
+		unit_legs_pants_armor_metal_mesh		
+		unit_legs_skirt_lamellar_mesh
+					
+		unit_torso_armor_lamellar_oriental_mesh
+		unit_torso_armor_edging_shoulders_mesh		
+		unit_torso_armor_chainmail_short_jacket_mesh
+		unit_torso_cape_coton_mesh
+		unit_torso_coton_jacket_mesh
+		unit_torso_dress_armor_mesh
+				
+		unit_hat_landsknecht_mesh
+		unit_hat_landsknecht_b_mesh
+		unit_hat_landsknecht_c_mesh
+		unit_hat_starfish_beret_feathers_mesh
+		unit_hat_starfish_beret_feathers_b_mesh
+		unit_hat_turban_feathers_mesh		
+		unit_legs_landsknecht_stockings_mesh
+		unit_legs_pants_asymetric_mesh
+		unit_hat_felt_and_linen_sock_hat_mesh		
+		unit_hat_helmet_metal_cotton_mesh		
+		unit_hat_wool_cap_mesh		
+		unit_accessories_bag_caremat_mesh
+		unit_backpack_blankets_leather_straps_mesh
+		unit_backpack_simple_leather_straps_mesh
+		unit_legs_pants_dhoti_mesh
+		unit_legs_pants_embroidery_mesh
+		unit_legs_pants_wide_shoes_mesh			
+		unit_torso_jacket_gold_details_mesh
+		unit_torso_coat_armor_gloves_mesh
+		unit_torso_general_shape_mesh
+		unit_torso_coat_buttons_mesh
+		unit_hat_helmet_visor_plummed_mesh
+		unit_hat_helmet_visor_plummed_b_mesh
+		unit_hat_helmet_visor_plummed_c_mesh
+		unit_hat_kettle_plumed_helmet_a_mesh
+		unit_hat_kettle_plumed_helmet_b_mesh
+		unit_hat_kettle_plumed_helmet_c_mesh		
+		unit_accessories_backpack_blanket_a_mesh
+		unit_accessories_backpack_blanket_c_mesh
+		unit_accessories_backpack_single_leather_mesh
+		unit_accessories_backpack_tied_a_mesh
+		unit_accessories_backpack_tied_b_mesh
+		unit_accessories_backpack_tied_c_mesh
+		unit_accessories_backpack_mesh
+		unit_accessories_cape_woolen_mesh
+		unit_hat_armor_paded_mesh
+		unit_hat_armour_steel_feather_mesh
+		unit_hat_bird_feather_mesh
+		unit_hat_colored_feathers_mesh
+		unit_hat_cone_felt_mesh
+		unit_hat_cotton_woolen_turban_mesh
+		
+		unit_hat_helmet_brushes_mesh
+		unit_hat_helmet_iron_cotton_mesh
+		unit_hat_helmet_steel_chainmail_mesh
+		unit_hat_metal_mesh
+		unit_hat_ostrich_feather_mesh
+		unit_hat_steel_feather_mesh
+		unit_hat_steel_fur_mesh
+		unit_hat_turban_cotton_fez_mesh
+		unit_hat_woolen_felt_mesh		
+        unit_hat_helmet_metal_mail_mesh
+		unit_hat_metal_gold_feather_mesh
+		unit_hat_helmet_kettle_plume_mesh
+		unit_hat_helmet_metal_edging_mesh
+		unit_hat_helmet_cheeks_oriental_mesh
+		unit_hat_metal_horse_hair_mesh
+		unit_hat_fur_mesh
+		unit_hat_scarf_satin_mesh
+		unit_hat_helmet_armor_plume_mesh		
+		unit_hat_helmet_gold_mesh
+		unit_legs_bloomers_boots_mesh
+		unit_legs_high_boots_mesh
+		unit_legs_pants_arming_plates_mesh
+		unit_legs_pants_armor_steel_mesh
+		unit_legs_cotton_pants_linen_mesh
+		unit_legs_pants_linen_bandage_mesh
+		unit_legs_pants_linen_leather_boots_mesh
+		unit_legs_pants_slippers_mesh
+		unit_legs_pants_thick_cotton_mesh
+		unit_legs_pants_woolen_boots_leather_mesh
+		unit_legs_pants_wool_fabric_mesh
+		unit_legs_trousers_boots_mesh
+		unit_legs_trousers_ramie_mesh
+		unit_legs_wide_pants_cotton_mesh
+		unit_torso_armour_plates_skirt_mesh
+		unit_torso_coat_bullet_pouch_mesh
+		unit_torso_jacket_wollen_thread_mesh
+		unit_torso_light_wool_coat_mesh
+		unit_torso_linen_shirt_mesh
+		unit_torso_metal_lamellar_mesh
+		unit_torso_robe_wool_chainmail_mesh
+		unit_torso_short_woolen_coat_mesh
+		unit_torso_skirt_silk_armor_metal_mesh
+		unit_torso_trenchcoat_shirt_pounh_mesh
+		unit_torso_tunic_linen_mesh
+		unit_torso_tunic_silk_chainmail_mesh
+		
+		unit_torso_woolen_trenchcoat_mesh
+		unit_torso_wool_fabric_mesh
+		unit_hat_armour_metal_mesh
+		unit_hat_bronze_helmet_mesh
+		unit_hat_chainmail_feather_mesh
+		unit_hat_cotton_turban_mesh
+		unit_hat_helmet_iron_chainmail_mesh
+		unit_hat_helmet_metal_feather_mesh
+		unit_hat_helmet_metal_horse_mesh
+		unit_hat_helmet_plume_folded_mesh
+		unit_hat_helmet_plume_unfolded_mesh
+		unit_hat_iron_kettle_helmet_mesh
+		unit_hat_mail_linen_mesh
+		unit_hat_ornament_helmet_mesh
+		unit_hat_scarf_cotton_tip_mesh
+		unit_hat_turban_helmet_mesh
+		unit_hat_turban_linen_mesh
+		unit_legs_chainmail_boot_cover_mesh
+		unit_legs_linen_pants_boots_mesh
+		unit_legs_pants_armour_steel_mesh		
+		unit_legs_pants_boot_leather_mesh
+		unit_legs_pants_cotton_boots_leather_mesh
+		unit_legs_pants_cotton_footwraps_mesh		
+		unit_legs_pants_linen_armour_mesh
+		unit_legs_pants_plates_steel_mesh
+		unit_legs_pants_woolen_armor_metal_mesh
+		unit_legs_pants_wool_stiff_mesh
+		unit_legs_pants_wool_mesh
+		unit_legs_pants_wrappings_woven_mesh
+		unit_legs_trousers_lamellar_mesh
+		unit_legs_trousers_silk_boots_mesh
+		unit_legs_trousers_silk_iron_lamellar_mesh		
+		unit_torso_armour_steel_mesh
+		unit_torso_tunic_plates_steel_mesh
+		unit_torso_velvet_jacket_mesh
+		unit_weapon_shield_wooden_handle_mesh
+		unit_weapon_arbalest_quiver_syria_mesh
+		
+		unit_weapon_saber_chinese_schematic
+		unit_weapon_saber_sheath_chinese_mesh
+		unit_weapon_leather_gilded_sword_schematic	
+		unit_weapon_shield_fabric_mesh		
+		unit_weapon_sword_long_syria_schematic
+		unit_weapon_sword_velvet_schematic
+		unit_weapon_blade_steel_leather_schematic
+		unit_weapon_mace_steel_gilded_schematic
+		unit_weapon_axe_blade_steel_schematic
+		unit_weapon_club_gold_schematic
+		unit_weapon_blade_steel_schematic		
+		unit_shield_round_leather_gold_mesh
+		unit_hat_straw_deep_mesh
+		unit_hat_straw_hat_mesh
+		unit_hat_fringe_mesh		
+		unit_hat_round_bend_feather_mesh
+		unit_hat_round_metal_mesh
+		unit_legs_cotton_rope_buckle_mesh
+		unit_legs_dots_shoes_mesh
+		unit_legs_shoes_simple_mesh
+		unit_legs_skirt_linen_coral_mesh		
+		
+		unit_beard_rebel_mask_mesh
+        unit_camelry_camel_armor_mesh
+        unit_elephantry_heavy_armor_mesh
+        unit_camelry_auxiliary_mesh
+        unit_elephantry_auxiliary_mesh
+         ### AUXILIARY UNIT  ###
+        unit_auxiliary_donkey_mesh       
+         #### CHINESE  ###
+         
+        unit_legs_pants_boots_belt_mesh
+         
+        unit_legs_pants_wide_mesh
+        unit_legs_pants_stripes_mesh        
+        unit_hat_helmet_two_feathers_mesh
+        unit_legs_pants_sliken_gaiters_mesh        
+        unit_hat_helmet_ming_guard_mesh       
+        unit_legs_pants_hanfu_mesh 
+        unit_legs_han_soldiers_leather_mesh
+        unit_torso_han_soldiers_tunic_mesh
+        unit_legs_pants_boots_ma_xue_mesh  
+        unit_hat_hair_manchu_mesh
+        unit_legs_han_coton_mesh
+        unit_hat_chinese_steel_mesh
+        unit_legs_pants_boots_worn_out_mesh
+        unit_legs_pants_wide_belts_mesh
+        unit_legs_pants_woolen_oriental_mesh
+        unit_legs_pants_woolen_boots_mesh
+        unit_torso_robe_woolen_mesh
+        unit_hat_circular_felt_feather_mesh        
+        unit_torso_jacket_linen_mesh
+        unit_legs_pants_wide_woolen_mesh      
+        unit_legs_pants_blue_line_mesh        
+        unit_legs_pants_boots_worn_out_hanfu_mesh
+        unit_hat_hanfu_felt_mesh       
+        unit_torso_jacket_belt_mesh      
+        unit_legs_wide_pants_satin_mesh       
+        unit_torso_tunic_woolen_chainmail_mesh
+        unit_legs_pants_boots_gold_details_mesh   
+        unit_hat_helmet_metal_feathers_mesh
+        unit_hat_helmet_feathers_hussar_mesh
+        unit_torso_topless_mesh
+                         
+	}
+}
+
+############# SKIN GROUP 
+plain_skin = {
+	skin_group = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+			secondary_color = unit_color0
+			#tertiary_color = unit_color1
+		}
+	}
+}
+
+############# COUNTRY_COLOR_VARIATION
+cloth_country_solid_two_texture_variation_high_chance = {
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+}
+
+cloth_country_solid_two_texture_variation={
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.13 hardness = 0.95 }
+		repaint = {
+			36 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+}
+
+metal_leathers_cloth_white_country_chainmail_gold = {
+
+	no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.7 hardness = 0.9 }
+		repaint = {
+			10 = { primary_color = color_leather_whitened }
+			10 = { primary_color = hair_color }
+		}
+	}
+
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	}
+
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.22 hardness = 0.95 }
+		repaint = {
+			36 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+		
+}
+
+cloth_country_color_or_white_group_texture_variation =
+{
+	cloth_country_colors_or_white_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			1 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+}
+
+### HSV_COLORS_PEASANTS_TEXTURES_TEST ### 
+
+#This is an example of an asset that uses hsv360 color
+#you can pick a color using the color picker ( google ) and use the code of the hsv color
+#on this asset ( unit_legs_leather_pants_wool_socks_mesh ) we are using the hsv360 colors as the socks color 
+# this group ( peasants_color_group ) works with hex and hsv360 colors
+
+cloth_leather_country_colors_peasants_hsv = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.7 hardness = 0.8 }
+		repaint = {
+				10 = { primary_color = hair_color }
+		}
+	}	
+	
+#This is the socks color    
+    peasants_colors_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.5 hardness = 0.8}
+		repaint = {			
+            10 = { peasants_color = hsv360 { 50 21 67 } } #hsv test_ dirty white
+			5 = { peasants_color = hsv360 { 28 25 61 } } #dirty_light_brown
+            5 = { peasants_color = hsv360 { 40 56 46 } } #dirty_mustard
+            #25 = { peasants_color = hsv360 { 340 100 100 } } #pink_bright_DONT_USE_IT          
+            #25 = { peasants_color = hex { 0xffff0055 } } #pink_bright_DONT_USE_IT
+		}
+	}          
+       
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.75 0.5 0.75 } tolerance = 0.2 hardness = 0.4 }
+	}       
+    
+    cloth_plain_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    cloth_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}    
+        
+    assets = {    
+    unit_legs_leather_pants_wool_socks_mesh      
+
+	}    
+}
+#############
+# new_group = {
+# 	copy = general_clothing_group
+# }
+
+### GENERIC_ANIMAL_FUR ###
+animal_fur_colors = {
+    animal_fur_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 1.5 hardness = 0.5 }
+		repaint = {
+			10 = { fur_color = hex{ 0xffeDAA06D } } #golden_brown
+			10 = { fur_color = hex{ 0xffeC19A6B } } #camel_color
+            10 = { fur_color = hex{ 0xffC4A484 }  } #grey_brown
+			10 = { fur_color = hex{ 0xffD2B48C } } #light_grey_brown
+            10 = { fur_color = hex{ 0xffe967969 } }#brown
+		}
+	}
+	assets = {
+		#resource_dromedary_camel_a_mesh
+		unit_camelry_mesh_mesh
+		unit_elephantry_mesh_mesh
+	}
+}
+
+
+### GENERIC_PEASANTS_TEXTURES ###
+cloth_leather_country_colors_peasants_jackets = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.7 hardness = 0.8 }
+		repaint = {
+				10 = { primary_color = hair_color }
+		}
+	}
+
+	
+	#cloth_country_solid_group  = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		#repaint = {
+			#100 = {
+				#primary_color = unit_color0
+			#}
+			#0 = {
+				#primary_color = unit_color1
+			#}
+			#0 = {
+				#primary_color = unit_color2
+			#}
+		#}
+	#}
+
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.5 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			25 = {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    cloth_country_one_ticking_stripes_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {
+			50 = {
+				primary_color = unit_color0
+				
+			}
+			50 = {
+				primary_color = unit_color0
+				
+			}
+			50 = {
+				primary_color = unit_color1
+				
+			}
+			5 = {
+				primary_color = unit_color1
+				
+			}
+			1 = {
+				primary_color = unit_color2
+				
+			}
+        }
+    }
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.8}
+		repaint = {			
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+	}
+          
+    #cloth_earthy_group = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+		
+	#}
+    
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}       
+    
+    cloth_plain_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    cloth_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}      
+    
+    
+    assets = {
+        unit_torso_armor_hood_shirt_pouch_mesh
+        unit_torso_poplin_tunic_leather_belt_mesh	
+        unit_torso_linen_tunic_rope_mesh
+        unit_torso_linen_shirt_vest_belts_mesh
+        unit_torso_linen_shirt_with_long_vest_mesh
+        unit_torso_quilted_gambeson_leather_pouch_mesh        
+        unit_torso_linen_tunic_mesh
+        unit_torso_long_shirt_leather_vest_mesh
+        unit_torso_jacket_felt_mesh
+        unit_torso_shirt_cuffs_mesh
+        unit_torso_waistcoat_shirt_mesh
+        unit_torso_jacket_cut_wide_sleeves_mesh
+        unit_torso_shirt_cotton_mesh
+        unit_torso_jacket_strong_cotton_bag_mesh        
+        unit_torso_tunic_scarf_bag_mesh
+        unit_torso_cotton_shirt_wool_coat_mesh
+        unit_torso_shirt_with_belt_pouches_and_knife_mesh
+        unit_torso_shirt_vest_cravat_bags_mesh
+        unit_torso_jacket_woolen_fabric_mesh
+        unit_torso_cotton_vest_wool_coat_mesh
+        unit_torso_tailcoat_mesh
+        unit_torso_jacket_wollen_sash_mesh
+        unit_torso_weistcoat_knitted_mesh
+ ### LEGS      
+        unit_legs_shorts_trousers_c_mesh
+        unit_legs_woven_trousers_leather_shoes_mesh
+        
+        unit_legs_trousers_with_patch_leather_boots_mesh
+        unit_legs_pants_boots_roll_down_mesh
+        unit_legs_pants_socks_mesh
+        unit_legs_pants_boots_hight_mesh
+        unit_legs_trousers_socks_boots_mesh
+        unit_legs_pants_wool_high_jackboots_mesh
+        unit_legs_pants_boots_socks_mesh
+        unit_legs_pants_rope_woolen_chausses_mesh
+        unit_legs_bicolor_trousers_a_mesh
+        unit_legs_flowy_trousers_mesh  
+        unit_legs_cotton_trousers_buckle_shoes_socks_mesh
+        unit_legs_wool_trousers_leather_boots_with_lining_mesh
+        unit_legs_cotton_trousers_knee_leather_boots_mesh
+        unit_legs_pants_bows_mesh
+        unit_legs_pants_hard_fabric_mesh
+        unit_legs_knees_patches_mesh
+        unit_legs_breeches_mesh
+        unit_legs_pants_trouses_linen_mesh
+        unit_legs_trousesr_gaiters_mesh
+
+ ### HEADGEAR      
+        unit_hat_woolen_hood_a_mesh
+        unit_hat_felt_beanie_mesh
+        unit_hat_bag_hat_mesh
+        unit_hat_linen_cap_a_mesh
+        unit_hat_tie_mesh
+        unit_hat_visor_felt_mesh
+        unit_hat_boater_straw_mesh
+        unit_hat_barret_simple_mesh
+        unit_hat_bycocket_a_mesh
+        unit_hat_beanie_discovery_mesh
+        unit_hat_seppelhut_a_mesh
+		unit_hat_seppelhut_b_mesh
+		unit_hat_seppelhut_c_mesh
+		unit_hat_seppelhut_d_mesh
+        unit_hat_felt_simple_mesh
+        unit_hat_felt_old_mesh
+        unit_hat_felt_wide_mesh
+        unit_hat_round_mesh
+        unit_hat_wide_mesh
+        unit_hat_felt_hat_ribbon_ponytail_mesh
+        unit_hat_leather_tricorn_mesh
+        unit_hat_cavalier_hat_bob_haircut_mesh
+        unit_hat_fur_brim_cap_mesh
+		unit_hat_knitted_wollen_mesh
+        unit_hat_sideburns_mesh
+
+	}
+    
+}
+
+### TRADITIONS_NOBLE_CRUSADERS_TEXTURES ###
+cloth_leathers_gambeson_metal_crusaders_chainmail_gold_mixed_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    cloth_country_medieval_knights = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.9 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			1 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+    
+
+    cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.7 hardness = 0.9 }
+		repaint = {
+            
+			50 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}	
+    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	} 
+        
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.32 hardness = 0.5 }
+	}
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.3 hardness = 0.5 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.4 }
+	}
+	#gold_group = {
+		#mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	#}
+
+	iron_and_gold_group  = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+
+	
+    
+	assets = {	
+		
+		unit_torso_armor_gamberson_chainmail_shoulder_plates_mesh
+        unit_torso_armor_brigandine_chainmail_mesh  
+		unit_hat_houndskull_face_mask_helmet_e_mesh
+		unit_hat_houndskull_face_mask_helmet_f_mesh	 
+        unit_hat_houndskull_face_mask_helmet_a_mesh
+		unit_hat_houndskull_face_mask_helmet_b_mesh
+		unit_hat_houndskull_face_mask_helmet_c_mesh
+       	unit_legs_pants_high_leather_chainmail_mix_mesh
+        unit_legs_pants_gamberson_chainmail_knee_plates_mesh
+        unit_legs_pants_high_chainmail_kneepads_mesh
+        unit_legs_pants_gamberson_plated_trousers_mesh
+ # RENAISSANCE_HORSE_ARMOR       
+        unit_cavalry_horse_renaissance_armor_b_mesh
+		unit_cavalry_horse_renaissance_armor_c_mesh 
+            
+	}
+}
+
+### AFRICAN HORSES BARDING ###
+horse_armor_ashanti_barding = {
+
+	copy = cloth_leathers_gambeson_metal_crusaders_chainmail_gold_mixed_skin
+
+	
+	
+    
+    cloth_gambeson_country_ashanti = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.45 hardness = 0.95}
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			
+			
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+    iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.8 }
+	}
+    iron_and_gold_group  = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.23 hardness = 0.9 }
+	}    
+
+
+	assets = {
+    unit_cavalry_horse_ashanti_armor_mesh   
+		
+	}
+}
+
+
+### TRADITIONS_CRUSADERS_COA_TEXTURES ###
+horse_armor_variations_coa = {
+
+	copy = cloth_leathers_gambeson_metal_crusaders_chainmail_gold_mixed_skin
+
+	
+
+	cloth_country_coa_knights = {
+			mask = { color = { 0.0 1.0 0.0 } tolerance = 0.7 hardness = 0.95 }
+			repaint = {
+			80 = {
+				primary_color = coa_texture
+				secondary_color = coa_texture
+			}
+            
+            20 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+		}
+	}
+    
+    cloth_country_medieval = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.65 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+    iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.8 }
+	}
+    iron_and_gold_group  = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.23 hardness = 0.9 }
+	} 
+    leathers_cloth_country_group = {    
+    mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.9 }
+    repaint = {
+            
+			90 = {
+				primary_color = unit_color0
+			}
+			20 = {
+				primary_color = unit_color1
+			}
+		}
+	} 
+
+	assets_with_weight = {
+		10 = unit_cavalry_horse_crusader_armor_saddle_mesh
+        10 = unit_cavalry_horse_renaissance_armor_mesh
+       	
+		#10 = unit_shield_round_leather_mid_mesh # currently unused
+	}
+}
+
+crusaders_armor_variations_coa = {
+
+	copy = cloth_leathers_gambeson_metal_crusaders_chainmail_gold_mixed_skin
+
+	
+
+	cloth_country_solid_group = {
+			mask = { color = { 0.0 1.0 0.0 } tolerance = 0.6 hardness = 0.95 }
+			repaint = {
+			80 = {
+				primary_color = coa_texture
+				
+			}
+            
+            25 = {
+				primary_color = unit_color0
+				
+			}
+			
+		}
+	}      
+    
+    iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.8 }
+	}
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}    
+
+
+	assets_with_weight = {		       
+        10 = unit_torso_armor_chainmail_long_tabard_mesh
+        10 =unit_torso_armor_chainmail_plates_long_tabard_mesh		
+        10 =unit_torso_armor_chainmail_tabard_mesh
+        10 =unit_torso_armor_chainmail_long_tabard_coa_side_mesh
+		
+		#10 = unit_shield_round_leather_mid_mesh # currently unused
+	}
+}
+
+### TRADITIONS_NOBLE_HELMETS_TEXTURES ###
+cloth_engravings_leathers_gambeson_cloth_chainmail_gold_fur_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+        
+    cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.75 hardness = 0.9 }
+		repaint = {
+			95 = {
+				primary_color = unit_color0
+			}
+			25= {
+				primary_color = unit_color1
+			}
+			15 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.7 hardness = 0.9 }
+		repaint = {
+            
+			80 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+	    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.5 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.5 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.0 1.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+
+	armor_metal_engravings_group  = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+	
+
+	assets = {    
+        unit_hat_greathelm_fabric_hood_mesh
+		unit_hat_helm_chainmail_hood_fabric_mesh
+		unit_hat_helm_chainmail_long_hood_fabric_mesh
+		unit_hat_helm_greathelm_shape_a_mesh
+		unit_hat_helm_greathelm_shape_b_mesh
+		unit_hat_helm_greathelm_shape_c_mesh
+		unit_hat_helm_greathelm_shape_d_mesh
+		unit_hat_helm_greathelm_shape_e_mesh
+        unit_hat_great_helmet_sugarloaf_mesh
+        unit_hat_great_helmet_sugarloaf_nochainmail_mesh
+        unit_hat_great_helm_sugarloaf_fabric_mesh
+        unit_hat_great_helm_sugarloaf_fabric_nochainmail_mesh
+        unit_hat_houndskull_face_mask_helmet_d_mesh
+	}
+}
+
+### GENERIC_GAMBESON_TEXTURES ###
+metal_leathers_gambeson_chainmail_cloth = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.8 hardness = 0.9 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.5 }
+	}
+	cloth_white_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.45 hardness = 0.9 }
+	}
+ 	cloth_gambeson_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.25 0.75 0.25 } tolerance = 0.15 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+    
+    cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			95 = {
+				primary_color = unit_color0
+			}
+			25= {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_two = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+		repaint = {
+			secondary_color = unit_color1
+		}
+	}
+		
+	assets = {
+		unit_headgear_chainmail_coif_mesh
+		unit_headgear_helmet_with_chainmail_mesh
+		unit_headgear_kettle_hat_with_chainmail_coif_mesh
+		unit_headgear_pointed_kettle_helmet_mesh
+		unit_legs_gambeson_knee_cops_mesh
+		unit_torso_armor_brigandine_tabard_mesh
+        unit_torso_padded_armor_chainmail_leather_belt_mesh
+        
+        unit_hat_kettle_helmet_mesh
+		unit_hat_kettle_helmet_padded_coif_mesh
+		unit_hat_padded_coif_mesh
+	}
+}
+
+### RENAISSANCE_TEXTURES ###
+metal_leathers_cloth_chainmail = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.5 hardness = 0.9 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.46 hardness = 0.5 }
+	}
+	copy = plain_skin
+
+ 	cloth_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.4 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+
+	copy = cloth_country_solid_two_texture_variation
+
+	cloth_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+	
+	assets = {	
+		
+		unit_hat_plates_sides_helmet_mesh
+		unit_hat_simple_helmet_leather_neck_cover_mesh		
+		unit_legs_felt_trousers_leather_boots_mesh
+		unit_legs_iron_chainmail_knee_cops_mesh
+		unit_legs_leather_decoration_stripes_fancy_boots_mesh		
+		unit_legs_pants_slimlegs_mesh		
+		unit_armor_torso_breastplate_legplates_stripes_mesh
+		unit_armor_torso_breastplate_nolegplates_stripes_mesh
+		unit_armor_torso_breastplate_skirt_mesh
+		unit_torso_armor_landsknecht_chainmail_mesh
+		unit_armor_torso_stripes_shirt_vest_mesh
+		unit_torso_armor_studded_vest_mesh		
+		unit_weapon_mace_full_metal_schematic
+		unit_weapon_sickle_copper_schematic
+		unit_weapon_sickle_copper_sheath_syrian_mesh     
+               
+        
+	}
+}
+
+metal_chainmail_with_leather_main_color_cloth = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.95 hardness = 0.8 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.45 hardness = 0.8 }
+	}
+ 	cloth_country_one = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+		}
+	}
+	cloth_country_two = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+		repaint = {
+			secondary_color = unit_color1
+		}
+	}
+	copy = plain_skin
+    
+	
+	cloth_gambeson_horizontal_country_one = {
+	mask = { color = { 0.25 0.75 0.25 } tolerance = 0.2 hardness = 0.5 }
+	repaint = {
+			44 = {
+				primary_color = unit_color0
+			}
+		}
+	}
+    
+    chainmail_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+	
+	assets = {
+		unit_headgear_kettle_hat_mesh
+		unit_headgear_round_helmet_leather_back_mesh
+		unit_legs_chainmail_right_leg_armor_mesh		
+		unit_torso_gambeson_overcoat_hood_couters_gauntlet_mesh
+        
+        unit_torso_armour_plates_mesh
+        unit_torso_chainmail_metal_graves_mesh         
+            
+		
+	}
+}
+
+### RENAISSANCE_NOBLES_TEXTURES ###
+metal_leathers_cloth_chainmail_gold = {
+
+	no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.7 hardness = 0.7}
+		repaint = {
+			10 = { primary_color = color_leather_whitened }
+			10 = { primary_color = hair_color }
+		}
+	}
+
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.35 hardness = 0.5 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	}
+ 	cloth_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.15 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+
+	cloth_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    skin_group = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+			secondary_color = unit_color0
+			#tertiary_color = unit_color1
+		}
+	}
+	
+	assets = {
+		unit_hat_soldier_helmet_renaissance_mesh
+		unit_hat_helmet_cuirassier_mesh	
+		
+		
+		unit_hat_helmet_metal_mesh
+		unit_hat_helmet_metal_brass_mesh
+		
+		
+		unit_legs_pants_steel_bronze_mesh
+		unit_torso_armor_cuirass_striped_undershirt_mesh
+		unit_torso_armor_iron_breastplate_mesh
+		
+                 
+	}
+}
+
+metal_leathers_gambeson_cloth_skin = {
+	
+	
+ 	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			44 = {
+				primary_color = unit_color0
+			}
+		}
+	}
+	cloth_rope = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.4 hardness = 0.8 }
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.4 hardness = 0.9 }
+		repaint = {
+			44 = {
+				primary_color = unit_color1
+			}
+		}
+	}
+
+	cloth_gambeson_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.25 0.75 0.25 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+    
+    gambeson_colors_group = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {			
+            10 = { gambeson_color = hex{ 0xfff0ead6 } }#light_bronw
+			10 = { gambeson_color = hex{ 0xffe5e4e3 } }#light_grey
+            10 = { gambeson_color = hex{ 0xffe6e0d4 } }#cream_white    
+		}
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+
+
+
+	copy = plain_skin
+	
+	assets = {
+		unit_legs_felt_pants_leather_straps_mesh
+		unit_legs_felt_pants_padded_kneepads_leather_boots_mesh
+		unit_legs_felt_trousers_padded_legs_mesh
+		unit_torso_long_padded_coat_leather_belt_mesh
+		unit_torso_padded_armor_felt_robe_gauntlets_mesh
+		unit_torso_shirt_studded_padded_armor_mesh
+	}
+}
+
+### GENERIC_NOBLES_TEXTURES ###
+cloth_leathers_gambeson_metal_chainmail_gold_fur_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    cloth_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.25 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+
+	cloth_country_colors_or_little_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.25 hardness = 0.5 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			1 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.8 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.35 hardness = 0.7 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.4 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+	fur_sculpted_and_white_black_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    cloth_only_white_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.8 }
+	}
+
+	#copy = cloth_country_solid_two_texture_variation_high_chance
+    
+    
+	
+	assets = {
+		unit_accessories_jacket_mesh
+		unit_accessory_poncho_right_mesh
+		unit_accessories_mantle_simple_mesh        
+		unit_cavalry_horse_saddle_reins_mesh
+		unit_cavalry_horse_saddle_mesh        
+		
+		unit_hat_helmet_chainmail_flat_top_mesh
+		unit_hat_horse_hair_decoration_mesh
+        unit_hat_hair_bearskin_a_mesh         
+		unit_legs_armor_striped_quilted_mesh
+        unit_legs_armor_leather_steel_kneepad_mesh		
+        unit_legs_steel_cuisses_poleyns_greaves_mesh 				
+				
+        unit_torso_armor_steel_breastplate_placard_fauld_mesh
+        unit_torso_armor_steel_chainmail_cloth_tunic_mesh      		
+		
+		
+	}
+}
+
+### DISCOVERY_TEXTURES ###
+cloth_leathers_gambeson_metal_chainmail_gold_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}   
+    
+    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.4 hardness = 0.9 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.45 hardness = 0.5 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.1 hardness = 0.4 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	}
+    fur_sculpted_and_white_black_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.4 hardness = 0.9 }
+	}
+    
+    cloth_only_white_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.5 hardness = 0.7 }
+		
+	}
+ 	
+
+	cloth_gambeson_country_medieval = {
+		#				R	G	B  = points to material ID texure
+		mask = { color = { 0.25 0.75 0.25 } tolerance = 0.2 hardness = 0.5 }
+		repaint = {
+			primary_color = unit_color0
+			secondary_color = unit_color1
+		}
+	}
+
+    cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.4 hardness = 0.9 }
+		repaint = {
+			95 = {
+				primary_color = unit_color0
+			}
+			25= {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+    	
+	
+	assets = {
+		unit_hat_linen_chainmail_mesh
+		unit_legs_pants_linen_chainmail_mesh		
+		
+		
+		
+				
+		        
+        unit_legs_armor_plated_layers_heavy_mesh
+        unit_legs_armor_fabric_stripes_noble_mesh
+		
+	}
+}
+
+metal_engravings_leathers_gambeson_cloth_chainmail_gold_fur_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    cloth_country_solid_group_two = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.6 hardness = 0.8 }
+		repaint = {
+			36 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}
+
+     cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.6 hardness = 0.9 }
+		repaint = {
+			95 = {
+				primary_color = unit_color0
+			}
+			25= {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.6 hardness = 0.9 }
+		repaint = {
+            
+			50 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}	
+    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.3 hardness = 0.6 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.35 hardness = 0.6 }
+	}
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.3 hardness = 0.4 }
+	}
+	#gold_group = {
+		#mask = { color = { 1.0 0.5 0.0 } tolerance = 0.45 hardness = 0.9 }
+	#}
+
+	armor_metal_engravings_group  = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.4 hardness = 0.9 }
+	}
+	fur_sculpted_and_white_black_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.25 hardness = 0.9 }
+	}
+    
+    feather_black_and_white_group = {
+		mask = { color = { 0.0 0.5 1.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+	
+
+	assets = {		
+		unit_hat_helmet_knight_plummed_a_mesh
+		unit_hat_helmet_knight_plummed_b_mesh
+		unit_hat_helmet_knight_plummed_c_mesh
+		unit_hat_helm_plumed_plated_gold_knight_mesh
+		unit_hat_helm_plumed_plated_knight_mesh			
+				
+		unit_legs_armor_slim_plates_mesh			
+		unit_legs_pants_high_leather_boots_mesh		
+		unit_torso_armor_breastplate_skirt_heavy_shoulders_mesh		
+		unit_torso_armor_fabric_tunic_fur_mesh
+        unit_torso_armor_breastplate_tunic_fur_heavy_mesh
+		unit_torso_armour_full_plated_knight_mesh
+		unit_weapon_sword_engraved_b_schematic
+	}
+}
+
+### REFORMATION_TEXTURES ###
+cloth_leathers_metal_gold_skin = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.8 hardness = 0.9 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}  
+
+    peasants_colors_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.75  hardness = 0.95}
+		repaint = {			
+            #10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            #5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            #5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            #5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+	} #	used for pants here    
+    
+    buff_colors_group = {
+		mask = { color = {  0.5 1.0 0.5 } tolerance = 0.5  hardness = 0.95}
+		repaint = {			
+            
+			10 = { peasants_color = hex{ 0xff7f5d3b } } #buff_brown
+            10 = { peasants_color = hex{ 0xff9a763d } } #mustard_buff_brown
+            10 = { peasants_color = hex{ 0xff81613c } } #saturated_buff_brown
+            10 = { peasants_color = hex{ 0xff917446 } } #darker_buff
+            
+		}
+	} #	used for buff jackets here    
+     
+         
+       
+    leather_brown_group = {
+		mask = { color = { 0.0 0.5 0.5 } tolerance = 0.4 hardness = 0.8 }
+	} 
+
+    cloth_only_white_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.25 hardness = 0.8 }
+	}    
+    
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.35 hardness = 0.8 }
+	}
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.35 hardness = 0.8 }
+	}
+	
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+
+    cloth_country_solid_group_two = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.8 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			7 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			7 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+		}
+	}   	
+	
+	assets = {
+		unit_torso_armor_gloves_mesh
+        unit_torso_armor_hussar_mesh
+		unit_torso_armor_metal_leather_mesh
+        unit_torso_armor_cuirassier_mesh
+        unit_torso_coat_buff_mesh
+        unit_torso_armor_sleeves_leather_mesh
+        unit_torso_armor_metal_felt_mesh
+        unit_torso_armor_neck_mesh
+        unit_torso_coat_leather_buff_mesh
+        unit_legs_armor_boots_cuirassier_mesh
+        unit_legs_deco_hussar_mesh
+        unit_legs_pants_wide_top_mesh
+        unit_legs_pants_boots_long_leather_mesh
+        
+        unit_legs_pants_wide_bows_mesh
+        unit_legs_pants_bottoms_metal_mesh
+        unit_legs_pants_leather_felt_mesh
+        unit_legs_pants_wide_strap_mesh
+        
+        unit_hat_two_feathers_mesh
+        unit_hat_one_fluffy_mesh
+        unit_hat_two_different_feathers_mesh
+		
+	}
+}
+
+##SEAM FIXING##
+
+general_clothing_group_fixed_seams = {
+	copy = general_clothing_group 
+
+    assets = {
+     
+     }
+
+}
+
+####TRICORN AND BICORN HATS ####
+
+tricorn_bicorn_hat_feathers = {
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.5 }
+        repaint = {
+			75 = {
+				primary_color = unit_color0
+			}
+			50 = {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+    cloth_only_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.5 hardness = 0.5 }
+	}
+    
+    cloth_only_black_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+    
+    leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.3 hardness = 0.9 }
+	}
+    
+    leather_black_group = {
+		mask = { color = { 0.5 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    cloth_golden_white_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.1 hardness = 0.4 }
+	}
+
+	feather_black_and_white_group = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.1 hardness = 0.5 }        
+	}
+    
+    fur_sculpted_and_white_black_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.25 hardness = 0.9 }
+	}
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.1 hardness = 0.5 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}
+
+    assets = {
+        unit_hat_tricorn_a_mesh
+        unit_hat_tricorn_b_mesh
+		unit_hat_tricorn_c_mesh
+		unit_hat_tricorn_gold_trim_feathers_mesh
+		unit_hat_tricorn_gold_trim_feathers_b_mesh        
+        unit_hat_bicorne_a_aztec_mesh
+		unit_hat_bicorne_b_aztec_mesh
+        unit_hat_bicorne_noble_feathers_a_mesh
+		unit_hat_bicorne_noble_feathers_b_mesh
+		unit_hat_bicorne_noble_feathers_c_mesh
+		unit_hat_bicorn_gold_trim_horizontal_a_mesh
+		unit_hat_bicorn_gold_trim_horizontal_b_mesh
+		unit_hat_curly_hair_ribbon_mesh
+        unit_hat_bicorne_hair_a_mesh
+		unit_hat_bicorne_hair_b_mesh
+		unit_hat_bicorne_hair_c_mesh
+        unit_hat_cap_napoleonic_helmet_mesh
+        unit_hat_cap_napoleonic_b_helmet_mesh
+        unit_hat_leib_hussars_helmet_mesh
+		unit_hat_tall_central_feather_helmet_mesh
+        unit_hat_double_folded_side_feather_mesh
+        unit_hat_hard_top_central_feather_mesh
+
+        unit_hat_general_shape_mesh
+        unit_hat_long_plume_mesh
+        unit_hat_shape_details_mesh
+        unit_hat_fur_cloth_mesh 
+        ## AZTEC
+        unit_hat_shako_visor_mesh
+        unit_hat_shoko_visor_mesh 
+        unit_hat_shako_square_top_mesh
+        unit_hat_shako_tall_front_decoration_mesh
+     }
+
+}
+
+engraving_metal_leathers_cloth_white_country_chainmail_gold = {	    
+    
+    gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    cloth_country_solid_group  = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.9 }
+		repaint = {
+			75 = {
+				primary_color = unit_color0
+			}
+			25 = {
+				primary_color = unit_color1
+			}
+			5 = {
+				primary_color = unit_color2
+			}
+		}
+	}    
+     # HAIR
+    no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}
+
+	iron_engravings_group = {
+		after = no_texture_color_material
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    cloth_only_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.15 hardness = 0.9 }
+		
+	}
+    assets = {
+		unit_hat_hair_mitre_cap_mesh
+	}
+	
+}
+
+
+### DIAGONAL BLANKET ###
+cloth_leather_iron_grey_rough = { 
+        
+    cloth_grey_rough_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+    # material group used for side stripe pants
+   
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.5 hardness = 0.9 }
+	}
+	
+	leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.25 hardness = 0.7 }
+	}
+    # material group used for shoes only
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.25 } tolerance = 0.15 hardness = 0.7 }
+	}
+    
+	assets = {
+		unit_accessories_diagonal_blanket_mesh
+	}
+}
+
+
+
+### ABSOLUTISM_REVOLUTIONS_JACKETS ###
+cloth_leather_country_colors_absolutism_jackets = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+	
+	cloth_country_solid_group  = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.3 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+          
+    peasants_colors_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2  hardness = 0.9}
+		repaint = {	
+           
+            5 = { peasants_color = hex{ 0xffdfdfdf } } #grey 
+            5 = { peasants_color = hex{ 0xffdbd7d2 } } #dark_cream
+            10 = { peasants_color = hex{ 0xffd2d9db } } #grey_cream
+            10 = { peasants_color = hex{ 0xffd3d9da } } #grey_darker
+            
+		}
+    }
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.7 }
+	}
+    
+    cloth_golden_white_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.15 hardness = 0.7 }
+	}
+    
+    gold_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_white_group = {
+		mask = { color = { 0.5 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_black_white_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    leather_belt_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+        repaint = {
+			90 = {
+				leather_color =  color_leather_whitened
+			}
+			50 = {
+				leather_color =  color_leather_blackened
+			}
+		}        
+        
+	}
+    
+    
+    assets = {
+		unit_torso_armor_wool_frock_coat_mesh
+        unit_torso_armor_pulled_coat_mesh
+        unit_torso_armor_coat_closed_mesh
+        unit_torso_armor_coat_folded_wool_mesh
+        unit_torso_armor_double_breasted_shoulderpads_mesh
+		unit_torso_armor_double_straps_shoulderpads_mesh
+		unit_torso_armor_longer_double_breasted_jacket_mesh
+        unit_torso_armor_double_breasted_jacket_straps_mesh
+        
+        unit_torso_heavy_layers_open_coat_mesh
+        unit_armor_torso_breastplate_sash_mesh
+        unit_torso_armor_short_coat_plate_mesh
+        unit_armor_torso_gold_trimmings_coat_mesh
+        
+	}
+    
+}
+
+
+### ABSOLUTISM_REVOLUTIONS_GAITERS ###
+metal_white_or_black_leather_cloth_gaiters = {
+
+    cloth_country_solid_group  = {
+		mask = { color = { 1.0 1.0 0.5 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+	cloth_country_colors_or_white_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.25 hardness = 0.5 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			10 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+				secondary_color = unit_color2
+			}
+			1 = {
+				primary_color = unit_color2
+				secondary_color = unit_color0
+			}
+			#group used for white pants with small country color chance
+		}
+	}
+    
+    cloth_country_one_ticking_stripes_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.15 hardness = 0.9 }
+		repaint = {
+			50 = {
+				primary_color = unit_color0
+				
+			}
+			50 = {
+				primary_color = unit_color0
+				
+			}
+			50 = {
+				primary_color = unit_color1
+				
+			}
+			5 = {
+				primary_color = unit_color1
+				
+			}
+			1 = {
+				primary_color = unit_color2
+				
+			}
+        }
+    }
+        
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+    # material group used for side stripe pants
+    cloth_only_white_group = {
+		mask = { color = { 0.5 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    # material group used for socks only
+
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.5 hardness = 0.9 }
+	}
+	leather_black_white_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }		
+	}
+    # material group used for gaiters only
+
+	leather_black_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.25 hardness = 0.7 }
+	}
+    # material group used for shoes only
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.25 } tolerance = 0.15 hardness = 0.7 }
+	}
+    
+	assets = {
+		unit_legs_armor_wool_stockings_buckle_shoes_mesh
+		unit_legs_cotton_gaiters_pants_mesh
+		unit_legs_pants_riding_socks_jackboots_mesh
+		unit_legs_pants_wool_plain_boots_mesh
+        unit_legs_pants_gaiters_buttons_mesh
+        unit_legs_formal_pants_side_strip_mesh		
+		unit_legs_pants_leggings_tight_mesh
+		unit_legs_pants_underneath_gaiters_mesh
+        
+        unit_legs_pants_high_leather_riding_boots_mesh
+        unit_legs_pants_stockings_high_heel_shoes_mesh
+        unit_legs_pants_tights_high_gaiters_mesh
+        unit_legs_pants_long_gaiters_boots_mesh
+        unit_legs_pants_general_shape_mesh
+        unit_legs_pants_skiny_boots_mesh
+        unit_legs_pants_high_boots_mesh
+	}
+}
+
+### REVOLUTIONS
+metal_engravings_leathers_cloth_gold_fur_skin = {
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.5 hardness = 0.8 }
+	}
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.45 hardness = 0.5 }
+	}
+	leather_black_group = {
+		mask = { color = { 0.5 0.0 0.0 } tolerance = 0.9 hardness = 0.7 }
+	}
+	gold_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.4 hardness = 0.9 }
+	}
+
+	golden_engravings_group  = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+	fur_dark_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.25 hardness = 0.9 }
+	}
+
+	#skin_group = {#
+		#mask = { color = { 1.0 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+		#repaint = {#
+			#primary_color = skin_color
+			#secondary_color = unit_color0
+			#tertiary_color = unit_color1
+		#}
+	#}
+	copy = cloth_country_solid_two_texture_variation_high_chance
+
+	copy = cloth_country_color_or_white_group_texture_variation
+	
+	assets = {
+		unit_hat_grenadier_helmet_a_mesh
+		unit_hat_grenadier_helmet_b_mesh
+		unit_hat_grenadier_shako_fur_front_mesh		
+	}
+}
+
+### SYRIAN_LATE_AGE_JACKETS_TEXTURES ###
+syrian_revolutions_clothing_group = {
+     skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+	
+	cloth_country_solid_group  = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.35 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.35 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+    
+     cloth_gambeson_country_one = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.15 hardness = 0.9 }
+        repaint = {
+			90 = {
+				primary_color = unit_color0				
+			}
+			50 = {
+				primary_color = unit_color0				
+			}
+			10 = {
+				primary_color = unit_color1				
+			}
+			5 = {
+				primary_color = unit_color2			
+			}
+			
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+          
+    cloth_only_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+		
+	}
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2  hardness = 0.7}
+		repaint = {	
+           
+            5 = { peasants_color = hex{ 0xffdfdfdf } } #grey 
+            5 = { peasants_color = hex{ 0xffdbd7d2 } } #dark_cream
+            10 = { peasants_color = hex{ 0xffd2d9db } } #grey_cream
+            10 = { peasants_color = hex{ 0xffd3d9da } } #grey_darker
+            
+		}
+    }
+    
+    cloth_golden_white_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    gold_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_white_group = {
+		mask = { color = { 0.5 0.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_black_white_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    leather_belt_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+        repaint = {
+			90 = {
+				leather_color =  color_leather_whitened
+			}
+			50 = {
+				leather_color =  color_leather_blackened
+			}
+		}        
+        
+	}  
+   leather_dark_brown_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+		
+    }
+    chainmail_group = {
+		mask = { color = { 0.25 0.25 1.0 } tolerance = 0.15 hardness = 0.5 }
+	}
+    
+    
+ 
+
+assets = { 
+        unit_torso_jacket_wollen_scarf_belt_mesh
+        unit_torso_coat_woolen_mesh
+        unit_torso_jacket_woolen_bag_mesh
+        unit_hat_woolen_mesh
+        
+        unit_hat_headdress_mesh
+        unit_hat_kufiya_cotton_scarf_mesh
+        unit_hat_scarf_mesh
+        
+        unit_hat_turban_feathers_decor_mesh
+        
+        unit_torso_woolen_coat_mesh
+        unit_torso_woolen_jacket_mesh
+        unit_torso_tunic_horn_mesh
+        
+        unit_torso_armor_lamellar_gambeson_mesh
+        unit_torso_gambeson_padded_mesh       
+        unit_torso_padded_gambeson_mesh
+        
+        unit_torso_armor_plate_padded_mesh
+        unit_legs_pants_boot_leather_woolen_mesh
+        
+        unit_torso_tunic_cape_belt_mesh
+        unit_torso_tunic_chainmail_mesh
+        unit_torso_tunic_cape_chain_mesh
+        unit_legs_pants_light_wool_mesh
+        
+        unit_torso_chainmail_surcoat_bag_mesh
+        unit_torso_padded_gambeson_tunic_mesh
+        
+        unit_torso_woolen_fur_coat_mesh
+	}
+}
+
+
+### SYRIAN_LATE_AGE_PANTS_TEXTURES ###
+syrian_revolutions_clothing_pants_group = {
+
+    copy = metal_white_or_black_leather_cloth_gaiters 
+    
+    peasants_colors_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.65  hardness = 0.95}
+		repaint = {			
+            #10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            #5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            #5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            #5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+    }
+    
+ #LIGHT NEUTRAL COLORS
+    peasants_colors_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.25  hardness = 0.9}
+		repaint = {	
+           
+            5 = { peasants_color = hex{ 0xffb2b2b2 } } #grey
+            10 = { peasants_color = hex{ 0xffd2d9db } } #grey_cream
+            10 = { peasants_color = hex{ 0xffd3d9da } } #grey_darker
+            
+		}
+    }
+    
+     leather_belt_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+        repaint = {
+			90 = {
+				leather_color =  color_leather_whitened
+			}
+			50 = {
+				leather_color =  color_leather_blackened
+			}
+		}        
+        
+	} 
+
+    cloth_country_solid_group  = {
+		mask = { color = { 1.0 1.0 0.5 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}    
+    
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.2 hardness = 0.8 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    #cloth_plain_group = {
+		#mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.5 }
+	#}
+    
+ 
+
+assets = { 
+        unit_legs_pants_linen_boots_mesh
+		unit_legs_pants_linen_boots_leather_mesh
+        unit_legs_pants_breeches_mesh
+        
+        unit_legs_pants_wrappings_mesh
+        unit_legs_pants_cotton_leather_shoes_mesh
+        unit_legs_pants_woolen_soldier_mesh
+        
+        unit_hat_pleated_cotton_mesh
+        unit_hat_felt_turban_mesh
+        unit_hat_turban_cotton_cap_mesh
+	}
+}
+
+## SYRIAN PEASANT MATERIALS ##
+
+syrian_cloth_plain_group = {
+	copy = cloth_leather_country_colors_peasants_jackets
+
+
+   cloth_rough_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+
+   cloth_rough_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+
+	 cloth_rough_group = {
+        mask = { color = { 0.5 0.25 0.25 } tolerance = 0.25 hardness = 0.5 }
+	}
+
+    assets = {
+ ### TORSO   
+	unit_torso_tunic_scarf_belt_syrian_mesh
+	unit_torso_robe_long_mesh
+	unit_torso_kafftan_cotton_belt_fabric_trimm_fabric_mesh
+
+	unit_torso_tunic_belt_rombs_mesh
+	unit_torso_tunic_bag_belt_mesh
+	unit_torso_shirt_waistband_mesh
+
+	unit_torso_cape_bag_rope_mesh
+	unit_torso_light_wool_mesh
+	unit_torso_jacket_woolen_mesh
+
+	unit_torso_tunic_belt_bag_mesh
+	unit_torso_linen_vest_mesh
+	unit_torso_coat_bag_mesh
+
+	unit_torso_coat_shirt_scarf_belt_mesh
+	unit_torso_cloak_shirt_coat_sleeveles_knife_mesh
+	unit_torso_cotton_shirt_mesh
+
+	unit_torso_cotton_robe_mesh
+	unit_torso_vest_shirt_scarf_mesh
+	unit_torso_cotton_scarf_belt_mesh
+
+ ### LEGS      
+	 unit_legs_short_pants_boot_syrian_mesh
+	 unit_legs_pants_sandals_mesh
+	 unit_legs_pants_cotton_shoes_leather_straps_mesh
+
+	 unit_legs_pants_light_wool_leather_mesh
+	 unit_legs_pants_cotton_shoes_leather_mesh
+	 unit_legs_bloomers_belts_shoes_mesh
+
+	 unit_legs_satin_pants_mesh
+	 unit_legs_pants_woolen_mesh
+	 unit_legs_pants_cotton_chain_mesh
+
+	 unit_legs_linen_pants_mesh
+	 unit_legs_pants_shoes_leather_mesh
+	 unit_legs_pants_linen_shoes_mesh
+
+	 unit_legs_pants_loose_back_shoes_mesh
+	 unit_legs_pants_long_cotton_shoes_mesh
+	 unit_legs_pants_wool_rope_mesh
+
+	 unit_legs_leather_slippers_mesh
+	 unit_legs_pants_boots_laces_mesh
+	 unit_legs_pants_satin_mesh
+
+
+ ### HEADGEAR      
+	unit_hat_scarf_fullface_cotton_mesh
+	unit_hat_turban_cotton_mesh
+	unit_hat_turban_cotton_felt_mesh
+
+	unit_hat_turban_cotton_felt_cap_mesh
+	unit_hat_turban_cotton_wrapped_mesh
+	unit_hat_papaq_wool_mesh
+
+	
+	unit_hat_felt_cap_mesh
+	unit_hat_turban_cotton_slip_mesh
+
+	unit_hat_cotton_fabric_mesh
+	unit_hat_felt_cotton_mesh
+	unit_hat_turban_scarf_feather_mesh
+
+	unit_hat_turban_cap_scarf_mesh
+	unit_hat_felt_fez_slip_silk_mesh
+	unit_hat_turban_felt_cap_mesh
+
+	unit_hat_cotton_kufiya_mesh
+	unit_hat_fall_turban_mesh
+	unit_hat_felt_scull_mesh
+        
+	} 
+}
+
+
+ 
+    
+### NATIVE MATERIAL GROUP ###
+cloth_leather_country_colors_navites = {
+
+    skin_body_group = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+			secondary_color = unit_color1
+		}
+	}
+    # HAIR
+    no_texture_color_material = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}
+	
+	cloth_country_solid_group  = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.35 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			50 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	peasants_colors_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.35  hardness = 0.95}
+		repaint = {			
+            #10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            10 = { peasants_color = hex{ 0xffb0927a } }#buckskin_a
+            10 = { peasants_color = hex{ 0xff8f755f }  } #buckskin_b            
+            10 = { peasants_color = hex{ 0xff665742 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			#5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            #5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            #5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            #5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            #5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+    }
+   ## WHITE VARIATIONS ##
+    peasants_colors_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.95}
+		repaint = {          
+            5 = { peasants_color = hex{ 0xffede6d6 } }#light_cream           
+            5 = { peasants_color = hex{ 0xffe3dac9 }  } #offwhite 
+            5 = { peasants_color = hex{ 0xffe2e2e2 }  } #greyscale                       
+		}
+	}
+    
+    ## DARK BLACK VARIATIONS ##
+    peasants_colors_group = {
+		mask = { color = {  1.0 0.5 0.5 } tolerance = 0.3 hardness = 0.95}
+		repaint = {          
+           5 = { peasants_color = hex{ 0xff364045 } }#warm_black          
+           5 = { peasants_color = hex{ 0xff2a3439 }  } #dark_metal
+           5 = { peasants_color = hex{ 0xff4f4443 }  } #dark_brown  
+           5 = { peasants_color = hex{ 0xff545b5d }  } #dark_grey         
+		}
+	}
+    
+    wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	} 
+
+    leather_brown_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+		
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+    
+    cloth_golden_white_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    gold_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    #fur_sculpted_and_no_white_group = {#
+		#mask = { color = { 1.0 0.5 0.5 } tolerance = 0.2 hardness = 0.9 }
+	#}
+
+    leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.8 }
+	}
+
+    #leather_brown_group = {#
+		#mask = { color = { 1.0 0.25 0.75 } tolerance = 0.22 hardness = 0.5 }
+	#}
+
+    leather_white_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    ## BUCKSKIN MATERIAL
+    peasants_colors_group = {
+		mask = { color = { 0.5 0.25 0.25 } tolerance = 0.3 hardness = 0.95}
+		repaint = {          
+           10 = { peasants_color = hex{ 0xffb0927a } }#buckskin_a         
+            5 = { peasants_color = hex{ 0xffbaa597 }  } #buckskin_b
+            10 = { peasants_color = hex{ 0xff856d4d }  } #buckskin_c
+                      
+		}
+	}
+    
+    cloth_black_white_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+
+    
+    assets = {
+    ##TORSO##
+	unit_torso_base_necklace_mesh
+	unit_torso_tunic_necklace_small_mesh
+	unit_torso_waistcoat_mesh
+	unit_torso_suede_shirt_mesh
+	unit_torso_tunic_bag_armband_iroquois_mesh
+	unit_torso_belts_necklace_mesh
+
+	unit_torso_armor_wood_shirt_mesh
+	unit_torso_armor_wood_shirt_b_mesh
+	unit_torso_tunic_cape_fur_iroquois_mesh
+
+	unit_torso_tunic_cape_mesh
+	unit_torso_tunic_necklace_mesh
+	unit_torso_cape_fabric_feathers_ties_mesh
+
+	unit_torso_shirt_worn_mesh
+	unit_torso_tunic_knife_mesh
+	unit_torso_shirt_waistcoat_mesh
+
+	unit_torso_tunic_cape_iroquois_necklace_mesh
+	unit_torso_wool_coat_painted_feazers_mesh
+	unit_torso_coat_shirt_mesh
+
+    ##LEGS##
+	unit_legs_pants_buckskin_mesh
+	unit_legs_pants_knife_mesh
+	unit_legs_pants_loincloth_mesh
+	unit_legs_suede_pants_mesh
+	#unit_legs_gaiters_feather_iroquois_mesh
+	unit_legs_belt_loincloth_knife_mesh
+
+	unit_legs_pants_moccasin_fringed_tied_mesh
+	unit_legs_wood_armor_mesh
+	unit_legs_wood_armor_loincloth_mesh
+
+	unit_legs_pants_moccasin_fringed_mesh
+	unit_legs_pants_moccasin_feather_mesh
+	unit_legs_pants_boots_suede_belt_wampun_mesh
+
+	unit_legs_gaiters_bands_mesh
+	unit_legs_pants_fringe_mesh
+	unit_legs_pants_loincloth_belt_mesh
+
+	unit_legs_pants_boot_wampum_embroidery_mesh
+	unit_legs_buckskin_fabric_bands_mesh
+	unit_legs_pants_shoes_mesh
+
+    ##HEAD WEAR##
+	unit_hat_braid_feather_mesh
+	unit_hat_fur_feather_small_mesh
+	unit_hat_feather_braid_mesh
+	unit_hat_mohawk_mesh
+	unit_hat_headband_hair_feather_iroquois_mesh
+	unit_hat_braid_small_feather_mesh
+
+	unit_hat_mohawk_feather_mesh
+	unit_hat_fox_feather_mesh
+	unit_hat_rope_feather_mesh
+
+	unit_hat_fur_feather_mesh
+	unit_hat_mohawk_feather_b_mesh
+	unit_hat_feather_hair_antlers_beads_fabric_mesh
+
+	unit_hat_iroquois_earrings_mesh
+	unit_hat_fur_painted_mesh
+	unit_hat_bear_fur_feather_mesh
+
+	unit_hat_feather_band_balls_mesh
+	unit_hat_feather_paint_mesh
+	unit_hat_feathers_eagle_mesh
+    
+    unit_shield_wood_rope_b_mesh
+
+	} 
+}
+
+## AZTEC PEASANT MATERIALS ##
+
+aztec_clothing_plain_group = {
+
+	copy = cloth_leather_country_colors_peasants_jackets
+
+
+   cloth_rough_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+
+   cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+
+    dark_hair_group = {
+        mask = { color = { 0.5 0.5 1.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+    
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+    assets = {
+ ### TORSO   
+	unit_torso_poncho_small_mesh
+    unit_torso_cape_cotton_mesh
+    unit_torso_tilmatli_mesh
+    
+    
+
+ ### LEGS      
+	 unit_legs_bandage_single_mesh
+     unit_legs_bandage_long_aztec_mesh
+     unit_legs_tlitzitl_mesh
+
+
+ ### HEADGEAR      
+	unit_hair_aztecs_wreath_mesh  
+    
+        
+	} 
+}
+
+## AZTEC MATERIALS ##
+
+aztec_clothing_group = {
+
+	skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.8 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    
+	dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.9 hardness = 0.8 }		
+	}
+
+	cloth_quilted_aztec_group = {
+		mask = { color = { 0.25 1.0 0.5 } tolerance = 0.15 hardness = 0.9 }
+		
+	}
+    
+    cloth_country_solid_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.25 hardness = 0.9 }
+		repaint = {
+			85 = {
+				primary_color = unit_color0
+			}
+			25 = {
+				primary_color = unit_color1
+			}
+			15 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.25 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			10 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+    peasants_colors_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.3  hardness = 0.95}
+		repaint = {			
+            25 = { peasants_color = hex{ 0xffb3a595 } } #cream
+            25 = { peasants_color = hex{ 0xffb7965d } } #brown cream
+            #5 = { peasants_color = hex{ 0xffa78c37 } } #brown yellow
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            25 = {peasants_color = unit_color0	}
+            2 = { peasants_color = unit_color1	}           
+		}
+	} #	used for neutral colors of the gear sets  
+    
+	
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.5 } tolerance = 0.3 hardness = 0.8 }
+	}         
+    
+    
+	#chainmail_group = {#
+		#mask = { color = { 0.25 0.0 1.0 } tolerance = 0.2 hardness = 0.7 }
+	#}
+
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+	
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.7 }
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.7 }
+	}
+
+	feather = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.2 hardness = 0.7 }
+	}
+    
+       
+	gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.7 }
+	}
+
+	bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.2 hardness = 0.7 }
+	}
+    
+    straw_wicker = {
+ 		mask = { color = { 0.25 0.25 1.0 } tolerance = 0.1 hardness = 0.9 }
+ 	}
+	
+	#straw_wicker = {
+ 		#mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	#}
+    
+    
+
+	assets = {  
+    ### TORSO      
+        unit_torso_armor_cotton_mesh
+        unit_torso_ichcahuipilli_aztec_mesh
+        unit_torso_suit_full_aztec_mesh   
+        unit_torso_suit_full_b_aztec_mesh
+        unit_torso_suit_full_c_aztec_mesh
+    ### LEGS
+        unit_legs_cueitl_aztec_mesh
+        
+    ### HEADGEAR
+        unit_hat_hood_cone_suit_aztec_mesh
+        unit_hat_hair_bandage_feathers_aztec_mesh
+        unit_hat_hair_bandage_long_mesh           
+        
+        unit_hat_aztecs_feathers_mesh
+        unit_hat_aztecs_mask_mesh  
+        unit_hat_hair_feather_mesh  
+        
+    ### OTHER AZTEC ASSETS                                       
+        unit_shield_pavese_leather_mesh
+        unit_legs_aztecs_skirt_mesh           
+        unit_legs_pants_cotton_bronze_mesh       
+        unit_legs_aztecs_coton_leather_mesh        
+        unit_hat_face_plume_mesh      
+        unit_hat_helmet_feather_morrion_mesh        
+        unit_hat_feather_decorations_mesh
+        unit_torso_poncho_camisole_mesh
+        unit_legs_pants_leather_boots_mesh
+        unit_hat_sample_fabric_mesh
+        unit_hat_hair_waves_mesh
+        unit_legs_pants_capri_flip_flops_mesh
+        unit_torso_poncho_pattern_mesh
+        unit_torso_poncho_design_mesh
+        unit_legs_cloth_linen_mesh
+        unit_hat_sombrero_straw_mesh        
+        unit_legs_pants_charro_mesh        
+        unit_hat_balero_type_mesh        
+   
+    }
+}
+
+## AZTEC NOBLES MATERIALS ##
+
+aztec_nobles_group = {
+
+	skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.8 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}    
+    
+	dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.3 hardness = 0.9}		
+	}
+
+	cloth_quilted_aztec_group = {
+		mask = { color = { 0.25 1.0 0.5 } tolerance = 0.15 hardness = 0.9 }
+		
+	}
+    
+    cloth_country_solid_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.25 hardness = 0.9 }
+		repaint = {
+			85 = {
+				primary_color = unit_color0
+			}
+			15 = {
+				primary_color = unit_color1
+			}
+			10 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			20 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+    peasants_colors_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.3  hardness = 0.95}
+		repaint = {			
+            25 = { peasants_color = hex{ 0xffb3a595 } } #cream
+            25 = { peasants_color = hex{ 0xffb7965d } } #brown cream
+            #5 = { peasants_color = hex{ 0xffa78c37 } } #brown yellow
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			25 = {peasants_color = unit_color0	}
+            2 = { peasants_color = unit_color1	}           
+		}
+	} #	used for neutral colors of the gear sets  
+    
+	
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.5 } tolerance = 0.3 hardness = 0.8 }
+	} 
+        
+    feathers_country = {
+ 		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.3 hardness = 0.9 }
+          repaint = { 
+            25 = { feather_color = hex{ 0xffb3a595 } } #cream
+            15 = { feather_color = hex{ 0xff743c3c } } #brown red
+            25 = {feather_color = unit_color0	}  
+            25 = {feather_color = unit_color1	}            
+           }    
+    }
+
+   cloth_rough_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+
+   cloth_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+           
+   leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.22 hardness = 0.8 }
+	}
+    
+    wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.2 hardness = 0.7 }
+	}
+    
+   bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+    assets = {
+ ### TORSO   
+	unit_torso_cape_bow_mesh
+    unit_torso_poncho_fringe_cape_mesh   
+    unit_torso_belt_long_mesh
+
+ ### LEGS    
+    unit_legs_skirt_fringe_mesh 
+    unit_legs_pants_srtipes_mesh	
+    unit_legs_pants_feathers_mesh
+
+ ### HEADGEAR      	
+    unit_hat_feathers_skull_chain_mesh
+    unit_hat_feathers_ears_mesh
+    unit_hat_scull_hair_mesh
+    
+ ### ACCESSORIES
+    unit_accessories_backpack_feather_mesh
+    unit_accessories_banner_mesh
+    unit_accessories_banner_plume_mesh
+    unit_accessories_standard_feathers_basket_mesh
+    unit_accessories_cloth_cover_mesh
+        
+	} 
+}
+
+### AZTEC_LATE_AGE_TEXTURES ###
+aztec_reformation_clothing_group = {
+
+    copy = cloth_leather_country_colors_absolutism_jackets 
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.8 }
+	}
+    
+    leather_group  = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.22 hardness = 0.8 }
+	}
+        
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}
+    
+     gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.22 hardness = 0.9 }
+	}
+    
+     bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+    
+    cloth_brown_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+    
+    dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.3 hardness = 0.9}		
+	}
+    
+     rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+    
+ 
+
+assets = { 
+        unit_torso_aztecs_coton_mesh
+        unit_torso_aztecs_bronze_mesh
+        unit_torso_blackpowder_belt_mesh
+        
+        unit_torso_aztecs_handkerchief_mesh
+        unit_torso_cloth_cape_mesh
+        unit_torso_mantle_feather_mesh
+        
+        unit_torso_cuera_iron_mesh
+        unit_torso_jacket_jabot_ribbon_mesh
+        unit_torso_chupa_necktle_band_mesh
+        
+        unit_torso_poncho_gunpowder_mesh
+        unit_torso_armor_shirt_feather_mesh
+        unit_torso_coleto_mesh
+        
+        unit_torso_uniform_crossbelts_mesh
+        unit_torso_vestcoat_wool_mesh
+        unit_torso_jacket_short_mesh
+        
+        unit_torso_jacket_uniform_epaulets_gorget_mesh
+        unit_torso_jacket_uniform_short_mesh
+        unit_torso_jacket_uniform_epaulets_mesh
+
+        unit_legs_breeches_sandals_mesh
+        unit_legs_pants_feather_sandals_mesh        
+        unit_legs_pants_bump_sandals_mesh
+        
+        unit_legs_breeches_gaiters_mesh
+        unit_legs_calzon_gaiters_mesh
+        unit_legs_pants_gaiters_spurs_mesh
+        
+        unit_legs_pants_uniform_boots_cavalier_mesh
+        unit_legs_pants_uniform_boots_high_mesh
+        unit_legs_pants_uniform_long_mesh
+        
+        unit_legs_breeches_lace_boot_mesh
+        unit_legs_boot_covers_mesh
+        unit_legs_aztecs_cloth_leggings_mesh
+        unit_legs_pants_wool_socks_mesh
+        unit_legs_pants_boot_cuff_mesh
+        
+        unit_hat_sombrero_cone_balls_mesh
+        unit_hat_sombrero_cordobes_mesh
+        unit_hat_charro_feathers_mesh
+        unit_hat_chambergo_feathers_mesh
+        unit_hat_sombrero_cone_balls_backpack_mesh
+        
+        unit_hat_round_tail_mesh
+        unit_hat_aztecs_design_mesh
+        unit_hat_straw_feathers_mesh
+        unit_hat_feathers_silk_mesh
+        unit_hat_round_bent_mesh
+        
+        unit_hat_cotton_forage_mesh
+        unit_hat_sambrero_shash_mesh
+	}
+}
+
+### HAN_SOLDIER_NOBLE_MATERIALS ###
+metal_chinese_patterns_gambeson_cloth_chainmail_gold_fur_skin = {	
+	iron_plain_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.4 hardness = 0.8 }
+	}
+	leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.55 hardness = 0.6 }
+	}
+    leather_black_group = {
+		mask = { color = { 0.0 0.0 0.25 } tolerance = 0.55 hardness = 0.6 }
+	}     
+	
+	chinese_armor_pattern_group = {
+		mask = { color = { 0.5 0.5 0.75 } tolerance = 0.25 hardness = 0.8 }
+	}    
+	
+	gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.5 hardness = 0.6 }
+	}
+	bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.15 hardness = 0.6 }
+	}
+    chainmail_group = {
+		mask = { color = { 0.25 0.25 1.0 } tolerance = 0.15 hardness = 0.6 }
+	}
+	copy = plain_skin
+	
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.6}
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+				#secondary_color = unit_color1
+			}
+			#10 = {#
+				#primary_color = unit_color0
+				#secondary_color = unit_color2
+			#}
+			#10 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color0
+			#}
+			#2 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color2
+			#}
+			#1 = {#
+				#primary_color = unit_color2
+				#secondary_color = unit_color0
+			#}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.6 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+				#secondary_color = unit_color1
+			}
+			2 = {
+				primary_color = unit_color2
+				#secondary_color = unit_color2
+			}
+			#20 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color0
+			#}
+			#30 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color2
+			#}
+			#7 = {#
+				#primary_color = unit_color2
+				#secondary_color = unit_color0
+			#}
+		}
+	}
+	
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.13 hardness = 0.6 }
+		repaint = {
+			75 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			35 = {
+				primary_color = unit_color0
+				secondary_color = unit_color2
+			}
+			#30 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color0
+			#}
+			#30 = {#
+				#primary_color = unit_color1
+				#secondary_color = unit_color2
+			#}
+			#30 = {#
+				#primary_color = unit_color2
+				#secondary_color = unit_color0
+			#}
+		}
+	}
+    peasants_colors_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.9}
+		repaint = {          
+            5 = { peasants_color = hex{ 0xffede6d6 } }#light_cream           
+            5 = { peasants_color = hex{ 0xffe3dac9 }  } #offwhite 
+            5 = { peasants_color = hex{ 0xffe2e2e2 }  } #greyscale                       
+		}
+	}
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.15 hardness = 0.9 }
+		repaint = {
+				10 = { primary_color = hair_color }
+		}
+	}
+    leather_shine_group = {
+		mask = { color = { 0.0 0.25 0.25 } tolerance = 0.15 hardness = 0.8 }
+	}
+    
+    iron_textured_brown_dark_group = {
+		mask = { color = { 0.0 0.5 0.5 } tolerance = 0.15 hardness = 0.8 }
+	}
+    
+    chinese_armor_pattern_big_scales_group = {
+		mask = { color = { 0.25 0.5 0.5 } tolerance = 0.15 hardness = 0.8 }
+	}
+    
+    leather_heavy_armor_brown_group = {
+		mask = { color = { 0.25 0.0 0.25 } tolerance = 0.15 hardness = 0.8 }
+	}
+    lamellar_chinese_armor_group = {
+		mask = { color = { 0.75 0.25 0.75 } tolerance = 0.15 hardness = 0.8 }
+	}
+    fur_sculpted_and_white_black_group = {
+		mask = { color = { 1.0 0.5 0.5 } tolerance = 0.1 hardness = 0.95 }
+	}
+    
+   ## DARK FABRIC COLORS ##
+     #peasants_colors_group = {#
+		#mask = { color = { 1.0 0.5 0.0 } tolerance = 0.15 hardness = 0.9}
+		#repaint = {          
+            #5 = { peasants_color = hex{ 0xff222222 } }#grey_black         
+            #5 = { peasants_color = hex{ 0xff242124 }  } #raisin_black
+            #5 = { peasants_color = hex{ 0xff23191e }  } #red_black                     
+		#}
+	#}
+	
+	assets = {
+		unit_torso_robe_silk_armor_bronze_mesh
+		unit_torso_ties_sash_pauldrons_mesh
+		unit_torso_scale_iron_armor_mesh
+        unit_torso_robe_pads_lamellar_mesh
+		unit_hat_iron_brush_feather_mesh
+		unit_torso_robe_hip_armor_mesh
+		unit_hat_head_armor_plume_mesh
+        unit_hat_flag_plume_lamellar_mesh
+        unit_shield_wood_corner_mesh
+        unit_torso_dress_chainmail_mesh
+        unit_hat_helmet_armor_lines_mesh
+        unit_torso_robe_bracer_mesh
+        unit_torso_armor_ming_guard_mesh
+        unit_torso_robe_plates_mesh
+        unit_hat_helmet_chichak_mesh
+        unit_torso_armor_disks_silk_mesh
+        unit_torso_chinese_robe_armor_mesh
+        unit_torso_cuiras_gorget_leather_mesh
+        unit_hat_helmet_cone_metal_mesh
+        unit_hat_helmet_dark_plume_mesh
+        unit_hat_helmet_fur_feathers_mesh
+        unit_torso_han_fur_mesh
+        unit_torso_cotton_chain_metal_mesh
+        unit_legs_chinese_coton_mesh
+        unit_torso_chinese_coton_mesh
+        unit_hat_helmet_leather_gold_mesh
+        unit_hat_han_metal_mesh
+        unit_legs_shorts_stripes_fabric_mesh
+        unit_torso_manchu_uniform_mesh
+        unit_legs_pants_sliken_ma_xue_mesh
+        unit_torso_armor_brigandine_studs_mesh
+        unit_hat_helmet_chichak_iron_mesh
+        unit_hat_han_soldiers_mesh
+        unit_torso_jacket_cotton_mesh
+        unit_torso_hanfu_robe_mesh
+        unit_torso_han_fabric_mesh
+        unit_hat_helmet_feathers_mesh
+        unit_hat_helmet_han_mesh
+        unit_hat_helmet_feathers_gold_mesh
+        unit_legs_pants_hanfu_silk_mesh
+        unit_legs_pants_han_mesh
+        unit_legs_skirt_cotton_mesh
+        unit_torso_satin_hanfu_robe_mesh
+        unit_torso_robe_velvet_mesh
+        unit_hat_futou_fur_mesh
+        unit_torso_chainese_satin_robe_mesh
+        unit_hat_felt_hanfu_mesh
+        unit_torso_armor_metal_cotton_mesh
+	}
+}
+
+### HAN_PEASANTS_TEXTURES ###
+han_peasants_clothing_group = { 
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.95 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.7 hardness = 0.9 }
+		repaint = {
+				10 = { primary_color = hair_color }
+		}
+	}
+	
+	#cloth_country_solid_group  = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		#repaint = {
+			#100 = {
+				#primary_color = unit_color0
+			#}
+			#0 = {
+				#primary_color = unit_color1
+			#}
+			#0 = {
+				#primary_color = unit_color2
+			#}
+		#}
+	#}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.5 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			25 = {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}    
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.9}
+		repaint = {			
+            10 = { peasants_color = hex{ 0xff7d4f51 } }#brown           
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            10 = { peasants_color = hex{ 0xffb29986 } }#grey_brown
+            5 = { peasants_color = hex{ 0xff747360 }  } #green_grey
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown            
+            5 = { peasants_color = hex{ 0xffe3dac9 }  } #offwhite 
+                       
+		}
+	}
+          
+    #cloth_earthy_group = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+		
+	#}
+    
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}       
+    
+    cloth_plain_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    cloth_white_group = {
+		mask = { color = {0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	} 
+    
+    rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+    straw_wicker = {
+ 		mask = { color = { 0.25 0.25 1.0 } tolerance = 0.1 hardness = 0.9 }
+ 	}
+    
+    wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+ 
+
+assets = {    
+        unit_torso_tunic_sleaves_mesh
+        unit_torso_shirt_vest_china_mesh
+        unit_torso_shirt_belt_wrap_mesh
+        unit_torso_tunic_hemp_mesh
+        unit_legs_trousers_underpants_china_mesh
+        unit_legs_trousers_hemp_mesh
+        unit_legs_trousers_socks_shoes_mesh
+        unit_hair_china_stick_mesh
+        unit_hat_triangular_hemp_mesh
+        unit_hat_straw_mesh
+        unit_torso_robe_belt_rope_mesh
+		unit_torso_hanfu_belt_mesh
+        unit_torso_robe_belt_cotton_mesh
+        unit_hat_bunch_mesh
+        unit_legs_trousers_short_sandals_mesh
+        unit_legs_pants_fabric_sandals_mesh
+        unit_legs_short_boots_leather_mesh
+        unit_hat_non_high_mesh
+        unit_hat_cotton_mesh
+        unit_torso_robe_cotton_mesh
+        unit_torso_coton_shirt_mesh
+        unit_torso_robe_coton_mesh
+        unit_torso_shirt_coton_rope_mesh
+        unit_hat_bamboo_mesh
+        unit_legs_pants_shoes_bamboo_mesh
+        unit_legs_pants_sandals_bamboo_mesh
+        unit_legs_shorts_mesh
+        unit_torso_robe_belt_fabric_mesh
+        unit_legs_pants_boots_fabric_mesh
+        unit_hat_farmer_mesh
+        unit_torso_skirt_long_mesh
+        unit_legs_pants_fabric_mesh
+        unit_torso_robe_fabric_mesh
+        unit_hat_hair_smooth_mesh
+        unit_torso_robe_peasant_mesh
+        unit_hat_hair_ponytail_mesh
+        unit_legs_pants_gaiters_mesh
+        unit_torso_robe_belt_mesh
+        unit_legs_pants_belt_gaiters_mesh
+        unit_legs_peasant_mesh
+        unit_hat_peasant_mesh
+        unit_hat_lofty_mesh
+        unit_legs_pants_wide_satin_mesh
+        unit_torso_weist_coat_leather_mesh
+        unit_torso_han_linen_mesh
+        unit_torso_shirt_dress_sash_mesh
+        unit_legs_pants_han_cotton_mesh
+        unit_legs_wide_pants_socks_mesh
+        unit_hat_coton_mesh
+        unit_hat_wool_mesh
+        unit_accessories_basket_bamboo_mesh
+        unit_hat_hair_parts_mesh
+        unit_hat_han_straw_mesh
+        unit_hat_feather_button_mesh
+        unit_hat_straw_panama_mesh
+        
+        
+	}
+}
+
+### HAN_GENERIC_TEXTURES ###
+han_generic_clothing_group = { 
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.9 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.8 hardness = 0.8 }
+		repaint = {
+				10 = { primary_color = hair_color }
+		}
+	}
+	
+	cloth_country_solid_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.75 hardness = 0.95 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			5 = {
+				primary_color = unit_color1
+			}
+			#5 = {
+				#primary_color = unit_color2
+			#}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.7 hardness = 0.95 }
+		repaint = {
+			100 = {
+				primary_color = unit_color1
+			}
+			1 = {
+				primary_color = unit_color2
+			}
+			#5 = {
+				#primary_color = unit_color2
+			#}
+		}
+	}    
+    
+    peasants_colors_group = {
+		mask = { color = { 0.25 1.0 0.5 } tolerance = 0.2 hardness = 0.9}
+		repaint = {	            
+            
+            5 = { peasants_color = hex{ 0xffb29986 } }#grey_brown
+            5 = { peasants_color = hex{ 0xff747360 }  } #green_grey
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown            
+            5 = { peasants_color = hex{ 0xffe3dac9 }  } #offwhite                       
+		}
+	}
+          
+    #cloth_earthy_group = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+		
+	#}
+    
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}       
+    
+    cloth_plain_group = {
+		mask = { color = {  0.5 0.75 0.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    cloth_white_group = {
+		mask = { color = {0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.8 }
+	}
+    
+    gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.15 hardness = 0.8 }
+	}
+    
+    rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+    straw_wicker = {
+ 		mask = { color = { 0.25 0.25 1.0 } tolerance = 0.1 hardness = 0.9 }
+ 	}
+    
+    wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+ 
+
+assets = {    
+ #### TRADITIONS_SOLDIERS ####        
+        unit_torso_shirt_long_ramie_mesh
+        unit_torso_armor_square_plates_mesh
+        unit_torso_brigandine_china_mesh
+        unit_torso_iron_lamellar_pauldors_mesh
+        unit_hat_futou_mesh
+        unit_hat_straw_gilden_mesh
+        unit_hat_straw_wrap_mesh
+        unit_legs_pants_wide_chinese_mesh
+        
+	}
+}
+
+## ASHANTI MATERIALS ##
+
+ashanti_generic_clothing_group = {
+
+	skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+
+	#cloth_country_solid_group = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.1 hardness = 0.9 }
+		#repaint = {
+			#100 = {
+				#primary_color = unit_color0
+			#}
+			#5 = {
+				#primary_color = unit_color1
+			#}
+			#5 = {
+				#primary_color = unit_color2
+			#}
+		#}
+	#}
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.35 hardness = 0.8}
+		repaint = {			
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+	}
+    
+    cloth_country_solid_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.2 hardness = 0.9 }
+		repaint = {
+			75 = {
+				primary_color = unit_color0
+			}
+			50 = {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.7 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			20 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+	
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	cloth_white_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.2 hardness = 0.1 }
+	}
+
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	feather = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+    
+    dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+	
+	rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+    
+    cane_wood_group = {
+ 		mask = { color = { 0.75 0.25 0.25 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+
+	assets = { 
+        
+        
+        unit_torso_armor_leather_rope_mesh
+        unit_torso_armor_crocodile_skin_mesh
+        unit_torso_armor_cane_mesh
+    
+        unit_legs_pants_cotton_wide_mesh
+        unit_legs_pants_cloth_shoes_leather_mesh
+        unit_legs_skirt_cloth_mesh
+    
+    
+        unit_hat_crocodile_skin_mesh      
+        
+        #unit_hat_helmet_cane_mesh
+        unit_hat_leather_metal_mesh
+        unit_cane_helmet_ashanti_mesh
+    
+        unit_shield_cane_leather_mesh
+        
+       
+    
+    
+    }
+}
+
+### GENERIC_ASHANTI_TEXTURES ###
+ashanti_peasants_neutral_clothing_group = {
+ 
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.8 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+    
+    
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.35 hardness = 0.8}
+		repaint = {			
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown
+            #10 = { peasants_color = hex{ 0xffa05444 } }#mustard_brown
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            #5 = { peasants_color = hex{ 0xff442266 }  } #purple
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown
+            5 = { peasants_color = hex{ 0xffbb7744 } }#yellow_brown#
+		}
+	}
+    
+    cloth_country_solid_group  = {
+		mask = { color = { 0.5 1.0 0.0 } tolerance = 0.25 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			15 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}
+          
+   
+    
+    no_texture_color_material = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.2 hardness = 0.7 }
+		repaint = {
+			primary_color = hair_color
+		}
+	}    
+   
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.4 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.4 }
+	}       
+    
+    cloth_plain_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    cloth_white_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.5 }
+	}
+    
+    cloth_only_black_group = {
+        mask = { color = { 0.0 1.0 0.5 } tolerance = 0.25 hardness = 0.5 }
+	}
+      
+    gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}      
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	}
+
+    chainmail_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+    
+    cloth_country_solid_group = {
+		mask = { color = { 0.5 0.5 0.0 } tolerance = 0.22 hardness = 0.8 }
+		repaint = {
+			90 = {
+				primary_color = unit_color1
+			}
+			5 = {
+				primary_color = unit_color2
+			}
+		}
+	}     
+    
+    
+    assets = {
+### PEASANTS ASHANTI       
+       unit_torso_cape_clothespin_mesh
+       unit_torso_belts_mesh
+       unit_torso_chaplet_mesh
+        
+       unit_torso_robe_coton_belt_mesh
+       unit_torso_robe_decor_mesh
+       unit_torso_cotton_cape_mesh
+
+### LEGS      
+       unit_legs_pants_decorative_detail_mesh
+       unit_legs_sandals_afro_mesh
+       unit_legs_skirt_mesh
+        
+       unit_legs_shorts_leather_boots_mesh
+       unit_legs_cotton_leather_mesh
+       unit_legs_shorts_boots_mesh
+       
+        
+
+### HEADGEAR      
+       unit_hat_cone_long_mesh 
+       unit_hat_hair_bandage_mesh
+       unit_hat_winding_cotton_mesh      
+        
+       unit_hat_ashanti_fabric_mesh
+       unit_hat_cylindrical_cotton_mesh
+       unit_hat_feathers_haulm_mesh       
+
+### NOBLES_ASHANTI_TRADITIONS
+       unit_torso_tunik_stripes_mesh
+       unit_torso_tunik_stripes_short_mesh
+       unit_torso_collar_fangs_mesh
+       unit_torso_fur_cape_mesh
+        
+       unit_legs_skirt_belt_mesh
+       unit_legs_skirt_belts_mesh
+       unit_legs_pants_shield_belt_mesh
+        
+       unit_hat_bandage_mesh
+       unit_hat_feather_fur_mesh
+        
+ 
+       
+### DISCOVERY ASHANTI
+
+       unit_hat_helmet_metal_gold_mesh
+       unit_hat_horns_antelope_mesh
+       unit_hat_helmet_chain_mail_mesh
+       
+       unit_torso_armor_velvet_coral_mesh
+       unit_torso_cloth_linen_shell_mesh
+       unit_torso_cape_fabric_mesh
+       
+       unit_torso_fringe_mesh
+       
+       unit_legs_shorts_cotton_mesh
+       unit_legs_pants_cotton_sandals_mesh
+       
+### ABSOLUTISM ASHANTI
+       unit_torso_cheetah_bag_mesh
+       unit_torso_shirt_knife_flask_mesh
+       unit_torso_armor_stone_leather_mesh
+        
+       unit_hat_ashanti_cap_mesh
+       unit_hat_stone_armor_mesh
+       unit_hat_woolen_triple_pompom_mesh
+        
+       unit_legs_skirt_fabric_mesh
+       unit_legs_braided_bands_mesh
+       unit_legs_sash_sandals_mesh
+        
+	}
+    
+}
+
+## ASHANTI DISCOVERY NOBLES ##
+ashanti_clothing_group = {
+
+	skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.95 hardness = 0.4 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+
+	#cloth_quilted_african_group = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.1 hardness = 0.9 }
+		#repaint = {
+			#90 = {
+				#primary_color = unit_color0
+			#}
+			#50 = {
+				#primary_color = unit_color1
+			#}
+			#25 = {
+				#primary_color = unit_color2
+			#}
+		#}
+	#}
+    
+    cloth_gambeson_country_medieval = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.95}
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+				secondary_color = unit_color1
+			}
+			30 = {
+				primary_color = unit_color1
+				secondary_color = unit_color0
+			}
+			
+			
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+    cloth_gambeson_country_one = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.3 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0                
+			}
+			10 = {
+				primary_color = unit_color1               	
+			}
+        }
+            
+	}
+
+	cloth_country_solid_group_two = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.5 hardness = 0.95 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+                secondary_color = unit_color1
+			}
+			10 = {
+				primary_color = unit_color1
+                secondary_color = unit_color0			
+			}
+            
+		}
+	}
+    
+    #cloth_gambeson_country_one = {
+		#mask = { color = { 0.25 0.75 0.25 } tolerance = 0.2 hardness = 0.95}
+        #repaint = {
+			#50 = {
+				#primary_color = unit_color0
+                
+			#}
+			#50 = {
+				#primary_color = unit_color1
+                			
+			#}
+            
+		#}		
+	#}
+	
+	chainmail_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	leather_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	cloth_white_group = {
+		mask = { color = { 1.0 0.5 1.0 } tolerance = 0.2 hardness = 0.1 }
+	}
+
+
+	iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.2 hardness = 0.5 }
+	}
+
+	wood_group = {
+		mask = { color = { 1.0 0.5 0.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	feather = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+    
+    dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.1 hardness = 0.5 }
+	}
+
+	bronze_group = {
+		mask = { color = { 1.0 0.5 0.25 } tolerance = 0.1 hardness = 0.5 }
+	}
+	
+	rattan_headgear_group = {
+ 		mask = { color = { 0.5 0.25 1.0 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+    
+    cane_wood_group = {
+ 		mask = { color = { 0.75 0.25 0.25 } tolerance = 0.1 hardness = 0.5 }
+ 	}
+
+	assets = { 
+    
+    unit_torso_quilted_cloth_mesh
+    unit_torso_quilted_cloth_squares_mesh             
+        
+   
+    }
+}
+
+### ASHANTI_LATE_AGE_JACKETS_TEXTURES ###
+ashanti_revolutions_clothing_group = {
+
+    copy = cloth_leather_country_colors_absolutism_jackets 
+    
+    dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.1 hardness = 0.5 }
+	} 
+    
+ 
+
+assets = { 
+        unit_torso_jellaba_dress_mesh
+        unit_torso_shirt_epaulettes_mesh   
+        unit_torso_uniform_tirailleur_mesh
+        
+        unit_legs_linen_wrap_gaiters_mesh
+        unit_legs_wolen_pants_mesh
+        unit_legs_wide_pants_embroidery_mesh
+
+        unit_hat_fabric_button_mesh
+        unit_hat_cotton_turban_embroidery_mesh
+        unit_hat_cotton_cuffi_cap_mesh        
+        
+	}
+}
+
+### DECCAN_PEASANTS_TEXTURES ###
+generic_deccan_peasants_materials = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+   dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.5 hardness = 0.8 }
+	} 
+
+	
+	#cloth_country_solid_group  = {
+		#mask = { color = { 0.0 1.0 0.0 } tolerance = 0.3 hardness = 0.9 }
+		#repaint = {
+			#100 = {
+				#primary_color = unit_color0
+			#}
+			#0 = {
+				#primary_color = unit_color1
+			#}
+			#0 = {
+				#primary_color = unit_color2
+			#}
+		#}
+	#}
+
+
+	cloth_country_solid_group = {
+		mask = { color = { 0.5 0.75 0.0 } tolerance = 0.5 hardness = 0.9 }
+		repaint = {
+			90 = {
+				primary_color = unit_color0
+			}
+			25 = {
+				primary_color = unit_color1
+			}
+			25 = {
+				primary_color = unit_color2
+			}
+		}
+	}   
+    
+    
+    peasants_colors_group = {
+		mask = { color = { 0.0 1.0 0.0 } tolerance = 0.5 hardness = 0.8}
+		repaint = {	
+            10 = { peasants_color = hex{ 0xff0939176 } }#yellow_grey		
+            10 = { peasants_color = hex{ 0xffc19851 } }#medium_brown
+			10 = { peasants_color = hex{ 0xff7d4f51 } } #brown            
+            10 = { peasants_color = hex{ 0xff836e68 } }#grey_brown
+            5 = { peasants_color = hex{ 0xff747360 }  } #green_grey
+			5 = { peasants_color = hex{ 0xff304e63 } } #blue_desert
+            5 = { peasants_color = hex{ 0xffa98c37 } }#green_olive
+            5 = { peasants_color = hex{ 0xff6e2233} } #red_deep
+            5 = { peasants_color = hex{ 0xff5c503a } }#light_brown            
+		}
+	}
+          
+    
+    
+    cloth_rough_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.15 hardness = 0.9 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}       
+    
+    #cloth_plain_group = {#
+		#mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.9 }
+	#}
+    
+    cloth_plain_group = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.2 hardness = 0.9 }
+	}
+    
+    leather_dark_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+    
+    #leather_dark_brown_group = {#
+		#mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	#}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.9 }
+	}     
+    
+
+assets = { 
+### PEASANTS         
+        unit_torso_shirt_bracelet_mesh
+        unit_torso_two_pieces_fabric_mesh
+        unit_torso_naked_sash_bronze_mesh
+        
+        unit_hat_topi_mesh
+        unit_hat_turban_india_cotton_mesh
+        unit_hat_high_bun_mesh
+        
+        
+        unit_legs_woolen_skirt_mesh
+        unit_legs_shorts_fabric_mesh
+        unit_legs_dhoti_cotton_sandals_mesh        
+        
+	}
+    
+}   
+
+### DECCAN_EARLY_AGES_HIGH_TIER_TEXTURES ###
+generic_deccan_early_age_materials = {
+
+    skin_color_material = {
+		mask = { color = { 1.0 0.0 0.0 } tolerance = 0.9 hardness = 0.5 }
+		repaint = {
+			primary_color = skin_color
+		}
+	}
+    
+   
+    
+   cloth_country_solid_group = {
+		mask = { color = {  0.0 1.0 0.0 } tolerance = 0.7 hardness = 0.95 }
+		repaint = {
+			100 = {
+				primary_color = unit_color0
+			}
+			0 = {
+				primary_color = unit_color1
+			}
+			0 = {
+				primary_color = unit_color2
+			}
+		}
+	}  
+	
+	cloth_country_solid_group_two  = {
+		mask = { color = { 0.5 0.0 1.0 } tolerance = 0.6 hardness = 0.95 }
+		repaint = {        
+            15 = {
+				primary_color = unit_color0
+                secondary_color = unit_color1
+			}
+			85 = {
+				primary_color = unit_color1
+                secondary_color = unit_color2
+			}
+			15 = {
+				primary_color = unit_color2
+                secondary_color = unit_color1
+			}			
+		}
+	}    
+    
+    peasants_colors_group = {
+		mask = { color = { 1.0 1.0 0.0 } tolerance = 0.45 hardness = 0.95}
+		repaint = {	
+            3 = { peasants_color = hex{ 0xff0939176 } }#yellow_grey  
+            5 = { peasants_color = hex{ 0xffebecf0 } }#grey_white 
+            5 = { peasants_color = hex{ 0xffe9edf6 } }#coconut_white             
+           	10 = { peasants_color = hex{ 0xf8f8f8 } }#off_white    
+		}
+	}
+          
+    
+    leather_brown_group = {
+		mask = { color = { 0.0 0.0 1.0 } tolerance = 0.25 hardness = 0.9 }
+	}
+    
+    cloth_grey_white_group = {
+		mask = { color = { 0.0 0.5 0.0 } tolerance = 0.2 hardness = 0.95 }
+	}
+    
+    cloth_felt_group = {
+        mask = { color = { 0.5 0.25 0.0 } tolerance = 0.2 hardness = 0.9 }
+	}   
+   
+        
+    iron_basic_group = {
+		mask = { color = { 0.0 1.0 1.0 } tolerance = 0.22 hardness = 0.9 }
+	} 
+
+    gold_group = {
+		mask = { color = { 0.5 0.0 0.5 } tolerance = 0.2 hardness = 0.9 }
+	}  
+    chainmail_group = {
+		mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.8 }
+	}
+    
+    cloth_gambeson_country_one = {
+		mask = { color = { 0.0 1.0 0.5 } tolerance = 0.15 hardness = 0.9 }
+        repaint = {
+			90 = {
+				primary_color = unit_color0				
+			}
+			50 = {
+				primary_color = unit_color0				
+			}
+			10 = {
+				primary_color = unit_color1				
+			}
+			5 = {
+				primary_color = unit_color2			
+			}
+			
+			#4 = {
+			#	primary_color = unit_color2
+			#	secondary_color = unit_color1
+			#}
+		}
+	}
+    
+    dark_hair_group = {
+		mask = { color = { 0.5 0.5 1.0 } tolerance = 0.2 hardness = 0.8 }
+	} 
+    leather_white_group = {
+		mask = { color = { 0.0 0.0 0.5 } tolerance = 0.2 hardness = 0.8 }
+	} 
+       
+    #cloth_plain_group = {#
+		#mask = { color = { 0.25 0.5 1.0 } tolerance = 0.2 hardness = 0.9 }
+	#}
+      
+       
+    #leather_dark_brown_group = {#
+		#mask = { color = { 0.0 0.0 1.0 } tolerance = 0.22 hardness = 0.5 }
+	#}
+    
+      
+
+assets = { 
+### TRADITIONS_SOLDIERS     
+        unit_torso_skirt_woolen_mesh
+        unit_torso_choga_coat_wool_mesh
+        unit_torso_armor_coton_padded_mesh
+        
+        unit_legs_short_whoole_mesh
+        unit_legs_dhoti_cotton_mesh
+        unit_legs_pants_cotton_armor_mesh 
+
+        unit_hat_helmet_turban_mesh
+        unit_hat_helmet_padded_plume_mesh
+        unit_hat_helmet_padded_mesh 
+### TRADITIONS_NOBLE
+        unit_torso_armor_shoulderpads_sash_mesh
+        unit_torso_armor_oversleeves_mesh        
+        unit_torso_armor_lamellar_mesh
+        
+        unit_hat_crown_gem_mesh
+        unit_hat_hemet_gold_feathers_mesh
+        unit_hat_velvet_mesh 
+        
+        unit_legs_pants_short_sandals_mesh
+        unit_legs_skirt_embroidery_mesh 
+        unit_legs_dhoti_shoes_mesh
+        
+        unit_torso_armor_choga_mesh
+        unit_torso_kurta_sash_belt_mesh
+        unit_torso_armor_wool_mesh
+        
+        unit_hat_helmet_pointed_chain_mesh
+        unit_hat_helmet_steel_mesh
+        unit_hat_topy_mesh
+        
+        unit_legs_pants_short_slippers_mesh
+        unit_legs_pants_cotton_mesh
+        unit_legs_pants_simple_shoes_mesh
+        
+        unit_torso_skirt_woolen_mail_mesh
+        unit_torso_linen_chain_mail_mesh
+        
+        unit_torso_uniform_short_mesh
+        unit_torso_cotton_choga_mesh
+        unit_torso_jacket_belt_beads_mesh
+        
+        unit_legs_pants_short_cotton_mesh
+        unit_legs_shorts_deco_sandals_mesh
+        unit_legs_pants_cotton_cuffs_mesh
+        unit_legs_skirt_double_mesh
+        
+        unit_hat_helmet_mail_brushes_mesh
+        unit_hat_turban_flat_mesh
+        unit_hat_woll_feather_mesh
+        unit_hat_cane_trassel_mesh
+        
+        unit_hat_turban_sateen_mesh
+        unit_hat_jirre_mesh
+		unit_hat_khulla_turban_mesh
+        
+        unit_torso_coat_pearl_necklace_mesh
+        unit_torso_coat_sash_dress_mesh
+        unit_torso_cape_pearls_mesh
+        
+        unit_legs_pants_boots_mesh
+        unit_legs_wide_linen_mesh
+        unit_legs_pants_armor_chainmail_mesh
+        
+        unit_legs_bloomers_east_winding_mesh
+        unit_legs_pants_boots_leather_mesh
+        unit_legs_pants_wide_boots_mesh
+        
+        unit_torso_dress_colorful_belt_mesh
+        unit_torso_uniform_absolutism_mesh
+        unit_torso_coat_belt_wide_mesh
+        
+        unit_hat_turban_trassel_tall_mesh
+        unit_hat_turban_feather_mesh
+        unit_hat_turban_wide_mesh
+        
+        unit_torso_warp_around_belt_mesh
+        unit_torso_uniform_colonial_mesh
+        unit_torso_uniform_belts_mesh
+        
+        unit_legs_pants_wool_boots_leather_mesh
+        unit_legs_shorts_slippers_mesh
+        unit_legs_pants_socks_colonial_mesh
+        
+        unit_hat_turban_sith_mesh
+        unit_hat_daster_plume_mesh
+        unit_hat_tilted_cap_mesh
+        
+        unit_torso_skirt_chain_mail_mesh
+        
+        
+	}
+    
+}   
+
+   
+    
+    

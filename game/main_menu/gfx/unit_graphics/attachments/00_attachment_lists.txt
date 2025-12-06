@@ -1,0 +1,500 @@
+﻿############################
+##### Attachment lists #####
+############################
+
+###############################################
+# torsos
+###############################################
+
+torsos = {
+	10 = torsos_clothes
+}
+
+IDEAL_UNIFORM:torsos = {
+	10 = soldier_torsos_clothes
+}
+
+medium_tag:torsos = {
+	10 = soldier_torsos_clothes
+}
+
+heavy_tag:torsos = {
+	10 = heavy_torsos_clothes
+}
+
+crusader_tag:torsos = {
+	10 = crusader_clothes
+}
+
+
+
+
+
+
+
+###############################################
+# legs
+###############################################
+
+legs = {
+	10 = peasant_legs
+}
+
+IDEAL_UNIFORM:legs = {
+	10 = soldier_legs
+}
+
+medium_tag:legs = {
+	10 = soldier_legs
+}
+
+heavy_tag:legs = {
+	10 = noble_legs
+}
+
+###############################################
+# hairstyles
+###############################################
+
+headgear = {
+	75 = peasant_hats
+	25 = {}
+}
+
+IDEAL_UNIFORM:headgear = {
+	50 = soldier_hats
+}
+
+medium_tag:headgear = {
+	100 = soldier_hats
+}
+
+heavy_tag:headgear = {
+	100 = noble_hats
+}
+
+###############################################
+# beards
+###############################################
+beards = {
+	2 = full_beards
+
+	if = {
+		limit = {
+			religion = {
+				OR = {
+					gfx_culture_applicable = muslim_gfx
+					gfx_culture_applicable = eastern_christian_gfx
+				}
+			}
+		}
+		2 = full_beards
+		2 = mustaches
+	}
+
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					gfx_culture_applicable = ainu_gfx
+				}
+			}
+		}
+		2 = full_beards
+	}
+
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					gfx_culture_applicable = irish_gfx
+					gfx_culture_applicable = hungarian_gfx
+					gfx_culture_applicable = east_slavic_gfx
+					gfx_culture_applicable = south_slavic_gfx
+				}
+			}
+		}
+		4 = mustaches
+	}
+
+	if = {
+		limit = {
+			religion = {
+				OR = {
+					gfx_culture_applicable = western_christian_gfx
+					gfx_culture_applicable = shinto_gfx
+				}
+			}
+		}
+		4 = { } #shaved
+	}
+}
+
+age_5_absolutism:beards = {
+	1 = { } #shaved
+	1 = mustaches
+}
+
+north_american_gfx:beards = {
+	1 = { } #shaved
+}
+south_american_gfx:beards = {
+	1 = { } #shaved
+}
+american_ethnicity:beards = {
+	100000 = {	} #shaved
+}
+
+###############################################
+# weapons
+###############################################
+weapons_rebel = {
+	1 	= rebel_weapons
+}
+
+
+weapons = {
+	100 = peasant_weapons
+}
+
+IDEAL_UNIFORM:weapons = {
+	100 = soldier_weapons
+}
+
+musket_tag:weapons = {
+	100 = soldier_musket_weapons
+}
+
+pike_tag:weapons = {
+	100 = pike_weapons
+}
+
+polearm_tag:weapons = {
+	100 = polearm_weapons
+}
+
+sword_tag:weapons = {
+	100 = sword_weapons
+}
+
+axe_tag:weapons = {
+	100 = axe_weapons
+}
+
+medium_tag:weapons = {
+	100 = soldier_weapons
+}
+
+heavy_tag:weapons = {
+	100 = noble_weapons
+}
+
+pistol_tag:weapons = {
+	100 = pistol_weapons
+	25 = dualpistol_weapons
+}
+
+peasant_weapons = {
+	if = { limit = { subunit_home = { raw_material = goods:lumber } }
+		100 = lumber_weapons
+	}
+	else_if = {
+		limit = {
+			subunit_home = {
+				raw_material = {
+					goods_method = mining
+				}
+			}
+		}
+		100 = mining_weapons
+	}
+	else_if = {
+		limit = {
+			subunit_home = {
+				raw_material = {
+					goods_method = hunting
+				}
+			}
+		}
+		100 = archer_weapons
+	}
+	else = {
+		100 = farming_weapons
+		25 = peasant_spear_weapons
+	}
+}
+
+soldier_weapons = {
+	1 = spear_weapons
+	1 = sword_weapons
+	1 = axe_weapons
+}
+
+age_2_renaissance:soldier_weapons = {
+	1 = polearm_weapons
+	1 = sword_weapons
+	1 = axe_weapons
+}
+
+age_3_discovery:soldier_weapons = {
+	1 = soldier_musket_weapons
+	2 = spear_weapons
+}
+IDEAL_UNIFORM:age_3_discovery:soldier_weapons = {
+	1 = soldier_musket_weapons
+}
+age_4_reformation:soldier_weapons = {
+	1 = spear_weapons
+	1 = soldier_musket_weapons
+}
+IDEAL_UNIFORM:age_4_reformation:soldier_weapons = {
+	1 = soldier_musket_weapons
+}
+
+age_5_absolutism:soldier_weapons = {
+	1 = soldier_musket_weapons
+}
+
+age_6_revolutions:soldier_weapons = {
+	1 = soldier_musket_weapons
+}
+
+age_5_absolutism:peasant_weapons = {
+	1 = peasant_musket_weapons
+}
+age_6_revolutions:peasant_weapons = {
+	1 = peasant_musket_weapons
+}
+
+spear_tag:weapons = {
+	1 = spear_weapons
+}
+
+archer_tag:weapons = {
+	1 = archer_weapons
+}
+
+longbow_tag:weapons = {
+	1 = longbow_weapons
+}
+
+jaguar_warrior_tag:weapons = {
+	1 = aztec_base_weapons
+}
+
+paik_tag:weapons = {
+	1 = archer_weapons
+	1 = spear_weapons
+}
+
+eagle_warrior_tag:weapons = {
+	1 = aztec_base_weapons
+	1 = spear_weapons
+}
+
+crossbow_tag:weapons = {
+	1 = crossbow_weapons
+}
+age_3_discovery:noble_weapons = {
+	2 = sword_weapons
+    1 = pistol_weapons
+}
+
+age_4_reformation:noble_weapons = {
+	2 = sword_weapons
+	2 = pistol_weapons
+}
+
+age_5_absolutism:noble_weapons = {
+	2 = sword_weapons
+	2 = pistol_weapons
+}
+
+
+tercio_tag:weapons = {
+	1 = soldier_musket_weapons
+	1 = pike_weapons
+	1 = sword_weapons
+}
+
+rifle_tag:weapons = {
+	1 = rifle_weapons
+}
+
+weapons:cavalry = {
+	1 = cavalry_weapons
+}
+weapons:camelry = {
+	1 = camelry_weapons
+}
+
+grenade_tag:weapons = {
+	1 = grenade_weapons
+}
+
+age_6_revolutions:weapons = {
+	1 = peasant_weapons
+    1 = peasant_musket_weapons
+    1 = soldier_musket_weapons
+}
+
+basic:weapons = {
+	100 = base_weapons
+	100 = han_base_weapons
+	100 = dualpistol_weapons
+	100 = aztec_base_weapons
+}
+
+
+##############################################
+# shields
+###############################################
+
+shields = {
+	30 = {	}
+	10 = peasant_shields	
+}
+
+IDEAL_UNIFORM:shields = {
+	10 = soldier_shields
+}
+
+medium_tag:shields = {
+	10 = soldier_shields
+}
+
+age_3_discovery:medium_tag:shields = {
+	10 = { }
+}
+age_3_discovery:heavy_tag:shields = {
+	10 = { }
+}
+age_3_discovery:pavise_tag:shields = {
+	10 = { }
+}
+age_3_discovery:shields = {
+	1 = { }
+}
+age_4_reformation:medium_tag:shields = {
+	1 = { }
+}
+age_4_reformation:heavy_tag:shields = {
+	1 = { }
+}
+age_4_reformation:pavise_tag:shields = {
+	1 = { }
+}
+age_4_reformation:shields = {
+	1 = { }
+}
+age_5_absolutism:medium_tag:shields = {
+	1 = { }
+}
+age_5_absolutism:heavy_tag:shields = {
+	1 = { }
+}
+age_5_absolutism:pavise_tag:shields = {
+	1 = { }
+}
+age_5_absolutism:shields = {
+	1 = { }
+}
+age_6_revolutions:medium_tag:shields = {
+	1 = { }
+}
+age_6_revolutions:heavy_tag:shields = {
+	1 = { }
+}
+age_6_revolutions:pavise_tag:shields = {
+	1 = { }
+}
+age_6_revolutions:shields = {
+	1 = { }
+}
+
+heavy_tag:shields = {
+	3 = noble_shields
+}
+
+pavise_tag:shields = {
+	1 = pavise_shields
+}
+
+
+###############################################
+# back
+###############################################
+
+back = {
+	1 = backpacks
+	10 = {}
+}
+
+light_tag:backpacks = {
+	10 = peasant_backpacks
+}
+
+heavy_tag:back = {
+	2 = noble_backpacks
+    10 = {}
+}
+
+medium_tag:backpacks = {
+	10 = soldier_backpacks
+}
+
+pavise_tag:back = {
+	10 = pavise_backpacks
+}
+
+IDEAL_UNIFORM:back = {
+	10 = backpacks
+}
+
+###############################################
+# cavalry
+###############################################
+
+mounts = {
+	1 = cavalry
+#	1 = horses
+	1 = camelry
+    1 = elephantry
+}
+
+###############################################
+# saddle
+###############################################
+
+# saddle = {
+# 	10 = {	}
+# }
+
+###############################################
+# horse_armor
+###############################################
+
+# horse_armor = {
+# 	10 = {	}
+# }
+
+heavy_tag:horse_accessories = {
+	10 = heavy_horse_accessories
+}
+
+
+###############################################
+# Artillery
+###############################################
+
+artillery = {
+}
+
+
+offhand = {
+	10 = bifurcate
+#	10 = second_pistol
+#	10 = peasant_offhand
+#	10 = soldier_offhand
+#	10 = noble_offhand
+}

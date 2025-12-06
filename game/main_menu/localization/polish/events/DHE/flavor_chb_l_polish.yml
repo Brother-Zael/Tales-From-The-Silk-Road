@@ -1,0 +1,10 @@
+﻿l_polish:
+ flavor_chb.1.title: "[target_character.GetNameWithNoTooltip] buntuje się"
+ flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName] był jednym z najważniejszych generałów #L [GetCountry('MGE').GetAdjective|l]kiego#! kraju. Choć jego ród popadł w niełaskę, nie został on zgładzony i obecnie jego prawnuk, [target_character.GetName], zgromadził wokół siebie wielu popleczników. Jednym z takich pomocników jest gubernator obszaru [target_location.GetName] – z tego powodu [target_character.GetName] przejął [target_location.GetRank.GetName|l] oraz wszystkie okoliczne tereny, a nawet schwytał i zabił człowieka znanego jako [GetCharacter('jal_muhammad_khan').GetName]."
+ flavor_chb.1.a: "Rozgnieciemy go z całą jego rodziną jak robaki."
+ flavor_chb.1.tt: "[target_character.GetName] przejmuje terytorium wokół lokacji [target_location.GetName]."
+ flavor_chb.1.b: "Czy jego powstanie doprowadzi do wielkości?"
+ flavor_chb.2.title: "$rank_kingdom_horde_ruler_female$ – dziedzictwo"
+ flavor_chb.2.desc: "[target_khatun.GetName] była żoną człowieka znanego jako [GetCharacter('chb_chupan').GetName] oraz brała udział w kształtowaniu polityki kraju, którym jest [GetUniqueInternationalOrganization('ilkhanate').GetName]. Obecnie składa nam ofertę pomocy, ponieważ wie, że dzięki temu może przejąć tron. Moglibyśmy wykorzystać koneksje oraz więzi jej rodziny i sprawić, by przejęła władzę nad ilchanatem, stając się naszą marionetkową władczynią. Jednakże może być ona zbyt ambitna – może lepiej będzie wydać ją za kogoś bardziej podatnego na wpływy."
+ flavor_chb.2.a: "Będzie z niej doskonała $rank_kingdom_horde_ruler_female$."
+ flavor_chb.2.b: "Lepiej, żeby nie miała tak szerokich wpływów."

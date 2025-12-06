@@ -1,0 +1,4 @@
+﻿l_german:
+ flavor_tle.1.title: "Der Fall von [capital_scope.GetNameWithNoTooltip]"
+ flavor_tle.1.desc: "Leider ist [capital_scope.GetName], der Hauptsitz unseres geliebten #L [ROOT.GetCountry.GetFlavorRank]s#!, an unsere grausamen Feinde gefallen. Als wäre dies noch nicht tragisch genug, wurden [Select_CString(target_character.IsFemale, 'unsere geliebte Herrscherin', 'unser geliebter Herrscher')] [ruler_scope.GetName] und [ruler_scope.Custom('DE_PRO_POS_S_3P')]e Söhne während des Angriffs getötet.\n\nDiese Tragödie hat eine Welle der Verzweiflung über das gesamte [ROOT.GetCountry.GetFlavorRank] hereinbrechen lassen und den weiteren Kampf gegen unsere Angreifer noch schwieriger gemacht."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

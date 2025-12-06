@@ -1,0 +1,6 @@
+﻿l_korean:
+ flavor_bei.1.title: "브루나이의 술탄"
+ flavor_bei.1.desc: "[ShowReligionGroupAdjective('muslim')] 신앙이 동남아시아 전체로 퍼져 나감에 따라, 야심 넘치는 [ROOT.GetCountry.GetGovernment.GetRuler.GetName](은)는 점점 기존 [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective]의 외교적 한계에 실망감을 느꼈습니다.\n\n결국 [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip](은)는 외교적 선택지를 넓히고 같은 종교를 믿는 다른 통치자들과 혼담을 진행할 수 있도록 우리에게 [ShowReligionGroupName('muslim')]의 길을 받아들이라고 강권하기에 이르렀습니다.\n\n우리의 충직한 백성들도 이 소식에 어느 정도 기대감을 내비치고 있지만, 개종이 과연 옳은 길일까요?"
+ flavor_bei.1.a: "우리는 샤하다를 받아들일 것이다."
+ flavor_bei.1.b: "옛 방식을 지켜야 한다."
+ flavor_bei.1.historical_info: "1360년대에 브루나이의 힌두 라자였던 아왕 알락 베타타르가 이슬람으로 개종했습니다. 그 목적은 외국 공주와의 혼인 자격을 얻는 것이었는데, 구체적으로 점찍었던 결혼 상대는 일반적으로 조호르 술탄의 딸이라고 여겨집니다. 베타타르는 개종 후에 술탄 무함마드 샤로 불리게 됩니다. 오늘날에도 그 후손들이 브루나이를 다스리고 있으며, 역사상 가장 존경받는 왕가로 남아 있습니다."

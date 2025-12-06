@@ -1,0 +1,60 @@
+﻿enable_posteffects = yes
+		
+male = {
+	head = "male_head_entity"
+	torso = "male_body_entity"
+}
+
+female = {
+	head = "female_head_entity"
+	torso = "female_body_entity"
+}
+
+adolescent_boy = {
+	head = "male_head_entity"
+	torso = "boy_body_entity"
+}
+
+adolescent_girl = {
+	head = "female_head_entity"
+	torso = "girl_body_entity"
+}
+
+boy = {
+	head = "male_head_entity"
+	torso = "boy_body_entity"
+}
+
+girl = {
+	head = "female_head_entity"
+	torso = "girl_body_entity"
+}
+
+infant = {
+	head = "infant_head_base_entity"
+	torso = "infant_body_entity"
+}
+
+	#Remeber to add torso back again
+attach = {
+ 	what = head
+ 	where = torso
+		
+ 	joint_attachment = { 
+ 		parent_joint = "bn_neck_base"  
+ 		child_joint = "head_root" 
+ 	}
+# 	joint_attachment = { 
+# 		parent_joint = "bn_l_clavicle" 
+# 		child_joint = "bn_h_l_clavicle" 
+# 	}
+# 	joint_attachment = { 
+# 		parent_joint = "bn_r_clavicle" 
+# 		child_joint = "bn_h_r_clavicle" 
+# 	}
+
+ }
+
+root = torso	# the root entity that should be rendered
+
+srgb_color_palettes				 = yes

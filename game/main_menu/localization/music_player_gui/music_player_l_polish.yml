@@ -1,0 +1,12 @@
+﻿l_polish:
+ MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Zmień sposób odtwarzania losowego"
+ MUSIC_PLAYER_PLAY: "Odtwarzaj"
+ MUSIC_PLAYER_PAUSE: "Wstrzymaj"
+ MUSIC_PLAYER_HEADER: "Odtwarzacz muzyki"
+ MUSIC_PLAYER_PLAY_TRACK: "[SelectLocalization(MusicTrack.IsPlaying, 'MUSIC_PLAYER_IS_PLAYING_TRACK', 'MUSIC_PLAYER_CLICK_TO_PLAY_TRACK')]"
+ MUSIC_PLAYER_CLICK_TO_PLAY_TRACK: "Kliknij, aby odtwarzać #v [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_IS_PLAYING_TRACK: "Odtwarza się: #v [MusicTrack.GetName]#!"
+ MUSIC_PLAYER_ENABLE_TRACK: "Zezwól/nie zezwalaj na dodanie #v [MusicTrack.GetName]#! do listy utworów muzycznych"
+ MUSIC_PLAYER_ENABLE_CATEGORY: "Zezwól/nie zezwalaj na wszystkie utwory muzyczne z kategorii #v [MusicPlayerCategory.GetName]#!"
+ MUSIC_PLAYER_SKIP_TO_NEXT_TRACK: "Przeskocz do kolejnego utworu"
+ MUSIC_PLAYER_SELECT_CATEGORY: "Wybierz, aby wyświetlić utwory muzyczne w #v [MusicPlayerCategory.GetName]#!"

@@ -1,0 +1,45 @@
+# Types
+type = {
+	type = SMaterialProperties
+}
+type = {
+	type = SLightingProperties
+}
+
+
+# Constant buffers
+constantbuffer = { file = "cw/camera.fxh"				name = "PdxCamera" }
+constantbuffer = { file = "jomini/jomini.fxh"			name = "JominiEnvironment" }
+constantbuffer = { file = "jomini/jomini_water.fxh"		name = "JominiWater" }
+
+
+# Nodes
+node = { file = "cw/jomini_mesh_helper.fxh"			function = "ApplyDither" }
+node = { file = "cw/jomini_mesh_helper.fxh"			function = "GetOpacity" }
+node = { file = "cw/jomini_mesh_helper.fxh"			function = "TransformNormal" }
+node = { file = "cw/jomini_mesh_helper.fxh"			function = "HandleUnderwater" }
+node = { file = "cw/jomini_mesh_helper.fxh"			function = "HandleDistanceFog" }
+
+node = { file = "cw/pdxmesh.fxh"				function = "PdxMeshApplyOpacity" }
+
+node = { file = "cw/utility.fxh"				function = "ToGamma" }
+node = { file = "cw/utility.fxh"				function = "ToLinear" }
+node = { file = "cw/utility.fxh"				function = "Overlay" }
+node = { file = "cw/utility.fxh"				function = "ColorDodge" }
+node = { file = "cw/utility.fxh"				function = "Lighten" }
+node = { file = "cw/utility.fxh"				function = "Darken" }
+node = { file = "cw/utility.fxh"				function = "Levels" }
+node = { file = "cw/utility.fxh"				function = "UnpackRRxGNormal" }
+node = { file = "cw/utility.fxh"				function = "Fresnel" }
+node = { file = "cw/utility.fxh"				function = "Remap" }
+node = { file = "cw/utility.fxh"				function = "RemapClamped" }
+node = { file = "cw/utility.fxh"				function = "RGBtoHSV" }
+node = { file = "cw/utility.fxh"				function = "HSVtoRGB" }
+
+node = { file = "cw/lighting_util.fxh"			function = "GetMaterialProperties" }
+
+node = { file = "jomini/jomini_lighting.fxh" 	function = "GetSunLightingProperties" }
+node = { file = "jomini/jomini_lighting.fxh" 	function = "CalculateSunLighting" }
+node = { file = "jomini/jomini_lighting.fxh" 	function = "DebugReturn" }
+
+node = { file = "jomini/jomini_water.fxh" 		function = "CompressWorldSpace" }

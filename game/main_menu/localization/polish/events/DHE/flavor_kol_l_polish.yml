@@ -1,0 +1,7 @@
+﻿l_polish:
+ flavor_kol.1.title: "Bawarscy arcybiskupi"
+ flavor_kol.1.desc: "Członek panującej w Bawarii rodziny został mianowany arcybiskupem Kolonii. Może to być początek nowej epoki bawarskich wpływów w tym mieście. Jak powinniśmy postąpić?"
+ flavor_kol.1.a: "Pozwólmy na bawarskie wpływy."
+ flavor_kol.1.b: "Pójdziemy swoją drogą."
+ kol_bavarian_archbishop_replaced: "Bawarski arcybiskup został zastąpiony"
+ kol_bavarian_archbishop: "Bawarski arcybiskup w Kolonii"

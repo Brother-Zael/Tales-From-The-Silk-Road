@@ -1,0 +1,5 @@
+﻿l_polish:
+ character_events.1.title: "[target_character.GetNameWithNoTooltip] i [target_character.GetHerHis] huśtawki nastroju"
+ character_events.1.title.no_event_target: "Huśtawki nastroju"
+ character_events.1.desc: "[target_character.GetName], [Select_CString(target_character.IsFemale,'odpowiedzialna przywódczyni','odpowiedzialny przywódca')] kraju [ROOT.GetCountry.GetName], jest [Select_CString(target_character.IsFemale,'znana','znany')] z nieobliczalnych zachowań oraz wahań nastroju. Po raz kolejny [target_character.GetHerHisFormal] podejście do spraw państwowych wykracza poza zrozumienie [Select_CString(target_character.IsFemale,'jej','jego')] poddanych..."
+ character_events.1.a: "Miejmy nadzieję, że nie będzie obciążeniem dla naszego narodu..."

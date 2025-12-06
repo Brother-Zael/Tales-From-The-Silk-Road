@@ -1,0 +1,124 @@
+line = {
+	name = "test_line"
+	
+	curvature = 0.0 							# 0.0 = flat, 1.0 = perfect semi-circle
+	
+	fade_in = 2.0
+	fade_out = 0.6
+	
+	progress_animation_time = 4
+	#progress_animation_speed = 400
+	progress_animation_looping = yes
+
+	layer = {
+		diffuse = "gfx/lines/line_diffuse.dds"
+		diffuse = "gfx/lines/line_diffuse_solid.dds"
+		mask = "gfx/lines/line_mask_test.dds"
+	
+		shader = "standard_alpha_blend"
+	
+		tintcolor = hsv{ 0.3 0.6 0.9 1.0 } 		# color to overlay on texture
+		#width = 4.0 							# width of the mesh
+		width = { 
+			{ zoom_step = 0 value = 4.0 }
+			{ zoom_step = 1 value = 2.0 }
+			{ zoom_step = 2 value = 4.0 }
+		}
+		
+		opacity = { 
+			#{ zoom_step = 0 value = 0.1 }
+			#{ zoom_step = 1 value = 0.9 }
+			#{ zoom_step = 2 value = 0.1 }
+			{ zoom_step = 3 value = 1.0 }
+			{ zoom_step = 9 value = 1.0 }
+			{ zoom_step = 12 value = 0.0 }
+		}
+		
+		#opacity = 0.2
+
+		uv_scale = { 0.05 1.0 }
+		mask_uv_scale = { 0.05 1.0 }
+		animation_speed = { -0.5 0.0 }			# speed of the UV translation
+	}
+}
+
+line = {
+	name = "test_curve"
+	
+	curvature = 0.6
+	max_height = 40
+
+	layer = {
+		diffuse = "gfx/models/debug/gold_diff_srgb.dds"
+		#diffuse = "gfx/lines/line_diffuse.dds"
+		normal = "gfx/models/debug/normal_debug_texture_RRBG.dds"
+		properties = "gfx/models/debug/glossy_metal.dds"
+		mask = "gfx/lines/line_mask.dds"
+		
+		shader = "lighting"
+	
+		tintcolor = hsv{ 1.0 0.6 0.9 1.0 }
+		width = 8.0
+		uv_scale = { 0.1 1.0 }
+		mask_uv_scale = { 0.05 1.0 }
+		animation_speed = { 0.5 0.0 }
+		
+		#priority = 5
+	}
+	
+	layer = {
+		diffuse = "gfx/lines/line_diffuse.dds"
+		mask = "gfx/lines/line_mask.dds"
+		
+		shader = "standard_additive"
+	
+		tintcolor = hsv{ 0.3 0.6 0.9 1.0 }
+		width = 4.0
+		uv_scale = { 0.05 1.0 }
+		mask_uv_scale = { 0.05 1.0 }
+		animation_speed = { -0.5 0.0 }
+		
+		opacity = {
+			{ zoom_step = 4 value = 1.0 }
+			{ zoom_step = 6 value = 0.0 }
+		}
+		
+		#priority = 0
+	}
+	
+	layer = {
+		diffuse = "gfx/lines/line_diffuse.dds"
+		mask = "gfx/lines/line_mask.dds"
+		#texture = { file = "gfx/lines/line_mask.dds" srgb = yes index = 3 }
+
+		shadow_shader = "standard_shadow"
+	
+		width = 8.0
+		uv_scale = { 0.03 1.0 }
+		mask_uv_scale = { 0.05 1.0 }
+		animation_speed = { 0.5 0.0 }
+	}
+}
+
+line = {
+	name = "test_line2"
+	
+	curvature = 0.0
+
+	layer = {
+		diffuse = "gfx/lines/line_diffuse.dds"
+		mask = "gfx/lines/line_mask.dds"
+
+		shader = "standard_alpha_blend"
+
+		tintcolor = hsv{ 0.0 0.8 0.9 1.0 }
+		width = 10.0
+		uv_scale = { 0.05 2.0 }
+		animation_speed = { -2.0 0.0 }
+		
+		opacity = {
+			{ zoom_step = 4 value = 0.0 }
+			{ zoom_step = 6 value = 1.0 }
+		}
+	}
+}

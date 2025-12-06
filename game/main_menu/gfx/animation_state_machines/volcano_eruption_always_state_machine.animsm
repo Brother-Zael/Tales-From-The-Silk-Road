@@ -1,0 +1,287 @@
+﻿local_variables={
+	"activity"=bool
+ 	"erupting"=bool
+ }
+
+behavioral_states={
+	"idle"={
+		timeline_layer={
+			timeline="L_relative_idle_editor_timeline"
+		}
+		timeline_layer={
+			timeline="idle"
+		}
+	}
+ 	"buildup"={
+		timeline_layer={
+			timeline="L_relative_buildup_editor_timeline"
+		}
+		timeline_layer={
+			timeline="buildup"
+		}
+	}
+ 	"eruption"={
+		timeline_layer={
+			timeline="L_relative_eruption_editor_timeline"
+		}
+		timeline_layer={
+			timeline="eruption"
+		}
+	}
+ 	"ExitState"={
+	}
+ 	"cooldown"={
+		timeline_layer={
+			timeline="L_relative_cooldown_editor_timeline"
+		}
+		timeline_layer={
+			timeline="cooldown"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="idle"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 30"
+		trigger_time_relative=1.000000
+		behavioral_state="buildup"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 33"
+		trigger_time_relative=1.000000
+		behavioral_state="eruption"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 48"
+		trigger_time_relative=1.000000
+		behavioral_state="cooldown"
+		transition_interval=0.000000
+	}
+ 	behavioral_state_transition={
+		name="Lane 167"
+		trigger_time_relative=1.000000
+		behavioral_state="ExitState"
+		transition_interval=0.000000
+	}
+ 	particle_action={
+		name="buildup_start"
+		hierarchy_place="volcano_buildup"
+		type=start
+	}
+ 	particle_action={
+		name="buildup_stop"
+		hierarchy_place="volcano_buildup"
+		type=stop
+	}
+ 	particle_action={
+		name="eruption_start"
+		hierarchy_place="volcano_eruption"
+		type=start
+	}
+ 	particle_action={
+		name="eruption_stop"
+		hierarchy_place="volcano_eruption"
+		type=stop
+	}
+ 	particle_action={
+		name="looping_start"
+		hierarchy_place="volcano_looping"
+		type=start
+	}
+ 	particle_action={
+		name="looping_stop"
+		hierarchy_place="volcano_looping"
+		type=stop
+	}
+ 	particle_action={
+		name="cooldown_start"
+		hierarchy_place="volcano_cooldown"
+		type=start
+	}
+ 	particle_action={
+		name="cooldown_stop"
+		hierarchy_place="volcano_cooldown"
+		type=stop
+	}
+ 	audio_event_switches={
+		name="audio_volcano_start"
+		values={ {
+				name="volcano_anim_State"
+				value="start"
+			} }
+	}
+ 	audio_event_switches={
+		name="audio_volcano_idle"
+		values={ {
+				name="volcano_anim_State"
+				value="idle"
+			} }
+	}
+ 	audio_event_switches={
+		name="audio_volcano_eruption"
+		values={ {
+				name="volcano_anim_State"
+				value="eruption"
+			} }
+	}
+ 	audio_event_switches={
+		name="audio_volcano_cooldown"
+		values={ {
+				name="volcano_anim_State"
+				value="cooldown"
+			} }
+	}
+ 	audio_event_switches={
+		name="audio_volcano_idle_to_end"
+		trigger_time_absolute=6.718919
+		values={ {
+				name="volcano_anim_State"
+				value="idle"
+			} }
+	}
+ 	audio_event={
+		name="audio_volcano_eruption_OS"
+		trigger_time_absolute=5.389526
+		stop_on_state_change=yes
+		audio_event_name="amb_disaster_volcano_explosion_os"
+	}
+ 	audio_event_switches={
+		name="audio_volcano_end"
+		trigger_time_absolute=15.286000
+		values={ {
+				name="volcano_anim_State"
+				value="end"
+			} }
+	}
+ 	audio_event_switches={
+		name="audio_volcano_end_end"
+		values={ {
+				name="volcano_anim_State"
+				value="end"
+			} }
+	}
+ }
+
+timelines={
+	"L_relative_idle_editor_timeline"={
+		boundary_behavior=loop
+		duration=3.000000
+		events={
+			"Lane 30"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"L_relative_buildup_editor_timeline"={
+		boundary_behavior=loop
+		duration=15.000000
+		events={
+			"Lane 33"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"L_relative_eruption_editor_timeline"={
+		boundary_behavior=loop
+		duration=19.550028
+		events={
+			"Lane 48"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"L_relative_cooldown_editor_timeline"={
+		boundary_behavior=loop
+		duration=16.000000
+		events={
+			"Lane 167"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"idle"={
+		on_enter={
+			"audio_volcano_start"
+		}
+		boundary_behavior=clamp
+		duration=3.000000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"buildup"={
+		on_enter={
+			"buildup_start"
+			"audio_volcano_idle"
+		}
+		on_exit={
+			"buildup_stop"
+		}
+		boundary_behavior=clamp
+		duration=15.000000
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"eruption"={
+		on_enter={
+			"eruption_start"
+			"audio_volcano_eruption"
+		}
+		on_exit={
+			"eruption_stop"
+		}
+		boundary_behavior=clamp
+		duration=19.550028
+		events={
+			"audio_volcano_eruption_OS"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ 	"cooldown"={
+		on_enter={
+			"cooldown_start"
+			"audio_volcano_cooldown"
+		}
+		on_exit={
+			"cooldown_stop"
+			"audio_volcano_end_end"
+		}
+		boundary_behavior=clamp
+		duration=16.000000
+		events={
+			"audio_volcano_idle_to_end"
+			"audio_volcano_end"
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="idle_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

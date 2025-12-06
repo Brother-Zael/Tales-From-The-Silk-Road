@@ -1,0 +1,5 @@
+﻿l_russian:
+ flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
+ flavor_oyo.1.desc: "[ROOT.GetCountry.GetName] славится своей кавалерией, и [target_character.GetName] решает создать элитный полк под названием «[ShowUnitDefinitionName('a_esho_cavalry_oyo')]». Мы можем использовать его для особых задач или интегрировать в армию."
+ flavor_oyo.1.a: "Он будет существовать отдельно от армии."
+ flavor_oyo.1.b: "Он будет включён в состав армии."

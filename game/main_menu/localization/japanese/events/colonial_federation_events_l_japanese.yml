@@ -1,0 +1,10 @@
+﻿l_japanese:
+ colonial_federation_events.1000.title: "[target_io.GetNameWithNoTooltip]の中央集権化"
+ colonial_federation_events.1000.desc: "もとは多くの植民地従属国による同盟だった[target_io.GetName]は、複雑な内政と対外的な統一を備えた機能的な国家へと発展した。しかし本日をもって、[target_io.GetNameWithNoTooltip]はもはや単なる緩やかな結束ではなく、[target_country.GetName]の[target_character.GetName]を盟主とする統一勢力となった。"
+ colonial_federation_events.1000.a: "これが各国の繁栄の未来へとつながらんことを！"
+ colonial_federation_unify_the_io_tt: "[target_io.GetName]をひとつの国家に統一する"
+ colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+ colonial_federation_events.1001.desc: "票が投じられ、わが国民は力強く声を上げた。旧[target_io.GetName]は[target_character.GetName]の厳正な指導のもと、ひとつの国家へと統合される。我々もその一員となるのだ。"
+ colonial_federation_events.1001.a: "新たな国よ、永遠なれ！"
+ colonial_federation_events.1001.b: "我々は決して誰の前にも屈しない！"
+ colonial_federation_break_away_tt: "[target_country.GetName]の[core|e]であるすべての所有ロケーションがわが国から離反する"

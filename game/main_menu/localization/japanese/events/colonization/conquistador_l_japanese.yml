@@ -1,0 +1,12 @@
+﻿l_japanese:
+ conquistador.1.title: "[SCOPE.sLocation('target_location').GetNameWithNoTooltip]の征服"
+ conquistador.1.desc: "わが国のコンキスタドールが[SCOPE.sLocation('target_location').GetName]に到着し、影響力を広める準備を整えている。"
+ conquistador.1.a: "何が見つかるかな！"
+ conquistador.10.title: "[ROOT.GetLocation.GetNameWithNoTooltip]の征服"
+ conquistador.10.desc: "我々はさらに多くの領土、そして富を手中に収め、[ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName]に大きな威信と、神へ栄光をもたらしたのだ！"
+ conquistador.10.a: "まだまだ富はあるぞ！"
+ conquistador.10.b: "管理するための支援が必要だ！"
+ conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip]の植民地"
+ conquistador.11.desc: "[conquistador_country.GetLongName]が、わが国の正式な従属国にして植民地国家となるための援助を要請している！"
+ conquistador.11.a: "素晴らしい解決策だ！"
+ conquistador.11.b: "それは彼らの問題だ……"

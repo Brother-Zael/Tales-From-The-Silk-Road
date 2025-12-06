@@ -1,0 +1,105 @@
+﻿node_editor_meta={
+	view={
+		position={ -415.333313 239.333344 }
+		zoom=1.000000
+	}
+	nodes={
+		2={
+			position={ 418.000000 587.000000 }
+			name="Random angle"
+		}
+		4={
+			position={ 199.000000 688.000000 }
+			name="Invert"
+		}
+		7={
+			position={ 748.000061 791.000000 }
+		}
+		10={
+			position={ 582.000061 63.000000 }
+		}
+		11={
+			position={ 734.000061 594.000000 }
+		}
+		12={
+			position={ 201.333313 1006.666626 }
+			name="Invert"
+		}
+		13={
+			position={ 1074.000000 467.000031 }
+		}
+		14={
+			position={ 2.333313 916.666626 }
+			name="Amount"
+		}
+		15={
+			position={ 420.333313 905.666626 }
+			name="Random angle"
+		}
+		17={
+			position={ 1023.000000 0.000000 }
+		}
+		21={
+			position={ 0.000000 598.000000 }
+			name="Amount"
+		}
+		23={
+			position={ 1050.333252 111.666656 }
+		}
+		24={
+			position={ 823.333313 134.666656 }
+		}
+		0={
+			position={ 362.000000 630.000000 }
+			inlined=yes
+		}
+		1={
+			position={ 362.000000 630.000000 }
+			inlined=yes
+		}
+		3={
+			position={ 280.000000 810.000000 }
+			inlined=yes
+		}
+		5={
+			position={ 280.000000 810.000000 }
+			inlined=yes
+		}
+		6={
+			position={ 362.000000 630.000000 }
+			inlined=yes
+		}
+		8={
+			position={ 389.333313 188.666656 }
+			inlined=yes
+		}
+		9={
+			position={ 362.000000 630.000000 }
+			inlined=yes
+		}
+		16={
+			position={ -105.000000 958.000000 }
+			inlined=yes
+		}
+		18={
+			position={ 575.333252 348.666656 }
+			inlined=yes
+		}
+		19={
+			position={ 280.000000 810.000000 }
+			inlined=yes
+		}
+		20={
+			position={ 164.333313 1323.666626 }
+			inlined=yes
+		}
+		22={
+			position={ 362.000000 630.000000 }
+			inlined=yes
+		}
+		25={
+			position={ 692.000000 423.000000 }
+			inlined=yes
+		}
+	}
+}

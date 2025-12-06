@@ -1,0 +1,8 @@
+﻿l_korean:
+ flavor_ned_plc.1.title: "[target_location.GetNameWithNoTooltip]의 [target_country.GetAdjectiveWithNoTooltip] 상인들"
+ flavor_ned_plc.1.desc: "[receiving_country.GetLongName](과)와 [target_country.GetLongName]의 이해관계는 서로 다른 방식으로 일치합니다. 매년 수많은 [target_country.GetNameWithNoTooltip] [target_country.GetGovernment.GetEstateName('burghers_estate')]들이 [target_market.GetName]의 항구, 특히 [target_location.GetName]의 [target_good.GetName] 중계 무역항에 도착합니다. 반대편에서는 [receiving_country.GetNameWithNoTooltip] [receiving_country.GetGovernment.GetEstateName('nobles_estate')]들이 남는 [target_good.GetNameWithNoTooltip](을)를 그 상인들이 가져온 사치품과 교환할 수 있어 이 협력 관계로 쏠쏠한 이득을 보고 있습니다."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "대량 교역에 추가 자금을 투입하라."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

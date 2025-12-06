@@ -1,0 +1,15 @@
+﻿gallowglass_tag:torsos = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_long_padded_coat_leather_belt_mesh"  } }
+}
+
+IDEAL_UNIFORM:gallowglass_tag:torsos = {
+	1 = { add_entity = { node = shared_pose_entity		schematic_name = "unit_torso_long_mail_coat_leather_belt_schematic"  } }
+}
+
+IDEAL_UNIFORM:gallowglass_tag:headgear = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_headgear_helmet_with_chainmail_mesh"	add_tags = "hair_covered" add_tags = "beard_covered" } }
+}
+
+gallowglass_tag:weapons = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand01	schematic_name = "unit_weapon_war_axe_one_handed_schematic"  add_tags = "UnitWeapon_axe"	add_tags = "one_handed" animation_state_machine_override = "unit_skeleton_state_machine_one_handed_axe" } }
+}

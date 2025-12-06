@@ -1,0 +1,44 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		random_layer={
+			name="play_random"
+			timeline_layer={
+				name="idle_animation"
+				weight=1.000000
+				timeline="wildboar_idle_animation"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"wildboar_idle_animation"={
+		boundary_behavior=loop
+		duration=4.445988
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="wildboar_idle_animation"
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

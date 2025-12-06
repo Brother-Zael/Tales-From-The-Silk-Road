@@ -1,0 +1,56 @@
+﻿global_variables={
+}
+
+local_variables={
+}
+
+behavioral_states={
+ 	"moving"={
+		list_layer={
+			timeline_layer={
+				timeline="moving_editor_timeline"
+			}
+			timeline_layer={
+				timeline="Clip moving"
+			}
+		}
+	}
+}
+
+events={
+	behavioral_state_transition={
+		name="starting_state_internal_outgoing_transition"
+		behavioral_state="moving"
+		transition_interval=0.000000
+	}
+}
+
+timelines={
+	"moving_editor_timeline"={
+		boundary_behavior=loop
+		events={
+
+		}
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+	}
+ 	"Clip moving"={
+		boundary_behavior=loop
+		duration=1.066667
+		starttime_offset=0.000000
+		playback_rate=1.000000
+		layer=0
+		animation="moving_animation"
+	}
+}
+
+starting_timeline={
+	on_enter={
+		"starting_state_internal_outgoing_transition"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

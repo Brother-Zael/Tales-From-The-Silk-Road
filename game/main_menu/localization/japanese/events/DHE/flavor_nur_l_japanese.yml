@@ -1,0 +1,7 @@
+﻿l_japanese:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "生涯で[target_character.GetName]ほど成功した人物はいないだろう。商人の家系に生まれた[target_character.GetShortNameWithNoTooltip]は、[ShowRegionName('italy_region')]全域で事業を展開し、信じられないほどの成功を収めてきた。彼の一族が築いた貿易網全体が、豊かな半島を流通する富の多くを占めているのだ。しかし、時が経つにつれ、この有名な商人は故郷に戻り、わが国の市場に投資したいと考えるようになった。さらには、[ShowRegionNameWithNoTooltip('italy_region')]から多くの技術革新を持ち込むつもりのようだ……"
+ flavor_nur.1.a: "よく戻った！"
+ flavor_nur.1.b: "わが国に下らないものを持ち込むな！"
+ flavor_nur.1.c: "丁重にお断りしなければ……"
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip]が姿を消す"

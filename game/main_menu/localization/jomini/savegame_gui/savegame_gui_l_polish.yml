@@ -1,0 +1,7 @@
+﻿l_polish:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! – rozgrywka i stany gry z niej zostaną usunięte."
+ DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! – rozgrywka zostanie usunięta."
+ FRONTEND_SAVE_EXIT_TEXT: "Zapisz rozgrywkę jako zapis automatyczny #high $SAVE_NAME$#!"
+ FRONTEND_END_GAME_TEXT: "Jeśli będąc gospodarzem opuścisz rozgrywkę, gra wieloosobowa się zakończy i pozostali gracze nie będą mogli grać razem."
+ FRONTEND_LEAVE_GAME_TEXT: "Jeśli opuścisz rozgrywkę, gra wieloosobowa będzie się toczyć bez ciebie"
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! – rozgrywka zostanie nadpisana."

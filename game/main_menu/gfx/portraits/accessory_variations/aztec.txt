@@ -1,0 +1,434 @@
+﻿###################
+#	Texture sets	#
+##################
+
+## Plain Materials ##
+pattern_textures = {
+	name = "taffeta_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/taffeta_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "felt_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/felt_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "burlap_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/burlap_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "linen_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "silk_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/silk_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "leather_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/leather_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "chainmail_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/armor_patterns/chainmail_pattern_properties.dds"
+}
+
+## Patterns ##
+pattern_textures = {
+	name = "aztec_high_squares_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_01_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_high_squares_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_02_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_high_squares_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_03_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_high_squares_01_low"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_high_squares_02_low"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_high_squares_03_low"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/squares_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/linen_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_feathers_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/basic_patterns/generic_plain_mask.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/feathers_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/feathers_01_properties.dds"
+}
+
+## Trims ##
+pattern_textures = {
+	name = "aztec_trims_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/trims_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/trims_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/trims_01_properties.dds"
+}
+pattern_textures = {
+	name = "aztec_beads_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/aztec/beads_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/aztec/beads_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/aztec/beads_01_properties.dds"
+}
+
+##################
+#	Layouts		#
+##################
+
+pattern_layout = {
+	name = "plain_fabric_layout"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_large_layout"	
+	scale 		= { min = 0.1	max = 0.1 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } }
+}
+pattern_layout = {
+	name = "trims_fabric_layout_01"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_02"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.25	max = 0.25 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_03"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.50	max = 0.50 } } 
+}
+pattern_layout = {
+	name = "trims_fabric_layout_04"	
+	scale 		= { min = 0.325	max = 0.325 }
+	rotation 	= { min = 0	max = 0 }
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.75	max = 0.75 } } 
+}
+
+###################
+#	Variations		#
+##################
+
+## Clothes
+variation = {
+	name = "aztec_war_01"
+	
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_feathers_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_feathers_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_feathers_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_feathers_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_high_nobility_01.dds" }	
+}
+
+# Male
+variation = {
+	name = "aztec_commoner_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "burlap_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "leather_plain_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "linen_plain_01"					layout = "plain_fabric_layout" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_commoner_01.dds" }	
+}
+
+variation = {
+	name = "aztec_low_nobility_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01_low" 		layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02_low" 		layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03_low" 		layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_low_nobility_01.dds" }	
+}
+
+variation = {
+	name = "aztec_high_nobility_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_high_nobility_01.dds" }	
+}
+
+# Female
+variation = {
+	name = "aztec_female_low_nobility_01"
+	
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_02_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_03_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_01_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03_low" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "aztec_high_squares_01_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "aztec_high_squares_02_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "aztec_high_squares_03_low" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_low_nobility_01.dds" }	
+}
+variation = {
+	name = "aztec_female_high_nobility_01"
+	
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_02" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_03" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_01" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_01" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_01" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_02" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_02" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "aztec_high_squares_03" 			layout = "plain_fabric_large_layout" }
+		g = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_03" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_01" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_02" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+	pattern = {
+		weight = 1
+		r = { textures = "silk_plain_01" 					layout = "plain_fabric_large_layout" }
+		g = { textures = "aztec_high_squares_03" 			layout = "plain_fabric_large_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_high_nobility_01.dds" }	
+}
+
+# Headwears
+
+variation = {
+	name = "aztec_low_nobility_headwear_01"
+
+	pattern = {
+		weight = 1
+		r = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		g = { textures = "linen_plain_01" 					layout = "plain_fabric_layout" }
+		b = { textures = "aztec_beads_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "aztec_trims_01"					layout = "trims_fabric_layout_04" }
+	}
+
+ 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_aztec_low_nobility_headwear_01.dds" }	
+}

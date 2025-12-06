@@ -1,0 +1,5 @@
+﻿l_turkish:
+ flavor_sca.1.title: "[ShowRegionNameWithNoTooltip('scandinavian_region')] Birleşmesi"
+ flavor_sca.1.desc: "Tarihte ilk defa tüm [ShowRegionName('scandinavian_region')] krallıkları tek hükümdar altında birleşti. Bu anıtsal birlik, tarihimizde yeni bir çağın doğmasını ve Avrupa sahnesine büyük bir güç olarak adım atmamızı sağladı. Kuzey topraklarının birleşmesiyle birlikte hem kültürel ve siyasi nüfuzumuzu tek çatı altında toplamış olduk hem de uluslararası meselelerdeki konumumuzu güçlendirdik."
+ flavor_sca.1.a: "Muhteşem bir başarı!"
+ flavor_sca.1.historical_info: "Tarihsel olarak İskandinavya tek ve merkezî bir krallık altında tam olarak birleştirilemedi. 14. yüzyılın sonlarında ve 15. yüzyılın başlarında oluşturulan Kalmar Birliği ve İsveç İmparatorluğu'nun 17. yüzyıldaki girişimleri gibi çeşitli krallıklar arasında zaman zaman oluşturulan birlikler tüm İskandinavya'nın kudretini tek hükümdar altında birleştirme yönünde hatırı sayılır girişimler olarak görülseler de, bunların hepsi ya kısa ömürlü oldu ya da başarısızlıkla sonuçlandı."

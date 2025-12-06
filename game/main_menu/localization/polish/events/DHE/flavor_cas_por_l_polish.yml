@@ -1,0 +1,10 @@
+﻿l_polish:
+ flavor_cas_por.1.title: "Piąta królewska"
+ flavor_cas_por.1.desc_common: "[ROOT.GetCountry.GetGovernment.GetRulerTitle], będąc [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'jedyną władczynią','jedynym władcą')] kraju [ROOT.GetCountry.GetName], [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'uprawniona','uprawniony')] jest do wszystkich naturalnych dóbr i bogactw, które posiada [ROOT.GetCountry.GetFlavorRank|l]. To właśnie dlatego wszystkie zasoby naturalne wydobyte przez [ROOT.GetCountry.GetAdjectiveWithNoTooltip]kich obywateli należą prawowicie do [Select_CString(target_character.IsFemale,'władczyni','władcy')] o imieniu [target_character.GetName]. Jednakże gdyby wszyscy musieli oddawać całość tych dóbr, nikt nie miałby motywacji, by w ogóle wykonywać takie działania. Zdecydowaliśmy więc, by wydobycia tego typu objąć podatkiem zapisanym w prawie [ShowPolicyName('royal_fifth_law')]."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nZnów wypłynęła kwestia tego podatku, ponieważ staje się on coraz ważniejszy z uwagi na rosnące wydobycie dóbr takich jak [target_goods.GetName] w regionie [target_location.GetName]. Lokalni namiestnicy są dość niechętni wprowadzeniu tego podatku, uważając, że może to zdusić produkcję."
+ flavor_cas_por.1.a: "Wymuśmy wprowadzenie podatku zwanego [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+ flavor_cas_por.1.b: "Nie zakłócajmy ich działań."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nZ uwagi na niedawne odkrycie złóż takich jak [target_goods.GetName] w regionie [target_location.GetName], znów podniesiono temat tego podatku. Lokalni namiestnicy domagają się go od zarządzających kopalniami, co do tej pory było działaniem właściwym. Kilku doradców, których [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'zatrudniła','zatrudnił')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], twierdzi, że może to zaszkodzić wydobyciu."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Na razie pomińmy ten podatek."

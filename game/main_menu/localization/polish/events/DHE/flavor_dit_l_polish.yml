@@ -1,0 +1,5 @@
+﻿l_polish:
+ flavor_dit.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] z kraju [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_dit.1.desc: "Ziemie, którymi opiekują się nasi [ShowPopTypeName('peasants')|l], nie przyciągają zbytnio uwagi zewnętrznego świata, co doprowadziło do rozwoju samoorganizujących się społeczności, wyjętych spod wpływów, które zwykle mają [ShowPopTypeName('nobles')|l]. Może nadszedł już czas, by zerwać ostatnie więzy łączące nas ze społeczeństwami feudalnymi, które zna cała [ShowContinentName('europe')], i w zamian przyjąć to, co proponuje [ShowGovernmentReformName('peasant_republic_reform')|l] i co od wieków nas prowadziło."
+ flavor_dit.1.a: "Friede den Hütten! Krieg den Palästen!"
+ flavor_dit.1.b: "To brzmi nieco zbyt radykalnie."

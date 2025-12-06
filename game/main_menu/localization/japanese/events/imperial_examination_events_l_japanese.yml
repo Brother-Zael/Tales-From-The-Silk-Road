@@ -1,0 +1,20 @@
+﻿l_japanese:
+ imperial_examination_events.1.title: "新しい官僚の任命"
+ imperial_examination_events.1.desc: "わが国のような官僚昇進制度を採用する国はほとんどない。[ShowLawName('imperial_examination_law')]の導入により、わが国では優れた知性をもつ者が高い地位へと昇進できる。\n\nこのたびの試験で、四書五経や古典文学、詩歌の知識が高く評価された合格者がいる。それはほかならぬ[target_character.GetName]である。"
+ imperial_examination_events.1.a: "[target_character.GetShortNameWithNoTooltip]の今後の活躍を注視しよう。"
+ imperial_examination_events.7.title: "最も優れた人材"
+ imperial_examination_events.7.desc: "わが国の優れた試験制度、#italic [ROOT.GetCountry.Custom('GetExaminationSystemPolicyName')]#!のおかげで、国民は偉大な指導者や官僚となって[ROOT.GetCountry.GetLongName]の公職に就こうと、勉学や自己研磨に励んでいる。\n\nわが国の学術機関や教育機関で頭角を現した新しい優秀な人材が、[ROOT.GetCountry.GetGovernment.GetRulerTitle]に仕えたいと申し出ている。"
+ imperial_examination_events.7.a: "[adm_bureocrat.GetName]を宮廷に召喚する"
+ imperial_examination_events.7.a.tt: "[adm_bureocrat.GetName]が宮廷の一員になる"
+ imperial_examination_events.7.b: "[dip_bureocrat.GetName]を宮廷に召喚する"
+ imperial_examination_events.7.b.tt: "[dip_bureocrat.GetName]が宮廷の一員になる"
+ imperial_examination_events.7.c: "[mil_bureocrat.GetName]を宮廷に召喚する"
+ imperial_examination_events.7.c.tt: "[mil_bureocrat.GetName]が宮廷の一員になる"
+ #Historical Info for various bureaucrats
+ imperial_examination_events.2.historical_info: "劉基は、元朝末期から明朝初期ごろの著名な人物である。貧しい環境から這い上がり、卓越した知性、戦略的才能、政治的洞察力で名を馳せた。彼はモンゴル民族が主導する元朝を倒して明朝を樹立する上で重要な役割を果たし、明を台頭させることになる軍事作戦に大きく貢献した。劉基は軍事的な功績にとどまらず、中国文学や哲学にも貢献し、多才な人物として中国の歴史にその名を刻んだ。"
+ imperial_examination_events.3.historical_info: "于謙は1421年に科挙に合格して進士となり、明朝に官僚として仕えるようになった。忠誠心と功労が評価され、宣徳帝から山西・河南の巡撫に任命された。明の英宗の治世下では、有力者との対立により投獄されたが、のちに復職し、最終的には兵部尚書に昇進した。于謙は1449年にはオイラトの攻撃から北京を守り、さらに高く評価されるようになったが、その後の政治的混乱のなかで謀反の疑いをかけられ、処刑された。"
+ imperial_examination_events.4.historical_info: "韓雍は1442年に進士となり、監査官を務めたあと、1452年に江西の地方監察官に昇進した。在任中には、滕王閣の修復を監督した。1465年には、軍事監査官として、桂平のミャオ族の反乱に対する趙旉の軍事作戦において重要な役割を果たした。反乱鎮圧後、韓雍は広東の総督に任命され、引き続き地域の平定に取り組んだが、最後は部下の反乱により引退した。"
+ imperial_examination_events.5.historical_info: "徐溥は明朝の高名な政治家である。学識が高く、1454年には権威ある「進士」の称号を取得した。さまざまな役職を通じて行政に熱心に携わり、1497年には重要な法律事業である『大明会典』の編纂を任された。特定の派閥の影響力を削ぐのに苦労しながらも、在任期間中は互譲の精神と慈悲深い統治の模範を示した。徐溥は、政治的な取り組みだけでなく、慈善活動によっても後世に名を残した。一族の困窮者を救済するために無税の土地を遺贈したことはその好例であり、死後は「文靖」として称えられた。"
+ imperial_examination_events.6.historical_info: "王陽明は明朝を代表する多才な人物である。理気二元論よりも直観的な理解を重視し、朱熹の正統派の儒学思想に異議を唱えて、宋明理学の中心的な思想家となっていった。学問に秀でた家系に生まれ、将軍としては厳格な規律を適用したことや、反乱鎮圧の最中にも恩赦を求めるなど慈悲深かったことで知られる。彼の哲学の中心には、人は生まれながらにして道徳を理解しているという「良知」の概念があった。陸象山とともに陸王学派を創設し、その影響力は中国全土や日本にまで及んだ。彼の教えは著名な人物や、武士道の形成にまで影響した。王陽明の遺産は時代を超え、いまなお中国や日本の儒教思想や倫理観のなかに生き、学問や政治の世界に深い影響を与えている。"
+ #Tooltips
+ chi_while_han_yong_cabinet_tengwang_pavilion_tt: "[target_character.GetNameWithNoTooltip]が閣僚として仕えるあいだ、イベント「$flavor_chi.21.title$」が発生する可能性がある"

@@ -1,0 +1,363 @@
+﻿## african
+ mesh_list = {
+	name = "iroquois_bridges"
+
+	rotation = bridge
+	connect_to_road_network = no
+	clear_map_objects = no
+
+	building_iroquois_bridge_short_mesh = 1
+	building_iroquois_bridge_long_mesh = 1
+}
+mesh_list = {
+	name = "iroquois_noble"
+	scale_settings_large = { bias = 0 min = 0.95 max = 1 }
+	
+	building_iroquois_noble_a_mesh= 1
+	building_iroquois_noble_b_mesh= 1
+	building_iroquois_noble_c_mesh= 1
+	
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "iroquois_burgher"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	building_iroquois_burgher_a_diorama_mesh = 1
+	building_iroquois_burgher_b_diorama_mesh = 1	
+	building_iroquois_burgher_c_diorama_mesh = 1
+	building_iroquois_burgher_d_diorama_mesh = 1
+	material_index = 1
+	spawn_count = { curve = "standard_pop_curve" }
+}
+mesh_list = {
+	name = "iroquois_peasant"	
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	building_iroquois_peasant_diorama_a_mesh = 100
+	building_iroquois_peasant_diorama_b_mesh = 100
+	building_iroquois_peasant_diorama_c_mesh = 100
+	building_iroquois_peasant_diorama_d_mesh = 100
+	#building_windmill_western_a_mesh = 20
+	#resource_farmlands_a_mesh = 20
+	#resource_farmlands_b_mesh = 20
+	#building_mine_gold_western_mesh = 20
+	material_index = 0
+	spawn_count = { curve = "standard_pop_curve" }
+}
+
+mesh_list = {
+	name = "iroquois_peasant_rural_mesh"	
+	scale_settings_small = { bias = 0 min = 0.9 max = 1.2 }
+	resource_farmlands_b_mesh = 1
+	building_iroquois_peasant_diorama_a_mesh = 0.2
+	building_iroquois_peasant_diorama_b_mesh = 0.2
+	building_iroquois_peasant_diorama_c_mesh = 0.2
+	building_iroquois_peasant_diorama_d_mesh = 0.2
+	#building_windmill_western_a_mesh = 20
+	resource_farmlands_a_mesh = 20
+	resource_farmlands_b_mesh = 20
+	#building_mine_gold_western_mesh = 20
+	material_index = 0
+	spawn_count = { curve = "standard_pop_curve" }
+}
+
+###FORTS####
+
+mesh_list = {
+	name = "iroquois_stockade_no_flag"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_syrian_stockade_mesh = 1
+    should_spawn_flags = no
+}
+
+
+mesh_list = {
+	name = "iroquois_stockade"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_iroquois_stockade_mesh = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "iroquois_fort"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_iroquois_castle_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "iroquois_bastion"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_iroquois_bastion_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "iroquois_starfort"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_iroquois_starfort_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "iroquois_fortress"
+	scale_settings_large = { bias = -0.5 min = 0.8 max = 10 }
+	building_iroquois_fortress_mesh = 1
+	material_index = 1
+    should_spawn_flags = yes
+}
+
+###PORTS####
+
+mesh_list = {
+	name = "iroquois_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_iroquois_dock_mesh = 1
+	material_index = 0
+}
+
+mesh_list = {
+	name = "iroquois_dry_dock"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_iroquois_drydock_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_shipyard_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_grand_shipyard"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_grand_shipyard_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_naval_base"
+	scale_settings_small = { min = 1.0 max = 1.0 }
+	scale_settings_large = { min = 1.0 max = 1.0 }
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+	building_syrian_naval_base_mesh = 1
+	material_index = 1
+}
+
+
+##PRODUCTION##
+
+mesh_list = {
+	name = "iroquois_factory"
+	scale_settings_small = { bias = -0.5 min = 0.9 max = 10 }
+	building_iroquois_factory_a_schematic = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_market"
+	scale_settings_small = { bias = -0.5 min = 0.6 max = 0.7 }
+	building_iroquois_market_a_mesh = 1
+	building_iroquois_market_a_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_peasants_gathering"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_iroquois_peasants_infrastructure_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_culture"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_iroquois_culture_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_small_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_iroquois_burgher_small_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_medium_burgher"
+	scale_settings_small = { bias = -0.1 min = 0.8 max = 0.9 }
+	building_iroquois_burguer_medium_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_republic_assembly"
+	scale_settings_large = { bias = 0 min = 0.95 max = 1 }
+	scale_settings_small = { bias = 0-5 min = 0.95 max = 10 }
+	building_syrian_republic_assembly_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+##MILITARY##
+
+mesh_list = {
+	name = "iroquois_regimental_camp"
+	scale_settings_large = { bias = 0-5 min = 0.6 max = 0.7 }
+	building_syrian_regimentalcamp_mesh = 1
+	should_spawn_flags = no
+	material_index = 0
+}
+
+mesh_list = {
+	name = "iroquois_medium_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_syrian_medium_military_mesh = 1
+		should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_noble_military"
+	scale_settings_small = { bias = 0 min = 0.6 max = 0.7 }
+	building_iroquois_military_noble_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_armory"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_iroquois_armory_a_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_barracks"
+	scale_settings_small = { bias = -0.5 min = 1 max = 1 }
+	building_iroquois_barracks_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "iroquois_training_fields"
+	scale_settings_small = { bias = 0-5 min = 0.6 max = 10 }
+	building_iroquois_training_ground_mesh = 1
+	should_spawn_flags = no
+	material_index = 0
+}
+
+mesh_list = {
+	name = "iroquois_farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_northgerman_farm_b_mesh = 10
+	building_northgerman_farm_a_mesh = 10
+	building_northgerman_farm_c_mesh = 10
+	building_northgerman_windmill_a_schematic = 2
+	
+}
+
+@noble_mesh_list	= iroquois_noble
+@burgher_mesh_list	= iroquois_burgher
+@peasant_mesh_list	= iroquois_peasant
+@peasant_rural_mesh	= iroquois_peasant_rural_mesh
+@farming_mesh_list = iroquois_farming_mesh_list
+
+culture_data = {
+	graphical_culture = north_american_gfx
+
+	#Special buildings
+	load_template player_buildings {
+		default_bridge_meshes = iroquois_bridges
+			##PORTS##
+
+		dock_meshes = iroquois_dock
+		dry_dock_meshes = iroquois_dry_dock
+		shipyard_meshes = iroquois_shipyard
+		grand_shipyard_meshes = iroquois_grand_shipyard
+		naval_base_meshes = iroquois_naval_base
+
+			##FORTS##
+
+		stockade_meshes = iroquois_stockade
+		stockade_no_flag_meshes = iroquois_stockade_no_flag
+		fort_meshes = iroquois_fort
+		bastion_meshes = iroquois_bastion
+		starfort_meshes = iroquois_starfort
+		fortress_meshes = iroquois_fortress
+
+
+			##PRODUCTION##
+
+		factory_meshes = iroquois_factory
+		market_meshes = iroquois_market
+		peasants_gathering_meshes = iroquois_peasants_gathering
+		culture_meshes = iroquois_culture
+		small_burgher_meshes = iroquois_small_burgher
+		medium_burgher_meshes = iroquois_medium_burgher
+		republican_assembly_meshes = iroquois_republic_assembly
+
+		medium_military_meshes = iroquois_medium_military
+		regimental_camp_meshes = iroquois_regimental_camp
+		noble_military_meshes = iroquois_noble_military
+		#pirate_haven_meshes = ashanti_pirate_haven
+		armory_meshes = iroquois_armory
+		barracks_meshes = iroquois_barracks
+		training_fields_meshes = iroquois_training_fields
+	}
+	
+	
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{ farming_mesh_list = @farming_mesh_list }
+
+	#Unique buildings
+	load_template unique_buildings
+	{
+		fort_meshes = iroquois_fort
+		bastion_meshes = iroquois_bastion
+	}
+}

@@ -1,0 +1,6 @@
+﻿l_japanese:
+ flavor_grm.1.title: "[target_character.GetNameWithNoTooltip]の死"
+ flavor_grm.1.desc: "わが国で最も著名かつ、わが[target_country.GetFlavorRank]を創設した人物が亡くなった。この[target_character.GetName]の治世は、[ShowRegionName('anatolia_region')]全域における我々の影響力を最大限に高め、多くの近隣諸国の征服に成功した。残念ながら、その逝去はわが民の富を貪ろうとする各従属国に、不和と反乱の種を撒くことになるだろう。"
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "我々は戦わずして屈服しない！"
+ flavor_grm.1.historical_info: "14世紀初頭の強力な新興君侯国だったゲルミヤン侯国は、ヤクブ1世によって建国された。ヤクブ1世の40年にわたる支配は多くの近隣国との衝突を引き起こし、西方ではアイドゥン侯国、サルハン侯国、カレスィ侯国を服従させ、オスマン帝国とも公然と対立した。彼の死後、多くの従属国がこの機会を捉えて独立を宣言した。"

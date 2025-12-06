@@ -1,0 +1,10 @@
+﻿l_korean:
+ flavor_cas_por.1.title: "왕실의 5분의 1세"
+ flavor_cas_por.1.desc_common: "[ROOT.GetCountry.GetGovernment.GetRulerTitle](은)는 [ROOT.GetCountry.GetName]의 유일한 통치자로서 [ROOT.GetCountry.GetFlavorRank] 내에 있는 모든 천연 재화와 부를 소유할 권리가 있습니다. 따라서 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] 시민이 채취한 모든 천연자원도 마땅히 [target_character.GetName]의 소유입니다. 그러나 모든 사람이 자신의 재화를 정부에 바쳐야 한다면 실제로 채굴 작업을 수행할 동기 부여가 되지 않을 테니, [ShowPolicyName('royal_fifth_law')]를 부과해 자원을 징수하기로 했던 것입니다."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\n그런데 최근 이 세금에 대한 논의가 다시 불거졌습니다. [target_location.GetName]에서 [target_goods.GetName] 채취가 확대되면서 그 중요성이 훨씬 커질 것으로 전망되기 때문입니다. 현지 총독들은 이 세금이 생산을 저해할 것이라고 여겨 시행하기를 꺼리고 있습니다."
+ flavor_cas_por.1.a: "[ShowPolicyNameWithNoTooltip('royal_fifth_law')]를 시행하라."
+ flavor_cas_por.1.b: "작업을 방해하지 말도록."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\n그런데 최근 [target_location.GetName]에서 [target_goods.GetName](이)가 발견되면서 이 세금에 관한 논의가 다시 수면 위로 떠올랐습니다. 현지 총독들이 광산 관리자에게 이전까지는 크게 신경 쓰지 않았던 이 세금을 납부하라고 요구하기 시작한 것입니다. [ROOT.GetCountry.GetGovernment.GetRulerTitle]의 여러 조언가는 이 경우 자원 생산에 차질이 생길 수 있다고 주장합니다."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "지금은 그냥 넘어가겠다."

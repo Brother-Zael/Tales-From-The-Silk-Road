@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ building.1.title: "Universidade de [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Após vários debates calorosos acabarem em violência, estudiosos da Universidade de [old_university.GetName] fugiram para [new_university.GetName] a fim de estabelecer uma instituição de ensino concorrente.\n\nOs alunos de [old_university.GetNameWithNoTooltip] compõem uma grande parte do estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [ROOT.GetCountry.GetAdjective] e estão solicitando que sejamos mais rigorosos com essa rebelião na educação."
+ building.1.a: "Incentivar essa nova instituição de ensino."
+ building.1.b: "Instruir os refugiados a retornarem para [old_university.GetNameWithNoTooltip]."
+ building.2.title: "Vila e Beca"
+ building.2.desc: "Estudantes da Universidade de [university.GetName] estão sob proteção do estamento [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] e, com isso, conseguem diferentes direitos para a população local. As duas comunidades vivendo em proximidade costumam causar desconfiança, mas, recentemente, a situação se agravou com motins violentos."
+ building.2.a: "Alie-se à universidade."
+ building.2.b: "Alie-se à população local."

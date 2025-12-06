@@ -1,0 +1,138 @@
+﻿### CHINESE ###
+
+
+# AGE_1_TRADITIONS
+east_asian_gfx:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_hemp_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_tunic_sleaves_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_vest_china_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_belt_wrap_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+}
+
+east_asian_gfx:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_iron_lamellar_pauldors_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_brigandine_china_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_long_ramie_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_square_plates_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } } #CHINESE
+}
+
+east_asian_gfx:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_ties_sash_pauldrons_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_silk_armor_bronze_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_scale_iron_armor_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_pads_lamellar_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+}
+
+
+#  AGE_2_RENAISSANCE
+
+east_asian_gfx:age_2_renaissance:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_belt_cotton_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_hanfu_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_belt_rope_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+}
+
+east_asian_gfx:age_2_renaissance:soldier_torsos_clothes = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_dress_chainmail_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_lamellar_oriental_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_edging_shoulders_mesh" add_tags = "UnitArmor_plate" add_tags = "UnitDetail_cloth" add_tags = "crotch_covered" } } #CHINESE
+	#1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_belt_wrap_mesh" } } #CHINESE
+}
+
+east_asian_gfx:age_2_renaissance:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_dress_armor_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_hip_armor_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_bracer_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+#AGE_3_DISCOVERY
+	
+east_asian_gfx:age_3_discovery:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_coton_rope_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_coton_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coton_shirt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+east_asian_gfx:age_3_discovery:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_coton_jacket_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cape_coton_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_chainmail_short_jacket_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+}
+
+east_asian_gfx:age_3_discovery:heavy_torsos_clothes = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_ming_guard_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_metal_cotton_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_plates_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+# TODO AGE_3_DISCOVERY
+
+# TODO AGE_4_REFORMATION
+east_asian_gfx:age_4_reformation:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_skirt_long_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_fabric_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_belt_fabric_mesh" add_tags = "UnitArmor_cloth" } }
+}
+
+east_asian_gfx:age_4_reformation:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cotton_chain_metal_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_han_fur_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chinese_coton_mesh" add_tags = "UnitArmor_cloth"  } } #CHINESE
+}
+
+east_asian_gfx:age_4_reformation:heavy_torsos_clothes = {
+    1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_cuiras_gorget_leather_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chinese_robe_armor_mesh" add_tags = "UnitArmor_cloth" add_tags = "UnitDetail_plate" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_disks_silk_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+# TODO AGE_5_ABSOLUTISM
+east_asian_gfx:age_5_absolutism:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_cotton_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_peasant_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_belt_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+}
+
+east_asian_gfx:age_5_absolutism:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_armor_brigandine_studs_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_han_soldiers_tunic_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_manchu_uniform_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+}
+
+east_asian_gfx:age_5_absolutism:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_cotton_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_hanfu_robe_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_han_fabric_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+    
+}
+
+# TODO AGE_6_REVOLUTIONS
+east_asian_gfx:age_6_revolutions:torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_weist_coat_leather_mesh" add_tags = "UnitArmor_cloth" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_shirt_dress_sash_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } }
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_han_linen_mesh" add_tags = "UnitArmor_cloth" } }
+}
+
+east_asian_gfx:age_6_revolutions:soldier_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_woolen_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_linen_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_jacket_belt_mesh" add_tags = "UnitArmor_cloth" } } #CHINESE
+}
+
+east_asian_gfx:age_6_revolutions:heavy_torsos_clothes = {
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_chainese_satin_robe_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_robe_velvet_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE
+	1 = { add_entity = { node = shared_pose_entity		mesh_name = "unit_torso_satin_hanfu_robe_mesh" add_tags = "UnitArmor_cloth" add_tags = "crotch_covered" } } #CHINESE   
+}
+
+
+
+# TODO AGE_2_RENAISSANCE
+
+# TODO AGE_3_DISCOVERY
+
+# TODO AGE_4_REFORMATION
+
+# TODO AGE_5_ABSOLUTISM
+
+# TODO AGE_6_REVOLUTIONS

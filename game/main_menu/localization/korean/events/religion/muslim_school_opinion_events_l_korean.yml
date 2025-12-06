@@ -1,0 +1,10 @@
+﻿l_korean:
+ muslim_school_opinion_events.1.title: "[ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]의 상호 존중"
+ muslim_school_opinion_events.1.desc: "사실 [ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName] 사이에는 실질적인 갈등을 빚을 만한 신학적 견해 차이가 없습니다. 그리고 이 두 가지 관습은 종종 나란히 공존하기도 합니다.\n[ROOT.GetCountry.GetAdjective]의 [ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetAdjective] [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName](은)는 장기간의 협업을 통해 서로를 이해하고 존중하는 새 시대를 열었습니다."
+ muslim_school_opinion_events.1.a: "신께서는 위대하시다."
+ muslim_school_opinion_events.2.title: "[ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]의 관계 정상화"
+ muslim_school_opinion_events.2.desc: "한동안 [ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName] 사이에는 불신과 갈등이 가득했습니다. 일부 학자는 다른 학파의 신학자와 그 추종자들을 맹렬히 비난하는 것도 서슴지 않았습니다.\n그렇지만 최근 그러한 긴장은 크게 완화되었고, [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetReligiousSchool.GetName](과)와 [SCOPE.sCountry('school_opinion_increase_country').GetAdjective] [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName] 학자들은 관용과 공존으로 향하는 길에 앞장서고 있습니다."
+ muslim_school_opinion_events.2.a: "신께서는 위대하시다."
+ muslim_school_opinion_events.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')](과)와 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] - [SCOPE.sCountry('school_opinion_decrease_country').GetAdjectiveWithNoTooltip] 전쟁"
+ muslim_school_opinion_events.3.desc: "[SCOPE.sCountry('school_opinion_decrease_country').GetAdjectiveWithNoTooltip](과)와 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] 사이의 오랜 갈등이 점점 종교계 전체에 영향을 미치기 시작했습니다. 상호 존중과 관용은 찾아볼 수 없으며 [SCOPE.sCountry('school_opinion_decrease_country').GetReligiousSchool.GetName] 사상은 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] 사회에서 외면받고 있습니다."
+ muslim_school_opinion_events.3.a: "괘씸하도다."

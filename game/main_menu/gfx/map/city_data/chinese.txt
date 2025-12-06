@@ -1,0 +1,385 @@
+﻿ # Chinese
+ mesh_list = {
+	name = "chinese_bridges"
+
+	rotation = bridge
+	connect_to_road_network = no
+	clear_map_objects = no
+
+	building_han_bridge_small_mesh = 1
+	building_han_bridge_medium_mesh = 1
+}
+ 
+mesh_list = {
+	name = "chinese_noble"
+	scale_settings_small = { bias = -0.5 min = 1 max = 10 }
+	building_han_noble_a_mesh = 1
+	building_han_noble_b_mesh = 1
+	building_han_noble_c_mesh = 1
+	material_index = 1
+	spawn_count = { curve = "east_asian_pop_curve" }
+}
+mesh_list = {
+	name = "chinese_burgher"
+	scale_settings_small = { bias = -0.5 min = 1.2 max = 10  }
+	building_han_burgher_diorama_a_mesh = 1
+	building_han_burgher_diorama_b_mesh = 1
+	building_han_burgher_diorama_c_mesh = 1
+	building_han_burgher_diorama_d_mesh = 1
+
+	material_index = 1
+	spawn_count = { curve = "east_asian_pop_curve" }
+}
+mesh_list = {
+	name = "chinese_peasant"
+	scale_settings_small = { bias = -0.5 min = 1.4 max = 10 }
+	building_han_peasant_diorama_a_mesh = 100
+	building_han_peasant_diorama_b_mesh = 100
+	building_han_peasant_diorama_c_mesh = 100
+	building_han_peasant_diorama_d_mesh = 100
+	material_index = 0
+	spawn_count = { curve = "east_asian_rural_pop_curve" }
+}
+
+mesh_list = {
+	name = "chinese_peasant_rural_mesh"	
+	scale_settings_small = { bias = -0.5 min = 1.4 max = 10 }
+	building_han_peasant_diorama_a_mesh = 100
+	building_han_peasant_diorama_b_mesh = 100
+	building_han_peasant_diorama_c_mesh = 100
+	building_han_peasant_diorama_d_mesh = 100
+	material_index = 0
+	spawn_count = { curve = "east_asian_rural_pop_curve" }
+}
+
+
+mesh_list = {
+	name = "chinese_stockade_no_flag"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_han_stockade_mesh = 1
+	should_spawn_flags = no
+}
+
+mesh_list = {
+	name = "chinese_stockade"
+	scale_settings_large = { bias = 0 min = 1.5 max = 1.5 }
+	building_han_stockade_mesh = 1
+	should_spawn_flags = yes
+}
+
+mesh_list = {
+	name = "chinese_fort"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_castle_mesh = 1
+	should_spawn_flags = yes
+	tag = fort
+	material_index = 1
+}
+mesh_list = {
+	name = "chinese_bastion"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_bastion_mesh = 1
+	should_spawn_flags = yes
+	tag = fort
+	material_index = 1
+}
+mesh_list = {
+	name = "chinese_starfort"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_starfort_mesh = 1
+	should_spawn_flags = yes
+	tag = fort
+	material_index = 1
+}
+mesh_list = {
+	name = "chinese_fortress"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_fortress_mesh = 1
+	should_spawn_flags = yes
+	tag = fort
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_factory"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_factory_a_schematic = 1
+}
+
+mesh_list = {
+	name = "factory_chinese_tier_2_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_factory_b_schematic = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "factory_chinese_tier_3_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_factory_c_schematic = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_small_clergy"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_clergy_small_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_medium_clergy"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_clergy_medium_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_large_clergy"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_clergy_large_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_market"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_market_a_mesh = 1
+	building_han_market_b_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_peasants_gathering_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_industry_peasants_mesh = 1
+	material_index = 0
+}
+
+mesh_list = {
+	name = "chinese_medium_military_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_medium_military_mesh = 1
+	material_index = 1
+}
+
+
+mesh_list = {
+	name = "chinese_dock_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_dock_mesh = 1
+	material_index = 1
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+}
+
+mesh_list = {
+	name = "chinese_dry_dock_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_drydock_mesh = 1
+	material_index = 1
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+}
+
+mesh_list = {
+	name = "chinese_shipyard_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_shipyard_mesh = 1
+	material_index = 1
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+}
+
+mesh_list = {
+	name = "chinese_grand_shipyard_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_grandshipyard_mesh = 1
+	material_index = 1
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+}
+
+mesh_list = {
+	name = "chinese_naval_base_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_navalbase_mesh = 1
+	material_index = 1
+	render_under_water = yes
+	clamp_to_water_level = yes
+	rotation = port
+	tag = port
+}
+
+mesh_list = {
+	name = "chinese_culture_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_culture_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_regimental_camp_meshes"
+	scale_settings_large = { bias = 0 min = 1 max = 1 }
+	building_han_regimental_camp_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_small_burgher_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_industry_burgher_small_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_medium_burgher_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_industry_burgher_medium_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_noble_military_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_noble_military_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_noble_military_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_noble_military_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_pirate_haven_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_pirate_haven_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_armory_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_armory_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_barracks_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_barracks_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_barracks_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_barracks_mesh = 1
+	material_index = 1
+}
+mesh_list = {
+	name = "chinese_training_fields_meshes"
+	scale_settings_small = { bias = 0 min = 1 max = 1 }
+	building_han_training_fields_mesh = 1
+	material_index = 1
+}
+
+mesh_list = {
+	name = "chinese_farming_mesh_list"
+	scale_settings_small = { bias = 0 min = 1.0 max = 1.0 }
+	spawn_count = { curve = "standard_rgo_curve" }
+	
+	building_han_peasant_diorama_a_mesh = 100
+	building_han_peasant_diorama_b_mesh = 100
+	building_han_peasant_diorama_c_mesh = 100
+	building_han_peasant_diorama_d_mesh = 100
+	
+}
+
+mesh_list = {
+	name = "chinese_republic_assembly_meshes"
+	scale_settings_large = { bias = -0.5 min = 1 max = 1 }
+	building_han_republic_assembly_mesh = 1
+	should_spawn_flags = no
+	material_index = 1
+}
+
+@noble_mesh_list	= chinese_noble
+@burgher_mesh_list	= chinese_burgher
+@peasant_mesh_list	= chinese_peasant
+@peasant_rural_mesh	= chinese_peasant_rural_mesh
+@farming_mesh_list = chinese_farming_mesh_list
+
+culture_data = {
+	graphical_culture = east_asian_gfx
+
+	#Special buildings
+	load_template player_buildings {
+	
+		default_bridge_meshes = chinese_bridges
+		stockade_no_flag_meshes = chinese_stockade_no_flag
+		stockade_meshes = chinese_stockade
+		fort_meshes = chinese_fort
+		bastion_meshes = chinese_bastion
+		starfort_meshes = chinese_starfort
+		fortress_meshes = chinese_fortress	
+		factory_meshes = chinese_factory
+		factory_tier_2_meshes = factory_chinese_tier_2_meshes
+		factory_tier_3_meshes = factory_chinese_tier_3_meshes
+		market_meshes = chinese_market	
+		peasants_gathering_meshes = chinese_peasants_gathering_meshes
+		medium_military_meshes = chinese_medium_military_meshes
+		dock_meshes = chinese_dock_meshes
+		dry_dock_meshes = chinese_dry_dock_meshes
+		shipyard_meshes = chinese_shipyard_meshes
+		grand_shipyard_meshes = chinese_grand_shipyard_meshes
+		naval_base_meshes = chinese_naval_base_meshes
+		culture_meshes = chinese_culture_meshes
+		regimental_camp_meshes = chinese_regimental_camp_meshes
+		small_burgher_meshes = chinese_small_burgher_meshes
+		medium_burgher_meshes = chinese_medium_burgher_meshes
+		noble_military_meshes = chinese_noble_military_meshes
+		pirate_haven_meshes = chinese_pirate_haven_meshes
+		armory_meshes = chinese_armory_meshes
+		barracks_meshes = chinese_barracks_meshes
+		training_fields_meshes = chinese_training_fields_meshes
+		republican_assembly_meshes = chinese_republic_assembly_meshes
+	}
+	
+	load_template religius_buildings{
+		##RELIGION##
+
+		small_clergy_meshes = chinese_small_clergy	
+		medium_clergy_meshes = chinese_medium_clergy
+		large_clergy_meshes = chinese_large_clergy
+	}
+	# Pops
+	load_template nobles 	{ mesh_list = @noble_mesh_list }
+	load_template burghers 	{ mesh_list = @burgher_mesh_list }
+	load_template peasants 	{ mesh_list = @peasant_mesh_list }
+	load_template peasant_rural { mesh_list = @peasant_rural_mesh}
+	
+	# RGO
+	load_template rgo_all	{}
+
+	#Unique buildings
+	load_template unique_buildings
+	{
+		large_clergy_meshes = chinese_large_clergy
+		fort_meshes = chinese_fort
+		bastion_meshes = chinese_bastion
+	}
+}

@@ -1,0 +1,17 @@
+﻿###############################################
+# off hand
+###############################################
+
+peasant_offhand = { 1 = {} }
+soldier_offhand = { 1 = {} }
+noble_offhand = { 1 = {} }
+
+bifurcate = {
+	1 = { add_entity = { node = Unit_Wea_Right_Hand02		mesh_name = "unit_weapon_bifurcated_stick_mesh" required_tags = "UnitWeapon_arquebus" } }
+	default = {}
+}
+
+second_pistol = {
+	1 = { add_entity = { node = Unit_Base_Rig_LeftHand		schematic_name = "unit_weapon_pistol_schematic" required_tags = "UnitWeapon_dualpistol" } }
+	default = {}
+}

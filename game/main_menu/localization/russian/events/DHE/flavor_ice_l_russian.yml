@@ -1,0 +1,11 @@
+﻿l_russian:
+ flavor_ice.10.title: "Епархии [ROOT.GetCountry.Custom('CL_GEN')]"
+ flavor_ice.10.desc: "[ROOT.GetCountry.GetReligion.GetAdjective]ая вера испокон веков остаётся важной составляющей [ROOT.GetCountry.GetAdjective|l]ой жизни. При этом на острове одновременно существуют две очень разные епархии: [target_location.GetName] и [skalholt.GetName].\n\nЕпархия [target_location.GetNameWithNoTooltip] в провинции [target_location.GetProvince.GetName] считается более независимой и самодостаточной, а [skalholt.GetNameWithNoTooltip] в провинции [skalholt.GetProvince.GetName], напротив, отличается тесными связями с такой силой, как [overlord.GetLongName].\n\nС развитием [ROOT.GetCountry.Custom('CL_RP')] уникальные особенности каждой епархии приобретают всё большую важность для нас."
+ flavor_ice.10.a: "Поддержать независимую епархию [target_location.GetNameWithNoTooltip]"
+ flavor_ice.10.b: "Снискать расположение [overlord.GetAdjectiveWithNoTooltip|l]ого епископа."
+ opinion_opposed_our_bishop: "Противостояние с нашим епископом"
+ opinion_supported_our_bishop: "Поддержка нашего епископа"
+ flavor_ice.11.title: "Хюльдуфолк"
+ flavor_ice.11.desc: "Среди #L [ROOT.GetCountry.GetCulture.GetName|l]ого#! народа испокон веков ходят легенды о «хюльдуфолк» — таинственных и неуловимых эльфах, живущих в горах Исландии.\n\nНедавно мы решили построить #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ую#! церковь в [target_location.Custom('LR_PP')|l] [target_location.GetName], но оказалось, что выбранная для строительства скала считается принадлежащей хюльдуфолк.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] боятся, что ссора с волшебным народом навлечёт на них бесчисленные бедствия, а [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] отрицают само существование этих сверхъестественных созданий. Разрешать этот богословский спор и решать судьбу строительства, конечно же, придётся короне."
+ flavor_ice.11.a: "Пойти навстречу местным жителям и отказаться от строительства."
+ flavor_ice.11.b: "Построить церковь, не обращая внимания на суеверия."

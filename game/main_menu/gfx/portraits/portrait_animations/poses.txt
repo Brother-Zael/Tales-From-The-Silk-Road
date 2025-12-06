@@ -1,0 +1,100 @@
+﻿# The choice is made based on a weighted random, but the first weight that evaluates to >= 100 will be automatically chosen
+
+idle = {										#Name of the animation, this is the name events and gui scripts reference. If no item has a weight > 0 no item will be selected
+	male = {											#Animations are scripted for each portrait type, all types needs to be scripted
+		default = { head = "bind_pose" torso = "bind_pose" }		#Default animation used if no item has a weight > 0, or if it is used in a non scripted environment
+		
+		pose_01 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+			animation = { head = "pose_01" torso = "pose_01" }
+			
+			weight = {									
+				base = 1								
+			}
+		}
+
+		pose_02 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+			animation = { head = "pose_02" torso = "pose_02" }
+			
+			weight = {									
+				base = 1
+					modifier = {
+					add = 1000
+					exists = this
+					exists = character:cas_maria_portugal
+					this = character:cas_maria_portugal
+				}								
+			}
+		}
+
+		pose_03 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+			animation = { head = "pose_03" torso = "pose_03" }
+			
+			weight = {									
+				base = 1	
+			}
+		}
+
+		pose_04 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+			animation = { head = "pose_04" torso = "pose_04" }
+			
+			weight = {
+				base = 1
+				modifier = {
+					add = 1000
+					exists = this
+					exists = character:cas_alfonso_xi_burgundy
+					this = character:cas_alfonso_xi_burgundy
+				}
+			}
+		}
+
+		pose_05 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+			animation = { head = "pose_05" torso = "pose_05" }
+							
+			weight = {									
+				base = 1
+					modifier = {
+					add = 1000
+					exists = this
+					exists = character:tir_margarete_von_tirol
+					this = character:tir_margarete_von_tirol
+				}								
+			}
+		}
+
+		# pose_06 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+		# 	animation = { head = "pose_06" torso = "pose_06" }
+			
+		# 	weight = {									
+		# 		base = 0								
+		# 	}
+		# }
+
+		# pose_07 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+		# 	animation = { head = "pose_07" torso = "pose_07" }
+			
+		# 	weight = {									
+		# 		base = 0								
+		# 	}
+		# }
+
+		# pose_08 = {										#Item, specifies animations to be used if this one is chosen by the weighted random
+		# 	animation = { head = "pose_08" torso = "pose_08" }
+			
+		# 	weight = {									
+		# 		base = 0								
+		# 	}
+		# }
+   }
+	
+
+	female = male
+	adolescent_boy = male
+	adolescent_girl = female
+	boy = male
+	girl = female
+	
+	infant = {
+		default = { head = "idle" torso = "idle" }
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_russian:
+ flavor_cas_por.1.title: "Королевская пятая"
+ flavor_cas_por.1.desc_common: "Как [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'суверенная правительница', 'суверенный правитель' )] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] владеет всеми богатствами [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Все природные ресурсы, добываемые [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ими подданными, по праву принадлежат [Select_CString(target_character.IsFemale, 'ей', 'ему' )]. Впрочем, если бы каждый человек был обязан отдавать государству всё ценное, у людей отпало бы всякое желание заниматься производительным трудом. Вот почему мы решили взимать с них лишь часть добытых ресурсов — «#TOOLTIP:POLICY,royal_fifth_law,X #L королевскую пятую#!#!»."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nГлавный источник богатства [target_location.Custom('LR_RP')|l] [target_location.GetName] — это [target_goods.GetName|l]. В последнее время добыча этого ресурса резко возросла, в связи с чем вопрос налогообложения вновь выходит на первый план. Местные вице-короли не хотят взимать #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий#! налог, опасаясь нанести ущерб производству."
+ flavor_cas_por.1.a: "«Королевскую пятую» придётся взимать, нравится это кому-то или нет."
+ flavor_cas_por.1.b: "Не будем мешать прибыльной добыче."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nНедавно в [target_location.Custom('LR_PP')|l] [target_location.GetName] сделали ценную находку — там есть [target_goods.GetName|l]! В связи с этим мы должны вновь обсудить целесообразность взимания этого налога. Местный вице-король требует от управляющих шахты выплачивать «королевскую пятую» в полном объёме, однако придворные советники опасаются, что это отрицательно скажется на добыче."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Оставим их в покое до поры до времени."

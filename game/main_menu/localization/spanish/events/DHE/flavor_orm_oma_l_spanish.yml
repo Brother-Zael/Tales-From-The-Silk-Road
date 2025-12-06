@@ -1,0 +1,8 @@
+﻿l_spanish:
+ flavor_orm_oma.1.title: "Control de Omán por parte de los Nabhan"
+ flavor_orm_oma.1.desc: "La costa omaní sobre la que nuestros antepasados extendieron su dominio es levantisca y pobre. Tenemos poco [control|el] y es una fuente de problemas y rebeliones.\n\nPara empeorar la situación, los [ShowDynastyName('nabhani_dynasty')] han mostrado interés en la zona, lo que ha aumentado la tensión en una frontera ya complicada. Por suerte, nuestros diplomáticos confían en poder firmar un tratado que evite posibles conflictos fronterizos y salve nuestras finanzas a largo plazo."
+ flavor_orm_oma.1.a: "Entregársela a los Nabhani."
+ flavor_orm_oma.1.b: "¡Es nuestra tierra!"
+ flavor_orm_oma.2.title: "$flavor_orm_oma.1.title$"
+ flavor_orm_oma.2.desc: "[GetCountry('ORM').GetLongName] ha enviado a varios diplomáticos a nuestra corte con una propuesta. Para evitar conflictos fronterizos entre nuestros pueblos, están dispuestos a ceder el control de todos los territorios [ShowCultureName('omani_culture')|l] que poseen. Solo piden a cambio que nuestras naciones sigan siendo amigas y que se mantenga la coexistencia pacífica."
+ flavor_orm_oma.2.a: "Aceptaremos de buen grado."

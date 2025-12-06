@@ -1,0 +1,3 @@
+﻿l_braz_por:
+ PIRATES_NAME: "Piratas da área [AREA.GetNameWithNoTooltip]"
+ PRIVATEER_NAME: "Corsários do país [PRIVATEER.GetOwner.GetNameWithNoTooltip]"

@@ -1,0 +1,7 @@
+﻿l_german:
+ rebel.1.title: "Cola di Rienzo"
+ rebel.1.desc: "Die einst große Stadt [target_location.GetName] leidet unter Dekadenz und Zerfall. Jahre der Misswirtschaft durch die ansässigen Adligen haben sie zu einem elenden Schatten ihres einstigen Glanzes gemacht, Bettler füllen jeden Winkel, und die Gassen sind voll von Räubern.\n\nSo überrascht es wenig, dass es früher oder später zur Rebellion kommen musste; in diesem Fall werden die Aufständischen von einem Mann namens [target_character.GetName] angeführt, einem wohlbekannten Notar, dessen Bruder bei einem Vorfall mit einem Adligen der Stadt getötet wurde und der nach einem beeindruckenden Vorsprechen beim Kirchenoberhaupt ([GetCountry('PAP').GetGovernment.GetRulerTitle]) kurze Zeit einen offiziellen Posten am Hof innehatte.\n\nUnseren Quellen zufolge hat dieser Mann seine Anhänger um sich geschart und das Volk von [target_location.GetNameWithNoTooltip] angestachelt. Gemeinsam haben sie den Regierungssitz eingenommen, und das gänzlich ohne Blutvergießen dank der Feigheit des herrschenden Adels, der angesichts des Mobs einfach weggelaufen war und die Stadt aufgegeben hatte."
+ rebel.1.a: "Erlaubt ihm, die Stadt zu behalten, die er den Adligen abgenommen hat."
+ rebel.1.b: "Gewährt ihm außerordentliche Befugnisse und die Herrschaft über die Stadt."
+ rebel.1.c: "Wir werden eine derartige Anarchie nicht zulassen: Erobert die Stadt zurück!"
+ cola_rebels: "Unterstützer von Cola di Rienzo"

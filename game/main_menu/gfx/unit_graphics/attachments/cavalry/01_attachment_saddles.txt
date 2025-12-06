@@ -1,0 +1,10 @@
+﻿
+###############################################
+# saddle
+###############################################
+
+# GENERIC_SADDLE
+
+#saddle = {#
+	# 10 = { required_tags = "not(horse_covered)" add_entity = { node = spine_01_J		mesh_name = "unit_cavalry_horse_saddle_mesh" required_tags = "cavalry" add_tags = "horse_covered"	} }
+#}

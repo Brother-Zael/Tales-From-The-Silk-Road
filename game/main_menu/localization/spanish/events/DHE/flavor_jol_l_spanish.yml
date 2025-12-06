@@ -1,0 +1,6 @@
+﻿l_spanish:
+ flavor_jol.1.title: "La conversión [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]"
+ flavor_jol.1.desc: "Con nuestra creciente influencia en [ShowRegionName('guinea_region')], hemos logrado adaptarnos a muchas de las exigencias [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] en las tierras conquistadas, aunque esta aún no ha integrado plenamente los valores de la fe [ROOT.GetCountry.GetReligion.GetAdjective|l] ni la cultura de los [ROOT.GetCountry.GetCulture.GetName|l]. Quizás podríamos lanzar una campaña para facilitar ese proceso."
+ flavor_jol.1.a: "¡Para estabilizar [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ flavor_jol.1.b: "No hace falta enemistarse con el estamento [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
+ jol_convert_nobility_tt: "Un #Y 15 %#! de nuestras [pops|el] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] se convertirán en [ROOT.GetCountry.GetCulture.GetName|l] y adoptarán el [ROOT.GetCountry.GetReligion.GetName|l]."

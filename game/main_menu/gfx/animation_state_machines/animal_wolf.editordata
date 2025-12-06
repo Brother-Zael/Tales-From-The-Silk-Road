@@ -1,0 +1,16 @@
+﻿animation_editor_meta={
+	view={
+		position={ 215.002548 58.685925 }
+		zoom=1.870544
+	}
+	starting_timeline={
+		position={ 0.000000 0.000000 }
+	}
+	states={
+		"skeleton_animations"={
+			position={ 0.000000 200.000000 }
+		}
+ 	}
+	connections={
+	}
+}

@@ -1,0 +1,8 @@
+﻿l_german:
+ flavor_ned_plc.1.title: "[target_country.GetAdjectiveWithNoTooltip|U]e Händler in [target_location.GetNameWithNoTooltip]"
+ flavor_ned_plc.1.desc: "Die Interessen zweier Nationen ([receiving_country.GetLongName|U] und [target_country.GetLongName|U]) decken sich auf verschiedene Weise. Jedes Jahr treffen viele Mitglieder des #L [target_country.GetGovernment.GetEstateName('burghers_estate')]s#! in den Häfen von [target_market.GetName] ein – insbesondere im „[target_good.GetName]“-Entrepot von [target_location.GetName]. Andererseits profitiert der [receiving_country.GetGovernment.GetEstateName('nobles_estate')] von [receiving_country.GetNameWithNoTooltip] eindeutig von dieser Partnerschaft, da er seine überschüssigen Waren wie [target_good.GetNameWithNoTooltip] gegen die von den Händlern mitgebrachten Luxusgüter eintauschen kann."
+ flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+ flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+ flavor_ned_plc.2.a: "Investiert zusätzliche Mittel in den Großhandel."
+ flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

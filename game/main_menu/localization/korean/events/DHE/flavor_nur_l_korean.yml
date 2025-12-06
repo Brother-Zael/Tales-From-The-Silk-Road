@@ -1,0 +1,7 @@
+﻿l_korean:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "[target_character.GetName](은)는 누구보다도 독보적인 성공을 이룬 인물로 꼽힙니다. 상인 집안 출신인 [target_character.GetShortNameWithNoTooltip](은)는 [ShowRegionName('italy_region')] 전역에서 사업을 운영하며 엄청난 성공을 거두었으며, 그 집안이 구축한 교역망은 풍요로운 이탈리아반도에서 유통되는 부의 상당 부분을 책임집니다. 그런데 시간이 지나면서 이 유명한 상인이 고향으로 돌아와 우리 시장에 투자하겠다는 뜻을 더욱 강하게 내비치고 있습니다. 심지어 [ShowRegionNameWithNoTooltip('italy_region')]에서 많은 혁신적 요소를 들여오고 싶다고 합니다..."
+ flavor_nur.1.a: "귀국을 환영하네!"
+ flavor_nur.1.b: "그런 바보 같은 것에 쓸 돈은 없다!"
+ flavor_nur.1.c: "정중히 거절해야겠군..."
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip](이)가 사라집니다"

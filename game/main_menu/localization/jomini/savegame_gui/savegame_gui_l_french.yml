@@ -1,0 +1,7 @@
+﻿l_french:
+ DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "La partie complète #T $SAVE_NAME$#! et les sauvegardes qu'elle contient seront supprimées."
+ DELETE_SAVE_CONFIRMATION_DESC: "La sauvegarde #T $SAVE_NAME$#! sera supprimée."
+ FRONTEND_SAVE_EXIT_TEXT: "Sauvegarder la partie #high $SAVE_NAME$#! automatiquement"
+ FRONTEND_END_GAME_TEXT: "Si l'hôte quitte la partie, la session multijoueur prendra fin et empêchera les autres joueurs de jouer ensemble."
+ FRONTEND_LEAVE_GAME_TEXT: "Si vous quittez la session multijoueur, la partie se poursuivra sans vous"
+ OVERWRITE_SAVE_CONFIRMATION_DESC: "La sauvegarde #T $SAVE_NAME$#! sera écrasée."

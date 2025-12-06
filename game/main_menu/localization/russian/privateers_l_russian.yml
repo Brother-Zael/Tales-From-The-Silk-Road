@@ -1,0 +1,3 @@
+﻿l_russian:
+ PIRATES_NAME: "Пираты из области [AREA.GetNameWithNoTooltip]"
+ PRIVATEER_NAME: "[PRIVATEER.GetOwner.GetAdjectiveWithNoTooltip]ие каперы"

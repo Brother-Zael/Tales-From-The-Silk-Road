@@ -1,0 +1,6 @@
+﻿l_german:
+ flavor_grm.1.title: "Der Tod von [target_character.GetNameWithNoTooltip]"
+ flavor_grm.1.desc: "[Select_CString(target_character.IsFemale, 'Eine unserer berühmtesten Frauen und Gründerinnen', 'Einer unserer berühmtesten Männer und Gründer')] unseres #L [target_country.GetFlavorRank]s#! ist von uns gegangen. [target_character.Custom('DE_PRO_POS_S_3P')|U]e Herrschaft war der Höhepunkt unseres Einflusses in [ShowRegionName('anatolia_region')], und es gelang ihm, viele unserer Nachbarn zu unterwerfen. Leider hat [target_character.Custom('DE_PRO_POS_S_3P')] Tod zu Unzufriedenheit und Aufständen geführt, da unsere Klientelländer sich am Reichtum unseres Volkes laben wollen."
+ flavor_grm.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ flavor_grm.1.b: "Wir werden nicht kampflos aufgeben!"
+ flavor_grm.1.historical_info: "Die Germiyaniden, die zu den mächtigsten aufstrebenden Beyliks des frühen 14. Jahrhunderts gehörten, wurden von Yakub I. gegründet, dessen Eroberungen viele Länder unter seine Herrschaft brachten. Während seiner 40-jährigen Regentschaft kam es zu Spannungen mit vielen seiner Nachbarn: Er unterwarf die Aydiniden, die Saruchaniden und die Karesiden im Westen und geriet in offenen Konflikt mit den Osmanen. Nach seinem Tod nutzten seine zahlreichen Vasallen die Gunst der Stunde und erklärten ihre Unabhängigkeit."

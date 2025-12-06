@@ -1,0 +1,5 @@
+﻿l_french:
+ character_events.1.title: "Les sautes d'humeur de [target_character.GetNameWithNoTooltip]"
+ character_events.1.title.no_event_target: "Les sautes d'humeur"
+ character_events.1.desc: "Bien qu'il s'agisse d'une personne de grande responsabilité et d'un dirigeant de [ROOT.GetCountry.GetName], [target_character.GetName] est malheureusement connu pour son comportement erratique et ses changements d'humeur. Une fois de plus, son attitude envers les affaires de l'État est incompréhensible pour ses sujets..."
+ character_events.1.a: "Espérons qu'[Select_CString(target_character.IsFemale,'elle', 'il')] ne sera pas un fardeau pour notre nation..."

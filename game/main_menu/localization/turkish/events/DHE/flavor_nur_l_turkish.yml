@@ -1,0 +1,7 @@
+﻿l_turkish:
+ flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nur.1.desc: "Pek az kişi hayatta [target_character.GetName] kadar başarılı olabilir. Tüccar bir ailenin çocuğu olan [target_character.GetShortNameWithNoTooltip], [ShowRegionName('italy_region')] genelinde yürüttüğü ticari faaliyetlerde fevkalade bir başarı yakaladı. Zengin yarımadadaki servetin büyük bir kısmı ailesi tarafından kurulan ticaret ağında dolaşıyordu ancak zaman geçtikçe ünlü tüccar evine geri dönüp pazarlarımıza yatırım yapmayı düşünmeye başladı. Hatta [ShowRegionNameWithNoTooltip('italy_region')] bölgesinden pek çok yeniliği de beraberinde getirmeyi kafasına koydu."
+ flavor_nur.1.a: "Evine hoş geldi!"
+ flavor_nur.1.b: "Böyle bir saçmalıkları karşılayamayız!"
+ flavor_nur.1.c: "Saygıda kusur etmeden reddetmeliyiz."
+ target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] kaybolur."

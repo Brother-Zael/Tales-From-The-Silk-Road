@@ -1,0 +1,60 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"skeleton_animations"={
+		random_layer={
+			name="play_random"
+			timeline_layer={
+				name="resource_deer_idle_animation"
+				weight=1.000000
+				timeline="resource_deer_idle_animation"
+			}
+			timeline_layer={
+				weight=1.000000
+				timeline="idle_deer_longer"
+			}
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Lane 1"
+		behavioral_state="skeleton_animations"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"resource_deer_idle_animation"={
+		boundary_behavior=loop
+		duration=3.934426
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="resource_deer_idle_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ 	"idle_deer_longer"={
+		boundary_behavior=loop
+		duration=3.934426
+		starttime_offset=0.000000
+		playback_rate=0.250000
+		layer=0
+		animation="resource_deer_idle_animation"
+		duration_source=animation
+		time_offset_source=unsynced_random_on_enter
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Lane 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

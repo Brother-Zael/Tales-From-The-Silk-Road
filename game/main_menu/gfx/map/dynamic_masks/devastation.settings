@@ -1,0 +1,32 @@
+
+# Set texture in 00_graphics.txt
+"Texture_Index_Offset" = 0
+"Noise_Tiling" = 50
+"Texture_Tiling" = 2
+
+"Texture_Hue" = 1
+"Texture_Saturation" = 0.5
+"Texture_Value" = 0.6
+
+"Tree_Hue" = -0.075
+"Tree_Saturation" = 0.2
+"Tree_Value" = 0.1
+
+"Area_Position" = 0.65
+"Area_Constrast" = 0.6
+"Area_Max" = 0.8
+
+"BezierPoint_1" = { 0.05 0.9 }
+"BezierPoint_2" = { 0.3 0.6 }
+
+"Height_Weight" = 0.5
+"Height_Contrast" = 1.2
+
+"ExclusionMask_Min" = 0.6
+"ExclusionMask_Max" = 0.9
+
+"Tree_Alpha_Reduce" = 0.5
+
+"Force_Add_Global_Devastation" = 0.0
+
+

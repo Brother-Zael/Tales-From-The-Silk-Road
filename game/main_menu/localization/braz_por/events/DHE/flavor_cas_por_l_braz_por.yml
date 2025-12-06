@@ -1,0 +1,10 @@
+﻿l_braz_por:
+ flavor_cas_por.1.title: "Quinto do Ouro"
+ flavor_cas_por.1.desc_common: "O(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle], como único governante da entidade política [ROOT.GetCountry.GetName], tem direito a todas as mercadorias e riquezas naturais dentro do(a) [ROOT.GetCountry.GetFlavorRank]. Por essa razão, todos os recursos naturais extraídos pelo povo [ROOT.GetCountry.GetAdjectiveWithNoTooltip] pertence a [target_character.GetName] por direito. Entretanto, se todos precisassem abrir mão de suas mercadorias para o governo, não haveria incentivos para conduzir operações de mineração, por isso decidimos extrair recursos por meio do [ShowPolicyName('royal_fifth_law')]."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nO imposto volta a ser debatido, já que será muito mais importante por conta da crescente extração de [target_goods.GetName] em [target_location.GetName]. Os vice-reis locais mostram relutância para aplicar o imposto, pois acreditam que ele sufocaria a produção."
+ flavor_cas_por.1.a: "Vamos impor o [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+ flavor_cas_por.1.b: "Não atrapalharemos suas operações."
+ flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nA recente descoberta de [target_goods.GetName] em [target_location.GetName] trouxe o imposto de volta à discussão, pois os vice-reis exigem que os administradores das minas cumpram com ele, que até então tem sido bastante relevante. Vários assessores do(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle] argumentam que isso pode prejudicar a produção desse recurso."
+ flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+ flavor_cas_por.2.b: "Esqueçam isso por enquanto."

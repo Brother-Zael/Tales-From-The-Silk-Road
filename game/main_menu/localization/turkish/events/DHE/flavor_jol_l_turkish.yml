@@ -1,0 +1,6 @@
+﻿l_turkish:
+ flavor_jol.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Zümresinin Din Değişimi"
+ flavor_jol.1.desc: "[ShowRegionName('guinea_region')] içinde artan nüfuzumuz sayesinde fethedilen topraklardaki [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] zümresinin taleplerinin çoğunu benimsemeyi başardık ancak [ROOT.GetCountry.GetReligion.GetAdjective] değerlerine veya [ROOT.GetCountry.GetCulture.GetName] değerlerine tam olarak uyum sağlayamadılar. Belki de buna yardımcı olmak için girişimlerde bulunabiliriz."
+ flavor_jol.1.a: "[ROOT.GetCountry.GetNameWithNoTooltip] istikrarı için!"
+ flavor_jol.1.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] zümresini kızdırmaya gerek yok."
+ jol_convert_nobility_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [Concept('pops', 'Toplumumuzun')|e] #Y %15#!'i [ROOT.GetCountry.GetCulture.GetName] kültürüne ve [ROOT.GetCountry.GetReligion.GetName] dinine geçecek"

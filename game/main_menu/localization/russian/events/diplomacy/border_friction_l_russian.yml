@@ -1,0 +1,12 @@
+﻿l_russian:
+ border_friction.1.title: "Пограничный спор"
+ border_friction.1.desc: "[border_claim_country.GetLongName] и мы заключили союз, этим у нас в стране довольны не все. Некоторые влиятельные [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] требуют разорвать заключённое соглашение. Камнем преткновения стала провинция [border_claim_province.GetName] — сейчас она принадлежит [border_claim_country.Custom('CL_DAT')], но многие считают её нашими исконными землями. Воспользовавшись ситуацией, противники союза сумели раскачать народное возмущение."
+ border_friction.1.a: "Возможно, пора изменить приоритеты…"
+ border_friction_from_event: "Недовольство претензиями"
+ border_friction.1.b: "Надо представить всё в лучшем виде!"
+ border_friction.1.c: "Откажемся от претензий."
+ border_friction.2.title: "$border_friction.1.title$"
+ border_friction.2.desc: "«[border_claim_province.GetName], земля наших предков, в руках чужаков — а власти не делают ничего, чтобы вернуть наши исконные владения в родную гавань! Интересно, чьим интересам они служат?» — возмущаются авторы памфлета, призывая к войне.\n\nСтрану охватило возмущение, вызванное нашей неспособностью вернуть исторические провинции. [border_claim_country.GetLongName] — наш злейший враг по мнению народа."
+ border_friction.2.a: "$border_friction.1.a$"
+ border_friction.2.b: "$border_friction.1.b$"
+ border_friction.2.c: "Отзовём претензии."

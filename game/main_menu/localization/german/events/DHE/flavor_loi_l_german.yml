@@ -1,0 +1,11 @@
+﻿l_german:
+ flavor_loi.10.title: "Die nordischen Inseln"
+ flavor_loi.10.desc: "Das Volk unserer Nation ([ROOT.GetCountry.GetLongName|U]) lebt seit Langem im Schatten seines #L [ROOT.GetCountry.GetCulture.GetName|l]en#! Erbes, doch da sich die Zeiten nun ändern, ziehen wir in Erwägung, uns einmal mehr unseren nordischen Wurzeln zuzuwenden. Wir finden uns immer mehr zu den alten Königreichen von [scandinavia.GetName] hingezogen, und es gibt viel zu gewinnen, wenn wir dieses uralte Erbe wiederentdecken und neue Allianzen schmieden.\n\nFalls wir diesen Weg gehen, müssen wir bereit sein, einige unserer gälischen Traditionen und Bräuche über Bord zu werfen, doch der Lohn könnte gewaltig sein. Wenn wir uns auf unsere nordischen Wurzeln zurückbesinnen, können wir eine neue und mächtige #L [nordic_culture.GetName|l]#! Identität für die Bewohner dieser Inseln ins Leben rufen und unseren Platz inmitten der Löwen des Nordens einnehmen.\n\nWerden wir diesen Weg der Rückbesinnung wählen?"
+ flavor_loi.10.a: "Entdecken wir unsere nordischen Wurzeln neu."
+ flavor_loi.10.b: "Widerstehen wir dem Ruf des Nordens."
+ opinion_loi_10_adopted_our_culture: "Nahm die nordische Kultur an"
+ flavor_loi.20.title: "Schiffbau-Wettstreit"
+ flavor_loi.20.desc: "Die Winde der Provinz „[target_location.GetProvinceDefinition.GetName]“ tragen den Klang von Hämmern auf Eiche und Kiefer durch die Lüfte, da Schiffbaumeister von überall in „[target_location.GetArea.GetName]“ sich versammeln, um am großen Schiffbau-Wettstreit von „[ROOT.GetCountry.GetName|U]“ teilzunehmen, der in „[target_location.GetName]“ stattfindet.\n\nDer traditionelle Schiffsbau ist entscheidend für unsere Lebensweise und muss gefördert werden. Als Vertreter der [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] ist es unsere Pflicht, über diesen Wettstreit zu wachen."
+ flavor_loi.20.a: "Gebt eine Galeere in Auftrag, auf dass wir selbst teilnehmen mögen."
+ flavor_loi.20.b: "Finanziert einen der favorisierten Teilnehmer."
+ flavor_loi.20.c: "Beachtet den Wettstreit nicht weiter."

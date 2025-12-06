@@ -1,0 +1,16 @@
+﻿animation_editor_meta={
+	view={
+		position={ 47.863098 250.092545 }
+		zoom=1.168750
+	}
+	starting_timeline={
+		position={ 81.538437 -6.153854 }
+	}
+	states={
+		"Idle"={
+			position={ 306.221436 -7.914316 }
+		}
+ 	}
+	connections={
+	}
+}

@@ -1,0 +1,4 @@
+﻿l_german:
+ diseases.1.title: "Ein neuer Ausbruch"
+ diseases.1.desc: "In [location_scope.GetName] macht sich Verzweiflung breit, denn die Bevölkerung muss mitansehen, wie Familienmitglieder und Nachbarn durch den Ausbruch einer unbarmherzigen Krankheit ([disease.GetName]) dahingerafft werden. In Nachbarschaften, die einst voller Leben waren, hört man nun nur noch leises Wimmern hinter verschlossenen Türen.\n\nDie Krankheit wird sich auch in unser Territorium ausbreiten, denn wir haben keinerlei Mittel, ihr Einhalt zu gebieten."
+ diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

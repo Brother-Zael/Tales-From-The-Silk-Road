@@ -1,0 +1,7 @@
+﻿l_spanish:
+ mayan_events.1.title: "El inicio de un nuevo Katún"
+ mayan_events.1.desc: "Tras veinte años, un nuevo Katún comienza en la cuenta larga de nuestro pueblo.\n\nEs nuestro deber como líderes que dirigen [ROOT.GetCountry.GetLongName|l] celebrar un magnífico festival en honor de [ROOT.GetCountry.GetReligion.GetGodName] para marcar el comienzo de un nuevo ciclo en la vida de nuestra cultura. Nuestra gente espera que organicemos una celebración tan majestuosa y opulenta que se recuerde durante años.\n\nPor eso llevamos años preparándonos y ha llegado la hora de disfrutar de todos los festejos."
+ mayan_events.1.a: "Alabemos a [ROOT.GetCountry.GetReligion.GetGodName]."
+ mayan_events.1.b: "¡Apuremos algunos detalles!"
+ mayan_events.1.c: "Estamos preparados."
+ mayan_events.1.d: "El pueblo quedará decepcionado."

@@ -1,0 +1,11 @@
+﻿l_german:
+ flavor_pav.1.title: "Vertreibung der [expelled_ruler.GetDynasty.GetNameWithNoTooltip]-Dynastie"
+ flavor_pav.1.desc: "Die Stadt [ROOT.GetCountry.GetCapital.GetName] steht in Flammen, da erneut eine Revolte gegen die [expelled_ruler.GetDynasty.GetName]-Dynastie ausgebrochen ist. Diesmal führt [pav_iacopo_bussolari_scope.Custom('DE_ART_DEF_S_N')] charismatische [pav_iacopo_bussolari_scope.GetName] den Aufstand an, der die Stadt gegen [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'ihre', 'ihren')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] vereint hat. Wenn nichts unternommen wird, muss [expelled_ruler.GetName] möglicherweise in die sündigen Arme der [ShowDynastyName('visconti_dynasty')]-Familie fliehen."
+ flavor_pav.1.historical_info: "1356 wurden die Beccaria durch einen durch den Mönch Iacopo Bussolari angeführten Volksaufstand aus Pavia vertrieben. Dieser Aufstand trug dazu bei, die Stadt gegen eine Belagerung unter Führung der Visconti zu verteidigen. Die Vertriebenen verbündeten sich miteinander, und so fiel die Stadt 1359 an Mailand. Danach wurden den Beccaria einige Privilegien zurückgegeben, doch die Stadt blieb unter der Kontrolle der Mailänder."
+ flavor_pav.1.a: "Befolgt die Lehren dieses Menschen!"
+ flavor_pav.1.b: "Wir müssen dieser Unruhe entgegenwirken."
+ flavor_pav.2.title: "$flavor_pav.1.title$"
+ flavor_pav.2.desc: "Uns liegen Berichte über einen Volksaufstand in [target_country.GetName] unter der Führung von [pav_iacopo_bussolari_scope.GetName] vor – [Select_CString(hostile_commander.IsFemale, 'eine wahrlich charismatische Frau', 'ein wahrlich charismatischer Mann')]. Unter [pav_iacopo_bussolari_scope.Custom('DE_PRO_POS_S_3P')]er Führung gelang es der Bevölkerung von [target_country.GetCapital.GetName], die [expelled_ruler.GetDynasty]-Dynastie aus der Stadt zu vertreiben. Darunter befand sich auch [expelled_ruler.GetName], [expelled_ruler.Custom('DE_ART_DEF_S_N')] sich an uns gewandt hat, um Hilfe zu erbitten. Obwohl wir zuvor mit der [expelled_ruler.GetDynasty.GetNameWithNoTooltip]-Dynastie verfeindet waren, könnten wir dies als Gelegenheit nutzen, um diese Stadt endgültig für uns zu beanspruchen."
+ flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+ flavor_pav.2.a: "Wir sollten das Chaos zu unserem Vorteil nutzen."
+ flavor_pav.2.b: "Das geht uns nichts an."

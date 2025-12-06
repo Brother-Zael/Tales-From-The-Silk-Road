@@ -1,0 +1,13 @@
+﻿l_korean:
+ flavor_fra_dau.100.title: "델피날 법령"
+ flavor_fra_dau.100.desc: "[target_country.GetLongName](은)는 수 세기 동안 독립성을 유지해 왔으나 [GetInternationalOrganizationType('hre').GetName] 및 [ShowRegionName('italy_region')]와 인접해 있어 [ROOT.GetCountry.GetLongName]의 큰 관심을 받는 지역이기도 합니다. 그런데 현 통치자인 [scope_rule_dau.GetName](이)가 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetCourtTitle]에 제안을 보냈습니다. 1333년경 형이 세상을 떠나며 [target_country.GetNameWithNoTooltip](을)를 물려받은 이래로 [scope_rule_dau.GetShortNameWithNoTooltip](은)는 재정적 어려움을 겪었고, 시간이 지날수록 상황은 더 악화되기만 했습니다.\n\n이에 따라 당초 [scope_rule_dau.GetShortNameWithNoTooltip](은)는 자신의 영토와 작위를 [GetCountry('PAP').GetLongName]에 매각하려고 했으나, 마음을 바꿔 자신의 요구를 들어주는 것을 조건으로 대신 [ROOT.GetCountry.GetNameWithNoTooltip]에 매각을 제안했습니다. 그 조건에 따르면 [target_country.GetNameWithNoTooltip]의 토지를 내주는 대가로 해당 영토는 국가의 조세와 특정 법령에서 면제되어야 합니다. 그뿐만 아니라 $country_flavor_france_dauphin$을 [ROOT.GetCountry.GetNameWithNoTooltip] 통치자가 지닌 작위와 구별되는 고유한 작위로 취급하는 조항도 포함되어 있습니다."
+ flavor_fra_dau.100.a: "제안을 수락하고 $country_flavor_france_dauphin$을 별개의 [ROOT.GetCountry.GetGovernment.GetAdjective] 작위로 만들겠다."
+ flavor_fra_dau.100.b: "제안은 수락하지만, 다른 [ROOT.GetCountry.GetGovernment.GetAdjective] 작위에 통합하겠다."
+ flavor_fra_dau.100.c: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]에서는 무슨 일이 있어도 그자를 돕지 않을 것이다."
+ flavor_fra_dau.101.title: "델피날 법령"
+ flavor_fra_dau.101.desc: "[GetCountry('DAU').GetName](은)는 [scope_rule_dau.GetName]의 통치하에 독립을 유지했지만, [scope_rule_dau.GetShortNameWithNoTooltip](이)가 [scope_rule_dau.GetDynasty.GetName] 가문의 부채를 물려받으면서 [ROOT.GetCountry.GetGovernment.GetRulerTitle](은)는 [ROOT.GetCountry.GetFlavorRank]의 매각을 고려하게 되었습니다. [scope_rule_dau.GetShortNameWithNoTooltip](은)는 [GetCountry('PAP').GetName] 측과 거래를 희망했으나, 그들이 더 이상 관심을 표명하지 않으면서 협상이 결렬되었습니다.\n\n이에 [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetCourtTitle] 구성원들은 [scope_rule_dau.GetShortNameWithNoTooltip]의 부채를 탕감하고자 [target_country.GetLongName](과)와 합의를 모색하자고 제안했습니다. 추진할 경우 [scope_rule_dau.GetShortNameWithNoTooltip](은)는 작위와 통치권을 잃게 되겠지만, [target_country.GetNameWithNoTooltip](과)와의 협정은 모두 [ROOT.GetCountry.GetNameWithNoTooltip]의 자치권을 유지하는 방향으로 이루어질 것입니다."
+ flavor_fra_dau.101.a: "[target_country.GetAdjectiveWithNoTooltip] [target_country.GetGovernment.GetCourtTitle]에 협정을 제안하라."
+ flavor_fra_dau.101.b: "우리의 자주권은 절대 팔 수 없다!"
+ #Tooltips
+ dau_sale_of_viennois_tt: "[target_country.GetName] 측이 수락할 경우, 우리는 동군연합의 하위 연합국이 되고 #G 1,000#! [gold|e]를 얻습니다"
+ heirs_will_inherit_dauphin_title: "$country_flavor_france_dauphin$ 작위가 [ROOT.GetCountry.GetName]의 후계자에게 수여됩니다"

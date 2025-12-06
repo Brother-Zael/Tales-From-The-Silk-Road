@@ -1,0 +1,8 @@
+﻿l_korean:
+ flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] 성무 금지령"
+ flavor_ven_papal_interdicts.1000.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle](이)가 [ROOT.GetCountry.GetName]에 성무 금지령을 내렸습니다. 형식적인 사유는 우리 도시에 아직 종교적 광신의 자유가 남아 있는 것이 [GetCountry('PAP').GetName]에 있어 끝없는 모욕이라는 것입니다. 그러나 우리는 이것이 자신들의 야망을 실현하려는 술수에 불과함을 분명히 알고 있습니다."
+ flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip](은)는 굴하지 않는다!"
+ flavor_ven_papal_interdicts.1000.b: "성하 앞에 무릎을 꿇으리라."
+ flavor_ven_papal_interdicts.1001.title: "죄악의 온상"
+ flavor_ven_papal_interdicts.1001.desc: "[target_sinner_country.GetName] 백성들이 주님 앞에서 온갖 악행과 죄를 범하고 있습니다. 이 상업의 도시에서 의로운 자는 전혀 찾아볼 수 없으며, 오직 주님의 아들께서 성전에서 몰아내셨던 부류만 가득할 뿐입니다. 이 땅에 자리한 주님의 대행자로서 당장 행동에 나서야 합니다!"
+ flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip](은)는 소돔과 고모라처럼 멸망할 것이다!"

@@ -1,0 +1,5 @@
+﻿l_korean:
+ character_events.1.title: "[target_character.GetNameWithNoTooltip]의 감정 기복"
+ character_events.1.title.no_event_target: "감정 기복"
+ character_events.1.desc: "[ROOT.GetCountry.GetName]의 지도자인 [target_character.GetName](은)는 책임감이 뛰어난 것으로 유명하지만, 안타깝게도 감정 기복이 심해 때때로 기행을 펼치는 것으로도 유명합니다. 그리고 또 한 번, 국정 사안을 대하는 이 인물의 태도를 백성들이 도저히 이해할 수 없다며 나섰습니다..."
+ character_events.1.a: "우리나라에 짐이 되지 않기만을 바랄 뿐이다..."

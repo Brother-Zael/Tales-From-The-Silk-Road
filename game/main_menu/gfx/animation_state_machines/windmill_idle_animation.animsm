@@ -1,0 +1,40 @@
+﻿local_variables={
+}
+
+behavioral_states={
+	"idle"={
+		timeline_layer={
+			timeline="windmill_idle"
+		}
+	}
+ }
+
+events={
+	behavioral_state_transition={
+		name="Connection 1"
+		behavioral_state="idle"
+		transition_interval=0.000000
+	}
+ }
+
+timelines={
+	"windmill_idle"={
+		boundary_behavior=loop
+		duration=2.050265
+		starttime_offset=0.000000
+		playback_rate=0.500000
+		layer=0
+		animation="building_northgerman_farm_windmill_a_idle_animation"
+		duration_source=animation
+	}
+ }
+
+starting_timeline={
+	on_enter={
+		"Connection 1"
+	}
+	boundary_behavior=loop
+	starttime_offset=0.000000
+	playback_rate=1.000000
+	layer=0
+}

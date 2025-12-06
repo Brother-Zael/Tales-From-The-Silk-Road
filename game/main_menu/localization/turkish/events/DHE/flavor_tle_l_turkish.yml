@@ -1,0 +1,4 @@
+﻿l_turkish:
+ flavor_tle.1.title: "[capital_scope.GetNameWithNoTooltip] Yıkıldı"
+ flavor_tle.1.desc: "Değerli [ROOT.GetCountry.GetFlavorRank] ülkemizin başkenti [capital_scope.GetName], maalesef çirkin düşmanlarına yenik düştü. Daha da kötüsü, sevgili hükümdarımız [ruler_scope.GetName] ve oğulları da taarruz sırasında öldürüldü.\n\nBu trajedi [ROOT.GetCountry.GetFlavorRank] içinde bir çaresizlik yarattı ve saldırılara direnişimizin devamını daha da zorlaştırdı."
+ flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

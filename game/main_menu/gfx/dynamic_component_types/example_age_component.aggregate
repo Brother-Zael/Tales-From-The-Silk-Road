@@ -1,0 +1,7 @@
+﻿example_age_component = {
+	aggregate_members = {
+		age = {
+			type_name = Float
+		}
+	}
+}

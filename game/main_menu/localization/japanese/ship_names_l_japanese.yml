@@ -1,0 +1,290 @@
+﻿l_japanese:
+ ship_name_acheron: "アケロン"
+ ship_name_achille: "アキレ"
+ ship_name_achilles: "アキレス"
+ ship_name_aconit: "アコニット"
+ ship_name_adamant: "アダマント"
+ ship_name_admirable: "アドミラブル"
+ ship_name_advice: "アドバイス"
+ ship_name_africain: "アフリカン"
+ ship_name_africaine: "アフリケーヌ"
+ ship_name_aigle: "エーグル"
+ ship_name_alexandre: "アレクサンドル"
+ ship_name_amarante: "アマランテ"
+ ship_name_amazone: "アマゾン"
+ ship_name_ambitieux: "アンビティユ"
+ ship_name_amphitrite: "アンフィトリテ"
+ ship_name_andromaque: "アンドロマケ"
+ ship_name_annibal: "アンニバル"
+ ship_name_antelope: "アンテロープ"
+ ship_name_apollon: "アポロン"
+ ship_name_aquilon: "アキロン"
+ ship_name_arabe: "アラベ"
+ ship_name_arethuse: "アレトゥーズ"
+ ship_name_argonaute: "アルゴノート"
+ ship_name_ariane: "アリアン"
+ ship_name_armide: "アルミード"
+ ship_name_arrogant: "アロガント"
+ ship_name_arromanches: "アロマンシュ"
+ ship_name_artemis: "アルテミス"
+ ship_name_artemise: "アルテミゼ"
+ ship_name_assistance: "アシスタンス"
+ ship_name_association: "アソシエーション"
+ ship_name_assurance: "アシュアランス"
+ ship_name_astree: "アストレー"
+ ship_name_astrolabe: "アストロラーベ"
+ ship_name_atalante: "アタランテ"
+ ship_name_atlas: "アトラス"
+ ship_name_audacieux: "オーダスィユ"
+ ship_name_audacious: "オーデイシャス"
+ ship_name_august: "オーガスト"
+ ship_name_auguste: "オーギュスト"
+ ship_name_bison: "バイソン"
+ ship_name_borda: "ボルダ"
+ ship_name_boudeuse: "ブードゥーズ"
+ ship_name_bouvet: "ブーヴェ"
+ ship_name_bull: "ブル"
+ ship_name_capricieuse: "カプリシュース"
+ ship_name_captain: "キャプテン"
+ ship_name_casabianca: "カサビアンカ"
+ ship_name_cassard: "カサール"
+ ship_name_cassiopee: "カシオペ"
+ ship_name_centurion: "センチュリオン"
+ ship_name_chacal: "シャカル"
+ ship_name_colossus: "コロッサス"
+ ship_name_conqueror: "コンカラー"
+ ship_name_content: "コンテント"
+ ship_name_coronation: "コロネーション"
+ ship_name_crown: "クラウン"
+ ship_name_dauntless: "ドーントレス"
+ ship_name_defiance: "ディファイアンス"
+ ship_name_dragon: "ドラゴン"
+ ship_name_dreadnought: "ドレッドノート"
+ ship_name_duchess: "ダッチェス"
+ ship_name_duke: "デューク"
+ ship_name_duperre: "デュペレ"
+ ship_name_dupleix: "デュプレ"
+ ship_name_duquesne: "デュケーヌ"
+ ship_name_durance: "デュランス"
+ ship_name_eagle: "イーグル"
+ ship_name_eglantine: "エグランティーヌ"
+ ship_name_elan: "エラン"
+ ship_name_elephant: "エレファント"
+ ship_name_epee: "エペ"
+ ship_name_espadon: "エスパドン"
+ ship_name_esterel: "エステレル"
+ ship_name_etoile: "エトワール"
+ ship_name_excellent: "エクセレント"
+ ship_name_expedition: "エクスペディション"
+ ship_name_experiment: "エクスペリメント"
+ ship_name_fame: "フェイム"
+ ship_name_firm: "ファーム"
+ ship_name_forbin: "フォルバン"
+ ship_name_fortitude: "フォーティチュード"
+ ship_name_foudre: "フードル"
+ ship_name_fougueuse: "フーグーズ"
+ ship_name_gapeau: "ガポー"
+ ship_name_garonne: "ガロンヌ"
+ ship_name_gazelle: "ガゼル"
+ ship_name_glaive: "グレイブ"
+ ship_name_glorieuse: "グロリューズ"
+ ship_name_glory: "グローリー"
+ ship_name_goliath: "ゴリアテ"
+ ship_name_gracieuse: "グラシューズ"
+ ship_name_guepard: "ゲパール"
+ ship_name_hache: "アッシュ"
+ ship_name_hallebarde: "アルバード"
+ ship_name_hannibal: "ハンニバル"
+ ship_name_hero: "ヒーロー"
+ ship_name_hope: "ホープ"
+ ship_name_horse: "ホース"
+ ship_name_illustrious: "イラストリアス"
+ ship_name_impregnable: "インプレグナブル"
+ ship_name_indefatigable: "インディファティガブル"
+ ship_name_indomptable: "アンドンタブル"
+ ship_name_inflexible: "インフレキシブル"
+ ship_name_interceptor: "インターセプター"
+ ship_name_intrepid: "イントレピッド"
+ ship_name_invincible: "インヴィンシブル"
+ ship_name_irresistible: "イレジスティブル"
+ ship_name_isis: "イシス"
+ ship_name_jupiter: "ジュピター"
+ ship_name_kingfisher: "キングフィッシャー"
+ ship_name_laperouse: "ラペルーズ"
+ ship_name_leopard: "レオパード"
+ ship_name_leopard_fr: "レオパール"
+ ship_name_leviathan: "レヴィアタン"
+ ship_name_lion: "ライオン"
+ ship_name_luberon: "リュベロン"
+ ship_name_lynx: "リンクス"
+ ship_name_lyre: "リラ"
+ ship_name_magnificent: "マグニフィセント"
+ ship_name_majestic: "マジェスティック"
+ ship_name_marigold: "マリーゴールド"
+ ship_name_marne: "マルヌ"
+ ship_name_mars: "マーズ"
+ ship_name_massue: "マスュー"
+ ship_name_medusa: "メデューサ"
+ ship_name_meduse: "メデュース"
+ ship_name_mercure: "メルキュール"
+ ship_name_meuse: "ムーズ"
+ ship_name_minotaur: "ミノタウロス"
+ ship_name_mistral: "ミストラル"
+ ship_name_moderate: "モデレート"
+ ship_name_monarch: "モナーク"
+ ship_name_monge: "モンジュ"
+ ship_name_montcalm: "モンカルム"
+ ship_name_moon: "ムーン"
+ ship_name_moqueuse: "モクーズ"
+ ship_name_mutin: "ミュタン"
+ ship_name_neptune: "ネプチューン"
+ ship_name_nonsuch: "ノンサッチ"
+ ship_name_normand: "ノルマン"
+ ship_name_oak: "オーク"
+ ship_name_ocean: "オーシャン"
+ ship_name_orage: "オラージュ"
+ ship_name_orion: "オリオン"
+ ship_name_ouragan: "ウラガン"
+ ship_name_panther: "パンサー"
+ ship_name_panthere: "パンテール"
+ ship_name_pegase: "ペガース"
+ ship_name_perseverante: "ペルセヴェランテ"
+ ship_name_phoenix: "フェニックス"
+ ship_name_pluton: "プルトン"
+ ship_name_poseidon: "ポセイドン"
+ ship_name_powerful: "パワフル"
+ ship_name_president: "プレジデント"
+ ship_name_primauguet: "プリモゲ"
+ ship_name_princess: "プリンセス"
+ ship_name_prize: "プライズ"
+ ship_name_prudent: "プルーデント"
+ ship_name_queen: "クイーン"
+ ship_name_railleuse: "ライユース"
+ ship_name_rapiere: "ラピエール"
+ ship_name_reddition: "レディション"
+ ship_name_redoutable: "リダウタブル"
+ ship_name_renown: "レナウン"
+ ship_name_repulse: "リパルス"
+ ship_name_reserve: "リザーブ"
+ ship_name_resolution: "レゾリューション"
+ ship_name_restoration: "レストレーション"
+ ship_name_revenge: "リベンジ"
+ ship_name_rieuse: "リューズ"
+ ship_name_royal: "ロイヤル"
+ ship_name_ruby: "ルビー"
+ ship_name_sabre: "セーブル"
+ ship_name_saturn: "サターン"
+ ship_name_sceptre: "セプター"
+ ship_name_serieuse: "セリューズ"
+ ship_name_sirocco: "シロッコ"
+ ship_name_sovereign: "ソヴリン"
+ ship_name_standard: "スタンダード"
+ ship_name_stately: "ステートリー"
+ ship_name_styx: "スティクス"
+ ship_name_superb: "スーパーブ"
+ ship_name_surcouf: "シュルクーフ"
+ ship_name_surprise: "サプライズ"
+ ship_name_swallow: "スワロー"
+ ship_name_swan: "スワン"
+ ship_name_swiftsure: "スイフトシュア"
+ ship_name_tapageuse: "タパジュース"
+ ship_name_temeraire: "テメレール"
+ ship_name_tenace: "テナース"
+ ship_name_terrible: "テリブル"
+ ship_name_terrible_fr: "テリブル"
+ ship_name_thunderer: "サンダラー"
+ ship_name_tiger: "タイガー"
+ ship_name_tigre: "ティグレ"
+ ship_name_tonnant: "トナン"
+ ship_name_trememndous: "トレメンダス"
+ ship_name_trident: "トライデント"
+ ship_name_triomphant: "トリオンファン"
+ ship_name_triton: "トリトン"
+ ship_name_triumph: "トライアンフ"
+ ship_name_trusty: "トラスティ"
+ ship_name_unicorn: "ユニコーン"
+ ship_name_union: "ユニオン"
+ ship_name_unity: "ユニティ"
+ ship_name_valiant: "ヴァリアント"
+ ship_name_vanguard: "ヴァンガード"
+ ship_name_var: "ヴァール"
+ ship_name_vauquelin: "ヴォクラン"
+ ship_name_venerable: "ヴェネラブル"
+ ship_name_veteran: "ベテラン"
+ ship_name_victor: "ヴィクター"
+ ship_name_victorious: "ヴィクトリアス"
+ ship_name_victory: "ヴィクトリー"
+ ship_name_vigilant: "ヴィジラント"
+ ship_name_vulcain: "ヴァルカン"
+ ship_name_warrior: "ウォーリアー"
+ ship_name_warspite: "ウォースパイト"
+ ship_name_zealous: "ゼラス"
+ ship_name_anfarwol: "アンファルウォル" #Immortal
+ ship_name_ardderchog: "アルゼルコグ" #Excellent
+ ship_name_brwd: "ブルード" #Fierce
+ ship_name_brwdfrydig: "ブルードフリディグ" #Enthusiastic
+ ship_name_cadarn: "カダルン" #Strong
+ ship_name_cain: "カイン" #Fair
+ ship_name_cawr: "カウル" #Giant
+ ship_name_cerddgar: "ケルッガル" #Melodious
+ ship_name_clyd: "クリッド" #Cozy
+ ship_name_cyfareddol: "キュファレドル" #Exhilarating
+ ship_name_cymreig: "キュムレイグ" #Welsh
+ ship_name_cywir: "キュイア" #Correct
+ ship_name_cywirdeb: "キュイアデブ" #Integrity
+ ship_name_dewr: "デウル" #Brave
+ ship_name_direidus: "ディレイドゥス" #Agile
+ ship_name_dirgel: "ディルゲル" #Mysterious
+ ship_name_dirgelwch: "ディルゲルウフ" #Mystery
+ ship_name_eglurhaol: "エグルラオル" #Transparent
+ ship_name_eithriadol: "エイスリアドル" #Exceptional
+ ship_name_euraid: "エウレイド" #Golden
+ ship_name_fflamgoch: "フラムゴフ" #Red flame
+ ship_name_galwadwy: "ガルワドウィ" #Reliable
+ ship_name_garw: "ガルウ" #Rough
+ ship_name_gloyw: "グロイウ" #Bright
+ ship_name_gorfoledd: "ゴルフォレッド" #Joyful
+ ship_name_gorlif: "ゴルリフ" #Majestic
+ ship_name_gwawr: "グワウル" #Dawn
+ ship_name_gwyntog: "グウィントグ" #Windy
+ ship_name_haerllug: "ハエルルグ" #Majestic
+ ship_name_heddwen: "ヘッドウェン" #White peace
+ ship_name_heddychlon: "ヘディクロン" #Peaceful
+ ship_name_helyg: "ヘリグ" #Willow
+ ship_name_hirfelyn: "ヒルフェリン" #Long fang
+ ship_name_hirionedd: "ヒリオネッド" #Truth
+ ship_name_hudolus: "ヒュドラス" #Enchanting
+ ship_name_hynod: "ヒノド" #Extraordinary
+ ship_name_iaithlawn: "イアスローン" #Linguistic
+ ship_name_iraidd: "イレイド" #Furious
+ ship_name_jawdropping: "スィフダノル" #Jaw-dropping
+ ship_name_lleddf: "レッデフ" #Smooth
+ ship_name_llongyfarch: "ロンギファルク" #Congratulations
+ ship_name_lluddias: "ルッディアド" #Stealthy
+ ship_name_llwyd: "ルイド" #Grey
+ ship_name_llyfn: "ルィフン" #Smooth
+ ship_name_llygadwyllt: "ルィガドウィルト" #Wild-eyed
+ ship_name_llygaid-wen: "ルィガイド・ウェン" #White-eyed
+ ship_name_lysieuol: "ルィシオル" #Herbaceous
+ ship_name_mawreddog: "マウレドグ" #Majestic
+ ship_name_medrus: "メドルス" #Skilled
+ ship_name_melyngoch: "メリンゴク" #Yellow-red
+ ship_name_mewnfwyafn: "メウネフワイアン" #Deepest
+ ship_name_morol: "モロル" #Ocean
+ ship_name_nawddgar: "ナウドガル" #Protective
+ ship_name_noddfa: "ノドファ" #Sanctuary
+ ship_name_oerfel: "オーフェル" #Frosty
+ ship_name_olau: "オラウ" #Light
+ ship_name_parhadol: "パルハドル" #Enduring
+ ship_name_poblogaidd: "ポブログエイド" #Popular
+ ship_name_rhamantus: "ラマンタス" #Romantic
+ ship_name_sefyllfa: "セフイルファ" #Position
+ ship_name_seren: "セレン" #Star
+ ship_name_talgarth: "タルガース" #High-fortress
+ ship_name_taranau: "タラナウ" #Thunderous
+ ship_name_tosturiol: "トストゥリオル" #Disruptive
+ ship_name_uchelgeisiol: "ウチェルゲイショル" #Ambitious
+ ship_name_unben: "ウンベン" #Leader
+ ship_name_wawddeg: "ワウルデグ" #Boisterous
+ ship_name_ymylchgrawn: "イムルクロウン" #Periphery
+ ship_name_ynfydgar: "インフィドガル" #Magnificent

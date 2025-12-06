@@ -1,0 +1,4 @@
+﻿l_braz_por:
+ kritarchy_events.1.title: "Conclave Jurídico Concluído"
+ kritarchy_events.1.desc: "A suprema corte concluiu o debate sobre qual juiz/juíza deveria ser eleito(a) como o(a) novo(a) [ROOT.GetCountry.GetGovernment.GetRulerTitle]. O Conselho de Ministros está animado para celebrar [successor_character.GetName] como a nova liderança do país [ROOT.GetCountry.GetName]."
+ kritarchy_events.1.a: "Que governe com sabedoria."
