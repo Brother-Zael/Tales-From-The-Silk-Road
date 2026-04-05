@@ -1,8 +1,8 @@
 ﻿{
 	"name":	"Tales From the Silk Road",
 	"id":	"silkroad.mymod",
-	"version":	"1.0.9",
-	"supported_game_version":	"1.0.9",
+	"version":	"1.1.10",
+	"supported_game_version":	"1.1.10",
 	"short_description":	"In the far east the Yellow Turbans have ravaged Ancient China for centuries, destroying a stable silk road. In the centuries since, the ramifications have rippled through",
 	"tags":	["Alternative history", "Balance", "Characters", "Culture & Art", "Diplomacy", "Events", "Fixes", "Flags", "Gameplay", "Government and Estates", "International Organizations", "Military", "Missions", "Religion"],
 	"relationships":	[],
